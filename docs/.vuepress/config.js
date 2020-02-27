@@ -2,8 +2,8 @@ module.exports = {
   locales: {
     '/en-us/': {
       lang: 'en-US',
-      title: null,
-      description: 'RAKwireless Document Center'
+      title: 'RAKwireless Document Center',
+      description: 'RAKwireless Knowledge Hub'
     },
     // '/zh-cn/': {
     //   lang: 'zh-CN',
