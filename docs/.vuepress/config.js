@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/rakwireless-docs/',
+  base: 'rakwireless-docs/',
   locales: {
     '/en-us/': {
       lang: 'en-US',
@@ -55,7 +55,7 @@ module.exports = {
   },
   plugins: {
     'sitemap': {
-      hostname: 'https://doc.rakwireless.com/'
+      hostname: 'https://rakwirelessdev.github.io/rakwireless-docs/'
     },
     'redirect': {
       locales: true,
