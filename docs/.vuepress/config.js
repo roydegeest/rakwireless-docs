@@ -1,5 +1,5 @@
 module.exports = {
-  base: 'rakwireless-docs/',
+  base: '/rakwireless-docs',
   locales: {
     '/en-us/': {
       lang: 'en-US',
