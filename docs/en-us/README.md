@@ -1,11 +1,21 @@
 ---
-home: true
-heroText: RAKwireless Document Center
-tagline: Your gateway to our product's online documentation and guides.
-actionText: Get Started →
-actionLink: /guide/
-footer: © 2014-2020 Shenzhen RAKwireless Technology Co., Ltd. | All rights reserved. | 粤ICP备16112976号
+prev: false
+next: /en-us/quick-start/
 ---
+# RAKwireless® Document Center
+We strive hard to provide you the best available support for our products. Hence, we have published the necessary information for you to get started easily.
 
+## Get Started
+There are two main ways to get started with our products:
 
+1. [Quick Start](quick-start): General overview and the step-by-step instructions on how to set things up for any use case.
+2. [Data Sheet](data-sheet/): Comprehensive set of documents that summarize the background and other characteristics of our products.
 
+### Go further
+Cook Kid from the Farm
+
+## Support
+forum or contact us
+
+## Contribute
+Contribute in GitHub

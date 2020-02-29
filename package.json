@@ -5,5 +5,9 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-plugin-redirect": "^1.2.3",
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }
