@@ -12,7 +12,7 @@ module.exports = {
     // }
   },
   themeConfig: {
-    logo: '/rakwireless/rak-blue-dark.svg',
+    logo: '/assets/rakwireless/rak-blue-dark.svg',
     sidebar: 'auto',
     repo: 'RAKwirelessDev/rakwireless-docs',
     docsDir: 'docs',
