@@ -13,3 +13,12 @@ deploy:
   keep_history: true
   on:
     branch: master
+notifications:
+  webhooks:
+    urls:
+      - $DEPLOY_TRIGGER_URL
+    on_success: always
+    on_failure: never
+    on_start:   never
+    on_cancel:  never
+    on_error:   never

@@ -54,7 +54,7 @@ module.exports = {
   },
   plugins: {
     'sitemap': {
-      hostname: 'https://rakwirelessdev.github.io/rakwireless-docs/'
+      hostname: 'https://docs.rakwireless.com/'
     },
     'redirect': {
       locales: true,
