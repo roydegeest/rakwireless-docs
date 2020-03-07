@@ -12,7 +12,7 @@ There are two main ways to get started with our products:
 2. [Data Sheet](data-sheet/): Comprehensive set of documents that summarize the background and other characteristics of our products.
 
 ### Go further
-TEST PAGE IN CHINESE
+TEST PAGE IN CHINESE UPDATED USING WEBHOOK
 
 ## Support
 forum or contact us
