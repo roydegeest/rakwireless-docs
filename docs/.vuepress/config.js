@@ -61,6 +61,19 @@ module.exports = {
     },
     'redirect': {
       locales: true,
+    },
+    'robots': {
+      host: "https://docs.rakwireless.com/",
+      sitemap: "/sitemap.xml",
+      policies: [
+        {
+            userAgent: '*',
+            disallow: [
+                '/'
+            ],
+            allow: []
+        }
+    ]
     }
   }
 }
