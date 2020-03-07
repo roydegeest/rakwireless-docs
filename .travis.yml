@@ -11,6 +11,6 @@ deploy:
   local_dir: docs/.vuepress/dist
   target_branch: docs-deploy
   github_token: $GITHUB_TOKEN
-  keep_history: true
+  keep_history: false
   on:
     branch: master
