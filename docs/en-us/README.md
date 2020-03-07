@@ -2,7 +2,7 @@
 prev: false
 next: /en-us/quick-start/
 ---
-# RAKwireless® Document Center
+# Introduction
 We strive hard to provide you the best available support for our products. Hence, we have published the necessary information for you to get started easily.
 
 ## Get Started
