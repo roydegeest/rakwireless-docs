@@ -16,7 +16,7 @@ deploy:
 notifications:
   webhooks:
     urls:
-      - $DEPLOY_TRIGGER_URL
+      - https://forge.laravel.com/servers/339376/sites/978571/deploy/http?token=$DEPLOY_TOKEN
     on_success: always
     on_failure: never
     on_start:   never
