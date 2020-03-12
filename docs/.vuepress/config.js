@@ -15,37 +15,8 @@ module.exports = {
     ['link', { rel: 'icon', href: `/favicon.ico` }]
   ],
   themeConfig: {
-    lastUpdated: 'Last Updated',
     logo: '/assets/rakwireless/rak-blue-dark.svg',
-    sidebar: {
-      '/en-us/quick-start/rak7246/':[
-        {
-          title: 'Product Overview',   // required
-          path: '',      // optional, which should be a absolute path.
-          collapsable: false, // optional, defaults to true
-          sidebarDepth: 1,    // optional, defaults to 1
-          children: [
-            '',
-            'overview'
-          ]
-        },
-        {
-          title: 'Product Configuration',   // required
-          path: '',      // optional, which should be a absolute path.
-          collapsable: false, // optional, defaults to true
-          sidebarDepth: 1,    // optional, defaults to 1
-          children: [
-            'device-firmware',
-            'accessing-your-gateway',
-            'accessing-the-internet'
-          ]
-        },
-      ],
-      '/en-us/quick-start/rak7249/' :[
-        '',
-        'overview'
-      ]
-    },
+    sidebar: 'auto',
     repo: 'RAKwirelessDev/rakwireless-docs',
     docsDir: 'docs',
     docsBranch: 'master',
@@ -57,6 +28,35 @@ module.exports = {
         label: 'English',
         editLinkText: 'Edit this page in GitHub',
         lastUpdated: 'Last Updated',
+        sidebar: {
+          '/en-us/quick-start/rak7246/':[
+            {
+              title: 'Product Overview',   // required
+              path: '',      // optional, which should be a absolute path.
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1,    // optional, defaults to 1
+              children: [
+                '',
+                'overview'
+              ]
+            },
+            {
+              title: 'Product Configuration',   // required
+              path: '',      // optional, which should be a absolute path.
+              collapsable: false, // optional, defaults to true
+              sidebarDepth: 1,    // optional, defaults to 1
+              children: [
+                'device-firmware',
+                'accessing-your-gateway',
+                'accessing-the-internet'
+              ]
+            },
+          ],
+          '/en-us/quick-start/rak7249/' :[
+            '',
+            'overview'
+          ]
+        },
         nav: [
           { text: 'Home', link: '/en-us/' },
           { text: 'Quick Start', link: '/en-us/quick-start/' },
@@ -84,7 +84,7 @@ module.exports = {
       }
     }
   },
-  plugins: [{
+  plugins: {
     'sitemap': {
       hostname: 'https://docs.rakwireless.com/'
     },
@@ -103,7 +103,13 @@ module.exports = {
             allow: []
         }
     ]
-    }
-  }, '@vuepress/medium-zoom','@vuepress/back-to-top'],
-  
+    },
+    '@vuepress/medium-zoom': {
+      selector: 'img.zoom-custom-imgs',
+      options: {
+        margin: 16
+      }
+    },
+    '@vuepress/back-to-top': {}
+  }
 }
