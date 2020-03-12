@@ -15,8 +15,37 @@ module.exports = {
     ['link', { rel: 'icon', href: `/favicon.ico` }]
   ],
   themeConfig: {
+    lastUpdated: 'Last Updated',
     logo: '/assets/rakwireless/rak-blue-dark.svg',
-    sidebar: 'auto',
+    sidebar: {
+      '/en-us/quick-start/rak7246/':[
+        {
+          title: 'Product Overview',   // required
+          path: '',      // optional, which should be a absolute path.
+          collapsable: false, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1
+          children: [
+            '',
+            'overview'
+          ]
+        },
+        {
+          title: 'Product Configuration',   // required
+          path: '',      // optional, which should be a absolute path.
+          collapsable: false, // optional, defaults to true
+          sidebarDepth: 1,    // optional, defaults to 1
+          children: [
+            'device-firmware',
+            'accessing-your-gateway',
+            'accessing-the-internet'
+          ]
+        },
+      ],
+      '/en-us/quick-start/rak7249/' :[
+        '',
+        'overview'
+      ]
+    },
     repo: 'RAKwirelessDev/rakwireless-docs',
     docsDir: 'docs',
     docsBranch: 'master',
@@ -31,7 +60,7 @@ module.exports = {
         nav: [
           { text: 'Home', link: '/en-us/' },
           { text: 'Quick Start', link: '/en-us/quick-start/' },
-          { text: 'Data Sheet', link: '/en-us/data-sheet/' },
+          { text: 'Datasheet', link: '/en-us/data-sheet/' },
           { text: 'RUI', link: '/zh-cn/rui/' },
           { text: 'Downloads', link: 'https://downloads.rakwireless.com/' },
           { text: 'Store', link: 'https://store.rakwireless.com/' },
@@ -55,7 +84,7 @@ module.exports = {
       }
     }
   },
-  plugins: {
+  plugins: [{
     'sitemap': {
       hostname: 'https://docs.rakwireless.com/'
     },
@@ -75,5 +104,6 @@ module.exports = {
         }
     ]
     }
-  }
+  }, '@vuepress/medium-zoom','@vuepress/back-to-top'],
+  
 }
