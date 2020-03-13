@@ -1,7 +1,7 @@
 
 # RAK7246G LoRaWAN® Developer Gateway
 
-<Cimg src='rak7246/rak7246.jpg' width='100%' figure_number = "1" caption="RAK7246G LoRaWAN® Developer Gateway"/>
+<Cimg src="/assets/images/quick-start-guide/rak7246/rak7246_overview.jpg" width="100%" figure_number = "1" caption="RAK7246G LoRaWAN® Developer Gateway"/>
 
 ## Product Background
 The RAK7246G is a LoRaWAN® Developer Gateway with GPS function. It is a device composed of a the RAK2246 Pi HAT LoRaWAN® Concentrator module and Raspberry Pi Zero W.

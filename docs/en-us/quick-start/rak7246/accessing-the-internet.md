@@ -11,7 +11,7 @@ sudo gateway-config
 
 You will now then see a page like the following picture below
 
-<Cimg src='rak7246/config-options.png' width='100%' figure_number = "1" caption="Configuration Options for the Gateway"/>
+<Cimg src="/assets/images/quick-start-guide/rak7246/config-options.png" width="100%" figure_number = "1" caption="Configuration Options for the Gateway"/>
 
 1. **Set pi password** - used to set/change the password of the LoRaWAN® Gateway.
 2. **Set up RAK Gateway LoRa® Concentrator** - used to configure the frequency, which the LoRaWAN® Gateway will operate on, and the LoRaWAN® Server which the LoRaWAN® Gateway will work with.

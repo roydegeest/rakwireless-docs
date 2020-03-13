@@ -17,7 +17,7 @@ Your SD Card should be automatically detected by the Etcher software in the Labe
 image below. If not, kindly ensure proper connection.
 :::
 
-<Cimg src='rak7246/balena.png' width='100%' figure_number = "1" caption="Balena Etcher Software"/>
+<Cimg src="/assets/images/quick-start-guide/rak7246/balena.png" width="100%" figure_number = "1" caption="Balena Etcher Software"/>
 
 Click **"Flash!"** and wait until the process completes automatically.
 
