@@ -9,6 +9,9 @@ Check out our docs at https://docs.rakwireless.com/.
 # install globally
 yarn global add vuepress # OR npm install -g vuepress
 
+# upgrade dependencies
+yarn upgrade
+
 # start writing
 vuepress dev docs
 
