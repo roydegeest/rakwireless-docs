@@ -5,7 +5,7 @@ title: Accessing the Internet
 
 # Accessing the Internet
 Assuming you have successfully logged into your LoRaWAN® Gateway using SSH, enter the following command in the command line:
-```
+``` bash
 sudo gateway-config
 ```
 
@@ -22,9 +22,9 @@ You will now then see a page like the following picture below
 ## Connect through Wi-Fi
 If you want to connect through Wi-Fi, it can easily be done with the Wireless capabilities of the Raspberry Pi Zero W by choosing "**5 Configure WIFI**". By default, the RAK7246G LoRaWAN® Developer Gateway works in Wi-Fi AP Mode. In order for the Gateway to connect to the router, it must work in Wi-Fi Client Mode.
 
+<Cimg src="/assets/images/quick-start-guide/rak7246/config-wifi.png" width="100%" figure_number = "2" caption="Configuration options for WIFI"/>
 
-
-There are 4 options to choose from in the Wi-Fi configuration menu:
+There are 5 options to choose from in the Wi-Fi configuration menu:
 
 1. **Enable AP Mode/Disable Client Mode** - the LoRaWAN® Gateway will work in Wi-Fi Access Point Mode after rebooting while the Wi-Fi Client Mode will be disabled (this is the default mode).
 2. **Enable Client Mode/Disable AP Mode** - the LoRaWAN® Gateway will work in Wi-Fi Client mode after rebooting, while Wi-FI AP Mode will be disabled.
@@ -32,4 +32,50 @@ There are 4 options to choose from in the Wi-Fi configuration menu:
 4. **Add New SSID for Client** - this is used if you want to connect to a new Wi-Fi Network. Only works in Wi-Fi Client mode.
 5. **Change Wi-Fi Country** - this is used to modify the Resident Country to match with Wi-Fi standards.
 
-## Test
+::: tip Note:
+:pencil: In order to enable Wi-Fi Client Mode, you have to disable first the Wi-Fi AP Mode
+:::
+
+Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable AP Mode**", you can now then connect to a new Wi-Fi Network by choosing "**4 Add New SSID for Client**":
+
+<Cimg src="/assets/images/quick-start-guide/rak7246/add_ssid.png" width="100%" figure_number = "3" caption="Add a New SSID"/>
+
+* Start by selecting your country of residence:
+
+<Cimg src="/assets/images/quick-start-guide/rak7246/country_residence.png" width="100%" figure_number = "4" caption="Selecting Country of Residence"/>
+
+* Enter the SSID of the network you want to connect:
+
+::: warning
+:warning: Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK7246G again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow [this](#optional-configurations) procedure listed in the Accessing the Internet document which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
+:::
+
+
+<Cimg src="/assets/images/quick-start-guide/rak7246/ssid_new.png" width="100%" figure_number = "5" caption="SSID of the Network you want to connect to."/>
+
+* Enter also the password. Just leave it empty if None.
+
+<Cimg src="/assets/images/quick-start-guide/rak7246/password.png" width="100%" figure_number = "6" caption="Password of the Wi-Fi"/>
+
+* Lastly, reboot the LoRaWAN® Gateway using the command `sudo reboot` in the command line and it will connect to the router successfully.
+
+``` sh
+sudo reboot 
+```
+## Optional Configurations
+These configurations under this section are only optional and situational.
+
+### Reverting Back to Wi-Fi AP Mode
+In the event that you have entered either or both incorrect Wi-Fi SSID and Password in the Wi-Fi Client Mode setup for the RAK7246G LoRaWAN® Developer Gateway to connect to the router, follow these set of steps for you to work again in Wi-Fi AP Mode and redo the setup.
+
+* Remove the SD Card from your RAK7246G LoRaWAN® Developer Gateway and insert it into your PC. Your PC should be able to detect it same with the image below:
+
+<Cimg src="/assets/images/quick-start-guide/rak7246/rak_ap.png" width="50%" figure_number = "7" caption="Creating rak_ap file to your SD Card"/>
+
+* Using your "Command Prompt" or "Terminal", navigate to your SD Card and type this command to generate the "rak_ap" file.
+
+``` 
+cd > rak_ap
+```
+
+* Check if the rak_ap file is created successfully. If so, re-insert the SD Card into your RAK7246G LoRaWAN® Developer Gateway and it should work again in Wi-Fi AP Mode.

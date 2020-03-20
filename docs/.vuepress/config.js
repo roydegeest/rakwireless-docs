@@ -12,7 +12,10 @@ module.exports = {
     }
   },
   head: [
-    ['link', { rel: 'icon', href: `/favicon.ico` }]
+    ['link', {
+      rel: 'icon',
+      href: `/favicon.ico`
+    }]
   ],
   themeConfig: {
     logo: '/assets/rakwireless/rak-blue-dark.svg',
@@ -51,17 +54,23 @@ module.exports = {
     'robots': {
       host: "https://docs.rakwireless.com/",
       sitemap: "/sitemap.xml",
-      policies: [
-        {
-            userAgent: '*',
-            disallow: [
-                '/'
-            ],
-            allow: []
-        }
-    ]
+      policies: [{
+        userAgent: '*',
+        disallow: [
+          '/'
+        ],
+        allow: []
+      }]
     },
     '@vuepress/medium-zoom': {},
-    '@vuepress/back-to-top': {}
+    '@vuepress/back-to-top': {},
+    '@vuepress-plugin-code-copy': {
+      selector: String,
+      align: String,
+      color: String,
+      backgroundTransition: Boolean,
+      backgroundColor: String,
+      successText: String
+    },
   }
 }

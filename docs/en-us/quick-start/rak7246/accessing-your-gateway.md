@@ -6,7 +6,7 @@ title: Accessing Your Gateway
 After burning the image into the SD Card, make sure you have inserted the SD Card with the Latest Firmware installed to the **RAK7246G - LoRaWAN® Developer Gateway** and the LoRa® and GPS Antenna attached to it. After which, you can now safely power on the gateway.
 
 :::warning 
-Before powering the RAK7246G - LoRaWAN® Developer Gateway, you must install the LoRa® and GPS antennas. Not doing so might damage the boards.
+:warning: Before powering the RAK7246G - LoRaWAN® Developer Gateway, you must install the LoRa® and GPS antennas. Not doing so might damage the boards.
 :::
 
 ## Wi-Fi AP Mode
@@ -15,11 +15,10 @@ By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that yo
 <Cimg src="/assets/images/quick-start-guide/rak7246/access_point.jpg" width="100%" figure_number = "1" caption="RAKwireless Access Point"/>
 
 ::: tip Note: 
-“XXXX” is the last 2 bytes of your RAK7246’s WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the LoRaWAN® Gateway provided below as this will be needed in connecting via SSH.
+:pencil: “XXXX” is the last 2 bytes of your RAK7246’s WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the LoRaWAN® Gateway provided below as this will be needed in connecting via SSH.
 
-**Wi-Fi Password:** rakwireless
-
-**Default IP Address:** `192.168.230.1`
+* **Wi-Fi Password:** rakwireless
+* **Default IP Address:** `192.168.230.1`
 :::
 
 ## Log into the Gateway 
@@ -36,7 +35,7 @@ SSH (Secure Shell) is typically used to log in to a remote machine and execute c
 ### 2. Mac OS
 Open the Terminal of Mac OS. Launch the **Terminal** application, which is found in "/Applications/Utilities/" directory but you can also launch it from Spotlight by hitting Command + Spacebar and typing “Terminal” and then return:
 
-<Cimg src="/assets/images/quick-start-guide/rak7246/mac_terminal.jpg" width="100%" figure_number = "3" caption="Opening Terminal in Mac OS"/>
+<Cimg src="/assets/images/quick-start-guide/rak7246/mac_terminal.jpg" width="100%" figure_number = "4" caption="Opening Terminal in Mac OS"/>
 
 Open the terminal of Mac OS. Enter root mode by typing the following command: "`sudo -i`"
 
