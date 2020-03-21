@@ -45,11 +45,14 @@ module.exports = {
             title: 'Product Configuration',   // required
             path: '',      // optional, which should be a absolute path.
             collapsable: false, // optional, defaults to true
-            sidebarDepth: 1,    // optional, defaults to 1
+            sidebarDepth: 2,    // optional, defaults to 1
             children: [
                 'device-firmware',
                 'accessing-your-gateway',
-                'accessing-the-internet'
+                'accessing-the-internet',
+                'configuring-the-gateway',
+                'connecting-to-the-ttn',
+                'connecting-with-chirpstack'
             ]
         }
     ],

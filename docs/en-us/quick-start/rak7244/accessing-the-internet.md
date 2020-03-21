@@ -5,7 +5,7 @@ title: Accessing the Internet
 
 # Accessing the Internet
 Assuming you have successfully logged into your LoRaWAN® Gateway using SSH. Enter the following command in the command line:
-```
+```sh
 sudo gateway-config
 ```
 
@@ -34,7 +34,7 @@ There are 5 options to choose from in the Wi-Fi configuration menu:
 5. **Change Wi-Fi Country** - this is used to modify the Resident Country to match with Wi-Fi standards.
 
 :::warning
-In order to enable Wi-Fi Client Mode, you have to disable first the AP Mode.
+:warning: In order to enable Wi-Fi Client Mode, you have to disable first the AP Mode.
 :::
 
 Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable AP Mode**", you can now then connect to a new Wi-Fi Network by choosing "**4 Add New SSID for Client**":
@@ -48,7 +48,7 @@ Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable
 * Enter the SSID of the network you want to connect:
 
 :::warning
-Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK7244 again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow this procedure listed in the [Reverting to Wi-Fi AP Mode](#reverting-to-wi-fi-ap-mode) section which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
+:warning: Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK7244 again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow this procedure listed in the [Reverting to Wi-Fi AP Mode](#reverting-to-wi-fi-ap-mode) section which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
 :::
 
 <Cimg src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/set-wifi.png" width="100%" figure_number = "5" caption="SSID of the Network you want to connect to."/>
@@ -72,6 +72,9 @@ If you want to connect to router through Ethernet Cable, do the following steps:
 
 * Press OK then the success message will appear.
 * Lastly, reboot the LoRaWAN® Gateway using the command "`sudo reboot`" in the command line and it will connect to the router successfully through Ethernet.
+```sh
+sudo reboot
+```
 
 ## Optional Configurations
 These configurations under this section are only optional and situational.
