@@ -1,22 +1,21 @@
 <template>
-  asdas
-  <div class="row">
-    <div clas="col">
+  <div class="w3-row">
+    <div class="w3-half">
       <div><strong>Learn More</strong></div>
       <ul>
         <li
-          v-for="(link, id) in links.learnMore"
+          v-for="(link, id) in params.learnMore"
           :key="id"
         >
           <a :href="link.href">{{ link.name }}</a>
         </li>
       </ul>
     </div>
-    <div class="col">
+    <div class="w3-half">
       <div><strong>Resources</strong></div>
       <ul>
         <li
-          v-for="(link, id) in links.resources"
+          v-for="(link, id) in params.resources"
           :key="id"
         >
           <a :href="link.href">{{ link.name }}</a>
@@ -28,7 +27,6 @@
 
 <script>
 export default {
-  name: 'QuickLinks',
-  props: ['links']
+  props: ['params']
 }
 </script>
