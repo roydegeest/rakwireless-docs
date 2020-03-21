@@ -1,33 +1,21 @@
 ---
 params:
-  {
-    qlinks1:
-      {
-        learnMore:
-          [
-            {
-              name: "Projects Using the RAK7246G",
-              href: "https://www.hackster.io/search?i=projects&q=rak7246g",
-            },
-            { name: "Community", href: "https://forum.rakwireless.com" },
-            { name: "Support", href: "mailto:fomi@rakwireless.com" },
-          ],
-        resources:
-          [
-            {
-              name: "RAK7246G LoRaWAN® Developer Gateway Datasheet",
-              href: "https://doc.rakwireless.com/datasheet/rakproducts/rak7246g-lorawan-developer-gateway-datasheet",
-            },
-          ],
-      },
-    img1:
-      {
-        src: /assets/images/quick-start-guide/rak7246/rak7246.jpg,
-        width: "100%",
-        figureNumber: "1",
-        caption: 'RAK7246G LoRaWAN® Developer Gateway"',
-      },
-  }
+  img1:
+    src: /assets/images/quick-start-guide/rak7246/rak7246.jpg
+    width: 100%
+    figureNumber: 1
+    caption: RAK7246G LoRaWAN® Developer Gateway
+  qlinks1:
+    learnMore:
+      - name: Projects Using the RAK7246G
+        href: https://www.hackster.io/search?i=projects&q=rak7246g
+      - name: Community
+        href: https://forum.rakwireless.com
+      - name: Support
+        href: mailto:fomi@rakwireless.com
+    resources:
+      - name: RAK7246G LoRaWAN® Developer Gateway Datasheet
+        href: https://doc.rakwireless.com/datasheet/rakproducts/rak7246g-lorawan-developer-gateway-datasheet
 ---
 
 # RAK7246G LoRaWAN® Developer Gateway
