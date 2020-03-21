@@ -6,7 +6,7 @@ title: Quick Start Guide
 
 <!-- ![RAK7244](./images/rak7244-1.jpg) -->
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/2.quickstart/rak7244_overview2.jpg" width="50%" figure_number = "1" caption="RAK7244 Product Overview"/>
+<Cimg src="/assets/images/quick-start-guide/rak7244/2.quickstart/rak7244_overview2.jpg" width="100%" figure_number = "1" caption="RAK7244 Product Overview"/>
 
 ## What do you need?
 1. RAK7244 LoRaWAN® Developer Gateway
