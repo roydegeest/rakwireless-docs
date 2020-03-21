@@ -8,10 +8,19 @@
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "watch:dev": "nodemon"
   },
   "dependencies": {
+    "nodemon": "^2.0.2",
     "vuepress-plugin-redirect": "^1.2.3",
     "vuepress-plugin-sitemap": "^2.3.1"
+  },
+  "nodemonConfig": {
+    "exec": "npm run docs:dev",
+    "watch": [
+      "docs/*"
+    ],
+    "ignore": []
   }
 }
