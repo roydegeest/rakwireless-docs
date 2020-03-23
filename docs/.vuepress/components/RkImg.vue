@@ -1,16 +1,25 @@
 <template>
   <figure align="center">
     <img
-      :src="params.src"
-      :width="params.width"
+      :src="opt.src"
+      :width="opt.width"
       alt=""
     />
-    <figcaption><small><b>Figure {{params.figureNumber}}:</b> {{ params.caption }}</small></figcaption>
+    <figcaption><small><b>Figure {{opt.figureNumber}}:</b> {{ opt.caption }}</small></figcaption>
   </figure>
 </template>
 
 <script>
 export default {
-  props: ['params']
+  props: ['params', 'src', 'width', 'figureNumber', 'caption'],
+  computed: {
+    opt () {
+      const { params, src, width, figureNumber, caption } = this
+      if (params) return params
+      else {
+        return { src, width, figureNumber, caption }
+      }
+    }
+  }
 }
 </script>
