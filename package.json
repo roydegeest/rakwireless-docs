@@ -20,15 +20,14 @@
     "exec": "yarn run docs:dev",
     "restartable": "rs",
     "ignore": [
-      "**.md",
       ".git",
       "node_modules/**/node_modules"
     ],
     "verbose": true,
     "watch": [
-      "docs/.vuepress/*",
-      "docs/en-us/*",
-      "docs/zh-cn/*"
+      "docs/.vuepress/**",
+      "docs/en-us/**",
+      "docs/zh-cn/**"
     ]
   }
 }
