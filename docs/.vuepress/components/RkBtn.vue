@@ -2,14 +2,21 @@
   <div class="wrapper">
     <a
       id="buybutton"
-      :href="params.src"
-    >{{ params.label }}</a>
+      :href="opt.src"
+    >{{ opt.label }}</a>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['params']
+  props: ['params', 'src', 'label'],
+  computed: {
+    opt () {
+      const { params, src, label } = this
+      if (params) return params
+      else return { src, label }
+    }
+  }
 }
 </script>
 

@@ -1,9 +1,6 @@
 ---
 title: Quick Start Guide
 params:
-  btn1:
-    src: https://store.rakwireless.com/products/rak7246-lorawan-developer-gateway
-    label: Buy a RAK7246G - LoRaWAN® Developer Gateway
   img1:
     src: /assets/images/quick-start-guide/rak7246/rak7246_overview.jpg
     width: 50%
@@ -24,7 +21,12 @@ params:
 3. 5V at least 2.5A Micro USB Power Supply (not included)
 4. A Windows/Mac OS/Linux Computer
 
-<rk-btn :params="$page.frontmatter.params.btn1" />
+<!-- <rk-btn :params="$page.frontmatter.params.btn1" /> -->
+
+<rk-btn
+  src="https://store.rakwireless.com/products/rak7246-lorawan-developer-gateway"
+  label="Buy a RAK7246G - LoRaWAN® Developer Gateway"
+/>
 
 ## What's included in the Package?
 
