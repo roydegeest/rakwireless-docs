@@ -1,9 +1,8 @@
 ---
-type: page
-title: Connect the LoRaWAN® Gateway with ChirpStack
-listed: true
-slug: connect-the-lora-gateway-with-chirpstack
----published
+static_root: /assets/images/quick-start-guide/rak7243c/2.product-configuration/5.connect-chirpstack
+---
+
+# Connect the LoRaWAN® Gateway with ChirpStack
 
 The ChirpStack or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [**here**](https://www.chirpstack.io/)
 
@@ -13,20 +12,16 @@ For the RAK7243C LoRaWAN® Developer Gateway, there are 2 ways to use the ChirpS
 
 There is a built-in ChirpStack in every RAK Developer gateway if you use the latest firmware.
 
-- When you use it for the first time after burning the latest firmware, the LoRaWAN® Gateway will work in the EU868 Band and use the built-in ChirpStack as its default LoRa®  Server. If you don't want to change the frequency or LoRa® Server, you don't have to do anything as this will be configured automatically when the LoRaWAN® Gateway boots.
-- However if it is not the first time and you want to use the built-in ChirpStack as the LoRa® Server, follow the steps discussed in [auto$](/rak7243c-lorawan-developer-gateway/configuring-the-gateway) section.
+- When you use it for the first time after burning the latest firmware, the LoRaWAN® Gateway will work in the EU868 Band and use the built-in ChirpStack as its default LoRa® Server. If you don't want to change the frequency or LoRa® Server, you don't have to do anything as this will be configured automatically when the LoRaWAN® Gateway boots.
+- However if it is not the first time and you want to use the built-in ChirpStack as the LoRa® Server, follow the steps discussed in [auto\$](/rak7243c-lorawan-developer-gateway/configuring-the-gateway) section.
 - **Optional:** If ever you disabled the AP Mode and you have connected it to your own Wifi network (Client Mode). You can search for your gateway’s IP Address via [**Advanced IP Scanner**](https://www.advanced-ip-scanner.com/). Copy the IP Address of your Gateway, it should have a Manufacturer name of **Raspberry Pi Foundation**:
 
-$plugin[{
-    "type": "image",
-    "data": {
-        "url": "https:\/\/res.cloudinary.com\/developerhub\/image\/upload\/v1576943872\/13868\/mtfxbfnu0pxildkxayzt.png",
-        "mode": "responsive",
-        "width": 925,
-        "height": 610,
-        "caption": "**Figure 1**: IP address of your RAK7243C using IP Scanner"
-    }
-}]$
+<rk-img
+  :src="`${$frontmatter.static_root}/01.mtfxbfnu0pxildkxayzt.png`"
+  width="100%"
+  figure-number="1"
+  caption="IP address of your RAK7243C using IP Scanner"
+/>
 
 There is a Web-based UI that comes with the ChirpStack instance. Simply open a browser and enter the following credentials:
 
@@ -34,51 +29,34 @@ There is a Web-based UI that comes with the ChirpStack instance. Simply open a b
 - **Username**: admin
 - **Password**: amind
 
-$plugin[{
-    "type": "callout",
-    "data": {
-        "text": "It is advisable to change your password to tighten the security of your account. You can change this by clicking the \"change password\" button at the user icon.",
-        "type": "warning",
-        "title": "Warning"
-    }
-}]$
+::: warning
+It is advisable to change your password to tighten the security of your account. You can change this by clicking the \"change password\" button at the user icon.
+:::
 
-$plugin[{
-    "type": "image",
-    "data": {
-        "url": "https:\/\/res.cloudinary.com\/developerhub\/image\/upload\/v1576944033\/13868\/twyskhnlh3qztmnjqbal.png",
-        "mode": "responsive",
-        "width": 1379,
-        "height": 718,
-        "caption": "**Figure 2:** ChirpStack Web-based UI"
-    }
-}]$
+<rk-img
+  :src="`${$frontmatter.static_root}/02.twyskhnlh3qztmnjqbal.png`"
+  width="100%"
+  figure-number="2"
+  caption="ChirpStack Web-based UI"
+/>
 
 - Everything should be pre-configured: Device profiles have been created, the Gateway has been registered with the server, etc. If you go to the Gateways tab and click on rak_gateway, you should see the Gateway details page.
 
-$plugin[{
-    "type": "image",
-    "data": {
-        "url": "https:\/\/res.cloudinary.com\/developerhub\/image\/upload\/v1576728856\/13868\/nm1rcooh5749oeyknm7t.jpg",
-        "mode": "full",
-        "width": 1386,
-        "height": 690,
-        "caption": "**Figure 3**: Available Gateways in Chirpstack"
-    }
-}]$
+<rk-img
+  :src="`${$frontmatter.static_root}/03.nm1rcooh5749oeyknm7t.jpg`"
+  width="100%"
+  figure-number="3"
+  caption="Available Gateways in Chirpstack"
+/>
 
 - Go to the rak_gateway and see the "Last seen" status. It must be a few seconds ago which signifies that the Gateway is visible in the ChirpStack server.
 
-$plugin[{
-    "type": "image",
-    "data": {
-        "url": "https:\/\/res.cloudinary.com\/developerhub\/image\/upload\/v1576947509\/13868\/qzfweifwadyreztjellx.jpg",
-        "mode": "responsive",
-        "width": 1317,
-        "height": 755,
-        "caption": "**Figure 4:** Last Seen Status"
-    }
-}]$
+<rk-img
+  :src="`${$frontmatter.static_root}/04.qzfweifwadyreztjellx.jpg`"
+  width="100%"
+  figure-number="4"
+  caption="Last Seen Status"
+/>
 
 ### 2. Using an Independent ChirpStack
 
@@ -89,91 +67,61 @@ There are 2 ways that you can get an independent ChirpStack:
 
 This is a lot more complicated having to deploy a remote ChirpStack by yourself but Chirpstack provided a detailed guide on how to do it **[here](https://www.chirpstack.io/guides/debian-ubuntu/)[:](https://www.chirpstack.io/gateway-bridge/overview/)**
 
-$plugin[{
-    "type": "image",
-    "data": {
-        "url": "https:\/\/res.cloudinary.com\/developerhub\/image\/upload\/v1576948724\/13868\/vn6fioh16k6zjdplr0it.png",
-        "mode": "responsive",
-        "width": 1380,
-        "height": 681,
-        "caption": "**Figure 5:** Chirpstack Getting Started Guide on Ubuntu"
-    }
-}]$
+<rk-img
+  :src="`${$frontmatter.static_root}/05.vn6fioh16k6zjdplr0it.png`"
+  width="100%"
+  figure-number="5"
+  caption="Chirpstack Getting Started Guide on Ubuntu"
+/>
 
-$plugin[{
-    "type": "callout",
-    "data": {
-        "text": "Remember to run the \"`sudo gateway-config`\" command in the CLI and point the Gateway to the IP address of the machine you just installed Chirpstack on. This can be done in item 2 in the menu \"**Setup RAK Gateway LoRa\u00ae concentrator**\"!",
-        "type": "warning",
-        "title": "Warning"
-    }
-}]$
+::: warning
+Remember to run the \"`sudo gateway-config`\" command in the CLI and point the Gateway to the IP address of the machine you just installed Chirpstack on. This can be done in item 2 in the menu \"**Setup RAK Gateway LoRa\u00ae concentrator**\"!
+:::
 
 - Assuming you have set it up correctly, Login to your ChirpStack to register your LoRaWAN® Gateway by opening the ChirpStack's web page in a browser by entering "IP Address of ChirpStack:8080".
 
-$plugin[{
-    "type": "image",
-    "data": {
-        "url": "https:\/\/res.cloudinary.com\/developerhub\/image\/upload\/v1576944618\/13868\/rmibul5ouzluictf9zpq.png",
-        "mode": "responsive",
-        "width": 1380,
-        "height": 681,
-        "caption": "**Figure 6:** ChirpStack Login Page"
-    }
-}]$
+<rk-img
+  :src="`${$frontmatter.static_root}/06.rmibul5ouzluictf9zpq.png`"
+  width="100%"
+  figure-number="6"
+  caption="ChirpStack Login Page"
+/>
 
 - The default username is "**admin**" and the password is also "**admin**"
 
-$plugin[{
-    "type": "image",
-    "data": {
-        "url": "https:\/\/res.cloudinary.com\/developerhub\/image\/upload\/v1576944634\/13868\/pxxn6cq9hox9mtjzqxep.png",
-        "mode": "responsive",
-        "width": 1380,
-        "height": 681,
-        "caption": "**Figure 7:** ChirpStack Home Page"
-    }
-}]$
+<rk-img
+  :src="`${$frontmatter.static_root}/07.pxxn6cq9hox9mtjzqxep.png`"
+  width="100%"
+  figure-number="7"
+  caption="ChirpStack Home Page"
+/>
 
 - Click "Gateways" and Press "**+ CREATE**" to register your Gateway
 
-$plugin[{
-    "type": "image",
-    "data": {
-        "url": "https:\/\/res.cloudinary.com\/developerhub\/image\/upload\/v1576944656\/13868\/tqyaaom3kzxbgj51eapl.png",
-        "mode": "responsive",
-        "width": 1380,
-        "height": 681,
-        "caption": "**Figure 8:** ChirpStack Registered Gateways"
-    }
-}]$
+<rk-img
+  :src="`${$frontmatter.static_root}/08.tqyaaom3kzxbgj51eapl.png`"
+  width="100%"
+  figure-number="8"
+  caption="ChirpStack Registered Gateways"
+/>
 
 - Click "Create" to register your LoRaWAN® Gateway and fill up the necessary information.
 
-$plugin[{
-    "type": "image",
-    "data": {
-        "url": "https:\/\/res.cloudinary.com\/developerhub\/image\/upload\/v1576944670\/13868\/ku6wofqafkogdpndggwu.png",
-        "mode": "responsive",
-        "width": 1380,
-        "height": 681,
-        "caption": "**Figure 9:** Registering your own Gateway"
-    }
-}]$
+<rk-img
+  :src="`${$frontmatter.static_root}/09.ku6wofqafkogdpndggwu.png`"
+  width="100%"
+  figure-number="9"
+  caption="Registering your own Gateway"
+/>
 
-- Fill in the Gateway ID that we got from the last section ([auto$](/rak7243c-lorawan-developer-gateway/configuring-the-gateway)), also called Gateway EUI.
-- If you have properly configured your LoRaWAN®  Gateway and there is a network connection between the external ChirpStack and your LoRaWAN® Gateway, you should see the following page and status:
+- Fill in the Gateway ID that we got from the last section ([auto\$](/rak7243c-lorawan-developer-gateway/configuring-the-gateway)), also called Gateway EUI.
+- If you have properly configured your LoRaWAN® Gateway and there is a network connection between the external ChirpStack and your LoRaWAN® Gateway, you should see the following page and status:
 
-$plugin[{
-    "type": "image",
-    "data": {
-        "url": "https:\/\/res.cloudinary.com\/developerhub\/image\/upload\/v1576944682\/13868\/p9wtubhkjdsatrhkwvfu.png",
-        "mode": "responsive",
-        "width": 1380,
-        "height": 681,
-        "caption": "**Figure 10:** Successfully Registered the Gateway"
-    }
-}]$
+<rk-img
+  :src="`${$frontmatter.static_root}/10.p9wtubhkjdsatrhkwvfu.png`"
+  width="100%"
+  figure-number="10"
+  caption="Successfully Registered the Gateway"
+/>
 
 - Congratulations! You have connected your LoRaWAN® Gateway to an external ChirpStack Successfully!
-

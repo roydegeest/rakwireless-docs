@@ -103,7 +103,6 @@ module.exports = {
                 'accessing-your-gateway',
                 'accessing-the-internet',
                 'configuring-the-gateway',
-                'connecting-to-an-lte-network',
                 'connecting-to-the-things-network-ttn',
                 'connect-the-lora-gateway-with-chirpstack'
             ]
