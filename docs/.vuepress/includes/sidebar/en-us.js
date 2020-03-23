@@ -1,5 +1,5 @@
 module.exports = {
-    '/en-us/quick-start/rak7246/':[
+    '/en-us/quick-start/rak7246g/':[
         {
             title: 'Product Overview',   // required
             path: '',      // optional, which should be a absolute path.
