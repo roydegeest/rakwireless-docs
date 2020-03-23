@@ -4,35 +4,35 @@ title: Connecting to The Things Network (TTN)
 params:
 
   img1:
-    src: /assets/images/quick-start-guide/rak7244/7.connecting to ttn/ttn_home_page.jpg
+    src: /assets/images/quick-start-guide/rak7243/7.connecting to ttn/ttn_home_page.jpg
     width: 100%
     figureNumber: 1
     caption: The Things Network Home Page
   img2:
-    src: /assets/images/quick-start-guide/rak7244/7.connecting to ttn/ttn_console.png
+    src: /assets/images/quick-start-guide/rak7243/7.connecting to ttn/ttn_console.png
     width: 100%
     figureNumber: 2
     caption: The Things Network Console Page
   img3:
-    src: /assets/images/quick-start-guide/rak7244/7.connecting to ttn/adding_gateway.png
+    src: /assets/images/quick-start-guide/rak7243/7.connecting to ttn/adding_gateway.png
     width: 100%
     figureNumber: 3
     caption: Adding a Gateway to TTN
   img4:
-    src: /assets/images/quick-start-guide/rak7244/7.connecting to ttn/register_gateway.png
+    src: /assets/images/quick-start-guide/rak7243/7.connecting to ttn/register_gateway.png
     width: 100%
     figureNumber: 4
     caption: Registering your Gateway
   img5:
-    src: /assets/images/quick-start-guide/rak7244/7.connecting to ttn/gateway_id.png
+    src: /assets/images/quick-start-guide/rak7243/7.connecting to ttn/gateway_id.png
     width: 100%
     figureNumber: 5
-    caption: RAK7244 - LoRaWAN® Developer Gateway Gateway ID in SSH
+    caption: RAK7243 - LoRaWAN® Developer Gateway Gateway ID in SSH
   img6:
-    src: /assets/images/quick-start-guide/rak7244/7.connecting to ttn/connection_success.png
+    src: /assets/images/quick-start-guide/rak7243/7.connecting to ttn/connection_success.png
     width: 100%
     figureNumber: 6
-    caption: RAK7244 - LoRaWAN® Developer Gateway TTN Connection Success
+    caption: RAK7243 - LoRaWAN® Developer Gateway TTN Connection Success
 ---
 
 # Connecting to the Things Network (TTN)

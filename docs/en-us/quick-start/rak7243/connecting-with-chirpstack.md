@@ -4,47 +4,47 @@ title: Connect the LoRaWAN® Gateway with Chirpstack
 params:
 
   img1:
-    src: /assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/advanced-ip-scanner.png
+    src: /assets/images/quick-start-guide/rak7243/8.connecting to chirpstack/advanced-ip-scanner.png
     width: 100%
     figureNumber: 1
-    caption: IP address of your RAK7244 using IP Scanner
+    caption: IP address of your RAK7243 using IP Scanner
   img2:
-    src: /assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/chirpstack-ui.png
+    src: /assets/images/quick-start-guide/rak7243/8.connecting to chirpstack/chirpstack-ui.png
     width: 100%
     figureNumber: 2
     caption: ChirpStack Web-based UI
   img3:
-    src: /assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/gateways-in-chirpstack.jpg
+    src: /assets/images/quick-start-guide/rak7243/8.connecting to chirpstack/gateways-in-chirpstack.jpg
     width: 100%
     figureNumber: 3
     caption: Available Gateways in Chirpstack
   img4:
-    src: /assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/chirpstack-last-seen.jpg
+    src: /assets/images/quick-start-guide/rak7243/8.connecting to chirpstack/chirpstack-last-seen.jpg
     width: 100%
     figureNumber: 4
     caption: Last Seen Status
   img5:
-    src: /assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/chirpstack-guide-ubuntu.png
+    src: /assets/images/quick-start-guide/rak7243/8.connecting to chirpstack/chirpstack-guide-ubuntu.png
     width: 100%
     figureNumber: 5
     caption: Chirpstack Getting Started Guide on Ubuntu
   img6:
-    src: /assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/chirpstack-login.png
+    src: /assets/images/quick-start-guide/rak7243/8.connecting to chirpstack/chirpstack-login.png
     width: 100%
     figureNumber: 6
     caption: ChirpStack Login Page
   img7:
-    src: /assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/chirpstack-reg-gateway.png
+    src: /assets/images/quick-start-guide/rak7243/8.connecting to chirpstack/chirpstack-reg-gateway.png
     width: 100%
     figureNumber: 7
     caption: ChirpStack Registered Gateways
   img8:
-    src: /assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/reg-own-gateway.png
+    src: /assets/images/quick-start-guide/rak7243/8.connecting to chirpstack/reg-own-gateway.png
     width: 100%
     figureNumber: 8
     caption: Registering your own Gateway
   img9:
-    src: /assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/chirsptack-successful-register.png
+    src: /assets/images/quick-start-guide/rak7243/8.connecting to chirpstack/chirsptack-successful-register.png
     width: 100%
     figureNumber: 9
     caption: Successfully Registered the Gateway
@@ -53,7 +53,7 @@ params:
 
 The ChirpStack or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [here](https://www.chirpstack.io/).
 
-For the RAK7244 LoRaWAN® Developer Gateway there are 2 ways to use the ChirpStack:
+For the RAK7243 LoRaWAN® Developer Gateway there are 2 ways to use the ChirpStack:
 
 ## 1. Using the built-in ChirpStack
 There is a built-in ChirpStack in every RAK Developer gateway if you use the latest firmware.

@@ -70,7 +70,7 @@ By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that yo
 :::
 
 ## Raspberry Pi 4 Ethernet Port
-You can also connect your PC with the LoRaWAN® Gateway through an Ethernet cable. By default, the IP address of the LoRaWAN® Gateway’s Ethernet interface is 192.168.10.10, so you need to set the IP address of your PC’s Ethernet to the same network segment, for example, 192.168.10.20.
+You can also connect your PC with the LoRaWAN® Gateway through an Ethernet cable. By default, the IP address of the LoRaWAN® Gateway’s Ethernet interface is `192.168.10.10`, so you need to set the IP address of your PC’s Ethernet to the same network segment, for example, `192.168.10.20`.
 
 * To do this in Windows, go to Control Panel -> Network and Internet -> Network and Sharing Center and Click **Ethernet**.
 
@@ -80,7 +80,7 @@ You can also connect your PC with the LoRaWAN® Gateway through an Ethernet cabl
 
 <rk-img :params="$page.frontmatter.params.img3" />
 
-* By default, it will obtain an IP Address automatically. Click the Option "Use the following IP Address" and enter the IP Address: 192.168.10.20 and press OK.
+* By default, it will obtain an IP Address automatically. Click the Option "Use the following IP Address" and enter the IP Address: `192.168.10.20` and press OK.
 
 <rk-img :params="$page.frontmatter.params.img4" />
 
@@ -94,12 +94,14 @@ SSH (Secure Shell) is typically used to log in to a remote machine and execute c
 
 * If you have connected to the LoRaWAN® Gateway through **Wi-Fi AP Mode**, the IP Address is `192.168.230.1`
 * If you have connected to the LoRaWAN® Gateway through **Ethernet**, the IP Address is `192.168.10.10`
-* It will then prompt you to enter the username and password. The default username is **"pi"** and the default password is **"raspberry"**
+* It will then prompt you to enter the username and password. The default username and password is provided below:
+  * **Username**: pi
+  * **Password**: raspberry
 
 <rk-img :params="$page.frontmatter.params.img6" />
 
 ### 2. Mac OS
-Open the Terminal of Mac OS. Launch the **Terminal** application, which is found in "/Applications/Utilities/" directory but you can also launch it from Spotlight by hitting **Command + Spacebar** and typing “Terminal” and then return:
+Open the Terminal of Mac OS. Launch the **Terminal** application, which is found in "/Applications/Utilities/" directory but you can also launch it from Spotlight by hitting **Command + Spacebar** and typing “**Terminal**” and then return:
 
 <rk-img :params="$page.frontmatter.params.img7" />
 

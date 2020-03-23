@@ -1,10 +1,35 @@
+---
+params:
+  img1:
+    src: /assets/images/quick-start-guide/rak7243/1.main/rak7243_overview.jpg
+    width: 75%
+    figureNumber: 1
+    caption: RAK7243 LoRaWAN® Developer Gateway
+  qlinks1:
+    learnMore:
+      - name: Projects Using the RAK7243 LoRaWAN® Developer Gateway
+        href: https://www.hackster.io/search?i=projects&q=rak7243
+      - name: Community
+        href: https://forum.rakwireless.com
+      - name: Support
+        href: mailto:fomi@rakwireless.com
+    resources:
+      - name: RAK7243 LoRaWAN® Developer Gateway Datasheet
+        href: https://doc.rakwireless.com/datasheet/rakproducts/rak7243c-pilot-gateway-datasheet
+      - name: FCC Certification Report
+        href: http://docs.rakwireless.com/en/LoRa/RAK2245/Certification-Report/RAK2245_FCC_Certificate.zip
+      - name: CE Certification Report 
+        href: http://docs.rakwireless.com/en/LoRa/RAK2245/Certification-Report/RAK2245_CE_Certificate.zip
+---
 
 # RAK7243 LoRaWAN® Developer Gateway
 
-<Cimg src="/assets/images/quick-start-guide/rak7243/1.main/rak7243_overview.jpg" width="75%" figure_number = "1" caption="RAK7243 LoRaWAN® Developer Gateway"/>
+<rk-img :params="$page.frontmatter.params.img1" />
 
 ## Product Background
-The **RAK7243 LoRaWAN® Developer Gateway** is a complete and cost efficient LoRaWAN® Gateway Solution that will help you get started in developing a full LoRa® System. The RAK7243 LoRaWAN® Developer Gateway is just a RAK2245 Pi Hat which can be easily stacked on top of a cheap Single Board Computer (SBC) such as the **Raspberry Pi 3B+ or Raspberry Pi 4** which is enclosed in a Pilot Gateway Casing. You can also use its sister model [RAK7243C LoRaWAN® Developer Gateway](https://store.rakwireless.com/products/rak7243c-pilot-gateway) if you want to have Cellular functions added into it.
+The **RAK7243 LoRaWAN® Developer Gateway** is a complete and cost efficient LoRaWAN® Gateway Solution that will help you get started in developing a full LoRa® System. The RAK7243 LoRaWAN® Developer Gateway is just a RAK2245 Pi Hat which can be easily stacked on top of a cheap Single Board Computer (SBC) such as the **Raspberry Pi 3B+ or Raspberry Pi 4** which is enclosed in a Pilot Gateway Casing. You can also use its sister model [RAK7243C LoRaWAN® Developer Gateway](https://store.rakwireless.com/products/rak7243c-pilot-gateway) if you want to have Cellular functions added into it. 
+
+<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
 ## Product Features
 * Compatible with **Raspberry Pi 3 Model B+ edition**
