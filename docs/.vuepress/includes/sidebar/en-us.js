@@ -27,8 +27,49 @@ module.exports = {
         },
     ],
     '/en-us/quick-start/rak7249/' :[
-        '',
-        'overview'
+        {
+            title: 'Product Overview',   // required
+            path: '',      // optional, which should be a absolute path.
+            collapsable: false, // optional, defaults to true
+            sidebarDepth: 2,    // optional, defaults to 1
+            children: [
+                '',
+                'overview'
+            ]
+        },
+        {
+            title: 'Product Configuration',   // required
+            path: '',      // optional, which should be a absolute path.
+            collapsable: false, // optional, defaults to true
+            sidebarDepth: 2,    // optional, defaults to 1
+            children: [
+                'web-management-platform',
+                'lora-concentrator-spectrum-eu868-settings-guide',
+                'lora-concentrator-spectrum-kr920-settings-guide'
+            ]
+        },
+        {
+            title: 'Configuration Case',   // required
+            path: '',      // optional, which should be a absolute path.
+            collapsable: false, // optional, defaults to true
+            sidebarDepth: 2,    // optional, defaults to 1
+            children: [
+                'rak7249-build-in-lora-network-server-rak811',
+                'rak7249-build-in-lora-server-multi-rak-gateway-mesh-rak811',
+                'aws-ec2-chirpstack-rak7249-gateway'
+            ]
+        },
+        {
+            title: 'Outdoor Deployment',   // required
+            path: '',      // optional, which should be a absolute path.
+            collapsable: false, // optional, defaults to true
+            sidebarDepth: 2,    // optional, defaults to 1
+            children: [
+                'gateway-installation-guide',
+                'solar-panel-and-battery-kit-installation',
+                'lightning-protection'
+            ]
+        },
     ],
     '/en-us/quick-start/rak7244/':[
         {
