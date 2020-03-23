@@ -1,5 +1,73 @@
 ---
 title: Configuring the Gateway
+
+params:
+
+  img1:
+    src: /assets/images/quick-start-guide/rak7244/6.configure the gateway/gateway_id.png
+    width: 100%
+    figureNumber: 1
+    caption: Config Options for the Gateway
+  img2:
+    src: /assets/images/quick-start-guide/rak7244/6.configure the gateway/gateway_id_cmd.png
+    width: 70%
+    figureNumber: 2
+    caption: Gateway ID using the command line
+  img3:
+    src: /assets/images/quick-start-guide/rak7244/6.configure the gateway/set_pi_pwd.png
+    width: 100%
+    figureNumber: 3
+    caption: Set Pi Password
+  img4:
+    src: /assets/images/quick-start-guide/rak7244/6.configure the gateway/confirm_pwd.png
+    width: 100%
+    figureNumber: 4
+    caption: Confirm Password Change
+  img5:
+    src: /assets/images/quick-start-guide/rak7244/6.configure the gateway/success_pwd_change.png
+    width: 100%
+    figureNumber: 5
+    caption: Successful Password Change
+  img6:
+    src: /assets/images/quick-start-guide/rak7244/6.configure the gateway/setup_rak_gateway.jpg
+    width: 100%
+    figureNumber: 6
+    caption: Choosing Setup RAK Gateway LoRa® concentrator
+  img7:
+    src: /assets/images/quick-start-guide/rak7244/6.configure the gateway/server_ttn.png
+    width: 100%
+    figureNumber: 7
+    caption: Server is TTN
+  img8:
+    src: /assets/images/quick-start-guide/rak7244/6.configure the gateway/ttn_channel_plan.jpg
+    width: 100%
+    figureNumber: 8
+    caption: Selecting the TTN Channel Plan
+  img9:
+    src: /assets/images/quick-start-guide/rak7244/6.configure the gateway/success_freq_change.png
+    width: 100%
+    figureNumber: 9
+    caption: Successfully Changed the Frequency
+  img10:
+    src: /assets/images/quick-start-guide/rak7244/6.configure the gateway/chirpstack.png
+    width: 100%
+    figureNumber: 10
+    caption: Server Is Chirpstack
+  img11:
+    src: /assets/images/quick-start-guide/rak7244/6.configure the gateway/chirpstack_channel.png
+    width: 100%
+    figureNumber: 11
+    caption: Regional Frequency Band Option
+  img12:
+    src: /assets/images/quick-start-guide/rak7244/6.configure the gateway/loraserver_ip.png
+    width: 100%
+    figureNumber: 12
+    caption: Default LoRaServer IP Address
+  img13:
+    src: /assets/images/quick-start-guide/rak7244/6.configure the gateway/adr_settings.png
+    width: 100%
+    figureNumber: 13
+    caption: Chirpstack ADR Enable/Disable
 ---
 # Configuring the Gateway
 
@@ -11,7 +79,7 @@ sudo gateway-config
 
 You will now then see a page like the following picture below
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/6.configure the gateway/gateway_id.png" width="100%" figure_number = "1" caption="Config Options for the Gateway"/>
+<rk-img :params="$page.frontmatter.params.img1" />
 
 1. **Set pi password** - used to set/change the password of the LoRaWAN® Gateway.
 2. **Set up RAK Gateway LoRa® Concentrator** - used to configure the frequency, which the LoRaWAN® Gateway will operate on, and the LoRaWAN® Server which the LoRaWAN® Gateway will work with.
@@ -29,47 +97,46 @@ There is also another way to get your "Gateway ID", just enter the command below
 ```sh
 sudo gateway-version
 ```
-
-<Cimg src="/assets/images/quick-start-guide/rak7244/6.configure the gateway/gateway_id_cmd.png" width="70%" figure_number = "2" caption="Gateway ID using the command line"/>
+<rk-img :params="$page.frontmatter.params.img2" />
 
 ## Setting a new password for the Gateway
 It is a good security practice to change the default password "**raspberry**" which is the same on all Raspberry Pi devices.
 
 1. First, choose "**1 Set pi password**" option referred on the image below.
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/6.configure the gateway/set_pi_pwd.png" width="100%" figure_number = "3" caption="Set Pi Password"/>
+<rk-img :params="$page.frontmatter.params.img3" />
 
 2. Next, press "**Yes**" and you will be asked to enter your new password twice then press "**Enter**".
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/6.configure the gateway/confirm_pwd.png" width="100%" figure_number = "4" caption="Confirm Password Change"/>
+<rk-img :params="$page.frontmatter.params.img4" />
 
 3. Alright, the success message for changing password will then pops up.
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/6.configure the gateway/success_pwd_change.png" width="100%" figure_number = "5" caption="Successful Password Change"/>
+<rk-img :params="$page.frontmatter.params.img5" />
 
 ## Setup RAK Gateway LoRa® Concentrator
 
 This menu allows you to select your LoRa® frequency band and one of the two available Networks Server options by choosing "**2 Setup RAK Gateway LoRa® concentrator**"
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/6.configure the gateway/setup_rak_gateway.jpg" width="100%" figure_number = "6" caption="Choosing Setup RAK Gateway LoRa® concentrator"/>
+<rk-img :params="$page.frontmatter.params.img6" />
 
 You can choose one of two supported LoRa® Servers here: **TTN** or **ChirpStack**.
 
 ### Server is TTN
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/6.configure the gateway/server_ttn.png" width="100%" figure_number = "7" caption="Server is TTN"/>
+<rk-img :params="$page.frontmatter.params.img7" />
 
 * **TTN (The Things Network)** - If you choose TTN as the LoRa® Server, you will see the following page. Visit this [article](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country.html) for more information on your local TTN frequency plan. This will allow you to choose the correct plan.
 
-
-<Cimg src="/assets/images/quick-start-guide/rak7244/6.configure the gateway/ttn_channel_plan.jpg" width="100%" figure_number = "8" caption="Selecting the TTN Channel Plan"/>
+<rk-img :params="$page.frontmatter.params.img8" />
 
 After choosing the correct frequency, the success message will appear as shown below.
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/6.configure the gateway/success_freq_change.png" width="100%" figure_number = "9" caption="Successfully Changed the Frequency"/>
+<rk-img :params="$page.frontmatter.params.img9" />
 
 ### Server is Chirpstack
-<Cimg src="/assets/images/quick-start-guide/rak7244/6.configure the gateway/chirpstack.png" width="100%" figure_number = "10" caption="Server Is Chirpstack"/>
+
+<rk-img :params="$page.frontmatter.params.img10" />
 
 **ChirpStack** - If you choose Chirpstack as your LoRa® Server, you will see the following page with two options available:
 
@@ -78,9 +145,9 @@ After choosing the correct frequency, the success message will appear as shown b
 
 First, select "**1 ChirpStack Channel-plan configuration**" for configuring your frequency channel. Then, set the IP address of the ChripStack.
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/6.configure the gateway/chirpstack_channel.png" width="100%" figure_number = "11" caption="Regional Frequency Band Option"/>
+<rk-img :params="$page.frontmatter.params.img11" />
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/6.configure the gateway/loraserver_ip.png" width="100%" figure_number = "12" caption="Default LoRaServer IP Address"/>
+<rk-img :params="$page.frontmatter.params.img12" />
 
 :::tip Note
 :pencil: The default IP Address is "`127.0.0.1`". If you want to use an external LoRaServer, you need to set it to its IP Address.
@@ -88,4 +155,4 @@ First, select "**1 ChirpStack Channel-plan configuration**" for configuring your
 
 * If you have instead selected "**Chirpstack ADR Configure**" you can enable/disable the Adaptive Data Rate (ADR) functionality:
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/6.configure the gateway/adr_settings.png" width="100%" figure_number = "13" caption="Chirpstack ADR Enable/Disable"/>
+<rk-img :params="$page.frontmatter.params.img13" />

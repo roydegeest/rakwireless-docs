@@ -1,3 +1,12 @@
+---
+params:
+  img1:
+    src: /assets/images/quick-start-guide/rak7244/3.device firmware setup/firmwareburn.png
+    width: 100%
+    figureNumber: 1
+    caption: Balena Etcher Software
+---
+
 # Device Firmware Setup
 An easy and quick way to have a fully functional gateway is by using a Precompiled Firmware Image provided. In this document, is the step by step instructions on how to install the Image into your SD Card used for the gateway.
 
@@ -17,7 +26,7 @@ skip this section.
 image below. If not, kindly ensure proper connection.
 :::
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/3.device firmware setup/firmwareburn.png" width="100%" figure_number = "1" caption="Balena Etcher Software"/>
+<rk-img :params="$page.frontmatter.params.img1" />
 
 Click **"Flash!"** and wait until the process completes automatically.
 

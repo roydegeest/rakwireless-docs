@@ -1,3 +1,19 @@
+---
+title: RAK2247 + x86 Linux PC
+
+params:
+  img1:
+    src: /assets/images/quick-start-guide/rak2247/3.rak2247+linuxpc/rak2247pcie.jpg
+    width: 75%
+    figureNumber: 1
+    caption: RAK2247 LoRaWAN® Gateway Concentrator Module to a PCIe-to-USB board
+  img2:
+    src: /assets/images/quick-start-guide/rak2247/3.rak2247+linuxpc/networkname.jpg
+    width: 75%
+    figureNumber: 2
+    caption: Network Interface Name
+---
+
 # RAK2247 + x86 Linux PC
 This document explains the basic steps on how to interface the RAK2247 LoRaWAN® Gateway Concentrator Module with a Linux Operating System in a computer.
 
@@ -8,10 +24,10 @@ The following devices are necessary for the interface:
 1. Insert the RAK2247 mPCIe board into the USB carrier board and plugged into a free USB port of your PC. Your Linux PC should recognized it as a USB device.
 
 :::tip Note
-:pencil:If you want to connect the RAK2247 mPCIe board to the Linux PC directly, make sure to have the PERST# signal (Pin 22) pulled down.
+:pencil:If you want to connect the **RAK2247 mPCIe board** to the **Linux PC** directly, make sure to have the PERST# signal (Pin 22) pulled down.
 :::
 
-<Cimg src="/assets/images/quick-start-guide/rak2247/3.rak2247+linuxpc/rak2247pcie.jpg" width="75%" figure_number = "1" caption="RAK2247 LoRaWAN® Gateway Concentrator Module to a PCIe-to-USB board"/>
+<rk-img :params="$page.frontmatter.params.img1" />
 
 2. Open the command line then enter the command below in order to clone the Github repository that is required for the process to be completed:
 
@@ -27,7 +43,7 @@ ifconfig
 
 An example in Figure 2 shows the name of the wireless interface “**wlx6045bdf0cf64**”.
 
-<Cimg src="/assets/images/quick-start-guide/rak2247/3.rak2247+linuxpc/networkname.jpg" width="75%" figure_number = "2" caption="Network Interface Name"/>
+<rk-img :params="$page.frontmatter.params.img2" />
 
 * Enter the RAK Folder through:
 
@@ -54,7 +70,7 @@ GATEWAY_EUI_NIC=”wlx6045bdf0cf64h0”
 
 Again, the values are just an example. Remember to do this for all 3 files in step 4.
 
-5. Add the following lines of code at the end of “**install.sh**” file: ( In addition to inserting the name of the interface from the previous step)
+5. **Add** the following lines of code at the end of “**install.sh**” file: ( In addition to inserting the name of the interface from the previous step)
 
 ```sh
 cp ../set_eui.sh packet_forwarder/lora_pkt_fwd/
@@ -73,7 +89,7 @@ cp ../ttn-gateway.service /lib/systemd/system/
 systemctl enable ttn-gateway.service
 ```
 
-6. Save “**install.sh**” file and execute it in order to install:
+6. Save “**install.sh**” file and execute it in order to install: 
 
 ```sh
 sudo ./install.sh

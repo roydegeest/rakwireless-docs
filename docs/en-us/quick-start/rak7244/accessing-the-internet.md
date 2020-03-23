@@ -1,7 +1,54 @@
 ---
 title: Accessing the Internet
----
 
+params:
+
+  img1:
+    src: /assets/images/quick-start-guide/rak7244/5.accessing the internet/config-options.png
+    width: 100%
+    figureNumber: 1
+    caption: Configuration Options for the Gateway
+  img2:
+    src: /assets/images/quick-start-guide/rak7244/5.accessing the internet/wifi-config.png
+    width: 100%
+    figureNumber: 2
+    caption: Configuration options for WIFI
+  img3:
+    src: /assets/images/quick-start-guide/rak7244/5.accessing the internet/wifi-ssid.png
+    width: 100%
+    figureNumber: 3
+    caption: Add a new SSID
+  img4:
+    src: /assets/images/quick-start-guide/rak7244/5.accessing the internet/region.png
+    width: 100%
+    figureNumber: 4
+    caption: Selecting Country of Residence
+  img5:
+    src: /assets/images/quick-start-guide/rak7244/5.accessing the internet/set-wifi.png
+    width: 100%
+    figureNumber: 5
+    caption: SSID of the Network you want to connect to
+  img6:
+    src: /assets/images/quick-start-guide/rak7244/5.accessing the internet/set-password.png
+    width: 100%
+    figureNumber: 6
+    caption: Password of the Wi-Fi
+  img7:
+    src: /assets/images/quick-start-guide/rak7244/5.accessing the internet/gateway-eth-ip.png
+    width: 100%
+    figureNumber: 7
+    caption: Default LoRaWAN® Gateway Ethernet IP Address
+  img8:
+    src: /assets/images/quick-start-guide/rak7244/5.accessing the internet/router-eth-ip.png
+    width: 100%
+    figureNumber: 8
+    caption: LAN Interface IP Address of the Router
+  img9:
+    src: /assets/images/quick-start-guide/rak7244/5.accessing the internet/rak-ap-file.png
+    width: 50%
+    figureNumber: 9
+    caption: Creating rak_ap file to your SD Card
+---
 
 # Accessing the Internet
 Assuming you have successfully logged into your LoRaWAN® Gateway using SSH. Enter the following command in the command line:
@@ -9,9 +56,9 @@ Assuming you have successfully logged into your LoRaWAN® Gateway using SSH. Ent
 sudo gateway-config
 ```
 
-You will now then see a page like the following picture below
+You will now then see a page like the following picture below:
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/config-options.png" width="100%" figure_number = "1" caption="Configuration Options for the Gateway"/>
+<rk-img :params="$page.frontmatter.params.img1" />
 
 1. **Set pi password** - used to set/change the password of the LoRaWAN® Gateway.
 2. **Set up RAK Gateway LoRa® Concentrator** - used to configure the frequency, which the LoRaWAN® Gateway will operate on, and the LoRaWAN® Server which the LoRaWAN® Gateway will work with.
@@ -23,7 +70,7 @@ You will now then see a page like the following picture below
 ## Connect through Wi-Fi
 If you want to connect through Wi-Fi, it can easily be done with the Wireless capabilities of the Raspberry Pi 4 by choosing "**5 Configure WIFI**". By default, the RAK7244 LoRaWAN® Developer Gateway works in Wi-Fi AP Mode. In order for the Gateway to connect to the router, it must work in Wi-Fi Client Mode.
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/wifi-config.png" width="100%" figure_number = "2" caption="Configuration options for WIFI"/>
+<rk-img :params="$page.frontmatter.params.img2" />
 
 There are 5 options to choose from in the Wi-Fi configuration menu:
 
@@ -39,11 +86,11 @@ There are 5 options to choose from in the Wi-Fi configuration menu:
 
 Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable AP Mode**", you can now then connect to a new Wi-Fi Network by choosing "**4 Add New SSID for Client**":
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/wifi-ssid.png" width="100%" figure_number = "3" caption="Add a new SSID"/>
+<rk-img :params="$page.frontmatter.params.img3" />
 
 * Start by selecting your country of residence:
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/region.png" width="100%" figure_number = "4" caption="Selecting Country of Residence"/>
+<rk-img :params="$page.frontmatter.params.img4" />
 
 * Enter the SSID of the network you want to connect:
 
@@ -51,11 +98,11 @@ Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable
 :warning: Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK7244 again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow this procedure listed in the [Reverting to Wi-Fi AP Mode](#reverting-to-wi-fi-ap-mode) section which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
 :::
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/set-wifi.png" width="100%" figure_number = "5" caption="SSID of the Network you want to connect to."/>
+<rk-img :params="$page.frontmatter.params.img5" />
 
 * Enter also the password. Just leave it empty if None.
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/set-password.png" width="100%" figure_number = "6" caption="Password of the Wi-Fi"/>
+<rk-img :params="$page.frontmatter.params.img6" />
 
 ## Connect through Ethernet
 If you want to connect to router through Ethernet Cable, do the following steps:
@@ -64,11 +111,11 @@ If you want to connect to router through Ethernet Cable, do the following steps:
 * Just fill a static IP Address according to the IP address of the router you want to connect. Please note that the LoRaWAN® gateway and the router must be in the same network segment, otherwise the connection will fail.
 * By default, the IP Address of the LoRaWAN® Gateway's Ethernet is `192.168.10.10`
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/gateway-eth-ip.png" width="100%" figure_number = "7" caption="Default LoRaWAN® Gateway Ethernet IP Address"/>
+<rk-img :params="$page.frontmatter.params.img7" />
 
 * Then configure the IP address of the Router. This is the LAN Interface IP address of the router.
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/router-eth-ip.png" width="100%" figure_number = "8" caption="LAN Interface IP Address of the Router"/>
+<rk-img :params="$page.frontmatter.params.img8" />
 
 * Press OK then the success message will appear.
 * Lastly, reboot the LoRaWAN® Gateway using the command "`sudo reboot`" in the command line and it will connect to the router successfully through Ethernet.
@@ -84,7 +131,7 @@ In the event that you have entered either or both icorrect Wi-Fi SSID and Passwo
 
 * Remove the SD Card from your RAK7244 LoRaWAN® Developer Gateway and insert it into your PC. Your PC should be able to detect it same with the image below:
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/rak-ap-file.png" width="50%" figure_number = "9" caption="Creating rak_ap file to your SD Card"/>
+<rk-img :params="$page.frontmatter.params.img9" />
 
 * Using your "**Command Prompt**" or "**Terminal**", navigate to your SD Card and type this command to generate the "**rak_ap**" file.
 
