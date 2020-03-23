@@ -1,10 +1,19 @@
+---
+params:
+  img1:
+    src: /assets/images/quick-start-guide/rak7244/3.device firmware setup/firmwareburn.png
+    width: 100%
+    figureNumber: 1
+    caption: Balena Etcher Software
+---
+
 # Device Firmware Setup
 An easy and quick way to have a fully functional gateway is by using a Precompiled Firmware Image provided. In this document, is the step by step instructions on how to install the Image into your SD Card used for the gateway.
 
 ## Burn the Latest Firmware
 
 ::: tip Note:
-If your RAK7244 - LoRaWAN® Developer Gateway has the latest firmware image in the SD card, you can
+:pencil: If your RAK7244 - LoRaWAN® Developer Gateway has the latest firmware image in the SD card, you can
 skip this section.
 :::
 1. Download the latest firmware [here](https://downloads.rakwireless.com/en/LoRa/Developer-LoRaWAN-Gateway-RAK7244%26RAK7244P/Firmware/), which is based on the Raspbian OS.
@@ -13,11 +22,11 @@ skip this section.
 4. Open the Etcher Software, and select the downloaded image file thru the (**Label - 1**) button in the image below.
 
 ::: tip Note:
-Your SD Card should be automatically detected by the Etcher software in the Label - 2 of the
+:pencil: Your SD Card should be automatically detected by the Etcher software in the Label - 2 of the
 image below. If not, kindly ensure proper connection.
 :::
 
-<Cimg src="/assets/images/quick-start-guide/rak7244/3.device firmware setup/firmwareburn.png" width="100%" figure_number = "1" caption="Balena Etcher Software"/>
+<rk-img :params="$page.frontmatter.params.img1" />
 
 Click **"Flash!"** and wait until the process completes automatically.
 
