@@ -6,7 +6,7 @@ static_root: /assets/images/quick-start-guide/rak7243c/1.product-overview/2.quic
 
 <rk-img
   :src="`${$frontmatter.static_root}/1.s9bghtz7l7a7ivpbkwce.jpg`"
-  width="100%"
+  width="80%"
   figure-number="1"
   caption="Raspberry Pi , RAK2013, and RAK2245 Pi Hat"
 />

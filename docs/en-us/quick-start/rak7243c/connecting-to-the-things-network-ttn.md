@@ -4,10 +4,10 @@ static_root: /assets/images/quick-start-guide/rak7243c/2.product-configuration/4
 
 # Connecting to The Things Network (TTN)
 
-The Things Network is about enabling low power devices to use long range [g](https://www.thethingsnetwork.org/docs/gateways/)ateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about the Things Network [here](https://www.thethingsnetwork.org/docs/).
+The Things Network is about enabling low power devices to use long range [gateways](https://www.thethingsnetwork.org/docs/gateways/) to connect to an open-source, decentralized network to exchange data with Application. Learn more about the Things Network [here](https://www.thethingsnetwork.org/docs/).
 
-- First, you should have connected your LoRaWAN® Gateway to the router in order to access the internet according to the method which has been introduced in the [auto\$](/rak7243c-lorawan-developer-gateway/accessing-the-internet) section of this document.
-- Second, config your LoRaWAN® Gateway and choose TTN as the LoRa® Server and choose a correct frequency according to the method which has been introduced in the [Configuring the Gateway](/quick-start/rak7243-lorawan-developer-gateway/configuring-the-gateway#server-is-ttn) section.
+- First, you should have connected your LoRaWAN® Gateway to the router in order to access the internet according to the method which has been introduced in the [Accessing the Internet](/en-us/quick-start/rak7243c/accessing-your-gateway/#accessing-the-internet) section of this document.
+- Second, config your LoRaWAN® Gateway and choose TTN as the LoRa® Server and choose a correct frequency according to the method which has been introduced in the [Configuring the Gateway](/en-us/quick-start/rak7243c/configuring-the-gateway.html#server-is-ttn) section.
 - Now go to the TTN Website: [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 <rk-img
@@ -53,4 +53,4 @@ Make sure to select the \"**I'm using the legacy packet forwarder**\" check box.
 - **Location** - Choose the location of the Gateway by entering its coordinates. This is reflected on the Gateway World Map!
 - **Antenna Placement** - refers to the location of your antenna whether indoor or outdoor.
 
-Click Register Gateway and wait for a couple of minutes . If the status of your gateway is **Connected**, Congratulations! Your LoRaWAN® Gateway is now connected to the The Things Network (TTN).
+Click Register Gateway and wait for a couple of minutes . If the status of your gateway is **Connected**, Congratulations! :tada: Your LoRaWAN® Gateway is now connected to the The Things Network (TTN).

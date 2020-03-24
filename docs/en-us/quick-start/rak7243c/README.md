@@ -27,14 +27,14 @@ params:
   caption="RAK7243C LoRaWAN® Developer Gateway"
 />
 
-## Product Backgrounds
+## Product Background
 
 The **RAK7243C LoRaWAN**® **Developer Gateway** is a complete and cost efficient LoRaWAN® Gateway Solution that will help you get started in developing a full LoRa System. It is built with the RAK2245 Pi Hat stacked with the Raspberry Pi 3B+ along with the GPS module and Heat Sink, increasing its performance and thermal dissipation, plus a RAK2013 Cellular Pi HAT for cellular connectivity. The housing for the device is durable and entirely built from aluminum.
 
 The RAK7243C LoRaWAN® Developer Gateway is ideal for prototyping, proof-of concept evaluation and demonstration. It includes everything you need to help you get started in building your own LoRaWAN® Network in just a couple of minutes. It provides great value and flexible functionality for a variety of applications: Smart Grids, Intelligent Farming and other IoT applications.
 
 <rk-btn
-  src="quick-start-guide"
+  src="quick-start-guide.html"
   label="Set up Your RAK7243C LoRaWAN® Developer Gateway"
 />
 
@@ -52,5 +52,5 @@ The RAK7243C LoRaWAN® Developer Gateway is ideal for prototyping, proof-of conc
 - Includes Pi ready 'ID EEPROM', GPIO setup and device tree can be automatically configured from vendor information.
 
 ::: warning
-The RAK7243C LoRaWAN® Developer Gateway is different from RAK7243 LoRaWAN® Developer Gateway . The RAK7243C LoRaWAN® Developer Gateway is the Cellular Version and it comes with the Cellular Pi Hat.
+:warning: The RAK7243C LoRaWAN® Developer Gateway is different from RAK7243 LoRaWAN® Developer Gateway . The RAK7243C LoRaWAN® Developer Gateway is the Cellular Version and it comes with the Cellular Pi Hat.
 :::
