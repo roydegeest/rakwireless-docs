@@ -1,10 +1,6 @@
----
-static_root: /assets/images/quick-start-guide/rak7243c/2.product-configuration/2.accessing-gateway/1.accessing-internet
----
+## Accessing the Internet
 
-# Accessing the Internet
-
-Assuming you have successfully logged into your LoRaWAN® Gateway using SSH. Enter the following command in the command line:
+Assumings you have successfully logged into your LoRaWAN® Gateway using SSH. Enter the following command in the command line:
 
 ```bash
 sudo gateway-config
@@ -13,7 +9,7 @@ sudo gateway-config
 You will now then see a page like the following picture below:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/01.pgz9vj3jtvdmollkanqc.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/01.pgz9vj3jtvdmollkanqc.png`"
   width="100%"
   figure-number="1"
   caption="Configuration Options for the Gateway"
@@ -33,7 +29,7 @@ You will now then see a page like the following picture below:
 If you want to connect through Wi-Fi, it can easily be done with the Wireless capabilities of the Raspberry Pi 3B+ by choosing "**5 Configure Wifi**". By default, the RAK7243C LoRaWAN® Developer Gateway works in Wi-Fi AP Mode. In order for the Gateway to connect to the router, it must work in Wi-Fi Client Mode.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/02.bzvol7clyvogrlfcf6mm.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/02.bzvol7clyvogrlfcf6mm.png`"
   width="100%"
   figure-number="2"
   caption="Configuration options for WIFI"
@@ -54,7 +50,7 @@ In order to enable Wi-Fi Client Mode, you have to disable first the AP Mode.
 Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable AP Mode**", you can now then connect to a new Wi-Fi Network by choosing "**4 Add New SSID for Client**":
 
 <rk-img
-  :src="`${$frontmatter.static_root}/03.oedelnm55crlacr1qezp.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/03.oedelnm55crlacr1qezp.png`"
   width="100%"
   figure-number="3"
   caption="Add a new SSID"
@@ -63,7 +59,7 @@ Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable
 - Start by selecting your country of residence:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/04.tho0wgcekiybxiyw1lg1.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/04.tho0wgcekiybxiyw1lg1.png`"
   width="100%"
   figure-number="4"
   caption="Selecting Country of Residence"
@@ -76,7 +72,7 @@ Please ensure to input the correct Wi-Fi SSID and Password or you will not be ab
 :::
 
 <rk-img
-  :src="`${$frontmatter.static_root}/05.d2h64zg2aqhpwtzektci.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/05.d2h64zg2aqhpwtzektci.png`"
   width="100%"
   figure-number="5"
   caption="SSID of the Network you want to connect to"
@@ -85,7 +81,7 @@ Please ensure to input the correct Wi-Fi SSID and Password or you will not be ab
 - Enter also the password. Just leave it empty if None.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/06.toenoesnbmrz1eeza4yq.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/06.toenoesnbmrz1eeza4yq.png`"
   width="100%"
   figure-number="6"
   caption="Password of the Wi-Fi"
@@ -100,7 +96,7 @@ If you want to connect to router through Ethernet Cable, do the following steps:
 - By default, the IP Address of the LoRaWAN® Gateway's Ethernet is `192.168.10.10`
 
 <rk-img
-  :src="`${$frontmatter.static_root}/07.q7cisano0ckdjzfmrjwn.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/07.q7cisano0ckdjzfmrjwn.png`"
   width="100%"
   figure-number="7"
   caption="Default LoRaWAN\u00ae Gateway Ethernet IP Address"
@@ -109,7 +105,7 @@ If you want to connect to router through Ethernet Cable, do the following steps:
 - Then configure the IP address of the Router. This is the LAN Interface IP address of the router.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/08.rfflmexk4jeyay8yyfp9.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/08.rfflmexk4jeyay8yyfp9.png`"
   width="100%"
   figure-number="8"
   caption="LAN Interface IP Address of the Router"
@@ -134,7 +130,7 @@ sudo gateway-config
 **3.** Next, in the main configuration menu choose “**7 Configure LTE Module**”:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/09.s4wdcqiwukl5evm7fyhm.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/09.s4wdcqiwukl5evm7fyhm.png`"
   width="100%"
   figure-number="9"
   caption="Configure LTE Module"
@@ -146,7 +142,7 @@ Two configuration options are available for your LTE.
 2. **Disable LTE Automatic Dial-up** - used to disable automatic connection during start-up.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/10.qzy2znqy3rn32asplaki.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/10.qzy2znqy3rn32asplaki.png`"
   width="100%"
   figure-number="10"
   caption="LTE Configuration Options"
@@ -161,7 +157,7 @@ sudo minicom -D \/dev\/ttyAMA0 -b 115200
 ```
 
 <rk-img
-  :src="`${$frontmatter.static_root}/11.hsnj9bmmt4hm7jjivlfn.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/11.hsnj9bmmt4hm7jjivlfn.png`"
   width="100%"
   figure-number="11"
   caption="Minicom Tool"
@@ -170,7 +166,7 @@ sudo minicom -D \/dev\/ttyAMA0 -b 115200
 **5.** Then, try entering the command “**at**” in the tool, if it returns with “**OK**”, it means you have opened the serial port successfully:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/12.e2nnhzfcsvrzawsnjc3x.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/12.e2nnhzfcsvrzawsnjc3x.png`"
   width="100%"
   figure-number="12"
   caption="AT Command in Minicom"
@@ -183,7 +179,7 @@ If you cannot see the “at”, which you just entered, try to hold “CTRL+A”
 **6.** Next, execute the AT command “**`at+cops=?`**” to look for all available LTE networks in range:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/13.gnqzfqfiyr9midcxzykr.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/13.gnqzfqfiyr9midcxzykr.png`"
   width="100%"
   figure-number="13"
   caption="AT Command for LTE Network Query"
@@ -192,7 +188,7 @@ If you cannot see the “at”, which you just entered, try to hold “CTRL+A”
 This may take a couple of seconds. After that, you'll see the available LTE Network information similar to the image below.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/14.a2dffmeci1qkvarbnh4h.jpg`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/14.a2dffmeci1qkvarbnh4h.jpg`"
   width="100%"
   figure-number="14"
   caption="LTE Network Example"
@@ -210,7 +206,7 @@ The image above shows the available LTE network in China. These information may 
 Now let’s take this LTE network in Europe (Bulgaria) as an example:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/15.mtzbhqbruxtqqtg0993z.jpg`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/15.mtzbhqbruxtqqtg0993z.jpg`"
   width="100%"
   figure-number="15"
   caption="Sample LTE Networks in EU"
@@ -219,7 +215,7 @@ Now let’s take this LTE network in Europe (Bulgaria) as an example:
 Then, using the sample AT command described above, the command will be:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/16.dgcsdrvgw5yyjlxfhzdn.jpg`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/16.dgcsdrvgw5yyjlxfhzdn.jpg`"
   width="100%"
   figure-number="16"
   caption="Sample AT Command for LTE Network"
@@ -236,7 +232,7 @@ process. From the main configuration menu choose “**6
 Configure APN name**”.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/17.mgnltetmph7fql2dyptt.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/17.mgnltetmph7fql2dyptt.png`"
   width="100%"
   figure-number="17"
   caption="Configure APN Name"
@@ -249,7 +245,7 @@ If you want to modify the APN Name, make it sure it is a real and valid APN Name
 :::
 
 <rk-img
-  :src="`${$frontmatter.static_root}/18.wxlr9qc1jvgrtdqokbj0.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/18.wxlr9qc1jvgrtdqokbj0.png`"
   width="100%"
   figure-number="18"
   caption="APN Name"
@@ -258,7 +254,7 @@ If you want to modify the APN Name, make it sure it is a real and valid APN Name
 **10.** Lastly, set the baud rate. The default value is 115200.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/19.sje1mevpfizxspzka0jf.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/19.sje1mevpfizxspzka0jf.png`"
   width="100%"
   figure-number="19"
   caption="Baud Rate Setting"
@@ -275,7 +271,7 @@ sudo pppd call gprs
 There will be a series of log but after that, you will see the the following information at the end of the log.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/20.i3bmpsoxp2urhnag3vyx.jpg`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/20.i3bmpsoxp2urhnag3vyx.jpg`"
   width="100%"
   figure-number="20"
   caption="IP address Information"
@@ -286,24 +282,24 @@ You will be assigned with an IP address (local and remote) along with the DNS ad
 Also, do not forget to re-enable the automatic LTE connection on start up
 
 <rk-img
-  :src="`${$frontmatter.static_root}/21.q4viffhbutonrx71vwjs.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/21.q4viffhbutonrx71vwjs.png`"
   width="100%"
   figure-number="21"
   caption="Enabling the Automatic LTE Connection during Start-Up"
 />
 
-## Optional Configurations
+### Optional Configurations
 
 These configurations under this section are only optional and situational.
 
-### Reverting to Wi-Fi AP Mode
+#### Reverting to Wi-Fi AP Mode
 
 In the event that you have entered either or both icorrect Wi-Fi SSID and Password in the Wi-Fi Client Mode setup for the RAK7243C LoRaWAN® Developer Gateway to connect to the router, follow these set of steps for you to work again in Wi-Fi AP Mode and redo the setup.
 
 - Remove the SD Card from your RAK7243C LoRaWAN® Developer Gateway and insert it into your PC. Your PC should be able to detect it same with the image below:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/22.oyjadnh8ouvogrgpfox0.png`"
+  :src="`${$frontmatter.static_root}/1.accessing-internet/22.oyjadnh8ouvogrgpfox0.png`"
   width="100%"
   figure-number="22"
   caption="Creating rak_ap file to your SD Card"

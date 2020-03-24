@@ -15,15 +15,10 @@ module.exports = {
     ['link', {
       rel: 'icon',
       href: `/favicon.ico`
-    }],
-    ['link', {
-      rel: 'stylesheet',
-      href: `https://www.w3schools.com/w3css/4/w3.css`
     }]
   ],
   themeConfig: {
     logo: '/assets/rakwireless/rak-blue-dark.svg',
-    sidebar: 'auto',
     repo: 'RAKwirelessDev/rakwireless-docs',
     docsDir: 'docs',
     docsBranch: 'master',
@@ -76,5 +71,12 @@ module.exports = {
       backgroundColor: String,
       successText: String
     },
+  },
+  markdown: {
+    extendMarkdown: md => {
+      // use more markdown-it plugins!
+      md.use(require('markdown-it-include'))
+
+    }
   }
 }

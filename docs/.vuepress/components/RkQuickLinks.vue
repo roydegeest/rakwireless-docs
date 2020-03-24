@@ -1,6 +1,6 @@
 <template>
-  <div class="w3-row">
-    <div class="w3-half">
+  <div class="row">
+    <div class="column">
       <div><strong>Learn More</strong></div>
       <ul>
         <li
@@ -11,7 +11,7 @@
         </li>
       </ul>
     </div>
-    <div class="w3-half">
+    <div class="column">
       <div><strong>Resources</strong></div>
       <ul>
         <li
@@ -30,3 +30,26 @@ export default {
   props: ['params']
 }
 </script>
+
+<style scoped>
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  flex: 50%;
+  max-width: 50%;
+}
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
