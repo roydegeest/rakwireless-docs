@@ -33,12 +33,12 @@ The **RAK7243C LoRaWAN**® **Developer Gateway** is a complete and cost efficien
 
 The RAK7243C LoRaWAN® Developer Gateway is ideal for prototyping, proof-of concept evaluation and demonstration. It includes everything you need to help you get started in building your own LoRaWAN® Network in just a couple of minutes. It provides great value and flexible functionality for a variety of applications: Smart Grids, Intelligent Farming and other IoT applications.
 
-<rk-quick-links :params="$frontmatter.params.qlinks" />
-
 <rk-btn
   src="quick-start-guide"
   label="Set up Your RAK7243C LoRaWAN® Developer Gateway"
 />
+
+<rk-quick-links :params="$frontmatter.params.qlinks" />
 
 ## Product Features
 

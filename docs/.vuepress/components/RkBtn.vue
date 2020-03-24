@@ -3,18 +3,24 @@
     <a
       id="buybutton"
       :href="opt.src"
+      :target="opt._blank"
     >{{ opt.label }}</a>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['params', 'src', 'label'],
+  props: {
+    params: { type: Object },
+    src: { type: String },
+    label: { type: String },
+    _blank: { type: Boolean, default: false }
+  },
   computed: {
     opt () {
-      const { params, src, label } = this
+      const { params, src, label, _blank } = this
       if (params) return params
-      else return { src, label }
+      else return { src, label, _blank }
     }
   }
 }

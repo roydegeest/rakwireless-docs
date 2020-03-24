@@ -1,5 +1,22 @@
 ---
 title: Accessing Your Gateway
+params:
+  {
+    img1:
+      {
+        src: "/assets/images/quick-start-guide/rak7246/access_point.jpg",
+        width: "100%",
+        figureNumber: "1",
+        caption: "Balena Etcher Software",
+      },
+    img2:
+      {
+        src: "/assets/images/quick-start-guide/rak7246/ssh.png",
+        width: "70%",
+        figureNumber: "2",
+        caption: "Balena Etcher Software",
+      },
+  }
 ---
 
 # Accessing your Gateway
@@ -12,7 +29,7 @@ After burning the image into the SD Card, make sure you have inserted the SD Car
 ## Wi-Fi AP Mode
 By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that you can find an SSID named like "**Rakwireless_XXXX**" on your PC Wi-Fi Network List.
 
-<Cimg src="/assets/images/quick-start-guide/rak7246/access_point.jpg" width="100%" figure_number = "1" caption="RAKwireless Access Point"/>
+<rk-img :params="$page.frontmatter.params.img1" />
 
 ::: tip Note: 
 :pencil: “XXXX” is the last 2 bytes of your RAK7246’s WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the LoRaWAN® Gateway provided below as this will be needed in connecting via SSH.
@@ -25,21 +42,24 @@ By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that yo
 ### 1. Windows OS
 SSH (Secure Shell) is typically used to log in to a remote machine and execute commands. There are a lot of free and good SSH Clients out there namely **Putty**, **BitVise SSH Client**, **MobaXterm** and many more. Feel free to choose one that fits your needs. You will be using Putty for this guide.
 
-<Cimg src="/assets/images/quick-start-guide/rak7246/ssh.png" width="70%" figure_number = "2" caption="RAKwireless Access Point"/>
+
+<rk-img :params="$page.frontmatter.params.img2" />
+
+<!-- <Cimg src="/assets/images/quick-start-guide/rak7246/ssh.png" width="70%" figure_number = "2" caption="RAKwireless Access Point"/> -->
 
 * If you have connected to the LoRaWAN® Gateway through Wi-Fi AP Mode, the IP Address is `192.168.230.1`
 * It will then prompt you to enter the username and password. The default username is **"pi"** and the default password is **"raspberry"**
 
-<Cimg src="/assets/images/quick-start-guide/rak7246/command_line.png" width="100%" figure_number = "3" caption="Command line after log in"/>
+<rk-img src="/assets/images/quick-start-guide/rak7246/command_line.png" width="100%" figure-number  = "3" caption="Command line after log in"/>
 
 ### 2. Mac OS
 Open the Terminal of Mac OS. Launch the **Terminal** application, which is found in "/Applications/Utilities/" directory but you can also launch it from Spotlight by hitting Command + Spacebar and typing “Terminal” and then return:
 
-<Cimg src="/assets/images/quick-start-guide/rak7246/mac_terminal.jpg" width="100%" figure_number = "4" caption="Opening Terminal in Mac OS"/>
+<rk-img src="/assets/images/quick-start-guide/rak7246/mac_terminal.jpg" width="100%" figure-number  = "4" caption="Opening Terminal in Mac OS"/>
 
-Open the terminal of Mac OS. Enter root mode by typing the following command: "`sudo -i`"
+Open the terminal of Mac OS. Enter root mode by typing the following command: `sudo -i`
 
-* If you are not in root mode, enter "`ssh pi@192.168.230.11" in the terminal to login to your LoRaWAN® Gateway, the default password is "**raspberry**".
+* If you are not in root mode, enter `ssh pi@192.168.230.11` in the terminal to login to your LoRaWAN® Gateway, the default password is "**raspberry**".
 
 
 ### 3. Linux OS

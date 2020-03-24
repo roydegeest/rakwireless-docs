@@ -39,6 +39,8 @@ export default {
 .column {
   flex: 50%;
   max-width: 50%;
+  box-sizing: border-box;
+  padding: 10px 5px 10px 5px;
 }
 @media (max-width: 800px) {
   .column {

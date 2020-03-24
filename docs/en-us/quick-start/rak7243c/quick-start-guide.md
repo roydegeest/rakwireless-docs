@@ -21,6 +21,7 @@ static_root: /assets/images/quick-start-guide/rak7243c/1.product-overview/2.quic
 <rk-btn
   src="https://store.rakwireless.com/products/rak7243c-pilot-gateway"
   label="Buy a RAK7243C LoRaWAN® Developer Gateway"
+  _blank
 />
 
 ## What's included in the Package?
