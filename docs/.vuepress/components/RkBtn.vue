@@ -29,6 +29,8 @@ export default {
 <style scoped>
 .wrapper {
   text-align: center;
+  box-sizing: border-box;
+  padding: 1rem 0 1rem 0;
 }
 #buybutton {
   display: inline-block;

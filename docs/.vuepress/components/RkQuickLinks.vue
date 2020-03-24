@@ -35,12 +35,14 @@ export default {
 .row {
   display: flex;
   flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 1rem 0 1rem 0;
 }
 .column {
   flex: 50%;
   max-width: 50%;
   box-sizing: border-box;
-  padding: 10px 5px 10px 5px;
+  padding: 1rem 0.5rem 1rem 0.5rem;
 }
 @media (max-width: 800px) {
   .column {
