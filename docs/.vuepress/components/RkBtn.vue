@@ -1,21 +1,21 @@
 <template>
   <div class="wrapper">
     <a
-      target="_blank"
       id="buybutton"
       :href="opt.src"
+      :target="opt.target"
     >{{ opt.label }}</a>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['params', 'src', 'label'],
+  props: ['params', 'src', 'label', 'target'],
   computed: {
     opt () {
-      const { params, src, label } = this
+      const { params, src, label , target} = this
       if (params) return params
-      else return { src, label }
+      else return { src, label , target}
     }
   }
 }
