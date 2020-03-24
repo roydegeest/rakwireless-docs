@@ -32,6 +32,11 @@ The RAK7246G LoRaWAN® Developer Gateway is an ideal choice for prototype design
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
+<rk-btn
+  src="overview.html"
+  label="Set up Your RAK7246G LoRaWAN® Developer Gateway"
+/>
+
 ## Product Features
 
 - Using SX1308 baseband processor, full 8 uplink channels and 1 downlink channel LoRaWAN™ Gateway;
