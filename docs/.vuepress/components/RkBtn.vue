@@ -3,19 +3,24 @@
     <a
       id="buybutton"
       :href="opt.src"
-      :target="opt.target"
+      :target="opt._blank"
     >{{ opt.label }}</a>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['params', 'src', 'label', 'target'],
+  props: {
+    params: { type: Object },
+    src: { type: String },
+    label: { type: String },
+    _blank: { type: Boolean, default: false }
+  },
   computed: {
     opt () {
-      const { params, src, label , target} = this
+      const { params, src, label, _blank } = this
       if (params) return params
-      else return { src, label , target}
+      else return { src, label, _blank }
     }
   }
 }
@@ -24,6 +29,8 @@ export default {
 <style scoped>
 .wrapper {
   text-align: center;
+  box-sizing: border-box;
+  padding: 1rem 0 1rem 0;
 }
 #buybutton {
   display: inline-block;

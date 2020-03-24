@@ -49,7 +49,7 @@ sudo gateway-version
 
 It is a good security practice to change the default password "**raspberry**" which is the same on all Raspberry Pi devices.
 
-**1.**First, choose "**1 Set pi password**" option referred on the image below.
+**1.** First, choose "**1 Set pi password**" option referred on the image below.
 
 <rk-img
   :src="`${$frontmatter.static_root}/03.lb4lcpcxk9vuhg8xxwkv.png`"
@@ -58,7 +58,7 @@ It is a good security practice to change the default password "**raspberry**" wh
   caption="Set Pi Password"
 />
 
-**2.**Next, press "**Yes**" and you will be asked to enter your new password twice then press "**Enter**".
+**2.** Next, press "**Yes**" and you will be asked to enter your new password twice then press "**Enter**".
 
 <rk-img
   :src="`${$frontmatter.static_root}/04.puwtmxjqflai90ejzwj4.png`"
@@ -151,7 +151,7 @@ Then, set the IP address of the ChirpStack which you want your LoRaWAN® Gateway
 />
 
 ::: tip Note:
-The default IP Address is **`127.0.0.1`**which means you will be using the Built-in LoRa Server. If you want to use an independent LoRa Server running on another device or a cloud based LoRa Server, you need to set it to the corresponding IP address
+The default IP Address is **`127.0.0.1`** which means you will be using the Built-in LoRa Server. If you want to use an independent LoRa Server running on another device or a cloud based LoRa Server, you need to set it to the corresponding IP address
 :::
 
 - If you have instead selected "**Chirpstack ADR Configure**" you can enable/disable the Adaptive Data Rate (ADR) functionality:

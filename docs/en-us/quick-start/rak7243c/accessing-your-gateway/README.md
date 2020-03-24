@@ -2,12 +2,12 @@
 static_root: /assets/images/quick-start-guide/rak7243c/2.product-configuration/2.accessing-gateway
 ---
 
-# Accessing your Gateway
+## Access Modes
 
 After burning the image into the SD Card, make sure you have inserted the SD Card with the Latest Firmware installed to the **RAK7243C LoRaWAN**® **Developer Gateway** and the LoRa®, GPS, and LTE Antenna attached to it. After which, you can now safely power on the gateway. In this document, several ways in accessing the gateway are provided to have different alternatives for you to choose depending on the availability of the requirements needed.
 
 ::: warning
-Before powering the Raspberry Pi 3B+ you should install the LoRa® , GPS and LTE antennas. Not doing so might damage the boards.
+:warning: Before powering the Raspberry Pi 3B+ you should install the LoRa® , GPS and LTE antennas. Not doing so might damage the boards.
 :::
 
 ### 1. Wi-Fi AP Mode
@@ -21,7 +21,7 @@ By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that yo
   caption="RAKWireless Access Point"
 />
 
-::: tip
+::: tip Note:
 Connect to this Wi-Fi SSID by using \"**rakwireless**\" as the default password. The default IP address of the LoRaWAN® Gateway's Wi-Fi is `192.168.230.1` . Take note of this IP address as this will be needed in connecting via SSH.
 :::
 
@@ -117,3 +117,5 @@ OK, you have logged into the LoRaWAN® Gateway through SSH successfully same wit
 ### 3. Linux OS
 
 If the OS of your PC is Linux, you should do the same as the Mac OS, except the root mode.
+
+!!!include(docs/en-us/quick-start/rak7243c/accessing-your-gateway/accessing-the-internet.md)!!!

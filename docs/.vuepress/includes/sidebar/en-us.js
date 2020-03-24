@@ -126,7 +126,6 @@ module.exports = {
     '/en-us/quick-start/rak7243c/':[
         {
             title: 'Product Overview',   // required
-            path: '',      // optional, which should be a absolute path.
             collapsable: false, // optional, defaults to true
             sidebarDepth: 2,    // optional, defaults to 1
             children: [
@@ -136,18 +135,16 @@ module.exports = {
         },
         {
             title: 'Product Configuration',   // required
-            path: '',      // optional, which should be a absolute path.
             collapsable: false, // optional, defaults to true
             sidebarDepth: 2,    // optional, defaults to 1
             children: [
                 'device-firmware-setup',
-                'accessing-your-gateway',
-                'accessing-the-internet',
+                ['accessing-your-gateway/','Accessing your Gateway'],
                 'configuring-the-gateway',
                 'connecting-to-the-things-network-ttn',
                 'connect-the-lora-gateway-with-chirpstack'
             ]
-        },
+        }
     ],
     '/en-us/quick-start/rak2247/':[
         {

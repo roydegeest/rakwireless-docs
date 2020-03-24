@@ -1,6 +1,6 @@
 <template>
-  <div class="w3-row">
-    <div class="w3-half">
+  <div class="row">
+    <div class="column">
       <div><strong>Learn More</strong></div>
       <ul>
         <li
@@ -11,7 +11,7 @@
         </li>
       </ul>
     </div>
-    <div class="w3-half">
+    <div class="column">
       <div><strong>Resources</strong></div>
       <ul>
         <li
@@ -32,8 +32,28 @@ export default {
 </script>
 
 <style scoped>
-.w3-half {
-  padding:10px;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 1rem 0 1rem 0;
 }
-
+.column {
+  flex: 50%;
+  max-width: 50%;
+  box-sizing: border-box;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+}
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 </style>
