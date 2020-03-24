@@ -30,3 +30,10 @@ export default {
   props: ['params']
 }
 </script>
+
+<style scoped>
+.w3-half {
+  padding:10px;
+}
+
+</style>

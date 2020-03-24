@@ -30,12 +30,16 @@ The RAK2246 Pi HAT is based on a Semtech SX1308 chip, which allows for simultane
 
 The RAK7246G LoRaWAN® Developer Gateway is an ideal choice for prototype design, concept verification and demonstrations, development evaluation and other scenarios. It is developer-friendly due to its minimalistic design that reduces cost and allows for easily accessing the internals. It is easy to set-up, which makes it a good choice for both experienced and novice LoRa specialists.
 
-<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
-
 <rk-btn
   src="overview.html"
   label="Set up Your RAK7246G LoRaWAN® Developer Gateway"
 />
+
+&nbsp;
+
+<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
+
+
 
 ## Product Features
 

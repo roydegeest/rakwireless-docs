@@ -1,6 +1,7 @@
 <template>
   <div class="wrapper">
     <a
+      target="_blank"
       id="buybutton"
       :href="opt.src"
     >{{ opt.label }}</a>
