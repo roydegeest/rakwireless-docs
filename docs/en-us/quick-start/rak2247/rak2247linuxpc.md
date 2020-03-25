@@ -1,25 +1,13 @@
 ---
 title: RAK2247 + x86 Linux PC
-
-params:
-  img1:
-    src: /assets/images/quick-start-guide/rak2247/3.rak2247+linuxpc/rak2247pcie.jpg
-    width: 75%
-    figureNumber: 1
-    caption: RAK2247 LoRaWAN® Gateway Concentrator Module to a PCIe-to-USB board
-  img2:
-    src: /assets/images/quick-start-guide/rak2247/3.rak2247+linuxpc/networkname.jpg
-    width: 75%
-    figureNumber: 2
-    caption: Network Interface Name
 ---
 
 # RAK2247 + x86 Linux PC
-This document explains the basic steps on how to interface the RAK2247 LoRaWAN® Gateway Concentrator Module with a Linux Operating System in a computer.
+This section explains the basic steps on how to interface the RAK2247 LoRaWAN® Gateway Concentrator Module with a Linux Operating System in a computer.
 
-The following devices are necessary for the interface:
-* RAK2247 LoRaWAN® Gateway Concentrator Module
-* [mPCIe to USB Board](https://store.rakwireless.com/products/mpcie-to-usb-board)
+* The following devices are necessary for the interface:
+  * RAK2247 LoRaWAN® Gateway Concentrator Module
+  * [mPCIe to USB Board](https://store.rakwireless.com/products/mpcie-to-usb-board)
 
 1. Insert the RAK2247 mPCIe board into the USB carrier board and plugged into a free USB port of your PC. Your Linux PC should recognized it as a USB device.
 
@@ -27,7 +15,12 @@ The following devices are necessary for the interface:
 :pencil:If you want to connect the **RAK2247 mPCIe board** to the **Linux PC** directly, make sure to have the PERST# signal (Pin 22) pulled down.
 :::
 
-<rk-img :params="$page.frontmatter.params.img1" />
+<rk-img
+  src="/assets/images/quick-start-guide/rak2247/3.rak2247+linuxpc/rak2247pcie.jpg"
+  width="75%"
+  figure-number="1"
+  caption="RAK2247 LoRaWAN® Gateway Concentrator Module to a PCIe-to-USB board"
+/>
 
 2. Open the command line then enter the command below in order to clone the Github repository that is required for the process to be completed:
 
@@ -43,7 +36,12 @@ ifconfig
 
 An example in Figure 2 shows the name of the wireless interface “**wlx6045bdf0cf64**”.
 
-<rk-img :params="$page.frontmatter.params.img2" />
+<rk-img
+  src="/assets/images/quick-start-guide/rak2247/3.rak2247+linuxpc/networkname.jpg"
+  width="75%"
+  figure-number="2"
+  caption="Network Interface Name"
+/>
 
 * Enter the RAK Folder through:
 
