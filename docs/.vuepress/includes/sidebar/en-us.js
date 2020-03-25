@@ -139,7 +139,15 @@ module.exports = {
             sidebarDepth: 2,    // optional, defaults to 1
             children: [
                 'device-firmware-setup',
-                ['accessing-your-gateway/','Accessing your Gateway'],
+                {
+                    title: "Accessing your Gateway",
+                    nested: true,
+                    collapsable: false,
+                    path: '/en-us/quick-start/rak7243c/accessing-your-gateway/',
+                    children: [
+                        'accessing-your-gateway/accessing-the-internet'
+                    ]
+                },
                 'configuring-the-gateway',
                 'connecting-to-the-things-network-ttn',
                 'connect-the-lora-gateway-with-chirpstack'

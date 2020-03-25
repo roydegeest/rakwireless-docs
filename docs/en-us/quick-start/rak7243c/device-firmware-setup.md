@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7243c/2.product-configuration/1.firmware-setup
+next: accessing-your-gateway/
 ---
 
 # Device Firmware Setup
