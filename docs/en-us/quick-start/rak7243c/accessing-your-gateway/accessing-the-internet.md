@@ -99,7 +99,7 @@ If you want to connect to router through Ethernet Cable, do the following steps:
   :src="`${$frontmatter.static_root}/1.accessing-internet/07.q7cisano0ckdjzfmrjwn.png`"
   width="100%"
   figure-number="7"
-  caption="Default LoRaWAN\u00ae Gateway Ethernet IP Address"
+  caption="Default LoRaWAN® Gateway Ethernet IP Address"
 />
 
 - Then configure the IP address of the Router. This is the LAN Interface IP address of the router.
@@ -153,7 +153,7 @@ After that, you need to configure the LTE network operator’s information. Make
 **4.** Execute the command below in the console to start minicom tool:
 
 ```bash
-sudo minicom -D \/dev\/ttyAMA0 -b 115200
+sudo minicom -D /dev/ttyAMA0 -b 115200
 ```
 
 <rk-img

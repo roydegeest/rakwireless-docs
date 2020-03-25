@@ -193,4 +193,34 @@ module.exports = {
             ]
         }
     ],
+    '/en-us/quick-start/rak2245-stamped/':[
+        {
+            title: 'Product Overview',   // required
+            collapsable: false, // optional, defaults to true
+            sidebarDepth: 2,    // optional, defaults to 1
+            children: [
+                '',
+                'quick-start-guide'
+            ]
+        },
+        {
+            title: 'Product Configuration',   // required
+            collapsable: false, // optional, defaults to true
+            sidebarDepth: 2,    // optional, defaults to 1
+            children: [
+                'device-firmware-setup',
+                {
+                    title: 'Accessing your Gateway',
+                    collapsable: false,
+                    path: '/en-us/quick-start/rak2245-stamped/accessing-your-gateway/',
+                    children: [
+                        'accessing-your-gateway/accessing-the-internet'
+                    ]
+                },
+                'configuring-the-gateway',
+                'connection-to-ttn',
+                'connect-with-chirpstack'
+            ]
+        }
+    ],
 }

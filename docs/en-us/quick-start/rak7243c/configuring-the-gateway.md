@@ -29,7 +29,7 @@ You will now then see a page like the following picture below:
 8. **Configure LAN** - used to configure the Ethernet adapter settings.
 
 ::: tip Note:
-A unique ID will be generated in for LoRaWAN\u00ae Gateway. This is also called Gateway EUI squared in red in the figure above and is essential for registering the gateway with any LoRa\u00ae Network Server (TTN, ChirpStack)
+A unique ID will be generated in for LoRaWAN® Gateway. This is also called Gateway EUI squared in red in the figure above and is essential for registering the gateway with any LoRa® Network Server (TTN, ChirpStack)
 :::
 
 There is also another way to get your "Gateway ID", just enter the command below in the command line:
@@ -84,7 +84,7 @@ This menu allows you to select your LoRa® frequency band and one of the two ava
   :src="`${$frontmatter.static_root}/06.ktnjwl2w33wsmzgth2oh.png`"
   width="100%"
   figure-number="6"
-  caption="Choosing Setup RAK Gateway LoRa\u00ae concentrator"
+  caption="Choosing Setup RAK Gateway LoRa® concentrator"
 />
 
 You can choose one of two supported LoRa Servers here: **TTN** or
