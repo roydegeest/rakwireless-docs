@@ -34,7 +34,7 @@ The gateway has a powerful LoRa® digital signal processing engine from Semtech 
 Overall, this LoRaWAN® Gateway has various functionalities that are ideal for prototyping, proof-of-concept demonstrations and evaluation on future deployment scenarios. With its ready to use Raspbian based firmware, it is now possible to connect the Gateway to any standard LoRaWAN® Server. The device is capable of tackling applications related to Smart Grids, Intelligent Farms and other IoT Enterprise applications.
 
 <rk-btn
-  src="overview.html"
+  src="overview"
   label="Set up Your RAK7244 LoRaWAN® Developer Gateway"
 />
 

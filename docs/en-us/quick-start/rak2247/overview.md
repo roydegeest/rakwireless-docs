@@ -24,8 +24,8 @@ Before going through each and every step in the installation and guide of the RA
 
 <rk-btn 
   src="https://store.rakwireless.com/products/rak2247-lorawan-gateway-concentrator-module"
+  target="blank"
   label="Buy a RAK2247 LoRaWAN® Gateway Concentrator Module"
-  _blank
 />
 
 ## What's included in the Package?
