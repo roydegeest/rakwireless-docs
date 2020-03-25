@@ -15,6 +15,7 @@
 <rk-btn
   src="https://store.rakwireless.com/products/rak7249-diy-outdoor-gateway"
   label="Buy a RAK7249 Macro Outdoor Gateway"
+  _blank
 />
 
 ## What's included in the Package?

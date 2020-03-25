@@ -36,7 +36,7 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 
 <rk-btn
   src="quick-start-guide/"
-  label="Set up Your RAK7244 LoRaWAN® Developer Gateway"
+  label="Set up Your RAK7249 Macro Outdoor Gateway"
 />
 
 &nbsp;
