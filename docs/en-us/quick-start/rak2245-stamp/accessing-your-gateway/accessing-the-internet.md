@@ -26,7 +26,7 @@ You will now then see a page like the following picture below
 5. **Configure Wifi** - used to configure the Wi-Fo settings in order to connect to a network.
 6. **Configure LAN** - used to configure the Ethernet adapter settings.
 
-### Connect through Wi-Fi
+## Connect through Wi-Fi
 
 If you want to connect through Wi-Fi, it can easily be done with the Wireless capabilities of the Raspberry Pi by choosing "**5 Configure WIFI**". By default, the RAK2245 Stampe Edition LoRaWAN® Developer Gateway works in Wi-Fi AP Mode. In order for the Gateway to connect to the router, it must work in Wi-Fi Client Mode.
 
@@ -70,7 +70,7 @@ Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable
 - Enter the SSID of the network you want to connect:
 
 ::: warning
-:warning: Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK2245 Stamp Edition again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow this procedure listed in the [Accessing the Internet](/quick-start/rak2245-stamp-lorawan-gateway-concentrator-module/accessing-the-internet#reverting-to-wi-fi-ap-mode) document which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
+:warning: Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK2245 Stamp Edition again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow this procedure listed in the [Accessing the Internet](/en-us/quick-start/rak2245-stamp/accessing-your-gateway/accessing-the-internet.html#reverting-to-wi-fi-ap-mode) document which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
 :::
 
 <rk-img
@@ -89,7 +89,7 @@ Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable
   caption="Password of the Wi-Fi"
 />
 
-### Connect through Ethernet
+## Connect through Ethernet
 
 If you want to connect to router through Ethernet Cable, do the following steps:
 

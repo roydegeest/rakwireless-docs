@@ -11,7 +11,7 @@ static_root: /assets/images/quick-start-guide/rak2245-stamp/quick-start-guide
   caption="RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module"
 />
 
-### What do you need?
+## What do you need?
 
 1. **RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module**
 2. Raspberry Pi 3B+
@@ -20,12 +20,12 @@ static_root: /assets/images/quick-start-guide/rak2245-stamp/quick-start-guide
 5. A WIndows/Mac OS/Linux Computer
 
 <rk-btn
-  src="https://store.rakwireless.com/products/rak2245-stamp"
+  src="https://store.rakwireless.com/products/rak2245-stamp-edition"
   label="Buy a RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module"
   _blank
 />
 
-### What's included in the Package?
+## What's included in the Package?
 
 - 1pc - RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module
 - 1pc - iPEX LoRa® Antenna

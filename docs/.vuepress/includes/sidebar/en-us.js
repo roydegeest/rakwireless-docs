@@ -204,13 +204,14 @@ module.exports = {
             ]
         },
         {
-            title: 'Product Configuration',   // required
-            collapsable: false, // optional, defaults to true
-            sidebarDepth: 2,    // optional, defaults to 1
+            title: 'Product Configuration',
+            collapsable: false,
+            sidebarDepth: 2,
             children: [
                 'device-firmware-setup',
                 {
-                    title: 'Accessing your Gateway',
+                    title: "Accessing your Gateway",
+                    nested: true,
                     collapsable: false,
                     path: '/en-us/quick-start/rak2245-stamp/accessing-your-gateway/',
                     children: [

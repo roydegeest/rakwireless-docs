@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak2245-stamp/accessing-your-gateway
+next: accessing-the-internet
 ---
 
 # Accessing your Gateway
@@ -10,7 +11,7 @@ After burning the image into the SD Card, make sure you have inserted the SD Car
 :warning: Before powering the Raspberry Pi you should install the LoRa® and GPS antennas. Not doing so might damage the boards.
 :::
 
-### 1. Wi-Fi AP Mode
+## 1. Wi-Fi AP Mode
 
 By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that you can find a SSID named like "**Rakwireless_XXXX**" on your PC Wi-Fi Network List.
 
@@ -25,7 +26,7 @@ By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that yo
 Connect to this Wi-Fi SSID by using \"**rakwireless**\" as the default password. The default IP address of the LoRaWAN® Gateway's Wi-Fi is **`192.168.230.1`**. Take note of this IP address as this will be needed in connecting via SSH.
 :::
 
-### 2. Via the Ethernet port on the Raspberry Pi 3B+
+## 2. Via the Ethernet port on the Raspberry Pi 3B+
 
 You can also connect your PC with the LoRaWAN® Gateway through an Ethernet cable. By default, the IP address of the LoRaWAN® Gateway’s Ethernet interface is `192.168.10.10`, so you need to set the IP address of your PC’s Ethernet to the same network segment, for example, `192.168.10.20`_._
 

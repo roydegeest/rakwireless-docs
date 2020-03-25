@@ -23,7 +23,7 @@ params:
   caption="RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module"
 />
 
-### Product Background
+## Product Background
 
 The **RAK2245 Stamp Edition -LoRaWAN**® **Gateway Concentrator Module** is a complete and cost efficient LoRaWAN® Gateway Solution that will help you get started in developing a full LoRa® System. The module can be easily integrated into a system's main board, providing LoRaWAN® functionality.
 
@@ -36,7 +36,7 @@ This LoRaWAN® Concentrator supports eight channels and is available for all LoR
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />
 
-### Product Features
+## Product Features
 
 - Stamp edition form factor with mounted heat-sink.
 - SX1301 base band processor, emulates 49 x LoRa® demodulators,10 parallel demodulation paths, support 8 uplinks channel, 1 downlink channel.
