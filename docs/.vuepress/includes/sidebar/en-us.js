@@ -193,7 +193,7 @@ module.exports = {
             ]
         }
     ],
-    '/en-us/quick-start/rak2245-stamped/':[
+    '/en-us/quick-start/rak2245-stamp/':[
         {
             title: 'Product Overview',   // required
             collapsable: false, // optional, defaults to true
@@ -212,7 +212,7 @@ module.exports = {
                 {
                     title: 'Accessing your Gateway',
                     collapsable: false,
-                    path: '/en-us/quick-start/rak2245-stamped/accessing-your-gateway/',
+                    path: '/en-us/quick-start/rak2245-stamp/accessing-your-gateway/',
                     children: [
                         'accessing-your-gateway/accessing-the-internet'
                     ]

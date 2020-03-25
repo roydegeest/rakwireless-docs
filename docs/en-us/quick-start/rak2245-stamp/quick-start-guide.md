@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak2245-stamped/quick-start-guide
+static_root: /assets/images/quick-start-guide/rak2245-stamp/quick-start-guide
 ---
 
 # Quick Start Guide
@@ -20,7 +20,7 @@ static_root: /assets/images/quick-start-guide/rak2245-stamped/quick-start-guide
 5. A WIndows/Mac OS/Linux Computer
 
 <rk-btn
-  src="https://store.rakwireless.com/products/rak2245-stamp-edition"
+  src="https://store.rakwireless.com/products/rak2245-stamp"
   label="Buy a RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module"
   _blank
 />

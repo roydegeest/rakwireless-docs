@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak2245-stamped/device-firmware-setup
+static_root: /assets/images/quick-start-guide/rak2245-stamp/device-firmware-setup
 ---
 
 # Device Firmware Setup

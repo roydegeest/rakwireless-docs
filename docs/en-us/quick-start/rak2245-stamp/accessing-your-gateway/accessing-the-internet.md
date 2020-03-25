@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak2245-stamped/accessing-the-internet
+static_root: /assets/images/quick-start-guide/rak2245-stamp/accessing-the-internet
 ---
 
 # Accessing the Internet
@@ -70,7 +70,7 @@ Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable
 - Enter the SSID of the network you want to connect:
 
 ::: warning
-:warning: Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK2245 Stamp Edition again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow this procedure listed in the [Accessing the Internet](/quick-start/rak2245-stamp-edition-lorawan-gateway-concentrator-module/accessing-the-internet#reverting-to-wi-fi-ap-mode) document which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
+:warning: Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK2245 Stamp Edition again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow this procedure listed in the [Accessing the Internet](/quick-start/rak2245-stamp-lorawan-gateway-concentrator-module/accessing-the-internet#reverting-to-wi-fi-ap-mode) document which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
 :::
 
 <rk-img

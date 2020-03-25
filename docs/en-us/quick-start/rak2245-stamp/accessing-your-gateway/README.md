@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak2245-stamped/accessing-your-gateway
+static_root: /assets/images/quick-start-guide/rak2245-stamp/accessing-your-gateway
 ---
 
 # Accessing your Gateway

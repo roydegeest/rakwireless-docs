@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak2245-stamped/configuring-the-gateway
+static_root: /assets/images/quick-start-guide/rak2245-stamp/configuring-the-gateway
 ---
 
 # Configuring the Gateway
