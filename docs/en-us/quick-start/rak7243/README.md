@@ -31,7 +31,7 @@ params:
 The **RAK7243 LoRaWAN® Developer Gateway** is a complete and cost efficient LoRaWAN® Gateway Solution that will help you get started in developing a full LoRa® System. The RAK7243 LoRaWAN® Developer Gateway is just a RAK2245 Pi Hat which can be easily stacked on top of a cheap Single Board Computer (SBC) such as the **Raspberry Pi 3B+ or Raspberry Pi 4** which is enclosed in a Pilot Gateway Casing. You can also use its sister model [RAK7243C LoRaWAN® Developer Gateway](https://store.rakwireless.com/products/rak7243c-pilot-gateway) if you want to have Cellular functions added into it.
 
 <rk-btn
-  src="overview"
+  src="overview.html"
   label="Set up Your RAK7243 LoRaWAN® Developer Gateway"
 />
 

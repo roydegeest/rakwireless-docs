@@ -34,7 +34,8 @@ module.exports = {
             sidebarDepth: 2,    // optional, defaults to 1
             children: [
                 '',
-                'overview'
+                ['quick-start-guide/','Quick Start Guide']
+                //'overview'
             ]
         },
         {
@@ -43,7 +44,8 @@ module.exports = {
             collapsable: false, // optional, defaults to true
             sidebarDepth: 2,    // optional, defaults to 1
             children: [
-                'web-management-platform',
+                ['web-management-platform/','Web Management Platform'],
+                //'web-management-platform',
                 'lora-concentrator-spectrum-eu868-settings-guide',
                 'lora-concentrator-spectrum-kr920-settings-guide'
             ]
