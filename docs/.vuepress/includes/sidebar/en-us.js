@@ -12,19 +12,24 @@ module.exports = {
         },
         {
             title: 'Product Configuration',   // required
-            path: '',      // optional, which should be a absolute path.
             collapsable: false, // optional, defaults to true
             sidebarDepth: 2,    // optional, defaults to 1
             children: [
                 'device-firmware',
-                'accessing-your-gateway',
-                'accessing-the-internet',
+                {
+                    title: "Accessing your Gateway",
+                    nested: true,
+                    collapsable: false,
+                    path: '/en-us/quick-start/rak7246g/accessing-your-gateway/',
+                    children: [
+                        'accessing-your-gateway/accessing-the-internet'
+                    ]
+                },
                 'configuring-the-gateway',
                 'connecting-to-the-ttn',
-                'connecting-with-chirpstack',
-                'connecting-to-resiot'
+                'connecting-with-chirpstack'
             ]
-        },
+        }
     ],
     '/en-us/quick-start/rak7249/' :[
         {
@@ -231,5 +236,37 @@ module.exports = {
                 'connect-with-chirpstack'
             ]
         }
+    ],
+    '/en-us/quick-start/rak7244c/':[
+        {
+            title: 'Product Overview',   // required
+            collapsable: false, // optional, defaults to true
+            sidebarDepth: 2,    // optional, defaults to 1
+            children: [
+                '',
+                'quick-start-guide'
+            ]
+        },
+        {
+            title: 'Product Configuration',
+            collapsable: false,
+            sidebarDepth: 2,
+            children: [
+                'device-firmware-setup',
+                {
+                    title: "Accessing your Gateway",
+                    nested: true,
+                    collapsable: false,
+                    path: '/en-us/quick-start/rak7244c/accessing-your-gateway/',
+                    children: [
+                        'accessing-your-gateway/accessing-the-internet'
+                    ]
+                },
+                'configuring-the-gateway',
+                'connecting-to-the-ttn',
+                'connecting-with-chirpstack'
+            ]
+        }
+        
     ],
 }

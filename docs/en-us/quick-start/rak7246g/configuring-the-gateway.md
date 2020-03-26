@@ -3,7 +3,7 @@ title: Configuring the Gateway
 ---
 # Configuring the Gateway
 
-Assuming you have successfully logged into your LoRaWAN® Gateway using SSH, enter the following command in the command line:
+Assuming you have successfully logged into your Gateway using SSH, enter the following command in the command line:
 
 ```sh
 sudo gateway-config
@@ -13,14 +13,14 @@ You will now then see a page like the following picture below
 
 <rk-img src="/assets/images/quick-start-guide/rak7246/gateway_id.png" width="100%" figure-number  = "1" caption="Config Options for the Gateway"/>
 
-1. **Set pi password** - used to set/change the password of the LoRaWAN® Gateway.
-2. **Set up RAK Gateway LoRa® Concentrator** - used to configure the frequency, which the LoRaWAN® Gateway will operate on, and the LoRaWAN® Server which the LoRaWAN® Gateway will work with.
+1. **Set pi password** - used to set/change the password of the Gateway.
+2. **Set up RAK Gateway LoRa® Concentrator** - used to configure the frequency, which the Gateway will operate on, and the LoRaWAN® Server which the Gateway will work with.
 3. **Restart packet -forwarder** - used to restart the LoRa® packet forwarded process.
-4. **Edit packet-forwarder confi**g**- used to open the global_conf.json file, in order to edit LoRaWAN® parameters manually.
+4. **Edit packet-forwarder config**- used to open the global_conf.json file, in order to edit LoRaWAN® parameters manually.
 5. **Configure Wifi** - used to configure the Wi-Fi settings in order to connect to a network.
 
 :::tip Note:
-:pencil: A unique ID will be generated in for LoRaWAN® Gateway. This is also called Gateway EUI squared in red in the figure above and is essential for registering the gateway with any LoRa® Network Server (TTN, ChirpStack)
+:pencil: A unique ID will be generated in for Gateway. This is also called Gateway EUI squared in red in the figure above and is essential for registering the gateway with any LoRa® Network Server (TTN, ChirpStack)
 :::
 
 There is also another way to get your "Gateway ID", just enter the command below in the command line:
@@ -78,12 +78,12 @@ For this example, we will be using EU868 Frequency Plan.
 
 <rk-img src="/assets/images/quick-start-guide/rak7246/select_chirpstack_plan.png" width="100%" figure-number  = "12" caption="Selecting the Chirpstack Channel Plan"/>
 
-Then, set the IP address of the ChirpStack which you want your LoRaWAN® Gateway to work with:
+Then, set the IP address of the ChirpStack which you want your Gateway to work with:
 
 <rk-img src="/assets/images/quick-start-guide/rak7246/default_ip.png" width="100%" figure-number  = "13" caption="Default LoRaServer IP Address"/>
 
 :::tip Note:
-:pencil: Unlike the other RAK boards, the RAK7246G - LoRaWAN® Developer Gateway does not have a Built-in LoRa® Server. In this document, the IP Address of the Chirpstack is shown above. If you have another ChirpStack, you can fill its IP address here too.
+:pencil: Unlike the other RAK boards, the RAK7246G LPWAN Developer Gateway does not have a Built-in LoRa® Server. In this document, the IP Address of the Chirpstack is shown above. If you have another ChirpStack, you can fill its IP address here too.
 :::
 
 You can then open your Chirpstack webpage by using the link below as an example. Make sure to have the [**IP Address**] changed same with what you have input in the previous step.

@@ -5,7 +5,7 @@ params:
     btn1:
       {
         src: "https://store.rakwireless.com/products/rak7246-lorawan-developer-gateway",
-        label: "Buy a RAK7246G - LoRaWAN® Developer Gateway",
+        label: "Buy a RAK7246G LPWAN Developer Gateway",
         target: "_blank"
       },
     img1:
@@ -31,7 +31,7 @@ params:
 
 ## What do you need?
 
-1. RAK7246G - LoRaWAN® Developer Gateway
+1. RAK7246G LPWAN Developer Gateway
 2. 16GB SD Card (included) + Card Reader
 3. 5V at least 2.5A Micro USB Power Supply (not included)
 4. A Windows/Mac OS/Linux Computer

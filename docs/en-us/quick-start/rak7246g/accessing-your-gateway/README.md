@@ -1,5 +1,6 @@
 ---
 title: Accessing Your Gateway
+next: accessing-the-internet
 params:
   {
     img1:
@@ -20,19 +21,19 @@ params:
 ---
 
 # Accessing your Gateway
-After burning the image into the SD Card, make sure you have inserted the SD Card with the Latest Firmware installed to the **RAK7246G - LoRaWAN® Developer Gateway** and the LoRa® and GPS Antenna attached to it. After which, you can now safely power on the gateway.
+After burning the image into the SD Card, make sure you have inserted the SD Card with the Latest Firmware installed to the **RAK7246G LPWAN Developer Gateway** and the LoRa® and GPS Antenna attached to it. After which, you can now safely power on the gateway.
 
 :::warning 
-:warning: Before powering the RAK7246G - LoRaWAN® Developer Gateway, you must install the LoRa® and GPS antennas. Not doing so might damage the boards.
+:warning: Before powering the RAK7246G LPWAN Developer Gateway, you must install the LoRa® and GPS antennas. Not doing so might damage the boards.
 :::
 
 ## Wi-Fi AP Mode
-By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that you can find an SSID named like "**Rakwireless_XXXX**" on your PC Wi-Fi Network List.
+By default, the Gateway will work in Wi-Fi AP Mode which means that you can find an SSID named like "**Rakwireless_XXXX**" on your PC Wi-Fi Network List.
 
 <rk-img :params="$page.frontmatter.params.img1" />
 
 ::: tip Note: 
-:pencil: “XXXX” is the last 2 bytes of your RAK7246’s WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the LoRaWAN® Gateway provided below as this will be needed in connecting via SSH.
+:pencil: “XXXX” is the last 2 bytes of your RAK7246’s WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the Gateway provided below as this will be needed in connecting via SSH.
 
 * **Wi-Fi Password:** rakwireless
 * **Default IP Address:** `192.168.230.1`
@@ -40,14 +41,14 @@ By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that yo
 
 ## Log into the Gateway 
 ### 1. Windows OS
-SSH (Secure Shell) is typically used to log in to a remote machine and execute commands. There are a lot of free and good SSH Clients out there namely **Putty**, **BitVise SSH Client**, **MobaXterm** and many more. Feel free to choose one that fits your needs. You will be using Putty for this guide.
+SSH (Secure Shell) is typically used to log in to a remote machine and execute commands. There are a lot of free and good SSH Clients out there namely [**Putty**](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), [**BitVise SSH Client**](https://www.bitvise.com/ssh-client-download), [**MobaXterm**](https://mobaxterm.mobatek.net/) and many more. Feel free to choose one that fits your needs, you will be using Putty for this guide.
 
 
 <rk-img :params="$page.frontmatter.params.img2" />
 
 <!-- <Cimg src="/assets/images/quick-start-guide/rak7246/ssh.png" width="70%" figure_number = "2" caption="RAKwireless Access Point"/> -->
 
-* If you have connected to the LoRaWAN® Gateway through Wi-Fi AP Mode, the IP Address is `192.168.230.1`
+* If you have connected to the Gateway through Wi-Fi AP Mode, the IP Address is `192.168.230.1`
 * It will then prompt you to enter the username and password. The default username is **"pi"** and the default password is **"raspberry"**
 
 <rk-img src="/assets/images/quick-start-guide/rak7246/command_line.png" width="100%" figure-number  = "3" caption="Command line after log in"/>
@@ -59,7 +60,7 @@ Open the Terminal of Mac OS. Launch the **Terminal** application, which is found
 
 Open the terminal of Mac OS. Enter root mode by typing the following command: `sudo -i`
 
-* If you are not in root mode, enter `ssh pi@192.168.230.11` in the terminal to login to your LoRaWAN® Gateway, the default password is "**raspberry**".
+* If you are not in root mode, enter `ssh pi@192.168.230.11` in the terminal to login to your Gateway, the default password is "**raspberry**".
 
 
 ### 3. Linux OS

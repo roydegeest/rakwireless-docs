@@ -1,5 +1,6 @@
 ---
 title: Device Firmware Setup
+next: accessing-your-gateway/
 params:
   {
     img1:
@@ -19,7 +20,7 @@ An easy and quick way to have a fully functional gateway is by using a Precompil
 ## Burn the Latest Firmware
 
 ::: tip Note:
-:pencil: If your RAK7246G - LoRaWAN™ Developer Gateway has the latest firmware image in the SD card, you can
+:pencil: If your RAK7246G LPWAN Developer Gateway has the latest firmware image in the SD card, you can
 skip this section.
 :::
 1. Download the latest firmware [here](https://downloads.rakwireless.com/en/LoRa/NeoPi-Gateway-RAK7246/Firmware/RAK7246_Latest_Firmware.zip), which is based on the Raspbian OS.
