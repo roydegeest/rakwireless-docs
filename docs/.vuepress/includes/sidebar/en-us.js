@@ -269,4 +269,23 @@ module.exports = {
         }
         
     ],
+    '/en-us/data-sheet/':[
+    {
+        title: 'LPWAN Nodes',
+        collapsable: false,
+        sidebarDepth: 2,
+        children: [
+            {
+                title: "RAK4260 WisDuo LPWAN Module",
+                nested: true,
+                collapsable: false,
+                path: '/en-us/data-sheet/rak4260/',
+                children: [
+                    'rak2460/board-overview-rak4260',
+                    'rak2460/block-diagram-rak4260'
+                ]
+            }
+        ]
+    }
+    ]
 }
