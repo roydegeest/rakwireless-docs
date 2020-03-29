@@ -1,5 +1,6 @@
 ---
 title: Accessing Your Gateway
+next: accessing-the-internet
 ---
 
 # Accessing your Gateway
@@ -21,9 +22,7 @@ By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that yo
 
 ::: tip Note: 
 :pencil: “XXXX” is the last 2 bytes of your RAK7244’s WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the LoRaWAN® Gateway provided below as this will be needed in connecting via SSH.
-
 * **Wi-Fi Password:** rakwireless
-
 * **Default IP Address:** `192.168.230.1`
 :::
 
@@ -61,7 +60,7 @@ Now , you should be able to access your LoRaWAN® Gateway from your PC successfu
 
 ## Log into the Gateway 
 ### 1. Windows OS
-SSH (Secure Shell) is typically used to log in to a remote machine and execute commands. There are a lot of free and good SSH Clients out there namely **Putty**, **BitVise SSH Client**, **MobaXterm** and many more. Feel free to choose one that fits your needs. You will be using Putty for this guide.
+SSH (Secure Shell) is typically used to log in to a remote machine and execute commands. There are a lot of free and good SSH Clients out there namely [**Putty**](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), [**BitVise SSH Client**](https://www.bitvise.com/ssh-client-download), [**MobaXterm**](https://mobaxterm.mobatek.net/) and many more. Feel free to choose one that fits your needs, you will be using Putty for this guide.
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7244/4.accessing your gateway/puttywindows.png"
