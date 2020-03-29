@@ -13,7 +13,7 @@ static_root: /assets/images/quick-start-guide/rak7243c/1.product-overview/2.quic
 
 ## What do you need?
 
-1. RRAK7243C LoRaWAN® Developer Gateway
+1. RAK7243C LoRaWAN® Developer Gateway
 2. 16GB SD Card + Card Reader
 3. 5V at least 2A Micro USB Power Supply
 4. A Windows/Mac OS/Linux Computer

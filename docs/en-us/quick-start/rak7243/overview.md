@@ -19,7 +19,7 @@ title: Quick Start Guide
 
 <rk-btn 
   src="https://store.rakwireless.com/collections/lorawan-gateways-concentrators/products/rak7243c-pilot-gateway?variant=26682434224228"
-  target="blank"
+  _blank
   label="Buy a RAK7243 LoRaWAN® Developer Gateway"
 />
 

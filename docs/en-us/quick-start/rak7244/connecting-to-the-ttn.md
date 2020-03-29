@@ -6,7 +6,7 @@ title: Connecting to The Things Network (TTN)
 
 The Things Network is about enabling low power devices to use long range gateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about the Things Network [here](https://www.thethingsnetwork.org/docs/).
 
-* First, you should have connected your LoRaWAN® Gateway to the router in order to access the internet according to the method which has been introduced in the [Accessing the Internet](accessing-the-internet.html#accessing-the-internet) section.
+* First, you should have connected your LoRaWAN® Gateway to the router in order to access the internet according to the method which has been introduced in the [Accessing the Internet](accessing-your-gateway/accessing-the-internet.html) section.
 * Second, config your LoRaWAN® Gateway and choose TTN as the LoRa® Server and choose a correct frequency according to the method which has been introduced in the [Configuring the Gateway](configuring-the-gateway.html#server-is-ttn) section.
 * Now go to the [TTN Website](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 

@@ -5,14 +5,14 @@ title: RAK2247 + x86 Linux PC
 # RAK2247 + x86 Linux PC
 This section explains the basic steps on how to interface the RAK2247 LoRaWAN® Gateway Concentrator Module with a Linux Operating System in a computer.
 
-* The following devices are necessary for the interface:
+<!-- * The following devices are necessary for the interface:
   * RAK2247 LoRaWAN® Gateway Concentrator Module
-  * [mPCIe to USB Board](https://store.rakwireless.com/products/mpcie-to-usb-board)
+  * [mPCIe to USB Board](https://store.rakwireless.com/products/mpcie-to-usb-board) -->
 
 1. Insert the RAK2247 mPCIe board into the USB carrier board and plugged into a free USB port of your PC. Your Linux PC should recognized it as a USB device.
 
-:::tip Note
-:pencil:If you want to connect the **RAK2247 mPCIe board** to the **Linux PC** directly, make sure to have the PERST# signal (Pin 22) pulled down.
+:::tip Note:
+:pencil: If you want to connect the **RAK2247 mPCIe board** to the **Linux PC** directly, make sure to have the PERST# signal (Pin 22) pulled down.
 :::
 
 <rk-img
@@ -50,7 +50,6 @@ cd rak_common_for_gateway/lora/rak2247_usb
 ```
 
 4. Next, you need to insert the name you got in Step 3 for your interface in the following files:
-
     * rak_common_for_gateway/lora/rak2247_usb/install.sh
     * rak_common_for_gateway/lora/set_eui.sh
     * rak_common_for_gateway/lora/update_gwid.sh
@@ -78,8 +77,8 @@ mkdir -p /opt/ttn-gateway/
 cp -rf packet_forwarder /opt/ttn-gateway/
 ```
 
-:::tip Note
-:pencil:If you want packet forwarder to start on boot, you need to also add the lines below:
+:::tip Note:
+:pencil: If you want packet forwarder to start on boot, you need to also add the lines below:
 :::
 
 ```sh
@@ -99,8 +98,8 @@ sudo ./install.sh
 cd /opt/ttn-gateway/packet_forwarder/lora_pkt_fwd 
 sudo ./lora_pkt_fwd
 ```
-:::tip Note
-:pencil:If you added the additional lines in step 5 it will execute every time on boot.
+:::tip Note:
+:pencil: If you added the additional lines in step 5 it will execute every time on boot.
 :::
 
 8. The regional parameter configurations for all the supported regions are located in the folder `</opt/packet_forwarder/lora_pkt_fwd/global_conf>`. In case you need to adjust the region frequency band for example, do so before running the process (**EU868 is the default**)

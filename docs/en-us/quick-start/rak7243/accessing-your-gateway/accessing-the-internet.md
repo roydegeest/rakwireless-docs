@@ -25,7 +25,7 @@ You will now then see a page like the following picture below:
 6. **Configure LAN** - used to configure the Ethernet adapter settings.
 
 ## Connect through Wi-Fi
-If you want to connect through Wi-Fi, it can easily be done with the Wireless capabilities of the Raspberry Pi 4 by choosing "**5 Configure WIFI**". By default, the RAK7243 LoRaWAN® Developer Gateway works in Wi-Fi AP Mode. In order for the Gateway to connect to the router, it must work in Wi-Fi Client Mode.
+If you want to connect through Wi-Fi, it can easily be done with the Wireless capabilities of the Raspberry Pi 3B+ by choosing "**5 Configure WIFI**". By default, the RAK7243 LoRaWAN® Developer Gateway works in Wi-Fi AP Mode. In order for the Gateway to connect to the router, it must work in Wi-Fi Client Mode.
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7243/5.accessing the internet/wifi-config.png"

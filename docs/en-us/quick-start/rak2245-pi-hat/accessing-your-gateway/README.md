@@ -47,6 +47,7 @@ params:
     width: 100%
     figureNumber: 9
     caption: Log-in Successful Notification
+next: accessing-the-internet
 ---
 
 # Accessing your Gateway
@@ -62,10 +63,9 @@ By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that yo
 <rk-img :params="$page.frontmatter.params.img1" />
 
 ::: tip Note: 
-:pencil: “XXXX” is the last 2 bytes of your Raspberry Pi with the RAK2245 Pi Hat WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the LoRaWAN® Gateway provided below as this will be needed in connecting via SSH.
+:pencil: “XXXX” is the last 2 bytes of your Raspberry Pi WiFi MAC address with the RAK2245. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the Gateway provided below as this will be needed in connecting via SSH.
 
 * **Wi-Fi Password:** rakwireless
-
 * **Default IP Address:** `192.168.230.1`
 :::
 

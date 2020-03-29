@@ -2,7 +2,7 @@
 static_root: /assets/images/quick-start-guide/rak7244c/5.connect-chirpstack
 ---
 
-# Connect the LoRaWAN® Gateway with ChirpStack
+# Connect the Gateway with ChirpStack
 
 The ChirpStack or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [**here**](https://www.chirpstack.io/)
 

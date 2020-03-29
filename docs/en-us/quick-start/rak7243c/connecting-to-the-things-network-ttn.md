@@ -43,10 +43,10 @@ The Things Network is about enabling low power devices to use long range [gatewa
 />
 
 ::: tip Note:
-Make sure to select the \"**I'm using the legacy packet forwarder**\" check box.
+:pencil: Make sure to select the \"**I'm using the legacy packet forwarder**\" check box.
 :::
 
-- **Gateway EUI** - refers to the Gatway ID you obtained from the previous step. In case you forgot, just type "**gateway-version**" in the command line. This must be the same with the LoRaWAN® Gateway's True Gateway ID otherwise you will fail to register your LoRaWAN® Gateway on TTN.
+- **Gateway EUI** - refers to the Gatway ID you obtained from the previous step. In case you forgot, just type `gateway-version` in the command line. This must be the same with the LoRaWAN® Gateway's True Gateway ID otherwise you will fail to register your LoRaWAN® Gateway on TTN.
 - **Description** - A human readable description of your LoRaWAN® Gateway.
 - **Frequency Plan** - This is the frequency you want to use and it must be the same with LoRaWAN® Gateway and the LoRa® Node.
 - **Router** - The router this gateway will connect to. To reduce latency, pick a router that is in a region which is close to the location of the gateway.

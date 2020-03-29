@@ -19,8 +19,8 @@ title: Quick Start Guide
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak7244-developer-lorawan-gateway"
-  target="blank"
   label="Buy a RAK7244 LoRaWAN® Developer Gateway"
+  _blank
 />
 
 ## What's included in the Package?

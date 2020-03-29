@@ -22,8 +22,11 @@ By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that yo
   caption="RAKWireless Access Point"
 />
 
-::: tip Note:
-Connect to this Wi-Fi SSID by using \"**rakwireless**\" as the default password. The default IP address of the LoRaWAN® Gateway's Wi-Fi is `192.168.230.1` . Take note of this IP address as this will be needed in connecting via SSH.
+::: tip Note: 
+:pencil: “XXXX” is the last 2 bytes of your RAK7243C WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the Gateway provided below as this will be needed in connecting via SSH.
+
+* **Wi-Fi Password:** rakwireless
+* **Default IP Address:** `192.168.230.1`
 :::
 
 ## 2. Via the Ethernet Port on the Raspberry Pi 3B+
@@ -67,7 +70,7 @@ SSH (Secure Shell) is typically used to log in to a remote machine and execute c
 
 <rk-img
   :src="`${$frontmatter.static_root}/5.o9zqtf7g3e8ortdutvtd.png`"
-  width="100%"
+  width="70%"
   figure-number="5"
   caption="Putty Software for SSH in Windows"
 />
