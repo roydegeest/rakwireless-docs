@@ -19,8 +19,8 @@ title: Quick Start Guide
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak7244-lpwan-developer-gateway?variant=31446039887917"
-  target="blank"
   label="Buy a RAK7244C LPWAN Developer Gateway"
+  _blank
 />
 
 ## What's included in the Package

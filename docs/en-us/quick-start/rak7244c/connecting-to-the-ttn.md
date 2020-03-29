@@ -8,7 +8,7 @@ The Things Network is about enabling low power devices to use long range [gatewa
 
 - First, you should have connected your LoRaWAN® Gateway to the router in order to access the internet according to the method which has been introduced in the [Accessing the Internet](/en-us/quick-start/rak7244c/accessing-your-gateway/accessing-the-internet.html) section of this document.
 - Second, config your LoRaWAN® Gateway and choose TTN as the LoRa® Server and choose a correct frequency according to the method which has been introduced in the [Configuring the Gateway](/en-us/quick-start/rak7244c/configuring-the-gateway.html#server-is-ttn) section.
-- Now go to the TTN Website: [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
+- Now go to the [TTN Website](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 <rk-img
   :src="`${$frontmatter.static_root}/1.fnb3qqtayustdujbkhmt.jpg`"
@@ -46,7 +46,7 @@ The Things Network is about enabling low power devices to use long range [gatewa
 :pencil: Make sure to select the \"**I'm using the legacy packet forwarder**\" check box.
 :::
 
-- **Gateway EUI** - refers to the Gatway ID you obtained from the previous step. In case you forgot, just type "**gateway-version**" in the command line. This must be the same with the LoRaWAN® Gateway's True Gateway ID otherwise you will fail to register your LoRaWAN® Gateway on TTN.
+- **Gateway EUI** - refers to the Gatway ID you obtained from the previous step. In case you forgot, just type `gateway-version` in the command line. This must be the same with the LoRaWAN® Gateway's True Gateway ID otherwise you will fail to register your LoRaWAN® Gateway on TTN.
 - **Description** - A human readable description of your LoRaWAN® Gateway.
 - **Frequency Plan** - This is the frequency you want to use and it must be the same with LoRaWAN® Gateway and the LoRa® Node.
 - **Router** - The router this gateway will connect to. To reduce latency, pick a router that is in a region which is close to the location of the gateway.
