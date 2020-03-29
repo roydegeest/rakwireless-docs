@@ -192,14 +192,20 @@ module.exports = {
             ]
         },
         {
-            title: 'Product Configuration',   // required
-            path: '',      // optional, which should be a absolute path.
-            collapsable: false, // optional, defaults to true
-            sidebarDepth: 1,    // optional, defaults to 1
+            title: 'Product Configuration',
+            collapsable: false,
+            sidebarDepth: 2,
             children: [
                 'device-firmware-setup',
-                'accessing-your-gateway',
-                'accessing-the-internet',
+                {
+                    title: "Accessing your Gateway",
+                    nested: true,
+                    collapsable: false,
+                    path: '/en-us/quick-start/rak2245-pi-hat/accessing-your-gateway/',
+                    children: [
+                        'accessing-your-gateway/accessing-the-internet'
+                    ]
+                },
                 'configuring-the-gateway',
                 'connecting-to-the-ttn',
                 'connecting-with-chirpstack'
