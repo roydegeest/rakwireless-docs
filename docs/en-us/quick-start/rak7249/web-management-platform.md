@@ -580,7 +580,7 @@ Dynamic DNS allows your router to be reached via a fixed host name while having 
 />
 
 :::tip Note
-:pencil: Make sure to go through the **Hints** in order to get some understanding of how Dynamic DNS functions as a whole. You can do this by clicking on the \u201c**Show more**\u201d text in the Hints field
+:pencil: Make sure to go through the **Hints** in order to get some understanding of how Dynamic DNS functions as a whole. You can do this by clicking on the “**Show more**” text in the Hints field
 :::
 
 #### Overview

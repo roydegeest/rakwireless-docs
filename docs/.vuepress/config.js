@@ -78,5 +78,8 @@ module.exports = {
       md.use(require('markdown-it-include'))
 
     }
-  }
+  },
+  extraWatchFiles: [
+    '.vuepress/**/*.js'
+  ]
 }
