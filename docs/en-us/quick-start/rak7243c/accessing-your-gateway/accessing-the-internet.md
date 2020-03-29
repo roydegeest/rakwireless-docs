@@ -118,7 +118,7 @@ If you want to connect to router through Ethernet Cable, do the following steps:
 - Press OK then the success message will appear.
 - Lastly, reboot the LoRaWAN® Gateway using the command "`sudo reboot`" in the command line and it will connect to the router successfully through Ethernet.
 
-## Connecting through an LTE Network
+## Connect through an LTE Network
 
 The RAK7243C comes with the RAK2013 Cellular making it capable of connecting through LTE network. In this section, you will learn on how to connect your Gateway to an LTE network.
 
@@ -141,9 +141,8 @@ sudo gateway-config
 />
 
 Two configuration options are available for your LTE.
-
-1. **Enable LTE Automatic Dial-up** - the default option and is used to enable automatic connection during start-up.
-2. **Disable LTE Automatic Dial-up** - used to disable automatic connection during start-up.
+  * **Enable LTE Automatic Dial-up** - the default option and is used to enable automatic connection during start-up.
+  * **Disable LTE Automatic Dial-up** - used to disable automatic connection during start-up.
 
 <rk-img
   :src="`${$frontmatter.static_root}/10.qzy2znqy3rn32asplaki.png`"
@@ -177,7 +176,7 @@ sudo minicom -D /dev/ttyAMA0 -b 115200
 />
 
 ::: tip Note:
-If you cannot see the “at”, which you just entered, try to hold “CTRL+A”, then press “Z”, then press “E”. This should allow you to go to the command entering mode.
+:pencil: If you cannot see the “at”, which you just entered, try to hold “CTRL+A”, then press “Z”, then press “E”. This should allow you to go to the command entering mode.
 :::
 
 **6.** Next, execute the AT command “**`at+cops=?`**” to look for all available LTE networks in range:
@@ -199,12 +198,12 @@ This may take a couple of seconds. After that, you'll see the available LTE Netw
 />
 
 ::: tip Note:
-The image above shows the available LTE network in China. These information may vary depending on the available network in your region. For instance in China, the available network are “CHINA MOBILE”, “CHN-UNICOM”, or “CHN-CT”.
+:pencil: The image above shows the available LTE network in China. These information may vary depending on the available network in your region. For instance in China, the available network are “CHINA MOBILE”, “CHN-UNICOM”, or “CHN-CT”.
 :::
 
 **7.** Next, execute the AT command below to set the information of the LTE network operator that you want to use.
 
-- XXX - this parameter is set to describe the network operator. For example, "CHINA MOBILE”, “CHN-UNICOM”, or “CHN-CT”
+- **XXX**- this parameter is set to describe the network operator. For example, "CHINA MOBILE”, “CHN-UNICOM”, or “CHN-CT”
 - **YYY** - this parameter is set as the last value of every operator. Choose the network with 0 value as this is the currently used network.
 
 Now let’s take this LTE network in Europe (Bulgaria) as an example:
@@ -228,7 +227,7 @@ Then, using the sample AT command described above, the command will be:
 After then, you will receive "OK" which means you have successfully configured the LTE network.
 
 ::: tip How to Quit Minicom?
-In order for you to exit Minicom. Press Enter, Ctrl + A then press Q. A pop up will appear and choose Yes.
+:pencil: In order for you to exit Minicom. Press Enter, Ctrl + A then press Q. A pop up will appear and choose Yes.
 :::
 
 **8.** Proceed to setting the **APN name** for the **pppd**
@@ -245,7 +244,7 @@ Configure APN name**”.
 **9.** Then, you will see the window option below where you can change the APN Name or retain its default name.
 
 ::: tip Note:
-If you want to modify the APN Name, make it sure it is a real and valid APN Name.
+:pencil: If you want to modify the APN Name, make it sure it is a real and valid APN Name.
 :::
 
 <rk-img
@@ -266,7 +265,7 @@ If you want to modify the APN Name, make it sure it is a real and valid APN Name
 
 Great! You have finished configuring your LTE network. Now, let's test and verify the connection.
 
-**1.** Execute the command. in the terminal.
+**11.** Execute the command. in the terminal.
 
 ```bash
 sudo pppd call gprs
@@ -304,7 +303,7 @@ In the event that you have entered either or both icorrect Wi-Fi SSID and Passwo
 
 <rk-img
   :src="`${$frontmatter.static_root}/22.oyjadnh8ouvogrgpfox0.png`"
-  width="100%"
+  width="50%"
   figure-number="22"
   caption="Creating rak_ap file to your SD Card"
 />
