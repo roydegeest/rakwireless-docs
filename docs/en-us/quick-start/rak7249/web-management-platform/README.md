@@ -26,7 +26,7 @@ By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that yo
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/2.quickstart/web-ui-home.jpg"
   width="100%"
-  figure-number="4"
+  figure-number="1"
   caption="Web User Interface Log-in"
 /> 
 

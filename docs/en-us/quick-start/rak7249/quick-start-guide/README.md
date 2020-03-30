@@ -29,5 +29,5 @@ next: power-on-the-gateway
   src="/assets/images/quick-start-guide/rak7249/2.quickstart/package_contents.png"
   width="100%"
   figure-number="2"
-  caption="RAK7246G Package Contents"
+  caption="RAK7249 Package Contents"
 />
