@@ -400,5 +400,35 @@ module.exports = {
         }
       ]
     }
+  ],
+  '/en-us/quick-start/rak815/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        'quick-start-guide'
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+       'interfacing-with-rak815',
+       'configuring-the-lorawan',
+       'application-demonstration'
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'device-firmware-setup',
+        'upgrading-the-firmware'
+      ]
+    }
   ]
 }
