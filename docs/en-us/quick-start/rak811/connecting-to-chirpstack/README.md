@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/connecting-to-chirpstack
+next: chirpstack-otaa-mode
 ---
 
 ## Connecting to ChirpStack

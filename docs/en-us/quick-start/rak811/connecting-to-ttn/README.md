@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/connecting-to-ttn
+next: ttn-otaa-mode
 ---
 
 # Connecting to The Things Network (TTN)

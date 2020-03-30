@@ -9,7 +9,7 @@ If the firmware version of your RAK811 LPWAN Evaluation Board is newer than V3.0
 1.In case you have not just burned the bootloader as instructed in the previous section, you need to manually go into **boot mode**. Connect you board via the USB interface and enter the following **AT command** after you have connected via the proper COM port:
 
 ::: tip Note:
-Make sure to choose the correct port in the COM Port field. You can check this in the [auto\$](/rak811-lora-evaluation-board/interfacing-with-rak811-lora---evaluation-board) document.
+Make sure to choose the correct port in the COM Port field. You can check this in the [Interfacing with RAK 811 Development Board](interfacing-with-rak811.html) document.
 :::
 
 ```bash
@@ -76,4 +76,4 @@ at+set_config=device:restart
 
 This information means that you have uploaded the Firmware successfully!
 
-If you want to configure your RAK811 LPWAN Evaluation Board using the available **AT commands**, check the [auto\$](/rak811-lora-evaluation-board/configuring-your-rak811-evaluation-board) document.
+If you want to configure your RAK811 LPWAN Evaluation Board using the available **AT commands**, check the [Configuring your RAK 811 Evaluation Board](configuring-your-rak811.html) document.

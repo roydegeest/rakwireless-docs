@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/interfacing-with-arduino
+next: hardware-interfacing
 ---
 
 # Interfacing your RAK811 LPWAN Evaluation Board with Arduino Boards

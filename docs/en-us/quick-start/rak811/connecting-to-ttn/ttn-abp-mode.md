@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/ttn-abp-mode
-next: connecting-to-chirpstack/
+next: /en-us/quick-start/rak811/connecting-to-chirpstack/
 ---
 
 # ABP Mode

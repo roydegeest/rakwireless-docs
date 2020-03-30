@@ -27,8 +27,10 @@ Before going through each and every step in the installation guide of the RAK811
 />
 
 ::: tip Note:
-The bootloader of the RAK811 LPWAN Evaluation Board is already pre-installed upon manufacturing so flashing the bootloader is not necessary for you to perform. If you find that the bootloader of your RAK811 LPWAN Evaluation Board damaged, kindly contact our support though our [RAKwireless forum](https://forum.rakwireless.com/). However, if you want to upgrade the firmware of the device, please refer to the documentation below:\n\n1. [Firmware Upgrading](https://doc.rakwireless.com/rak811-lora---evaluation-board/upgrading-the-firmware)
-:::
+The bootloader of the RAK811 LPWAN Evaluation Board is already pre-installed upon manufacturing so flashing the bootloader is not necessary for you to perform. If you find that the bootloader of your RAK811 LPWAN Evaluation Board damaged, kindly contact our support though our [RAKwireless forum](https://forum.rakwireless.com/). However, if you want to upgrade the firmware of the device, please refer to the documentation below:
+
+1. [Firmware Upgrading](/en-us/quick-start/rak811/upgrading-the-firmware.html)
+   :::
 
 ### What's included in the package?
 

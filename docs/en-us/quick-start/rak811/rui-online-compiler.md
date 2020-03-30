@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/rui-online-compiler
+next: interfacing-with-arduino/
 ---
 
 # RUI Online Compiler
