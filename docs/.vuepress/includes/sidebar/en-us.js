@@ -460,5 +460,58 @@ module.exports = {
         }
       ]
     }
+  ],
+  '/en-us/quick-start/rak4200/': [
+    {
+      title: 'Product Overview',   // required
+      collapsable: false, // optional, defaults to true
+      sidebarDepth: 2,    // optional, defaults to 1
+      children: [
+        '',
+        'quick-start-guide'
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'interfacing',
+        'configuring-using-at-commands',
+        {
+          title: "Connecting to The Things Network",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/quick-start/rak4200/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa',
+            'connecting-to-ttn/ttn-abp',
+          ]
+        },
+        {
+          title: "Connecting to Chirpstack",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/quick-start/rak4200/connecting-to-chirpstack/',
+          children: [
+            'connecting-to-chirpstack/chirpstack-otaa',
+            'connecting-to-chirpstack/chirpstack-abp',
+          ]
+        },
+        'lora-p2p-mode'
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'burning-the-firmware',
+        'upgrading-the-firmware'
+      ]
+
+    }
+
   ]
+
 }
