@@ -430,5 +430,35 @@ module.exports = {
         'upgrading-the-firmware'
       ]
     }
+  ],
+  '/en-us/quick-start/rak4260/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        'quick-start-guide'
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'burning-the-firmware',
+        'interfacing-with-rak4260',
+        {
+          title: "Connecting to The Things Network (TTN)",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/quick-start/rak4260/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa'
+
+          ]
+        }
+      ]
+    }
   ]
 }
