@@ -1,14 +1,14 @@
 ---
-next: access-the-web-management-platform
+next: access-the-gateway
 ---
 
 # Power on the Gateway
 
-In this document, it is assumed that you have read and performed the procedures listed in the **Outdoor Deployment Category**. Listed below are the individual documents for you to read depending on your Gateway application:
+In this section, it is assumed that you have read and performed the procedures listed in the **Outdoor Deployment Category**. Listed below are the individual sections for you to read depending on your Gateway application:
 
-* Gateway Installation Guide
-* Solar Panel and Battery Kit Installation
-* Lightning Protection
+* [Gateway Installation Guide](../gateway-installation-guide.html)
+* [Solar Panel and Battery Kit Installation](../solar-panel-and-battery-kit-installation.html)
+* [Lightning Protection](../lightning-protection.html)
 
 1. Attach the antennas
 

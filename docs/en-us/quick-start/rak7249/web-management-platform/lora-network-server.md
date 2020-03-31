@@ -15,7 +15,7 @@ Additionally, there are graphs for the most important KPI parameters (RSSI, SNR 
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/lora-network-server-status.jpg"
   width="100%"
-  figure-number="21"
+  figure-number="1"
   caption="LoRa® Network Server Status page"
 />
 
@@ -26,7 +26,7 @@ In order to use the LoRa® Server, you need to enable its protocol from the foll
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/lora-network-general.png"
   width="100%"
-  figure-number="22"
+  figure-number="2"
   caption="General Parameters Page"
 />
 
@@ -54,7 +54,7 @@ In this section you can add and External Gateways to work with your LoRa® Netwo
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-sever-gateway.png"
   width="100%"
-  figure-number="23"
+  figure-number="3"
   caption="Network Server Gateway tab"
 />
 
@@ -66,7 +66,7 @@ Here you can add a Gateway. You simply need to input the EUI into the text box a
 
 ### Gateway Backend Configuration
 
-- **General Setup**: These setting are the same as for the [LoRaWAN® Gateway Configuration](web-management-platform.html#_2-lorawan®-gateway-mqtt-bridge), refer to its section for more information
+- **General Setup**: These setting are the same as for the [LoRaWAN® Gateway Configuration](lorawan-gateway-configuration.html#_2-lorawan®-gateway-mqtt-bridge), refer to its section for more information
 - **MQTT Topic**: Here you can get information on the topic templates: **Uplink MQTT topic**, **Downlink MQTT Topic**, **Downlink Acknowledge MQTT Topic**, and **Gateway Statistic MQTT Topic**.
 
 ## 4. Application
@@ -76,7 +76,7 @@ The first time you access the menu, it will have no applications listed. Create 
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/adding-application.jpg"
   width="100%"
-  figure-number="24"
+  figure-number="4"
   caption="Adding an application"
 />
 
@@ -85,7 +85,7 @@ You will be automatically forward to the Application Edit screen. You have 3 tab
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-server-app-config.png"
   width="100%"
-  figure-number="25"
+  figure-number="5"
   caption="Network Server Applications Configuration"
 />
 
@@ -106,7 +106,7 @@ As of the time of writing this document, you can choose to have only one integra
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/payload-format-tab.png"
   width="100%"
-  figure-number="26"
+  figure-number="6"
   caption="Application Payload Format Tab"
 />
 
@@ -119,7 +119,7 @@ There is an option to have an HTTPS integration for your application. See the fi
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/payload-format-tab.png"
   width="100%"
-  figure-number="27"
+  figure-number="7"
   caption="Application Integration Tab"
 />
 
@@ -140,14 +140,14 @@ In this section is in depth explanation of the data available per device. You ca
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/adding-network-device.png"
   width="100%"
-  figure-number="28"
+  figure-number="8"
   caption="Network Server Adding a Device"
 />
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/adding-network-device-otaa.png"
   width="100%"
-  figure-number="29"
+  figure-number="9"
   caption="Network Server Device Configuration (OTAA)"
 />
 
@@ -167,7 +167,7 @@ If you choose Join mode to be **ABP**, you have to additionally enter the **Devi
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/adding-network-device-abp.png"
   width="100%"
-  figure-number="30"
+  figure-number="10"
   caption="Network Server Device Configuration (ABP)"
 />
 
@@ -178,7 +178,7 @@ Upon activation, this will be automatically populated in the case of OTAA. In ca
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-device-activation.png"
   width="100%"
-  figure-number="31"
+  figure-number="11"
   caption="Network Server Device Activation"
 />
 
@@ -189,7 +189,7 @@ You can send a downlink frame with this tool. The slider determines if the frame
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-device-downlink.png"
   width="100%"
-  figure-number="32"
+  figure-number="12"
   caption="Network Server Device Downlink"
 />
 
@@ -200,7 +200,7 @@ You can see the packets for the selected devices in real time in this section.
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-live-device-data.png"
   width="100%"
-  figure-number="33"
+  figure-number="13"
   caption="Network Server Device Live Data"
 />
 
@@ -211,13 +211,13 @@ This feature allows for integration of the **Built-in LoRa® Server** with an **
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-global-integration.png"
   width="100%"
-  figure-number="34"
+  figure-number="14"
   caption="Network Server Global Integration"
 />
 
 ### General Setup
 
-Again, you can refer to the [LoRaWAN® Gateway Configuration](web-management-platform.html#_2-lorawan®-gateway-mqtt-bridge) section for a detailed explanation of the parameters.
+Again, you can refer to the [LoRaWAN® Gateway Configuration](lorawan-gateway-configuration.html#_2-lorawan®-gateway-mqtt-bridge) section for a detailed explanation of the parameters.
 
 ### MQTT Topic Template Setup
 
@@ -226,6 +226,6 @@ Here you can get information on the topic templates: **Join Topic**, **Uplink To
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/global-integration-mqtt-template.png"
   width="100%"
-  figure-number="35"
+  figure-number="15"
   caption="NS Global Integration MQTT Topic Template"
 />

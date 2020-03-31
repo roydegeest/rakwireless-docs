@@ -23,7 +23,7 @@ params:
   src="/assets/images/quick-start-guide/rak7249/1.main/rak7249_overview.jpg"
   width="100%"
   figure-number="1"
-  caption="RAK7249 Macro Outdoor Gateway Support Plate Attachment"
+  caption="RAK7249 Macro Outdoor Gateway with Support Plate Attached"
 />
 
 ## Product Background
@@ -35,7 +35,7 @@ The LoRaWAN® Gateway provides for a solid out of the box experience for quick d
 Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or customization with regards to UI and functionality.
 
 <rk-btn
-  src="quick-start-guide/quick-start-guide.html"
+  src="quick-start-guide/#quick-start-guide"
   label="Setup your RAK7249 Macro Outdoor Gateway"
 />
 

@@ -21,6 +21,7 @@
 <rk-btn
   src="https://store.rakwireless.com/products/rak815-hybrid-location-tracker"
   label="Buy a RAK815 Hybrid Location Tracker"
+  _blank
 />
 
 :::tip Note: 

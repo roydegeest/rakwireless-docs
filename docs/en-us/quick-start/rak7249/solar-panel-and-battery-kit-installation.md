@@ -16,7 +16,7 @@ This document shows the step-by-step guide on how to set-up the Solar Panel and 
 
 ## Specifications
 
-### 1. Solar Panel
+### Solar Panel
 
 #### Dimensions
 The dimension of the Solar Panel included in the kit is **665 x 815 millimeter**. Provided in the image below is the detailed dimensions of the solar panel for extended functions. 
@@ -40,7 +40,7 @@ The table below is the electric characteristics of the Solar Panel included in t
 | Short Circuit Current (Isc) | 2.3-6.5 Amperes | 
 
 
-### 2. Lithium Battery
+### Lithium Battery
 
 #### Dimensions
 

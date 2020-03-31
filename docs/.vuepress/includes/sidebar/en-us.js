@@ -36,7 +36,7 @@ module.exports = {
       title: 'Product Overview',   // required
       path: '',      // optional, which should be a absolute path.
       collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      sidebarDepth: 1,    // optional, defaults to 1
       children: [
         '',
         {
@@ -46,7 +46,9 @@ module.exports = {
           path: '/en-us/quick-start/rak7249/quick-start-guide/',
           children: [
             'quick-start-guide/power-on-the-gateway',
-            'quick-start-guide/access-the-web-management-platform'
+            'quick-start-guide/access-the-gateway',
+            'quick-start-guide/access-the-internet',
+            'quick-start-guide/connecting-to-ttn'
           ]
         }
       ]
@@ -55,7 +57,7 @@ module.exports = {
       title: 'Product Configuration',   // required
       path: '',      // optional, which should be a absolute path.
       collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      sidebarDepth: 1,    // optional, defaults to 1
       children: [
         {
           title: "Web Management Platform",
@@ -121,7 +123,7 @@ module.exports = {
       title: 'Outdoor Deployment',   // required
       path: '',      // optional, which should be a absolute path.
       collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      sidebarDepth: 1,    // optional, defaults to 1
       children: [
         'gateway-installation-guide',
         'solar-panel-and-battery-kit-installation',
@@ -134,7 +136,7 @@ module.exports = {
       title: 'Product Overview',   // required
       path: '',      // optional, which should be a absolute path.
       collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      sidebarDepth: 1,    // optional, defaults to 1
       children: [
         '',
         {
@@ -156,7 +158,7 @@ module.exports = {
       title: 'Product Configuration',   // required
       path: '',      // optional, which should be a absolute path.
       collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      sidebarDepth: 1,    // optional, defaults to 1
       children: [
         {
           title: "Web Management Platform",
