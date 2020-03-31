@@ -7,7 +7,7 @@ static_root: /assets/images/quick-start-guide/rak8212/configuring-your-rak8212
 You can configure your RAK8212 iTracker Pro by sending AT Commands through Bluetooth.
 
 ::: tip Info
-For the complete list of AT Commands available for configuring your RAK8212 iTracker Pro, kindly check the [AT Commands for iTracker Pro](at-commands-for-rak8212) document.
+For the complete list of AT Commands available for configuring your RAK8212 iTracker Pro, kindly check the [AT Commands for iTracker Pro](at-commands-for-rak8212.md) document.
 :::
 
 ## Through BLE
@@ -48,7 +48,7 @@ For the complete list of AT Commands available for configuring your RAK8212 iTra
   caption="Nordic UART Service RX Characteristics"
 />
 
-5.You can now then send AT commands to the RAK8212 iTracker Pro. Meanwhile, you can also see log information in RTT Viewer as discussed in [Checking Device Logs](checking-device-logs) document.
+5.You can now then send AT commands to the RAK8212 iTracker Pro. Meanwhile, you can also see log information in RTT Viewer as discussed in [Checking Device Logs](checking-device-logs.md) document.
 
 - For example, if you want to check the current firmware’s version send the following command:
 

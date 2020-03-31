@@ -9,7 +9,7 @@ This document is a sample guide on how to connect you RAK8212 iTracker Pro to a 
 1.Insert a SIM Card into your RAK8212 iTracker Pro .
 
 2.Make sure that your
-RAK8212 iTracker Pro is connected to your mobile device over BLE according to the [Configuring your RAK8212](configuring-your-rak8212) document.
+RAK8212 iTracker Pro is connected to your mobile device over BLE according to the [Configuring your RAK8212](configuring-your-rak8212.md) document.
 
 3.Now, send “**at+scan=cellular**” from Mobile device over BLE to RAK8212 iTracker Pro as shown in the image below:
 

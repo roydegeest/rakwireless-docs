@@ -33,7 +33,7 @@ You can burn the bootloader on your RAK7200 by following the steps below:
   caption="STM32CubeProgrammer Interface"
 />
 
-- Choose the appropriate port number in the **COM Port** field. Open the [Interfacing with RAK7200](interfacing-with-rak7200) document to check the appropritate COM Port to be used for the demonstration.
+- Choose the appropriate port number in the **COM Port** field. Open the [Interfacing with RAK7200](interfacing-with-rak7200.md) document to check the appropritate COM Port to be used for the demonstration.
 - Set the Baud Rate to 115200, and the Parity to Even as seen in **Figure 3** then Press **Connect.**
 
 If you didn't properly set your RAK7200 device to work in BOOT Mode, you will see the following information in the Log Section of the Software:

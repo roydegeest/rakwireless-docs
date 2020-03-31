@@ -19,7 +19,7 @@ at+set_config=device:boot
   caption="Entering Boot Mode"
 />
 
-2.Download the **RAK Upgrade Tool** from the RAKwireless website [here](https://downloads.rakwireless.com/en/LoRa/RAK612-LoRaButton/Tools/RAK%20LoRaButton%20Upgrade%20Tool%20V1.0.zip) then, open the tool. Again, don't forget to choose the correct port! Open the [Interfacing with RAK7200](interfacing-with-rak7200) to know the appropriate COM Port used.
+2.Download the **RAK Upgrade Tool** from the RAKwireless website [here](https://downloads.rakwireless.com/en/LoRa/RAK612-LoRaButton/Tools/RAK%20LoRaButton%20Upgrade%20Tool%20V1.0.zip) then, open the tool. Again, don't forget to choose the correct port! Open the [Interfacing with RAK7200](interfacing-with-rak7200.md) to know the appropriate COM Port used.
 
 <rk-img
   :src="`${$frontmatter.static_root}/wgif92xy3kpypvwj78p2.jpg`"
@@ -74,4 +74,4 @@ at+set_config=device:restart
 
 This information means that you have uploaded the Firmware successfully!
 
-You can also configure your RAK7200 LPWAN Tracker Board using the available AT Commands listed in the [Configuring the RAK7200 using AT Commands](configuring-the-rak7200) section.
+You can also configure your RAK7200 LPWAN Tracker Board using the available AT Commands listed in the [Configuring the RAK7200 using AT Commands](configuring-the-rak7200.md) section.
