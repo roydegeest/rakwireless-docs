@@ -123,7 +123,7 @@ module.exports = {
       title: 'Outdoor Deployment',   // required
       path: '',      // optional, which should be a absolute path.
       collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      sidebarDepth: 2,    // optional, defaults to 1
       children: [
         'gateway-installation-guide',
         'solar-panel-and-battery-kit-installation',

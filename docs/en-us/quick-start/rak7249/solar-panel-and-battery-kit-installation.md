@@ -18,7 +18,7 @@ This document shows the step-by-step guide on how to set-up the Solar Panel and 
 
 ### Solar Panel
 
-#### Dimensions
+#### 1. Dimensions
 The dimension of the Solar Panel included in the kit is **665 x 815 millimeter**. Provided in the image below is the detailed dimensions of the solar panel for extended functions. 
 
 <rk-img
@@ -28,7 +28,7 @@ The dimension of the Solar Panel included in the kit is **665 x 815 millimeter**
   caption="Solar Panel Dimensions"
 />
 
-#### Electrical Characteristics
+#### 2. Electrical Characteristics
 
 The table below is the electric characteristics of the Solar Panel included in the kit. It is best advised to have your electric parameters within the set values to maximize its functions and to avoid damage which could furtherly affect your RAK7249 - Macro Outdoor Gateway's performance.
 
@@ -42,15 +42,15 @@ The table below is the electric characteristics of the Solar Panel included in t
 
 ### Lithium Battery
 
-#### Dimensions
+#### 1. Dimensions
 
 The dimensions of the Lithium Battery included in the kit is **140 x 90 x 350 millimeter**.
 
-#### Operational Temperature
+#### 2. Operational Temperature
 
 The operational temperature of the Lithium Battery is **-20˚C ~ 60˚C**. It is advised to have your ambient temperature be within this temperature range to avoid failures or damage to the battery. 
 
-#### Electrical Characteristics
+#### 3. Electrical Characteristics
 
 | Nominal Output Voltage | 12.6 Volts | 
 | ---- | ---- | 
