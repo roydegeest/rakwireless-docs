@@ -145,4 +145,4 @@ For failed auto-downloading of your Final Customized Firmware instances, kindly 
   caption="Final Customized Firmware sample File"
 />
 
-9.The **newly compiled .bin file** will then be burned into your device by following the steps in the [Device Firmware Setup](device-firmware-setup) document.
+9.The **newly compiled .bin file** will then be burned into your device by following the steps in the [Device Firmware Setup](device-firmware-setup.html) document.
