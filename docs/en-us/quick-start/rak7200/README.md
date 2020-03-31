@@ -32,7 +32,7 @@ The **RAK7200** is an LPWAN Tracker device with a 3.7V rechargeable Li-Ion batte
 The device can be used as a quick prototyping tool for LoRaWAN® application development. It is suited for IoT Applications such as asset tracking, smart vehicle management and location-based services.
 
 <rk-btn
-  src="quick-start-guide.md"
+  src="quick-start-guide.html"
   label="Set up Your RAK7200 LPWAN Tracker"
 />
 

@@ -37,7 +37,7 @@ live tracking and environment sensing.
 Applications can be made with the RAK8212 like Vehicle location/fleet transportation management, Safety monitoring of old/young children, Animal protection and animal husbandry management, Loss of assets / personnel positioning and Other remote, battery powered applications.
 
 <rk-btn
-  src="quick-start-guide.md"
+  src="quick-start-guide.html"
   label="Set up Your RAK8212 iTracker Pro"
 />
 
