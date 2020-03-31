@@ -653,5 +653,36 @@ module.exports = {
       ]
     }
   ],
+  '/en-us/quick-start/rak8212/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        'quick-start-guide'
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'checking-device-logs',
+        'at-commands-for-rak8212',
+        'configuring-your-rak8212',
+        'connecting-to-cellular-network'
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'device-firmware-setup',
+        'rui-online-compiler'
+      ]
+    }
+  ],
 
 }
