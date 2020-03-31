@@ -506,9 +506,9 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
-       'interfacing-with-rak815',
-       'configuring-the-lorawan',
-       'application-demonstration'
+        'interfacing-with-rak815',
+        'configuring-the-lorawan',
+        'application-demonstration'
       ]
     },
     {
@@ -602,6 +602,56 @@ module.exports = {
 
     }
 
-  ]
+  ],
+  '/en-us/quick-start/rak7200/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        'quick-start-guide'
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'interfacing-with-rak7200',
+        'configuring-the-rak7200',
+        {
+          title: "Connecting to the Things Network (TTN)",
+          collapsable: false,
+          nested: true,
+          path: '/en-us/quick-start/rak7200/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa-mode',
+            'connecting-to-ttn/ttn-abp-mode'
+          ]
+        },
+        {
+          title: "Connecting to ChirpStack",
+          collapsable: false,
+          nested: true,
+          path: '/en-us/quick-start/rak7200/connecting-to-chirpstack/',
+          children: [
+            'connecting-to-chirpstack/chirpstack-otaa-mode',
+            'connecting-to-chirpstack/chirpstack-abp-mode'
+          ]
+        },
+        'decoding-sensor-data'
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'burning-the-bootloader',
+        'upgrading-the-firmware'
+      ]
+    }
+  ],
 
 }
