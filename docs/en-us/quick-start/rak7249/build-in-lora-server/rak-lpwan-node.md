@@ -8,7 +8,7 @@ This document discusses the steps on how to add your RAK811 LPWAN Node Applicati
 
 ## Register the Application
 
-1. Connect your RAK811 to your computer by following the [Interfacing](https://doc.rakwireless.com/rak811-lora-evaluation-board/interfacing-with-rak811-lora---evaluation-board) section or the RAK811 LPWAN Node. Once connecting is successful, open the RAK Serial Port Tool and press the **RESET Button (RST)** to reboot your device to check the LoRa® parameters same with the image shown below:
+1. Connect your RAK811 to your computer by following the [Interfacing your RAK811 LPWAN Node](/en-us/quick-start/rak811/interfacing-with-rak811.html) section or the RAK811 LPWAN Node. Once connecting is successful, open the RAK Serial Port Tool and press the **RESET Button (RST)** to reboot your device to check the LoRa® parameters same with the image shown below:
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/6.build-in-lora-server-rak811/rak811-parameters.png"
