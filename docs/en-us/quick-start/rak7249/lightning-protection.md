@@ -58,6 +58,7 @@ due to lightning strike!
 <rk-btn
   src="https://store.rakwireless.com/products/lightning-arrestor"
   label="Buy a Lightning Arrestor For LoRa®, LTE and Wi-Fi"
+  _blank
 />
 
 This is a surge protective device for securing transceivers against over-voltage and surge current induced by bolts of lightning. RAKwireless recommends installing lightning arrestor on all N-type antenna terminals including LoRa®, LTE, and 2.4G Wi-Fi antennas.
@@ -74,6 +75,7 @@ This is a surge protective device for securing transceivers against over-voltage
 <rk-btn
   src="https://store.rakwireless.com/products/lightning-arrestor-for-gps-antenna"
   label="Buy a Lightning Arrestor for GPS"
+  _blank
 />
 
 This lightning arrestor connects between antenna and GPS receiver. A surge protection device for securing transceiver against transients, over-voltage, and surge currents induced by bolts of lightning.
@@ -94,6 +96,7 @@ By adopting a high pass filter, this product can effectively suppress the low-fr
 <rk-btn
   src="https://store.rakwireless.com/products/antenna-feeder-line"
   label="Buy an Antenna Feeder Line"
+  _blank
 />
 
 Antenna Feeder Line for RAK7249 Lightning Protection. This antenna feeder line is an NJ-NF adapter cable with a length of 1.5m. It is an RG8 coaxial cable with N-type connector as the antenna feeder.
@@ -110,6 +113,7 @@ Antenna Feeder Line for RAK7249 Lightning Protection. This antenna feeder line i
 <rk-btn
   src="https://store.rakwireless.com/products/signal-surge-protective"
   label="Buy a Signal Surge Protective Device"
+  _blank
 />
 
 This surge protective device is suitable to Category 6 cable or Class E cable for protection of equipment from surge and over-voltage induced by lightning or produced in the inner systems. It is widely used in office and industry comprehensive network wiring projects or the similar telecommunication applications, such as Gigabit Ethernet, ATM, ISDN and VoIP systems.
@@ -130,6 +134,7 @@ Multiple stage protection structure provides good protection of lightning effect
 <rk-btn
   src="https://store.rakwireless.com/products/cat5-ethernet-cable"
   label="Buy an Ethernet Cable"
+  _blank
 />
 
 CAT5 Ethernet Cable for outdoor surge protection system. It is used for connections between the PoE injector, Ethernet SPD, router/switch, and the Ethernet/PoE port on RAK7249. The length of this product is 1 meter.

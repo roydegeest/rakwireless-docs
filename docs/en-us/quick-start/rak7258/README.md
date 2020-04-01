@@ -39,7 +39,7 @@ The Gateway has Line-of-Sight (LoS) ranges of up to 15 km, while for highly urba
 The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and anchors. It is a full 8-channel LoRaWAN® Gateway with built-in Ethernet connectivity for a straightforward.
 
 <rk-btn
-  src="quick-start-guide/quick-start-guide.html"
+  src="quick-start-guide/#quick-start-guide"
   label="Setup your RAK7258 Micro Gateway"
 />
 

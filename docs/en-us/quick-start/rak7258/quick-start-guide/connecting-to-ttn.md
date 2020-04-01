@@ -37,4 +37,8 @@ The Things Network is about enabling low power devices to use long range gateway
   caption="Gateway successfully connected to The Things Network (TTN)"
 />
 
+:::tip Note:
+:pencil: By default, the Gateway is set to connect to TTN. For detailed information about advanced configuration options refer to the [LoRaWAN® Gateway Configuration](../web-management-platform/lorawan-gateway-configuration.html#_1-lora®-packet-forwarder) section.
+:::
+
 

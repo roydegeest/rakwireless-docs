@@ -37,7 +37,7 @@ In this section, we will demonstrate on how to point the External RAK7249-B Macr
 
 ## Registering RAK7249-B in RAK7249-A's LoRa® Network Server
 
-This procedure is the same as when you registered RAK7249-A in its built-in LoRa® Network Server. Please refer to the [Set-up RAK7249-A with Built-in LoRa® Network  Server](https://doc.rakwireless.com/rak7249-macro-outdoor-gateway/rak7249-build-in-lora-network-server-sc2#register-rak7249-gateway) and repeat the process. The image below is the representation of what your configuration should look like with the two Gateways are added.
+This procedure is the same as when you registered RAK7249-A in its built-in LoRa® Network Server. Please refer to the [Set-up RAK7249-A with Built-in LoRa® Network  Server](/en-us/quick-start/rak7249/multi-rak-gateway-mesh/gateway-a-built-in-ns.html#register-rak7249-gateway) and repeat the process. The image below is the representation of what your configuration should look like with the two Gateways are added.
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/gateway-list.png"

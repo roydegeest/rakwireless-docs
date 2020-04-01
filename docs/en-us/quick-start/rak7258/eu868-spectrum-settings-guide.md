@@ -1,5 +1,5 @@
 
-# EU868 Spectrum Settings Guide
+# EU868 Spectrum Settings
 
 This is the LoRa RF Radio unit. It integrated two **Semtech SX1257** front-end modules with the
 most popular LoRaWAN® Baseband chip, the **SX1301**. Because of the design of the
@@ -18,15 +18,7 @@ channels/Radio rule is obeyed.
 Let us take as an example the **EU863-870 frequency band**. When accessing the Web Management Platform, there is a template for it that you can
 import directly which would not need to set every channel manually. However, the way it has been configured is in accordance with principles that apply for any band.
 
-## Setting the Center Frequencies
-
-<rk-img
-  src="/assets/images/quick-start-guide/rak7258/4.loraspectrumeu868/eu868freqtemplate.png"
-  width="60%"
-  figure-number="1"
-  caption="Default Frequency Template in the Web Management Platform"
-/>
-
+## Center Frequency Settings
 
 1. Set the Center Frequencies for the two Radios
 
@@ -43,8 +35,16 @@ import directly which would not need to set every channel manually. However, the
 |**Radio 0** Tx Minimum Frequency|863000000 (863 MHz)| 
 |**Radio 1** Tx Maximum Frequency|870000000 (870 MHz)| 
 
+* The image below shows what the values for the EU863-870 band should be.
 
-## Selecting the Radios/Channels
+<rk-img
+  src="/assets/images/quick-start-guide/rak7258/4.loraspectrumeu868/eu868freqtemplate.png"
+  width="60%"
+  figure-number="1"
+  caption="Default Frequency Template in the Web Management Platform"
+/>
+
+## Radios/Channels Selection
 
 Let us have a summary of the parameters that can be seen in the image below, which is below the Radio
 0 and Radio 1 frequency fields we talked about in the previous section.
@@ -67,7 +67,7 @@ Let us have a summary of the parameters that can be seen in the image below, whi
 |Datarate| Essentially this is the Spreading Factor (SF) as it is directly related to the bitwise data rate. The MultiSF channels can dynamically use any of the available SFs (SF7 – SF12). The Standard LoRa® channel has to have a single value assigned (SF7 - SF12). The FSK channel has a field with a numeric value to be entered in bps. In order to have each channel at the desired frequency the user needs to set the appropriate offset from the central frequency. This way you can end up with a number of channels spread above and below the center frequency | 
 
 
-## Setting the Frequency Offset
+## Offset Frequency Settings
 
 The (The Things Network) TTN Frequency Plan for the EU863-868 region is listed below. You may check other (The Things Network) TTN [Frequency Plan Documentations](https://www.thethingsnetwork.org/docs/lorawan/frequency-plans.html).
 

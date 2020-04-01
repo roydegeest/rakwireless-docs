@@ -7,7 +7,7 @@ This is the section where you configure general device parameters.
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/system-tab.png"
   width="100%"
-  figure-number="38"
+  figure-number="1"
   caption="System Tab"
 />
 
@@ -34,7 +34,7 @@ This is where you change the administration password of the device.
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/admin-tab.png"
   width="100%"
-  figure-number="39"
+  figure-number="2"
   caption="Administration Tab"
 />
 
@@ -45,7 +45,7 @@ This is the status of your license. You can see the Type, Number of Supported No
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/license-tab.png"
   width="100%"
-  figure-number="40"
+  figure-number="3"
   caption="License Tab"
 />
 
@@ -54,7 +54,7 @@ This is the status of your license. You can see the Type, Number of Supported No
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/backup.png"
   width="100%"
-  figure-number="41"
+  figure-number="4"
   caption="Backup, reset and firmware update"
 />
 
@@ -74,7 +74,7 @@ Reboots the gateway. All unsaved changes will be discarded. This is not a reset 
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/reboot.png"
   width="100%"
-  figure-number="42"
+  figure-number="5"
   caption="System reboot"
 />
 
@@ -85,6 +85,6 @@ This gives you access to the files in the **root** partition.
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/3.web management platform/file-browser.png"
   width="100%"
-  figure-number="43"
+  figure-number="6"
   caption="File Browser"
 />

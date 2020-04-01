@@ -21,6 +21,7 @@ Before going through each and every step in the installation guide of the RAK426
 <rk-btn
   src="https://store.rakwireless.com/products/rak4260-evaluation-board"
   label="Buy a RAK4260 LPWAN Evaluation Board"
+  _blank
 />
 
 ## What's included in the Package?
