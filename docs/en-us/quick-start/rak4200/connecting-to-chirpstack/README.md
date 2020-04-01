@@ -1,8 +1,9 @@
 ---
 static_root: /assets/images/quick-start-guide/rak4200/5. connecting-to-chirpstack
-# next: chirpstack-otaa
+next: chirpstack-otaa
+# title: Connecting with Chirpstack
 ---
-# Connecting to Chirpstack
+<!-- ## Connecting with Chirpstack -->
 The **ChirpStack** or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [**here**](https://www.chirpstack.io/).
 
 :::tip Note:
@@ -42,7 +43,7 @@ The **ChirpStack** or previously known as LoRaServer project provides open-sourc
   :src="`${$frontmatter.static_root}/r2ikjxdaluvfxbqhaccc.png`"
   width="100%"
   figure-number="4"
-  caption=" Chirpstack Choosing RAK4200 LPWAN Evaluation Board Application"
+  caption=" Applications Page in Chirpstack"
 />
 
 5. Add a LoRa® node device into ChirpStack by clicking the “**CREATE**” button:

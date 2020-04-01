@@ -686,5 +686,58 @@ module.exports = {
       ]
     }
   ],
+  '/en-us/quick-start/rak7204/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        'quick-start-guide'
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'interfacing',
+        'configuring-using-at-commands',
+        {
+          title: "Connecting to the Things Network (TTN)",
+          collapsable: false,
+          nested: true,
+          path: '/en-us/quick-start/rak7204/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa',
+            'connecting-to-ttn/ttn-abp'
+          ]
+        },
+        {
+          title: "Connecting to Chirpstack",
+          collapsable: false,
+          nested: true,
+          path: '/en-us/quick-start/rak7204/connecting-to-chirpstack/',
+          children: [
+            'connecting-to-chirpstack/chirpstack-otaa',
+            'connecting-to-chirpstack/chirpstack-abp'
+          ]
+        },
+        'decoding-ttn',
+        'lora-p2p-mode',
+        
+      ],
+      
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+      'burning-bootloader',
+      'burning-firmware'
+      ]
+    }
+  ],
 
 }
