@@ -36,7 +36,7 @@ module.exports = {
       title: 'Product Overview',   // required
       path: '',      // optional, which should be a absolute path.
       collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      sidebarDepth: 2,    // optional, defaults to 1
       children: [
         '',
         {
@@ -46,9 +46,7 @@ module.exports = {
           path: '/en-us/quick-start/rak7249/quick-start-guide/',
           children: [
             'quick-start-guide/power-on-the-gateway',
-            'quick-start-guide/access-the-gateway',
-            'quick-start-guide/access-the-internet',
-            'quick-start-guide/connecting-to-ttn'
+            'quick-start-guide/access-the-web-management-platform'
           ]
         }
       ]
@@ -57,7 +55,7 @@ module.exports = {
       title: 'Product Configuration',   // required
       path: '',      // optional, which should be a absolute path.
       collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      sidebarDepth: 2,    // optional, defaults to 1
       children: [
         {
           title: "Web Management Platform",
@@ -136,7 +134,7 @@ module.exports = {
       title: 'Product Overview',   // required
       path: '',      // optional, which should be a absolute path.
       collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      sidebarDepth: 2,    // optional, defaults to 1
       children: [
         '',
         {
@@ -158,7 +156,7 @@ module.exports = {
       title: 'Product Configuration',   // required
       path: '',      // optional, which should be a absolute path.
       collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      sidebarDepth: 2,    // optional, defaults to 1
       children: [
         {
           title: "Web Management Platform",
@@ -686,7 +684,55 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak7204/': [
+  '/en-us/quick-start/rak811-breakout/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        'quick-start-guide'
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'interfacing-with-rak811-breakout',
+        'configuring-rak811-breakout',
+        {
+          title: "Connecting to the Things Network (TTN)",
+          collapsable: false,
+          nested: true,
+          path: '/en-us/quick-start/rak811-breakout/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa-mode',
+            'connecting-to-ttn/ttn-abp-mode'
+          ]
+        },
+        {
+          title: "Connecting to ChirpStack",
+          collapsable: false,
+          nested: true,
+          path: '/en-us/quick-start/rak811-breakout/connecting-to-chirpstack/',
+          children: [
+            'connecting-to-chirpstack/chirpstack-otaa-mode',
+            'connecting-to-chirpstack/chirpstack-abp-mode'
+          ]
+        },
+        'lora-p2p-mode'
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'upgrading-the-firmware'
+      ]
+    }
+  ],'/en-us/quick-start/rak7204/': [
     {
       title: 'Product Overview',
       collapsable: false,
