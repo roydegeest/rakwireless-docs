@@ -1,3 +1,7 @@
+---
+next: /en-us/quick-start/rak7249/build-in-lora-server/#build-in-lora-network-server-configuration
+---
+
 # KR920 Spectrum Settings
 
 This is the LoRa RF Radio unit. It integrated two **Semtech SX1257** front-end modules with the most popular LoRaWAN® Baseband chip, the **SX1301**. Because of the design of the concentrator module, there are two separate RX chains, which need to have the proper number of channels assigned in order for the module to function optimally. The chains are referred to as Radio 0 and Radio 1 in the Web Management Platform.

@@ -1,3 +1,6 @@
+---
+next: pin-definition-rak831
+---
 
 # Board Overview
 

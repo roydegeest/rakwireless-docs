@@ -1,3 +1,7 @@
+---
+next: /en-us/datasheet/rak4200/#rak4200-lpwan-module
+---
+
 # RF Characteristics
 
 ## Transmitter RF Characteristics
@@ -5,7 +9,7 @@
 The RAK831 has an excellent transmitter performance . It is highly recommended to use the optimized configuration for the power level configuration, which is part of the HAL. This results in a mean RF output power level and current consumption.
 
 | PA Control | DAC Control | MIX Control | DIG Gain | Nominal RF Power Level \[dBm\] | 
-| ---- | ---- | ---- | ---- | ---- | 
+| :---: | :---: | :---: | :---: | :---: | 
 | 0 | 3 | 8 | 0 | -5 | 
 | 0 | 3 | 9 | 0 | -3 | 
 | 0 | 3 | 11 | 0 | 0 | 
@@ -45,8 +49,8 @@ It is highly recommended to use optimized RSSI calibration values, which is part
 
 The following table gives typically sensitivity level of the RAK831 :
 
-| Signal Bandwidth/\[KHz\] | Spreading Factor | Sensitivity/\[dBm\] | 
-| ---- | ---- | ---- | 
+| Signal Bandwidth [KHz] | Spreading Factor | Sensitivity [dBm] | 
+| :----: | :----: | :----: | 
 | 125 | 12 | -137 | 
 | 125 | 7 | -126 | 
 | 250 | 12 | -136 | 

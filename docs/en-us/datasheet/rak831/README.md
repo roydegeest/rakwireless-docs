@@ -1,3 +1,6 @@
+---
+next: board-overview-rak831
+---
 # RAK831 LPWAN Gateway Concentrator
 
 <rk-img

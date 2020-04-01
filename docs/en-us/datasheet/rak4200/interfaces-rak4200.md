@@ -1,4 +1,4 @@
-# Interface
+# Interfaces
 
 ## Block Diagram
 

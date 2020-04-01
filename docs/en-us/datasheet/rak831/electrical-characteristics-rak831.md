@@ -1,3 +1,7 @@
+---
+next: rf-characteristics-rak831
+---
+
 # Electrical Characteristics
 
 Listed in this document are the differenct electrical characteristics of RAK831 LPWAN Gateway.

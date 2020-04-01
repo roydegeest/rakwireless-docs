@@ -11,12 +11,12 @@ Dynamic DNS allows your router to be reached via a fixed host name while having 
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/dynamic-dns.png"
   width="100%"
-  figure-number="36"
+  figure-number="1"
   caption="Dynamic DNS Tab"
 />
 
 :::tip Note
-:pencil: Make sure to go through the **Hints** in order to get some understanding of how Dynamic DNS functions as a whole. You can do this by clicking on the \u201c**Show more**\u201d text in the Hints field
+:pencil: Make sure to go through the **Hints** in order to get some understanding of how Dynamic DNS functions as a whole. You can do this by clicking on the **Show more** text in the Hints field
 :::
 
 ### Overview
@@ -30,6 +30,6 @@ This is where you can create and new tunnels and monitor existing ones. You can 
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/openvpn-tunnels.png"
   width="100%"
-  figure-number="37"
+  figure-number="2"
   caption="OpenVPN Tunnels Tab"
 />

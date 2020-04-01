@@ -1,10 +1,14 @@
+---
+next: /en-us/quick-start/rak7258/multi-rak-gateway-mesh/#multi-rak-gateway-mesh
+---
+
 # RAK LPWAN Node
 
 This document discusses the steps on how to add your RAK811 LPWAN Node Application into the Built-in LoRa® Network Server demonstration. For this demonstration, it is best advised to use our very own [RAK Serial Port Tool](https://downloads.rakwireless.com/en/LoRa/Tools/).
 
 ## Registering the Application
 
-1. Connect your RAK811 to your computer by following the [Interfacing](https://doc.rakwireless.com/rak811-lora-evaluation-board/interfacing-with-rak811-lora---evaluation-board) section or the RAK811 LPWAN Node. Once connecting is successful, open the RAK Serial Port Tool and press the **RESET Button (RST)** to reboot your device to check the LoRa® parameters same with the image shown below:
+1. Connect your RAK811 to your computer by following the <a href="/en-us/quick-start/rak811/interfacing-with-rak811.html " target="blank">Interfacing with RAK811</a> section or the RAK811 LPWAN Node. Once connecting is successful, open the RAK Serial Port Tool and press the **RESET Button (RST)** to reboot your device to check the LoRa® parameters same with the image shown below:
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/6.build-in-lora-server-rak811/rak811-parameters.png"
@@ -16,7 +20,7 @@ This document discusses the steps on how to add your RAK811 LPWAN Node Applicati
 * In case your device is already configured to work in OTAA same with the image above, it will attempt connecting to the gateway but does not get authenticated as it is not registered yet and needs to be configured first.
 
 :::tip Note:
-:pencil:Open the [Configuring your RAK811 LPWAN Node](https://doc.rakwireless.com/rak811-lora-evaluation-board/configuring-your-rak811-evaluation-board) section of the RAK811 LPWAN Node to check the complete list of AT Commands compatible.
+:pencil:Open the <a href="/en-us/quick-start/rak811/configuring-your-rak811.html" target="blank">Configuring your RAK811</a> section of the RAK811 LPWAN Node to check the complete list of AT Commands compatible.
 :::
 
 2. Set the Region/Band by plugging in the AT Command below in the RAK Serial Port Tool. For this demonstration, EU868 frequency band shall be used.

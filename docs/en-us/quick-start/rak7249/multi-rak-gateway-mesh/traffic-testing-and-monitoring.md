@@ -1,3 +1,7 @@
+---
+next: /en-us/quick-start/rak7249/amazon-web-service/#amazon-web-service
+---
+
 # Traffic Testing and Monitoring
 
 ## Uplink
@@ -10,7 +14,7 @@ Now your RAK811 LoRa® Node is authenticated with the built-in LoRa® Server. As
     * **device_EUI**: is the Device EUI of the RAK811 LoRa® Node
 
 ```sh
-mosquitto_sub -t application\/{{application_ID}}\/device\/{{device_EUI}}\/rx -v",
+mosquitto_sub -t application\/{{application_ID}}\/device\/{{device_EUI}}\/rx -v
 ```
 
 <rk-img

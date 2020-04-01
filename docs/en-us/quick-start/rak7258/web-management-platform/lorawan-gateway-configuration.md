@@ -13,7 +13,7 @@ As this is the most important part of the LoRaWAN® Gateway, the number of setti
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/lora-packet-forwder.png"
   width="100%"
-  figure-number="12"
+  figure-number="1"
   caption="LoRa® Packet Forwarder Page"
 />
 
@@ -39,7 +39,7 @@ In the case of Class B LoRa® devices, you need to have a beacon in order to syn
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/beacon-setup.png"
   width="100%"
-  figure-number="13"
+  figure-number="2"
   caption="Beacon Setup Page"
 />
 
@@ -52,7 +52,7 @@ The **Enable Auto Filter** slider allows nodes to be automatically dropped in ac
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/packet-filter-page.png"
   width="100%"
-  figure-number="14"
+  figure-number="3"
   caption="Packet Filter Page"
 />
 
@@ -63,7 +63,7 @@ In case, you want to enter the GPS parameters for the Gateway manually. Just inp
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/gps-information-page.png"
   width="100%"
-  figure-number="15"
+  figure-number="4"
   caption="GPS Information Page"
 />
 
@@ -80,7 +80,7 @@ This is a part of the page, common for all gateway from the RAK72xx series, howe
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/standard-freq-plan.png"
   width="100%"
-  figure-number="16"
+  figure-number="5"
   caption="Frequency Plan (Standard Mode)"
 />
 
@@ -89,7 +89,7 @@ This is a part of the page, common for all gateway from the RAK72xx series, howe
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/advanced-freq-plan.png"
   width="100%"
-  figure-number="17"
+  figure-number="6"
   caption="Frequency Plan (Advanced Mode)"
 />
 
@@ -100,7 +100,7 @@ The Gateway is capable of working with an external LoRa® Server, where the MQTT
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/mqtt-bridge-setup.png"
   width="100%"
-  figure-number="18"
+  figure-number="7"
   caption="MQTT Bridge Setup Page"
 />
 
@@ -154,7 +154,7 @@ Refer to the image below for the MQTT 2x Topic Template:
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/mqtt-2x.png"
   width="100%"
-  figure-number="19"
+  figure-number="8"
   caption="MQTT 2x Setup Page"
 />
 
@@ -163,6 +163,6 @@ Refer to the image below for the MQTT 3x Topic Template, which both the loraserv
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/mqtt-3x.png"
   width="100%"
-  figure-number="20"
+  figure-number="9"
   caption="MQTT 3x Setup Page"
 />

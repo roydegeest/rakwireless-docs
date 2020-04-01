@@ -1,3 +1,7 @@
+---
+next: interfaces-rak831
+---
+
 # Pin Definition
 
 The RAK831 provides headers at the bottom side, which have a pitch of **2.54 mm**. The description of the pins is given by the table below. 

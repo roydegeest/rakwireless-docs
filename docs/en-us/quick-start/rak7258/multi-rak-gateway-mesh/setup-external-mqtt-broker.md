@@ -104,7 +104,7 @@ We will now then configure the Gateway to connect to our external MQTT broker. F
   caption="Setting up the Global Integration"
 />
 
-Now that the Gateway parameters are set, we will now register your application in order to be able to send and receive data. We are going to use the **RAK811® LoRa Node** as an example in the next sub-section.
+Now that the Gateway parameters are set, we will now register your application in order to be able to send and receive data. We are going to use the **RAK811® LPWAN Node** as an example in the next sub-section.
 
 ## Downlink
 

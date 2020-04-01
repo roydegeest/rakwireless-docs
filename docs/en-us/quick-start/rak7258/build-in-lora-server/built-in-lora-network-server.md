@@ -5,12 +5,12 @@ next: rak-lpwan-node
 # Gateway Built-in LoRa® NS
 This document is the detailed discussion on how to set-up the built-in LoRa® Server for your RAK7258 Micro Gateway using the Web Management Platform.
 
-We will first set-up the built-in LoRa®  network server. Before going through the steps, access the Web Management Platform as discussed in the prior section.
+We will first set-up the built-in LoRa® network server. Before going through the steps, access the Web Management Platform as discussed in the prior section.
 
 ## Packet Forwarder Set-up 
 
 :::tip Note
-:pencil: For other settings and detailed documentation for this section, kindly browse the [LoRaWAN Gateway Configuration](https://doc.rakwireless.com/rak7249-macro-outdoor-gateway/lora-gateway-configuration#general-setup) section.
+:pencil: For other settings and detailed documentation for this section, kindly browse the [LoRaWAN Gateway Configuration](../web-management-platform/lorawan-gateway-configuration.html#general-setup) section.
 :::
 
 1. By navigating through LoRa® Gateway tab-> LoRa® Packet Forwarder-> General Setup, set the Protocol in the drop-down list to **Build-in LoRa ® Server**.
@@ -27,7 +27,7 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 ## Configure the LoRa® Server
 
 :::tip Note
-:pencil: For other settings and detailed documentation for this section, kindly browse the [LoRa Network Server](https://doc.rakwireless.com/rak7249-macro-outdoor-gateway/lora-network-server#2-general) section.
+:pencil: For other settings and detailed documentation for this section, kindly browse the [LoRa Network Server](../web-management-platform/lora-network-server.html#_2-general) section.
 :::
 
 1. Navigate through LoRa® Network Server tab -> General and turn-on this feature using the Enable slider. 

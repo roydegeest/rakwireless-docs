@@ -9,7 +9,7 @@ next: lorawan-gateway-configuration
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/network-wan-interface.png"
   width="100%"
-  figure-number="6"
+  figure-number="1"
   caption="WAN Interface Configuration"
 />
 
@@ -22,7 +22,7 @@ Additionally, one can set the **Gateway metric** (how high is this interface in 
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/network-cellular-interface.png"
   width="100%"
-  figure-number="7"
+  figure-number="2"
   caption="Cellular Interface Configuration"
 />
 
@@ -37,7 +37,7 @@ The same statistics as with the WAN Interface are available. It is here that you
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/network-wifi-config.png"
   width="100%"
-  figure-number="8"
+  figure-number="3"
   caption="Wi-Fi Configuration"
 />
 
@@ -56,7 +56,7 @@ Enabling/Disabling the Wi-Fi is done from this page via the blue button at the t
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/network-firewall.png"
   width="100%"
-  figure-number="9"
+  figure-number="4"
   caption="Firewall"
 />
 
@@ -67,7 +67,7 @@ You can configure a number of settings including, but not limited to: **Zones**,
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/network-diagnostics.png"
   width="100%"
-  figure-number="10"
+  figure-number="5"
   caption="Diagnostics"
 />
 
@@ -80,7 +80,7 @@ You can enter either an URL or an IP Address in the text box and execute the com
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/3.web management platform/network-ping-watchdog.png"
   width="100%"
-  figure-number="11"
+  figure-number="6"
   caption="Ping Watchdog"
 />
 

@@ -1,3 +1,7 @@
+---
+next: electrical-characteristics-rak831
+---
+
 # Interfaces
 
 ## SX1301
@@ -77,11 +81,11 @@ In case of available PPS signals in the target system, it is possible to connect
 
 There are five GPIOs of the Sx1301 available, which gives the user some possibilities to get information about the system status. Theses pins are the same, as they are used for the LEDs on the RAK831 .
 
-* As default setting the LEDs 
-    1. Backhaul packet
-    2. TX packet
-    3. RX Sensor packet
-    4. RX FSK packet
-    5. RX buffer not empty
-    6. Power
+As default setting the LEDs 
+  1. Backhaul packet
+  2. TX packet
+  3. RX Sensor packet
+  4. RX FSK packet
+  5. RX buffer not empty
+  6. Power
 

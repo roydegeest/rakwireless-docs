@@ -1,4 +1,5 @@
 ---
+next: /en-us/quick-start/rak7258/quick-start-guide/#quick-start-guide
 params:
   qlinks1:
     learnMore:
@@ -34,7 +35,7 @@ Power-over-Ethernet (PoE) is supported to serve cases where wall or ceiling moun
 
 The open source software for the management and configuration of this gateway device is based on OpenWRT. It has a built-in LoRa® packet forwarder and a graphical user interface, allowing for a quick set-up without giving up the freedom of a fully customized solution.
 
-The Gateway has Line-of-Sight (LoS) ranges of up to 15 km, while for highly urbanized environments it can cover more than 2 km. IT is a perfect solution for any LoRaWAN® use case scenario.
+The Gateway has Line-of-Sight (LoS) ranges of up to **15 kilometers**, while for highly urbanized environments it can cover more than **2 kilometers**. It is a perfect solution for any LoRaWAN® use case scenario.
 
 The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and anchors. It is a full 8-channel LoRaWAN® Gateway with built-in Ethernet connectivity for a straightforward.
 

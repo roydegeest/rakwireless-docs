@@ -1,3 +1,7 @@
+---
+next: /en-us/quick-start/rak7258/web-management-platform/#web-management-platform
+---
+
 # Connecting to The Things Network (TTN)
 
 The Things Network is about enabling low power devices to use long range gateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about The Things Network [here](https://www.thethingsnetwork.org/docs/).
@@ -32,7 +36,7 @@ The Things Network is about enabling low power devices to use long range gateway
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/2.quickstart/ttn-successful.png"
-  width="50%"
+  width="75%"
   figure-number="3"
   caption="Gateway successfully connected to The Things Network (TTN)"
 />
