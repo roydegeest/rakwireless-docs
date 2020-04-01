@@ -50,7 +50,7 @@ The Application EUI which will be set into RAK7200 LPWAN Tracker as “**app_eui
 
 <rk-img
   :src="`${$frontmatter.static_root}/ah9sepdjjxtslo8od3ia.jpg`"
-  width="100%"
+  width="60%"
   figure-number="5"
   caption="RAK Serial Port Tool"
 />
@@ -86,7 +86,7 @@ The Application EUI which will be set into RAK7200 LPWAN Tracker as “**app_eui
 
 <rk-img
   :src="`${$frontmatter.static_root}/wmzhsi9rjkdkpykwdfyx.jpg`"
-  width="100%"
+  width="60%"
   figure-number="9"
   caption="Joining in OTAA"
 />

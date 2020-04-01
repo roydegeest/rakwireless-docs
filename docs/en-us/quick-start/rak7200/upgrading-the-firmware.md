@@ -23,7 +23,7 @@ at+set_config=device:boot
 
 <rk-img
   :src="`${$frontmatter.static_root}/wgif92xy3kpypvwj78p2.jpg`"
-  width="100%"
+  width="90%"
   figure-number="2"
   caption="RAK Upgrade Tool"
 />
@@ -32,7 +32,7 @@ at+set_config=device:boot
 
 <rk-img
   :src="`${$frontmatter.static_root}/s1dr3hct65lnxow3cequ.jpg`"
-  width="100%"
+  width="90%"
   figure-number="3"
   caption="Choosing the Correct Firmware file"
 />
@@ -41,7 +41,7 @@ at+set_config=device:boot
 
 <rk-img
   :src="`${$frontmatter.static_root}/vx4irgqjudaszyizfebc.jpg`"
-  width="100%"
+  width="90%"
   figure-number="4"
   caption="Firmware Upgrading in Process"
 />
@@ -50,7 +50,7 @@ at+set_config=device:boot
 
 <rk-img
   :src="`${$frontmatter.static_root}/ocithbe0at1h3augu9yo.jpg`"
-  width="100%"
+  width="90%"
   figure-number="5"
   caption=" Successfully Upgraded Firmware"
 />

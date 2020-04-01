@@ -39,7 +39,7 @@ at+set_config=lora:region:AU915
 
 <rk-img
   :src="`${$frontmatter.static_root}/bnax7ppemxgzwzwzibmw.jpg`"
-  width="100%"
+  width="60%"
   figure-number="2"
   caption="Setting up the RAK7200 Operation Mode"
 />
@@ -60,7 +60,7 @@ at+set_config=lora:app_key:XXXX
 
 <rk-img
   :src="`${$frontmatter.static_root}/u6bvilfgirchkipjzcvm.jpg`"
-  width="100%"
+  width="60%"
   figure-number="3"
   caption="Setting up the RAK7200 OTAA Parameters"
 />
@@ -75,7 +75,7 @@ at+join
 
 <rk-img
   :src="`${$frontmatter.static_root}/fbrritkvpvvzvl69xosg.jpg`"
-  width="100%"
+  width="60%"
   figure-number="4"
   caption="Join Command"
 />

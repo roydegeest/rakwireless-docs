@@ -19,7 +19,7 @@ You can burn the bootloader on your RAK7200 by following the steps below:
 
 <rk-img
   :src="`${$frontmatter.static_root}/b1horbt3p40hmvnuxqed.jpg`"
-  width="100%"
+  width="80%"
   figure-number="2"
   caption="RAK7200 Buttons and USB Interface"
 />

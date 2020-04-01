@@ -23,7 +23,7 @@ Now lets analyze each data , which is in Hexadecimal Format. We will be using th
 
 <rk-img
   :src="`${$frontmatter.static_root}/hp2ugrvyfdqytyrvmi28.jpg`"
-  width="100%"
+  width="90%"
   figure-number="2"
   caption="Hex to Decimal Converter"
 />
@@ -102,7 +102,7 @@ Example Data: **09 02 CD BA 0A 02 F3 67 0B 02 17 CA**
 
 <rk-img
   :src="`${$frontmatter.static_root}/f4iojgdt1y7tyjhs00ir.jpg`"
-  width="100%"
+  width="90%"
   figure-number="4"
   caption="Inputting the Decoder Function"
 />
@@ -113,7 +113,7 @@ After gateway and node go online, click the uplink data record from the applicat
 
 <rk-img
   :src="`${$frontmatter.static_root}/wng5840n8huymngaeg2a.jpg`"
-  width="100%"
+  width="90%"
   figure-number="5"
   caption="Uplink Decoded Data"
 />
@@ -137,7 +137,7 @@ After gateway and node go online, click the uplink data record from the applicat
 
 <rk-img
   :src="`${$frontmatter.static_root}/dxyccziqcihhez5ipyvp.jpg`"
-  width="100%"
+  width="85%"
   figure-number="7"
   caption="Decoded Function in Chirpstack"
 />
@@ -150,7 +150,7 @@ After gateway and node go online, click the uplink data record from the applicat
 
 <rk-img
   :src="`${$frontmatter.static_root}/f46qt62fzsphhwqnbjft.jpg`"
-  width="100%"
+  width="85%"
   figure-number="8"
   caption="Decode Status in ChirpStack"
 />
