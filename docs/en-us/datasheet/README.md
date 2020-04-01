@@ -4,9 +4,7 @@ sidebar: true
 
 # Datasheet Archive
 
-Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet of each product is arranged into four categories:
-
-Test Data
+Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet of each product is arranged into five categories:
 
 <details>
 <summary>LPWAN Gateways</summary>
