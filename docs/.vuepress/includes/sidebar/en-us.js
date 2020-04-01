@@ -739,5 +739,54 @@ module.exports = {
       ]
     }
   ],
+  '/en-us/quick-start/rak811-breakout/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        'quick-start-guide'
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'interfacing-with-rak811-breakout',
+        'configuring-rak811-breakout',
+        {
+          title: "Connecting to the Things Network (TTN)",
+          collapsable: false,
+          nested: true,
+          path: '/en-us/quick-start/rak811-breakout/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa-mode',
+            'connecting-to-ttn/ttn-abp-mode'
+          ]
+        },
+        {
+          title: "Connecting to ChirpStack",
+          collapsable: false,
+          nested: true,
+          path: '/en-us/quick-start/rak811-breakout/connecting-to-chirpstack/',
+          children: [
+            'connecting-to-chirpstack/chirpstack-otaa-mode',
+            'connecting-to-chirpstack/chirpstack-abp-mode'
+          ]
+        },
+        'lora-p2p-mode'
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'upgrading-the-firmware'
+      ]
+    }
+  ],
 
 }
