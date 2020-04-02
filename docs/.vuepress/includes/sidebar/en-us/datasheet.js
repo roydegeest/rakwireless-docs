@@ -66,7 +66,22 @@ module.exports = {
       collapsable: false, // optional, defaults to true
       sidebarDepth: 2,    // optional, defaults to 1
       children: [
-
+        {
+          title: "RAK2013 Cellular",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak2013/',
+          children: [
+            'rak2013/board-overview-rak2013',
+            'rak2013/interfaces-rak2013',
+            'rak2013/frequency-bands-and-data-rate-rak2013',
+            'rak2013/board-pin-out-and-components-rak2013',
+            'rak2013/working-requirements-rak2013',
+            'rak2013/mechanical-dimensions-rak2013',
+            'rak2013/lte-and-gps-antenna-rak2013',
+            'rak2013/schematics-rak2013'
+          ]
+        }
       ]
     },
     {
