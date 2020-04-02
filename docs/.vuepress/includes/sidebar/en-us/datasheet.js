@@ -19,6 +19,20 @@ module.exports = {
             'rak831/electrical-characteristics-rak831',
             'rak831/rf-characteristics-rak831'
           ]
+        },
+        {
+          title: "RAK2245 Pi Hat - LPWAN Gateway Concentrator Module",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak2245-pihat/',
+          children: [
+            'rak2245-pihat/board-overview-rak2245-pihat',
+            'rak2245-pihat/operating-frequencies-rak2245-pihat',
+            'rak2245-pihat/interfaces-rak2245-pihat',
+            'rak2245-pihat/pin-definition-rak2245-pihat',
+            'rak2245-pihat/electrical-characteristics-rak2245-pihat',
+            'rak2245-pihat/rf-characteristics-rak2245-pihat'
+          ]
         }
       ]
     },

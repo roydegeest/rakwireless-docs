@@ -9,7 +9,7 @@ We strive hard to provide you the best available support for our products. Hence
 There are two main ways to get started with our products:
 
 1. [Quick Start](quick-start): General overview and the step-by-step instructions on how to set things up for any use case.
-2. [Data Sheet](data-sheet/): Comprehensive set of documents that summarize the background and other characteristics of our products.
+2. [Data Sheet](datasheet/): Comprehensive set of documents that summarize the background and other characteristics of our products.
 
 ### Go further
 TODO
