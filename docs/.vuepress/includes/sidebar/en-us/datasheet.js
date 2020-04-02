@@ -43,6 +43,19 @@ module.exports = {
       sidebarDepth: 2,    // optional, defaults to 1
       children: [
         {
+          title: "RAK815 Hybrid Location Tracker",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak815/',
+          children: [
+            'rak815/board-overview-rak815',
+            'rak815/operating-frequencies-rak815',
+            'rak815/interfaces-rak815',          
+            'rak815/pin-definition-rak815',
+            'rak815/schematic-diagram-rak815'            
+          ]
+        },
+        {
           title: "RAK4200 LPWAN Module",
           nested: true,
           collapsable: false,
