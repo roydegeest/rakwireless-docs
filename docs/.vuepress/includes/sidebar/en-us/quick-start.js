@@ -841,4 +841,43 @@ module.exports = {
       ]
     }
   ],
+  '/en-us/quick-start/rak612/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        'quick-start-guide'
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'interfacing-with-rak612',
+        'configuring-the-rak612',
+        {
+          title: "Connecting to the Things Network (TTN)",
+          collapsable: false,
+          nested: true,
+          path: '/en-us/quick-start/rak612/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa',
+            'connecting-to-ttn/ttn-abp'
+          ]
+        },
+        'key-function-customizing'
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'upgrading-the-firmware'
+      ]
+    }
+  ]
 }
