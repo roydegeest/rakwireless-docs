@@ -33,6 +33,20 @@ module.exports = {
             'rak2245-pihat/electrical-characteristics-rak2245-pihat',
             'rak2245-pihat/rf-characteristics-rak2245-pihat'
           ]
+        },
+        {
+          title: "RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak2245-stamp/',
+          children: [
+            'rak2245-stamp/board-overview',
+            'rak2245-stamp/operating-frequencies',
+            'rak2245-stamp/interfaces',
+            'rak2245-stamp/pin-definition',
+            'rak2245-stamp/electrical-characteristics',
+            'rak2245-stamp/rf-characteristics'
+          ]
         }
       ]
     },
@@ -50,9 +64,9 @@ module.exports = {
           children: [
             'rak815/board-overview-rak815',
             'rak815/operating-frequencies-rak815',
-            'rak815/interfaces-rak815',          
+            'rak815/interfaces-rak815',
             'rak815/pin-definition-rak815',
-            'rak815/schematic-diagram-rak815'            
+            'rak815/schematic-diagram-rak815'
           ]
         },
         {
