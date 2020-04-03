@@ -47,6 +47,35 @@ module.exports = {
             'rak2245-stamp/electrical-characteristics',
             'rak2245-stamp/rf-characteristics'
           ]
+        },
+        {
+          title: "RAK7243C Pilot Gateway",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak7243c/',
+          children: [
+            'rak7243c/board-overview-rak7243c',
+            'rak7243c/interfaces-rak7243c',
+            'rak7243c/system-structure-rak7243c',
+            'rak7243c/operating-frequencies-rak7243c',
+            'rak7243c/cellular-frequency-bands-rak7243c',
+            'rak7243c/pin-definition-rak7243c',
+            'rak7243c/power-requirements-rak7243c',
+            'rak7243c/environmental-requirements-rak7243c',
+            'rak7243c/lora-rf-characteristics-rak7243c',
+            'rak7243c/antenna-specifications-rak7243c'
+          ]
+        },
+        {
+          title: "RAK7258 Micro Gateway",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak7258/',
+          children: [
+            'rak7258/board-overview-rak7258',
+            'rak7258/product-specifications-rak7258',
+            'rak7258/interfaces-rak7258'
+          ]
         }
       ]
     },
@@ -97,6 +126,18 @@ module.exports = {
             'rak4260/pin-definition-rak4260',
             'rak4260/mechanical-characteristics-rak4260',
             'rak4260/typical-application-circuit-rak4260'
+          ]
+        },
+        {
+          title: "RAK7431 - RS485 to LoRaWAN® Converter",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak7431/',
+          children: [
+            'rak7431/networking-applications-rak7431',
+            'rak7431/interfaces-rak7431',
+            'rak7431/specifications-rak7431',
+            'rak7431/installation-rak7431'
           ]
         }
       ]
