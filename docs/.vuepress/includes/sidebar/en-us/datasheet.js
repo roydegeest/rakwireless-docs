@@ -21,6 +21,22 @@ module.exports = {
           ]
         },
         {
+          title: "RAK833 LPWAN Gateway Concentrator Module",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak833/',
+          children: [
+            'rak833/board-overview-rak833',
+            'rak833/pin-definition-rak833',
+            'rak833/interfaces-rak833',
+            'rak833/electrical-characteristics-rak833',
+            'rak833/rf-characteristics-rak833',
+            'rak833/mechanical-characteristics-rak833',
+            'rak833/schematic-diagrams-rak833',
+            'rak833/reference-applications-rak833'
+          ]
+        },
+        {
           title: "RAK2245 Pi Hat - LPWAN Gateway Concentrator Module",
           nested: true,
           collapsable: false,

@@ -10,7 +10,7 @@ Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet
 <summary>LPWAN Gateways</summary>
 <br>
 <li><a href="/en-us/datasheet/rak831/#rak831-lpwan-gateway-concentrator">RAK831 LPWAN Gateway Concentrator</a></li>
-<li><a href="https://www.w3schools.com">RAK833 LPWAN Gateway Concentrator Module</a></li>
+<li><a href="/en-us/datasheet/rak833/#rak833-lpwan-gateway-concentrator-module">RAK833 LPWAN Gateway Concentrator Module</a></li>
 <li><a href="/en-us/datasheet/rak2245-pihat/#rak2245-pi-hat-lpwan-gateway-concentrator-module">RAK2245 Pi Hat - LPWAN Gateway Concentrator Module</a></li>
 <li><a href="https://www.w3schools.com">RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module</a></li>
 <li><a href="https://www.w3schools.com">RAK2247 LPWAN Gateway Concentrator Module</a></li>
