@@ -42,8 +42,8 @@ static_root: /assets/images/quick-start-guide/rak7200/chirpstack-otaa-mode
   caption="Application Key LoRaWAN®"
 />
 
-::: tip Note
-The Application EUI which will be set into RAK7200 LPWAN Tracker as “**app_eui**” is not needed for ChirpStack.
+::: tip Note:
+:pencil: The Application EUI which will be set into RAK7200 LPWAN Tracker as “**app_eui**” is not needed for ChirpStack.
 :::
 
 1. Next, let’s **configure** RAK7200 by using **AT commands**. To do this, connect your RAK7200 to a PC, power it on and open **RAK Serial Port Tool** on your computer.

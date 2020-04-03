@@ -11,7 +11,7 @@ You can check the logs for debugging purposes on your RAK8212 iTracker Pro throu
 1.If you want to check the logs of RAK8212 iTracker Pro using this method, make sure you have connected the RAK8212 with your PC through JTAG like the following diagram below:
 
 ::: warning Warning
-You still have to connect the battery to the RAK8212 to power the board.
+:warning: You still have to connect the battery to the RAK8212 to power the board.
 :::
 
 2.Go to the Official Website of **Segger** where you can Download the [J-Flash software](https://www.segger.com/products/debug-probes/j-link/tools/j-flash/about-j-flash/). Open the program “**J-Link RTT Viewer V6.60f**” and choose "**USB**" for the type of connection to J-Link. After which, press "**OK**".

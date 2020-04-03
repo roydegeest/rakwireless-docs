@@ -143,7 +143,7 @@ Then, set the IP address of the ChirpStack which you want your LoRaWAN® Gateway
 />
 
 ::: tip Note:
-The default IP Address is **`127.0.0.1`** which means you will be using the Built-in LoRa® Server. If you want to use an independent LoRa® Server running on another device or a cloud based LoRa® Server, you need to set it to the corresponding IP address
+:pencil: The default IP Address is **`127.0.0.1`** which means you will be using the Built-in LoRa® Server. If you want to use an independent LoRa® Server running on another device or a cloud based LoRa® Server, you need to set it to the corresponding IP address
 :::
 
 - If you have instead selected "**Chirpstack ADR Configure**" you can enable/disable the Adaptive Data Rate (ADR) functionality:

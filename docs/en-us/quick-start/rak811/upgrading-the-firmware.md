@@ -9,7 +9,7 @@ If the firmware version of your RAK811 LPWAN Evaluation Board is newer than V3.0
 1.In case you have not just burned the bootloader as instructed in the previous section, you need to manually go into **boot mode**. Connect you board via the USB interface and enter the following **AT command** after you have connected via the proper COM port:
 
 ::: tip Note:
-Make sure to choose the correct port in the COM Port field. You can check this in the [Interfacing with RAK 811 Development Board](interfacing-with-rak811.html) document.
+:pencil: Make sure to choose the correct port in the COM Port field. You can check this in the [Interfacing with RAK 811 Development Board](interfacing-with-rak811.html) document.
 :::
 
 ```bash

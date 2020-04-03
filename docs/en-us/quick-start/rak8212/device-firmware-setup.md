@@ -75,7 +75,7 @@ following page as shown in **Figure 4** and in the table provided.
 />
 
 ::: tip Note:
-If connection is unsuccessful, please recheck the connections between the RAK8212 iTracker Pro, JTAG, and the connecting wires.
+:pencil: If connection is unsuccessful, please recheck the connections between the RAK8212 iTracker Pro, JTAG, and the connecting wires.
 :::
 
 8.Open the download firmware of the RAK8212 iTracker Pro by dragging it into the window as shown in the image below:
@@ -141,5 +141,5 @@ RTT Viewer V6.41a**” which you just installed and click **OK**.
 />
 
 ::: tip Note:
-If no logs are shown upon connecting, try resetting the RAK8212 iTracker Pro and redo the Firmware Logs Checking Section
+:pencil: If no logs are shown upon connecting, try resetting the RAK8212 iTracker Pro and redo the Firmware Logs Checking Section
 :::

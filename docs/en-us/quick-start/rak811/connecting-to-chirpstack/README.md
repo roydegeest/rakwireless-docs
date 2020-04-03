@@ -10,7 +10,7 @@ The ChirpStack or previously known as LoRaServer project provides open-source co
 You can use RAK811 LPWAN Evaluation Board to connect with ChirpStack according to the following steps:
 
 ::: tip Note:
-In this section, it is an assumption that you have already connected your LoRa® Gateway with TTN correctly. If not, please have a look at the document of RAK LoRa® Gateway.
+:pencil: In this section, it is an assumption that you have already connected your LoRa® Gateway with TTN correctly. If not, please have a look at the document of RAK LoRa® Gateway.
 :::
 
 1.Open the web page of the ChirpStack which you want to connect with and login.
@@ -68,5 +68,5 @@ In this section, it is an assumption that you have already connected your LoRa®
 />
 
 ::: tip Note:
-If you want to join in OTAA mode, select “**DeviceProfile_OTAA**” in the “Device-profile” item. If you want to join in ABP mode and CN470 frequency, then, select “**DeviceProfile_ABP_CN470**” in the “Device-Profile” item. If you want to join in ABP mode and other frequencies except AS923 and CN470, you should select “**DeviceProfile_ABP**” in the “Device-profile” item.
+:pencil: If you want to join in OTAA mode, select “**DeviceProfile_OTAA**” in the “Device-profile” item. If you want to join in ABP mode and CN470 frequency, then, select “**DeviceProfile_ABP_CN470**” in the “Device-Profile” item. If you want to join in ABP mode and other frequencies except AS923 and CN470, you should select “**DeviceProfile_ABP**” in the “Device-profile” item.
 :::

@@ -8,8 +8,8 @@ If the firmware version of your RAK5205 WisTrio LPWAN Tracker is newer than V3.0
 
 - First, type the command to let the RAK5205 WisTrio LPWAN Tracker work in boot mode.
 
-::: tip Note
-If you have just burned the bootloader by
+::: tip Note:
+:pencil: If you have just burned the bootloader by
 yourself according to the section 2, it works in boot mode now. If the current version of
 the RAK5205’s firmware is newer than V3.0.0.0, you need to set an AT command
 to let it work in boot mode

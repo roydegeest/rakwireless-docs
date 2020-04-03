@@ -6,8 +6,8 @@ static_root: /assets/images/quick-start-guide/rak811-breakout/interfacing-with-r
 
 In order for you to be able to interface with the RAK811 LPWAN Breakout Module with your Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
 
-::: warning Warning
-Before powering the RAK811 LPWAN Breakout Module , you should install the LoRa antenna first . Not doing so might damage the board
+::: warning
+:warning: Before powering the RAK811 LPWAN Breakout Module , you should install the LoRa antenna first . Not doing so might damage the board
 :::
 
 - Connect your RAK811 LPWAN Breakout Board with the following diagram below.

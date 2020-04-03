@@ -29,7 +29,7 @@ Before going through each and every step in the installation and guide of the LP
 />
 
 ::: tip Note:
-The bootloader of the RAK811 LPWAN Breakout Module is already pre-installed upon manufacturing so flashing the bootloader is not necessary for you to perform. If you find that the bootloader of your RAK811 LPWAN Breakout Module damaged, kindly contact our support though our [RAKwireless forum](https://forum.rakwireless.com/). However, if you want to upgrade the firmware of the device, please refer to the documentation below:
+:pencil: The bootloader of the RAK811 LPWAN Breakout Module is already pre-installed upon manufacturing so flashing the bootloader is not necessary for you to perform. If you find that the bootloader of your RAK811 LPWAN Breakout Module damaged, kindly contact our support though our [RAKwireless forum](https://forum.rakwireless.com/). However, if you want to upgrade the firmware of the device, please refer to the documentation below:
 
 1. [Upgrading the Firmware](upgrading-the-firmware.html)
    :::

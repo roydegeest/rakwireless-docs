@@ -7,13 +7,13 @@ static_root: /assets/images/quick-start-guide/rak811/interfacing-with-rak811
 In order for you to be able to interface with the RAK811 LPWAN Evaluation Board with your Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
 
 ::: warning
-Before powering the RAK811 LPWAN Evaluation Board , you should install the LoRa antenna first . Not doing so might damage the board
+:warning: Before powering the RAK811 LPWAN Evaluation Board , you should install the LoRa antenna first . Not doing so might damage the board
 :::
 
 - Using a standard **Micro - USB Cable**, connect your RAK811 LPWAN Evaluation Board to your computer.
 
 ::: tip Note:
-If this is your first time to connect your RAK811 LPWAN Evaluation Board to your computer, it should automatically download the CH340 driver in order for them to communicate properly. Make sure to have an internet access if you want such automatic installation to be successful. If such process fails, re-plug your Micro - USB cord and proceed to the next step.
+:pencil: If this is your first time to connect your RAK811 LPWAN Evaluation Board to your computer, it should automatically download the CH340 driver in order for them to communicate properly. Make sure to have an internet access if you want such automatic installation to be successful. If such process fails, re-plug your Micro - USB cord and proceed to the next step.
 :::
 
 - Go to your **Device Manager** by pressing : **Windows + R** and type `devmgmt.msc` or **search in Start Menu** or right click "**My Computer**" or "**This PC**" and click **Manage**. Look for **Other Devices.**
@@ -44,7 +44,7 @@ If this is your first time to connect your RAK811 LPWAN Evaluation Board to your
 />
 
 ::: tip Note:
-In case the driver is still not installed upon doing the previous steps, kindly download the driver manually through this [link](https://downloads.rakwireless.com/en/LoRa/RAK811/Tools/).
+:pencil: In case the driver is still not installed upon doing the previous steps, kindly download the driver manually through this [link](https://downloads.rakwireless.com/en/LoRa/RAK811/Tools/).
 :::
 
 - Let us now test if your RAK811 LPWAN Evaluation Board can now communicate with the RAK Serial Port Tool. Connect with the RAK Serial Port Tool using the parameters listed below and click "**Open**".

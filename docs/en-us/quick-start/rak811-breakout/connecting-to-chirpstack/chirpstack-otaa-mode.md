@@ -43,7 +43,7 @@ static_root: /assets/images/quick-start-guide/rak811-breakout/chirpstack-otaa-mo
 />
 
 ::: tip Note:
-The Application EUI which was into RAK811 LPWAN Breakout Module as “**app_eui**” is not needed for ChirpStack.
+:pencil: The Application EUI which was into RAK811 LPWAN Breakout Module as “**app_eui**” is not needed for ChirpStack.
 :::
 
 **4.** Next, let’s **configure** RAK811 LPWAN Breakout Module by using **AT commands**. To do this, connect your RAK811 LPWAN Breakout Module to a PC, power it on and open **RAK Serial Port Tool** on your computer.

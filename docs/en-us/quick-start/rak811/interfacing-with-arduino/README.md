@@ -91,7 +91,7 @@ On the Arduino-RAK811-Library contains the available functions, the user can ref
 />
 
 ::: tip Note:
-Depending on the RAM size of the Arduino Board you are using, the RX and TX buffer size are recommended to be bigger.
+:pencil: Depending on the RAM size of the Arduino Board you are using, the RX and TX buffer size are recommended to be bigger.
 :::
 
 <rk-img

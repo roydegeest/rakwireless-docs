@@ -20,7 +20,7 @@ Kindly look into the different documents on how to burn and update the bootloade
 3.Afterwhich, proceed to uploading the sketch by following the steps in the image below:
 
 ::: tip Note:
-Make sure to disconnect the connection between the Rx and Tx connection between the RAK811 LPWAN Evaluation Board and the Arduino Mega 2560. Not doing so will make the sketch uploading fail.
+:pencil: Make sure to disconnect the connection between the Rx and Tx connection between the RAK811 LPWAN Evaluation Board and the Arduino Mega 2560. Not doing so will make the sketch uploading fail.
 :::
 
 <rk-img
