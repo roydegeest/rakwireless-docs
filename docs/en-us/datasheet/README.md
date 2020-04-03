@@ -44,7 +44,7 @@ Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet
 <details>
 <summary>Cellular</summary>
 <br>
-<li><a href="https://www.w3schools.com">RAK2013 Cellular</a></li>
+<li><a href="/en-us/datasheet/rak2013/#rak2013-cellular">RAK2013 Cellular</a></li>
 </br>
 </details>
 

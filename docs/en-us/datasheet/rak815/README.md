@@ -12,7 +12,7 @@ next: board-overview-rak815
   caption="RAK815 Breakout Board"
 />
 
-## Product Description
+### Product Description
 
 **RAK815** is a wireless remote solution based on the RAK813 + GPS + MEMS + HT+LCD design. It integrates the latest LoRaWAN® 1.0.2 protocoland Bluetooth 5.0, supporting the LoRaWAN® working mode and Bluetooth transparent transmission up to 300 meters.
 
@@ -22,7 +22,7 @@ The board also supports battery powered products which greatly expand the produc
 
 Overall, this LoRa® device has various functionalities designed in a single board that could help you develop your own LoRa® projects.
 
-## Product Features
+### Product Features
 
 - Based on Semtech SX1276 LoRaWAN® Version V1.0.2
 - Supports NRF52832 Bluetooth Version 5.0

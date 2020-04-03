@@ -6,12 +6,12 @@ next: board-overview-rak7258
 
 <rk-img
   src="/assets/images/datasheet/rak7258/rak7258-overview.png"
-  width="75%"
+  width="60%"
   figure-number="1"
   caption="RAK7258 Micro Gateway"
 />
 
-## Product Description
+### Product Description
 
 The **RAK7258 Micro Gateway** is a full 8-channel LoRaWAN® Gateway with built-in Ethernet connectivity for a straightforward setup. Additionally, there is an on-board Wi-Fi setup that allows it to be easily configured via the default Wi-Fi AP mode.
 
@@ -25,7 +25,7 @@ The Gateway has Line-of-Sight (LoS) ranges of up to **15 kilometers**, while for
 
 The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and anchors. It is a full 8-channel LoRaWAN® Gateway with built-in Ethernet connectivity for a straightforward.
 
-## Product Features
+### Product Features
 
 - Full LoRaWAN® Stack support (V 1.0.2)
 - 100M base-T Ethernet with **PoE (802.3 af)**

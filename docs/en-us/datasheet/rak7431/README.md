@@ -11,7 +11,7 @@ next: networking-applications-rak7431
   caption="RAK7431 - RS485 to LoRaWAN® Converter"
 />
 
-## Product Background
+### Product Background
 
 **RAK7431** is an **RS485 to LoRaWAN® Converter** designed for industrial applications. The device relays ModBUS data using the LoRaWAN® network as means of wirelessly transmitting to and from the end devices.
 
@@ -23,7 +23,7 @@ RAK7431 together with RAK's LPWAN gateway and LoRa® Server products, can easily
 
 RAK7431 adopts industrial protection design, supports wide range voltage supply, supports wall mounting and DIN rail installation, facilitates field installation and use.
 
-## Product Features
+### Product Features
 
 * **LoRaWAN® 1.0.2** protocol stack, supports Class A & C 
 * **Working modes**: Polling mode, transparent mode and packet mode 

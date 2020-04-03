@@ -12,7 +12,7 @@ next: board-overview-rak2013
   caption="RAK2013 Cellular Board"
 />
 
-## Product Description
+### Product Description
 
 The RAK2013 is a Raspberry Pi 3B+ edition cellular communications module that supports Low-Power Wide-Area (LPWA) connectivity to Internet-of-Things (IoT) devices. It has several configuration options including BG96 / EG91 / EG95 for 4G/LTE, NB-IoT, CAT-M, CAT1 or CAT 4 cellular protocol. This device integrates audio codec and audio amplifier supporting Voice-over-LTE (VoLTE) in high definition (HD) and uninterrupted voice calls. For easy use, there are earphone connector, MIC connector and speaker connector with audio amplifier.
 
@@ -20,7 +20,7 @@ The module is supported with extendable sensor board connected that follows the 
 
 The RAK2013 is compatible with RAK2245 Pi Hat Concentrator module via the onboard 40 pin header. It can function as a cellular backhaul to LoRaWAN gateway, providing an even greater flexibility for IoT solutions that require cellular as an option for ensuring service reliability.
 
-## Product Features
+### Product Features
 
 * Compatible with Raspberry Pi 3B+ edition specification.
 * Quectel BG96/EG91/EG95 for NB-IOT / CAT-M / CAT1 LTE / CAT4 LTE.

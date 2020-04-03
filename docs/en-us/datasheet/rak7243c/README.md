@@ -6,13 +6,13 @@ next: board-overview-rak7243c
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/rak7243c-overview.png"
-  width="75%"
+  width="50%"
   figure-number="1"
   caption="RAK7243C Pilot Gateway"
 />
 
 
-## Product Description
+### Product Description
 
 The **RAK7243C Pilot Gateway** is a device that consists of Raspberry Pi 3B+, RAK2245 Pi HAT which includes a GPS module and a Heat Sink for better performance and thermal heat dissipation management, and a RAK2013 Cellular Pi HAT and it’s housing is built with an aluminum casing. 
 
@@ -20,7 +20,7 @@ For the build-in RAK2245 Pi HAT, it uses the SX1301 chip from Semtech which buil
 
 Pilot Gateway Pro is ideal for prototyping, proof-of-concept demonstration or for the evaluation. It includes a ready to use LoRaWan® Gateway OS that can be connected to a LoRaWan® server. Also it is developer friendly and simple even for no-so-techy users to set up LoRaWan® system. It has to be the best value and function for connectivity to address a variety of applications like Smart Grid, Intelligent Farm and other IoT enterprise applications.
 
-## Product Features
+### Product Features
 
 * Preassembled, fully functioning LoRaWAN® Gateway
 * SX1301 base band processor, emulates 49 x LoRa® demodulators 10 programmable parallel demodulation paths, support 8 uplinks channel, 1 downlink channel. 
