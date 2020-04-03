@@ -879,5 +879,39 @@ module.exports = {
         'upgrading-the-firmware'
       ]
     }
-  ]
+  ],
+  '/en-us/quick-start/rak5010/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        'quick-start-guide'
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'checking-device-logs',
+        'at-commands',
+        'configuring-rak5010',
+        'connecting-cellular-network'
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'bluetooth-connection-modes',
+        'burning-the-firmware',
+        'upgrading-firmware',
+        'rui-online-compiler'
+      ]
+    }
+  ],
+
 }
