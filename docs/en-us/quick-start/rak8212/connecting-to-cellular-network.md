@@ -30,6 +30,6 @@ RAK8212 iTracker Pro is connected to your mobile device over BLE according to th
 />
 
 ::: tip Note:
-There may be several
+:pencil: There may be several
 Cellular operator’s network signal detected upon scanning. In this document, the cellular networks available are CHINA MOBILE and CHN-UNICOM Cellular network.
 :::

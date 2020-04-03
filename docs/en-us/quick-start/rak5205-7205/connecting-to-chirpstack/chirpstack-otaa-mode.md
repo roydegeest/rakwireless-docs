@@ -44,7 +44,7 @@ next: chirpstack-abp-mode
 />
 
 ::: tip Note:
-The Application EUI which was into RAK5205 as “**app_eui**” is not needed for ChirpStack.
+:pencil: The Application EUI which was into RAK5205 as “**app_eui**” is not needed for ChirpStack.
 :::
 
 **4.** Next, let’s **configure** RAK5205 WisTrio LPWAN Tracker by using **AT commands**. To do this, connect your RAK5205 WisTrio LPWAN Tracker to a PC, power it on and open **RAK Serial Port Tool** on your computer.

@@ -12,7 +12,7 @@ next: board-overview
   caption="RAK2245 Stamp Edition"
 />
 
-## Product Description
+### Product Description
 
 The **RAK2245 Stamp Edition** is a complete and cost efficient LoRaWAN® Gateway solution base on Semtech SX1301 fully utilizing the LoRa System. This LoRaWAN® Concentrator module supports eight channels and is available for all LoRaWAN® international standard bands.
 
@@ -20,7 +20,7 @@ The Stamp form factor feature enables easy integration into the system's main bo
 
 Overall, this LoRaWAN® gateway module is the most economical way to create different solutions like smart grid, intelligent farm and other IoT applications. It is also ideal for manufacturing small series that can expand into more applications.
 
-## Product Features
+### Product Features
 
 - Compatible with Stamp Edition specifications with mounted heat-sink.
 - SX1301 base band processor, emulates 49 x LoRa demodulators 10 parallel demodulation paths, support 8 uplinks channel, 1 downlink channel.

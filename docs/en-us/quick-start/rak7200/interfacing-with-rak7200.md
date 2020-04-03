@@ -9,7 +9,7 @@ In order for you to be able to interface with the RAK7200 LPWAN Tracker with you
 - Using a standard **Micro - USB Cable**, connect your RAK7200 LPWAN Tracker to your computer.
 
 ::: tip Note:
-If this is your first time to connect your RAK7200 LPWAN Tracker to your computer, it should automatically download the CH340 driver in order for them to communicate properly. Make sure to have an internet access if you want such automatic installation to be successful. If such process fails, re-plug your Micro - USB cord and proceed to the next step.
+:pencil: If this is your first time to connect your RAK7200 LPWAN Tracker to your computer, it should automatically download the CH340 driver in order for them to communicate properly. Make sure to have an internet access if you want such automatic installation to be successful. If such process fails, re-plug your Micro - USB cord and proceed to the next step.
 :::
 
 - Go to your **Device Manager** by pressing : **Windows + R** and type `devmgmt.msc` or **search in Start Menu** or right click "**My Computer**" or "**This PC**" and click **Manage**. Look for **Other Devices.**
@@ -40,7 +40,7 @@ If this is your first time to connect your RAK7200 LPWAN Tracker to your compute
 />
 
 ::: tip Note:
-In case the driver is still not installed upon doing the previous steps, kindly download the driver manually through this [link](https://downloads.rakwireless.com/en/LoRa/RAK811/Tools/).
+:pencil: In case the driver is still not installed upon doing the previous steps, kindly download the driver manually through this [link](https://downloads.rakwireless.com/en/LoRa/RAK811/Tools/).
 :::
 
 - Let us now test if your RAK7200 LPWAN Tracker can now communicate with the RAK Serial Port Tool. Connect with the RAK Serial Port Tool using the parameters listed below and click "**Open**".

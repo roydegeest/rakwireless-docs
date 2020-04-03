@@ -7,7 +7,7 @@ static_root: /assets/images/quick-start-guide/rak5205-7205/burning-the-bootloade
 Please use the the latest firmware for the RAK5205 WisTrio LPWAN Tracker accessible in this **[directory](https://downloads.rakwireless.com/en/LoRa/WisTrio-LoRa-RAK5205/Firmware/)** in order to avoid potential problems. Burning the Bootloader into the device is done as follows:
 
 ::: warning Warning!
-Skip this section if you have a RAK5205 V3.0.0.0 firmware or newer, for it has already a bootloader.
+:warning: Skip this section if you have a RAK5205 V3.0.0.0 firmware or newer, for it has already a bootloader.
 :::
 
 You need to make sure you have the latest firmware on your device . To be able to do this, you need to follow these steps:
@@ -64,9 +64,7 @@ You need to make sure you have the latest firmware on your device . To be able t
 **8.** Then, press the “**Connect**” button at the top right corner.
 
 ::: warning Warning
-If there are some errors in the Log
-box or it can’t connect, please close the STM32CubeProgrammer and reset RAK5205,
-then open the STM32CubeProgrammer and connect again.
+:warning: If there are some errors in the Log box or it can’t connect, please close the STM32CubeProgrammer and reset RAK5205, then open the STM32CubeProgrammer and connect again.
 :::
 
 <rk-img

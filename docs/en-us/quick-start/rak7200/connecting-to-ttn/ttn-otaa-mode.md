@@ -15,8 +15,8 @@ When setting up a new device in TTN it defaults to OTAA mode. For configuring it
 
 Now, let's join in OTAA Mode and set your device to AU915 Frequency for example.
 
-::: tip Note
-The default LoRa® work mode is LoRaWAN® 1.0.2, the default LoRa® join mode is OTAA, and the default LoRa® class is Class A.For the full list of AT Commands, head on to [Configuring the RAK7200 using AT Commands](../configuring-the-rak7200.html).
+::: tip Note:
+:pencil: The default LoRa® work mode is LoRaWAN® 1.0.2, the default LoRa® join mode is OTAA, and the default LoRa® class is Class A.For the full list of AT Commands, head on to [Configuring the RAK7200 using AT Commands](../configuring-the-rak7200.html).
 :::
 
 1.Set mode to **OTAA** and LoRa® device class to **Class A**, with the following set of commands:

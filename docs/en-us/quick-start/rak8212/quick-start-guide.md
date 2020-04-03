@@ -29,7 +29,7 @@ Before going through each and every step in the installation guide of the RAK821
 />
 
 ::: tip Note:
-This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware burned or upgraded, please refer to the documentations below:
+:pencil: This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware burned or upgraded, please refer to the documentations below:
 
 1. [Device Firmware Setup](device-firmware-setup.html)
    :::

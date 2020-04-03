@@ -9,8 +9,8 @@ The ChirpStack or previously known as LoRaServer project provides open-source co
 
 You can use RAK7200 LPWAN Tracker to connect with ChirpStack by following this steps:
 
-::: tip Note
-In this section, it is an assumed that you have already connected your LoRa® Gateway with TTN correctly. If not, please have a look at the document of RAK LoRa® Gateway.
+::: tip Note:
+:pencil: In this section, it is an assumed that you have already connected your LoRa® Gateway with TTN correctly. If not, please have a look at the document of RAK LoRa® Gateway.
 :::
 
 OK! Let’s get started!
@@ -76,6 +76,6 @@ OK! Let’s get started!
   caption="Generating Device EUI Automatically"
 />
 
-::: tip Note
-If you want to join in OTAA mode, select “**DeviceProfile_OTAA**” in the “Device-profile” item. If you want to join in ABP mode and CN470 frequency, then, select “**DeviceProfile_ABP_CN470**” in the “Device-Profile” item. If you want to join in ABP mode and other frequencies except AS923 and CN470, you should select “**DeviceProfile_ABP**” in the “Device-profile” item.
+::: tip Note:
+:pencil: If you want to join in OTAA mode, select “**DeviceProfile_OTAA**” in the “Device-profile” item. If you want to join in ABP mode and CN470 frequency, then, select “**DeviceProfile_ABP_CN470**” in the “Device-Profile” item. If you want to join in ABP mode and other frequencies except AS923 and CN470, you should select “**DeviceProfile_ABP**” in the “Device-profile” item.
 :::
