@@ -10,7 +10,7 @@ next: board-overview-rak831
   caption="RAK831 LPWAN Gateway"
 />
 
-## Product Background
+### Product Background
 
 The concentrator module **RAK831** is designed for a wide variety of applications like **Smart Metering**, **IoT** (Internet of Things) and **M2M** (Machine-to-machine) applications. It is a multi- channel high performance Transceiver module designed to receive several LoRa® packets simultaneously using different spreading factors on multiple channels. The concentrator module RAK831 can be integrated into a gateway as a complete RF front-end of this gateway. It provides the possibility to enable robust communication between a LoRaWAN® Gateway and a huge amount of LoRa® end-nodes spread over a wide range of distance. The RAK831 needs a host system for proper operation. 
 
@@ -24,7 +24,7 @@ End-point nodes (e.g. sensor nodes) can change frequency with each transmission 
 
 Applications possible with the RAK831 include Smart Metering ,Wireless Star Networks, Home,Building,Industrial automation, Remote Control, Wireless Sensors Network, M2M, IoT and Wireless Alarm and Security Systems.
 
-## Product Features
+### Product Features
 
 * **Compact size** 80 mm 50 mm x 5  mm
 * LoRaWAN® modulation technology

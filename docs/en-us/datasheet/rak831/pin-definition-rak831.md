@@ -14,7 +14,7 @@ The RAK831 provides headers at the bottom side, which have a pitch of **2.54 mm*
 />
 
 | Pin | Name | Type | Description | 
-| ---- | ---- | ---- | ---- | 
+| :----: | :----: | :----: | :----: | 
 | 1 | +5V | POWER | +5V Supply Voltage | 
 | 2 | +5V | POWER | +5V Supply Voltage | 
 | 3 | GND | GND | Ground | 

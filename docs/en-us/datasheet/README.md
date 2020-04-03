@@ -12,15 +12,15 @@ Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet
 <li><a href="/en-us/datasheet/rak831/#rak831-lpwan-gateway-concentrator">RAK831 LPWAN Gateway Concentrator</a></li>
 <li><a href="/en-us/datasheet/rak833/#rak833-lpwan-gateway-concentrator-module">RAK833 LPWAN Gateway Concentrator Module</a></li>
 <li><a href="/en-us/datasheet/rak2245-pihat/#rak2245-pi-hat-lpwan-gateway-concentrator-module">RAK2245 Pi Hat - LPWAN Gateway Concentrator Module</a></li>
-<li><a href="https://www.w3schools.com">RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module</a></li>
+<li><a href="/en-us/datasheet/rak2245-stamp/#rak2245-stamp-edition-lpwan-gateway-concentrator-module">RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module</a></li>
 <li><a href="https://www.w3schools.com">RAK2247 LPWAN Gateway Concentrator Module</a></li>
 <li><a href="https://www.w3schools.com">RAK2287 WisLink- LPWAN Gateway Module</a></li>
 <li><a href="https://www.w3schools.com">RAK7240 Outdoor LPWAN Gateway</a></li>
-<li><a href="https://www.w3schools.com">RAK7243C Pilot Gateway</a></li>
+<li><a href="/en-us/datasheet/rak7243c/#rak7243c-pilot-gateway">RAK7243C Pilot Gateway</a></li>
 <li><a href="https://www.w3schools.com">RAK7244C LPWAN Developer Gateway</a></li>
 <li><a href="https://www.w3schools.com">RAK7246G LPWAN Developer Gateway</a></li>
 <li><a href="https://www.w3schools.com">RAK7249 Macro Outdoor Gateway</a></li>
-<li><a href="https://www.w3schools.com">RAK7258 Micro Gateway</a></li>
+<li><a href="/en-us/datasheet/rak7258/#rak7258-micro-gateway">RAK7258 Micro Gateway</a></li>
 </br>
 </details>
 
@@ -37,7 +37,7 @@ Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet
 <li><a href="https://www.w3schools.com">RAK5205 WisTrio LPWAN Tracker</a></li>
 <li><a href="https://www.w3schools.com">RAK7200 LPWAN Tracker</a></li>
 <li><a href="https://www.w3schools.com">RAK7204 LPWAN Environmental Sensor</a></li>
-<li><a href="https://www.w3schools.com">RAK7431 RS485 to LoRaWAN®</a></li>
+<li><a href="/en-us/datasheet/rak7431/#rak7431-rs485-to-lorawan®-converter">RAK7431 - RS485 to LoRaWAN® Converter</a></li>
 </br>
 </details>
 
