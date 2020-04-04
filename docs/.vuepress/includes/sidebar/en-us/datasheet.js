@@ -65,6 +65,22 @@ module.exports = {
           ]
         },
         {
+          title: "RAK2287 WisLink- LPWAN Gateway Module",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak2287/',
+          children: [
+            'rak2287/board-overview',
+            'rak2287/operating-frequencies',
+            'rak2287/pin-definition',
+            'rak2287/interfaces',
+            'rak2287/electrical-characteristics',
+            'rak2287/rf-characteristics',
+            'rak2287/lora-antenna',
+            'rak2287/schematic-diagram'
+          ]
+        },
+        {
           title: "RAK7243C Pilot Gateway",
           nested: true,
           collapsable: false,
@@ -80,6 +96,24 @@ module.exports = {
             'rak7243c/environmental-requirements-rak7243c',
             'rak7243c/lora-rf-characteristics-rak7243c',
             'rak7243c/antenna-specifications-rak7243c'
+          ]
+        },
+        {
+          title: "RAK7244C LPWAN Developer Gateway",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak7244c/',
+          children: [
+            'rak7244c/board-overview',
+            'rak7244c/interfaces',
+            'rak7244c/system-structure',
+            'rak7244c/operating-frequencies',
+            'rak7244c/cellular-frequency-bands',
+            'rak7244c/hardware-structure',
+            'rak7244c/power-requirements',
+            'rak7244c/environmental-requirements',
+            'rak7244c/lora-rf-characteristics',
+            'rak7244c/antenna-specifications'
           ]
         },
         {
