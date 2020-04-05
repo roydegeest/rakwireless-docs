@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7244c/2.accessing-gateway/1.accessing-internet
+static_root: /assets/images/datasheet/rak7244c/2.accessing-gateway/1.accessing-internet
 ---
 
 # Accessing the Internet
@@ -116,7 +116,7 @@ If you want to connect to router through Ethernet Cable, do the following steps:
 />
 
 - Press OK then the success message will appear.
-- Lastly, reboot the  Gateway using the command "`sudo reboot`" in the command line and it will connect to the router successfully through Ethernet.
+- Lastly, reboot the Gateway using the command "`sudo reboot`" in the command line and it will connect to the router successfully through Ethernet.
 
 ## Connecting through an LTE Network
 

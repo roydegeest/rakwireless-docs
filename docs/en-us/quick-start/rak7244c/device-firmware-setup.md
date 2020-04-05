@@ -1,7 +1,9 @@
 ---
 next: accessing-your-gateway/
 ---
+
 # Device Firmware Setup
+
 An easy and quick way to have a fully functional gateway is by using a Precompiled Firmware Image provided. In this document, is the step by step instructions on how to install the Image into your SD Card used for the gateway.
 
 ## Burn the latest Firmware
@@ -11,9 +13,8 @@ An easy and quick way to have a fully functional gateway is by using a Precompil
 3. Insert your SD Card into the SD Card reader and plug it into your Computer.
 4. Open the Etcher Software, and select the downloaded image file thru the ( **Label - 1** ) button in the image below.
 
-
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244c/device-firmware/qpo5nxkig74bkderbb2d.png"
+  src="/assets/images/datasheet/rak7244c/device-firmware/qpo5nxkig74bkderbb2d.png"
   width="100%"
   figure-number="1"
   caption="Balena Etcher Software"
