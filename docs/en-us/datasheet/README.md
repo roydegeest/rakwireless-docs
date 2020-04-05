@@ -13,7 +13,7 @@ Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet
 <li><a href="/en-us/datasheet/rak833/#rak833-lpwan-gateway-concentrator-module">RAK833 LPWAN Gateway Concentrator Module</a></li>
 <li><a href="/en-us/datasheet/rak2245-pihat/#rak2245-pi-hat-lpwan-gateway-concentrator-module">RAK2245 Pi Hat - LPWAN Gateway Concentrator Module</a></li>
 <li><a href="/en-us/datasheet/rak2245-stamp/#rak2245-stamp-edition-lpwan-gateway-concentrator-module">RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module</a></li>
-<li><a href="https://www.w3schools.com">RAK2247 LPWAN Gateway Concentrator Module</a></li>
+<li><a href="/en-us/datasheet/rak2247/#rak2247-lpwan-gateway-concentrator-module">RAK2247 LPWAN Gateway Concentrator Module</a></li>
 <li><a href="https://www.w3schools.com">RAK2287 WisLink- LPWAN Gateway Module</a></li>
 <li><a href="https://www.w3schools.com">RAK7240 Outdoor LPWAN Gateway</a></li>
 <li><a href="/en-us/datasheet/rak7243c/#rak7243c-pilot-gateway">RAK7243C Pilot Gateway</a></li>
@@ -35,8 +35,8 @@ Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet
 <li><a href="/en-us/datasheet/rak4260/#rak4260-wisduo-lpwan-module">RAK4260 WisDuo LPWAN Module</a></li>
 <li><a href="https://www.w3schools.com">RAK4600 LPWAN Module</a></li>
 <li><a href="https://www.w3schools.com">RAK5205 WisTrio LPWAN Tracker</a></li>
-<li><a href="https://www.w3schools.com">RAK7200 LPWAN Tracker</a></li>
-<li><a href="https://www.w3schools.com">RAK7204 LPWAN Environmental Sensor</a></li>
+<li><a href="/en-us/datasheet/rak7200/#rak7200-lpwan-tracker">RAK7200 LPWAN Tracker</a></li>
+<li><a href="/en-us/datasheet/rak7204/#rak7204-lpwan-environmental-sensor">RAK7204 LPWAN Environmental Sensor</a></li>
 <li><a href="/en-us/datasheet/rak7431/#rak7431-rs485-to-lorawan®-converter">RAK7431 - RS485 to LoRaWAN® Converter</a></li>
 </br>
 </details>
@@ -52,7 +52,7 @@ Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet
 <summary>NB-IoT</summary>
 <br>
 <li><a href="https://www.w3schools.com">RAK5010 WisTrio NB-IoT Tracker</a></li>
-<li><a href="https://www.w3schools.com">RAK8212 iTracker Pro</a></li>
+<li><a href="/en-us/datasheet/rak8212/#rak8212-itracker-pro">RAK8212 iTracker Pro</a></li>
 </br>
 </details>
 

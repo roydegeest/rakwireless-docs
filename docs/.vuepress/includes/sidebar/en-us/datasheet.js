@@ -65,6 +65,20 @@ module.exports = {
           ]
         },
         {
+          title: "RAK2247 LPWAN Gateway Concentrator Module",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak2247/',
+          children: [
+            'rak2247/board-overview-rak2247',
+            'rak2247/operating-frequencies-rak2247',
+            'rak2247/pin-definition-rak2247',
+            'rak2247/interfaces-rak2247',
+            'rak2247/electrical-characteristics-rak2247',
+            'rak2247/rf-characteristics-rak2247'
+          ]
+        },
+        {
           title: "RAK7243C Pilot Gateway",
           nested: true,
           collapsable: false,
@@ -145,6 +159,32 @@ module.exports = {
           ]
         },
         {
+          title: "RAK7200 LPWAN Tracker",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak7200/',
+          children: [
+            'rak7200/board-overview-rak7200',
+            'rak7200/pin-definition-rak7200',
+            'rak7200/interfaces-rak7200',
+            'rak7200/operating-frequencies-rak7200',
+            'rak7200/electrical-characteristics-rak7200',
+            'rak7200/environmental-requirements-rak7200',
+            'rak7200/antenna-specifications-rak7200'
+          ]
+        },
+        {
+          title: "RAK7204 LPWAN Environmental Sensor",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak7204/',
+          children: [
+            'rak7204/operating-frequencies-rak7204',
+            'rak7204/electrical-characteristics-rak7204',
+            'rak7204/sensor-characteristics-rak7204'
+          ]
+        },
+        {
           title: "RAK7431 - RS485 to LoRaWAN® Converter",
           nested: true,
           collapsable: false,
@@ -188,7 +228,18 @@ module.exports = {
       collapsable: false, // optional, defaults to true
       sidebarDepth: 2,    // optional, defaults to 1
       children: [
-
+        {
+          title: "RAK8212 iTracker Pro",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak8212/',
+          children: [
+            'rak8212/board-overview-rak8212',
+            'rak8212/pin-definition-rak8212',
+            'rak8212/block-diagram-rak8212',
+            'rak8212/general-specifications-rak8212'
+          ]
+        }
       ]
     },
     {
