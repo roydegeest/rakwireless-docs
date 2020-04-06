@@ -1,5 +1,5 @@
 ---
-next: pin-definition-rak5010
+next: pin-definition
 ---
 
 # Board Overview

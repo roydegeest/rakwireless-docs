@@ -1,5 +1,5 @@
 ---
-next: power-requirements-rak5010
+next: power-requirements
 ---
 # Electrical and Mechanical Specifications 
 

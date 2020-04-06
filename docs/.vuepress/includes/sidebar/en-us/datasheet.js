@@ -131,6 +131,20 @@ module.exports = {
           ]
         },
         {
+          title: "RAK7249 Macro Outdoor Gateway",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak7249/',
+          children: [
+            'rak7249/components-and-accessories',
+            'rak7249/configuration-options',
+            'rak7249/hardware-interfaces',
+            'rak7249/product-specifications',
+            'rak7249/block-diagram',
+            'rak7249/board-interface'            
+          ]
+        },
+        {
           title: "RAK7258 Micro Gateway",
           nested: true,
           collapsable: false,
@@ -268,15 +282,15 @@ module.exports = {
           collapsable: false,
           path: '/en-us/datasheet/rak5010/',
           children: [
-            'rak5010/board-overview-rak5010',
-            'rak5010/pin-definition-rak5010',
-            'rak5010/interfaces-rak5010',          
-            'rak5010/electrical-and-mechanical-specifications-rak5010',
-            'rak5010/power-requirements-rak5010',
-            'rak5010/system-on-a-chip-and-sensors-rak5010',
-            'rak5010/mechanical-dimensions-rak5010',
-            'rak5010/antenna-characteristics-rak5010',
-            'rak5010/schematic-diagram-rak5010'
+            'rak5010/board-overview',
+            'rak5010/pin-definition',
+            'rak5010/interfaces',          
+            'rak5010/electrical-and-mechanical-specifications',
+            'rak5010/power-requirements',
+            'rak5010/system-on-a-chip-and-sensors',
+            'rak5010/mechanical-dimensions',
+            'rak5010/antenna-characteristics',
+            'rak5010/schematic-diagram'
           ]
         },
         {

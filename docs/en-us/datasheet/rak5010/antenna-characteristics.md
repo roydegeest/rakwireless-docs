@@ -1,5 +1,5 @@
 ---
-next: schematic-diagram-rak5010
+next: schematic-diagram
 ---
 
 # Antenna Characteristics

@@ -1,5 +1,5 @@
 ---
-next: mechanical-dimensions-rak5010
+next: mechanical-dimensions
 ---
 
 # System on a Chip (SoCs) and Sensors

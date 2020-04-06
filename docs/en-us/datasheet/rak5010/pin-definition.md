@@ -1,5 +1,5 @@
 ---
-next: interfaces-rak5010
+next: interfaces
 ---
 
 # Pin Definition

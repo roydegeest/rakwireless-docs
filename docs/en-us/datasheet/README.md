@@ -19,7 +19,7 @@ Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet
 <li><a href="/en-us/datasheet/rak7243c/#rak7243c-pilot-gateway">RAK7243C Pilot Gateway</a></li>
 <li><a href="https://www.w3schools.com">RAK7244C LPWAN Developer Gateway</a></li>
 <li><a href="https://www.w3schools.com">RAK7246G LPWAN Developer Gateway</a></li>
-<li><a href="https://www.w3schools.com">RAK7249 Macro Outdoor Gateway</a></li>
+<li><a href="/en-us/datasheet/rak7249/#rak7249-macro-outdoor-gateway">RAK7249 Macro Outdoor Gateway</a></li>
 <li><a href="/en-us/datasheet/rak7258/#rak7258-micro-gateway">RAK7258 Micro Gateway</a></li>
 </br>
 </details>

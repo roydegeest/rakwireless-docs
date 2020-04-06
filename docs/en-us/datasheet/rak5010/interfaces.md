@@ -1,5 +1,5 @@
 ---
-next: electrical-and-mechanical-specifications-rak5010
+next: electrical-and-mechanical-specifications
 ---
 
 # Interfaces

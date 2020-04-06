@@ -1,5 +1,5 @@
 ---
-next: system-on-a-chip-and-sensors-rak5010
+next: system-on-a-chip-and-sensors
 ---
 
 # Power Requirements

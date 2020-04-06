@@ -1,5 +1,5 @@
 ---
-next: antenna-characteristics-rak5010
+next: antenna-characteristics
 ---
 
 # Mechanical Dimensions
