@@ -1,5 +1,5 @@
 ---
-next: board-overview-rak7258
+next: board-overview
 ---
 
 # RAK7258 Micro Gateway    

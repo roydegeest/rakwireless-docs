@@ -1,5 +1,5 @@
 ---
-next: board-overview-rak7200
+next: board-overview
 ---
 
 # RAK7200 LPWAN Tracker

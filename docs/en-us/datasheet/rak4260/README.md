@@ -1,3 +1,6 @@
+---
+next: board-overview
+---
 # RAK4260 WisDuo LPWAN Module
 
 <rk-img

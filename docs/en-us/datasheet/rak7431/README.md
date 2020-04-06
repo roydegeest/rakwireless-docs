@@ -1,5 +1,5 @@
 ---
-next: networking-applications-rak7431
+next: networking-applications
 ---
 
 # RAK7431 - RS485 to LoRaWAN® Converter

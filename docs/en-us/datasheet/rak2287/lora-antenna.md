@@ -10,7 +10,7 @@ The LoRa® Antenna with RP-SMA female connector shown as follow figures.
 
 <rk-img
   :src="`${$frontmatter.static_root}/hzbphazqkqanr4fe4xkt.png`"
-  width="100%"
+  width="80%"
   figure-number="1"
   caption="LoRa® Antenna Overview"
 />
@@ -21,9 +21,9 @@ The antenna’s mechanical dimension is shown below:
 
 <rk-img
   :src="`${$frontmatter.static_root}/kuoafieaibpi0p6u1izf.jpg`"
-  width="100%"
-  figure-number="1"
-  caption="Antenna Dimennsion"
+  width="80%"
+  figure-number="2"
+  caption="Antenna Dimension"
 />
 
 ## Antenna Parameter

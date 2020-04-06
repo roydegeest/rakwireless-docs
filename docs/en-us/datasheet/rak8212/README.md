@@ -1,5 +1,5 @@
 ---
-next: board-overview-rak8212
+next: board-overview
 ---
 
 # RAK8212 iTracker Pro

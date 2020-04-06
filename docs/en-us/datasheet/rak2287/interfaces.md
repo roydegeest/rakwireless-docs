@@ -7,7 +7,7 @@ static_root: /assets/images/datasheet/rak2287/interfaces
 ## Block Diagram
 
 <rk-img
-  :src="`${$frontmatter.static_root}/zzp22e0zyt73nrsvhux9.jpg`"
+  :src="`${$frontmatter.static_root}/block_diagram.png`"
   width="100%"
   figure-number="1"
   caption="RAK2287 Block Diagram"
@@ -48,9 +48,8 @@ SPI interface mainly provides for the Host_SCK, Host_MISO, Host_MOSI, Host_CSN p
 
 RAK2287 card can support the high speed USB to SPI by STM32L412Kx, it includes a USB 2.0 compliant interface with maximum 480 Mb/s data rate, representing the interface for any communication with an external host application processor. The module itself acts as a USB device and can be connected to any USB host equipped with compatible drivers. For more information, please refer to the data sheet of [STM32L412Kx](https://static6.arrow.com/aropdfconversion/aa9551e10fd0227ad8a1e3981a1804037f0d680f/stm32l412t8.pdf).
 
-::: tip Note:
-:pencil: RAK2287-SPI
-version doesn't have this interface.
+::: tip 📝 NOTE
+RAK2287-SPI version doesn't have this interface.
 :::
 
 ## GPS_PPS

@@ -22,8 +22,8 @@ Limiting values given below are in accordance with the Absolute Maximum Rating S
 | Rho_ANT    | Antenna ruggedness    | Output RF load mismatch ruggedness at ANT1 |          | 10:1 VSWR |
 | Tstg       | Storage Temperature   |                                            | -40°C    | 85°C      |
 
-::: warning
-:warning: The product is not protected against overvoltage or reversed voltages. If necessary, voltage spikes exceeding the power supply voltage specification, given in table above, must be limited to values within the specified boundaries by using appropriate protection devices.
+::: warning ⚠️ WARNING
+The product is not protected against overvoltage or reversed voltages. If necessary, voltage spikes exceeding the power supply voltage specification, given in table above, must be limited to values within the specified boundaries by using appropriate protection devices.
 :::
 
 ## Maximum ESD
@@ -37,8 +37,8 @@ The table below lists the maximum ESD.
 | ESD immunity for ANT1                  |         |             | 4000V   | Contact Discharge according to IEC 61000-4-2 |
 |                                        |         |             | 8000V   | Air Discharge according to IEC 61000-4-2     |
 
-::: tip Note:
-:pencil: RAK2287 card is an Electrostatic Sensitive Device and require special precautions when handling.
+::: tip 📝 NOTE
+RAK2287 card is an Electrostatic Sensitive Device and require special precautions when handling.
 :::
 
 ## Operating Temperature
@@ -49,12 +49,8 @@ The table below lists the operation temperature range
 | ---------------------------- | -------- | ----------- | -------- | ---------------------------------------------------------------------------------- |
 | Normal operating temperature | -40°C    | +25°C       | +85°C    | Normal operating temperature range (fully functional and meet 3GPP specifications) |
 
-::: tip Note:
-:pencil: Unless
-otherwise indicated, all operating condition specifications are at an ambient
-temperature of 25°C.
-Operation beyond the operating conditions is not recommended and extended
-exposure beyond them may affect device reliability.
+::: tip 📝 NOTE
+Unless otherwise indicated, all operating condition specifications are at an ambient temperature of 25°C. Operation beyond the operating conditions is not recommended and extended exposure beyond them may affect device reliability.
 :::
 
 ## Power Supply Range

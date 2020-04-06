@@ -16,9 +16,8 @@ The values and range given below are all in accordance with Absolute Maximum Rat
 | **Operating Temperature** | Temperature Range | -40°C   |             | +85°C   |
 | **RF Input Power**        |                   |         |             | -15dBm  |
 
-::: tip Note
-Stress exceeding of one or more of the limiting values listed under "Absolute Maximum Ratings" may
-cause permanent damage to the radio module.
+::: warning ⚠️ WARNING
+Stress exceeding of one or more of the limiting values listed under "Absolute Maximum Ratings" may cause permanent damage to the radio module.
 :::
 
 ### Maximum ESD
@@ -32,7 +31,7 @@ The table below shows the maximum ESD.
 | **ESD immunity for ANT**                    |         |             | 4000V   | Contact Discharge according to IEC 61000-4-2 |
 |                                             |         |             | 8000V   | Air Discharge according to IEC 61000-4-2     |
 
-::: tip Note
+::: tip 📝 NOTE
 The module is an Electrostatic Sensitive Device and require special precautions when
 handling.
 :::

@@ -1,5 +1,5 @@
 ---
-next: board-overview-rak2245-pihat
+next: board-overview
 ---
 
 # RAK2245 Pi Hat - LPWAN Gateway Concentrator Module

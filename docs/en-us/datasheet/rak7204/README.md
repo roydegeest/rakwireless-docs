@@ -1,12 +1,12 @@
 ---
-next: operating-frequencies-rak7204
+next: operating-frequencies
 ---
 
 # RAK7204 LPWAN Environmental Sensor
 
 <rk-img
   src="/assets/images/datasheet/rak7204/rak7204-overview.png"
-  width="50%"
+  width="40%"
   figure-number="1"
   caption="RAK7204  LPWAN Environmental Sensor"
 />

@@ -1,29 +1,28 @@
 # RF Characteristics
 
-The RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module has an excellent transmitter performance . It is highly
-recommended to use an optimized configuration for the power level
+The RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module has an excellent transmitter performance . It is highly recommended to use an optimized configuration for the power level
 configuration, which is part of the HAL. This results in a mean RF output power
 level and current consumption.
 
 | **PA Control** | **DAC Control** | **MIX Control** | **DIG Gain** | **Normal RF Power Level (dBm)** |
-| -------------- | --------------- | --------------- | ------------ | ------------------------------- |
-| 0              | 3               | 8               | 0            | -6                              |
-| 0              | 3               | 10              | 0            | -3                              |
-| 0              | 3               | 14              | 0            | 0                               |
-| 1              | 3               | 9               | 3            | 4                               |
-| 1              | 3               | 8               | 0            | 8                               |
-| 1              | 3               | 9               | 0            | 10                              |
-| 1              | 3               | 11              | 0            | 12                              |
-| 1              | 3               | 12              | 0            | 14                              |
-| 1              | 3               | 13              | 0            | 16                              |
-| 2              | 3               | 12              | 0            | 17                              |
-| 2              | 3               | 13              | 0            | 19                              |
-| 2              | 3               | 14              | 0            | 20                              |
-| 3              | 3               | 10              | 0            | 0                               |
-| 3              | 3               | 11              | 0            | 0                               |
-| 3              | 3               | 12              | 0            | 25                              |
-| 3              | 3               | 13              | 0            | 26                              |
-| 3              | 3               | 14              | 0            | 27                              |
+| :------------: | --------------- | --------------- | ------------ | ------------------------------- |
+|       0        | 3               | 8               | 0            | -6                              |
+|       0        | 3               | 10              | 0            | -3                              |
+|       0        | 3               | 14              | 0            | 0                               |
+|       1        | 3               | 9               | 3            | 4                               |
+|       1        | 3               | 8               | 0            | 8                               |
+|       1        | 3               | 9               | 0            | 10                              |
+|       1        | 3               | 11              | 0            | 12                              |
+|       1        | 3               | 12              | 0            | 14                              |
+|       1        | 3               | 13              | 0            | 16                              |
+|       2        | 3               | 12              | 0            | 17                              |
+|       2        | 3               | 13              | 0            | 19                              |
+|       2        | 3               | 14              | 0            | 20                              |
+|       3        | 3               | 10              | 0            | 0                               |
+|       3        | 3               | 11              | 0            | 0                               |
+|       3        | 3               | 12              | 0            | 25                              |
+|       3        | 3               | 13              | 0            | 26                              |
+|       3        | 3               | 14              | 0            | 27                              |
 
 - At T=25°C, Vdd = 5V (Typical) if nothing else stated
 

@@ -7,7 +7,7 @@ static_root: /assets/images/datasheet/rak2245-stamp/interfaces
 ## Block Diagram
 
 <rk-img
-  :src="`${$frontmatter.static_root}/aq5elaeatd8nvredyray.jpg`"
+  :src="`${$frontmatter.static_root}/block_diagram.png`"
   width="100%"
   figure-number="1"
   caption="RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module Block Diagram"
@@ -28,7 +28,7 @@ interfaces.
 
 The pin connector provides an SPI connection which allows direct access to the Sx1301 SPI interface. This gives the target system the possibility to use existing SPI interfaces to communicate with the module.
 
-::: tip Note
+::: tip 📝 NOTE
 Please reset SX1301 via PIN A13 after turning on your RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module
 :::
 

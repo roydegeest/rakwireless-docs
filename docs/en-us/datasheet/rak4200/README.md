@@ -1,7 +1,10 @@
+---
+next: board-overview
+---
 # RAK4200 LPWAN Module
 
 <rk-img
-  src="/assets/images/datasheet/rak4200/rak4200-module.jpg"
+  src="/assets/images/datasheet/rak4200/overview.png"
   width="50%"
   figure-number="1"
   caption="RAK4200 Module"

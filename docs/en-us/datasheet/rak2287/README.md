@@ -7,7 +7,7 @@ next: board-overview
 
 <rk-img
   :src="`${$frontmatter.static_root}/aprgtyyf6arxkxu7rjyl.jpg`"
-  width="60%"
+  width="50%"
   figure-number="1"
   caption="RAK2287 WisLink- LPWAN Gateway Module"
 />

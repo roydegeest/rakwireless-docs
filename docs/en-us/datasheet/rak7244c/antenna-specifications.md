@@ -12,7 +12,7 @@ The LoRa® Antenna with RP-SMA female connector is shown in the image below:
 
 <rk-img
   :src="`${$frontmatter.static_root}/ve8scbrbhdlcdaxa8x43.png`"
-  width="100%"
+  width="80%"
   figure-number="1"
   caption="LoRa® Antenna Overview"
 />
@@ -45,7 +45,7 @@ The LTE antenna for the Developer Gateway covers working frequency band from 824
 
 <rk-img
   :src="`${$frontmatter.static_root}/rhh9xrj0pfazqtaegxiv.jpg`"
-  width="100%"
+  width="80%"
   figure-number="3"
   caption="LTE Antenna"
 />
@@ -54,7 +54,7 @@ The LTE antenna for the Developer Gateway covers working frequency band from 824
 
 <rk-img
   :src="`${$frontmatter.static_root}/hmqp4xvybryisixcoq86.jpg`"
-  width="100%"
+  width="80%"
   figure-number="4"
   caption="LTE Antenna Dimension"
 />
@@ -77,7 +77,7 @@ The GPS antenna for Pilot Gateway is shown below
 
 <rk-img
   :src="`${$frontmatter.static_root}/ftzgxoaywuiq7xmy8shj.jpg`"
-  width="100%"
+  width="70%"
   figure-number="5"
   caption="GPS Antenna"
 />
@@ -129,16 +129,13 @@ Amplifier Specifications are listed below:
 
 Environmental test performance specifications are listed below:
 
-| Item              | Normal Temp. | High Temp \[1\] | Low Temp \[2\] |
+| Item              | Normal Temp. | High Temp \[1\]* | Low Temp \[2\]* |
 | ----------------- | ------------ | --------------- | -------------- |
 | Amplifier Gain    | 27dB ± 2.0   | 27dB ± 2.0      | 27dB ± 2.0     |
 | VSWR              | ≤ 2.0        | ≤ 2.0           | ≤ 2.0          |
 | Noise Coefficient | ≤ 2.0        | ≤ 2.0           | ≤ 2.0          |
 
-::: tip Note:
-[1] - High temperature test: soap in temperature (85º C) and humidity (95%) chamber for 24-
-hour and return to normal temperature (at least for 1-hour) without visual shape change.
-
-[2] - Low temperature test: soap in temperature (-40º C) chamber for 24-hour and return to
-normal temperature (at least for 1-hour) without visual shape change
+::: tip 📝 NOTE
+**1** - High temperature test: soap in temperature (85º C) and humidity (95%) chamber for 24- hour and return to normal temperature (at least for 1-hour) without visual shape change.<br>
+**2** - Low temperature test: soap in temperature (-40º C) chamber for 24-hour and return to normal temperature (at least for 1-hour) without visual shape change
 :::

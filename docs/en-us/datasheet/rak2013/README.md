@@ -1,12 +1,12 @@
 ---
-next: board-overview-rak2013
+next: board-overview
 ---
 
 
 # RAK2013 Cellular
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/rak2013-cellular-board.jpg"
+  src="/assets/images/datasheet/rak2013/rak2013.jpg"
   width="50%"
   figure-number="1"
   caption="RAK2013 Cellular Board"

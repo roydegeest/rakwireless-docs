@@ -1,5 +1,5 @@
 ---
-next: board-overview-rak2247
+next: board-overview
 ---
 
 # RAK2247 LPWAN Gateway Concentrator Module

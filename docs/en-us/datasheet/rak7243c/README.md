@@ -1,5 +1,5 @@
 ---
-next: board-overview-rak7243c
+next: board-overview
 ---
 
 # RAK7243C Pilot Gateway
