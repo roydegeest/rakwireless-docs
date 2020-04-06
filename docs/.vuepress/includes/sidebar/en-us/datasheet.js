@@ -263,6 +263,23 @@ module.exports = {
       sidebarDepth: 2,    // optional, defaults to 1
       children: [
         {
+          title: "RAK5010 WisTrio NB-IoT Tracker",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak5010/',
+          children: [
+            'rak5010/board-overview-rak5010',
+            'rak5010/pin-definition-rak5010',
+            'rak5010/interfaces-rak5010',          
+            'rak5010/electrical-and-mechanical-specifications-rak5010',
+            'rak5010/power-requirements-rak5010',
+            'rak5010/system-on-a-chip-and-sensors-rak5010',
+            'rak5010/mechanical-dimensions-rak5010',
+            'rak5010/antenna-characteristics-rak5010',
+            'rak5010/schematic-diagram-rak5010'
+          ]
+        },
+        {
           title: "RAK8212 iTracker Pro",
           nested: true,
           collapsable: false,

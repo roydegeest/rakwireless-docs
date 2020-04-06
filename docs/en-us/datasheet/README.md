@@ -51,7 +51,7 @@ Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet
 <details>
 <summary>NB-IoT</summary>
 <br>
-<li><a href="https://www.w3schools.com">RAK5010 WisTrio NB-IoT Tracker</a></li>
+<li><a href="/en-us/datasheet/rak5010/#rak5010-wistrio-nb-iot-tracker">RAK5010 WisTrio NB-IoT Tracker</a></li>
 <li><a href="/en-us/datasheet/rak8212/#rak8212-itracker-pro">RAK8212 iTracker Pro</a></li>
 </br>
 </details>
