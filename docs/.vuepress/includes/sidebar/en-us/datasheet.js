@@ -131,6 +131,21 @@ module.exports = {
           ]
         },
         {
+          title: "RAK7246G LPWAN Developer Gateway",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak7246g/',
+          children: [
+            'rak7246g/product-specifications',
+            'rak7246g/board-overview',
+            'rak7246g/interfaces',
+            'rak7246g/pin-definition',
+            'rak7246g/electrical-characteristics',
+            'rak7246g/rf-characteristics',
+            'rak7246g/systems-network-approach'
+          ]
+        },
+        {
           title: "RAK7249 Macro Outdoor Gateway",
           nested: true,
           collapsable: false,
@@ -141,7 +156,7 @@ module.exports = {
             'rak7249/hardware-interfaces',
             'rak7249/product-specifications',
             'rak7249/block-diagram',
-            'rak7249/board-interface'            
+            'rak7249/board-interface'
           ]
         },
         {
@@ -175,6 +190,20 @@ module.exports = {
             'rak811-breakout-module/schematic-diagram',
             'rak811-breakout-module/device-specifications',
             'rak811-breakout-module/reflow-profile'
+          ]
+        },
+        {
+          title: "RAK811 LPWAN Module",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak811/',
+          children: [
+            'rak811/interfaces',
+            'rak811/pin-definition',
+            'rak811/board-layout',
+            'rak811/schematic-diagram',
+            'rak811/device-specification',
+            'rak811/reflow-profile'
           ]
         },
         {
@@ -315,7 +344,7 @@ module.exports = {
           children: [
             'rak5010/board-overview',
             'rak5010/pin-definition',
-            'rak5010/interfaces',          
+            'rak5010/interfaces',
             'rak5010/electrical-and-mechanical-specifications',
             'rak5010/power-requirements',
             'rak5010/system-on-a-chip-and-sensors',
