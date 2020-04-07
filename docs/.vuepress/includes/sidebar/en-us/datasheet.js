@@ -164,6 +164,20 @@ module.exports = {
       sidebarDepth: 2,    // optional, defaults to 1
       children: [
         {
+          title: "RAK811 LPWAN Breakout Module",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak811-breakout-module/',
+          children: [
+            'rak811-breakout-module/board-overview',
+            'rak811-breakout-module/pin-definition',
+            'rak811-breakout-module/board-layout',
+            'rak811-breakout-module/schematic-diagram',
+            'rak811-breakout-module/device-specifications',
+            'rak811-breakout-module/reflow-profile'
+          ]
+        },
+        {
           title: "RAK815 Hybrid Location Tracker",
           nested: true,
           collapsable: false,
@@ -189,6 +203,23 @@ module.exports = {
             'rak4200/electrical-characteristics',
             'rak4200/mechanical-characteristics',
             'rak4200/recommended-reflow-profile'
+          ]
+        },
+        {
+          title: "RAK5205 WisTrio LPWAN Tracker",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak5205/',
+          children: [
+            'rak5205/board-overview',
+            'rak5205/operating-frequencies',
+            'rak5205/interfaces',
+            'rak5205/pin-definition',
+            'rak5205/power-consumption',
+            'rak5205/environmental-requirements',            
+            'rak5205/mechanical-dimensions',
+            'rak5205/antenna-specifications',
+            'rak5205/schematics'
           ]
         },
         {
