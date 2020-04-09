@@ -1,3 +1,6 @@
+---
+next: /en-us/datasheet/rak2247/
+---
 # RF Characteristics
 
 The RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module has an excellent transmitter performance . It is highly recommended to use an optimized configuration for the power level

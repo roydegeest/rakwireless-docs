@@ -7,13 +7,12 @@ static_root: /assets/images/datasheet/rak813/pin-definition
 ### Pin Outline
 
 <rk-img
-  :src="`${$frontmatter.static_root}/x2r4cnaicfsun5zakynq.png`"
-  width="50%"
+  :src="`${$frontmatter.static_root}/RAK813_Pinout.jpg`"
+  width="80%"
   figure-number="1"
   caption="Pin Out Diagram for RAK813"
 />
 
-### Pin Definition
 
 | Pin Number | Name           | Type | Description                      |
 | ---------- | -------------- | ---- | -------------------------------- |

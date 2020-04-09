@@ -1,3 +1,6 @@
+---
+next: /en-us/datasheet/rak7244c/
+---
 # Antenna Specifications
 
 ## LoRa® Antenna

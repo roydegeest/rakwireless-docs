@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/datasheet/rak813/mechanical-dimension
+next: /en-us/datasheet/rak815/
 ---
 
 # Mechanical Dimension

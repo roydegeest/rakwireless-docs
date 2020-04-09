@@ -1,3 +1,6 @@
+---
+next: /en-us/datasheet/rak2287/
+---
 # RF Characteristics
 
 The following table gives typically sensitivity level of the RAK2247 LPWAN Gateway Concentrator Module.

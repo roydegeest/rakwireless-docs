@@ -29,8 +29,8 @@ The RAK2246 has an excellent transmitter performance. It is highly recommended, 
 | \[TX Power Variation\](TX Power Variation) vs. Temperature |                            | -5      |          | +5      | dB       |
 | TX Power Variation                                         |                            | -1.5    |          | +1.5    | dB       |
 
-::: tip Note
-:pencil: Also supports 915 Frequency Range.
+::: tip 📝 NOTE
+Also supports 915 Frequency Range.
 :::
 
 ## Receiver RF Characteristics

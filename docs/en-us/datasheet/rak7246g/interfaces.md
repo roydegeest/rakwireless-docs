@@ -76,9 +76,8 @@ The unique multi data-rate multi-channel demodulation capacity SF7 to SF12 and o
 
 The PINs on the connector provide an SPI connection, which allows direct access to the SX1308 SPI interface. This gives the target system the possibility to use existing SPI interfaces to communicate.
 
-::: tip Note
-:pencil: After powering up RAK2246, it is required to reset
-SX1308 via PIN 11.
+::: tip 📝 NOTE
+After powering up RAK2246, it is required to reset SX1308 via PIN 11.
 :::
 
 ### UART and I2C

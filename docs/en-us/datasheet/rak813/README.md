@@ -6,8 +6,8 @@ next: board-overview
 # RAK813 BLE+LoRa®
 
 <rk-img
-  :src="`${$frontmatter.static_root}/iz6y8vxcuiirsvxtn7vd.jpg`"
-  width="60%"
+  :src="`${$frontmatter.static_root}/RAK813.jpg`"
+  width="30%"
   figure-number="1"
   caption="RAK813 Module"
 />

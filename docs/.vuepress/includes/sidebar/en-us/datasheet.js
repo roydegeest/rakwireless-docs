@@ -248,6 +248,21 @@ module.exports = {
           ]
         },
         {
+          title: "RAK4260 WisDuo LPWAN Module",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak4260/',
+          children: [
+            'rak4260/board-overview',
+            'rak4260/block-diagram',
+            'rak4260/operating-frequencies',
+            'rak4260/electrical-characteristics',
+            'rak4260/pin-definition',
+            'rak4260/mechanical-characteristics',
+            'rak4260/typical-application-circuit'
+          ]
+        },
+        {
           title: "RAK5205 WisTrio LPWAN Tracker",
           nested: true,
           collapsable: false,
@@ -262,21 +277,6 @@ module.exports = {
             'rak5205/mechanical-dimensions',
             'rak5205/antenna-specifications',
             'rak5205/schematics'
-          ]
-        },
-        {
-          title: "RAK4260 WisDuo LPWAN Module",
-          nested: true,
-          collapsable: false,
-          path: '/en-us/datasheet/rak4260/',
-          children: [
-            'rak4260/board-overview',
-            'rak4260/block-diagram',
-            'rak4260/operating-frequencies',
-            'rak4260/electrical-characteristics',
-            'rak4260/pin-definition',
-            'rak4260/mechanical-characteristics',
-            'rak4260/typical-application-circuit'
           ]
         },
         {

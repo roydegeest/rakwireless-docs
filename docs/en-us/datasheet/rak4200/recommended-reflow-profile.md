@@ -1,3 +1,6 @@
+---
+next: /en-us/datasheet/rak4260/
+---
 # Recommended Reflow Profile
 
 In this section, the recommended reflow profile for RAK4200 LPWAN Module is described in the image below:

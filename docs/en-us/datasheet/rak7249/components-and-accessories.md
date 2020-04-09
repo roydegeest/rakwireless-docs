@@ -18,8 +18,8 @@ Create your own RAK7249 Macro Outdoor Gateway using the supplied building Blocks
   caption="DIY Enterprise Gateway Components and Accessories"
 />
 
-:::tip Note:
-:pencil: Actual Devices for RAK7249 Macro Outdoor Gateway and accessories may differ from the image presented. For any discrepancies, please adhere to the actual product instead.
+:::tip 📝 NOTE
+Actual Devices for RAK7249 Macro Outdoor Gateway and accessories may differ from the image presented. For any discrepancies, please adhere to the actual product instead.
 :::
 
 ## Main Board

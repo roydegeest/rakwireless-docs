@@ -1,3 +1,6 @@
+---
+next: /en-us/datasheet/rak2245-stamp/
+---
 # RF Characteristics
 
 ## Transmitter RF Characteristics

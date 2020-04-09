@@ -6,7 +6,7 @@ next: board-overview
 
 <rk-img
   src="/assets/images/datasheet/rak5010/rak5010-wis-trio-nb-iot-tracker.jpg"
-  width="50%"
+  width="40%"
   figure-number="1"
   caption="RAK5010 WisTrio NB-IoT Tracker"
 />

@@ -8,10 +8,10 @@ next: environmental-requirements
 
 The board supports to enable the GPS low power mode, it has a 3-axis MEMS Sensor LIS3DH, which can detect the user's motion status, when the device is stationary, it will enter the low power sleep mode, reducing the overall power consumption and increase battery life. The power consumption as shown in the following table.
 
-| Mode | Power Consumption | 
-| ---- | ---- | 
-| Sleep Mode | 14.5µA (Minimum) | 
-| Normal Mode | 174mA (Maximum) @ 20dBm and GPS Enabled | 
+| Mode        | Power Consumption                       |
+| ----------- | --------------------------------------- |
+| Sleep Mode  | 14.5µA (Minimum)                        |
+| Normal Mode | 174mA (Maximum) @ 20dBm and GPS Enabled |
 
 
 ## Power Requirements

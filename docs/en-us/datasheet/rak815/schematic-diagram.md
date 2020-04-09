@@ -1,3 +1,6 @@
+---
+next: /en-us/datasheet/rak4200/
+---
 # Schematic Diagram
 
 <rk-img

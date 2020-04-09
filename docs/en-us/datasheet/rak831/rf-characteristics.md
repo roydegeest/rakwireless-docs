@@ -1,5 +1,5 @@
 ---
-next: /en-us/datasheet/rak4200/#rak4200-lpwan-module
+next: /en-us/datasheet/rak833/
 ---
 
 # RF Characteristics

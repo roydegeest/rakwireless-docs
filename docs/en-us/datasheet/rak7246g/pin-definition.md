@@ -6,7 +6,7 @@ static_root: /assets/images/datasheet/rak7246g/pin-definition
 
 <rk-img
   :src="`${$frontmatter.static_root}/e7ik5kliydnba3jh6ogy.jpg`"
-  width="60%"
+  width="80%"
   figure-number="1"
   caption="RAK7246G Pinout Diagram"
 />

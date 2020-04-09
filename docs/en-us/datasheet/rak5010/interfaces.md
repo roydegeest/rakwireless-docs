@@ -9,7 +9,7 @@ next: electrical-and-mechanical-specifications
 The block diagram below shows the internal architecture and external interfaces of the RAK5010 board.
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/block-diagram-of-rak5010.jpg"
+  src="/assets/images/datasheet/rak5010/block_diagram.jpg"
   width="100%"
   figure-number="1"
   caption="Block Diagram of RAK5010"
@@ -52,13 +52,13 @@ definition is shown below:
   caption="USB Connector Pinout"
 />
 
-|Pin|Description| 
-| :----: | :----: | 
-| 1 | USB\_VBUS (+5V) | 
-| 2 | USB\_DM | 
-| 3 | USB\_DP | 
-| 4 | NC | 
-| 5 | GND | 
+|  Pin  |   Description   |
+| :---: | :-------------: |
+|   1   | USB\_VBUS (+5V) |
+|   2   |     USB\_DM     |
+|   3   |     USB\_DP     |
+|   4   |       NC        |
+|   5   |       GND       |
 
 
 This USB port is also used as port for charging the battery.
@@ -67,11 +67,11 @@ This USB port is also used as port for charging the battery.
 
 Three LEDs are used to indicate operating status, here are their functions:
 
-|Color|Connection|Function| 
-| :----: | :----: | :----: | 
-| Green LED | connected to the nRF52840 | Defined by the user | 
-| Blue LED | connect to the BG96 | Indicates the status of the BG96. | 
-| Red LED | connect to the BG96 | Indicates the network status of the BG96 | 
+|    Color     |        Connection         |                 Function                 |
+| :----------: | :-----------------------: | :--------------------------------------: |
+| 🟢 Green LED | connected to the nRF52840 |           Defined by the user            |
+| 🔵 Blue LED  |    connect to the BG96    |    Indicates the status of the BG96.     |
+|  🔴 Red LED  |    connect to the BG96    | Indicates the network status of the BG96 |
 
 
 ## RESET Push Button
@@ -88,20 +88,20 @@ The nRF52840 communicates with the BG96 primarily though the UART interface. The
 of auto monitoring of status indicators and control. The pin mapping is shown
 below:
 
-|Function of BG96|PIN definition on nRF52840| 
-| :----: | :----: | 
-| TX of UART | P0.08 (RX for the nRF52840) | 
-| RX of UART | P0.06 (TX for the nRF52840) | 
-| BG96\_CTS | P0.11 | 
-| BG96\_RTS | P0.07 | 
-| BG96\_RI | P0.27 | 
-| BG96\_STATUS | P0.31 | 
-| BG96\_RESET | P0.28 | 
-| BG96\_PWRKEY | P0.02 | 
-| BG96\_WDISABLE | P0.29 | 
-| BG96\_DTR | P0.26 | 
-| BG96\_AP READY | P0.30 | 
-| BG96\_PSM | P0.03 | 
+| Function of BG96 | PIN definition on nRF52840  |
+| :--------------: | :-------------------------: |
+|    TX of UART    | P0.08 (RX for the nRF52840) |
+|    RX of UART    | P0.06 (TX for the nRF52840) |
+|    BG96\_CTS     |            P0.11            |
+|    BG96\_RTS     |            P0.07            |
+|     BG96\_RI     |            P0.27            |
+|   BG96\_STATUS   |            P0.31            |
+|   BG96\_RESET    |            P0.28            |
+|   BG96\_PWRKEY   |            P0.02            |
+|  BG96\_WDISABLE  |            P0.29            |
+|    BG96\_DTR     |            P0.26            |
+|  BG96\_AP READY  |            P0.30            |
+|    BG96\_PSM     |            P0.03            |
 
 
 If BG96_RESET, BG96_PWRKEY, and BG96_WDISABLE are not set correctly, the BG96 module will not boot up normally. When powering up, the BG96 RESET should be retained at a low-level voltage, the BG96_WDISABLE should be retained at low level voltage, and the BG96_PWRKEY should be given a pulse with a high level and at least

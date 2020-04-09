@@ -6,8 +6,8 @@ static_root: /assets/images/datasheet/rak7246g/electrical-characteristics
 
 In this section, different Electrical Characteristics of the RAK2246 are listed. Furthermore, details and other parameter ranges are available on request.
 
-::: tip Note
-:pencil: Stress exceeding of one or more of the limiting values
+::: tip 📝 NOTE
+Stress exceeding of one or more of the limiting values
 listed under “**Absolute Maximum Ratings**” may cause permanent damage to the radio
 module.
 :::
@@ -20,8 +20,8 @@ module.
 | Operating Temperature |               | -10     |          | +65     | ℃        |
 | RF Input Power        |               |         |          | -15     | dBm      |
 
-::: tip Note
-:pencil: With RF output power level above **+15 dBm,** a minimum distance to a transmitter should be 1m to avoid too large input level.
+::: tip 📝 NOTE
+With RF output power level above **+15 dBm,** a minimum distance to a transmitter should be 1m to avoid too large input level.
 :::
 
 ## Global Electrical Characteristics

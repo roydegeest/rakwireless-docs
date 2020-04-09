@@ -1,3 +1,6 @@
+---
+next: /en-us/datasheet/rak2013/
+---
 # Installation
 
 RAK7431 allows for three installation methods: wall mounting, DIN rail installation and magnetic mounting. The wall installation is the standard installation mode (screw holes). The accessories required for DIN rail and magnetic mounting are optional
