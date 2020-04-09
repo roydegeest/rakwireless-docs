@@ -28,13 +28,13 @@ Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet
 <summary>LPWAN Nodes</summary>
 <br>
 <li><a href="https://www.w3schools.com">RAK811 LPWAN Module</a></li>
-<li><a href="https://www.w3schools.com">RAK811 LPWAN Breakout Module</a></li>
+<li><a href="/en-us/datasheet/rak811-breakout-module/#rak811-lpwan-breakout-module">RAK811 LPWAN Breakout Module</a></li>
 <li><a href="https://www.w3schools.com">RAK813 BLE+LoRa®</a></li>
 <li><a href="/en-us/datasheet/rak815/#rak815-hybrid-location-tracker">RAK815 Hybrid Location Tracker</a></li>
 <li><a href="/en-us/datasheet/rak4200/#rak4200-lpwan-module">RAK4200 LPWAN Module</a></li>
 <li><a href="/en-us/datasheet/rak4260/#rak4260-wisduo-lpwan-module">RAK4260 WisDuo LPWAN Module</a></li>
 <li><a href="https://www.w3schools.com">RAK4600 LPWAN Module</a></li>
-<li><a href="https://www.w3schools.com">RAK5205 WisTrio LPWAN Tracker</a></li>
+<li><a href="/en-us/datasheet/rak5205/#rak5205-wistrio-lpwan-tracker">RAK5205 WisTrio LPWAN Tracker</a></li>
 <li><a href="/en-us/datasheet/rak7200/#rak7200-lpwan-tracker">RAK7200 LPWAN Tracker</a></li>
 <li><a href="/en-us/datasheet/rak7204/#rak7204-lpwan-environmental-sensor">RAK7204 LPWAN Environmental Sensor</a></li>
 <li><a href="/en-us/datasheet/rak7431/#rak7431-rs485-to-lorawan®-converter">RAK7431 - RS485 to LoRaWAN® Converter</a></li>
