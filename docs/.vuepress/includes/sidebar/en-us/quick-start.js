@@ -973,5 +973,4 @@ module.exports = {
       ]
     }
   ],
-
 }
