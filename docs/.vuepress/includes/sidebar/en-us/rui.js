@@ -4,7 +4,7 @@ module.exports = {
       title: 'RUI API Reference',   // required
       path: '',      // optional, which should be a absolute path.
       collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      sidebarDepth: 0,    // optional, defaults to 1
       children: [
         ''
       ]
