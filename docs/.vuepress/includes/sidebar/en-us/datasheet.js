@@ -386,7 +386,18 @@ module.exports = {
       collapsable: false, // optional, defaults to true
       sidebarDepth: 2,    // optional, defaults to 1
       children: [
-
+        {
+          title: "RAK9003 PoE HAT",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak9003-poe-hat/',
+          children: [
+            'rak9003-poe-hat/block-diagram',
+            'rak9003-poe-hat/pin-definition',
+            'rak9003-poe-hat/typical-characteristics',
+            'rak9003-poe-hat/electrical-characteristics'
+          ]
+        }
       ]
     }
   ],
