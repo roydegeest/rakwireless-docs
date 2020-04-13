@@ -7,40 +7,40 @@ next: power-requirements
 
 Stresses above those listed as “**absolute maximum ratings**” may cause permanent damage to the device. This is a stress rating, functional operation of the device under these conditions is not advised. Exposure to maximum rating conditions may affect device reliability.
 
-|Ratings|Maximum Value (V)| 
-| :----: | :----: | 
-| Vbus, power supply on UBS port | -0.3 - 5.5 | 
-| Vbat, battery voltage | -0.3 - 4.3 | 
-| Vconn solar panel voltage | -0.3 - 5.5 | 
-| IOs of J-link (J9) | -0.3 - 1.9 | 
-| IOs of BG96, nRF52840 - J10 and J12 | -0.3 -VREF | 
-| ESD | 2000 | 
+|               Ratings               | Maximum Value (V) |
+| :---------------------------------: | :---------------: |
+|   Vbus, power supply on UBS port    |    -0.3 - 5.5     |
+|        Vbat, battery voltage        |    -0.3 - 4.3     |
+|      Vconn solar panel voltage      |    -0.3 - 5.5     |
+|         IOs of J-link (J9)          |    -0.3 - 1.9     |
+| IOs of BG96, nRF52840 - J10 and J12 |    -0.3 -VREF     |
+|                 ESD                 |       2000        |
 
-:::warning
-:warning: The RAK5010, as any electronic equipment, is sensitive to electrostatic discharge (ESD), improper handling can cause permanent damage to module.
+:::warning ⚠️ WARNING
+The RAK5010, as any electronic equipment, is sensitive to electrostatic discharge (ESD), improper handling can cause permanent damage to module.
 :::
 
 ## Environmental Requirements
 
 The table below lists the operation and storage temperature requirements:
 
-|Parameter|Min|Typical|Max| 
-| :----: | :----: | :----: | :----: | 
-| Operational Temp. Range | -35 ºC | +25 ºC | +75 ºC | 
-| Extended Temp. Range | -40 ˚C | +25 ºC | +80 ˚C | 
-| Storage Temp. Range | -40 ˚C | +25 ºC | +80 ˚C | 
+|        Parameter        |  Min   | Typical |  Max   |
+| :---------------------: | :----: | :-----: | :----: |
+| Operational Temp. Range | -35 ºC | +25 ºC  | +75 ºC |
+|  Extended Temp. Range   | -40 ˚C | +25 ºC  | +80 ˚C |
+|   Storage Temp. Range   | -40 ˚C | +25 ºC  | +80 ˚C |
 
 
 ## Current Consumption
 
-|Conditions|Current| 
-| :----: | :----: | 
-| The nRF52840 is Running, the BG96 transmits data @ NB1, 23dBm | 200 mA | 
-| BLE transmits @ 0dBm, the BG96 is in power saving mode | 7 mA | 
-| The nRF52840 is in sleep mode, the BG96 is in power saving mode | 13 µA | 
+|                           Conditions                            | Current |
+| :-------------------------------------------------------------: | :-----: |
+|  The nRF52840 is Running, the BG96 transmits data @ NB1, 23dBm  | 200 mA  |
+|     BLE transmits @ 0dBm, the BG96 is in power saving mode      |  7 mA   |
+| The nRF52840 is in sleep mode, the BG96 is in power saving mode |  13 µA  |
 
-:::tip Note:
-:pencil: For the above results to be reached, the nRF52840's regulator has to be in DC-DC\nmode and all the sensors have to be in sleep mode.
+:::tip 📝 NOTE
+For the above results to be reached, the nRF52840's regulator has to be in DC-DC mode and all the sensors have to be in sleep mode.
 :::
 
 ## Laboratory Testings

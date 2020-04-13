@@ -1,8 +1,6 @@
----
-next: /en-us/datasheet/rak2013/#rak2013-cellular
----
-
-
+<!-- ---
+next: /en-us/datasheet/rak4600/
+--- -->
 # Typical Application Circuit
 
 The images below are the typical circuits for the RAK4260 WisDuo LPWAN Module.

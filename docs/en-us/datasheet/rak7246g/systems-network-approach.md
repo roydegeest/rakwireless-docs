@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/datasheet/rak7246g/systems-network-approach
+next: /en-us/datasheet/rak7249/
 ---
 
 # LoRaWAN® Systems, Network Approach
@@ -41,4 +42,4 @@ You can login to the Gateway using an SSH client like PuTTY. For more
 details on the configuration and management of the Gateway please visit the
 link below:
 
-[RAK7246G LPWAN Developer Gateway User Manual](https://doc.rakwireless.com/rak7246g-lorawan----developer-gateway)
+[RAK7246G LPWAN Developer Gateway User Manual](/en-us/quick-start/rak7246g)

@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/datasheet/rak2287/schematic-diagram
+next: /en-us/datasheet/rak7243c/
 ---
 
 # Schematic Diagram

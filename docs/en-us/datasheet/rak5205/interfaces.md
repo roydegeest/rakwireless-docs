@@ -18,7 +18,8 @@ following interfaces, headers, jumpers, button and connectors:
 
 - Micro USB 
 - 30-pin 96Boards Headers (UART, RESET, GPIOS, I2C, ADC) 
-- 2-pin USB Boot jumper  3-pin UART RX jumper 
+- 2-pin USB Boot jumper  
+- 3-pin UART RX jumper 
 - 2-pin Battery female interface
 - 2-pin Solar Panel female interface
 - LEDs
@@ -41,22 +42,22 @@ A Standard Micro-B USB compliant with USB 2.0 standard specification is used to 
   caption="Micro USB Pinout"
 />
 
-| Pin | Description | 
-| ---- | ---- | 
-| 1 | USB_VBUS (+5V) | 
-| 2 | USB_DM | 
-| 3 | USB_DP | 
-| 4 | NC | 
-| 5 | GND | 
+| Pin | Description    |
+| --- | -------------- |
+| 1   | USB_VBUS (+5V) |
+| 2   | USB_DM         |
+| 3   | USB_DP         |
+| 4   | NC             |
+| 5   | GND            |
 
 
 ## LEDs
 
 Three LEDs are used to indicate operating status, here are their functions:
 
-- **GREEN LED** : Status - Defined By User
-- **BLUE LED**: Status - Defined By User
-- **RED LED** : Charging Status - indicates the Li-ion Battery is Charging
+- 🟢 **GREEN LED** : Status - Defined By User
+- 🔵 **BLUE LED**: Status - Defined By User
+- 🔴 **RED LED** : Charging Status - indicates the Li-ion Battery is Charging
 
 ## Reset Push Button
 

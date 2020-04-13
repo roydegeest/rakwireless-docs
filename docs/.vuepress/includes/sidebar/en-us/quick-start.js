@@ -913,5 +913,65 @@ module.exports = {
       ]
     }
   ],
+  '/en-us/quick-start/rak4600/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        'quick-start-guide'
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        {
+          title: "Interfacing with RAK4600",
+          collapsable: false,
+          nested: true,
+          path: '/en-us/quick-start/rak4600/interfacing/',
+          children: [
+            'interfacing/checking-device-logs',
+          ]
+        },
+        'at-commands',
+        'configuring-rak4600',
+        {
+          title: "Connecting to The Things Network",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/quick-start/rak4600/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa',
+            'connecting-to-ttn/ttn-abp',
+          ]
+        },
+        {
+          title: "Connecting to Chirpstack",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/quick-start/rak4600/connecting-to-chirpstack/',
+          children: [
+            'connecting-to-chirpstack/chirpstack-otaa',
+            'connecting-to-chirpstack/chirpstack-abp',
+          ]
+        },
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'bluetooth-connection-modes',
+        'burning-the-firmware',
+        'upgrading-firmware',
+        'rui-online-compiler'
+      ]
+    }
+  ],
 
 }

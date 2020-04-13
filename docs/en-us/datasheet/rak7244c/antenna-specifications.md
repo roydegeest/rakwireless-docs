@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/datasheet/rak7244c/antenna-specifications
+next: /en-us/datasheet/rak7246g/
 ---
 
 # Antenna Specifications

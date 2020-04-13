@@ -1,3 +1,6 @@
+---
+next: /en-us/datasheet/rak7431/
+---
 # Sensor Characteristics
 
 Listed below are the individual specifications of sensors attached within the RAK7204 LPWAN Environmental Sensor: 

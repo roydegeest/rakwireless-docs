@@ -207,6 +207,19 @@ module.exports = {
           ]
         },
         {
+          title: "RAK813 BLE+LoRa®",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak813/',
+          children: [
+            'rak813/board-overview',
+            'rak813/operating-frequencies',
+            'rak813/interfaces',
+            'rak813/pin-definition',
+            'rak813/mechanical-dimension'
+          ]
+        },
+        {
           title: "RAK815 Hybrid Location Tracker",
           nested: true,
           collapsable: false,
@@ -235,23 +248,6 @@ module.exports = {
           ]
         },
         {
-          title: "RAK5205 WisTrio LPWAN Tracker",
-          nested: true,
-          collapsable: false,
-          path: '/en-us/datasheet/rak5205/',
-          children: [
-            'rak5205/board-overview',
-            'rak5205/operating-frequencies',
-            'rak5205/interfaces',
-            'rak5205/pin-definition',
-            'rak5205/power-consumption',
-            'rak5205/environmental-requirements',            
-            'rak5205/mechanical-dimensions',
-            'rak5205/antenna-specifications',
-            'rak5205/schematics'
-          ]
-        },
-        {
           title: "RAK4260 WisDuo LPWAN Module",
           nested: true,
           collapsable: false,
@@ -264,6 +260,23 @@ module.exports = {
             'rak4260/pin-definition',
             'rak4260/mechanical-characteristics',
             'rak4260/typical-application-circuit'
+          ]
+        },
+        {
+          title: "RAK5205 WisTrio LPWAN Tracker",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak5205/',
+          children: [
+            'rak5205/board-overview',
+            'rak5205/operating-frequencies',
+            'rak5205/interfaces',
+            'rak5205/pin-definition',
+            'rak5205/power-consumption',
+            'rak5205/environmental-requirements',
+            'rak5205/mechanical-dimensions',
+            'rak5205/antenna-specifications',
+            'rak5205/schematics'
           ]
         },
         {
