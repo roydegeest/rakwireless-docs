@@ -1,7 +1,3 @@
----
-next: rui-gps-get
----
-
 # RUI Sensor General Format
 
 ## General Format
@@ -28,3 +24,7 @@ typedef struct GGAData
 	int16_t GeoidHeight;
 }RUI_GGA_Data;
 ```
+
+!!!include(en-us/rui/rui-sensor-general-format/rui-gps-get.md)!!!
+!!!include(en-us/rui/rui-sensor-general-format/rui-gps-set-mode.md)!!!
+!!!include(en-us/rui/rui-sensor-general-format/rui-voltage-get-battery-level.md)!!!
