@@ -15,6 +15,14 @@ module.exports = {
       collapsable: false, // optional, defaults to true
       sidebarDepth: 2,    // optional, defaults to 1
       children: [
+        {    
+          nested: true,
+          collapsable: false,
+          path: '/en-us/rui/rui-cellular-general-format/',
+          children: [
+            'rui-cellular-general-format/rui-cellular'           
+          ]
+        },
       ]
     },
     {
@@ -23,6 +31,14 @@ module.exports = {
       collapsable: false, // optional, defaults to true
       sidebarDepth: 2,    // optional, defaults to 1
       children: [
+        {          
+          nested: true,
+          collapsable: false,
+          path: '/en-us/rui/rui-lora-general-format/',
+          children: [
+            'rui-lora-general-format/rui-lora'           
+          ]
+        },
       ]
     },
     {
@@ -31,6 +47,14 @@ module.exports = {
       collapsable: false, // optional, defaults to true
       sidebarDepth: 2,    // optional, defaults to 1
       children: [
+        {    
+          nested: true,
+          collapsable: false,
+          path: '/en-us/rui/rui-ble-general-format/',
+          children: [
+            'rui-ble-general-format/rui-ble'           
+          ]
+        },
       ]
     },
     {
