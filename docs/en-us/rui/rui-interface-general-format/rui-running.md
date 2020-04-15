@@ -1,4 +1,4 @@
-# RUI Running
+## RUI Running
 
 ```c
 void rui_running(void);
