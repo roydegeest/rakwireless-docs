@@ -5,9 +5,9 @@ next: /en-us/quick-start/rak7200/connecting-to-chirpstack/
 
 # ABP Mode
 
-1.To join the ABP mode, go to device settings and switch the activation method to **ABP**.
+1. To join the ABP mode, go to device settings and switch the activation method to **ABP**.
 
-2.The **Device Address**, **Network Session Key** and **App Session Key** will be generated automatically by default.
+2. The **Device Address**, **Network Session Key** and **App Session Key** will be generated automatically by default.
 
 <rk-img
   :src="`${$frontmatter.static_root}/ccjbidnd8e8hqvnjvc9g.png`"
@@ -16,7 +16,7 @@ next: /en-us/quick-start/rak7200/connecting-to-chirpstack/
   caption="Switching to ABP mode"
 />
 
-3.Save the mode change and return to the **Device Overview page**. You can copy the keys by pressing the button after the value fields marked in red in Figure 2.
+3. Save the mode change and return to the **Device Overview page**. You can copy the keys by pressing the button after the value fields marked in red in Figure 2.
 
 <rk-img
   :src="`${$frontmatter.static_root}/dann1wr9tchabmot7dqe.png`"
@@ -25,7 +25,7 @@ next: /en-us/quick-start/rak7200/connecting-to-chirpstack/
   caption="ABP Parameters Screen"
 />
 
-4.Now we need to update the RAK7200 configuration (mode and parameters). Open the Serial Tool and type the command below to change the region (in case you have not done so already):
+4. Now we need to update the RAK7200 configuration (mode and parameters). Open the Serial Tool and type the command below to change the region (in case you have not done so already):
 
 ```bash
 at+set_config=lora:region:EU868
@@ -40,7 +40,7 @@ As you can see in **Figure 3**, as we were in the same region (EU868), there was
   caption="Region Setup"
 />
 
-5.Change the mode to **ABP** with the command:
+5. Change the mode to **ABP** with the command:
 
 ```bash
 at+set_config=lora:join_mode:1
@@ -53,7 +53,7 @@ at+set_config=lora:join_mode:1
   caption="Join Mode Setup"
 />
 
-6.Now that the mode has been changed, enter the parameters: **Device Address, Network Session Key**, and **Application Session Key**. Use the commands below. Remember to replace the **"X"** with the corresponding parameter value for your particular case (Figure 2 for reference of the parameters):
+6. Now that the mode has been changed, enter the parameters: **Device Address, Network Session Key**, and **Application Session Key**. Use the commands below. Remember to replace the **"X"** with the corresponding parameter value for your particular case (Figure 2 for reference of the parameters):
 
 ```bash
 at+set_config=lora:dev_addr:X
@@ -74,7 +74,7 @@ at+set_config=lora:apps_key:X
   caption="Setting up the RAK7200 ABP Parameters"
 />
 
-7.Finally execute the join command:
+7. Finally execute the join command:
 
 ```bash
 at+join
@@ -87,7 +87,7 @@ at+join
   caption="Join Command"
 />
 
-8.You can test the connection by sending an uplink frame. Use the following for example:
+8. You can test the connection by sending an uplink frame. Use the following for example:
 
 ```bash
 at+send=lora:1:12345678

@@ -45,14 +45,14 @@ The Things Network is about enabling low power devices to use long range [gatewa
 - **Gateway EUI** - refers to the Gatway ID you obtained from the previous steps. In case you forgot, just type "**gateway-version**" in the command line. This must be the same with the LoRaWAN® Gateway's True Gateway ID otherwise you will fail to register your LoRaWAN® Gateway on TTN.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/qwotkxwnrkvbc9de76ri.png`"
+  :src="`${$frontmatter.static_root}/tdvxaiqw3kzn13hawchq.png`"
   width="100%"
   figure-number="5"
   caption="RAK2245 Stamp Edition -LoRaWAN® Gateway ID in SSH"
 />
 
-::: tip Note:
-:pencil: Make sure to select the \"**I'm using the legacy packet forwarder**\" check box.
+::: tip 📝 NOTE
+Make sure to select the \"**I'm using the legacy packet forwarder**\" check box.
 :::
 
 - **Description** - A human readable description of your LoRaWAN® Gateway.
@@ -61,7 +61,7 @@ The Things Network is about enabling low power devices to use long range [gatewa
 - **Location** - Choose the location of the Gateway by entering its coordinates. This is reflected on the Gateway World Map.
 - **Antenna Placement** - Where is your antenna placed? Is it placed indoors or outdoors?
 
-Click Register Gateway and wait for a couple of minutes . If the status of your gateway is **Connected**, Congratulations! Your LoRaWAN® Gateway is now connected to the The Things Network (TTN).
+Click Register Gateway and wait for a couple of minutes . If the status of your gateway is **Connected**, Congratulations! :tada: Your LoRaWAN® Gateway is now connected to the The Things Network (TTN).
 
 <rk-img
   :src="`${$frontmatter.static_root}/emhpgxht6ngagrutweaj.png`"

@@ -26,11 +26,11 @@ Before going through each and every step in the installation guide of the RAK720
   _blank
 />
 
-::: tip Note:
-:pencil: The bootloader of the RAK7200 LPWAN Tracker is already pre-installed upon manufacturing so flashing the bootloader is not necessary for you to perform. If you find that the bootloader of your RAK7200 damaged, kindly contact our support though our [RAKwireless forum](https://forum.rakwireless.com/). However, if you want to upgrade the firmware of the device, please refer to the documentation below:
+::: tip 📝 NOTE
+The bootloader of the RAK7200 LPWAN Tracker is already pre-installed upon manufacturing so flashing the bootloader is not necessary for you to perform. If you find that the bootloader of your RAK7200 damaged, kindly contact our support though our [RAKwireless forum](https://forum.rakwireless.com/). However, if you want to upgrade the firmware of the device, please refer to the documentation below:
 
 1. [Firmware Upgrading](upgrading-the-firmware.html)
-   :::
+:::
 
 ## What's Included in the Package
 

@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak4200/4.connecting-to-ttn/ttn-otaa
+next: ttn-abp
 ---
 
 # OTAA Mode
@@ -12,8 +13,8 @@ When setting up a new device in TTN its default is to join in OTAA mode. For con
   caption="Device Overview Parameters"
 />
 
-::: tip Note:
-:pencil: As an example, let’s join in OTAA mode, EU868 frequency and the default LoRa® class is Class A.
+::: tip 📝 NOTE
+As an example, let’s join in OTAA mode, EU868 frequency and the default LoRa® class is Class A.
 :::
 
 1. Set the LoRa® join mode to **OTAA** as follows:
@@ -83,8 +84,8 @@ at+set_config=lora:app_key:XXXX
   caption=" AT Command for OTAA LoRa® Application Key via RAK Serial Port Tool"
 />
 
-::: tip Note:
-:pencil: After configuring all parameters, you need to reset RAK4200 LPWAN Evaluation Board for saving parameters!
+::: tip 📝 NOTE
+After configuring all parameters, you need to reset RAK4200 LPWAN Evaluation Board for saving parameters!
 :::
 
 7. After resetting  RAK4200 LPWAN Evaluation Board, join in OTAA mode:

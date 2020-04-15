@@ -7,22 +7,19 @@ next: software
 ![Hardware FAQ Logo](/assets/images/faq/hardware/hardware-overview.png)
 
 
-### 1. Can we develop our own Applications in RAK’s LoRaWAN® modules?
+<!-- ### 1. Can we develop our own Applications in RAK’s LoRaWAN® modules? -->
 
-:::details Answer:
-Yes, with the newly released **RAK RUI API**, it is now possible to connect specific sensors in your device. You will be able to customize your own firmware for your specific needs whether be a project or even as a hobby. Check out this [Guide](https://doc.rakwireless.com/developer-tools/developer-tools/getting-started) for more information about RAK RUI API. You can also check out this sample [Firmware Customizing](https://doc.rakwireless.com/rak7204-lora-environmental-sensor/firmware-customizing) guide on how to upload your firmware to your device.
+:::details 1. Can we develop our own Applications in RAK’s LoRaWAN® modules?
+**Answer:** Yes, with the newly released **RAK RUI API**, it is now possible to connect specific sensors in your device. You will be able to customize your own firmware for your specific needs whether be a project or even as a hobby. Check out this [Guide](https://doc.rakwireless.com/developer-tools/developer-tools/getting-started) for more information about RAK RUI API. You can also check out this sample [Firmware Customizing](https://doc.rakwireless.com/rak7204-lora-environmental-sensor/firmware-customizing) guide on how to upload your firmware to your device.
 :::
 
-### 2. What are the external interfaces in RAK5205 Wistrio LPWAN Tracker? What are the frequency bands that it supports?and how many GPIOs are there?
+:::details 2. What are the external interfaces in RAK5205 Wistrio LPWAN Tracker? What are the frequency bands that it supports?and how many GPIOs are there?
 
-:::details Answer:
-The RAK5205 LPWAN Tracker board is built on the Semtech SX1276 chip, with the STM32L1 MCU at its core. It  supports **I2C, GPIOs, UART and ADC interfaces**. The board supports all LoRaWAN® frequency channels (EU433, EU868, CN470 , US915, AS920, AS923, AU915, KR920, IN865)  which is easy to configure while building the firmware from the source code. The RAK5205 has 7 GPIOs labeled as **PA8, PB3, PB5, SWD_TMS, SWD_ CLK, LED1_PA12 and LED2_PB4**. Checkout the [RK5205 Datasheet](/en-us/datasheet/rak5205/pin-definition.html) for a full overview of the pinout diagram.
+**Answer:** The RAK5205 LPWAN Tracker board is built on the Semtech SX1276 chip, with the STM32L1 MCU at its core. It  supports **I2C, GPIOs, UART and ADC interfaces**. The board supports all LoRaWAN® frequency channels (EU433, EU868, CN470 , US915, AS920, AS923, AU915, KR920, IN865)  which is easy to configure while building the firmware from the source code. The RAK5205 has 7 GPIOs labeled as **PA8, PB3, PB5, SWD_TMS, SWD_ CLK, LED1_PA12 and LED2_PB4**. Checkout the [RK5205 Datasheet](/en-us/datasheet/rak5205/pin-definition.html) for a full overview of the pinout diagram.
 :::
 
-### 3. What are the frequencies supported by RAK Gateways?
-
-:::details Answer:
-RAK Gateways support all LoRaWAN® frequency channels as shown in the list provided below: 
+:::details 3. What are the frequencies supported by RAK Gateways?
+**Answer:** RAK Gateways support all LoRaWAN® frequency channels as shown in the list provided below: 
 - EU433
 - CN470
 - IN865

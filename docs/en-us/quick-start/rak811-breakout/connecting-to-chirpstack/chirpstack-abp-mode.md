@@ -5,10 +5,10 @@ next: ../lora-p2p-mode
 
 # ABP Mode
 
-**1.** If you select “**DeviceProfile_ABP**” or “**DeviceProfile_ABP_CN470**”, it means you want to join ChirpStack in **ABP mode**.
+1. If you select “**DeviceProfile_ABP**” or “**DeviceProfile_ABP_CN470**”, it means you want to join ChirpStack in **ABP mode**.
 
-::: warning
-:warning: Frequency AS923 in ABP Mode is not supported in Chirpstack.
+::: warning ⚠️ WARNING
+Frequency AS923 in ABP Mode is not supported in Chirpstack.
 :::
 
 <rk-img
@@ -18,7 +18,7 @@ next: ../lora-p2p-mode
   caption="Chirpstack ABP Activation"
 />
 
-**2.** Then you can see that there are some parameters for ABP in the “**ACTIVATION**” item:
+2. Then you can see that there are some parameters for ABP in the “**ACTIVATION**” item:
 
 <rk-img
   :src="`${$frontmatter.static_root}/ypjzi1ho8i1edi2so2ak.png`"
@@ -27,7 +27,7 @@ next: ../lora-p2p-mode
   caption="Chirpstack ABP Activation Parameters Needed"
 />
 
-**3.** Use these parameters to set RAK811 LPWAN Breakout Board by using AT command. Set **LoRa® join** mode to **ABP**:
+3. Use these parameters to set RAK811 LPWAN Breakout Board by using AT command. Set **LoRa® join** mode to **ABP**:
 
 ```bash
 at+set_config=lora:join_mode:1
@@ -40,7 +40,7 @@ at+set_config=lora:join_mode:1
   caption="Chirpstack ABP Join Mode via RAK Serial Port Tool"
 />
 
-**4.** Set LoRa® class to **Class A**:
+4. Set LoRa® class to **Class A**:
 
 ```bash
 at+set_config=lora:class:0
@@ -53,7 +53,7 @@ at+set_config=lora:class:0
   caption="Chirpstack ABP Set Class via RAK Serial Port Tool"
 />
 
-**5.** Set the frequency/region to **EU868**:
+5. Set the frequency/region to **EU868**:
 
 ```bash
 at+set_config=lora:region:EU868
@@ -66,7 +66,7 @@ at+set_config=lora:region:EU868
   caption="Chirpstack ABP Set Region/Frequency via RAK Serial Port Tool"
 />
 
-**6.** Set the **Device Address**:
+6. Set the **Device Address**:
 
 ```bash
 at+set_config=lora:dev_addr:XXXX
@@ -79,7 +79,7 @@ at+set_config=lora:dev_addr:XXXX
   caption="Chirpstack ABP Set Device Address via RAK Serial Port Tool"
 />
 
-**7.** Set the **Network Session Key**:
+7. Set the **Network Session Key**:
 
 ```bash
 at+set_config=lora:nwks_key:XXXX
@@ -92,7 +92,7 @@ at+set_config=lora:nwks_key:XXXX
   caption="Chirpstack ABP Set Network Session Key via RAK Serial Port Tool"
 />
 
-**8.** Set the **Application Session Key**:
+8. Set the **Application Session Key**:
 
 ```bash
 at+set_config=lora:apps_key:XXXX
@@ -105,11 +105,11 @@ at+set_config=lora:apps_key:XXXX
   caption="Chirpstack ABP Set Application Session Key via RAK Serial Port Tool"
 />
 
-::: tip Note:
-:pencil: After configuring all parameters, you need to reset RAK811 LPWAN Breakout Board for saving parameters!
+::: tip 📝 NOTE
+After configuring all parameters, you need to reset RAK811 LPWAN Breakout Board for saving parameters!
 :::
 
-**9.** After resetting RAK811 LPWAN Breakout Board, join in ABP mode:
+9. After resetting RAK811 LPWAN Breakout Board, join in ABP mode:
 
 ```bash
 at+join
@@ -122,13 +122,12 @@ at+join
   caption="Chirpstack ABP Join via RAK Serial Port Tool"
 />
 
-::: tip Note:
-:pencil: Actually,
-it is not needed to join in ABP mode. But you still need to set this AT command to
+::: tip 📝 NOTE
+Actually, it is not needed to join in ABP mode. But you still need to set this AT command to
 validate the parameters which you just set for ABP mode.
 :::
 
-**10.** Now, let’s try to send a data from RAK811 LPWAN Breakout Board to ChirpStack:
+10. Now, let’s try to send a data from RAK811 LPWAN Breakout Board to ChirpStack:
 
 ```bash
 at+send=lora:2:1234567890

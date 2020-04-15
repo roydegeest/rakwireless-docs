@@ -50,7 +50,7 @@ Please refer to the [Configuring Using AT Commands](configuring-using-at-command
   caption="Succeeding Messages sent to the other Node"
 />
 
-:tada: You have successfully finished your RAK4200 LPWAN Evaluation Board Set Up. You are now ready to develop the coolest project that could potentially change the world.
+Congratulations! :tada: You have successfully finished your RAK4200 LPWAN Evaluation Board Set Up. You are now ready to develop the coolest project that could potentially change the world.
 
 
 

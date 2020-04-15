@@ -3,11 +3,11 @@ static_root: /assets/images/quick-start-guide/rak4200/5. connecting-to-chirpstac
 next: chirpstack-otaa
 # title: Connecting with Chirpstack
 ---
-<!-- ## Connecting with Chirpstack -->
+## Connecting with Chirpstack
 The **ChirpStack** or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [**here**](https://www.chirpstack.io/).
 
-:::tip Note:
-:pencil: In this document, it is  assumed that you are using RAK LoRa® gateway and its built-in ChirpStack or RAK cloud testing ChirpStack. It is also assumed that a Gateway with the ChirpStack has been configured successfully. If not, please have a look at RAK's documents for more details about RAK LPWAN Gateway and [**RAK cloud testing**](https://forum.rakwireless.com/t/rak-free-cloud-loraserver-for-testing/344).
+:::tip 📝 NOTE
+In this document, it is  assumed that you are using RAK LoRa® gateway and its built-in ChirpStack or RAK cloud testing ChirpStack. It is also assumed that a Gateway with the ChirpStack has been configured successfully. If not, please have a look at RAK's documents for more details about RAK LPWAN Gateway and [**RAK cloud testing**](https://forum.rakwireless.com/t/rak-free-cloud-loraserver-for-testing/344).
 :::
 
 1. Open the web page of the ChirpStack which you want to connect with and login.
@@ -18,8 +18,8 @@ The **ChirpStack** or previously known as LoRaServer project provides open-sourc
   caption="Chirpstack Default Window"
 />
 
-:::tip Note:
-:pencil: By default, there is already one or more items in this page, you can use it or create a new item.
+:::tip 📝 NOTE
+By default, there is already one or more items in this page, you can use it or create a new item.
 :::
 
 2. Create a new item by clicking the “**CREATE**” button, and fill up the necessary items.

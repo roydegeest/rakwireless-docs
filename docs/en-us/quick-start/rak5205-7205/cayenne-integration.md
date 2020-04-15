@@ -103,6 +103,6 @@ If you don't have an account in Cayenne, head on to [https://mydevices.com/cayen
   caption="Dashboard live view of RAK5205"
 />
 
-::: tip Note:
-:pencil: There are two widgets that appear as general Analog ones. The first one on channel 8 is the Speed as measured by the GPS receiver. The second one on channel 9 is the AQI (Air Quality Index). The user needs to edit the names and choose an appropriate UI representation by hand. This is so, because as of this moment LPP doesn’t support data of such type and they are transmitted as general analog values. In Rev2 of the LPP standard it is expected these issues will be address.
+::: tip 📝 NOTE
+There are two widgets that appear as general Analog ones. The first one on channel 8 is the Speed as measured by the GPS receiver. The second one on channel 9 is the AQI (Air Quality Index). The user needs to edit the names and choose an appropriate UI representation by hand. This is so, because as of this moment LPP doesn’t support data of such type and they are transmitted as general analog values. In Rev2 of the LPP standard it is expected these issues will be address.
 :::

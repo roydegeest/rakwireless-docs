@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/5.connecting-to-ttn/
+next: ttn-otaa
 ---
 # Connecting to The Things Network (TTN)
 

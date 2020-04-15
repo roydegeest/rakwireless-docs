@@ -21,8 +21,8 @@ Before going through each and every step in the installation guide of the RAK420
 5. Emulator Kit
 
 
-::: tip Note:
-:pencil: In order to have an optimal antenna matching for the Low and High LoRa® bands there are two types of modules with different hardware. The L type module only works for the 433MHz and 470MHz LoRa bands. The H type module is for the 868MHz to 923MHz (the rest of the spectrum). Note that the hardware is specific for your selected band and can't be changed.
+::: tip 📝 NOTE
+In order to have an optimal antenna matching for the Low and High LoRa® bands there are two types of modules with different hardware. The L type module only works for the 433MHz and 470MHz LoRa bands. The H type module is for the 868MHz to 923MHz (the rest of the spectrum). Note that the hardware is specific for your selected band and can't be changed.
 :::
 <rk-btn
   src="https://store.rakwireless.com/products/rak4200-evaluation-board"
@@ -37,8 +37,8 @@ Before going through each and every step in the installation guide of the RAK420
 - 2pcs - 4-pin Header
 - 13pcs - Dupont Lines
 
-::: tip Note:
-:pencil: This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware burned or upgraded, please refer to the documentations below:
+::: tip 📝 NOTE
+This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware burned or upgraded, please refer to the documentations below:
 1. [Burning the Bootloader into the Device](burning-the-firmware)
 2. [Upgrading the Firmware](upgrading-the-firmware)
 :::
