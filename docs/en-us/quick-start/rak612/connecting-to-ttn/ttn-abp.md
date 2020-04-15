@@ -23,8 +23,8 @@ Follow these steps, if you want to join with The Things Network in **Activation 
   caption="ABP Parameters in The Things Network"
 />
 
-:::tip Note:
-:pencil: As an example, let's join in ABP mode and EU868 frequency.
+:::tip 📝 NOTE
+As an example, let's join in ABP mode and EU868 frequency.
 :::
 
 3. If the join mode is not in ABP Mode, just set the LoRa® join mode to **ABP** as follows:
@@ -87,8 +87,8 @@ at+set_config=apps_key:XXXX
 />
 
 
-:::tip Note:
-:pencil: After configuring all parameters, you need to reset the RAK612 LPWAN Button for saving parameters.
+:::tip 📝 NOTE
+After configuring all parameters, you need to reset the RAK612 LPWAN Button for saving parameters.
 :::
 
 8. After resetting your RAK612 LPWAN Button, join in **ABP mode**:

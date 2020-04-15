@@ -22,7 +22,7 @@ params:
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/1.main/rak7249_overview.jpg"
-  width="100%"
+  width="70%"
   figure-number="1"
   caption="RAK7249 Macro Outdoor Gateway with Support Plate Attached"
 />

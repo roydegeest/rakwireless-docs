@@ -19,7 +19,7 @@ Shown in the table provided below is the typical current consumption of the RAK4
 | **BT TX** @4dBm        | 9mA                     | BT Tx mode & LoRa® sleep         |
 | **LoRa® RX** @37.5Kbps | 17mA                    |                                  |
 | **BT RX** @2Mbps       | 11.5mA                  |                                  |
-| **Node Sleep**         | 2.0uA                   | The whole board is in sleep mode |
+| **Node Sleep**         | 2.0μA                   | The whole board is in sleep mode |
 
 ### Laboratory Testing
 
@@ -60,9 +60,9 @@ The RAK4600 LPWAN Module takes **30.052 ms** to receive a LoRa® packet which co
 
 **Sleep Mode**
 
-The RAK4600 LPWAN Module when in sleep mode consumes **11.2 uA** of current.
+The RAK4600 LPWAN Module when in sleep mode consumes **11.2 μA** of current.
 
-- **Current consumption**: 11.2 uA
+- **Current consumption**: 11.2 μA
 
 <rk-img
   :src="`${$frontmatter.static_root}/bpm1nbybf4exvnop89yo.jpg`"

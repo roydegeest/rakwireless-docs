@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/datasheet/rak4600/recommended-reflow-profile
+next: /en-us/datasheet/rak5205/
 ---
 
 # Recommended Reflow Profile

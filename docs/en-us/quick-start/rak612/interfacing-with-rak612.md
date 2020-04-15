@@ -4,11 +4,11 @@ In order for you to be able to interface with the RAK612 LPWAN Button with your 
 
 1. Using a standard **Micro - USB Cable**, connect your RAK612 LPWAN Button to your computer.
 
-:::tip Note:
-:pencil: If this is your first time to connect your RAK612 LPWAN Button to your computer, it should automatically download the CH340 driver in order for them to communicate properly. Make sure to have an internet access if you want such automatic installation to be successful. If such process fails, re-plug your Micro - USB cord and proceed to the next step."
+:::tip 📝 NOTE
+If this is your first time to connect your RAK612 LPWAN Button to your computer, it should automatically download the CH340 driver in order for them to communicate properly. Make sure to have an internet access if you want such automatic installation to be successful. If such process fails, re-plug your Micro - USB cord and proceed to the next step."
 :::
 
-2. Go to your **Device Manager** by pressing : **Windows + R** and type `devmgmt.msc` or **search in Start Menu** or right click "**My Computer**" or "**This PC**" and click **Manage**. Look for **Other Devices.**
+1. Go to your **Device Manager** by pressing : **Windows + R** and type `devmgmt.msc` or **search in Start Menu** or right click "**My Computer**" or "**This PC**" and click **Manage**. Look for **Other Devices.**
 
 <rk-img
   src="/assets/images/quick-start-guide/rak612/interfacing-with-rak612/missing-driver.png"
@@ -35,11 +35,11 @@ In order for you to be able to interface with the RAK612 LPWAN Button with your 
   caption="USB-SERIAL CH340 Driver Successfully Installed"
 />
 
-:::tip Note:
-:pencil: In case the driver is still not installed upon doing the previous steps, kindly download the driver manually through this [link](https://downloads.rakwireless.com/LoRa/RAK811/Tools/).
+:::tip 📝 NOTE
+In case the driver is still not installed upon doing the previous steps, kindly download the driver manually through this [link](https://downloads.rakwireless.com/LoRa/RAK811/Tools/).
 :::
 
-5. Let us now test if your RAK612 LPWAN Button can now communicate with the RAK Serial Port Tool. Connect with the RAK Serial Port Tool using the parameters listed below and click "**Open**".
+1. Let us now test if your RAK612 LPWAN Button can now communicate with the RAK Serial Port Tool. Connect with the RAK Serial Port Tool using the parameters listed below and click "**Open**".
 
     * **COM**: Choose the COMPort associated with the USB-SERIAL CH340 from the previous step. For this tutorial, the COM Port is COM4.
     * **Baud Rate**: **115200** bps

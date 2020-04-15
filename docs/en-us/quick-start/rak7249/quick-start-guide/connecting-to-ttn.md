@@ -26,13 +26,13 @@ The Things Network is about enabling low power devices to use long range gateway
   caption="Registering your Gateway"
 />
 
-:::tip Note:
-:pencil: The Gateway EUI can be found either on the sticker on the casing or via the LoRa® Packet Forwarder page in the LoRa® Gateway menu once you log via the Web UI.
+:::tip 📝 NOTE
+The Gateway EUI can be found either on the sticker on the casing or via the LoRa® Packet Forwarder page in the LoRa® Gateway menu once you log via the Web UI.
 :::
 
-2. Select your [Frequency Plan](https://www.thethingsnetwork.org/docs/lorawan/frequency-plans.html) depending on your location. This should populate the Router field. Optionally you can choose to enter the Gateway coordinates in the map’s upper right corner and select if the gateway is indoor or outdoor via the Antenna placement field below the map.
+1. Select your [Frequency Plan](https://www.thethingsnetwork.org/docs/lorawan/frequency-plans.html) depending on your location. This should populate the Router field. Optionally you can choose to enter the Gateway coordinates in the map’s upper right corner and select if the gateway is indoor or outdoor via the Antenna placement field below the map.
 
-3. Upon successful registration you should see the following screen:
+2. Upon successful registration you should see the following screen:
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/2.quickstart/ttn-successful.png"
@@ -41,8 +41,8 @@ The Things Network is about enabling low power devices to use long range gateway
   caption="Gateway successfully connected to The Things Network (TTN)"
 />
 
-:::tip Note:
-:pencil: By default, the Gateway is set to connect to TTN. For detailed information about advanced configuration options refer to the [LoRaWAN® Gateway Configuration](../web-management-platform/lorawan-gateway-configuration.html#_1-lora®-packet-forwarder) section.
+:::tip 📝 NOTE
+By default, the Gateway is set to connect to TTN. For detailed information about advanced configuration options refer to the [LoRaWAN® Gateway Configuration](../web-management-platform/lorawan-gateway-configuration.html#_1-lora®-packet-forwarder) section.
 :::
 
 

@@ -8,20 +8,19 @@ This section describes in detail the functionality of the Web Management UI. It 
 
 ## Accessing the Web Management Platform
 
-Listed below are the options on how to access the Web Management Platform based on your preference. Take note of the IP Address set in each method which will be used using your preferred Web browser.
+To get started open the browser, enter the IP address of the gateway, and open the login page of the WEB Management Platform. Type-in root as the username and password and click login. You can choose in the options provided in this section to access the platform.
 
 ### Wi-Fi AP Mode
 
-By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that you can find an SSID named like "**RAK7249_XXXX**" on your PC's Wi-Fi Network List. "XXXX" is the last two bytes of the Gateway MAC address.
+By default, the Gateway will work in Wi-Fi AP Mode which means that you can find an SSID named like **"RAK7249_XXXX"** on your PC's Wi-Fi Network List. "XXXX" is the last two bytes of the Gateway MAC address. To access the Web Management Platform, input the IP Address: **192.168.230.1** in your Web browser.
 
 :::tip Note
 :pencil: No password is required to connect via Wi-Fi.
 :::
 
-* Using your preferred Web browser, login the credentials provided below:
-    * **Browser Address**: `192.168.230.1`
-    * **Username**: root
-    * **Password**: root
+Using your preferred Web browser, input the aforementioned IP Address and you should see the same Log-in Page shown in the following image. Login the credentials provided below:
+* **Username**: root
+* **Password**: root
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/2.quickstart/web-ui-home.jpg"

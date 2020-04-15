@@ -17,14 +17,22 @@ First and foremost screw on the antennas. All 5 of them should be installed (**W
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/2.quickstart/rak7249-with-antennas.jpg"
   width="50%"
-  figure-number="3"
+  figure-number="1"
   caption="RAK7249 Macro Outdoor Gateway with the Antennas installed"
 />
 
-:::warning
-:warning: Do not power the device if any antenna port has been left open. In case you do not desire to use one or more antenna feature, make sure to terminate the port with a **50 Ohm load**.
+:::warning ⚠️ WARNING
+Do not power the device if any antenna port has been left open. In case you do not desire to use one or more antenna feature, make sure to terminate the port with a **50 Ohm load**.
 :::
 
 2. Power on the Gateway
 
 It is recommended to use a **CAT5 Cable** to provide power to the Gateway. Attach one end to the **PoE injector** and the other to the **Ethernet Port** on the bottom of the casing.
+
+<rk-img
+  src="/assets/images/quick-start-guide/rak7249/2.quickstart/probrf78ullrkleikvg2.jpg"
+  width="100%"
+  figure-number="2"
+  caption="Powering the Gateway using PoE"
+/>
+

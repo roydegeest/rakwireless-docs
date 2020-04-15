@@ -8,4 +8,4 @@ RUI_RETURN_STATUS rui_voltage_get_battery_level(float *voltage)
 | ----------- | ----------------------------------------------------------------- |
 | **@return** | [RUI_RETURN_STATUS](../#rui-return-status)                        |
 | **@param**  | float \*voltage: the current voltage value of the battery         |
-| **@module** | [RAK5010](#)                                                      |
+| **@module** | RAK5010                                                           |
