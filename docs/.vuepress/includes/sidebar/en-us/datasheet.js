@@ -263,6 +263,21 @@ module.exports = {
           ]
         },
         {
+          title: "RAK4600 LPWAN Module",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak4600/',
+          children: [
+            'rak4600/board-overview',
+            'rak4600/block-diagram',
+            'rak4600/operating-frequencies',
+            'rak4600/pin-definition',
+            'rak4600/electrical-characteristics',
+            'rak4600/mechanical-characteristics',
+            'rak4600/recommended-reflow-profile'
+          ]
+        },
+        {
           title: "RAK5205 WisTrio LPWAN Tracker",
           nested: true,
           collapsable: false,
