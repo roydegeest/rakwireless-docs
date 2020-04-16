@@ -104,8 +104,8 @@ that are in **Figure 1**: Default Frequency Template in the Web Management Platf
 Now we can start calculating the frequency offset we need to have from the center frequency
 for each channel. We will use the following formula:
 
-:::tip Note
-:pencil: **If** = **MultiSF** - **Radio Freq**
+:::tip 📝 NOTE
+**If** = **MultiSF** - **Radio Freq**
 :::
 
 ### RADIO 1
@@ -134,8 +134,8 @@ the previous ones. Thus, it will be assigned to Radio 0
 Finally, we have all the If frequency values and we only need plug them in the fields to get the
 TTN EU863-868 Frequency Plan through Web Management Platform
 
-:::tip Note
-:pencil: Do not forget to manually set the Bandwidth and DataRate of the LoRa std at 250K Hz (SF7) and FSK at 125K Hz (50000 bps).
+:::tip 📝 NOTE
+Do not forget to manually set the Bandwidth and DataRate of the LoRa std at 250K Hz (SF7) and FSK at 125K Hz (50000 bps).
 :::
 
 This concludes setting up the two Radios with the appropriated frequencies, bandwidths and

@@ -6,8 +6,8 @@ static_root: /assets/images/quick-start-guide/rak4200/3.interfacing/
 
 In order for you to be able to interface with the RAK4200 LPWAN Evaluation Board with your Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
 
-::: warning
-:warning: Before powering the RAK4200 LPWAN Evaluation Board , you should install the LoRa antenna first . Not doing so might damage the board
+::: warning ⚠️ WARNING
+Before powering the RAK4200 LPWAN Evaluation Board , you should install the LoRa antenna first . Not doing so might damage the board
 :::
 
 - Connect your RAK4200 LPWAN Evaluation Board in your Windows Machine using the provided micro-usb cable.
@@ -37,8 +37,8 @@ In order for you to be able to interface with the RAK4200 LPWAN Evaluation Board
 
 - Look for Ports (COM & LPT) and Find the name **USB-SERIAL CH340** and take note of the COM Port Number. 
 
-::: tip Note:
-:pencil: If you didn't find any Port with the name USB-Serial CH340, make sure you have downloaded the CH340 Drivers in your Machine.
+::: tip 📝 NOTE
+If you didn't find any Port with the name USB-Serial CH340, make sure you have downloaded the CH340 Drivers in your Machine.
 :::
 
 - Choose the Correct Port Number from the device manager and the Correct Baudrate then click Open:

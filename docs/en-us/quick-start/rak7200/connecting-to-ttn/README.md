@@ -3,7 +3,7 @@ static_root: /assets/images/quick-start-guide/rak7200/connecting-to-ttn
 next: ttn-otaa-mode
 ---
 
-## Connecting to The Things Network
+# Connecting to The Things Network
 
 In this section, we will be connecting the RAK7200 LPWAN Tracker to The Things Network (TTN). If you don't have an account yet, head on to [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and create one. Once done, Log in to your account and go to the console which can be found here:
 

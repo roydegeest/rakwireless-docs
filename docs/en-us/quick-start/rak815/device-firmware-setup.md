@@ -137,8 +137,8 @@ There are three ways to download your application code into your device: **nRFgo
   caption="ARM KEIL Homepage"
 />
 
-:::tip Note:
-:pencil: The best version of Keil Compiler is version 5.5 or above. If your installed Keil compiler supports nRF52832 environment, then it is not necessary to install the nRF52832 environment.
+:::tip 📝 NOTE
+The best version of Keil Compiler is version 5.5 or above. If your installed Keil compiler supports nRF52832 environment, then it is not necessary to install the nRF52832 environment.
 :::
 
 * Install the nRF52832 compiler environment for Keil5 from our repository:  `RAK813-Breakboard-master>>Keil5`

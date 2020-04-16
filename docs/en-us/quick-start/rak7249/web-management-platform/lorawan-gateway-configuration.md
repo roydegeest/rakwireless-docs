@@ -73,8 +73,8 @@ This is a part of the page, common for all gateway from the RAK72xx series, howe
 
 - **Standard Mode**: You can start by importing a region via the drop down menu (EU868 is the default one). You will get the defaults channels for the chosen frequency band and the option to add additional ones. Simply enter the frequency in the text box (in MHz) and click the “**Add**” button. You can add as many channels as you need as long as they fall in the Regional band. Additionally for the LoRa® Standard and FSK channels, you are also required to select the Bandwidth and Data Rate.
 
-:::tip Note
-:pencil: In case you have the RAK7249 or RAK7240 with a second concentrator module, you can add this one too by pressing the Add/Remove LoRa Concentrator button at the bottom of the page and add additional channels (Multi-SF) for a total of 16.
+:::tip 📝 NOTE
+In case you have the RAK7249 or RAK7240 with a second concentrator module, you can add this one too by pressing the Add/Remove LoRa Concentrator button at the bottom of the page and add additional channels (Multi-SF) for a total of 16.
 :::
 
 <rk-img
@@ -113,12 +113,12 @@ The Gateway is capable of working with an external LoRa® Server, where the MQTT
   - **loraserver 3x**: Choose this if you are pointing to an MQTT 3x Broker (PROTOBUF)
   - **loraserver 3x**: Choose this if you are pointing to an MQTT 3x Broker (JSON-V3)
 - **MQTT Broker Address**: The IP Address where the MQTT Broker is hosted.
-  :::tip Note
-  :pencil: The MQTT Broker IP Address for Built-in is `127.0.0.1`
+  :::tip 📝 NOTE
+  The MQTT Broker IP Address for Built-in is `127.0.0.1`
   :::
 - **MQTT Broker Port**: The corresponding port.
-  :::tip Note
-  :pencil: The MQTT Broker default port is `1883`
+  :::tip 📝 NOTE
+  The MQTT Broker default port is `1883`
   :::
 - **MQTT Protocol Version**: You can choose between V3.1 and V3.1.1
 - **Client ID**: An ID that is used to associate with the topic. If left empty a random one will be generated.
@@ -137,8 +137,8 @@ The Gateway is capable of working with an external LoRa® Server, where the MQTT
   - TLSv1.2
 - **CA Certificate, TLS Certificate, TLS Key**: Those are to be generated via the appropriate algorithm and distributed between the MQTT Broker and the LoRaWAN® Server.
 
-:::tip Note
-:pencil: Please refer to the [MQTT Bridge with TLS Encryption Configuration Manual](https://downloads.rakwireless.com/en/LoRa/DIY-Gateway-RAK7249/Application-Notes/LoRaWAN_Gateway_MQTT_Bridge%2BTLS_Configuration_Guide_V1.1.pdf) for details on how to edit the settings in order for the Gateway to work as an MQTT Bridge with TLS Encryption.
+:::tip 📝 NOTE
+Please refer to the [MQTT Bridge with TLS Encryption Configuration Manual](https://downloads.rakwireless.com/en/LoRa/DIY-Gateway-RAK7249/Application-Notes/LoRaWAN_Gateway_MQTT_Bridge%2BTLS_Configuration_Guide_V1.1.pdf) for details on how to edit the settings in order for the Gateway to work as an MQTT Bridge with TLS Encryption.
 :::
 
 - **Log Level**: The granularity of the log information is chosen from the following levels:

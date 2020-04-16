@@ -59,7 +59,7 @@ If you want to use the MQTT Bridge to forward your LoRa® Traffic to your LoRa®
   src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/chirpstack-gateway-mqtt-param.jpg"
   width="100%"
   figure-number="6"
-  caption="Gateway MQTT Bridge\nParameters"
+  caption="Gateway MQTT Bridge Parameters"
 />
 
 4. Lastly, register your Gateway to Chirpstack if you have not done so. You can follow the steps undergone in the Packet Forwarder Set-up section of the [Configuring your Gateway](configure-your-gateway.html#packet-forwarder-set-up) section.

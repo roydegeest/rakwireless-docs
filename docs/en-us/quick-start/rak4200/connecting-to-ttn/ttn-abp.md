@@ -22,11 +22,11 @@ next: /en-us/quick-start/rak4200/connecting-to-chirpstack/
   caption="ABP Parameters in The Things Network"
 />
 
-::: tip Note:
-:pencil: As an example, let's join in ABP mode, EU868 frequency, and LoRa® class is Class A.
+::: tip 📝 NOTE
+As an example, let's join in ABP mode, EU868 frequency, and LoRa® class is Class A.
 :::
 
-3. If the join mode is not in ABP Mode, just set the LoRa® join mode to **ABP** as follows:
+1. If the join mode is not in ABP Mode, just set the LoRa® join mode to **ABP** as follows:
 ```
 at+set_config=lora:join_mode:1
 ```
@@ -92,11 +92,11 @@ at+set_config=lora:apps_key:XXXX
   caption="AT Command for ABP LoRa® Application Session Key via RAK Serial Port Tool"
 />
 
-::: tip Note:
-:pencil: After configuring all parameters, you need to reset  RAK4200 LPWAN Evaluation Board for saving parameters!
+::: tip 📝 NOTE
+After configuring all parameters, you need to reset  RAK4200 LPWAN Evaluation Board for saving parameters!
 :::
 
-9. After resetting your  RAK4200 LPWAN Evaluation Board, join in **ABP mode**:
+1. After resetting your  RAK4200 LPWAN Evaluation Board, join in **ABP mode**:
 ```
 at+join
 ```
@@ -107,8 +107,8 @@ at+join
   caption="AT Command for ABP LoRa®  Join via RAK Serial Port Tool"
 />
 
-::: tip Note:
-:pencil: There is no need to join in ABP mode. But you still need to set this AT command to validate the parameters which you just set for ABP mode
+::: tip 📝 NOTE
+There is no need to join in ABP mode. But you still need to set this AT command to validate the parameters which you just set for ABP mode
 :::
 
 Now, let’s try to send a data from the  RAK4200 LPWAN Evaluation Board to TTN in ABP mode.

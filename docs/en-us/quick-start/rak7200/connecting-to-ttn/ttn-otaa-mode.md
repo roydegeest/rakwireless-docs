@@ -15,11 +15,11 @@ When setting up a new device in TTN it defaults to OTAA mode. For configuring it
 
 Now, let's join in OTAA Mode and set your device to AU915 Frequency for example.
 
-::: tip Note:
-:pencil: The default LoRa® work mode is LoRaWAN® 1.0.2, the default LoRa® join mode is OTAA, and the default LoRa® class is Class A.For the full list of AT Commands, head on to [Configuring the RAK7200 using AT Commands](../configuring-the-rak7200.html).
+::: tip 📝 NOTE
+The default LoRa® work mode is LoRaWAN® 1.0.2, the default LoRa® join mode is OTAA, and the default LoRa® class is Class A.For the full list of AT Commands, head on to [Configuring the RAK7200 using AT Commands](../configuring-the-rak7200.html).
 :::
 
-1.Set mode to **OTAA** and LoRa® device class to **Class A**, with the following set of commands:
+1. Set mode to **OTAA** and LoRa® device class to **Class A**, with the following set of commands:
 
 ```bash
 at+set_config=lora:join_mode:0
@@ -44,7 +44,7 @@ at+set_config=lora:region:AU915
   caption="Setting up the RAK7200 Operation Mode"
 />
 
-2.Now that the modes are set, enter the parameters: : **Device EUI, Application EUI** and **App Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case:
+2. Now that the modes are set, enter the parameters: : **Device EUI, Application EUI** and **App Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case:
 
 ```bash
 at+set_config=lora:dev_eui:XXXX
@@ -67,7 +67,7 @@ at+set_config=lora:app_key:XXXX
 
 - You should end up with a window as the one in **Figure 3** above (**a series of OK messages**).
 
-  3.Finally execute the join command:
+3. Finally execute the join command:
 
 ```bash
 at+join
@@ -80,7 +80,7 @@ at+join
   caption="Join Command"
 />
 
-4.Go to the **Device Overview** in the TTN and you can see that the status is now **Green (Online)**. Now your RAK7200 is transmitting sensor data to TTN. You can see it in its raw form in TTN, by going to the Data tab:
+4. Go to the **Device Overview** in the TTN and you can see that the status is now **Green (Online)**. Now your RAK7200 is transmitting sensor data to TTN. You can see it in its raw form in TTN, by going to the Data tab:
 
 <rk-img
   :src="`${$frontmatter.static_root}/qw27owcgw812gsf2bcc1.png`"

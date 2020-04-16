@@ -5,9 +5,9 @@ next: ../connecting-to-chirpstack/
 
 # ABP Mode
 
-**1.** To join the ABP mode, go to device settings and switch the activation method to **ABP**.
+1. To join the ABP mode, go to device settings and switch the activation method to **ABP**.
 
-**2.** The **Device Address**, **Network Session Key** and **App Session Key** will be generated automatically by default.
+2. The **Device Address**, **Network Session Key** and **App Session Key** will be generated automatically by default.
 
 <rk-img
   :src="`${$frontmatter.static_root}/orxqkqr9ydutx24y9k3m.png`"
@@ -16,7 +16,7 @@ next: ../connecting-to-chirpstack/
   caption="Switching to ABP mode"
 />
 
-**3.** Save the mode change and return to the **Device Overview page**. You can copy the keys by pressing the button after the value fields marked in red in Figure 2.
+3. Save the mode change and return to the **Device Overview page**. You can copy the keys by pressing the button after the value fields marked in red in Figure 2.
 
 <rk-img
   :src="`${$frontmatter.static_root}/dj7tij9ejfoopdheutmh.png`"
@@ -25,7 +25,7 @@ next: ../connecting-to-chirpstack/
   caption="ABP parameters screen"
 />
 
-**4.** Now we need to update the RAK5205 configuration (mode and parameters). Open the Serial Tool and type the command below to change the region (in case you have not done so already):
+4. Now we need to update the RAK5205 configuration (mode and parameters). Open the Serial Tool and type the command below to change the region (in case you have not done so already):
 
 ```bash
 at+set_config=lora:region:EU868
@@ -40,7 +40,7 @@ As you can see in Figure 3, as we were in the same region (EU868), there was no 
   caption="Region setup"
 />
 
-**5.** Change the mode to **ABP** with the command:
+5. Change the mode to **ABP** with the command:
 
 ```bash
 at+set_config=lora:join_mode:1
@@ -53,7 +53,7 @@ at+set_config=lora:join_mode:1
   caption="Join mode setup"
 />
 
-**6.** Now that the mode has been changed, enter the parameters: **Device Address, Network Session Key**, and **Application Session Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case (Figure 2 for reference of the parameters):
+6. Now that the mode has been changed, enter the parameters: **Device Address, Network Session Key**, and **Application Session Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case (Figure 2 for reference of the parameters):
 
 ```bash
 at+set_config=lora:dev_addr:XXXX
@@ -76,7 +76,7 @@ at+set_config=lora:apps_key:XXXX
 
 You should end up with a window as the one in **Figure 5** above with **a series of OK messages**.
 
-**7.** Finally, execute the join command:
+7. Finally, execute the join command:
 
 ```bash
 at+join
@@ -89,7 +89,7 @@ at+join
   caption="Join command"
 />
 
-**8.** You can test the connection by sending an uplink frame. Use the following as an example:
+8. You can test the connection by sending an uplink frame. Use the following as an example:
 
 ```bash
 at+send=lora:1:12345678

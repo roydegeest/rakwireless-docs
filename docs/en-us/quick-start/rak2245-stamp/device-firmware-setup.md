@@ -14,8 +14,8 @@ An easy and quick way to have a fully functional gateway is by using a Precompil
 3. Insert your SD Card into the SD Card reader and plug it into your Computer.
 4. Open the Etcher Software, and select the downloaded image file thru the ( **Label - 1** ) button in the image below.
 
-::: tip Note:
-:pencil: Your SD Card should be automatically detected by the Etcher software in the Label - 2 of the image below. If not, kindly ensure proper connection.
+::: tip 📝 NOTE
+Your SD Card should be automatically detected by the Etcher software in the Label - 2 of the image below. If not, kindly ensure proper connection.
 :::
 
 <rk-img

@@ -45,8 +45,8 @@ There are 5 options to choose from in the Wi-Fi configuration menu:
 4. **Add New SSID for Client** - this is used if you want to connect to a new Wi-Fi Network. Only works in Wi-Fi Client mode.
 5. **Change Wi-Fi Country** - this is used to modify the Resident Country to match with Wi-Fi standards.
 
-::: warning
-:warning: In order to enable Wi-Fi Client Mode, you have to disable AP Mode.
+::: warning ⚠️ WARNING
+In order to enable Wi-Fi Client Mode, you have to disable AP Mode.
 :::
 
 Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable AP Mode**", you can now then connect to a new Wi-Fi Network by choosing "**4 Add New SSID for Client**"
@@ -69,8 +69,8 @@ Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable
 
 - Enter the SSID of the network you want to connect:
 
-::: warning
-:warning: Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK2245 Stamp Edition again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow this procedure listed in the [Accessing the Internet](#reverting-to-wi-fi-ap-mode) document which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
+::: warning ⚠️ WARNING
+Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK2245 Stamp Edition again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow this procedure listed in the [Accessing the Internet](#reverting-to-wi-fi-ap-mode) document which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
 :::
 
 <rk-img
@@ -128,7 +128,7 @@ In the event that you have entered either or both icorrect Wi-Fi SSID and Passwo
 
 <rk-img
   :src="`${$frontmatter.static_root}/qn1vee39tbh4vwngo4wt.png`"
-  width="100%"
+  width="60%"
   figure-number="9"
   caption="Creating rak_ap file to your SD Card"
 />

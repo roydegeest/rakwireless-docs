@@ -24,7 +24,7 @@
   _blank
 />
 
-:::tip Note: 
+:::tip 📝 NOTE
 This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware burned or upgraded, please refer to the documentations below:
 * [Firmware Burning](device-firmware-setup.html)
 * [Firmware Upgrading](upgrading-the-firmware.html)

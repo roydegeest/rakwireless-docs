@@ -30,8 +30,8 @@ Additionally it is recommended to use another 10 AWG or better grounding wire to
 connect the screw terminal on the bottom right side of the Gateway casing to the
 grounding rail (bar).
 
-:::tip Note
-:pencil: No additional protection for the Ethernet cabling is required at the Gateway side. There is a surge protection system built-in (GDT + Anti-surge resistor).
+:::tip 📝 NOTE
+No additional protection for the Ethernet cabling is required at the Gateway side. There is a surge protection system built-in (GDT + Anti-surge resistor).
 :::
 
 ## Indoor Surge Protection

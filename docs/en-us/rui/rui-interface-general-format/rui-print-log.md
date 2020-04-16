@@ -1,4 +1,4 @@
-# RUI Print Log
+## RUI Print Log
 
 ```c
 void RUI_LOG_PRINTF(fmt, args...);

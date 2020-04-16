@@ -1,4 +1,4 @@
-# RUI Device Sleep
+## RUI Device Sleep
 
 ```c
 typedef void (*sensor_wakeup)(void);

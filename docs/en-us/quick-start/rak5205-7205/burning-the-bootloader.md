@@ -6,15 +6,15 @@ static_root: /assets/images/quick-start-guide/rak5205-7205/burning-the-bootloade
 
 Please use the the latest firmware for the RAK5205 WisTrio LPWAN Tracker accessible in this **[directory](https://downloads.rakwireless.com/en/LoRa/WisTrio-LoRa-RAK5205/Firmware/)** in order to avoid potential problems. Burning the Bootloader into the device is done as follows:
 
-::: warning Warning!
-:warning: Skip this section if you have a RAK5205 V3.0.0.0 firmware or newer, for it has already a bootloader.
+::: warning ⚠️ WARNING
+Skip this section if you have a RAK5205 V3.0.0.0 firmware or newer, for it has already a bootloader.
 :::
 
 You need to make sure you have the latest firmware on your device . To be able to do this, you need to follow these steps:
 
-**1.** To start with, download and install the “STM32CubeProgrammer” tool in your PC through this link or through this RAK directory.
+1. To start with, download and install the “STM32CubeProgrammer” tool in your PC through this link or through this RAK directory.
 
-**2.** Then, configure your RAK5205 by jumping the “**BOOT**” pin and “**VCC**” pin for boot mode as the following pictures shown below:
+2. Then, configure your RAK5205 by jumping the “**BOOT**” pin and “**VCC**” pin for boot mode as the following pictures shown below:
 
 <rk-img
   :src="`${$frontmatter.static_root}/eeh8zvvyderwyp6caxsu.jpg`"
@@ -30,7 +30,7 @@ You need to make sure you have the latest firmware on your device . To be able t
   caption="Jumper at Boot and VCC pins"
 />
 
-**3.** Connect your RAK5205 to your PC using the USB cable as follow:
+3. Connect your RAK5205 to your PC using the USB cable as follow:
 
 <rk-img
   :src="`${$frontmatter.static_root}/mnlyzbqc9pcxtudki9gb.jpg`"
@@ -39,7 +39,7 @@ You need to make sure you have the latest firmware on your device . To be able t
   caption="RAK5205 connected to your PC via USB cable"
 />
 
-**4.** Choose the correct port number in the **COM Port** field. You can check this in the Device Manager.
+4. Choose the correct port number in the **COM Port** field. You can check this in the Device Manager.
 
 <rk-img
   :src="`${$frontmatter.static_root}/ct9xcr8m3feyf4hcsuc1.jpg`"
@@ -48,11 +48,11 @@ You need to make sure you have the latest firmware on your device . To be able t
   caption="Checking COM Port through Device Manager"
 />
 
-**5.** Open the “**STM32CubeProgrammer**” tool.
+5. Open the “**STM32CubeProgrammer**” tool.
 
-**6.** Select **UART type**; go to COM Port and look for your RAK5205 Breakout Board COM Port (ex. COM5).
+6. Select **UART type**; go to COM Port and look for your RAK5205 Breakout Board COM Port (ex. COM5).
 
-**7.** Configure the **Baud rate** and **Parity**.
+7. Configure the **Baud rate** and **Parity**.
 
 <rk-img
   :src="`${$frontmatter.static_root}/kxwsnn5cfc3c7mhdg9kw.jpg`"
@@ -61,10 +61,10 @@ You need to make sure you have the latest firmware on your device . To be able t
   caption="UART Settings in STM32CubeProgrammer"
 />
 
-**8.** Then, press the “**Connect**” button at the top right corner.
+8. Then, press the “**Connect**” button at the top right corner.
 
-::: warning Warning
-:warning: If there are some errors in the Log box or it can’t connect, please close the STM32CubeProgrammer and reset RAK5205, then open the STM32CubeProgrammer and connect again.
+::: warning ⚠️ WARNING
+If there are some errors in the Log box or it can’t connect, please close the STM32CubeProgrammer and reset RAK5205, then open the STM32CubeProgrammer and connect again.
 :::
 
 <rk-img
@@ -85,7 +85,7 @@ You need to make sure you have the latest firmware on your device . To be able t
 
 Now, let’s start burning the bootloader into the RAK5205 WisTrio LPWAN Tracker.
 
-**9.** First, **erase all** data on the RAK5205 WisTrio LPWAN Tracker referred from the following picture below:
+9. First, **erase all** data on the RAK5205 WisTrio LPWAN Tracker referred from the following picture below:
 
 <rk-img
   :src="`${$frontmatter.static_root}/tzcxzjuvnvzibznrfcwg.jpg`"
@@ -94,7 +94,7 @@ Now, let’s start burning the bootloader into the RAK5205 WisTrio LPWAN Tracker
   caption="Erasing the Data in the Chip"
 />
 
-**10.** Press “**Open file**” and select the bootloader file in the pop-up window as follows:
+10. Press “**Open file**” and select the bootloader file in the pop-up window as follows:
 
 <rk-img
   :src="`${$frontmatter.static_root}/ldnfi1fr87cxoxwgfbpa.jpg`"
@@ -103,7 +103,7 @@ Now, let’s start burning the bootloader into the RAK5205 WisTrio LPWAN Tracker
   caption="Opening the Bootloader file"
 />
 
-**11.** Click the “**Download**” button to start the burning process
+11. Click the “**Download**” button to start the burning process
 
 <rk-img
   :src="`${$frontmatter.static_root}/gzos6pwkmw5lvbotnxf5.jpg`"
@@ -119,7 +119,7 @@ Now, let’s start burning the bootloader into the RAK5205 WisTrio LPWAN Tracker
   caption="Completing the Download of Bootloader into the device"
 />
 
-**12.** OK, you have successfully burned the firmware into RAK5205 WisTrio LPWAN Tracker!
+12. OK, you have successfully burned the firmware into RAK5205 WisTrio LPWAN Tracker!
 
 <rk-img
   :src="`${$frontmatter.static_root}/fnx2ybuctwfdgjcdnb9c.jpg`"
@@ -128,7 +128,7 @@ Now, let’s start burning the bootloader into the RAK5205 WisTrio LPWAN Tracker
   caption="Successfully Burned the Bootloader to the device"
 />
 
-**13.** "**Disconnect**” and close the “**STM32CubeProgrammer**” tool. Then, power down and remove the connection between BOOT pin and VCC pin to let RAK5205 WisTrio LPWAN Tracker work in normal mode.
+13. "**Disconnect**” and close the “**STM32CubeProgrammer**” tool. Then, power down and remove the connection between BOOT pin and VCC pin to let RAK5205 WisTrio LPWAN Tracker work in normal mode.
 
 <rk-img
   :src="`${$frontmatter.static_root}/nuoi6ddmrpp7ne32p7gm.jpg`"
@@ -137,7 +137,7 @@ Now, let’s start burning the bootloader into the RAK5205 WisTrio LPWAN Tracker
   caption="Jumper connection removed"
 />
 
-**14.** Then, connect RAK5205 with your PC’s USB interface again.
+14. Then, connect RAK5205 with your PC’s USB interface again.
 
 If you have opened the serial port tool, you can see some content like this:
 

@@ -13,8 +13,8 @@ According to **The Things Network, Over-the-Air Activation** (OTAA) is the prefe
   caption="Activation Method - OTAA"
 />
 
-:::tip Note:
-:pencil: As an example, let's join in OTAA mode and EU868 frequency.
+:::tip 📝 NOTE
+As an example, let's join in OTAA mode and EU868 frequency.
 :::
 
 1. Set the LoRa® join mode to **OTAA** as follows:
@@ -80,8 +80,8 @@ at+set_config=app_key:XXXX
   caption="AT Command for OTAA LoRa® Application Key via RAK Serial Port Tool"
 />
 
-:::tip Note:
-:pencil: After configuring all the parameters, you need to reset your RAK612 LPWAN Button for saving parameters.
+:::tip 📝 NOTE
+After configuring all the parameters, you need to reset your RAK612 LPWAN Button for saving parameters.
 :::
 
 6. After resetting RAK612 LPWAN Button, join in OTAA mode:

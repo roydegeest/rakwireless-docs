@@ -1,5 +1,4 @@
 ---
-next: software
 ---
 
 # Hardware FAQs

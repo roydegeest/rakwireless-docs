@@ -2,20 +2,20 @@
 
 This document walks through the step-by-step discussion on how to customize each key functions of the RAK612 LPWAN Button. For you to enable the message customization, you must at least have the 2.0.2.1.2 firmware version. 
 
-:::tip Note:
-:pencil: If your RAK612 LPWAN Button's firmware version is lower than the least version set, please download the latest [RAK612 LPWAN Button Firmware](https://downloads.rakwireless.com/LoRa/RAK612-LoRaButton/Firmware/) and proceed to the [Upgrading the Firmware](upgrading-the-firmware.html) section.
+:::tip 📝 NOTE
+If your RAK612 LPWAN Button's firmware version is lower than the least version set, please download the latest [RAK612 LPWAN Button Firmware](https://downloads.rakwireless.com/LoRa/RAK612-LoRaButton/Firmware/) and proceed to the [Upgrading the Firmware](upgrading-the-firmware.html) section.
 :::
 
 ## Defaults
 
 Listed below are the default messages send by the RAK612 LPWAN Button whenever each key is pressed:
 
-| Key | Message | 
-| ---- | ---- | 
-| Key 1 | "Key 1" | 
-| Key 2 | "Key 2" | 
-| Key 3 | "Key 3" | 
-| Key 4 | "Key 4" | 
+| Key   | Message |
+| ----- | ------- |
+| Key 1 | "Key 1" |
+| Key 2 | "Key 2" |
+| Key 3 | "Key 3" |
+| Key 4 | "Key 4" |
 
 
 ## Customizing

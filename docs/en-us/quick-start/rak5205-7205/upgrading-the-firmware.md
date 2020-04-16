@@ -8,11 +8,8 @@ If the firmware version of your RAK5205 WisTrio LPWAN Tracker is newer than V3.0
 
 - First, type the command to let the RAK5205 WisTrio LPWAN Tracker work in boot mode.
 
-::: tip Note:
-:pencil: If you have just burned the bootloader by
-yourself according to the section 2, it works in boot mode now. If the current version of
-the RAK5205’s firmware is newer than V3.0.0.0, you need to set an AT command
-to let it work in boot mode
+::: tip 📝 NOTE
+If you have just burned the bootloader by yourself according to the section 2, it works in boot mode now. If the current version of the RAK5205’s firmware is newer than V3.0.0.0, you need to set an AT command to let it work in boot mode
 :::
 
 ```bash
@@ -61,7 +58,7 @@ at+set_config=device:boot
 />
 
 - Now, close the upgrade tool and open a serial port tool.
-- We recommend you to use RAK serial port tool, because there are some ready AT commands in this tool and this will be very useful for you. You can get it from RAK website available for free at this[**RAK directory**](https://downloads.rakwireless.com/en/LoRa/RAK811/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).
+- We recommend you to use RAK serial port tool, because there are some ready AT commands in this tool and this will be very useful for you. You can get it from RAK website available for free at this [**RAK directory**](https://downloads.rakwireless.com/en/LoRa/RAK811/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).
 - Choose the correct **COM port** and set the baud rate to **115200**. Then open the serial port and enter the AT command to restart.
 
 ```bash
@@ -75,4 +72,4 @@ at+set_config=device:restart
   caption="Restarting your Firmware"
 />
 
-**Congratulation**! This information means that you have upgraded successfully the new firmware.
+**Congratulations**! This information means that you have upgraded successfully the new firmware.
