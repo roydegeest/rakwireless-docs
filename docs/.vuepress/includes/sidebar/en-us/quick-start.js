@@ -31,6 +31,29 @@ module.exports = {
       ]
     }
   ],
+  '/en-us/quick-start/rak7240/': [
+    {
+      title: 'Product Overview',   // required
+      path: '',      // optional, which should be a absolute path.
+      collapsable: false, // optional, defaults to true
+      sidebarDepth: 1,    // optional, defaults to 1
+      children: [
+        '',
+        {
+          title: "Quick Start Guide",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/quick-start/rak7240/quick-start-guide/',
+          children: [
+            'quick-start-guide/power-on-the-gateway',
+            'quick-start-guide/access-the-gateway',
+            'quick-start-guide/access-the-internet',
+            'quick-start-guide/connecting-to-ttn'
+          ]
+        }
+      ]
+    }
+  ],
   '/en-us/quick-start/rak7249/': [
     {
       title: 'Product Overview',   // required
