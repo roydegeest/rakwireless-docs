@@ -20,7 +20,7 @@ params:
 
 <rk-img
   :src="`${$frontmatter.static_root}/o5qqux3jaeyiiuosw0qi.jpg`"
-  width="100%"
+  width="70%"
   figure-number="1"
   caption="RAK811 LPWAN Evaluation Board"
 />

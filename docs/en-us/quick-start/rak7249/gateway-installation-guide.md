@@ -24,8 +24,8 @@ title: Gateway Installation Guide
 
 3. Install the LoRa® cards (for example RAK833), the motherboard supports two LoRa® cards, the first slot is for LoRa® card of SPI type, the second slot is for LoRa® card of USB type.
 
-:::tip Note
-:pencil: If there is only one LoRa® card (SPI type), please install it in the first slot.
+:::tip 📝 NOTE
+ If there is only one LoRa® card (SPI type), please install it in the first slot.
 :::
 
 <rk-img
@@ -48,8 +48,8 @@ title: Gateway Installation Guide
 
 6. Connect the cable to the motherboard. The connectors on motherboard are as follows. Connect the cables one by one.
 
-:::tip Note
-:pencil: ou must use the WiFI-MAIN connector to connect the WiFi Antenna.
+:::tip 📝 NOTE
+ ou must use the WiFI-MAIN connector to connect the WiFi Antenna.
 :::
 
 <rk-img
@@ -72,8 +72,8 @@ title: Gateway Installation Guide
 
 ## Mounting
 
-:::tip Note
-:pencil: All the necessary components (bolts, washers, nuts) come with the mounting kit.
+:::tip 📝 NOTE
+ All the necessary components (bolts, washers, nuts) come with the mounting kit.
 :::
 
 1. Fix the device bracket to the backside of the enclosure with four M6x12 screws.

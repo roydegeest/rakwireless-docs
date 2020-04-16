@@ -38,8 +38,8 @@ By default, all inbound traffic to an AWS Instance is blocked, only port 22 (SSH
   caption="Adding Inbound Rules"
 />
 
-:::tip Note:
-:pencil: It is a good practice\nto name them in accordance with what each of them represents.
+:::tip 📝 NOTE
+ It is a good practice to name them in accordance with what each of them represents.
 :::
 
 4. Make sure to **Save** with the button in the lower right corner.
@@ -53,8 +53,8 @@ By default, all inbound traffic to an AWS Instance is blocked, only port 22 (SSH
   caption="Chirpstack Login Page"
 />
 
-:::tip Note:
-:pencil: The log-in credentials are provided below. Additionally, there are profiles created in the RAKwireless Chirpstack installation, so you do not need to make those yourself and you can directly proceed to adding your Gateway.
+:::tip 📝 NOTE
+ The log-in credentials are provided below. Additionally, there are profiles created in the RAKwireless Chirpstack installation, so you do not need to make those yourself and you can directly proceed to adding your Gateway.
 * **Username**: admin
 * **Password**: admin
 :::

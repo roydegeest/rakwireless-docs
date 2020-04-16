@@ -7,11 +7,12 @@
     "vuepress-plugin-robots": "^1.0.1"
   },
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs --no-cache",
+    "docs:build": "vuepress build docs --no-cache",
     "watch:dev": "nodemon"
   },
   "dependencies": {
+    "@vuepress/core": "^1.4.1",
     "markdown-it-include": "^1.1.0",
     "nodemon": "^2.0.2",
     "vuepress-plugin-redirect": "^1.2.3",

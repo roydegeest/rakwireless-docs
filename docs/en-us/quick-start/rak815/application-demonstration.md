@@ -6,8 +6,8 @@ In this section, you will learn the three different open source application demo
 
 After you finish downloading the application, you can view the Log Information through the serial port defined by the firmware. But first, you need to connect **Pin3 >> Pin5, Pin4 >> Pin6** on the UART switch Interface. Refer to the [RAK815 Hybrid Location Tracker Datasheet](https://doc.rakwireless.com/datasheet/rakproducts/rak815-hybrid-location-tracker-datasheet) for proper reference.
 
-:::tip Note:
-:pencil: The serial program used in this demonstration is CommUart Assistant, although you may use other serial terminals.
+:::tip 📝 NOTE
+The serial program used in this demonstration is CommUart Assistant, although you may use other serial terminals.
 :::
 
 ### See Log Information
@@ -84,8 +84,8 @@ through Bluetooth. The format of the data you are sending must be as shown below
 lora_cfg:dev_eui=xxxxxxxxxxxxxxxx&app_eui=xxxxxxxxxxxxxxxx&app_key=xxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxx&dev_addr=xxxxxxxx&nwkskey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxx&appskey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
-:::tip Note:
-:pencil: Because the information is too long, the serial port won't show the details of the configuration.
+:::tip 📝 NOTE
+Because the information is too long, the serial port won't show the details of the configuration.
 :::
 
 * After successfully configuring your device parameters, a message will be shown in your serial port saying: "**LoRaWAN**® **parameters configured successfully**".
@@ -166,8 +166,8 @@ for each sensor on the LCD display.
 * Next, if you press the first button of the device, see the figure below. The device will
 scan the surrounding Bluetooth device for 1s. 
 
-:::tip Note:
-:pencil: This device can only scan Bluetooth BLE devices.
+:::tip 📝 NOTE
+This device can only scan Bluetooth BLE devices.
 :::
 
 <rk-img

@@ -5,8 +5,8 @@ next: power-on-the-gateway
 # Quick Start Guide
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/2.quickstart/rak7249-with-antennas.jpg"
-  width="50%"
+  src="/assets/images/quick-start-guide/rak7249/2.quickstart/antennas_installed.png"
+  width="40%"
   figure-number="1"
   caption="RAK7249 Macro Outdoor Gateway with the Antennas installed"
 />

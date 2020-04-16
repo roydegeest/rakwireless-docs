@@ -8,9 +8,9 @@ next: ttn-otaa-mode
 The Things Network is about enabling low power devices to be used in long range gateways that connect to an open-source, decentralized network and exchange data with Applications. Learn more about the Things Network [**here**](https://www.thethingsnetwork.org/docs/).
 In this section, we’ll show you how to connect the RAK811 LoRa® Breakout Module with TTN.
 
-**1.** First, **connect** the RAK811 LPWAN Breakout Module to your PC and open the **Serial Port Tool**.
+1. First, **connect** the RAK811 LPWAN Breakout Module to your PC and open the **Serial Port Tool**.
 
-**2.Select** the appropriate COM port and **open** it as in the image:
+2. Select the appropriate COM port and **open** it as in the image:
 
 <rk-img
   :src="`${$frontmatter.static_root}/lcvx0tpp0mvbqtfvveja.png`"
@@ -19,11 +19,11 @@ In this section, we’ll show you how to connect the RAK811 LoRa® Breakout Modu
   caption="RAK811 Serial Port Tool"
 />
 
-::: tip Info:
+::: tip 📝 NOTE
 In this section, it is the assumption that you are within the coverage range of a TTN Gateway.
 :::
 
-**3.** Now go to the [TTN Website](https://www.thethingsnetwork.org/) and Log in.
+3. Now go to the [TTN Website](https://www.thethingsnetwork.org/) and Log in.
 
 <rk-img
   :src="`${$frontmatter.static_root}/xcnu0ubgglpnncjaxcxx.jpg`"
@@ -32,7 +32,7 @@ In this section, it is the assumption that you are within the coverage range of 
   caption="The Things Network Homepage"
 />
 
-**4.** Choose "**Console**" located at the top right corner. Then, Click "**Application**".
+4. Choose "**Console**" located at the top right corner. Then, Click "**Application**".
 
 <rk-img
   :src="`${$frontmatter.static_root}/dewhjv5kvji5cnwlb8q4.png`"
@@ -41,7 +41,7 @@ In this section, it is the assumption that you are within the coverage range of 
   caption="TTN Console page"
 />
 
-**5.** Press the "**add application**" button.
+5. Press the "**add application**" button.
 
 <rk-img
   :src="`${$frontmatter.static_root}/q69iye4keg0wcwvllxq4.png`"
@@ -52,7 +52,7 @@ In this section, it is the assumption that you are within the coverage range of 
 
 **6.** Create your own Application by filling in with correct contents.
 
-::: tip Info
+::: tip 📝 NOTE
 The Application ID is an unique combination of lower case, alphanumerical characters, nonconsecutive - and \_.
 :::
 
@@ -63,7 +63,7 @@ The Application ID is an unique combination of lower case, alphanumerical charac
   caption="TTN Add Application Page"
 />
 
-**7.** Then press the “**Add application**” button at the bottom of this page, and you can see the following page:
+7. Then press the “**Add application**” button at the bottom of this page, and you can see the following page:
 
 <rk-img
   :src="`${$frontmatter.static_root}/ig62tkokbeyymlwpe1gr.png`"
@@ -72,7 +72,7 @@ The Application ID is an unique combination of lower case, alphanumerical charac
   caption="TTN Application Information Page"
 />
 
-**8.** At the middle of this page, you can find the box named “**DEVICES**” and click “**register device**”.
+8. At the middle of this page, you can find the box named “**DEVICES**” and click “**register device**”.
 
 <rk-img
   :src="`${$frontmatter.static_root}/jxfqlvwpvbe8irybx6sm.png`"
@@ -81,7 +81,7 @@ The Application ID is an unique combination of lower case, alphanumerical charac
   caption="Registering Device in TTN"
 />
 
-**9.** Fill in the "**Device ID"** . Click the icon in the **“Device EUI**”, then a code is generated automatically.
+9. Fill in the "**Device ID"** . Click the icon in the **“Device EUI**”, then a code is generated automatically.
 
 You can get the **“Device EUI**” of your RAK811 with the following command, which will display all node parameters:
 
@@ -102,7 +102,7 @@ at+set_config=lora:dev_eui:XXXX
   caption="Filling in the Device Information"
 />
 
-**10.** Then press the “**Register**” button at the bottom of this page to finish.
+10. Then press the “**Register**” button at the bottom of this page to finish.
 
 <rk-img
   :src="`${$frontmatter.static_root}/jbsjagixye7gonowplap.png`"

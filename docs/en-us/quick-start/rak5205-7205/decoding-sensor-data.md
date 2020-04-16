@@ -23,7 +23,7 @@ Now let's analyze each data , which is in Hexadecimal Format. We will be using t
 
 <rk-img
   :src="`${$frontmatter.static_root}/lwg2elvxz58fwgheftzw.jpg`"
-  width="90%"
+  width="50%"
   figure-number="2"
   caption="Hexadecimal to Decimal converter"
 />
@@ -99,9 +99,9 @@ Example Data: **03 71 FF FF FF DD FC 2E**
 
 ### Input Decoding Function in TTN
 
-**1**. To start with, download the decoding function through this **[link](https://github.com/RAKWireless/RUI_LoRa_node_payload_decoder/blob/master/RUISensorDataDecoder_for_TTN.js)**.
+1. To start with, download the decoding function through this **[link](https://github.com/RAKWireless/RUI_LoRa_node_payload_decoder/blob/master/RUISensorDataDecoder_for_TTN.js)**.
 
-**2**. From your TTN console, go to application page and click the "**Payload Formats**" tab as shown in the image below.
+2. From your TTN console, go to application page and click the "**Payload Formats**" tab as shown in the image below.
 
 <rk-img
   :src="`${$frontmatter.static_root}/i4xmo8ndpvbmx8i6q8tj.jpg`"
@@ -110,7 +110,7 @@ Example Data: **03 71 FF FF FF DD FC 2E**
   caption="Payload Format at TTN Application Page"
 />
 
-**3**. Next, select "**Payload Format**" as "**Custom**". Then, from the decoder tab, copy and paste the decoder function from **step 1**.
+3. Next, select "**Payload Format**" as "**Custom**". Then, from the decoder tab, copy and paste the decoder function from **step 1**.
 
 <rk-img
   :src="`${$frontmatter.static_root}/ddpqx0x7rlma36ogiwc1.jpg`"
@@ -134,7 +134,7 @@ Example Data: **03 71 FF FF FF DD FC 2E**
 
 - Then, click "**Test**" and it will generate a code with the decoded data as shown in the image above.
 
-```bash
+```json
 {
   "DecodeDataHex": "0188053797109d5900dc140802017a0768580673256d0267011d040214af0371ffffffddfc2e",
   "DecodeDataObj": {
@@ -176,9 +176,9 @@ After gateway and node go online, click the uplink data record from the applicat
 
 ### Input Decoding Function in ChirpStack
 
-**1.** To start with, download the decoding function through this **[link](https://github.com/RAKWireless/RUI_LoRa_node_payload_decoder/blob/master/RUISensorDataDecoder_for_ChirpStack.js)**.
+1. To start with, download the decoding function through this **[link](https://github.com/RAKWireless/RUI_LoRa_node_payload_decoder/blob/master/RUISensorDataDecoder_for_ChirpStack.js)**.
 
-**2.** From to your ChirpStack, go to application page and click the "**APPLICATION CONFIGURATION**" tab as shown in the image below.
+2. From to your ChirpStack, go to application page and click the "**APPLICATION CONFIGURATION**" tab as shown in the image below.
 
 <rk-img
   :src="`${$frontmatter.static_root}/vs8mobszwtkfyqeodvze.jpg`"
@@ -187,7 +187,7 @@ After gateway and node go online, click the uplink data record from the applicat
   caption="Application Configuration Tab"
 />
 
-**3**. Next, select "**Payload codec**" as "**Custom JavaScript codec functions**". Then, from the decoder tab, copy and paste the decoder function from **step 1**.
+3. Next, select "**Payload codec**" as "**Custom JavaScript codec functions**". Then, from the decoder tab, copy and paste the decoder function from **step 1**.
 
 <rk-img
   :src="`${$frontmatter.static_root}/pvjdwnmlcykwa7g4upmr.jpg`"
@@ -196,7 +196,7 @@ After gateway and node go online, click the uplink data record from the applicat
   caption="Decoded Function in Chirpstack"
 />
 
-**4.** Then, click ‘**UPDATE APPLICATION**’ button to save decoding function.
+4. Then, click ‘**UPDATE APPLICATION**’ button to save decoding function.
 
 ### Testing in Real System in ChirpStack
 

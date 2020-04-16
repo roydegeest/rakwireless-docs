@@ -15,7 +15,7 @@ When setting up a new device in TTN, its default mode is **OTAA** or **Over-the-
 
 Now, let us configure the RAK811 to work in OTAA mode in the EU868 band, as an example.
 
-::: tip Info
+::: tip 📝 NOTE
 The default LoRa® working mode for the RAK811 is LoRaWAN® 1.0.2, while the default LoRa® join mode is OTAA, and the default LoRa® class is Class A.
 :::
 
@@ -91,8 +91,8 @@ at+send=lora:1:12345678
 
 If you get a response in your TTN live data feed as in Figure 6, than you are all set!
 
-::: tip Note:
-:pencil: Be sure to have this window opened prior to sending data through the RAK Serial Port or you will not be able to receive the packet sent. Logging out your The Things Network acccount would also clear all the data sent and not being able to receive packets sent.
+::: tip 📝 NOTE
+Be sure to have this window opened prior to sending data through the RAK Serial Port or you will not be able to receive the packet sent. Logging out your The Things Network acccount would also clear all the data sent and not being able to receive packets sent.
 :::
 
 <rk-img

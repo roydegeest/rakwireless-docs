@@ -1,4 +1,4 @@
-# RUI Device Boot
+## RUI Device Boot
 
 ```c
 void rui_device_boot()

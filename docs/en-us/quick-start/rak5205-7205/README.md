@@ -14,19 +14,19 @@ params:
         href: https://doc.rakwireless.com/datasheet/rakproducts/rak5205-wistrio-lora-tracker-datasheet
       - name: RAK5205 WisTrio LPWAN Tracker 3D Model
         href: https://downloads.rakwireless.com/en/LoRa/WisTrio-LoRa-RAK5205/Hardware_Specification/RAK5205_3D_Model.stp
-      - name: RAK5205 WisTrio LPWAN TrackerEnclosure 3D Model
+      - name: RAK5205 WisTrio LPWAN Tracker Enclosure 3D Model
         href: https://downloads.rakwireless.com/en/LoRa/WisTrio-LoRa-RAK5205/Hardware_Specification/RAK5205_Enclosure_3D_Model.stp
       - name: RAK5205 WisTrio LPWAN Tracker Schematic Diagram
         href: https://doc.rakwireless.com/datasheet/rakproducts/schematics---rak5205
 ---
 
-# RAK7205/ RAK5205 WisTrio LPWAN Tracker
+# RAK7205/RAK5205 WisTrio LPWAN Tracker
 
 <rk-img
   :src="`${$frontmatter.static_root}/exlexmejfxoowom4gmuf.jpg`"
   width="70%"
   figure-number="1"
-  caption="RAK7205/ RAK5205 WisTrio LoRa® Tracker Product View"
+  caption="RAK7205/RAK5205 WisTrio LPWAN Tracker Product View"
 />
 
 ## Product Background
@@ -37,7 +37,7 @@ This node module is ideal as a quick prototyping tool for LoRaWAN® applications
 
 <rk-btn
   src="quick-start-guide.html"
-  label=" Set up Your RAK5205 RAK5205 WisTrio LPWAN Tracker"
+  label="Set up Your RAK5205 RAK5205 WisTrio LPWAN Tracker"
 />
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />

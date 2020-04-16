@@ -28,8 +28,8 @@ Additionally, one can set the **Gateway metric** (how high is this interface in 
 
 The same statistics as with the WAN Interface are available. It is here that you set the **APN**, **User**, and **Password**. The Gateway metric determines the priority of this interface, compared with the other connectivity options. The lower the value the higher the priority.
 
-:::tip Note
-:pencil: There is also a field for the PIN Code in case your SIM card is locked.
+:::tip 📝 NOTE 
+There is also a field for the PIN Code in case your SIM card is locked.
 :::
 
 ## 3. Wi-Fi
@@ -45,8 +45,8 @@ Enabling/Disabling the Wi-Fi is done from this page via the blue button at the t
 
 **Access Point**: By default, there is no password. One can access the Web UI via the IP address: **192.168.230.1** once connected to the AP. The SSID is "**RAK7249_XXXX**" by default.
 
-:::tip Note
-:pencil: If you swipe the **Hidden** slider, the SSID will not be advertised.
+:::tip 📝 NOTE 
+If you swipe the **Hidden** slider, the SSID will not be advertised.
 :::
 
 **Client**: By default, the client mode is disabled. If you want to use it you have to click the “**Enable**” button.Click the “**Scan**” button to choose your preferred wireless network. Choose the encryption method, fill in the password and press **Save & Apply**.
@@ -86,8 +86,8 @@ You can enter either an URL or an IP Address in the text box and execute the com
 
 Ping Watchdog monitors the quality of network links by constantly pinging the specified IP Address or Domain name on the specified uplink network interface. When network link failures are detected, scheduled measures are taken automatically. Those include: Interface restart, Interface priority reduction, Device restart, etc.
 
-:::tip Note
-:pencil: Reducing the priority of an uplink interface only works when the LoRaWAN Gateway uses both Ethernet and Cellular as uplink methods at the same time.
+:::tip 📝 NOTE 
+Reducing the priority of an uplink interface only works when the LoRaWAN Gateway uses both Ethernet and Cellular as uplink methods at the same time.
 :::
 
 The WAN interface represents the Ethernet uplink interface and WAN represents the LTE cellular network uplink interface.

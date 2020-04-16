@@ -23,7 +23,7 @@ Now lets analyze each data , which is in Hexadecimal Format. We will be using th
 
 <rk-img
   :src="`${$frontmatter.static_root}/hp2ugrvyfdqytyrvmi28.jpg`"
-  width="90%"
+  width="50%"
   figure-number="2"
   caption="Hex to Decimal Converter"
 />

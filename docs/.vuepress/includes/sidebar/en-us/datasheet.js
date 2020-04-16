@@ -95,6 +95,17 @@ module.exports = {
           ]
         },
         {
+          title: "RAK7240 Outdoor LPWAN Gateway",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak7240/',
+          children: [
+            'rak7240/board-overview',
+            'rak7240/product-specifications',
+            'rak7240/interfaces'
+          ]
+        },
+        {
           title: "RAK7243C Pilot Gateway",
           nested: true,
           collapsable: false,
@@ -274,6 +285,35 @@ module.exports = {
             'rak4260/pin-definition',
             'rak4260/mechanical-characteristics',
             'rak4260/typical-application-circuit'
+          ]
+        },
+        {
+          title: "RAK4600 Breakout Module",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak4600-breakout/',
+          children: [
+            'rak4600-breakout/board-overview',
+            'rak4600-breakout/operating-frequencies',
+            'rak4600-breakout/pin-definition',
+            'rak4600-breakout/power-consumption',
+            'rak4600-breakout/schematic-diagram',
+            'rak4600-breakout/interfaces'
+          ]
+        },
+        {
+          title: "RAK4600 LPWAN Module",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak4600/',
+          children: [
+            'rak4600/board-overview',
+            'rak4600/block-diagram',
+            'rak4600/operating-frequencies',
+            'rak4600/pin-definition',
+            'rak4600/electrical-characteristics',
+            'rak4600/mechanical-characteristics',
+            'rak4600/recommended-reflow-profile'
           ]
         },
         {

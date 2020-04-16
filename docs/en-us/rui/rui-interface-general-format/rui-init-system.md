@@ -1,4 +1,4 @@
-# RUI Initialize System
+## RUI Initialize System
 
 ```c
 void rui_init(void);

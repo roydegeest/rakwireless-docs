@@ -38,16 +38,16 @@ next: chirpstack-abp
   figure-number="4"
   caption="Chirpstack OTAA Set Application Key"
 />
-::: tip Note:
-:pencil: The Application EUI which will be set into RAK4200 LPWAN Evaluation Board as “app_eui” is not necessary for ChirpStack, and you can set it to any value with a correct format.
+::: tip 📝 NOTE
+The Application EUI which will be set into RAK4200 LPWAN Evaluation Board as “app_eui” is not necessary for ChirpStack, and you can set it to any value with a correct format.
 :::
 
 5. Configure RAK4200 LPWAN Evaluation Board by using the available AT Commands found in this [section](configuring-using-at-commands). Connect your RAK4200 LPWAN Evaluation Board in your Windows Machine.
 
 6. Power it **ON** and open **RAK Serial Port Tool** on your PC as instructed [here](interfacing).
 
-::: tip Note:
-:pencil: The default join mode is **OTAA**, the default class is **Class A** and the default region is **EU868**.
+::: tip 📝 NOTE
+The default join mode is **OTAA**, the default class is **Class A** and the default region is **EU868**.
 :::
 
 7. If the **join mode** is not in OTAA, just set the LoRa® join mode to **OTAA** as follows:
@@ -78,7 +78,7 @@ at+set_config=lora:region:EU868
 ```
 <rk-img
   :src="`${$frontmatter.static_root}/evudoedib3ovd9ye98gy.jpg`"
-  width="100%"
+  width="60%"
   figure-number="7"
   caption="Chirpstack OTAA Set Region/Frequency via RAK Serial Port Tool"
 />
@@ -88,8 +88,8 @@ at+set_config=lora:region:EU868
 at+set_config=lora:dev_eui:XXXX
 ```
 <rk-img
-  :src="`${$frontmatter.static_root}/yzqpmzjhqj58akm7xqcm.jpg`"
-  width="100%"
+  :src="`${$frontmatter.static_root}/vsbevdit52xkqq0ocn5n.jpg`"
+  width="60%"
   figure-number="8"
   caption="Chirpstack OTAA Set Application EUI via RAK Serial Port Tool"
 />
@@ -98,43 +98,47 @@ at+set_config=lora:dev_eui:XXXX
 ```
 at+set_config=lora:app_eui:XXXX
 ```
+
 <rk-img
-  :src="`${$frontmatter.static_root}/uf6hawlomc92hhp2dlbl.jpg`"
-  width="100%"
-  figure-number="9"
-  caption="Chirpstack OTAA Set Application Key via RAK Serial Port Tool"
+  :src="`${$frontmatter.static_root}/yzqpmzjhqj58akm7xqcm.jpg`"
+  width="60%"
+  figure-number="8"
+  caption="Chirpstack OTAA Set Application EUI via RAK Serial Port Tool"
 />
 
 12. Set the **Application Key**:
 ```
 at+set_config=lora:app_key:XXXX
 ```
+
+<rk-img
+  :src="`${$frontmatter.static_root}/uf6hawlomc92hhp2dlbl.jpg`"
+  width="60%"
+  figure-number="9"
+  caption="Chirpstack OTAA Set Application Key via RAK Serial Port Tool"
+/>
+
+
+
+::: tip 📝 NOTE
+After configuring all parameters, you need to reset RAK4200 LPWAN Evaluation Board to save the parameters.
+:::
+
+13.  After resetting, start to join:
+```
+at+join
+```
+
 <rk-img
   :src="`${$frontmatter.static_root}/kp0hhztd0d1txr0xlsnd.jpg`"
-  width="100%"
+  width="60%"
   figure-number="10"
   caption="Chirpstack OTAA Join via RAK Serial Port Tool"
 />
 
-::: tip Note:
-:pencil: After configuring all parameters, you need to reset RAK4200 LPWAN Evaluation Board to save the parameters.
-:::
-
-13. After resetting, start to join:
-```
-at+join
-```
-<rk-img
-  :src="`${$frontmatter.static_root}/1.htym80ccfx3xe5ycormf.png`"
-  width="100%"
-  figure-number="11"
-  caption="Balena Etcher Software"
-/>
-
-
 14. You can then see the **JoinRequest** and **JoinAccept** on ChirpStack page:
 <rk-img
-  :src="`${$frontmatter.static_root}/Chirpstack OTAA JoinRequest and JoinAccept`"
+  :src="`${$frontmatter.static_root}/szgnpputwklp26s1epwd.png`"
   width="100%"
   figure-number="12"
   caption=" Chirpstack OTAA JoinRequest and JoinAccept"
@@ -146,7 +150,7 @@ at+send=lora:2:1234567890
 ```
 <rk-img
   :src="`${$frontmatter.static_root}/sy4nezodryajjldti9ki.jpg`"
-  width="100%"
+  width="60%"
   figure-number="13"
   caption="Chirpstack OTAA Sample Data Sent via RAK Serial Port Tool"
 />

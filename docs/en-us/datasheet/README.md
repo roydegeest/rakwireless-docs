@@ -15,10 +15,10 @@ Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet
 <li><a href="/en-us/datasheet/rak2245-stamp/#rak2245-stamp-edition-lpwan-gateway-concentrator-module">RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module</a></li>
 <li><a href="/en-us/datasheet/rak2247/#rak2247-lpwan-gateway-concentrator-module">RAK2247 LPWAN Gateway Concentrator Module</a></li>
 <li><a href="/en-us/datasheet/rak2287/#rak2287-wislink-lpwan-gateway-module">RAK2287 WisLink- LPWAN Gateway Module</a></li>
-<li><a href="https://www.w3schools.com">RAK7240 Outdoor LPWAN Gateway</a></li>
+<li><a href="/en-us/datasheet/rak7240/#rak7240-outdoor-lpwan-gateway">RAK7240 Outdoor LPWAN Gateway</a></li>
 <li><a href="/en-us/datasheet/rak7243c/#rak7243c-pilot-gateway">RAK7243C Pilot Gateway</a></li>
 <li><a href="/en-us/datasheet/rak7244c/#rak7244c-lpwan-developer-gateway">RAK7244C LPWAN Developer Gateway</a></li>
-<li><a href="https://www.w3schools.com">RAK7246G LPWAN Developer Gateway</a></li>
+<li><a href="/en-us/datasheet/rak7246g/#rak7246g-lpwan-developer-gateway">RAK7246G LPWAN Developer Gateway</a></li>
 <li><a href="/en-us/datasheet/rak7249/#rak7249-macro-outdoor-gateway">RAK7249 Macro Outdoor Gateway</a></li>
 <li><a href="/en-us/datasheet/rak7258/#rak7258-micro-gateway">RAK7258 Micro Gateway</a></li>
 </br>
@@ -27,9 +27,9 @@ Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet
 <details>
 <summary>LPWAN Nodes</summary>
 <br>
-<li><a href="https://www.w3schools.com">RAK811 LPWAN Module</a></li>
 <li><a href="/en-us/datasheet/rak811-breakout-module/#rak811-lpwan-breakout-module">RAK811 LPWAN Breakout Module</a></li>
-<li><a href="https://www.w3schools.com">RAK813 BLE+LoRa®</a></li>
+<li><a href="/en-us/datasheet/rak811/#rak811-lpwan-module">RAK811 LPWAN Module</a></li>
+<li><a href="/en-us/datasheet/rak813/#rak813-ble-lora®">RAK813 BLE+LoRa®</a></li>
 <li><a href="/en-us/datasheet/rak815/#rak815-hybrid-location-tracker">RAK815 Hybrid Location Tracker</a></li>
 <li><a href=/en-us/datasheet/rak4200-breakout-module/#rak4200-breakout-module>RAK4200 Breakout Module</a></li>
 <li><a href="/en-us/datasheet/rak4200/#rak4200-lpwan-module">RAK4200 LPWAN Module</a></li>

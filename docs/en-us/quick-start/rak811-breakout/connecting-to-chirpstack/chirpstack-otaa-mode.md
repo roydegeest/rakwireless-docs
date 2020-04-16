@@ -4,7 +4,7 @@ static_root: /assets/images/quick-start-guide/rak811-breakout/chirpstack-otaa-mo
 
 # OTAA Mode
 
-**1.** To join ChirpStack in OTAA mode, select “**DeviceProfile_OTAA**”.
+1. To join ChirpStack in OTAA mode, select “**DeviceProfile_OTAA**”.
 
 <rk-img
   :src="`${$frontmatter.static_root}/vy0kq5njvnuzo49ivkd5.png`"
@@ -13,7 +13,7 @@ static_root: /assets/images/quick-start-guide/rak811-breakout/chirpstack-otaa-mo
   caption="Selecting OTAA Activation Mode in ChirpStack"
 />
 
-**2.** Press “**CREATE DEVICE**” button. You may write the application key by yourself or generate it automatically by clicking the icon highlighted in the image.
+2. Press “**CREATE DEVICE**” button. You may write the application key by yourself or generate it automatically by clicking the icon highlighted in the image.
 
 <rk-img
   :src="`${$frontmatter.static_root}/ojwnskkac1njlitkurvr.png`"
@@ -22,7 +22,7 @@ static_root: /assets/images/quick-start-guide/rak811-breakout/chirpstack-otaa-mo
   caption="Application Key Generation"
 />
 
-**3.** Click "**SET DEVICE KEYS**” button. Now, you’ve completed the configuration on ChirpStack.
+3. Click "**SET DEVICE KEYS**” button. Now, you’ve completed the configuration on ChirpStack.
 
 - The Device EUI which was set in the previous section to your RAK811 LPWAN Breakout Module as "dev_eui" is the same in the image highlighted below.
 
@@ -42,11 +42,11 @@ static_root: /assets/images/quick-start-guide/rak811-breakout/chirpstack-otaa-mo
   caption="Application Key LoRaWAN®"
 />
 
-::: tip Note:
-:pencil: The Application EUI which was into RAK811 LPWAN Breakout Module as “**app_eui**” is not needed for ChirpStack.
+::: tip 📝 NOTE
+The Application EUI which was into RAK811 LPWAN Breakout Module as “**app_eui**” is not needed for ChirpStack.
 :::
 
-**4.** Next, let’s **configure** RAK811 LPWAN Breakout Module by using **AT commands**. To do this, connect your RAK811 LPWAN Breakout Module to a PC, power it on and open **RAK Serial Port Tool** on your computer.
+4. Next, let’s **configure** RAK811 LPWAN Breakout Module by using **AT commands**. To do this, connect your RAK811 LPWAN Breakout Module to a PC, power it on and open **RAK Serial Port Tool** on your computer.
 
 ```bash
 at+version
@@ -61,7 +61,7 @@ at+version
 
 - Now, let us join our RAK811 using the OTAA activation mode.
 
-**5.** If the join mode is not in OTAA, just set the LoRa® join mode to **OTAA** and LoRa® class to **Class A** by typing the AT commands shown in the picture below.
+5. If the join mode is not in OTAA, just set the LoRa® join mode to **OTAA** and LoRa® class to **Class A** by typing the AT commands shown in the picture below.
 
 ```bash
 at+set_config=lora:join_mode:0
@@ -78,7 +78,7 @@ at+set_config-lora:class:0
   caption="Setting of LoRaWAN® mode and class"
 />
 
-**6.** Type the following AT command to set the:**Frequency/Region, Device EUI, Application EUI and Application Key.** Remember to replace "**XXX"** and "**XXXX"** with the parameters set in the previous steps.
+6. Type the following AT command to set the:**Frequency/Region, Device EUI, Application EUI and Application Key.** Remember to replace "**XXX"** and "**XXXX"** with the parameters set in the previous steps.
 
 ```bash
 at+set_config=lora:region:EU868
@@ -110,7 +110,7 @@ at+set_config=lora:app_key:XXXX
   caption="Setting of Application EUI and Key"
 />
 
-**7.** Then, **join** in OTAA mode.
+7. Then, **join** in OTAA mode.
 
 ```bash
 at+join
@@ -125,7 +125,7 @@ at+join
 
 - **Joined Successfully!**
 
-**8.** You can view the "**JoinRequest**" and "**JoinAccept**" on ChirpStack page:
+8. You can view the "**JoinRequest**" and "**JoinAccept**" on ChirpStack page:
 
 <rk-img
   :src="`${$frontmatter.static_root}/ll6wmv6jqlnyhpxgaovj.png`"
@@ -134,7 +134,7 @@ at+join
   caption="Join Request of the Device in the ChirpStack"
 />
 
-**9.** Let’s try sending data from our RAK811 LPWAN Breakout Module to the ChirpStack by typing the command below in the serial port.
+9. Let’s try sending data from our RAK811 LPWAN Breakout Module to the ChirpStack by typing the command below in the serial port.
 
 ```bash
 at+send=lora:2:1234567890

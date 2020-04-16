@@ -5,7 +5,7 @@ static_root: /assets/images/quick-start-guide/rak4200/5. connecting-to-chirpstac
 
 1. If you select “**DeviceProfile_ABP**” or “**DeviceProfile_ABP_CN470**”, it means you want to join ChirpStack in **ABP mode**.
 
-::: warning
+::: warning ⚠️ WARNING
 Frequency AS923  in ABP Mode is not supported in Chirpstack.
 :::
 
@@ -90,8 +90,8 @@ at+set_config=lora:apps_key:XXXX
   caption="Chirpstack ABP Set Application Session Key via RAK Serial Port Too"
 />
 
-::: tip Note:
-:pencil: After configuring all parameters, you need to reset RAK4200 LPWAN Evaluation Board for saving parameters!
+::: tip 📝 NOTE
+After configuring all parameters, you need to reset RAK4200 LPWAN Evaluation Board for saving parameters!
 :::
 
 9. After resetting RAK4200 LPWAN Evaluation Board, join in ABP mode:
@@ -105,11 +105,11 @@ at+join
   caption="Chirpstack ABP Join via RAK Serial Port Tool"
 />
 
-::: tip Note:
-:pencil: It is not needed to join in ABP mode. But you still need to set this AT command to validate the parameters which you just set for ABP mode.
+::: tip 📝 NOTE
+It is not needed to join in ABP mode. But you still need to set this AT command to validate the parameters which you just set for ABP mode.
 :::
 
-10. Now, let’s try to send a data from RAK4200 LPWAN Evaluation Board to ChirpStack:
+10.  Now, let’s try to send a data from RAK4200 LPWAN Evaluation Board to ChirpStack:
 ```
 at+send=lora:2:123456789
 ```

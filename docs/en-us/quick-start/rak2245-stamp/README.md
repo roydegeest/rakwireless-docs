@@ -18,7 +18,7 @@ params:
 
 <rk-img
   :src="`${$frontmatter.static_root}/ylbgm3hgwwari6itxmii.png`"
-  width="100%"
+  width="60%"
   figure-number="1"
   caption="RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module"
 />
