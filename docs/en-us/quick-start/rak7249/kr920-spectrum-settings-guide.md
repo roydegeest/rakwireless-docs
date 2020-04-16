@@ -130,8 +130,8 @@ that are in Figure 1: Concentrator 0 Frequency Range. As for the Downlink, we si
 Now we can start calculating the frequency offset we need to have from the center frequency
 for each channel. We will use the following formula:
 
-:::tip Note
-:pencil: **If** = **MultiSF** - **Radio Freq**
+:::tip 📝 NOTE
+ **If** = **MultiSF** - **Radio Freq**
 :::
 
 ### Concentrator Module 0
@@ -174,8 +174,8 @@ TTN KR920-923 frequency plan.
     MultiSF 5 = CH 6 = 922900000 Hz 
      If 5 = MultiSF 5 - Radio 1 Freq = 921900000 – 921700000 = 200000 Hz
 
-:::tip Note
-:pencil: Remember Band 1 is limited to 14 dBm maximum output power, Band 2 is limited to\n10 dBm. The maximum downlink power of the RAK7249 Macro Outdoor Gateway is 23 dBm.
+:::tip 📝 NOTE
+ Remember Band 1 is limited to 14 dBm maximum output power, Band 2 is limited to 10 dBm. The maximum downlink power of the RAK7249 Macro Outdoor Gateway is 23 dBm.
 :::
 
 This concludes setting up the two Radios with the appropriated frequencies, bandwidths and

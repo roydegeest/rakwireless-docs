@@ -15,7 +15,7 @@ In this section, it is assumed that you have read and performed the procedures l
 First and foremost screw on the antennas. All 5 of them should be installed (**WiFi**, **LoRa®**, **LTE-DIV**, **LTE-MAIN** on the top, and **GPS** on the bottom) same with the image shown below.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/2.quickstart/rak7249-with-antennas.jpg"
+  src="/assets/images/quick-start-guide/rak7249/2.quickstart/antennas_installed.png"
   width="50%"
   figure-number="1"
   caption="RAK7249 Macro Outdoor Gateway with the Antennas installed"

@@ -30,9 +30,9 @@ The Things Network is about enabling low power devices to use long range gateway
 The Gateway EUI can be found either on the sticker on the casing or via the LoRa® Packet Forwarder page in the LoRa® Gateway menu once you log via the Web UI.
 :::
 
-1. Select your [Frequency Plan](https://www.thethingsnetwork.org/docs/lorawan/frequency-plans.html) depending on your location. This should populate the Router field. Optionally you can choose to enter the Gateway coordinates in the map’s upper right corner and select if the gateway is indoor or outdoor via the Antenna placement field below the map.
+2. Select your [Frequency Plan](https://www.thethingsnetwork.org/docs/lorawan/frequency-plans.html) depending on your location. This should populate the Router field. Optionally you can choose to enter the Gateway coordinates in the map’s upper right corner and select if the gateway is indoor or outdoor via the Antenna placement field below the map.
 
-2. Upon successful registration you should see the following screen:
+3. Upon successful registration you should see the following screen:
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/2.quickstart/ttn-successful.png"
