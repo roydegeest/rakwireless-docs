@@ -95,6 +95,17 @@ module.exports = {
           ]
         },
         {
+          title: "RAK7240 Outdoor LPWAN Gateway",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak7240/',
+          children: [
+            'rak7240/board-overview',
+            'rak7240/product-specifications',
+            'rak7240/interfaces'
+          ]
+        },
+        {
           title: "RAK7243C Pilot Gateway",
           nested: true,
           collapsable: false,
