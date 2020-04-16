@@ -233,6 +233,20 @@ module.exports = {
           ]
         },
         {
+          title: "RAK4200 Breakout Module",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak4200-breakout-module/',
+          children: [
+            'rak4200-breakout-module/board-overview',
+            'rak4200-breakout-module/operating-frequencies',
+            'rak4200-breakout-module/pin-definition', 
+            'rak4200-breakout-module/power-consumption',
+            'rak4200-breakout-module/schematic-diagram',
+            'rak4200-breakout-module/interfaces'
+          ]
+        },
+        {
           title: "RAK4200 LPWAN Module",
           nested: true,
           collapsable: false,

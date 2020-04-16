@@ -31,6 +31,7 @@ Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet
 <li><a href="/en-us/datasheet/rak811-breakout-module/#rak811-lpwan-breakout-module">RAK811 LPWAN Breakout Module</a></li>
 <li><a href="https://www.w3schools.com">RAK813 BLE+LoRa®</a></li>
 <li><a href="/en-us/datasheet/rak815/#rak815-hybrid-location-tracker">RAK815 Hybrid Location Tracker</a></li>
+<li><a href=/en-us/datasheet/rak4200-breakout-module/#rak4200-breakout-module>RAK4200 Breakout Module</a></li>
 <li><a href="/en-us/datasheet/rak4200/#rak4200-lpwan-module">RAK4200 LPWAN Module</a></li>
 <li><a href="/en-us/datasheet/rak4260/#rak4260-wisduo-lpwan-module">RAK4260 WisDuo LPWAN Module</a></li>
 <li><a href="https://www.w3schools.com">RAK4600 LPWAN Module</a></li>
