@@ -13,15 +13,13 @@ module.exports = {
       title: 'Cellular',   // required
       path: '',      // optional, which should be a absolute path.
       collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      sidebarDepth: 1,    // optional, defaults to 1
       children: [
-        {    
-          nested: true,
+        { 
+          title: "RUI Cellular General Format",
           collapsable: false,
-          path: '/en-us/rui/rui-cellular-general-format/',
-          children: [
-            'rui-cellular-general-format/rui-cellular'           
-          ]
+          path: '/en-us/rui/rui-cellular-general-format/',                 
+          
         },
       ]
     },
@@ -29,15 +27,12 @@ module.exports = {
       title: 'LoRa',   // required
       path: '',      // optional, which should be a absolute path.
       collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      sidebarDepth: 1,    // optional, defaults to 1
       children: [
-        {          
-          nested: true,
+        {        
+          title: "RUI LoRa General Format",
           collapsable: false,
-          path: '/en-us/rui/rui-lora-general-format/',
-          children: [
-            'rui-lora-general-format/rui-lora'           
-          ]
+          path: '/en-us/rui/rui-lora-general-format/',          
         },
       ]
     },
@@ -45,15 +40,12 @@ module.exports = {
       title: 'BLE',   // required
       path: '',      // optional, which should be a absolute path.
       collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      sidebarDepth: 1,    // optional, defaults to 1
       children: [
-        {    
-          nested: true,
+        {     
+          title: "RUI BLE General Format",     
           collapsable: false,
-          path: '/en-us/rui/rui-ble-general-format/',
-          children: [
-            'rui-ble-general-format/rui-ble'           
-          ]
+          path: '/en-us/rui/rui-ble-general-format/',         
         },
       ]
     },
