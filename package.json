@@ -12,9 +12,11 @@
     "watch:dev": "nodemon"
   },
   "dependencies": {
+    "@quasar/extras": "^1.6.4",
     "@vuepress/core": "^1.4.1",
     "markdown-it-include": "^1.1.0",
     "nodemon": "^2.0.2",
+    "quasar": "^1.9.15",
     "vuepress-plugin-redirect": "^1.2.3",
     "vuepress-plugin-sitemap": "^2.3.1"
   },
