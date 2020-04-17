@@ -10,7 +10,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK815 Hybrid Location Tracker Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak815-hybrid-location-tracker-datasheet
+        href: /en-us/datasheet/rak815/#rak815-hybrid-location-tracker
       - name: RAK815 Open Source Codes
         href: https://github.com/RAKWireless/RAK813-BreakBoard
 ---

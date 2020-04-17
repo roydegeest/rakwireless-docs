@@ -11,7 +11,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK7204 Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak7204-lora-environmental-sensor-datasheet
+        href: /en-us/datasheet/rak7204/#rak7204-lpwan-environmental-sensor
       - name: RAK7204 Downloadables
         href: https://downloads.rakwireless.com/LoRa/RAK7204/
 ---

@@ -11,7 +11,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: iTracker Pro RAK8212 Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak8212-itracker-pro-datasheet
+        href: /en-us/datasheet/rak8212/#rak8212-itracker-pro
       - name: iTracker Pro RAK8212 Downloadable Files
         href: https://downloads.rakwireless.com/en/Cellular/RAK8212/
 ---

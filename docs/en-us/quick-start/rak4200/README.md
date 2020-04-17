@@ -15,7 +15,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK4200 LPWAN Evaluation Board Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak4200-lora-module-datasheet
+        href: /en-us/datasheet/rak4200/#rak4200-lpwan-module
       - name: RAK4200 LPWAN Evaluation Board Schematic
         href: https://downloads.rakwireless.com/en/LoRa/RAK4200/Hardware-Specification/RAK4200_EVB_Schematic.pdf
       - name: RAK4200 LPWAN Evaluation Board Firmware 

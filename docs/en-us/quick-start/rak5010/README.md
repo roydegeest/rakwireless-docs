@@ -11,9 +11,9 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK5010 WisTrio NB-IoT Tracker Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak5010-wistrio-nb-iot-tracker-datasheet
+        href: /en-us/datasheet/rak5010/#rak5010-wistrio-nb-iot-tracker
       - name: RAK5010 WisTrio NB-IoT Tracker Schematic Diagram
-        href: https://doc.rakwireless.com/datasheet/rakproducts/schematic-diagram---rak5010-wistrio
+        href: /en-us/datasheet/rak5010/schematic-diagram.html#schematic-diagram
       - name: RAK5010 WisTrio NB-IoT Tracker Firmware
         href: https://downloads.rakwireless.com/en/Cellular/RAK5010/Firmware/
 ---

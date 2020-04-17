@@ -10,9 +10,9 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK4600 LPWAN Evaluation Board Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak4260-wisduo-lora-module-datasheet
+        href: /en-us/datasheet/rak4600/#rak4600-lpwan-module
       - name: RAK4600 LPWAN Evaluation Board Firmware 
-        href: https://downloads.rakwireless.com/en/LoRa/RAK4600/Firmware/RAK4600_V3.0.0.7.rar
+        href: https://downloads.rakwireless.com/LoRa/RAK4600/Firmware/
       - name: RAK4600 LPWAN Evaluation Board Schematics
         href: https://downloads.rakwireless.com/en/LoRa/RAK4600/Hardware-Specification/RAK4600_EVB_Schematic.pdf
 ---

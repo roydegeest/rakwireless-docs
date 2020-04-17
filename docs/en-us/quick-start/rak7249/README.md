@@ -11,7 +11,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK7249 Macro Outdoor Gateway Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak7249-macro-outdoor-gateway
+        href: /en-us/datasheet/rak7249/#rak7249-macro-outdoor-gateway
       - name: RAK7249 Macro Outdoor Gateway RoHS Test Report
         href: https://downloads.rakwireless.com/en/LoRa/DIY-Gateway-RAK7249/Certification-Report/RAK7249-ROHS-ATL20191105773R01-Report.pdf
       - name: RAK7249 Downloadable Files

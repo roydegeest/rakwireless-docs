@@ -15,7 +15,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK7246G LPWAN Developer Gateway Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak7246g-lorawan-developer-gateway-datasheet
+        href: /en-us/datasheet/rak7246g/#rak7246g-lpwan-developer-gateway
 ---
 
 # RAK7246G LPWAN Developer Gateway

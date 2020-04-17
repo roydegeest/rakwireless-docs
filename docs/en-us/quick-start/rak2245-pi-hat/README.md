@@ -11,9 +11,9 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK2245 Pi Hat Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak2245-pi-hat-datasheet
+        href: /en-us/datasheet/rak2245-pihat/#rak2245-pi-hat-lpwan-gateway-concentrator-module
       - name: RAK2245 3d Model
-        href: http://docs.rakwireless.com/en/LoRa/RAK2245-Pi-HAT/Hardware-Specification/RAK2245-Pi-HAT-pwb-3D-Model.stp
+        href: https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Hardware-Specification/
       - name: RAK2245 Product Brief
         href: http://docs.rakwireless.com/en/LoRa/RAK2245-Pi-HAT/Hardware-Specification/RAK2245_Pi_HAT_Product_Brief_V1.1.pdf
       - name: Comparison Between RAK831 

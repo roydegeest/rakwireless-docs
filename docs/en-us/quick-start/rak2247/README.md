@@ -10,7 +10,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK2247 LoRaWAN® Gateway Concentrator Module Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak2247-lorawan-gateway-concentrator-module-datasheet
+        href: /en-us/datasheet/rak2247/#rak2247-lpwan-gateway-concentrator-module
       - name: RAK2247 LoRaWAN® Gateway Concentrator Module Downloadables
         href: https://downloads.rakwireless.com/en/LoRa/RAK2247-Mini-PCIe/
 ---

@@ -15,7 +15,7 @@ params:
       - name: RAK7243C LoRaWAN® Developer Gateway Assembly Guide
         href: http://docs.rakwireless.com/en/LoRa/Pilot-Gateway-Pro-RAK7243/Application-Notes/Pilot_Gateway_Pro_RAK7243_with_LTE_Assembly_Guide.pdf
       - name: RAK7243C LoRaWAN® Developer Gateway Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak7243c-pilot-gateway-datasheet
+        href: /en-us/datasheet/rak7243c/#rak7243c-pilot-gateway
 ---
 
 # RAK7243C LoRaWAN® Developer Gateway

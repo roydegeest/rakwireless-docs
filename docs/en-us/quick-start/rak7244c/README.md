@@ -11,7 +11,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK7244C LPWAN Developer Gateway Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak2245-pi-hat-datasheet
+        href: /en-us/datasheet/rak7244c/#rak7244c-lpwan-developer-gateway
       - name: FCC Certification Report
         href: http://docs.rakwireless.com/en/LoRa/RAK2245/Certification-Report/RAK2245_FCC_Certificate.zip
       - name: CE Certification Report

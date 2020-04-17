@@ -11,7 +11,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK7258 Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak7258-micro-gateway
+        href: /en-us/datasheet/rak7258/#rak7258-micro-gateway
       - name: RAK7258 Downloadable Files 
         href: https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/
 ---
