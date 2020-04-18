@@ -1,10 +1,7 @@
 ---
+static_root: /assets/images/quick-start-guide/rak7246
+rak_img: rak7246.jpg
 params:
-  img1:
-    src: /assets/images/quick-start-guide/rak7246/rak7246.jpg
-    width: 100%
-    figureNumber: 1
-    caption: RAK7246G LPWAN Developer Gateway
   qlinks1:
     learnMore:
       - name: Projects Using the RAK7246G
@@ -20,7 +17,12 @@ params:
 
 # RAK7246G LPWAN Developer Gateway
 
-<rk-img :params="$page.frontmatter.params.img1" />
+<rk-img
+  :src="`${$frontmatter.static_root}/rak7246.jpg`"
+  width="100%"
+  figure-number="1"
+  caption="RAK7246G LPWAN Developer Gateway"
+/>
 
 ## Product Background
 

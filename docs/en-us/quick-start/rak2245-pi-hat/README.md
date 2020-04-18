@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak2245/1.product-overview/1.index
+rak_img: wwj49yp9jeqcmrynbtjz.jpg
 params:
   qlinks:
     learnMore:
@@ -16,16 +17,13 @@ params:
         href: https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Hardware-Specification/
       - name: RAK2245 Product Brief
         href: http://docs.rakwireless.com/en/LoRa/RAK2245-Pi-HAT/Hardware-Specification/RAK2245_Pi_HAT_Product_Brief_V1.1.pdf
-      - name: Comparison Between RAK831 
+      - name: Comparison Between RAK831
         href: http://docs.rakwireless.com/en/LoRa/RAK2245-Pi-HAT/Hardware-Specification/RAK2245_RAK831_Design_Guide_Comparison.pdf
       - name: FCC Certification Report
         href: http://docs.rakwireless.com/en/LoRa/RAK2245/Certification-Report/RAK2245_FCC_Certificate.zip
       - name: CE Certification Report
-        href: http://docs.rakwireless.com/en/LoRa/RAK2245/Certification-Report/RAK2245_CE_Certificate.zip 
-
----
-
-# RAK2245 Pi Hat Edition - LoRaWAN® Gateway Concentrator Module
+        href: http://docs.rakwireless.com/en/LoRa/RAK2245/Certification-Report/RAK2245_CE_Certificate.zip
+---# RAK2245 Pi Hat Edition - LoRaWAN® Gateway Concentrator Module
 
 <rk-img
   :src="`${$frontmatter.static_root}/wwj49yp9jeqcmrynbtjz.jpg`"
@@ -49,11 +47,10 @@ This LoRaWAN® Gateway Pi HAT supports eight channels and is available for all L
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />
 
-
 ## Product Features
 
 - Compatible with Raspberry Pi 3 Model B+ edition. and [Raspberry Pi 4](https://downloads.rakwireless.com/en/LoRa/RAK2245-Pi-HAT/Firmware/Raspberry-Pi-4/)
-- Large Heatsink for Heat Dissipation 
+- Large Heatsink for Heat Dissipation
 - SX1301 base band processor emulates 49 x LoRa® demodulators 10 parallel demodulation paths, supports 8 uplink channels, 1 downlink channel.
 - 2 x SX125x Tx/Rx front-ends high/ low frequency.
 - Supports 5V power supply.
@@ -61,4 +58,3 @@ This LoRaWAN® Gateway Pi HAT supports eight channels and is available for all L
 - Supports the LoRaWAN® 1.0.2 protocol.
 - Supports global license-free frequency band (EU433, CN470, IN865, EU868, US915, AU915, KR920, AS920 and AS923).
 - Integrated Ublox MAX-7Q GPS Module.
-

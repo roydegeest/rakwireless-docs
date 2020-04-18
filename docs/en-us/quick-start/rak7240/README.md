@@ -1,4 +1,6 @@
 ---
+static_root: /assets/images/quick-start-guide/rak7240
+rak_img: rak7240-overview.jpg
 next: /en-us/quick-start/rak7240/quick-start-guide/#quick-start-guide
 params:
   qlinks1:
@@ -10,7 +12,7 @@ params:
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK7240 Outdoor LPWAN Gateway Datasheet 
+      - name: RAK7240 Outdoor LPWAN Gateway Datasheet
         href: https://doc.rakwireless.com/datasheet/rakproducts/rak7240-outdoor-lpwan-gateway-datasheet
       - name: RAK7240 Downloadable Files
         href: https://downloads.rakwireless.com/en/LoRa/DIY-Gateway-RAK7249/
@@ -19,7 +21,7 @@ params:
 # RAK7240 Outdoor LPWAN Gateway
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7240/rak7240-overview.jpg"
+  :src="`${$frontmatter.static_root}/rak7240-overview.jpg`"
   width="100%"
   figure-number="1"
   caption="RAK7240 Outdoor LPWAN Gateway"
@@ -27,38 +29,36 @@ params:
 
 ### Product Background
 
-The **RAK7240 Outdoor LPWAN Gateway** is an ideal product for large scale LPWAN deployment where cost is essential, however there is no compromises to be made on quality. Its wide range of customization options allow for flexibility when deploying a solution. With its industrial-grade components and high class of ingress protection, it achieves a high standard of reliability. 
+The **RAK7240 Outdoor LPWAN Gateway** is an ideal product for large scale LPWAN deployment where cost is essential, however there is no compromises to be made on quality. Its wide range of customization options allow for flexibility when deploying a solution. With its industrial-grade components and high class of ingress protection, it achieves a high standard of reliability.
 
-The Gateway provides for a solid out of the box experience where quick deployment is required. Additionally, since its software and User Interface sit on top of OpenWRT, it is perfect for the development of custom applications (**via the open SDK**). 
+The Gateway provides for a solid out of the box experience where quick deployment is required. Additionally, since its software and User Interface sit on top of OpenWRT, it is perfect for the development of custom applications (**via the open SDK**).
 
 Thus, the **RAK7240 Outdoor LPWAN Gateway**, is suited for any use case scenario, be it rapid deployment or customization with regards to User Interface and functionality.
-
 
 <rk-btn
   src="quick-start-guide/#quick-start-guide"
   label="Set up Your RAK7240 Outdoor LPWAN Gateway"
 />
 
-<rk-quick-links :params="$page.frontmatter.params.qlinks1" /> 
+<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
 ### Key Features
 
 #### Hardware
 
-* **IP65** industrial-grade enclosure with cable glands
-* **PoE** + Surge Protection
-* Dual LoRa® Concentrators for up to **16 channels**
-* Backhaul: **Wi-Fi**, **LTE** and **Ethernet**
-* **GPS**
-* SD Card slot
+- **IP65** industrial-grade enclosure with cable glands
+- **PoE** + Surge Protection
+- Dual LoRa® Concentrators for up to **16 channels**
+- Backhaul: **Wi-Fi**, **LTE** and **Ethernet**
+- **GPS**
+- SD Card slot
 
 #### Software
 
-* Built-in LoRa® Server **(up to 128 LoRa® nodes license included, higher tiers require a fee)**
-* OpenVPN
-* Software and UI sit on top of **OpenWRT**
-* LoRaWAN® 1.0.2
-* **LoRa® Frame filtering** (node whitelisting)
-* **MQTT v3.1** Bridging with **TLS** encryption
-* **Buffering of LoRa® frames** in case of NS outage (no data loss)
-
+- Built-in LoRa® Server **(up to 128 LoRa® nodes license included, higher tiers require a fee)**
+- OpenVPN
+- Software and UI sit on top of **OpenWRT**
+- LoRaWAN® 1.0.2
+- **LoRa® Frame filtering** (node whitelisting)
+- **MQTT v3.1** Bridging with **TLS** encryption
+- **Buffering of LoRa® frames** in case of NS outage (no data loss)

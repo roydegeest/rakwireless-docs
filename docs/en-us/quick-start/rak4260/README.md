@@ -1,4 +1,6 @@
 ---
+static_root: /assets/images/quick-start-guide/rak4260/1main
+rak_img: rak2460-overview.png
 params:
   qlinks1:
     learnMore:
@@ -20,7 +22,7 @@ params:
 # RAK4260 LPWAN Evaluation Board
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260/1main/rak2460-overview.png"
+  :src="`${$frontmatter.static_root}/rak2460-overview.png`"
   width="50%"
   figure-number="1"
   caption="RAK4260 LPWAN Evaluation Board"
@@ -43,16 +45,17 @@ RAK4260 is a solution that is cost efficient and flexible that can be deployed i
   label="Setup your RAK4260 LPWAN Evaluation Board"
 />
 
-<rk-quick-links :params="$page.frontmatter.params.qlinks1" /> 
+<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
 ## Product Features
-* Industry's lowest power LoRa® SiP device
-* 32-bit Arm® Cortex M0+ MCU and LoRa® Transceiver
-* Small form factor: 6x6 mm compact BGA package (RAK4200 LPWAN Module)
-* 256KB Flash and 40 KB RAM accommodates application code and stack
-* Most cost and size effective solution, eliminating need for external MCU
-* Fully supported 862 to 1020 MHz frequency coverage
-* Receive Sensitivity down to -148 dBm
-* Maximum Transmit Power up to 20 dBm
-* Low RX current of 17mA (typical)
-* LoRa® Technology, (G)FSK, (G)MSK
+
+- Industry's lowest power LoRa® SiP device
+- 32-bit Arm® Cortex M0+ MCU and LoRa® Transceiver
+- Small form factor: 6x6 mm compact BGA package (RAK4200 LPWAN Module)
+- 256KB Flash and 40 KB RAM accommodates application code and stack
+- Most cost and size effective solution, eliminating need for external MCU
+- Fully supported 862 to 1020 MHz frequency coverage
+- Receive Sensitivity down to -148 dBm
+- Maximum Transmit Power up to 20 dBm
+- Low RX current of 17mA (typical)
+- LoRa® Technology, (G)FSK, (G)MSK

@@ -1,4 +1,6 @@
 ---
+static_root: /assets/images/quick-start-guide/rak4600/1.overview
+rak_img: fnzdgl9lx3nyimumyq1j.jpg
 params:
   qlinks1:
     learnMore:
@@ -11,7 +13,7 @@ params:
     resources:
       - name: RAK4600 LPWAN Evaluation Board Datasheet
         href: /en-us/datasheet/rak4600/#rak4600-lpwan-module
-      - name: RAK4600 LPWAN Evaluation Board Firmware 
+      - name: RAK4600 LPWAN Evaluation Board Firmware
         href: https://downloads.rakwireless.com/LoRa/RAK4600/Firmware/
       - name: RAK4600 LPWAN Evaluation Board Schematics
         href: https://downloads.rakwireless.com/en/LoRa/RAK4600/Hardware-Specification/RAK4600_EVB_Schematic.pdf
@@ -20,7 +22,7 @@ params:
 # RAK4600 LPWAN Evaluation Board
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4600/1.overview/fnzdgl9lx3nyimumyq1j.jpg"
+  :src="`${$frontmatter.static_root}/fnzdgl9lx3nyimumyq1j.jpg`"
   width="50%"
   figure-number="1"
   caption="RAK4600 LPWAN Evaluation Board"
@@ -35,26 +37,25 @@ communications.
 
 The Module supports Bluetooth 5.0 in addition to LoRa®. Its RF
 communication capabilities (LoRa® + Bluetooth) make it suitable for a variety of applications in
-the IoT field. 
+the IoT field.
 
 <rk-btn
   src="quick-start-guide.html"
   label="Setup your RAK4600 LPWAN Evaluation Board"
 />
 
-<rk-quick-links :params="$page.frontmatter.params.qlinks1" /> 
+<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
 ## Product Features
 
-- LPWAN module for Smart City, Smart Agriculture, Smart Industry 
+- LPWAN module for Smart City, Smart Agriculture, Smart Industry
 - **Compact Form Factor**: 15 x 23 x 2.5 mm
 - 42 Pin Stamp Pad for PCB SMT mounting (module)
-- **I/O ports:** UART/I2C/GPIO (optional NFC interface) 
-- **Temperature range:** -40°C to +85°C 
-- **Supply voltage:** 2.0 ~ 3.6V 
+- **I/O ports:** UART/I2C/GPIO (optional NFC interface)
+- **Temperature range:** -40°C to +85°C
+- **Supply voltage:** 2.0 ~ 3.6V
 - **Frequency range:** 863–870MHz (EU) / 902–928MHz (US), ISM and SRD systems
-- Low-Power Wireless Systems with 7.8kHz to 500KHz Bandwidth 
-- Ultra-Low Power Consumption 2.0uA in sleep mode 
-- Boost mode with 20dBm output power 
+- Low-Power Wireless Systems with 7.8kHz to 500KHz Bandwidth
+- Ultra-Low Power Consumption 2.0uA in sleep mode
+- Boost mode with 20dBm output power
 - BLE5.0 (Tx power -20 to +4 dBm in 4dB steps)
-

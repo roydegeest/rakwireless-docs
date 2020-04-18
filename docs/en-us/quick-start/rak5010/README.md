@@ -1,9 +1,10 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5010/1.overview
+rak_img: sezihji5wsoxeb4ikcfk.jpg
 params:
   qlinks:
     learnMore:
-      - name: Projects Using the RAK5010 WisTrio NB-IoT Tracker 
+      - name: Projects Using the RAK5010 WisTrio NB-IoT Tracker
         href: https://www.hackster.io/search?i=projects&q=RAK5010
       - name: Community
         href: https://forum.rakwireless.com/
@@ -17,14 +18,15 @@ params:
       - name: RAK5010 WisTrio NB-IoT Tracker Firmware
         href: https://downloads.rakwireless.com/en/Cellular/RAK5010/Firmware/
 ---
-# RAK5010 WisTrio NB-IoT Tracker 
+
+# RAK5010 WisTrio NB-IoT Tracker
+
 <rk-img
   :src="`${$frontmatter.static_root}/sezihji5wsoxeb4ikcfk.jpg`"
   width="50%"
   figure-number="1"
   caption="RAK5010 WisTrio NB-IoT Tracker Product View"
 />
-
 
 ## Product Background
 
@@ -53,4 +55,3 @@ This board is particularly suitable to be used as a quick testing and prototypin
 - Nano SIM and ESIM options.
 - Can be powered by either Micro USB, 3.7V rechargeable battery or a 5V Solar Panel Port
 - Multiple interfaces, I2C, UART, GPIO and AD.
-

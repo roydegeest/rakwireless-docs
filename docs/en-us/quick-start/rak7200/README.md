@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7200/overview
+rak_img: tnbyyv90jncokqtn9xiy.jpg
 params:
   qlinks:
     learnMore:

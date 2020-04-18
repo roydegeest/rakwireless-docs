@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/overview
+rak_img: o5qqux3jaeyiiuosw0qi.jpg
 params:
   qlinks:
     learnMore:

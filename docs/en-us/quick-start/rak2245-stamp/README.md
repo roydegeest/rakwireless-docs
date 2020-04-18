@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak2245-stamp/overview
+rak_img: ylbgm3hgwwari6itxmii.png
 params:
   qlinks:
     learnMore:

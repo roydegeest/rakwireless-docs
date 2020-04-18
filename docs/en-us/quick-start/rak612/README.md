@@ -1,4 +1,6 @@
 ---
+static_root: /assets/images/quick-start-guide/rak612/main
+rak_img: rak612-overview.png
 params:
   qlinks1:
     learnMore:
@@ -20,7 +22,7 @@ params:
 # RAK612 LPWAN Button
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak612/main/rak612-overview.png"
+  :src="`${$frontmatter.static_root}/rak612-overview.png`"
   width="60%"
   figure-number="1"
   caption="RAK612 LPWAN Button"
@@ -40,12 +42,11 @@ The RAK612 LPWAN Button is suitable for a variety of Smart Home applications: En
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" /> 
 ## Product Features
 
-* **LoRaWAN**® compatible
-* **myDevices Cayenne** Certified
-* **Product Size:** 38 mm x 52 mm
-* **Battery:** 300 mAh
-* **Battery working time:** 2 years (Rechargeable)
-* **Power Consumption:** Transmit: 30 mA, Standby: 10 uA
-* **Operating Temperature:** -20ºC to 60ºC
-* **Working Environment:** Indoor
-
+- **LoRaWAN**® compatible
+- **myDevices Cayenne** Certified
+- **Product Size:** 38 mm x 52 mm
+- **Battery:** 300 mAh
+- **Battery working time:** 2 years (Rechargeable)
+- **Power Consumption:** Transmit: 30 mA, Standby: 10 uA
+- **Operating Temperature:** -20ºC to 60ºC
+- **Working Environment:** Indoor

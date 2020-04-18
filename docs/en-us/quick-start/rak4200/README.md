@@ -1,10 +1,7 @@
 ---
+static_root: /assets/images/quick-start-guide/rak4200/1.overview
+rak_img: ebqbxdsu3iazrm9y4jp3.png
 params:
-  img1:
-    src: /assets/images/quick-start-guide/rak4200/1.overview/ebqbxdsu3iazrm9y4jp3.png
-    width: 50%
-    figureNumber: 1
-    caption: RAK4200 LPWAN Evaluation Board
   qlinks1:
     learnMore:
       - name: Projects Using the RAK4200 LPWAN Evaluation Board
@@ -18,15 +15,21 @@ params:
         href: /en-us/datasheet/rak4200/#rak4200-lpwan-module
       - name: RAK4200 LPWAN Evaluation Board Schematic
         href: https://downloads.rakwireless.com/en/LoRa/RAK4200/Hardware-Specification/RAK4200_EVB_Schematic.pdf
-      - name: RAK4200 LPWAN Evaluation Board Firmware 
+      - name: RAK4200 LPWAN Evaluation Board Firmware
         href: https://downloads.rakwireless.com/en/LoRa/RAK4200/Firmware/
 ---
 
 # RAK4200 LPWAN Evaluation Board
 
-<rk-img :params="$page.frontmatter.params.img1" />
+<rk-img
+  :src="`${$frontmatter.static_root}/ebqbxdsu3iazrm9y4jp3.png`"
+  width="50%"
+  figure-number="1"
+  caption="RAK4200 LPWAN Evaluation Board"
+/>
 
 ## Product Background
+
 **RAK4200 LPWAN Evaluation Board** is a WisBlock product consisting of [RAK4200 LPWAN Module](https://store.rakwireless.com/products/rak4200-lora-module) and RAK5005 WisBase. You can use this development board to access all serial and GPIO ports for easy configuration. RAK4200 includes an STM32L071 MCU and an SX1276 LoRa® chip. It has Ultra-Low Power Consumtion of 1.5uA in sleep mode and high LoRa® output power up to 19dBm max in work mode. The module complies with the LoRaWAN® 1.0.2 protocols. It also supports LoRa® P2P (Point-to-Point) communications. The module is sutiable for various applications that require long-range data acquisition and low power consumption.
 
 <rk-btn
@@ -37,6 +40,7 @@ params:
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
 ## Product Features
+
 - LPWAN module for Smart City, Smart Agriculture, Smart Industry
 - **I/O ports:** UART/I2C/GPIO
 - **Temperature range:** -40°C to +85°C
@@ -45,4 +49,3 @@ params:
 - **Core:** ARM 32-bit Cortex - M0+ with MPU
 - Up to 128KB flash memory with ECC
 - 20KB RAM
-

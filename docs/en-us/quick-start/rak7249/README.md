@@ -1,4 +1,6 @@
 ---
+static_root: /assets/images/quick-start-guide/rak7249/1.main
+rak_img: rak7249_overview.jpg
 next: /en-us/quick-start/rak7249/quick-start-guide/#quick-start-guide
 params:
   qlinks1:
@@ -21,7 +23,7 @@ params:
 # RAK7249 Macro Outdoor Gateway
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/1.main/rak7249_overview.jpg"
+  :src="`${$frontmatter.static_root}/rak7249_overview.jpg`"
   width="70%"
   figure-number="1"
   caption="RAK7249 Macro Outdoor Gateway with Support Plate Attached"
@@ -40,26 +42,25 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
   label="Setup your RAK7249 Macro Outdoor Gateway"
 />
 
-<rk-quick-links :params="$page.frontmatter.params.qlinks1" /> 
+<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
 ## Key Features
 
 ### Hardware
 
-  * **IP67/NEMA-6** industrial grade enclosure with cable glands
-  * **PoE (802.3 af)** + Surge Protection
-  * Dual LoRa Concentrators for up to **16 channels**
-  * **Backhaul**: Wi-Fi, LTE and Ethernet
-  * GPS **L70 GPS Module**
-  * Up to **5 hours of autonomous work** on battery (Battery + Solar Kit optional)
+- **IP67/NEMA-6** industrial grade enclosure with cable glands
+- **PoE (802.3 af)** + Surge Protection
+- Dual LoRa Concentrators for up to **16 channels**
+- **Backhaul**: Wi-Fi, LTE and Ethernet
+- GPS **L70 GPS Module**
+- Up to **5 hours of autonomous work** on battery (Battery + Solar Kit optional)
 
 ### Software
 
-  * Built-in LoRa Server (**up to 128 LoRa nodes license included, higher tiers require a fee**)
-  * OpenVPN
-  * Software and UI sit on top of **OpenWRT**
-  * LoRaWAN® 1.0.2
-  * **LoRa Frame filtering** (node whitelisting)
-  * **MQTT v3.1** Bridging with **TLS encryption**
-  * **Buffering of LoRa frames** in case of NS outage (no data loss)
-
+- Built-in LoRa Server (**up to 128 LoRa nodes license included, higher tiers require a fee**)
+- OpenVPN
+- Software and UI sit on top of **OpenWRT**
+- LoRaWAN® 1.0.2
+- **LoRa Frame filtering** (node whitelisting)
+- **MQTT v3.1** Bridging with **TLS encryption**
+- **Buffering of LoRa frames** in case of NS outage (no data loss)
