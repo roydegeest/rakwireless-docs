@@ -38,16 +38,16 @@ next: chirpstack-abp
   figure-number="4"
   caption="Chirpstack OTAA Set Application Key"
 />
-::: tip Note:
-:pencil: The Application EUI which will be set into RAK4600 LPWAN Evaluation Board as “app_eui” is not necessary for ChirpStack, and you can set it to any value with a correct format.
+::: tip 📝 NOTE:
+ The Application EUI which will be set into RAK4600 LPWAN Evaluation Board as “app_eui” is not necessary for ChirpStack, and you can set it to any value with a correct format.
 :::
 
 5. Configure RAK4600 LPWAN Evaluation Board by using the available AT Commands found in this [section](configuring-using-at-commands). Connect your RAK4600 LPWAN Evaluation Board in your Windows Machine.
 
 6. Power it **ON** and open **RAK Serial Port Tool** on your PC as instructed [here](interfacing).
 
-::: tip Note:
-:pencil: The default join mode is **OTAA**, the default class is **Class A** and the default region is **EU868**.
+::: tip 📝 NOTE:
+ The default join mode is **OTAA**, the default class is **Class A** and the default region is **EU868**.
 :::
 
 7. If the **join mode** is not in OTAA, just set the LoRa® join mode to **OTAA** as follows:
@@ -116,8 +116,8 @@ at+set_config=lora:app_key:XXXX
   caption="Chirpstack OTAA Join via RAK Serial Port Tool"
 />
 
-::: tip Note:
-:pencil: After configuring all parameters, you need to reset RAK4600 LPWAN Evaluation Board to save the parameters.
+::: tip 📝 NOTE:
+ After configuring all parameters, you need to reset RAK4600 LPWAN Evaluation Board to save the parameters.
 :::
 
 13. After resetting, start to join:

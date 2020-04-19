@@ -51,8 +51,8 @@ The Things Network is about enabling low power devices to use long range gateway
   caption="RAK7244 - LoRaWAN® Developer Gateway Gateway ID in SSH"
 />
 
-:::tip Note:
-:pencil: Make sure to select the "**I'm using the legacy packet forwarder**" check box.
+:::tip 📝 NOTE:
+ Make sure to select the "**I'm using the legacy packet forwarder**" check box.
 :::
 
 * **Description** - A human readable description of your LoRaWAN® Gateway.

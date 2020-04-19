@@ -55,7 +55,7 @@ mobile phone Bluetooth scan, you will see a device named "**RAK813_DFU**".
 />
 
 :::tip 📝 NOTE
-About how to make an upgraded zip file, and how to program DFU step by step, \nvisit the official forum detailing the method. Interested parties can view this [link](https://devzone.nordicsemi.com/nordic/nordic-blog/b/blog/posts/getting-started-with-nordics-secure-dfu-bootloader).
+About how to make an upgraded zip file, and how to program DFU step by step, visit the official forum detailing the method. Interested parties can view this [link](https://devzone.nordicsemi.com/nordic/nordic-blog/b/blog/posts/getting-started-with-nordics-secure-dfu-bootloader).
 :::
 
 * Open the nRF app and press "**CONNECT**" button in the **RAK813_DFU** Bluetooth. Then, click the **DFU** icon in the

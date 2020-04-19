@@ -5,8 +5,8 @@ static_root: /assets/images/quick-start-guide/rak7204/6.connecting-to-chirpstack
 
 1. If you select “**Device Profile  ABP**” or “**DeviceProfile_ABP_CN470**”, it means you want to join ChirpStack in **ABP mode**.
 
-:::warning
-:warning: Frequency AS923 in ABP Mode is not supported in ChirpStack
+:::warning ⚠️ WARNING
+ Frequency AS923 in ABP Mode is not supported in ChirpStack
 :::
 
 <rk-img

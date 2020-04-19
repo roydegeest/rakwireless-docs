@@ -28,8 +28,8 @@ You will now then see a page like the following picture below:
 7. **Configure LTE Module -** (Online for the Cellular Version) - used to configure automatic LTE network connection on startup.
 8. **Configure LAN** - used to configure the Ethernet adapter settings.
 
-::: tip Note:
-:pencil: A unique ID will be generated in for LoRaWAN® Gateway. This is also called Gateway EUI squared in red in the figure above and is essential for registering the gateway with any LoRa® Network Server (TTN, ChirpStack)
+::: tip 📝 NOTE:
+ A unique ID will be generated in for LoRaWAN® Gateway. This is also called Gateway EUI squared in red in the figure above and is essential for registering the gateway with any LoRa® Network Server (TTN, ChirpStack)
 :::
 
 There is also another way to get your "Gateway ID", just enter the command below in the command line:
@@ -150,8 +150,8 @@ Then, set the IP address of the ChirpStack which you want your LoRaWAN® Gateway
   caption="Default LoRaServer IP Address"
 />
 
-::: tip Note:
-:pencil: The default IP Address is **`127.0.0.1`** which means you will be using the Built-in LoRa Server. If you want to use an independent LoRa Server running on another device or a cloud based LoRa Server, you need to set it to the corresponding IP address
+::: tip 📝 NOTE:
+ The default IP Address is **`127.0.0.1`** which means you will be using the Built-in LoRa Server. If you want to use an independent LoRa Server running on another device or a cloud based LoRa Server, you need to set it to the corresponding IP address
 :::
 
 - If you have instead selected "**Chirpstack ADR Configure**" you can enable/disable the Adaptive Data Rate (ADR) functionality:

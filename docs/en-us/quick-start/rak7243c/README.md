@@ -52,5 +52,5 @@ The RAK7243C LoRaWAN® Developer Gateway is ideal for prototyping, proof-of conc
 - Includes Pi ready 'ID EEPROM', GPIO setup and device tree can be automatically configured from vendor information.
 
 ::: warning
-:warning: The RAK7243C LoRaWAN® Developer Gateway is different from RAK7243 LoRaWAN® Developer Gateway . The RAK7243C LoRaWAN® Developer Gateway is the Cellular Version and it comes with the Cellular Pi Hat.
+ The RAK7243C LoRaWAN® Developer Gateway is different from RAK7243 LoRaWAN® Developer Gateway . The RAK7243C LoRaWAN® Developer Gateway is the Cellular Version and it comes with the Cellular Pi Hat.
 :::

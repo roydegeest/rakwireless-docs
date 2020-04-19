@@ -42,8 +42,8 @@ static_root: /assets/images/quick-start-guide/rak7204/6.connecting-to-chirpstack
   caption="Application Key LoRaWAN®"
 />
 
-:::tip Note:
-:pencil: The Application EUI which was into RAK7204 LPWAN Environmental Sensor as “app_eui” is not needed for ChirpStack.
+:::tip 📝 NOTE:
+ The Application EUI which was into RAK7204 LPWAN Environmental Sensor as “app_eui” is not needed for ChirpStack.
 :::
 
 4. Next, let’s **configure** RAK7204 LPWAN Environmental Sensor by using **AT commands**. To do this, connect yourRAK7204 LPWAN Environmental Sensor to a PC, power it on and open **RAK Serial Port Tool** on your computer.

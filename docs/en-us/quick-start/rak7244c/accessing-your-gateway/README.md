@@ -8,7 +8,7 @@ next: accessing-the-internet
 After burning the image into the SD Card, make sure you have inserted the SD Card with the Latest Firmware installed to the **RAK7244C LPWAN** **Developer Gateway** and the LoRa® and GPS Antenna attached to it. After which, you can now safely power on the gateway. In this document, several ways in accessing the gateway are provided to have different alternatives for you to choose depending on the availability of the requirements needed.
 
 ::: warning
-:warning: Before powering the Raspberry Pi 4 you should install the LoRa® and GPS antennas. Not doing so might damage the boards.
+ Before powering the Raspberry Pi 4 you should install the LoRa® and GPS antennas. Not doing so might damage the boards.
 :::
 
 ## 1. Wi-Fi AP Mode
@@ -22,8 +22,8 @@ By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that yo
   caption="RAKWireless Access Point"
 />
 
-::: tip Note:
-:pencil: “XXXX” is the last 2 bytes of your RAK7244C WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also of the default IP address of the Gateway provided below as this will be needed in connecting via SSH.
+::: tip 📝 NOTE:
+ “XXXX” is the last 2 bytes of your RAK7244C WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also of the default IP address of the Gateway provided below as this will be needed in connecting via SSH.
 
 - **Wi-Fi Password:** rakwireless
 - **Default IP Address:** `192.168.230.1`

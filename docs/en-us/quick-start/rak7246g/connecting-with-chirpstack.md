@@ -14,8 +14,8 @@ This is a lot more complicated having to deploy a remote ChirpStack by yourself 
 
 <rk-img src="/assets/images/quick-start-guide/rak7246/chirpstack_ubuntu.png" width="100%" figure-number = "1" caption="Chirpstack Getting Started Guide on Ubuntu"/>
 
-:::warning 
- :warning: Remember to run the `sudo gateway-config` command in the CLI and point the Gateway to the IP address of the machine you just installed Chirpstack on. This can be done in item 2 in the menu "**Setup RAK Gateway LoRa® concentrator**"!
+:::warning ⚠️WARNING
+  Remember to run the `sudo gateway-config` command in the CLI and point the Gateway to the IP address of the machine you just installed Chirpstack on. This can be done in item 2 in the menu "**Setup RAK Gateway LoRa® concentrator**"!
 :::
 
 Assuming you have set it up correctly, Login to your ChirpStack to register your Gateway by opening the ChirpStack's web page in a browser by entering "**IP Address of ChirpStack:8080**".
@@ -27,8 +27,8 @@ Assuming you have set it up correctly, Login to your ChirpStack to register your
 
 * The default username is "**admin**" and the password is also "**admin**"
 
-:::tip Note:
-:pencil: If you are using the RAK Cloud Testing ChirpStack, input the account and password you have asked in the forum provided beforehand.
+:::tip 📝 NOTE:
+ If you are using the RAK Cloud Testing ChirpStack, input the account and password you have asked in the forum provided beforehand.
 :::
 
 <rk-img src="/assets/images/quick-start-guide/rak7246/chirpstack_home.png" width="100%" figure-number = "3" caption="ChirpStack Home Page"/>

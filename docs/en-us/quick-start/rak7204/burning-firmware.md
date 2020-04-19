@@ -8,8 +8,8 @@ If the firmware version of your **RAK7204 LPWAN Environmental Sensor**  is newer
 - Make sure you have set your RAK7204 to work in boot mode. If you have just burned the bootloader according to the previous section, it works in boot mode now. 
 - Open and download the RAK Serial Port Tool [Here](https://downloads.rakwireless.com/en/LoRa/WisTrio-LoRa-RAK5205/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip) and Connect your board via the USB interface and enter the following **AT command** to let it work in boot mode.
 
-:::warning
-:warning: Before configuring your RAK7204, make sure you already connected the Battery provided  on your device in order for you to communicate with the device successfully.
+:::warning ⚠️ WARNING
+ Before configuring your RAK7204, make sure you already connected the Battery provided  on your device in order for you to communicate with the device successfully.
 :::
 
 ```
@@ -34,11 +34,11 @@ at+set_config=device:boot
 
 - Download the latest firmware [here](https://downloads.rakwireless.com/en/LoRa/RAK7204/Firmware/) for the RAK7204
 
-:::tip Note:
-:pencil: Make sure to pick the appropriate bin file depending on the region you are in.
+:::tip 📝 NOTE:
+ Make sure to pick the appropriate bin file depending on the region you are in.
 - "RUI_RAK7204_V3.x.x.x.H" supported regions are: IN865, EU868, US915, AU915, KR920, AS920, AS923
 - "RUI_RAK7204_V3.x.x.x.L” supported regions are: EU433, CN470
-Visit this [article](https:\/\/www.thethingsnetwork.org\/docs\/lorawan\/frequencies-by-country.html) for more information on your local TTN frequency plan.
+Visit this [article](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country.html) for more information on your local TTN frequency plan.
 :::
 
 - Click "Choose File" then choose the firmware that you have just downloaded: 

@@ -9,7 +9,7 @@ next: electrical-characteristics
 The RAK831 includes Semtech’s SX1301 which is a digital baseband chip which includes a massive digital signal processing engine specifically designed to offer breakthrough gateway capabilities in the ISM bands worldwide. SX1301 integrates the LoRa® concentrator IP.
 
 <rk-img
-  src="/assets/images/datasheet/rak831/sx1301-chip-block-diagram.png"
+  src="/assets/images/datasheet/rak831/Block_Diagrams_SX1301.png"
   width="100%"
   figure-number="1"
   caption="SX1301 Chip Block Diagram"
@@ -26,7 +26,7 @@ It is highly recommended to fully re-use the latest HAL as provided by Semtech o
 ### Block Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak831/block-diagram2.png"
+  src="/assets/images/datasheet/rak831/Block_Diagrams_RAK831.png"
   width="100%"
   figure-number="2"
   caption="RAK831 LPWAN Gateway Block Diagram"
@@ -59,7 +59,7 @@ The SX1301 can detect simultaneously preambles corresponding to all data rates o
 The unique multi data-rate multi-channel demodulation capacity SF7 to SF12 and of channels IF0 to IF7 allows innovative network architectures to be implemented.
 
 <rk-img
-  src="/assets/images/datasheet/rak831/lora-channels.png"
+  src="/assets/images/datasheet/rak831/lora_channels.png"
   width="100%"
   figure-number="3"
   caption="IF0 to IF7 LoRa® Channels"

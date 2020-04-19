@@ -19,8 +19,8 @@ You will now then see a page like the following picture below
 4. **Edit packet-forwarder config**- used to open the global_conf.json file, in order to edit LoRaWAN® parameters manually.
 5. **Configure Wifi** - used to configure the Wi-Fi settings in order to connect to a network.
 
-:::tip Note:
-:pencil: A unique ID will be generated in for Gateway. This is also called Gateway EUI squared in red in the figure above and is essential for registering the gateway with any LoRa® Network Server (TTN, ChirpStack)
+:::tip 📝 NOTE:
+ A unique ID will be generated in for Gateway. This is also called Gateway EUI squared in red in the figure above and is essential for registering the gateway with any LoRa® Network Server (TTN, ChirpStack)
 :::
 
 There is also another way to get your "Gateway ID", just enter the command below in the command line:
@@ -82,8 +82,8 @@ Then, set the IP address of the ChirpStack which you want your Gateway to work w
 
 <rk-img src="/assets/images/quick-start-guide/rak7246/default_ip.png" width="100%" figure-number  = "13" caption="Default LoRaServer IP Address"/>
 
-:::tip Note:
-:pencil: Unlike the other RAK boards, the RAK7246G LPWAN Developer Gateway does not have a Built-in LoRa® Server. In this document, the IP Address of the Chirpstack is shown above. If you have another ChirpStack, you can fill its IP address here too.
+:::tip 📝 NOTE:
+ Unlike the other RAK boards, the RAK7246G LPWAN Developer Gateway does not have a Built-in LoRa® Server. In this document, the IP Address of the Chirpstack is shown above. If you have another ChirpStack, you can fill its IP address here too.
 :::
 
 You can then open your Chirpstack webpage by using the link below as an example. Make sure to have the [**IP Address**] changed same with what you have input in the previous step.

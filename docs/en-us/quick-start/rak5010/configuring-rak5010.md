@@ -5,8 +5,8 @@ static_root: /assets/images/quick-start-guide/rak5010/4.configuring-rak5010
 
 You can configure your RAK5010 WisTrio NB-IoT Tracker by sending AT Commands either through UART, through BLE or through Micro USB.
 
-:::tip Note:
-:pencil: For the full list of AT Commands available for configuring your RAK5010, kindly check [here](at-commands)
+:::tip 📝 NOTE:
+ For the full list of AT Commands available for configuring your RAK5010, kindly check [here](at-commands)
 :::
 
 ## Through UART
@@ -64,7 +64,7 @@ at+version
 />  
 
 :::warning
-:warning: By the default, the BLE signal of the RAK5010 is turned off automatically if no connection is established after 60 seconds. Connect to the BLE signal of the RAK5010 immediately after pressing the reset button.
+ By the default, the BLE signal of the RAK5010 is turned off automatically if no connection is established after 60 seconds. Connect to the BLE signal of the RAK5010 immediately after pressing the reset button.
 :::
 
 4. Click the arrow which is marked by the red box in the picture below, you will see the following page:
@@ -110,8 +110,8 @@ at+version
 - Open the serial port tool in your PC.
 
 
-:::tip Note:
-:pencil: For this method, you need a serial port tool which can support DTR function, like Termite. You can download\nTermite [**here**](https:\/\/downloads.rakwireless.com\/en\/Cellular\/Tools\/).
+:::tip 📝 NOTE:
+ For this method, you need a serial port tool which can support DTR function, like Termite. You can download\nTermite [**here**](https:\/\/downloads.rakwireless.com\/en\/Cellular\/Tools\/).
 :::
 
 Alright, after opening the serial tool, configure its setting by following the picture below:

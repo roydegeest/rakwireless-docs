@@ -20,8 +20,8 @@ This section walks through the details on the steps on how to configure the free
 
 1. After you have logged into your account, you need to select what instance you are going to be running.
 
-:::tip Note:
-:pencil: For the purpose of this tutorial we are going to be using \"**EC2**\". Select it in the **AWS Management Console**.
+:::tip 📝 NOTE:
+ For the purpose of this tutorial we are going to be using  "**EC2** ". Select it in the **AWS Management Console**.
 :::
 
 <rk-img
@@ -91,8 +91,8 @@ In order to have an SSH session to the Instance, we need to create the appropria
 
 3. In the image below, you can see the parameters of your instance. Note the fields in the highlighted with the red rectangle. These are you real **URL** and **IP Address** for accessing this instance.
 
-:::tip Note:
-:pencil: The URL and IP Address shown in the image below are just examples. You will have a different set of information on your setup.
+:::tip 📝 NOTE:
+ The URL and IP Address shown in the image below are just examples. You will have a different set of information on your setup.
 :::
 
 <rk-img
@@ -106,8 +106,8 @@ In order to have an SSH session to the Instance, we need to create the appropria
 
 5. In the **AWS Instance** page, mark your instance and click “**Connect**”. This will bring the instructions page out. We will follow the procedure as well.
 
-:::tip Note:
-:pencil: We first need to convert the keys from `.pem` format to `.ppk` format as this is what PuTTY is used for. This is done with PuTTYgen, which comes standard with the PuTTY package.
+:::tip 📝 NOTE:
+ We first need to convert the keys from `.pem` format to `.ppk` format as this is what PuTTY is used for. This is done with PuTTYgen, which comes standard with the PuTTY package.
 :::
 
 6. Run **PuTTYgen** (if you are using Windows, just type it in the start menu after installing PuTTY and you will find it).
@@ -125,8 +125,8 @@ In order to have an SSH session to the Instance, we need to create the appropria
 
 9. After successfully loading the keys, you can save them in **.ppk** with the “**Save private key**” button. Use the same name as the original **.pem** file. The **ppk** extension will be added automatically. PuTTYgen displays a warning about saving the keys without a passphrase. Ignore it an choose **Yes.**
 
-:::tip Note:
-:pencil: A passphrase on a private key is an extra layer of protection. Even if your private key is discovered, it cannot be used without the passphrase. The downside to using a passphrase is that it makes automation harder because human intervention is needed to log on to an instance, or to copy files to an instance.
+:::tip 📝 NOTE:
+ A passphrase on a private key is an extra layer of protection. Even if your private key is discovered, it cannot be used without the passphrase. The downside to using a passphrase is that it makes automation harder because human intervention is needed to log on to an instance, or to copy files to an instance.
 :::
 
 <rk-img
@@ -165,8 +165,8 @@ user_name@public_dns_name
 
 12. Now we need to tell PuTTY to use our keys. In the **Category panel** expand **Connections>SSH>Auth**. Click the “**Browse**” button and look for you **.ppk** file
 
-:::tip Note:
-:pencil: If you want to save this configuration for future use go back to the **Session** tab and enter a name in the **Saved Session** text box and click **Save**.
+:::tip 📝 NOTE:
+ If you want to save this configuration for future use go back to the **Session** tab and enter a name in the **Saved Session** text box and click **Save**.
 :::
 
 <rk-img

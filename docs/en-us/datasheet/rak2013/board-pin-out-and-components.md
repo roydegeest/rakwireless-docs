@@ -70,7 +70,7 @@ The table below shows the pin connections of the raspberry connector.
 ## J16 and J17 – MikroBus Interface
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/mikrobus-interface.jpg"
+  src="/assets/images/datasheet/rak2013/mikroBUS_Pinout.png"
   width="100%"
   figure-number="2"
   caption="MikroBus Interface"

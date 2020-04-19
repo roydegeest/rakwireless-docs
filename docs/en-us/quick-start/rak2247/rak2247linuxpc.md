@@ -11,8 +11,8 @@ This section explains the basic steps on how to interface the RAK2247 LoRaWAN® 
 
 1. Insert the RAK2247 mPCIe board into the USB carrier board and plugged into a free USB port of your PC. Your Linux PC should recognized it as a USB device.
 
-:::tip Note:
-:pencil: If you want to connect the **RAK2247 mPCIe board** to the **Linux PC** directly, make sure to have the PERST# signal (Pin 22) pulled down.
+:::tip 📝 NOTE:
+ If you want to connect the **RAK2247 mPCIe board** to the **Linux PC** directly, make sure to have the PERST# signal (Pin 22) pulled down.
 :::
 
 <rk-img
@@ -77,8 +77,8 @@ mkdir -p /opt/ttn-gateway/
 cp -rf packet_forwarder /opt/ttn-gateway/
 ```
 
-:::tip Note:
-:pencil: If you want packet forwarder to start on boot, you need to also add the lines below:
+:::tip 📝 NOTE:
+ If you want packet forwarder to start on boot, you need to also add the lines below:
 :::
 
 ```sh
@@ -98,8 +98,8 @@ sudo ./install.sh
 cd /opt/ttn-gateway/packet_forwarder/lora_pkt_fwd 
 sudo ./lora_pkt_fwd
 ```
-:::tip Note:
-:pencil: If you added the additional lines in step 5 it will execute every time on boot.
+:::tip 📝 NOTE:
+ If you added the additional lines in step 5 it will execute every time on boot.
 :::
 
 8. The regional parameter configurations for all the supported regions are located in the folder `</opt/packet_forwarder/lora_pkt_fwd/global_conf>`. In case you need to adjust the region frequency band for example, do so before running the process (**EU868 is the default**)

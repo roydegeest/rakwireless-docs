@@ -27,7 +27,7 @@ next: /en-us/quick-start/rak7240/quick-start-guide/power-on-the-gateway.html
   caption="RAK7240 Outdoor LPWAN Gateway"
 />
 
-:::tip Note:
-:pencil: The number of antennas in different depending on what you order. Refer to the store for more information.
+:::tip 📝 NOTE
+ The number of antennas in different depending on what you order. Refer to the store for more information.
 :::
 

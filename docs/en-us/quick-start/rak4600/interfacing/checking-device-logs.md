@@ -66,7 +66,7 @@ You still have to connect the Micro-usb Cable to the RAK4600 LPWAN Evaluation Bo
   caption="Log Checking through J-Link RTT Viewer"
 />
 
-:::tip NOTE
+:::tip 📝 NOTE
 If there is no log after connecting successfully, you can try to reset RAK4600 or double check the connection of JTAG.
 :::
 
@@ -81,7 +81,7 @@ If there is no log after connecting successfully, you can try to reset RAK4600 o
   caption="UART to RAK4600 LPWAN Evaluation Board Connection"
 />
 
-:::tip NOTE
+:::tip 📝 NOTE
 You still have to connect the Micro-usb Cable to the RAK4600 LPWAN Evaluation Board to power the board.
 :::
 

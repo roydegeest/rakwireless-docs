@@ -8,8 +8,8 @@ This document is a detailed walk through on how to use the RUI Online Compiler r
 
 ## Account Creation and Log-in Interface
 
-::: tip Note:
-:pencil: To avoid errors in the firmware compiling using the RUI Online Compiler, it is best advised to use Google Chrome as your Web Browser as this was the browser our technical team used upon testing. If you have not installed the Google Chrome browser, kindly download and install it from **[here](https://www.google.com/chrome/)**.
+::: tip 📝 NOTE:
+ To avoid errors in the firmware compiling using the RUI Online Compiler, it is best advised to use Google Chrome as your Web Browser as this was the browser our technical team used upon testing. If you have not installed the Google Chrome browser, kindly download and install it from **[here](https://www.google.com/chrome/)**.
 :::
 
 1. Using your recently installed Google Chrome Web Browser, open the link, [RUI Online Compiler](http://47.112.137.11:12090/#/user/login) and you should see the log-in interface same as in the image below.
@@ -32,8 +32,8 @@ This document is a detailed walk through on how to use the RUI Online Compiler r
   caption="RUI Online Compiler Sign-up Window"
 />
 
-::: tip Note:
-:pencil: Go to your e-mail and check the verification sent when you clicked the "**Get Verification Code**" button. Note that you are only given **120 seconds** to have the verification attached in the **Create Account** window.
+::: tip 📝 NOTE:
+ Go to your e-mail and check the verification sent when you clicked the "**Get Verification Code**" button. Note that you are only given **120 seconds** to have the verification attached in the **Create Account** window.
 :::
 
 4. Once the three information, **e-mail address**, **password** and **verification code** are supplied, click the "**Create an account**" button in the bottom. Once creating an account is successful, you are then asked to log-on your credentials in the link attached in **Step 1**.
@@ -53,8 +53,8 @@ After your successful sign-up and log-in done in the previous section, you shoul
 
 1. Select the **Core Module** which you want to do customization based on.
 
-::: tip Note:
-:pencil: As of now, we only supply **RAK8212**, **RAK5010**, **RAK4600**, **RAK4400**, **RAK811-L**, **RAK811-H**, and **RAK4200** modules. Our team is still in the processing of having most of our devices be programmable so watch for further updates.
+::: tip 📝 NOTE:
+ As of now, we only supply **RAK8212**, **RAK5010**, **RAK4600**, **RAK4400**, **RAK811-L**, **RAK811-H**, and **RAK4200** modules. Our team is still in the processing of having most of our devices be programmable so watch for further updates.
 :::
 
 ### Choosing the Upload File
@@ -128,12 +128,12 @@ Corresponding logs also can be seen in the "**Compile log output**" monitor same
   caption=" Final Customized Firmware Auto-downloaded"
 />
 
-::: tip Note:
-:pencil: For failed compiling instances, the .zip file automatically downloaded shall only contain "**compile log file**" which would contain the errors occurred upon compiling.
+::: tip 📝 NOTE:
+ For failed compiling instances, the .zip file automatically downloaded shall only contain "**compile log file**" which would contain the errors occurred upon compiling.
 :::
 
-::: tip Note:
-:pencil: For failed auto-downloading of your Final Customized Firmware instances, kindly **turn-off all third party download managers** (i.e. Internet Download Manager) and redo the Compiling process.
+::: tip 📝 NOTE:
+ For failed auto-downloading of your Final Customized Firmware instances, kindly **turn-off all third party download managers** (i.e. Internet Download Manager) and redo the Compiling process.
 :::
 
 8. For the successful compiling, a sample image is shown below with the .zip file containing both "**compile log file**", and the "**final customized firmware**" .bin file.

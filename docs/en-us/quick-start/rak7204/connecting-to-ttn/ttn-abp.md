@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/5.connecting-to-ttn/abp
+next: connecting-to-chirpstack/
 ---
 # ABP Mode
 1. To join the ABP mode, go to device settings and switch the activation method to **ABP**.

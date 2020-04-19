@@ -126,8 +126,8 @@ There is an option to have an HTTPS integration for your application. See the fi
 - There are several fields that need to be filled in, starting with the **Data Encoder/Decoder Type** (Base 64 or HEX String). Once selected you can Enable the functionality with the slider.
 - Afterwards, make sure to fill the rest of the fields: **HTTP/HTTPS Headers**, **Uplink data URL**, **Join notification URL**, **Ack notification URL**, and **Device-status notification URL**.
 
-:::tip Note
-:pencil: You can test the HTTP endpoint integration with a free service like: [Webhook.site](https://webhook.site)
+:::tip 📝 NOTE
+ You can test the HTTP endpoint integration with a free service like: [Webhook.site](https://webhook.site)
 :::
 
 - Last but not least, select a value for the **Maximum number of concurrent connections** and the **Maximum length of the queue** (default values are 16 and 64 respectively).

@@ -27,8 +27,8 @@ The Things Network is about enabling low power devices to use long range gateway
 
 <rk-img src="/assets/images/quick-start-guide/rak7246/gateway_id.png" width="100%" figure-number = "5" caption="RAK7246G LPWAN Developer Gateway Gateway ID in SSH"/>
 
-:::tip Note:
-:pencil: Make sure to select the "**I'm using the legacy packet forwarder**" check box.
+:::tip 📝 NOTE:
+ Make sure to select the "**I'm using the legacy packet forwarder**" check box.
 :::
 
 * **Description** - A human readable description of your Gateway.

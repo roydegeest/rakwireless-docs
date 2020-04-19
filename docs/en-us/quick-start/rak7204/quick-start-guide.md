@@ -23,8 +23,8 @@ Before going through each and every step in the installation guide of the RAK720
   _blank
 />
 
-:::tip Note:
-:pencil: This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware and bootloader burned, please refer to the documentations below:
+:::tip 📝 NOTE:
+ This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware and bootloader burned, please refer to the documentations below:
 1. [Burning the Bootloader](burning-bootloader)
 2. [Burning the Firmware](burning-firmware)
 :::

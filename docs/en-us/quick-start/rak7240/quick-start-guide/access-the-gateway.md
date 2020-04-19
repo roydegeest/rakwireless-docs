@@ -8,8 +8,8 @@ next: /en-us/quick-start/rak7240/quick-start-guide/access-the-internet.html
 
 By default, the Gateway will work in Wi-Fi AP Mode which means that you can find an SSID named like "**RAK7240_XXXX**" on your PC's Wi-Fi Network List. "XXXX" is the last two bytes of the Gateway MAC address. To access the Web Management Platform, input the IP Address: **192.168.230.1** in your Web browser.
 
-:::tip Note:
-:pencil: No password is required to connect via Wi-Fi. 
+:::tip 📝 NOTE
+ No password is required to connect via Wi-Fi. 
 :::
 
 Using your preferred Web browser, input the aforementioned IP Address and you should see the same Log-in Page shown in the following image. Login the credentials provided below:

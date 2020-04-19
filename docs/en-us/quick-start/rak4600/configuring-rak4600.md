@@ -5,8 +5,8 @@ static_root: /assets/images/quick-start-guide/RAK4600/5.configuring-rak4600
 
 You can configure your RAK4600 LPWAN Evaluation Board by sending AT Commands either through UART, through BLE or through Micro USB.
 
-:::tip Note:
-:pencil: For the full list of AT Commands available for configuring your RAK4600, kindly check [here](at-commands)
+:::tip 📝 NOTE:
+ For the full list of AT Commands available for configuring your RAK4600, kindly check [here](at-commands)
 :::
 
 ## Through UART
@@ -63,8 +63,8 @@ at+version
   caption="Nordic UART Service in the Nordic App"
 />  
 
-:::warning
-:warning: By the default, the BLE signal of the RAK4600 is turned off automatically if no connection is established after 60 seconds. Connect to the BLE signal of the RAK4600 immediately after pressing the reset button.
+:::warning ⚠️ WARNING
+ By the default, the BLE signal of the RAK4600 is turned off automatically if no connection is established after 60 seconds. Connect to the BLE signal of the RAK4600 immediately after pressing the reset button.
 :::
 
 4. Click the arrow which is marked by the red box in the picture below, you will see the following page:

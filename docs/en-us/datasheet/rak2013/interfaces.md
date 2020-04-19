@@ -9,8 +9,8 @@ next: frequency-bands-and-data-rate
 The diagram below shows the internal architecture and external interfaces of RAK2013.
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/functional-diagram-of-rak2013.jpg"
-  width="75%"
+  src="/assets/images/datasheet/rak2013/Block_Diagrams_RAK2013.png"
+  width="100%"
   figure-number="1"
   caption="RAK2013 Cellular Board"
 />

@@ -3,7 +3,7 @@
 In order for you to be able to interface with the Evaluation Board, using a Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
 
 :::warning ⚠️ WARNING
-Before powering the RAK4600 LPWAN Evaluation Board , you should install the LoRa\u00ae and BLE Antenna first. Not doing so might damage the board.
+Before powering the RAK4600 LPWAN Evaluation Board , you should install the LoRa® and BLE Antenna first. Not doing so might damage the board.
 :::
 
 <rk-img
@@ -42,7 +42,7 @@ Before powering the RAK4600 LPWAN Evaluation Board , you should install the LoRa
 
 - Look for Ports (COM & LPT) and Find the name **USB-SERIAL CH340** and take note of the COM Port Number.
 
-:::tip NOTE
+:::tip 📝 NOTE
 If you didn't find any Port with the name USB-Serial CH340, make sure you have instaalled the  the [CH340 Drivers](https:\/\/downloads.rakwireless.com\/LoRa\/RAK811\/Tools\/CH340%20Drive.rar) to your Machine.
 :::
 

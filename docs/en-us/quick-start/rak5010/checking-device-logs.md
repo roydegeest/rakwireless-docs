@@ -22,7 +22,7 @@ There are 3 ways that you can check the logs for debugging purposes on your RAK5
 />  
 
 :::warning
-:warning: You still have to connect the Micro USB Cable to the RAK5010 to power the board.
+ You still have to connect the Micro USB Cable to the RAK5010 to power the board.
 :::
 
 2. Go to the Official Website of **Segger** where you can Download the [J-Flash software](https://www.segger.com/products/debug-probes/j-link/tools/j-flash/about-j-flash/). Open the program “**J-Link RTT Viewer V6.60f**” and choose "**USB**" for the type of connection to J-Link. After which, press "**OK**".
@@ -71,8 +71,8 @@ There are 3 ways that you can check the logs for debugging purposes on your RAK5
   caption="J-Link RTT Viewer showing RAK5010 Logs"
 />  
 
-:::tip Note:
-:pencil: If there is no log after connecting successfully, you can try to reset RAK5010 or check the connection of JTAG.
+:::tip 📝 NOTE:
+ If there is no log after connecting successfully, you can try to reset RAK5010 or check the connection of JTAG.
 :::
 
 
@@ -113,8 +113,8 @@ There are 3 ways that you can check the logs for debugging purposes on your RAK5
 
 - Open the serial port tool in your PC.
 
-:::tip Note:
-:pencil: For this method, you need a serial port tool which can support DTR function, like Termite. You can download Termite [here](https:\/\/www.compuphase.com\/software_termite.htm).
+:::tip 📝 NOTE:
+ For this method, you need a serial port tool which can support DTR function, like Termite. You can download Termite [here](https:\/\/www.compuphase.com\/software_termite.htm).
 :::
 
 - Alright, after opening the serial tool, configure its setting by following the picture below:

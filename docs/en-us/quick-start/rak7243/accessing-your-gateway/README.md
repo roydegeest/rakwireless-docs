@@ -6,8 +6,8 @@ next: accessing-the-internet
 # Accessing your Gateway
 After burning the image into the SD Card, make sure you have inserted the SD Card with the Latest Firmware installed to the **RAK7243 LoRaWAN® Developer Gateway** and the LoRa® and GPS Antenna attached to it. After which, you can now safely power on the gateway. In this section, several ways in accessing the gateway are provided to have different alternatives for you to choose depending on the availability of the requirements needed.
 
-:::warning 
-:warning: Before powering the RAK7243 LoRaWAN® Developer Gateway you should install the LoRa® and GPS antennas. Not doing so might damage the boards.
+:::warning ⚠️WARNING
+ Before powering the RAK7243 LoRaWAN® Developer Gateway you should install the LoRa® and GPS antennas. Not doing so might damage the boards.
 :::
 
 ## Wi-Fi AP Mode
@@ -20,8 +20,8 @@ By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that yo
   caption="RAKwireless Access Point"
 />
 
-::: tip Note: 
-:pencil: “XXXX” is the last 2 bytes of your RAK7243’s WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the LoRaWAN® Gateway provided below as this will be needed in connecting via SSH.
+::: tip 📝 NOTE: 
+ “XXXX” is the last 2 bytes of your RAK7243’s WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the LoRaWAN® Gateway provided below as this will be needed in connecting via SSH.
 * **Wi-Fi Password:** rakwireless
 * **Default IP Address:** `192.168.230.1`
 :::

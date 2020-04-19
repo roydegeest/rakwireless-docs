@@ -59,8 +59,8 @@ The Things Network is about enabling low power devices to use long range gateway
 
 <rk-img :params="$page.frontmatter.params.img5" />
 
-:::tip Note:
-:pencil: Make sure to select the "**I'm using the legacy packet forwarder**" check box.
+:::tip 📝 NOTE:
+ Make sure to select the "**I'm using the legacy packet forwarder**" check box.
 :::
 
 * **Description** - A human readable description of your LoRaWAN® Gateway.

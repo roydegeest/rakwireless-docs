@@ -9,8 +9,8 @@ The ChirpStack or previously known as LoRaServer project provides open-source co
 
 You can use RAK7204 LPWAN Environmental Sensor to connect with ChirpStack according to the following steps:
 
-:::tip Note:
-:pencil: In this document, it is  assumed that you are using RAK LoRa® gateway and its built-in ChirpStack or RAK cloud testing ChirpStack. It is also assumed that a Gateway with the ChirpStack has been configured successfully. If not, please have a look at RAK's documents for more details about RAK LPWAN Gateway and [**RAK cloud testing**](https://forum.rakwireless.com/t/rak-free-cloud-loraserver-for-testing/344).
+:::tip 📝 NOTE:
+ In this document, it is  assumed that you are using RAK LoRa® gateway and its built-in ChirpStack or RAK cloud testing ChirpStack. It is also assumed that a Gateway with the ChirpStack has been configured successfully. If not, please have a look at RAK's documents for more details about RAK LPWAN Gateway and [**RAK cloud testing**](https://forum.rakwireless.com/t/rak-free-cloud-loraserver-for-testing/344).
 :::
 
 1. Open the web page of the ChirpStack which you want to connect with and login.
@@ -63,6 +63,6 @@ You can use RAK7204 LPWAN Environmental Sensor to connect with ChirpStack accord
   caption="Filling the Device Parameters"
 />
 
-:::tip Note:
-:pencil: If you want to join in OTAA mode, select “DeviceProfile_OTAA” in the “Device-profile” item. If you want to join in ABP mode and CN470 frequency, then, select “DeviceProfile_ABP_CN470” in the “Device-Profile” item. If you want to join in ABP mode and other frequencies except AS923 and CN470, you should select “DeviceProfile_ABP” in the “Device-profile” item.
+:::tip 📝 NOTE:
+ If you want to join in OTAA mode, select “DeviceProfile_OTAA” in the “Device-profile” item. If you want to join in ABP mode and CN470 frequency, then, select “DeviceProfile_ABP_CN470” in the “Device-Profile” item. If you want to join in ABP mode and other frequencies except AS923 and CN470, you should select “DeviceProfile_ABP” in the “Device-profile” item.
 :::

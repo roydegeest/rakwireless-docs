@@ -14,8 +14,8 @@ Listed below are the options on how to access the Web Management Platform based 
 
 By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that you can find an SSID named like "**RAK7258_XXXX**" on your PC's Wi-Fi Network List. "XXXX" is the last two bytes of the Gateway MAC address.
 
-:::tip Note
-:pencil: No password is required to connect via Wi-Fi.
+:::tip 📝 NOTE
+ No password is required to connect via Wi-Fi.
 :::
 
 * Using your preferred Web browser, login the credentials provided below:

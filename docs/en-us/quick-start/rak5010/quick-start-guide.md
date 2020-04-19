@@ -26,8 +26,8 @@ Before going through each and every step in the installation guide of theRAK5010
   _blank
 />
 
-:::tip Note:
-:pencil: This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware burned or upgraded, please refer to the documentations below:
+:::tip 📝 NOTE:
+ This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware burned or upgraded, please refer to the documentations below:
 1. [Burning the Firmware](burning-the-firmware)
 2. [Upgrading Firmware through DFU Over BLE](upgrading-firmware)
 :::

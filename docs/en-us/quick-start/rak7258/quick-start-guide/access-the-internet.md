@@ -15,8 +15,8 @@ Go into the **Network>Wi-Fi Menu** and make sure to enable the **Wireless Client
   caption="Connect through Wi-Fi Credentials"
 /> 
 
-:::tip Note:
-:pencil: Assuming you have entered the correct parameter values you should get an IP address assigned by your Wi-Fi router's (AP) built-in DHCP server. You can use this new IP address to log in via a web browser (same way as in AP mode).
+:::tip 📝 NOTE:
+ Assuming you have entered the correct parameter values you should get an IP address assigned by your Wi-Fi router's (AP) built-in DHCP server. You can use this new IP address to log in via a web browser (same way as in AP mode).
 :::
 
 ## Connect through Ethernet/PoE

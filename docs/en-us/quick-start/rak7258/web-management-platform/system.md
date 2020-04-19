@@ -15,8 +15,8 @@ This is the section where you configure general device parameters.
 
 The system time is displayed here. Additionally, you can edit the Host Name and select the Time zone. Another way to get the correct time is to use Timing Synchronization. You can Enable NTP client mode, enable NTP server and provide server candidate URLs.
 
-:::tip Note
-:pencil: Time Synchronization tab is displayed in all System sub-menus.
+:::tip 📝 NOTE
+ Time Synchronization tab is displayed in all System sub-menus.
 :::
 
 ### Logging
@@ -63,8 +63,8 @@ This is the status of your license. You can see the Type, Number of Supported No
 - **Restore**: You can upload a previously generated archive to restore the configuration settings at the time of its making
 - **Flash new firmware**: Update the firmware by flashing a bin file. Use the button to select the location of the new firmware file and the blue button to initiate the flashing process. There is a tick box to toggle the option of keeping the current settings of the gateway
 
-:::tip Note
-:pencil: The **Keep Settings** check box is selected by default, as unchecking it will results in having a Gateway with stock settings after the firmware update.
+:::tip 📝 NOTE
+ The **Keep Settings** check box is selected by default, as unchecking it will results in having a Gateway with stock settings after the firmware update.
 :::
 
 ## 5. Reboot

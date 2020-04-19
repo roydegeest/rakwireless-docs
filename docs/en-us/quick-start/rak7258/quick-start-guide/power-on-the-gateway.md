@@ -8,11 +8,11 @@ next: access-the-gateway
 
 First and foremost, screw on the antenna to the SMA connector back panel of the RAK7258 Micro Gateway
 
-:::warning
-:warning: Do not power the device if the LoRa Antenna port has been left open to avoid potential damage in the RAK7258 Micro Gateway.
+:::warning ⚠️ WARNING
+ Do not power the device if the LoRa Antenna port has been left open to avoid potential damage in the RAK7258 Micro Gateway.
 :::
 
-2.**Power** the Gateway **ON**
+2. **Power** the Gateway **ON**
 
 It is recommended to use the **12V DC adapter** that comes with the RAK7258 Micro Gateway. Optionally, you can use your own **PoE cable** and **injector** since the device supports PoE.
 
@@ -27,15 +27,15 @@ It is recommended to use the **12V DC adapter** that comes with the RAK7258 Micr
 
 ## Status LED Indicators
 
-| LEDs | Status Indication | 
-| ---- | ---- | 
-| PWR | Power Indicator, LED is on when the device is powered | 
-| ETH | **ON**– link is up, **OFF** – link is down, **Flashing** – Data is being transferred | 
-| LoRa | **ON** - LoRa module status is up, **OFF** – LoRa module status is down, **Flashing** – LoRa module data is being transferred | 
-| ACT | Reserved for future use | 
-| STAT | Reserved for future use | 
-| WLAN | **AP Mode** : **ON** - WLAN status is up, **Flashing** - Data is being transferred | 
-|  | **STA Mode** : **Slow Flashing** (1Hz) - Disconnected, **ON** - Connected, **Flashing** - Data is being transferred |
+| LEDs | Status Indication                                                                                                             |
+| ---- | ----------------------------------------------------------------------------------------------------------------------------- |
+| PWR  | Power Indicator, LED is on when the device is powered                                                                         |
+| ETH  | **ON**– link is up, **OFF** – link is down, **Flashing** – Data is being transferred                                          |
+| LoRa | **ON** - LoRa module status is up, **OFF** – LoRa module status is down, **Flashing** – LoRa module data is being transferred |
+| ACT  | Reserved for future use                                                                                                       |
+| STAT | Reserved for future use                                                                                                       |
+| WLAN | **AP Mode** : **ON** - WLAN status is up, **Flashing** - Data is being transferred                                            |
+|      | **STA Mode** : **Slow Flashing** (1Hz) - Disconnected, **ON** - Connected, **Flashing** - Data is being transferred           |
 
 
 ## Reset Key Functions

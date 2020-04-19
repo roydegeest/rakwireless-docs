@@ -30,7 +30,7 @@ There is a Web-based UI that comes with the ChirpStack instance. Simply open a b
 - **Password**: admin
 
 ::: warning
-:warning: It is advisable to change your password to tighten the security of your account. You can change this by clicking the \"change password\" button at the user icon.
+ It is advisable to change your password to tighten the security of your account. You can change this by clicking the \"change password\" button at the user icon.
 :::
 
 <rk-img
@@ -75,7 +75,7 @@ This is a lot more complicated having to deploy a remote ChirpStack by yourself 
 />
 
 ::: warning
-:warning: Remember to run the \"`sudo gateway-config`\" command in the CLI and point the Gateway to the IP address of the machine you just installed Chirpstack on. This can be done in item 2 in the menu \"**Setup RAK Gateway LoRa® concentrator**\"!
+ Remember to run the \"`sudo gateway-config`\" command in the CLI and point the Gateway to the IP address of the machine you just installed Chirpstack on. This can be done in item 2 in the menu \"**Setup RAK Gateway LoRa® concentrator**\"!
 :::
 
 - Assuming you have set it up correctly, Login to your ChirpStack to register your LoRaWAN® Gateway by opening the ChirpStack's web page in a browser by entering "IP Address of ChirpStack:8080".

@@ -8,7 +8,7 @@ next: ../decoding-sensor-data
 **1.** If you select “**DeviceProfile_ABP**” or “**DeviceProfile_ABP_CN470**”, it means you want to join ChirpStack in **ABP mode**.
 
 ::: warning Warning:
-:warning: Frequency AS923 in ABP Mode is not supported in Chirpstack.
+ Frequency AS923 in ABP Mode is not supported in Chirpstack.
 :::
 
 <rk-img
@@ -105,8 +105,8 @@ at+set_config=lora:apps_key:XXXX
   caption="Chirpstack ABP Set Application Session Key via RAK Serial Port Tool"
 />
 
-::: tip Note:
-:pencil: After configuring all parameters, you need to reset RAK5205 WisTrio LPWAN Tracker for saving parameters!
+::: tip 📝 NOTE:
+ After configuring all parameters, you need to reset RAK5205 WisTrio LPWAN Tracker for saving parameters!
 :::
 
 **9.** After resetting RAK5205 WisTrio LPWAN Tracker, join in ABP mode:
@@ -122,8 +122,8 @@ at+join
   caption="Chirpstack ABP Join via RAK Serial Port Tool"
 />
 
-::: tip Note:
-:pencil: Actually,
+::: tip 📝 NOTE:
+ Actually,
 it is not needed to join in ABP mode. But you still need to set this AT command to
 validate the parameters which you just set for ABP mode.
 :::

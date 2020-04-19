@@ -16,8 +16,8 @@ static_root: /assets/images/quick-start-guide/rak5010/8.upgrading-firmware
 
 3. Press the reset button on the RAK4600 and wait for a couple of seconds. Look for a BLE Device named "RUI-..." in the scan list of the app. Connect to this device and click "**Nordic UART Service**"
 
-:::tip Note:
-:pencil: This will be only visible for 60 seconds. More information about Bluetooth Connection Guide can be found here in [here](bluetooth-connection-modes)
+:::tip 📝 NOTE:
+ This will be only visible for 60 seconds. More information about Bluetooth Connection Guide can be found here in [here](bluetooth-connection-modes)
 :::
 
 <rk-img

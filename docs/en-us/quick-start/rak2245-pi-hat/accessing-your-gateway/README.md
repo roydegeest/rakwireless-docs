@@ -53,8 +53,8 @@ next: accessing-the-internet
 # Accessing your Gateway
 After burning the image into the SD Card, make sure you have inserted the SD Card with the Latest Firmware installed to the **Raspberry Pi 3B+ / 4 with the RAK2245 Pi Hat LoRaWAN® Concentrator Module** and the LoRa® and GPS Antenna attached to it. After which, you can now safely power on the gateway. In this document, several ways in accessing the gateway are provided to have different alternatives for you to choose depending on the availability of the requirements needed.
 
-:::warning 
-:warning: Before powering the Raspberry Pi 3B+ or 4 you should install the LoRa® and GPS antennas. Not doing so might damage the boards.
+:::warning ⚠️WARNING
+ Before powering the Raspberry Pi 3B+ or 4 you should install the LoRa® and GPS antennas. Not doing so might damage the boards.
 :::
 
 ## Wi-Fi AP Mode
@@ -62,8 +62,8 @@ By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that yo
 
 <rk-img :params="$page.frontmatter.params.img1" />
 
-::: tip Note: 
-:pencil: “XXXX” is the last 2 bytes of your Raspberry Pi WiFi MAC address with the RAK2245. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the Gateway provided below as this will be needed in connecting via SSH.
+::: tip 📝 NOTE: 
+ “XXXX” is the last 2 bytes of your Raspberry Pi WiFi MAC address with the RAK2245. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the Gateway provided below as this will be needed in connecting via SSH.
 
 * **Wi-Fi Password:** rakwireless
 * **Default IP Address:** `192.168.230.1`

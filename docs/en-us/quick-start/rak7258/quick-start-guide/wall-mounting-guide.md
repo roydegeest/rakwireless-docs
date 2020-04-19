@@ -18,7 +18,7 @@ next: power-on-the-gateway
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/2.quickstart/assembly-wall-screw.png"
   width="100%"
-  figure-number="1"
+  figure-number="2"
   caption="RAK7258 Micro Gateway Wall Screw Arrangement"
 />
 
@@ -27,6 +27,6 @@ next: power-on-the-gateway
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/2.quickstart/assembly-wall-attachment.png"
   width="100%"
-  figure-number="1"
+  figure-number="3"
   caption="RAK7258 Micro Gateway Wall Attachment Guide"
 />

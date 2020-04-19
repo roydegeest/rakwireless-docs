@@ -73,8 +73,8 @@ Now, continue to configure by using the AT command `at+set_config=cellular: (AT+
   caption="Configuring the IP Address of the Server"
 /> 
 
-:::tip Note:
-:pencil: This IP address is just used for example, and it is my testing server actually. For your configuration, use your own server IP address.
+:::tip 📝 NOTE:
+ This IP address is just used for example, and it is my testing server actually. For your configuration, use your own server IP address.
 :::
 
 - OK, we’ve configured RAK5010 correctly.

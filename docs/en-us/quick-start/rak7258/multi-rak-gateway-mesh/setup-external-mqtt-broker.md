@@ -8,8 +8,8 @@ This section provides the procedure in setting the external MQTT Broker for your
 
 ## Preparing the Raspberry Pi
 
-:::tip Note:
-:pencil: We are going to use going to use a **Raspberry Pi 3B+** for this tutorial, as the device that is going to be hosting Mosquitto (a popular MQTT broker).
+:::tip 📝 NOTE:
+ We are going to use going to use a **Raspberry Pi 3B+** for this tutorial, as the device that is going to be hosting Mosquitto (a popular MQTT broker).
 :::
 
 * The following items listed below with its download links for the tools and files needed for this demonstration:
@@ -19,8 +19,8 @@ This section provides the procedure in setting the external MQTT Broker for your
 
 1. Download the Raspbian Buster Lite image and flash it into your SD Card using the Balena Etcher. You can follow the steps provided in the Device Firmware Setup section. Once done, plug the SD card into the **Raspberry Pi 3B+** SD card slot and power it.
 
-:::tip Note:
-:pencil: It is highly recommended to follow the configurations of [Raspberry Pi headless](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md).
+:::tip 📝 NOTE:
+ It is highly recommended to follow the configurations of [Raspberry Pi headless](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md).
 :::
 
 2. Using the PuTTY SSH client, connect to the Raspberry Pi 3B+ with the following credentials:
@@ -56,8 +56,8 @@ sudo apt install mosquitto mosquitto-clients
 
 2. Mosquitto clients help us easily test MQTT through a command line utility. We will use two command windows; one to subscribe to a topic and one to publish a message to it. Those will be explained in detail further in the tutorial.
 
-:::tip Note:
-:pencil: This command is not mandatory, however it is recommended as it creates a mosquitto service that will run the broker on startup.
+:::tip 📝 NOTE:
+ This command is not mandatory, however it is recommended as it creates a mosquitto service that will run the broker on startup.
 :::
 
 ```sh
@@ -131,7 +131,7 @@ There is a convenient tool in the Built-in LoRa® Server for sending a Downlink 
 3. If you want to test the Gateway downlink via the external MQTT Broker, you need to first create a json file which you will be sensing your data in. Below is what the file formatting structure needs to look like:
 
 
-:::tip Note:
+:::tip 📝 NOTE:
 * "**confirmed**": **true** – This is the LoRa® frame type. True (confirmed), False (unconfirmed)
 * "**data**": "**TEST**" – example data to be sent
 * "**fPort**": **10** – the Frame Port Number
@@ -146,8 +146,8 @@ There is a convenient tool in the Built-in LoRa® Server for sending a Downlink 
 }
 ```
 
-:::tip Note:
-:pencil: You need to have a **Base64** encoded **HEX data** for the above to work.
+:::tip 📝 NOTE:
+ You need to have a **Base64** encoded **HEX data** for the above to work.
 :::
 
 4. Create the file, for example with the following command and copy the data in discussed above:
@@ -159,7 +159,7 @@ sudo nano test.json
 5. After you have created the file, you need to schedule it for downlink. This means that you have to publish it via Mosquitto with the command:
 
 ```sh
-sudo mosquito_pub application\/{{application_ID{{\/device\/{{device_EUI}}\/ tx \u2013f test.json
+sudo mosquito_pub application/{{application_ID{{/device/{{device_EUI}}/ tx –f test.json
 ```
 
 * The packet will be scheduled for downlink, which you can see in the Gateway Packet logger.

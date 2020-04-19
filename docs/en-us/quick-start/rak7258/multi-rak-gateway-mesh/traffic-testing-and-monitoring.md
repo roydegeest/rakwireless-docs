@@ -14,7 +14,7 @@ Now your RAK811 LPWAN Node is authenticated with the built-in LoRa® Server. As 
     * **device_EUI**: is the Device EUI of the RAK811 LPWAN Node
 
 ```sh
-mosquitto_sub -t application\/{{application_ID}}\/device\/{{device_EUI}}\/rx -v",
+mosquitto_sub -t application /{{application_ID}} /device /{{device_EUI}} /rx -v",
 ```
 
 <rk-img
@@ -40,12 +40,12 @@ at+send=lora:1:1110
 
 3. You can also monitor the Gateway traffic itself. You can do this via the command. Take note of the following syntax in the list below to have the command executed correctly:
 
-:::tip Note:
-:pencil: eui: is the Gateway EUI
+:::tip 📝 NOTE:
+ eui: is the Gateway EUI
 :::
 
 ```sh
-mosquitto_sub -t gateway\/{{eui}}\/rx -v
+mosquitto_sub -t gateway /{{eui}} /rx -v
 ```
 
 <rk-img
@@ -81,7 +81,7 @@ There is a convenient tool in the Built-in LoRa® Server for sending a Downlink 
 
 3. If you want to test the Gateway downlink via the external MQTT Broker, you need to first create a json file which you will be sensing your data in. Below is what the file formatting structure needs to look like:
 
-:::tip Note:
+:::tip 📝 NOTE:
 * "**confirmed**": **true** – This is the LoRa® frame type. True (confirmed), False (unconfirmed)
 * "**data**": "**TEST**" – example data to be sent
 * "**fPort**": **10** – the Frame Port Number
@@ -95,8 +95,8 @@ There is a convenient tool in the Built-in LoRa® Server for sending a Downlink 
 }
 ```
 
-:::tip Note:
-:pencil: You need to have a **Base64** encoded **HEX data** for the above to work.
+:::tip 📝 NOTE:
+ You need to have a **Base64** encoded **HEX data** for the above to work.
 :::
 
 4. Create the file, for example with the following command and copy the data in discussed above:
@@ -108,7 +108,7 @@ sudo nano test.json
 5. After you have created the file, you need to schedule it for downlink. This means that you have to publish it via Mosquitto with the command:
 
 ```sh
-sudo mosquito_pub application\/{{application_ID{{\/device\/{{device_EUI}}\/ tx \u2013f test.json
+sudo mosquito_pub application/{{application_ID{{/device/{{device_EUI}}/ tx –f test.json
 ```
 
 * The packet will be scheduled for downlink, which you can see in the Gateway Packet logger.

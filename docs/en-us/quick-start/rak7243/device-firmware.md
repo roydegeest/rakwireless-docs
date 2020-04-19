@@ -8,8 +8,8 @@ An easy and quick way to have a fully functional gateway is by using a Precompil
 
 ## Burn the Latest Firmware
 
-::: tip Note:
-:pencil: If your RAK7243 - LoRaWAN® Developer Gateway has the latest firmware image in the SD card, you can
+::: tip 📝 NOTE:
+ If your RAK7243 - LoRaWAN® Developer Gateway has the latest firmware image in the SD card, you can
 skip this section. 
 :::
 1. Download the latest firmware [here](https://downloads.rakwireless.com/en/LoRa/Pilot-Gateway-Pro-RAK7243/Firmware/RAK7243_Latest_Firmware.zip), which is based on the Raspbian OS.
@@ -17,8 +17,8 @@ skip this section.
 3. Insert your SD Card into the SD Card reader and plug it into your Computer.
 4. Open the Etcher Software, and select the downloaded image file thru the (**Label - 1**) button in the image below.
 
-::: tip Note:
-:pencil: Your SD Card should be automatically detected by the Etcher software in the Label - 2 of the image below. If not, kindly ensure proper connection.
+::: tip 📝 NOTE:
+ Your SD Card should be automatically detected by the Etcher software in the Label - 2 of the image below. If not, kindly ensure proper connection.
 :::
 
 <rk-img

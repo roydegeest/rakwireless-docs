@@ -2,8 +2,8 @@
 static_root: /assets/images/quick-start-guide/rak7204/9.burning-bootloader/
 ---
 #  Burning the Bootloader
-:::tip Note:
-:pencil: Usually you don't need to burn the bootloader since there is a bootloader already in RAK7204 from V3.0.0.0 firmware and so on. If the firmware of your RAK7204 is V3.0.0.0 or a newer one, **Skip this section.**
+:::tip 📝 NOTE:
+ Usually you don't need to burn the bootloader since there is a bootloader already in RAK7204 from V3.0.0.0 firmware and so on. If the firmware of your RAK7204 is V3.0.0.0 or a newer one, **Skip this section.**
 :::
 
 You can burn the bootloader in your RAK7204 by following the steps below:
@@ -107,7 +107,7 @@ Now that you have successfully connected your RAK7204 to the STM32CubeProgrammer
 
 11. “Disconnect” and close the “STM32CubeProgrammer” tool.
 
-:::warning
-:warning: Disconnect your RAK7204 in your Windows PC and do not forget to remove the Jumper on the Boot Line Pins to work in Normal Mode.
+:::warning ⚠️ WARNING
+ Disconnect your RAK7204 in your Windows PC and do not forget to remove the Jumper on the Boot Line Pins to work in Normal Mode.
 
 :::

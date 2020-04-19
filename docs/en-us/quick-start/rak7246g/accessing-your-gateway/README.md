@@ -23,8 +23,8 @@ params:
 # Accessing your Gateway
 After burning the image into the SD Card, make sure you have inserted the SD Card with the Latest Firmware installed to the **RAK7246G LPWAN Developer Gateway** and the LoRa® and GPS Antenna attached to it. After which, you can now safely power on the gateway.
 
-:::warning 
-:warning: Before powering the RAK7246G LPWAN Developer Gateway, you must install the LoRa® and GPS antennas. Not doing so might damage the boards.
+:::warning ⚠️WARNING
+ Before powering the RAK7246G LPWAN Developer Gateway, you must install the LoRa® and GPS antennas. Not doing so might damage the boards.
 :::
 
 ## Wi-Fi AP Mode
@@ -32,8 +32,8 @@ By default, the Gateway will work in Wi-Fi AP Mode which means that you can find
 
 <rk-img :params="$page.frontmatter.params.img1" />
 
-::: tip Note: 
-:pencil: “XXXX” is the last 2 bytes of your RAK7246’s WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the Gateway provided below as this will be needed in connecting via SSH.
+::: tip 📝 NOTE: 
+ “XXXX” is the last 2 bytes of your RAK7246’s WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the Gateway provided below as this will be needed in connecting via SSH.
 
 * **Wi-Fi Password:** rakwireless
 * **Default IP Address:** `192.168.230.1`
