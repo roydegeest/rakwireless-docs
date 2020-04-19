@@ -1,70 +1,47 @@
 <template>
-  <div class="q-mt-xl row justify-center items-center">
-    <q-item
-      v-for="qs in quickStarts"
-      :key="qs.path"
-      :to="qs.path"
-      class="grow text-center q-pa-none"
+  <div>
+    <div
+      v-for="key in Object.keys(groups)"
+      :key="`grp-${key}`"
+      class="column q-mt-xl "
     >
-      <q-item-section>
-        <q-card
-          class="column q-ma-sm"
-          style="height: 20rem; width: 15rem"
+      <div class="text-h6">{{ rakGrp(key) }}</div>
+      <div class="row justify-center items-center">
+        <q-item
+          v-for="qs in groups[key]"
+          :key="qs.path"
+          :to="qs.path"
+          class="grow text-center q-pa-none"
         >
-          <!-- <div class="column">
-        <div><strong>{{ qs.title }}</strong></div>
-        <a
-          v-for="(header, id) in qs.headers"
-          :key="id"
-          :href="`${qs.path}#${header.slug}`"
-        >
-          {{ header.title }}
-        </a>
-      </div> -->
-          <q-card-section class="col q-pa-none">
-            <q-img
-              :src="rakImg(qs.frontmatter)"
-              :ratio="1"
-              class="fit"
-            />
-          </q-card-section>
-          <q-card-section
-            class="flex flex-center bg-blue-10 text-white q-pa-xs"
-            style="height: 3rem"
-          >
-            <div
-              class="text-weight-medium text-uppercase"
-              style="font-size: 0.8rem"
-            >{{ qs.title }}</div>
-          </q-card-section>
-          <q-card-section>
-            <q-item
-              v-for="(header, id) in qs.headers.slice(0,2)"
-              :key="id"
-              :to="`${qs.path}#${header.slug}`"
-              clickable
-              v-ripple
-              dense
+          <q-item-section>
+            <q-card
+              class="column q-ma-sm"
+              style="height: 20rem; width: 15rem"
             >
-              <q-item-section class="text-center">
-                {{ header.title }}
-              </q-item-section>
-            </q-item>
-          </q-card-section>
-        </q-card>
-      </q-item-section>
-    </q-item>
+              <q-card-section class="col q-pa-none">
+                <div class="fit flex flex-center">
+                  <q-img :src="rakImg(qs.frontmatter)" />
+                </div>
+              </q-card-section>
+              <q-card-section class="col-3 flex flex-center q-pa-xs">
+                <div
+                  class="text-weight-medium"
+                  style="font-size: 1rem"
+                >{{ qs.title }}</div>
+              </q-card-section>
+            </q-card>
+          </q-item-section>
+        </q-item>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: {
-    params: { type: Object },
-    src: { type: String },
-    label: { type: String },
-    _blank: { type: Boolean, default: false }
-  },
+  data: () => ({
+    groups: {}
+  }),
   computed: {
     quickStarts () {
       return this.$site.pages.filter(t => {
@@ -76,6 +53,28 @@ export default {
     rakImg (frontmatter) {
       const { static_root, rak_img } = frontmatter
       return `${static_root}/${rak_img}`
+    },
+    rakGrp (frontmatter) {
+      const { rak_grp } = frontmatter
+      if (!rak_grp) return 'Others'
+      switch (rak_grp) {
+        case 'lora-node': return 'LoRa Node'
+        case 'lora-gateway': return 'LoRa Gateway'
+        case 'nb-iot': return 'NB-IoT'
+        default: return 'Others'
+      }
+    }
+  },
+  created () {
+    for (const qs of this.quickStarts) {
+      const { rak_grp } = qs.frontmatter
+      const index = rak_grp || 'others'
+
+      if (!this.groups[index]) this.groups[index] = []
+      this.groups[index] = [
+        ...this.groups[index],
+        qs
+      ]
     }
   }
 }
