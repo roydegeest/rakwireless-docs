@@ -63,7 +63,7 @@ module.exports = {
     },
     '@vuepress/medium-zoom': {},
     '@vuepress/back-to-top': {},
-    '@vuepress-plugin-code-copy': {
+    'vuepress-plugin-code-copy': {
       selector: String,
       align: String,
       color: String,
