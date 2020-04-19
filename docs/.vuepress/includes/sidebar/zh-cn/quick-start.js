@@ -1,20 +1,20 @@
 module.exports = {
   '/zh-cn/quick-start/rak7246/': [
     {
-      title: 'Product Overview',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
         '',
         'overview'
       ]
     },
     {
-      title: 'Product Configuration',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'Product Configuration',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
         'device-firmware',
         'accessing-your-gateway',

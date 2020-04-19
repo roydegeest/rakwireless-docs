@@ -1,19 +1,19 @@
 module.exports = {
   '/en-us/quick-start/rak7246g/': [
     {
-      title: 'Product Overview',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         '',
         'overview'
       ]
     },
     {
-      title: 'Product Configuration',   // required
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         'device-firmware',
         {
@@ -33,10 +33,10 @@ module.exports = {
   ],
   '/en-us/quick-start/rak7240/': [
     {
-      title: 'Product Overview',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
         '',
         {
@@ -56,10 +56,10 @@ module.exports = {
   ],
   '/en-us/quick-start/rak7249/': [
     {
-      title: 'Product Overview',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
         '',
         {
@@ -77,10 +77,10 @@ module.exports = {
       ]
     },
     {
-      title: 'Product Configuration',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'Product Configuration',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
         {
           title: "Web Management Platform",
@@ -101,9 +101,9 @@ module.exports = {
       ]
     },
     {
-      title: 'Configuration Case',   // required
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'Configuration Case',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         {
           title: "Build-in LoRa Network Server Configuration",
@@ -143,10 +143,10 @@ module.exports = {
       ]
     },
     {
-      title: 'Outdoor Deployment',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'Outdoor Deployment',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         'gateway-installation-guide',
         'solar-panel-and-battery-kit-installation',
@@ -156,10 +156,10 @@ module.exports = {
   ],
   '/en-us/quick-start/rak7258/': [
     {
-      title: 'Product Overview',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
         '',
         {
@@ -178,10 +178,10 @@ module.exports = {
       ]
     },
     {
-      title: 'Product Configuration',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'Product Configuration',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
         {
           title: "Web Management Platform",
@@ -202,9 +202,9 @@ module.exports = {
       ]
     },
     {
-      title: 'Configuration Case',   // required
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'Configuration Case',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         {
           title: "Build-in LoRa Network Server Configuration",
@@ -246,10 +246,10 @@ module.exports = {
   ],
   '/en-us/quick-start/rak7244/': [
     {
-      title: 'Product Overview',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
         '',
         'overview'
@@ -278,10 +278,10 @@ module.exports = {
   ],
   '/en-us/quick-start/rak7243/': [
     {
-      title: 'Product Overview',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
         '',
         'overview'
@@ -310,18 +310,18 @@ module.exports = {
   ],
   '/en-us/quick-start/rak7243c/': [
     {
-      title: 'Product Overview',   // required
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         '',
         'quick-start-guide'
       ]
     },
     {
-      title: 'Product Configuration',   // required
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         'device-firmware-setup',
         {
@@ -341,20 +341,20 @@ module.exports = {
   ],
   '/en-us/quick-start/rak2247/': [
     {
-      title: 'Product Overview',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
         '',
         'overview'
       ]
     },
     {
-      title: 'Product Configuration',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'Product Configuration',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
         'rak2247linuxpc'
       ]
@@ -362,10 +362,10 @@ module.exports = {
   ],
   '/en-us/quick-start/rak2245-pi-hat/': [
     {
-      title: 'Product Overview',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         '',
         'quick-start-guide'
@@ -394,9 +394,9 @@ module.exports = {
   ],
   '/en-us/quick-start/rak2245-stamp/': [
     {
-      title: 'Product Overview',   // required
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         '',
         'quick-start-guide'
@@ -425,9 +425,9 @@ module.exports = {
   ],
   '/en-us/quick-start/rak7244c/': [
     {
-      title: 'Product Overview',   // required
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         '',
         'quick-start-guide'
@@ -578,9 +578,9 @@ module.exports = {
   ],
   '/en-us/quick-start/rak4200/': [
     {
-      title: 'Product Overview',   // required
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         '',
         'quick-start-guide'
@@ -996,4 +996,7 @@ module.exports = {
       ]
     }
   ],
+  '/en-us/quick-start/': [
+    ''
+  ]
 }

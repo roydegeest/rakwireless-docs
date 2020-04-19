@@ -77,12 +77,6 @@ export default {
       const { static_root, rak_img } = frontmatter
       return `${static_root}/${rak_img}`
     }
-  },
-  created () {
-    console.log('site: ', this.$site.pages.filter(t => {
-      return t.path.match(/^\/[a-z]{2}-[a-z]{2}\/quick-start\/[^\/]+\/$/g)
-    }))
-    console.log('page: ', this.$page)
   }
 }
 </script>
