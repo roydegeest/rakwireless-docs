@@ -233,7 +233,7 @@ function resolveItem (item, pages, base, groupDepth = 1) {
       page = Object.assign(resolvePage(pages, item.path, base), {
         title: item.title
       })
-      console.log('page: ', page)
+      // console.log('page: ', page)
       return page
     }
     // if (item.nested && item.path && children.length){
@@ -277,7 +277,7 @@ function resolveItem (item, pages, base, groupDepth = 1) {
       ...sub,
       ...page
     }
-    console.log('group: ', page)
+    // console.log('group: ', page)
     return page
   }
 }

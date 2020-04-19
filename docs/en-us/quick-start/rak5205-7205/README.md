@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5205-7205/overview
+rak_img: exlexmejfxoowom4gmuf.jpg
+rak_grp: lora-node
 params:
   qlinks:
     learnMore:
@@ -11,13 +13,13 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK5205 WisTrio LPWAN Tracker Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak5205-wistrio-lora-tracker-datasheet
+        href: /en-us/datasheet/rak5205/#rak5205-wistrio-lpwan-tracker
       - name: RAK5205 WisTrio LPWAN Tracker 3D Model
-        href: https://downloads.rakwireless.com/en/LoRa/WisTrio-LoRa-RAK5205/Hardware_Specification/RAK5205_3D_Model.stp
+        href: https://downloads.rakwireless.com/LoRa/WisTrio-LoRa-RAK5205/Hardware_Specification/
       - name: RAK5205 WisTrio LPWAN Tracker Enclosure 3D Model
-        href: https://downloads.rakwireless.com/en/LoRa/WisTrio-LoRa-RAK5205/Hardware_Specification/RAK5205_Enclosure_3D_Model.stp
+        href: https://downloads.rakwireless.com/LoRa/WisTrio-LoRa-RAK5205/Hardware_Specification/
       - name: RAK5205 WisTrio LPWAN Tracker Schematic Diagram
-        href: https://doc.rakwireless.com/datasheet/rakproducts/schematics---rak5205
+        href: /en-us/datasheet/rak5205/schematics.html#schematics
 ---
 
 # RAK7205/RAK5205 WisTrio LPWAN Tracker

@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak8212/overview
+rak_img: mbu3h7u9ykxyd0yfzkln.jpg
+rak_grp: nb-iot
 params:
   qlinks:
     learnMore:
@@ -11,7 +13,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: iTracker Pro RAK8212 Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak8212-itracker-pro-datasheet
+        href: /en-us/datasheet/rak8212/#rak8212-itracker-pro
       - name: iTracker Pro RAK8212 Downloadable Files
         href: https://downloads.rakwireless.com/en/Cellular/RAK8212/
 ---

@@ -1,4 +1,7 @@
 ---
+static_root: /assets/images/quick-start-guide/rak7243/1.main
+rak_img: rak7243_overview.jpg
+rak_grp: lora-gateway
 params:
   qlinks1:
     learnMore:
@@ -20,7 +23,7 @@ params:
 # RAK7243 LoRaWAN® Developer Gateway
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/1.main/rak7243_overview.jpg"
+  :src="`${$frontmatter.static_root}/rak7243_overview.jpg`"
   width="75%"
   figure-number="1"
   caption="RAK7243 LoRaWAN® Developer Gateway"

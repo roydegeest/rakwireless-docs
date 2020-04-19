@@ -1,5 +1,7 @@
 ---
-static_root: /assets/images/datasheet/rak7244c/overview
+static_root: /assets/images/quick-start-guide/rak7244c/overview
+rak_img: eqijenycxekcw9g3n0ux.jpg
+rak_grp: lora-gateway
 params:
   qlinks1:
     learnMore:
@@ -11,7 +13,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK7244C LPWAN Developer Gateway Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak2245-pi-hat-datasheet
+        href: /en-us/datasheet/rak7244c/#rak7244c-lpwan-developer-gateway
       - name: FCC Certification Report
         href: http://docs.rakwireless.com/en/LoRa/RAK2245/Certification-Report/RAK2245_FCC_Certificate.zip
       - name: CE Certification Report
@@ -22,7 +24,7 @@ params:
 
 &nbsp;
 <rk-img
-  src="/assets/images/datasheet/rak7244c/overview/eqijenycxekcw9g3n0ux.jpg"
+  :src="`${$frontmatter.static_root}/eqijenycxekcw9g3n0ux.jpg`"
   width="65%"
   figure-number="1"
   caption="RAK7244C LPWAN Developer Gateway"

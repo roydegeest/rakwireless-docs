@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811-breakout/overview
+rak_img: bnq9nqrvkrjojq89feoq.jpg
+rak_grp: lora-node
 params:
   qlinks:
     learnMore:
@@ -11,9 +13,9 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK811 LPWAN Breakout Module Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak811-lora-breakout-module-datasheet
+        href: /en-us/datasheet/rak811-breakout-module/#rak811-lpwan-breakout-module
       - name: RAK811 LPWAN Breakout Module Schematic Diagram
-        href: https://doc.rakwireless.com/datasheet/rakproducts/schematic-diagram---rak811-wisduo-lora-module
+        href: /en-us/datasheet/rak811-breakout-module/schematic-diagram.html#schematic-diagram
 ---
 
 # RAK811 LPWAN Breakout Module

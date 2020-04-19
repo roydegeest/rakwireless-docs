@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak2245-stamp/overview
+rak_img: ylbgm3hgwwari6itxmii.png
+rak_grp: lora-gateway
 params:
   qlinks:
     learnMore:
@@ -11,7 +13,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module DataSheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak2245-stamp-datasheet
+        href: /en-us/datasheet/rak2245-stamp/#rak2245-stamp-edition-lpwan-gateway-concentrator-module
 ---
 
 # RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module

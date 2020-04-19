@@ -1,7 +1,3 @@
----
-sidebar: true
----
-
 # Datasheet Archive
 
 Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet of each product is arranged into five categories:
@@ -20,7 +16,7 @@ Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet
 <li><a href="/en-us/datasheet/rak7244c/#rak7244c-lpwan-developer-gateway">RAK7244C LPWAN Developer Gateway</a></li>
 <li><a href="/en-us/datasheet/rak7246g/#rak7246g-lpwan-developer-gateway">RAK7246G LPWAN Developer Gateway</a></li>
 <li><a href="/en-us/datasheet/rak7249/#rak7249-macro-outdoor-gateway">RAK7249 Macro Outdoor Gateway</a></li>
-<li><a href="/en-us/datasheet/rak7258/#rak7258-micro-gateway">RAK7258 Micro Gateway</a></li>
+<li><a href="/en-us/datasheet/rak7258/#rak7258-micro-gateway">RAK7258 Micro Gateway</a></li> 
 </br>
 </details>
 
@@ -34,7 +30,7 @@ Welcome to the RAKwireless online Datasheet Archive. The supplementary datasheet
 <li><a href=/en-us/datasheet/rak4200-breakout-module/#rak4200-breakout-module>RAK4200 Breakout Module</a></li>
 <li><a href="/en-us/datasheet/rak4200/#rak4200-lpwan-module">RAK4200 LPWAN Module</a></li>
 <li><a href="/en-us/datasheet/rak4260/#rak4260-wisduo-lpwan-module">RAK4260 WisDuo LPWAN Module</a></li>
-<li><a href="https://www.w3schools.com">RAK4600 LPWAN Module</a></li>
+<li><a href="/en-us/datasheet/rak4600/#rak4600-lpwan-module">RAK4600 LPWAN Module</a></li>
 <li><a href="/en-us/datasheet/rak5205/#rak5205-wistrio-lpwan-tracker">RAK5205 WisTrio LPWAN Tracker</a></li>
 <li><a href="/en-us/datasheet/rak7200/#rak7200-lpwan-tracker">RAK7200 LPWAN Tracker</a></li>
 <li><a href="/en-us/datasheet/rak7204/#rak7204-lpwan-environmental-sensor">RAK7204 LPWAN Environmental Sensor</a></li>

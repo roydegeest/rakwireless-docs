@@ -1,59 +1,59 @@
 module.exports = {
   '/en-us/rui/': [
     {
-      title: 'RUI API Reference',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 0,    // optional, defaults to 1
+      title: 'RUI API Reference',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 0,
       children: [
         ''
       ]
     },
     {
-      title: 'Cellular',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'Cellular',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
-        { 
+        {
           title: "RUI Cellular General Format",
           collapsable: false,
-          path: '/en-us/rui/rui-cellular-general-format/',                 
-          
+          path: '/en-us/rui/rui-cellular-general-format/',
+
         },
       ]
     },
     {
-      title: 'LoRa',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'LoRa',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
-        {        
+        {
           title: "RUI LoRa General Format",
           collapsable: false,
-          path: '/en-us/rui/rui-lora-general-format/',          
+          path: '/en-us/rui/rui-lora-general-format/',
         },
       ]
     },
     {
-      title: 'BLE',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'BLE',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
-        {     
-          title: "RUI BLE General Format",     
+        {
+          title: "RUI BLE General Format",
           collapsable: false,
-          path: '/en-us/rui/rui-ble-general-format/',         
+          path: '/en-us/rui/rui-ble-general-format/',
         },
       ]
     },
     {
-      title: 'Sensor',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'Sensor',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
         {
           title: "RUI Sensor General Format",
@@ -68,10 +68,10 @@ module.exports = {
       ]
     },
     {
-      title: 'Interface',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'Interface',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
         {
           title: "RUI Interface General Format",
@@ -125,10 +125,10 @@ module.exports = {
       ]
     },
     {
-      title: 'Device',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 1,    // optional, defaults to 1
+      title: 'Device',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
       children: [
         {
           title: "RUI Device General Format",

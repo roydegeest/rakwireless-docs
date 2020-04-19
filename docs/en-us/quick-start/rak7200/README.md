@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7200/overview
+rak_img: tnbyyv90jncokqtn9xiy.jpg
+rak_grp: lora-node
 params:
   qlinks:
     learnMore:
@@ -11,7 +13,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK7200 Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak7200-lora-tracker-datasheet
+        href: /en-us/datasheet/rak7200/#rak7200-lpwan-tracker
       - name: RAK7200 Downloadables
         href: https://downloads.rakwireless.com/en/LoRa/RAK7200-Tracker/
 ---

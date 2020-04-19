@@ -2,10 +2,10 @@ module.exports = {
   '/en-us/datasheet/': [
     '',
     {
-      title: 'LPWAN Gateways',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'LPWAN Gateways',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         {
           title: "RAK831 LPWAN Gateway Concentrator",
@@ -184,10 +184,10 @@ module.exports = {
       ]
     },
     {
-      title: 'LPWAN Nodes',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'LPWAN Nodes',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         {
           title: "RAK811 LPWAN Breakout Module",
@@ -251,7 +251,7 @@ module.exports = {
           children: [
             'rak4200-breakout-module/board-overview',
             'rak4200-breakout-module/operating-frequencies',
-            'rak4200-breakout-module/pin-definition', 
+            'rak4200-breakout-module/pin-definition',
             'rak4200-breakout-module/power-consumption',
             'rak4200-breakout-module/schematic-diagram',
             'rak4200-breakout-module/interfaces'
@@ -374,10 +374,10 @@ module.exports = {
       ]
     },
     {
-      title: 'Cellular',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'Cellular',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         {
           title: "RAK2013 Cellular",
@@ -398,10 +398,10 @@ module.exports = {
       ]
     },
     {
-      title: 'NB-IoT',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'NB-IoT',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         {
           title: "RAK5010 WisTrio NB-IoT Tracker",
@@ -435,10 +435,10 @@ module.exports = {
       ]
     },
     {
-      title: 'Others',   // required
-      path: '',      // optional, which should be a absolute path.
-      collapsable: false, // optional, defaults to true
-      sidebarDepth: 2,    // optional, defaults to 1
+      title: 'Others',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 2,
       children: [
         {
           title: "RAK9003 PoE HAT",

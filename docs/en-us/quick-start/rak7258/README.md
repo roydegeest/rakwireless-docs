@@ -1,5 +1,8 @@
 ---
+static_root: /assets/images/quick-start-guide/rak7258/1.main
+rak_img: rak7258_overview.jpg
 next: /en-us/quick-start/rak7258/quick-start-guide/#quick-start-guide
+rak_grp: lora-gateway
 params:
   qlinks1:
     learnMore:
@@ -11,15 +14,15 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK7258 Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak7258-micro-gateway
-      - name: RAK7258 Downloadable Files 
+        href: /en-us/datasheet/rak7258/#rak7258-micro-gateway
+      - name: RAK7258 Downloadable Files
         href: https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/
 ---
 
 # RAK7258 Micro Gateway
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7258/1.main/rak7258_overview.jpg"
+  :src="`${$frontmatter.static_root}/rak7258_overview.jpg`"
   width="85%"
   figure-number="1"
   caption="RAK7258 Micro Gateway"
@@ -44,15 +47,14 @@ The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and an
   label="Setup your RAK7258 Micro Gateway"
 />
 
-<rk-quick-links :params="$page.frontmatter.params.qlinks1" /> 
+<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
 ## Product Features
 
-* Full LoRaWAN® 1.0.2 Stack support
-* 100M base-T Ethernet with PoE (802.3 af)
-* Multi back-haul backup with Ethernet, WiFi, Cellular (optional LTE Cat 4)
-* OpenWRT software supports with Web UI for easy configuration and monitoring
-* Can integrate with both private(Chirpstack) and public (TTN) Network Servers
-* Built-in LoRaServer for easey deployment of applications and integration of Gateways
-* TF card for log backup
-
+- Full LoRaWAN® 1.0.2 Stack support
+- 100M base-T Ethernet with PoE (802.3 af)
+- Multi back-haul backup with Ethernet, WiFi, Cellular (optional LTE Cat 4)
+- OpenWRT software supports with Web UI for easy configuration and monitoring
+- Can integrate with both private(Chirpstack) and public (TTN) Network Servers
+- Built-in LoRaServer for easey deployment of applications and integration of Gateways
+- TF card for log backup

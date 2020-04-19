@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/1.overview
+rak_img: nwvusdulqxqcp5blomrd.jpg
+rak_grp: lora-node
 params:
   qlinks:
     learnMore:
@@ -11,10 +13,11 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: RAK7204 Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak7204-lora-environmental-sensor-datasheet
+        href: /en-us/datasheet/rak7204/#rak7204-lpwan-environmental-sensor
       - name: RAK7204 Downloadables
         href: https://downloads.rakwireless.com/LoRa/RAK7204/
 ---
+
 # RAK7204 LPWAN Environmental Sensor
 
 <rk-img
@@ -23,7 +26,9 @@ params:
   figure-number="1"
   caption="RAK7204 Product Overview"
 />
+
 ## Product Background
+
 The RAK7204 is a LoRaWAN® node with integrated environmental sensors. The high-precision environmental sensors, can measure changes in temperature, humidity, gas pressure and provide an indoor air quality index. All the accumulated data can be send to a LoRaWAN® Gateway in order for it to be forwarded to the Cloud.
 
 The environmental sensors, LoRa® transceiver module, LoRa® antenna, and the battery are fitted in a 90 mm x 85 mm x 34 mm sized housing. These small dimensions allow for installation in tight spaces or ones that require the sensor to have a minimal impact on the overall feel of the surrounding environment. The housing adopts a hollow, permeable design to facilitate air flow in order to more accurately detect the environmental changes.
@@ -36,6 +41,7 @@ The environmental sensors, LoRa® transceiver module, LoRa® antenna, and the ba
 <rk-quick-links :params="$frontmatter.params.qlinks" />
 
 ## Product Features
+
 - Measurement of a variety of environmental parameters: **Temperature**, **Humidity**, **Gas Pressure** and **Indoor Air Quality (IAQ)**
 - **BOSCH BME680** Integrated Environmental Unit
 - **LoRaWAN® 1.0.2** fully compliant
