@@ -3,10 +3,10 @@
     <div
       v-for="key in Object.keys(groups)"
       :key="`grp-${key}`"
-      class="column q-mt-xl "
+      class="column q-mt-md "
     >
-      <div class="text-h6">{{ rakGrp(key) }}</div>
-      <div class="row justify-center items-center">
+      <div class="text-h6 q-pa-md">{{ rakGrp(key) }}</div>
+      <div class="row justify-center items-center q-gutter-md">
         <q-item
           v-for="qs in groups[key]"
           :key="qs.path"
@@ -15,18 +15,21 @@
         >
           <q-item-section>
             <q-card
-              class="column q-ma-sm"
-              style="height: 20rem; width: 15rem"
+              class="column"
+              style="height: 17rem; width: 13rem"
             >
-              <q-card-section class="col q-pa-none">
-                <div class="fit flex flex-center">
-                  <q-img :src="rakImg(qs.frontmatter)" />
+              <q-card-section class="col q-pa-none flex flex-center">
+                <div class="fit">
+                  <img
+                    :src="rakImg(qs.frontmatter)"
+                    style="height: 100%"
+                  />
                 </div>
               </q-card-section>
-              <q-card-section class="col-3 flex flex-center q-pa-xs">
+              <q-card-section class="col-4 flex flex-center q-pa-xs">
                 <div
                   class="text-weight-medium"
-                  style="font-size: 1rem"
+                  style="font-size: 0.9rem"
                 >{{ qs.title }}</div>
               </q-card-section>
             </q-card>
@@ -54,8 +57,7 @@ export default {
       const { static_root, rak_img } = frontmatter
       return `${static_root}/${rak_img}`
     },
-    rakGrp (frontmatter) {
-      const { rak_grp } = frontmatter
+    rakGrp (rak_grp) {
       if (!rak_grp) return 'Others'
       switch (rak_grp) {
         case 'lora-node': return 'LoRa Node'
@@ -69,6 +71,7 @@ export default {
     for (const qs of this.quickStarts) {
       const { rak_grp } = qs.frontmatter
       const index = rak_grp || 'others'
+      console.log('rakgrp: ', rak_grp)
 
       if (!this.groups[index]) this.groups[index] = []
       this.groups[index] = [
@@ -76,6 +79,7 @@ export default {
         qs
       ]
     }
+    console.log('gprs: ', this.groups)
   }
 }
 </script>
