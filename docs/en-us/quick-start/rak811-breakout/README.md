@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811-breakout/overview
 rak_img: bnq9nqrvkrjojq89feoq.jpg
+rak_grp: lora-node
 params:
   qlinks:
     learnMore:

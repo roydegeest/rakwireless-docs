@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak2247/1.main
 rak_img: rak2247_overview.jpg
+rak_grp: lora-gateway
 params:
   qlinks1:
     learnMore:

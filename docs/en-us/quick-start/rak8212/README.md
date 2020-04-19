@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak8212/overview
 rak_img: mbu3h7u9ykxyd0yfzkln.jpg
+rak_grp: nb-iot
 params:
   qlinks:
     learnMore:

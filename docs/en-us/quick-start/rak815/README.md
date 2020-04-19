@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak815/1main
 rak_img: rak815-overview.jpg
+rak_grp: lora-node
 params:
   qlinks1:
     learnMore:

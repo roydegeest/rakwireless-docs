@@ -2,6 +2,7 @@
 static_root: /assets/images/quick-start-guide/rak7258/1.main
 rak_img: rak7258_overview.jpg
 next: /en-us/quick-start/rak7258/quick-start-guide/#quick-start-guide
+rak_grp: lora-gateway
 params:
   qlinks1:
     learnMore:

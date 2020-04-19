@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak4200/1.overview
 rak_img: ebqbxdsu3iazrm9y4jp3.png
+rak_grp: lora-node
 params:
   qlinks1:
     learnMore:

@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/1.overview
 rak_img: nwvusdulqxqcp5blomrd.jpg
+rak_grp: lora-node
 params:
   qlinks:
     learnMore:
