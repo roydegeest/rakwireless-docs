@@ -24,7 +24,7 @@ There are 2 ways that you can check the logs for debugging purposes on your RAK4
   caption="RAK4600 LPWAN Evaluation Board to Windows PC connection thru JTAG"
 />
 
-:::warning WARNING
+:::warning ⚠️ WARNING
 You still have to connect the Micro-usb Cable to the RAK4600 LPWAN Evaluation Board to power the board.
 :::
 

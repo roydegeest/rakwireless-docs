@@ -27,7 +27,7 @@ There is a built-in ChirpStack in every RAK Developer gateway if you use the lat
     * **Username**: admin
     * **Password**: admin
 
-:::warning
+:::warning ⚠️WARNING
  It is advisable to change your password to tighten the security of your account. You can change this by clicking the "**change password**" button at the user icon.
 :::
 
@@ -70,7 +70,7 @@ This is a lot more complicated having to deploy a remote ChirpStack by yourself 
   caption="Chirpstack Getting Started Guide on Ubuntu"
 />
 
-:::warning
+:::warning ⚠️WARNING
  Remember to run the "`sudo gateway-config`" command in the CLI and point the Gateway to the IP address of the machine you just installed Chirpstack on. This can be done in item 2 in the menu [Setup RAK Gateway LoRa® concentrator](configuring-the-gateway.html#setup-rak-gateway-lora®-concentrator).
 :::
 

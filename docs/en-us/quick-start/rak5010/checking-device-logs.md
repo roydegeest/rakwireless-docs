@@ -21,7 +21,7 @@ There are 3 ways that you can check the logs for debugging purposes on your RAK5
   caption="RAK5010 and PC Connection through JTAG"
 />  
 
-:::warning
+:::warning ⚠️WARNING
  You still have to connect the Micro USB Cable to the RAK5010 to power the board.
 :::
 
