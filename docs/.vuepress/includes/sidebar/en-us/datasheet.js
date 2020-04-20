@@ -90,7 +90,7 @@ module.exports = {
             'rak2287/interfaces',
             'rak2287/electrical-characteristics',
             'rak2287/rf-characteristics',
-            'rak2287/lora-antenna',
+            //'rak2287/lora-antenna',
             'rak2287/schematic-diagram'
           ]
         },
