@@ -15,7 +15,16 @@ module.exports = {
     ['link', {
       rel: 'icon',
       href: `/favicon.ico`
-    }]
+    }],
+    ['script', {}, `
+    function initFreshChat() {
+      window.fcWidget.init({
+        token: "15eb72a9-7ba6-43c6-9923-4a6769c7b9bc",
+        host: "https://wchat.freshchat.com"
+      });
+    }
+    function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+    `]
   ],
   themeConfig: {
     logo: '/assets/rakwireless/rak-blue-dark.svg',
@@ -62,7 +71,7 @@ module.exports = {
       }]
     },
     '@vuepress/medium-zoom': {},
-    '@vuepress/back-to-top': {},
+    // '@vuepress/back-to-top': {},
     'vuepress-plugin-code-copy': {
       selector: String,
       align: String,
@@ -76,11 +85,10 @@ module.exports = {
     extendMarkdown: md => {
       // use more markdown-it plugins!
       md.use(require('markdown-it-include'), 'docs')
-
     }
   },
   extraWatchFiles: [
-    '.vuepress/**/*.js'
+    '.vuepress/*/.js'
   ],
   chainWebpack (config) {
     config.resolve.alias.set('@variables', require('path').resolve(__dirname, 'styles/variables.styl'))
