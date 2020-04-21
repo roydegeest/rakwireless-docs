@@ -1,5 +1,7 @@
 ---
 next: board-overview
+tags:
+- datasheet
 ---
 # RAK4260 WisDuo LPWAN Module
 

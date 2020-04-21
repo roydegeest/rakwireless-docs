@@ -5,16 +5,18 @@ rak_grp: lora-node
 params:
   qlinks:
     learnMore:
-      - name: Projects Using the RAK7200 LPWAN Tracker
+      - name: Projects
         href: https://www.hackster.io/search?i=projects&q=RAK7200
       - name: Community
         href: https://forum.rakwireless.com/
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK7200 Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak7200/#rak7200-lpwan-tracker
-      - name: RAK7200 Downloadables
+      - name: Firmware
+        href: https://downloads.rakwireless.com/LoRa/RAK7200-Tracker/Firmware/RAK7200_Latest_Firmware.zip
+      - name: Downloads
         href: https://downloads.rakwireless.com/en/LoRa/RAK7200-Tracker/
 ---
 

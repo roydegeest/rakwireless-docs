@@ -5,21 +5,25 @@ rak_grp: lora-node
 params:
   qlinks:
     learnMore:
-      - name: Projects Using the RAK5205 WisTrio LPWAN Tracker
+      - name: Projects
         href: https://www.hackster.io/search?i=projects&q=RAK5205
       - name: Community
         href: https://forum.rakwireless.com/
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK5205 WisTrio LPWAN Tracker Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak5205/#rak5205-wistrio-lpwan-tracker
-      - name: RAK5205 WisTrio LPWAN Tracker 3D Model
-        href: https://downloads.rakwireless.com/LoRa/WisTrio-LoRa-RAK5205/Hardware_Specification/
-      - name: RAK5205 WisTrio LPWAN Tracker Enclosure 3D Model
-        href: https://downloads.rakwireless.com/LoRa/WisTrio-LoRa-RAK5205/Hardware_Specification/
-      - name: RAK5205 WisTrio LPWAN Tracker Schematic Diagram
+      - name: Schematic Diagram
         href: /en-us/datasheet/rak5205/schematics.html#schematics
+      - name: RAK5205 3D Model (SMA Version)
+        href: https://downloads.rakwireless.com/LoRa/WisTrio-LoRa-RAK5205/Hardware_Specification/
+      - name : RAK5205 3D Model (iPEX Version)
+        href: https://downloads.rakwireless.com/LoRa/WisTrio-LoRa-RAK5205/Hardware_Specification/RAK5205-IPEX-3D-File.zip
+      - name: RAK5205 with Enclosure 3D Model
+        href: https://downloads.rakwireless.com/LoRa/WisTrio-LoRa-RAK5205/Hardware_Specification/RAK5205_with_Enclosure_3D-File.zip
+      - name: Downloads
+        href: https://downloads.rakwireless.com/LoRa/WisTrio-LoRa-RAK5205/
 ---
 
 # RAK7205/RAK5205 WisTrio LPWAN Tracker

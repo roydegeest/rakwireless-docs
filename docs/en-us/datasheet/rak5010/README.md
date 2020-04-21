@@ -1,5 +1,7 @@
 ---
 next: board-overview
+tags:
+- datasheet
 ---
 
 # RAK5010 WisTrio NB-IoT Tracker

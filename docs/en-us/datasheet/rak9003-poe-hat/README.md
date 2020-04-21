@@ -1,5 +1,7 @@
 ---
 next: block-diagram
+tags:
+- datasheet
 ---
 
 # RAK9003 PoE HAT

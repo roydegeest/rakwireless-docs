@@ -5,26 +5,26 @@ rak_grp: lora-gateway
 params:
   qlinks:
     learnMore:
-      - name: Projects Using the RAK2245 Pi Hat Edition
+      - name: Projects 
         href: https://www.hackster.io/search?q=RAK2245&i=projects
       - name: Community
         href: https://forum.rakwireless.com/
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK2245 Pi Hat Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak2245-pihat/#rak2245-pi-hat-lpwan-gateway-concentrator-module
-      - name: RAK2245 3d Model
-        href: https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Hardware-Specification/
-      - name: RAK2245 Product Brief
-        href: http://docs.rakwireless.com/en/LoRa/RAK2245-Pi-HAT/Hardware-Specification/RAK2245_Pi_HAT_Product_Brief_V1.1.pdf
       - name: Comparison Between RAK831
         href: http://docs.rakwireless.com/en/LoRa/RAK2245-Pi-HAT/Hardware-Specification/RAK2245_RAK831_Design_Guide_Comparison.pdf
-      - name: FCC Certification Report
-        href: http://docs.rakwireless.com/en/LoRa/RAK2245/Certification-Report/RAK2245_FCC_Certificate.zip
-      - name: CE Certification Report
-        href: http://docs.rakwireless.com/en/LoRa/RAK2245/Certification-Report/RAK2245_CE_Certificate.zip
----# RAK2245 Pi Hat Edition - LoRaWAN® Gateway Concentrator Module
+      - name: CE and FCC Certification Report
+        href: https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Certification-Report/
+      - name: 3D Model
+        href: https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Hardware-Specification/RAK2245_Pi_HAT-3D-File.zip
+      - name: Downloads
+        href: https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/
+   
+---
+# RAK2245 Pi Hat Edition - LoRaWAN® Gateway Concentrator Module
 
 <rk-img
   :src="`${$frontmatter.static_root}/wwj49yp9jeqcmrynbtjz.jpg`"

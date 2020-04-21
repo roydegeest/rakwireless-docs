@@ -5,17 +5,21 @@ rak_grp: lora-node
 params:
   qlinks:
     learnMore:
-      - name: Projects Using the RAK811 LPWAN Breakout Module
+      - name: Projects 
         href: https://www.hackster.io/search?i=projects&q=rak811
       - name: Community
         href: https://forum.rakwireless.com/
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK811 LPWAN Breakout Module Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak811-breakout-module/#rak811-lpwan-breakout-module
-      - name: RAK811 LPWAN Breakout Module Schematic Diagram
+      - name: Schematic Diagram
         href: /en-us/datasheet/rak811-breakout-module/schematic-diagram.html#schematic-diagram
+      - name: 3D Model
+        href: https://downloads.rakwireless.com/LoRa/RAK811-BreakoutBoard/Hardware_Specification/RAK811_BreakoutBoard-3D-File.zip
+      - name: Downloads
+      - href: https://downloads.rakwireless.com/LoRa/RAK811-BreakoutBoard/
 ---
 
 # RAK811 LPWAN Breakout Module

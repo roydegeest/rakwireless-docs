@@ -8,7 +8,7 @@ next: device-specifications
   src="/assets/images/datasheet/rak811-breakout-module/schematic-diagram-for-rak811.jpg"
   width="100%"
   figure-number="1"
-  caption="RAK811 Physical Dimension"
+  caption="RAK811 Schematic Diagram"
 />
 
 <rk-img

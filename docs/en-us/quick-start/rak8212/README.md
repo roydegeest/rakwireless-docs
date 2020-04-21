@@ -5,16 +5,22 @@ rak_grp: nb-iot
 params:
   qlinks:
     learnMore:
-      - name: Projects Using the iTracker Pro RAK8212
+      - name: Projects 
         href: https://www.hackster.io/search?q=rak8212&i=projects
       - name: Community
         href: https://forum.rakwireless.com/
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: iTracker Pro RAK8212 Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak8212/#rak8212-itracker-pro
-      - name: iTracker Pro RAK8212 Downloadable Files
+      - name: Schematic Diagram
+        href: https://downloads.rakwireless.com/Cellular/RAK8212/Hardware-Specification/RAK8212_iTRACKER_Schematic_20180322.pdf
+      - name: 3D Model
+        href: https://downloads.rakwireless.com/Cellular/RAK8212/Hardware-Specification/RAK8212_iTracker_BG96_V30-3D.STEP
+      - name: Firmware
+        href: https://downloads.rakwireless.com/Cellular/RAK8212/Firmware/
+      - name: Downloads
         href: https://downloads.rakwireless.com/en/Cellular/RAK8212/
 ---
 

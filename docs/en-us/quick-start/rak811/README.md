@@ -5,16 +5,20 @@ rak_grp: lora-node
 params:
   qlinks:
     learnMore:
-      - name: Projects Using the RAK811 LPWAN Evaluation Board
+      - name: Projects
         href: https://www.hackster.io/search?i=projects&q=rak811
       - name: Community
         href: https://forum.rakwireless.com/
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK811 LPWAN Evaluation Board Datasheet
-        href: https://downloads.rakwireless.com/en/LoRa/RAK811/Hardware_Specification/RAK811_LoRa_Module_Datasheet_V1.4.pdf
-      - name: RAK811 LPWAN Evaluation Board Downloadables
+      - name: RAK811 LPWAN Module Datasheet
+        href: /en-us/datasheet/rak811
+      - name: Schematic Diagram
+        href: https://downloads.rakwireless.com/LoRa/WisNode/Hardware-Specification/WisNode-LoRa_Schematic.pdf
+      - name: 3D Model
+        href: https://downloads.rakwireless.com/LoRa/WisNode/Hardware-Specification/RAK811-3D-File.zip
+      - name: Downloads
         href: https://downloads.rakwireless.com/en/LoRa/WisNode/
 ---
 

@@ -1,6 +1,8 @@
 ---
 static_root: /assets/images/datasheet/rak4600-breakout/overview
 next: board-overview
+tags:
+- datasheet
 ---
 
 # RAK4600 Breakout Module

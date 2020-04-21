@@ -5,17 +5,23 @@ rak_grp: lora-node
 params:
   qlinks1:
     learnMore:
-      - name: Projects Using the RAK815
+      - name: Projects 
         href: https://www.hackster.io/search?q=RAK815&i=projects
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK815 Hybrid Location Tracker Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak815/#rak815-hybrid-location-tracker
-      - name: RAK815 Open Source Codes
+      - name: Schematic Diagram
+        href: /en-us/datasheet/rak815/schematic-diagram.html
+      - name: Open Source Codes
         href: https://github.com/RAKWireless/RAK813-BreakBoard
+      - name: nRF52832 Product Specifications
+        href: https://downloads.rakwireless.com/LoRa/RAK815/Hardware%20Specification/nRF52832_Product%20_Specification_v1.3.pdf
+      - name: Downloads
+        href: https://downloads.rakwireless.com/LoRa/RAK815/
 ---
 
 # RAK815 Hybrid Location Tracker

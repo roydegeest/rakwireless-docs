@@ -1,6 +1,8 @@
 ---
 static_root: /assets/images/datasheet/rak2287/overview
 next: board-overview
+tags:
+- datasheet
 ---
 
 # RAK2287 WisLink- LPWAN Gateway Module

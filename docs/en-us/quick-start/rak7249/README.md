@@ -6,18 +6,24 @@ rak_grp: lora-gateway
 params:
   qlinks1:
     learnMore:
-      - name: Projects Using the RAK7249
+      - name: Projects
         href: https://www.hackster.io/search?q=RAK7249&i=projects
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK7249 Macro Outdoor Gateway Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak7249/#rak7249-macro-outdoor-gateway
-      - name: RAK7249 Macro Outdoor Gateway RoHS Test Report
-        href: https://downloads.rakwireless.com/en/LoRa/DIY-Gateway-RAK7249/Certification-Report/RAK7249-ROHS-ATL20191105773R01-Report.pdf
-      - name: RAK7249 Downloadable Files
+      - name: Outdoor Deployment Guide
+        href: gateway-installation-guide.html
+      - name: LoRaWAN® Coverage Drive Test Report
+        href: https://downloads.rakwireless.com/LoRa/DIY-Gateway-RAK7249/Application-Notes/RAKwireless_LoRAWAN_Coverage_Drive_Test_Report.pdf
+      - name: IP67 Enclosure Test Report
+        href: https://downloads.rakwireless.com/LoRa/DIY-Gateway-RAK7249/Certification-Report/RAK7249_Enclosure_IP67_Test_Report.pdf
+      - name: FCC, CE, RCM, RoHs Certification Reports
+        href: https://downloads.rakwireless.com/LoRa/DIY-Gateway-RAK7249/Certification-Report/
+      - name: Downloads
         href: https://downloads.rakwireless.com/en/LoRa/DIY-Gateway-RAK7249/
 ---
 

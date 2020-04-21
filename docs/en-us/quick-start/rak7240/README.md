@@ -6,16 +6,16 @@ rak_grp: lora-gateway
 params:
   qlinks1:
     learnMore:
-      - name: Projects Using the RAK7240
+      - name: Projects
         href: https://www.hackster.io/search?q=RAK7240&i=projects
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK7240 Outdoor LPWAN Gateway Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak7240-outdoor-lpwan-gateway-datasheet
-      - name: RAK7240 Downloadable Files
+      - name: Datasheet
+        href: /en-us/datasheet/rak7240
+      - name: Downloads
         href: https://downloads.rakwireless.com/en/LoRa/DIY-Gateway-RAK7249/
 ---
 
@@ -28,7 +28,7 @@ params:
   caption="RAK7240 Outdoor LPWAN Gateway"
 />
 
-### Product Background
+## Product Background
 
 The **RAK7240 Outdoor LPWAN Gateway** is an ideal product for large scale LPWAN deployment where cost is essential, however there is no compromises to be made on quality. Its wide range of customization options allow for flexibility when deploying a solution. With its industrial-grade components and high class of ingress protection, it achieves a high standard of reliability.
 
@@ -43,9 +43,9 @@ Thus, the **RAK7240 Outdoor LPWAN Gateway**, is suited for any use case scenario
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
-### Key Features
+## Key Features
 
-#### Hardware
+### Hardware
 
 - **IP65** industrial-grade enclosure with cable glands
 - **PoE** + Surge Protection
@@ -54,7 +54,7 @@ Thus, the **RAK7240 Outdoor LPWAN Gateway**, is suited for any use case scenario
 - **GPS**
 - SD Card slot
 
-#### Software
+### Software
 
 - Built-in LoRa® Server **(up to 128 LoRa® nodes license included, higher tiers require a fee)**
 - OpenVPN

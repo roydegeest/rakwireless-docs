@@ -5,15 +5,17 @@ rak_grp: lora-gateway
 params:
   qlinks:
     learnMore:
-      - name: Projects Using the RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module
+      - name: Projects 
         href: https://www.hackster.io/search?i=projects&q=RAK2245
       - name: Community
         href: https://forum.rakwireless.com/
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module DataSheet
+      - name: Datasheet
         href: /en-us/datasheet/rak2245-stamp/#rak2245-stamp-edition-lpwan-gateway-concentrator-module
+      - name: 3D Model
+        href: https://downloads.rakwireless.com/LoRa/RAK2245-96Boards/Hardware-Specification/RAK2245_96Boards-3D-File.zip 
 ---
 
 # RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module
