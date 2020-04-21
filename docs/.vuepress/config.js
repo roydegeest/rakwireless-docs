@@ -17,6 +17,7 @@ module.exports = {
       href: `/favicon.ico`
     }],
     ['script', {}, `
+ 
     function initFreshChat() {
       window.fcWidget.init({
         token: "15eb72a9-7ba6-43c6-9923-4a6769c7b9bc",

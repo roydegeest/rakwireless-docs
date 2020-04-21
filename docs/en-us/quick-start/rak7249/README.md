@@ -30,10 +30,10 @@ params:
   caption="RAK7249 Macro Outdoor Gateway with Support Plate Attached"
 />
 
-## Product Background
+### Product Background
 
 **RAK7249 Macro Outdoor Gateway** is an ideal product for IoT commercial deployment. Its modularity and customization options allow for flexibility when deploying a solution. With its industrial-grade components, it achieves a high standard of reliability.
-
+ 
 The LoRaWAN® Gateway provides for a solid out of the box experience for quick deployment. Additionally, since its software and UI sits on top of OpenWRT it is perfect for the development of custom applications (via the open SDK).
 
 Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or customization with regards to UI and functionality.
@@ -45,9 +45,9 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
-## Key Features
+### Key Features
 
-### Hardware
+#### Hardware
 
 - **IP67/NEMA-6** industrial grade enclosure with cable glands
 - **PoE (802.3 af)** + Surge Protection
@@ -56,7 +56,7 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 - GPS **L70 GPS Module**
 - Up to **5 hours of autonomous work** on battery (Battery + Solar Kit optional)
 
-### Software
+#### Software
 
 - Built-in LoRa Server (**up to 128 LoRa nodes license included, higher tiers require a fee**)
 - OpenVPN

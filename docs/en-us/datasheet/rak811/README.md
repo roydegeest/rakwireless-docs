@@ -1,6 +1,8 @@
 ---
 static_root: /assets/images/datasheet/rak811/overview
 next: interfaces
+tags:
+- datasheet
 ---
 
 # RAK811 LPWAN Module
