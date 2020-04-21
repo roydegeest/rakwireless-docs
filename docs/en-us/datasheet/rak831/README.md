@@ -1,5 +1,7 @@
 ---
 next: board-overview
+tags:
+- datasheet
 ---
 # RAK831 LPWAN Gateway Concentrator
 

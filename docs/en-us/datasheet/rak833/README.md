@@ -1,5 +1,7 @@
 ---
 next: board-overview
+tags:
+- datasheet
 ---
 
 # RAK833 LPWAN Gateway Concentrator Module

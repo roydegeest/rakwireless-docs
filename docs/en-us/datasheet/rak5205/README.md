@@ -1,5 +1,7 @@
 ---
 next: board-overview
+tags:
+- datasheet
 ---
 
 # RAK5205 WisTrio LPWAN Tracker

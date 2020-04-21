@@ -1,5 +1,7 @@
 ---
 next: board-overview
+tags:
+- datasheet
 ---
 
 # RAK815 Hybrid Location Tracker

@@ -1,6 +1,8 @@
 ---
 static_root: /assets/images/datasheet/rak7244c/overview
 next: board-overview
+tags:
+- datasheet
 ---
 
 # RAK7244C LPWAN Developer Gateway

@@ -1,5 +1,7 @@
 ---
 next: board-overview
+tags:
+- datasheet
 ---
 
 # RAK811 LPWAN Breakout Module

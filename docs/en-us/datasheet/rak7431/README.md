@@ -1,5 +1,7 @@
 ---
 next: networking-applications
+tags:
+- datasheet
 ---
 
 # RAK7431 - RS485 to LoRaWAN® Converter

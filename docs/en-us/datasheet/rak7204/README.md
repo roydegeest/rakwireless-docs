@@ -1,5 +1,7 @@
 ---
 next: operating-frequencies
+tags:
+- datasheet
 ---
 
 # RAK7204 LPWAN Environmental Sensor
