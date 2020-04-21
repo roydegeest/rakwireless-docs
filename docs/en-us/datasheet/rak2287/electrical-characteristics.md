@@ -32,13 +32,12 @@ The table below lists the maximum ESD.
 
 | **Parameter**                          | **Min** | **Typical** | **Max** | **Remarks**                                  |
 | -------------------------------------- | ------- | ----------- | ------- | -------------------------------------------- |
-| ESD sensitivity for a pins except ANT1 |         |             | 1000V   | Human Body Model according to JESD22-A114    |
-| ESD sensitivity for ANT1               |         |             | 1000V   | Human Body Model according to JESD22-A114    |
-| ESD immunity for ANT1                  |         |             | 4000V   | Contact Discharge according to IEC 61000-4-2 |
-|                                        |         |             | 8000V   | Air Discharge according to IEC 61000-4-2     |
+| ESD_HBM |         |             | 1000V   | Charged Device Model JESD22-C101 CLASS III    |
+| ESD_CDM |         |             | 1000V   | Charged Device Model JESD22-C101 CLASS III    |
+
 
 ::: tip 📝 NOTE
-RAK2287 card is an Electrostatic Sensitive Device and require special precautions when handling.
+Although this module is designed to be as robust as possible, electrostatic discharge (ESD) can damage this module. This module must be protected at all times from ESD when handling or transporting. Static charges may easily produce potentials of several kilovolts on the human body or equipment, which can discharge without detection. Industry-standard ESD handling precautions should be used at all times.
 :::
 
 ## Operating Temperature
@@ -67,6 +66,5 @@ Input voltage at **3.3Vaux** must be above the normal operating range minimum li
 
 | **Mode**         | **Condition**                                             | **Min.** | **Typical** | **Max.** |
 | ---------------- | --------------------------------------------------------- | -------- | ----------- | -------- |
-| Idle-Mode        | All of the chip on the board enter idle mode or shutdown. |          | 68 uA       |          |
-| Active-Mode(TX)  | The power of TX channel is 25dBm and 3.3V supply.         |          | 440 mA      |          |
-| Active-Mode(RX ) | TX disabled and RX enabled.                               |          | 470 mA      |          |
+| Active-Mode(TX)  | The power of TX channel is 27dBm and 3.3V supply.         |  511 mA  | 512 mA      |513 mA    |
+| Active-Mode(RX ) | TX disabled and RX enabled.                               |  70 mA   | 81.6 mA     |101 mA    |

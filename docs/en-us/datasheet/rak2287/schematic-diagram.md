@@ -5,7 +5,7 @@ next: /en-us/datasheet/rak7243c/
 
 # Schematic Diagram
 
-The core of RAK2287 is referred from Semtech's SX1302 chip with the SPI interface or USB interface done by STM32L412Kx, and can be used on PCIE connector.
+RAK2287 card refers to Semtech's reference design of SX1302. The SPI interface can be used on PCIE connector.The next figure shows the minimum application schematic of RAK2287 card. You should use it at least 3.3V/1A DC power, connect SPI interface interface to the main processor. 
 
 <rk-img
   :src="`${$frontmatter.static_root}/gpvh8ltdwzxkureac6jq.jpg`"
