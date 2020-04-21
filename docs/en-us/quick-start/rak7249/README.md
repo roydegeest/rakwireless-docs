@@ -6,18 +6,24 @@ rak_grp: lora-gateway
 params:
   qlinks1:
     learnMore:
-      - name: Projects Using the RAK7249
+      - name: Projects
         href: https://www.hackster.io/search?q=RAK7249&i=projects
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK7249 Macro Outdoor Gateway Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak7249/#rak7249-macro-outdoor-gateway
-      - name: RAK7249 Macro Outdoor Gateway RoHS Test Report
-        href: https://downloads.rakwireless.com/en/LoRa/DIY-Gateway-RAK7249/Certification-Report/RAK7249-ROHS-ATL20191105773R01-Report.pdf
-      - name: RAK7249 Downloadable Files
+      - name: Outdoor Deployment Guide
+        href: gateway-installation-guide.html
+      - name: LoRaWAN® Coverage Drive Test Report
+        href: https://downloads.rakwireless.com/LoRa/DIY-Gateway-RAK7249/Application-Notes/RAKwireless_LoRAWAN_Coverage_Drive_Test_Report.pdf
+      - name: IP67 Enclosure Test Report
+        href: https://downloads.rakwireless.com/LoRa/DIY-Gateway-RAK7249/Certification-Report/RAK7249_Enclosure_IP67_Test_Report.pdf
+      - name: FCC, CE, RCM, RoHs Certification Reports
+        href: https://downloads.rakwireless.com/LoRa/DIY-Gateway-RAK7249/Certification-Report/
+      - name: Downloads
         href: https://downloads.rakwireless.com/en/LoRa/DIY-Gateway-RAK7249/
 ---
 
@@ -30,10 +36,10 @@ params:
   caption="RAK7249 Macro Outdoor Gateway with Support Plate Attached"
 />
 
-## Product Background
+### Product Background
 
 **RAK7249 Macro Outdoor Gateway** is an ideal product for IoT commercial deployment. Its modularity and customization options allow for flexibility when deploying a solution. With its industrial-grade components, it achieves a high standard of reliability.
-
+ 
 The LoRaWAN® Gateway provides for a solid out of the box experience for quick deployment. Additionally, since its software and UI sits on top of OpenWRT it is perfect for the development of custom applications (via the open SDK).
 
 Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or customization with regards to UI and functionality.
@@ -45,9 +51,9 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
-## Key Features
+### Key Features
 
-### Hardware
+#### Hardware
 
 - **IP67/NEMA-6** industrial grade enclosure with cable glands
 - **PoE (802.3 af)** + Surge Protection
@@ -56,7 +62,7 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 - GPS **L70 GPS Module**
 - Up to **5 hours of autonomous work** on battery (Battery + Solar Kit optional)
 
-### Software
+#### Software
 
 - Built-in LoRa Server (**up to 128 LoRa nodes license included, higher tiers require a fee**)
 - OpenVPN

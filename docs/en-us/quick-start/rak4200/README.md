@@ -5,19 +5,27 @@ rak_grp: lora-node
 params:
   qlinks1:
     learnMore:
-      - name: Projects Using the RAK4200 LPWAN Evaluation Board
+      - name: Projects
         href: https://www.hackster.io/search?q=rak4200&i=projects
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK4200 LPWAN Evaluation Board Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak4200/#rak4200-lpwan-module
-      - name: RAK4200 LPWAN Evaluation Board Schematic
-        href: https://downloads.rakwireless.com/en/LoRa/RAK4200/Hardware-Specification/RAK4200_EVB_Schematic.pdf
-      - name: RAK4200 LPWAN Evaluation Board Firmware
+      - name: Evaluation Board Schematic Diagram
+        href: https://downloads.rakwireless.com/LoRa/RAK4200/Hardware-Specification/RAK4200_EVB_Schematic.pdf
+      - name: RAK4200 Module Schematic Diagram
+        href: https://downloads.rakwireless.com/LoRa/RAK4200/Hardware-Specification/RAK4200_Schematic.pdf
+      - name: Reference Schematic Diagram
+        href: https://downloads.rakwireless.com/LoRa/RAK4200/Hardware-Specification/RAK4200_Ref_Circuit.pdf
+      - name: CE Certification Report
+        href: https://downloads.rakwireless.com/LoRa/RAK4200/Certification-Report/
+      - name: Firmware
         href: https://downloads.rakwireless.com/en/LoRa/RAK4200/Firmware/
+      - name: Downloads
+        href: https://downloads.rakwireless.com/LoRa/RAK4200/
 ---
 
 # RAK4200 LPWAN Evaluation Board

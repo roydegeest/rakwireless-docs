@@ -5,19 +5,25 @@ rak_grp: lora-node
 params:
   qlinks1:
     learnMore:
-      - name: Projects Using the RAK4260 LPWAN Evaluation Board
+      - name: Projects
         href: https://www.hackster.io/search?i=projects&q=rak4260
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK4260 LPWAN Module Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak4260/#rak4260-wisduo-lpwan-module
-      - name: RAK4260 LPWAN Evaluation Board Schematic
+      - name: Schematic Diagram
         href: https://downloads.rakwireless.com/en/LoRa/RAK4260/Hardware-Specification/RAK4260_EVB_Schematic.pdf
-      - name: RAK4260 LPWAN Module Certification Report
-        href: https://downloads.rakwireless.com/en/LoRa/RAK4260/Certification-Report/
+      - name: Reference Design
+        href: https://downloads.rakwireless.com/LoRa/RAK4260/Hardware-Specification/RAK4260_Reference_Design.rar
+      - name: Firmware
+        href: https://downloads.rakwireless.com/LoRa/RAK4260/Firmware/
+      - name: FCC and CE Certification Report
+        href: https://downloads.rakwireless.com/LoRa/RAK4260/Certification-Report/
+      - name: Downloads
+        href: https://downloads.rakwireless.com/LoRa/RAK4260/
 ---
 
 # RAK4260 LPWAN Evaluation Board

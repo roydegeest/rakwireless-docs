@@ -5,15 +5,21 @@ rak_grp: lora-gateway
 params:
   qlinks1:
     learnMore:
-      - name: Projects Using the RAK7246G
+      - name: Projects
         href: https://www.hackster.io/search?i=projects&q=rak7246g
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK7246G LPWAN Developer Gateway Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak7246g/#rak7246g-lpwan-developer-gateway
+      - name: Environment Test Report
+        href: https://downloads.rakwireless.com/LoRa/NeoPi-Gateway-RAK7246/Hardware_Specification/RAK7246G_Environment_Test_Report.pdf
+      - name: Firmware
+        href: https://downloads.rakwireless.com/LoRa/NeoPi-Gateway-RAK7246/Firmware/RAK7246_Latest_Firmware.zip 
+      - name: Downloads
+        href: https://downloads.rakwireless.com/LoRa/NeoPi-Gateway-RAK7246/
 ---
 
 # RAK7246G LPWAN Developer Gateway

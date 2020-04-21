@@ -5,24 +5,34 @@ rak_grp: lora-gateway
 params:
   qlinks1:
     learnMore:
-      - name: Projects Using the RAK2247 LoRaWAN® Gateway Concentrator Module
+      - name: Projects
         href: https://www.hackster.io/search?q=RAK2247&i=projects
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK2247 LoRaWAN® Gateway Concentrator Module Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak2247/#rak2247-lpwan-gateway-concentrator-module
-      - name: RAK2247 LoRaWAN® Gateway Concentrator Module Downloadables
-        href: https://downloads.rakwireless.com/en/LoRa/RAK2247-Mini-PCIe/
+      - name: 868Mhz RF Performance
+        href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Hardware-Specification/RAK2247-Gateway_868MHz_RF_Performance.pdf
+      - name: RCM Declaration of Conformity
+        href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247-RCM-Declaration-of-Conformity.pdf
+      - name: RCM Test Report
+        href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247-RCM_Test_Report.zip
+      - name: CE Certificate
+        href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247_CE_Certificate.zip
+      - name: FCC Certificate
+        href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247_FCC_Certificate.zip
+      - name: 3D Model
+        href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Hardware-Specification/RAK2247-3D-Model.rar
 ---
 
 # RAK2247 LoRaWAN® Gateway Concentrator Module
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak2247_overview.jpg`"
-  width="60%"
+  width="50%"
   figure-number="1"
   caption="RAK2247 LoRaWAN® Gateway Concentrator Module"
 />

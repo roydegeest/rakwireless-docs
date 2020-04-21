@@ -5,19 +5,28 @@ rak_grp: lora-gateway
 params:
   qlinks:
     learnMore:
-      - name: Projects Using the RAK7243C LoRaWAN® Developer Gateway
+      - name: Projects
         href: https://www.hackster.io/search?q=RAK7243C&i=projects
       - name: Community
         href: https://forum.rakwireless.com/
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK7243C LoRaWAN® Developer Gateway Installation Guide
-        href: http://docs.rakwireless.com/en/LoRa/Pilot-Gateway-Pro-RAK7243/Application-Notes/Pilot_Gateway_Pro_RAK7243_Installation_Guide_V1.0.pdf
-      - name: RAK7243C LoRaWAN® Developer Gateway Assembly Guide
-        href: http://docs.rakwireless.com/en/LoRa/Pilot-Gateway-Pro-RAK7243/Application-Notes/Pilot_Gateway_Pro_RAK7243_with_LTE_Assembly_Guide.pdf
-      - name: RAK7243C LoRaWAN® Developer Gateway Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak7243c/#rak7243c-pilot-gateway
+      - name: Assembly Guide
+        href: http://docs.rakwireless.com/en/LoRa/Pilot-Gateway-Pro-RAK7243/Application-Notes/Pilot_Gateway_Pro_RAK7243_with_LTE_Assembly_Guide.pdf
+      - name: Installation Guide
+        href: http://docs.rakwireless.com/en/LoRa/Pilot-Gateway-Pro-RAK7243/Application-Notes/Pilot_Gateway_Pro_RAK7243_Installation_Guide_V1.0.pdf
+      - name: Environment Test Report
+        href: https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/Hardware-Specification/RAK7243_Environment_Test_Report.pdf
+      - name: CE and FCC Certification Report
+        href: https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/Certification-Report/
+      - name: Firmware
+        href: https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/Firmware/RAK7243C_Latest_Firmware.zip
+      - name: Downloads
+        href: https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/
+
 ---
 
 # RAK7243C LoRaWAN® Developer Gateway

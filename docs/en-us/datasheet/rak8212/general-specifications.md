@@ -1,6 +1,6 @@
-<!-- ---
-next: /en-us/datasheet/rak9003/
---- -->
+---
+next: /en-us/datasheet/rak9003-poe-hat/
+---
 # General Specification
 
 ## Overall Specification

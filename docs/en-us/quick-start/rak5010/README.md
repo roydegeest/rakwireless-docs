@@ -5,19 +5,23 @@ rak_grp: nb-iot
 params:
   qlinks:
     learnMore:
-      - name: Projects Using the RAK5010 WisTrio NB-IoT Tracker
+      - name: Projects
         href: https://www.hackster.io/search?i=projects&q=RAK5010
       - name: Community
         href: https://forum.rakwireless.com/
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK5010 WisTrio NB-IoT Tracker Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak5010/#rak5010-wistrio-nb-iot-tracker
-      - name: RAK5010 WisTrio NB-IoT Tracker Schematic Diagram
+      - name: Schematic Diagram
         href: /en-us/datasheet/rak5010/schematic-diagram.html#schematic-diagram
-      - name: RAK5010 WisTrio NB-IoT Tracker Firmware
+      - name: 3D Model
+        href: https://downloads.rakwireless.com/Cellular/RAK5010/Hardware-Specification/RAK5010-3D-File.zip
+      - name: Firmware
         href: https://downloads.rakwireless.com/en/Cellular/RAK5010/Firmware/
+      - name: Downloads
+        href: https://downloads.rakwireless.com/Cellular/RAK5010/
 ---
 
 # RAK5010 WisTrio NB-IoT Tracker
