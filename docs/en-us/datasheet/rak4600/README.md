@@ -1,6 +1,8 @@
 ---
 static_root: /assets/images/datasheet/rak4600/overview
 next: board-overview
+tags:
+- datasheet
 ---
 
 # RAK4600 LPWAN Module

@@ -1,6 +1,8 @@
 ---
 static_root: /assets/images/datasheet/rak2245-stamp/overview
 next: board-overview
+tags:
+- datasheet
 ---
 
 # RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module

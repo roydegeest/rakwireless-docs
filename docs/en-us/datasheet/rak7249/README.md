@@ -1,5 +1,7 @@
 ---
 next: components-and-accessories
+tags:
+- datasheet
 ---
 
 # RAK7249 Macro Outdoor Gateway

@@ -1,6 +1,8 @@
 ---
 static_root: /assets/images/datasheet/rak7246g/overview
 next: product-specifications
+tags:
+- datasheet
 ---
 
 # RAK7246G LPWAN Developer Gateway

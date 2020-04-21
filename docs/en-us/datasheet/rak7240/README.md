@@ -1,5 +1,7 @@
 ---
 next: /en-us/datasheet/rak7240/board-overview.html
+tags:
+- datasheet
 ---
 
 # RAK7240 Outdoor LPWAN Gateway

@@ -1,6 +1,8 @@
 ---
 static_root: /assets/images/datasheet/rak813/overview
 next: board-overview
+tags:
+- datasheet
 ---
 
 # RAK813 BLE+LoRa®
