@@ -6,6 +6,14 @@
     <PageEdit />
 
     <PageNav v-bind="{ sidebarItems }" />
+    <div
+      class="q-mx-md text-center text-grey-8"
+      style="font-size: 0.90rem"
+      v-for="(footer, id) of $site.themeConfig.pageFooter"
+      :key="`footer-${id}`"
+    >
+      {{ footer }}
+    </div>
 
     <slot name="bottom" />
   </main>

@@ -71,7 +71,7 @@ export default {
     for (const qs of this.quickStarts) {
       const { rak_grp } = qs.frontmatter
       const index = rak_grp || 'others'
-      console.log('rakgrp: ', rak_grp)
+      // console.log('rakgrp: ', rak_grp)
 
       if (!this.groups[index]) this.groups[index] = []
       this.groups[index] = [
@@ -79,7 +79,7 @@ export default {
         qs
       ]
     }
-    console.log('gprs: ', this.groups)
+    // console.log('gprs: ', this.groups)
   }
 }
 </script>

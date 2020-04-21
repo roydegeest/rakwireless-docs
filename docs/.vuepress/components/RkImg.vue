@@ -1,6 +1,7 @@
 <template>
   <figure align="center">
     <img
+      class="zoomable"
       :src="opt.src"
       :width="opt.width"
       alt=""
