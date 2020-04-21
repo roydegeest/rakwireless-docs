@@ -5,19 +5,19 @@ rak_grp: lora-node
 params:
   qlinks1:
     learnMore:
-      - name: Projects Using the RAK612 LPWAN Button
+      - name: Projects
         href: https://www.hackster.io/search?i=projects&q=RAK612
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK612 LPWAN Button Datasheet
+      - name: Datasheet
         href: http://docs.rakwireless.com/en/LoRa/RAK612-LoRaButton/Hardware-Specification/RAK_LB801%C2%A0LoRaButton%C2%A0Datasheet%C2%A0V1.0.pdf
-      - name: RAK612 LPWAN Button Schematics
+      - name: Schematic Diagram
         href: http://docs.rakwireless.com/en/LoRa/RAK612-LoRaButton/Hardware-Specification/RAK_LB801%20LoRaButton%20Schematics_20180328.pdf
-      - name: RAK612 LPWAN Button TTN Brochure
-        href: http://docs.rakwireless.com/en/LoRa/RAK612-LoRaButton/Hardware-Specification/LoRaWAN%20Button_TTN_Brochure(V1.0).pdf
+      - name: Downloads
+        href: https://downloads.rakwireless.com/LoRa/RAK612-LoRaButton/
 ---
 
 # RAK612 LPWAN Button

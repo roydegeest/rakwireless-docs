@@ -5,19 +5,23 @@ rak_grp: lora-gateway
 params:
   qlinks1:
     learnMore:
-      - name: Projects Using the RAK7244
+      - name: Projects
         href: https://www.hackster.io/search?i=projects&q=rak7244
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK7244 LoRaWAN® Developer Gateway Datasheet
-        href: https://doc.rakwireless.com/datasheet/rakproducts/rak2245-pi-hat-datasheet
-      - name: FCC Certification Report
-        href: http://docs.rakwireless.com/en/LoRa/RAK2245/Certification-Report/RAK2245_FCC_Certificate.zip
-      - name: CE Certification Report
-        href: http://docs.rakwireless.com/en/LoRa/RAK2245/Certification-Report/RAK2245_CE_Certificate.zip
+      - name: Datasheet
+        href: /en-us/datasheet/rak2245-pihat
+      - name: RAK7244 with PoE Assembly Guide
+        href: https://downloads.rakwireless.com/LoRa/Developer-LoRaWAN-Gateway-RAK7244%26RAK7244P/Hardware-Specification/RAK7244P_Assembly_Guide.pdf
+      - name: Environment Test Report
+        href: https://downloads.rakwireless.com/LoRa/Developer-LoRaWAN-Gateway-RAK7244%26RAK7244P/Hardware-Specification/RAK7244_Environment_Test_Report.pdf
+      - name: Firmware
+        href: https://downloads.rakwireless.com/LoRa/Developer-LoRaWAN-Gateway-RAK7244%26RAK7244P/Firmware/RAK7244_Latest_Firmware.zip
+      - name: Downloads
+        href: https://downloads.rakwireless.com/LoRa/Developer-LoRaWAN-Gateway-RAK7244%26RAK7244P/
 ---
 
 # RAK7244 LoRaWAN® Developer Gateway

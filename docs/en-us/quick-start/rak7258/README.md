@@ -13,9 +13,15 @@ params:
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK7258 Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak7258/#rak7258-micro-gateway
-      - name: RAK7258 Downloadable Files
+      - name: Coverage Test Report
+        href: https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/Application-Notes/RAK7258_Coverage_Test_Report_V1.2.pdf
+      - name: FCC and CE Certification Report
+        href: https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/Certification-Report/
+      - name: Firmware
+        href: https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/Firmware/RAK7258_Latest_Firmware.zip
+      - name: Downloads
         href: https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/
 ---
 

@@ -5,16 +5,18 @@ rak_grp: lora-node
 params:
   qlinks:
     learnMore:
-      - name: Projects Using the RAK7204 LPWAN Environmental Sensor
+      - name: Projects
         href: https://www.hackster.io/search?i=projects&q=RAK7204
       - name: Community
         href: https://forum.rakwireless.com/
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK7204 Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak7204/#rak7204-lpwan-environmental-sensor
-      - name: RAK7204 Downloadables
+      - name: Firmware
+        href : https://downloads.rakwireless.com/LoRa/RAK7204/Firmware/
+      - name: Downloads
         href: https://downloads.rakwireless.com/LoRa/RAK7204/
 ---
 

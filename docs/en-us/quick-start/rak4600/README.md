@@ -5,19 +5,22 @@ rak_grp: lora-node
 params:
   qlinks1:
     learnMore:
-      - name: Projects Using the RAK4600 LPWAN Evaluation Board
+      - name: Projects
         href: https://www.hackster.io/search?i=projects&q=rak4600
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
-      - name: RAK4600 LPWAN Evaluation Board Datasheet
+      - name: Datasheet
         href: /en-us/datasheet/rak4600/#rak4600-lpwan-module
-      - name: RAK4600 LPWAN Evaluation Board Firmware
-        href: https://downloads.rakwireless.com/LoRa/RAK4600/Firmware/
-      - name: RAK4600 LPWAN Evaluation Board Schematics
+      - name: Schematic Diagram
         href: https://downloads.rakwireless.com/en/LoRa/RAK4600/Hardware-Specification/RAK4600_EVB_Schematic.pdf
+      - name: Firmware
+        href: https://downloads.rakwireless.com/LoRa/RAK4600/Firmware/
+      - name: Downloads
+        href: https://downloads.rakwireless.com/LoRa/RAK4600/
+     
 ---
 
 # RAK4600 LPWAN Evaluation Board
