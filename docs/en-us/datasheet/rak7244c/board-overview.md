@@ -1,4 +1,4 @@
-## Board Overview
+## I. Board Overview
 
 The outer dimension of **RAK7244C LPWAN Developer Gateway** measures 92 x 68.3 x 53.5 mm as shown in the image below.
 

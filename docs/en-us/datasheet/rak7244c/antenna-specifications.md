@@ -1,30 +1,28 @@
-## Antenna Specifications
+## X. Antenna Specifications
 
 ### LoRa® Antenna
-
-#### Overview
 
 The LoRa® Antenna with RP-SMA female connector is shown in the image below:
 
 <rk-img
   src="/assets/images/datasheet/rak7244c/antenna-specifications/ve8scbrbhdlcdaxa8x43.png"
-  width="80%"
+  width="75%"
   figure-number="1"
   caption="LoRa® Antenna Overview"
 />
 
-#### Antenna Dimension
+### Antenna Dimension
 
 Figure 2 shows the antenna's mechanical dimension.
 
 <rk-img
   src="/assets/images/datasheet/rak7244c/antenna-specifications/fggmm4b6rk79c5jj9xot.png"
-  width="100%"
+  width="75%"
   figure-number="2"
   caption="LoRa® Antenna Dimension"
 />
 
-#### Antenna Parameters
+### Antenna Parameters
 
 | Items                              | Specifications                 |
 | ---------------------------------- | ------------------------------ |
@@ -35,27 +33,25 @@ Figure 2 shows the antenna's mechanical dimension.
 
 ### LTE Antenna
 
-#### Overview
-
 The LTE antenna for the Developer Gateway covers working frequency band from 824MHz to 2690MHz. The antenna is shown in Figure 3.
 
 <rk-img
   src="/assets/images/datasheet/rak7244c/antenna-specifications/rhh9xrj0pfazqtaegxiv.jpg"
-  width="80%"
+  width="75%"
   figure-number="3"
   caption="LTE Antenna"
 />
 
-#### Antenna Dimension
+### Antenna Dimension
 
 <rk-img
   src="/assets/images/datasheet/rak7244c/antenna-specifications/hmqp4xvybryisixcoq86.jpg"
-  width="80%"
+  width="75%"
   figure-number="4"
   caption="LTE Antenna Dimension"
 />
 
-#### Antenna Parameters
+### Antenna Parameters
 
 | Items                              | Specifications                                 |
 | ---------------------------------- | ---------------------------------------------- |
@@ -67,27 +63,25 @@ The LTE antenna for the Developer Gateway covers working frequency band from 824
 
 ### GPS Antenna
 
-#### Overview
-
 The GPS antenna for Pilot Gateway is shown below
 
 <rk-img
   src="/assets/images/datasheet/rak7244c/antenna-specifications/ftzgxoaywuiq7xmy8shj.jpg"
-  width="70%"
+  width="40%"
   figure-number="5"
   caption="GPS Antenna"
 />
 
-#### GPS Antenna Dimension
+### GPS Antenna Dimension
 
 <rk-img
   src="/assets/images/datasheet/rak7244c/antenna-specifications/boh9fwujcictm8er5yug.jpg"
-  width="100%"
+  width="75%"
   figure-number="6"
   caption="GPS Antenna Dimensions"
 />
 
-#### GPS Environmental Requirements
+### GPS Environmental Requirements
 
 The antenna environmental requirements are listed in the table below:
 
@@ -96,7 +90,7 @@ The antenna environmental requirements are listed in the table below:
 | Working    | -35 ºC ~ +80 ºC | 0% ~ 95% |
 | Storage    | -40 ºC ~ +85 ºC | 0% ~ 95% |
 
-#### GPS Antenna Parameters
+### GPS Antenna Parameters
 
 The GPS Antenna specifications are listed in the table below:
 
@@ -125,7 +119,7 @@ Amplifier Specifications are listed below:
 
 Environmental test performance specifications are listed below:
 
-| Item              | Normal Temp. | High Temp \[1\]* | Low Temp \[2\]* |
+| Item              | Normal Temp. | High Temp [1] | Low Temp [2] |
 | ----------------- | ------------ | --------------- | -------------- |
 | Amplifier Gain    | 27dB ± 2.0   | 27dB ± 2.0      | 27dB ± 2.0     |
 | VSWR              | ≤ 2.0        | ≤ 2.0           | ≤ 2.0          |

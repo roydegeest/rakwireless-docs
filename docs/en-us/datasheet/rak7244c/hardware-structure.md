@@ -1,4 +1,4 @@
-## Hardware Structure
+## VI. Hardware Structure
 
 The RAK7244C Pro version consisted of a RAK2245 Pi Hat and RAK2013 Pi HAT
 
