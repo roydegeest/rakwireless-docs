@@ -1,8 +1,4 @@
----
-next: mechanical-characteristics
----
-
-# RF Characteristics
+## RF Characteristics
 
 The following table gives typically sensitivity
 level of the RAK833 LPWAN Gateway Concentrator Module:

@@ -1,5 +1,4 @@
 ---
-next: board-overview
 tags:
 - datasheet
 ---
@@ -37,3 +36,12 @@ enable the GPS low power mode.
 - Supports global license-free ISM band (EU433, CN470, EU868, US915, AS923, AU915, KR920, IN865 and AS920). 
 - Supports I2C, GPIOs, UART and ADC interfaces.
 
+!!!include(en-us/datasheet/rak5205/board-overview.md)!!!
+!!!include(en-us/datasheet/rak5205/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/rak5205/interfaces.md)!!!
+!!!include(en-us/datasheet/rak5205/pin-definition.md)!!!
+!!!include(en-us/datasheet/rak5205/power-consumption.md)!!!
+!!!include(en-us/datasheet/rak5205/environmental-requirements.md)!!!
+!!!include(en-us/datasheet/rak5205/mechanical-dimensions.md)!!!
+!!!include(en-us/datasheet/rak5205/antenna-specifications.md)!!!
+!!!include(en-us/datasheet/rak5205/schematics.md)!!!

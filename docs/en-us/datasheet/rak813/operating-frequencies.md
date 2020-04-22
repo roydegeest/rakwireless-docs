@@ -1,4 +1,4 @@
-# Operating Frequencies
+## Operating Frequencies
 
 ### LoRa® Frequency
 

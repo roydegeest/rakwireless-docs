@@ -1,8 +1,4 @@
----
-next: rf-characteristics
----
-
-# Electrical Characteristics
+## Electrical Characteristics
 
 Listed in this document are the differenct electrical characteristics of RAK831 LPWAN Gateway.
 
@@ -10,7 +6,7 @@ Listed in this document are the differenct electrical characteristics of RAK831 
 Stress exceeding of one or more of the limiting values listed under **Absolute Maximum Ratings** may cause permanent damage to the radio module.
 :::
 
-## Absolute Maximum Ratings
+### Absolute Maximum Ratings
 
 | Parameter             | Condition | Min  | Typ. | Max | Unit |
 | --------------------- | --------- | ---- | ---- | --- | ---- |
@@ -23,7 +19,7 @@ Stress exceeding of one or more of the limiting values listed under **Absolute M
 With RF output power level above +15 dBm, a minimum distance to a transmitter should be 1 meter to avoid too large input level.
 :::
 
-## Global Electrical Characteristics
+### Global Electrical Characteristics
 
 | Parameter            | Condition  | Min | Typ. | Max | Unit |
 | -------------------- | ---------- | --- | ---- | --- | ---- |

@@ -1,8 +1,4 @@
----
-next: operating-frequencies
----
-
-# Board Overview
+## Board Overview
 
 <rk-img
   src="/assets/images/datasheet/rak2245-pihat/rak2245-dimensions.jpg"

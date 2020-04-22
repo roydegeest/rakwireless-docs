@@ -1,8 +1,4 @@
----
-next: general-specifications
----
-
-# Block Diagram
+## Block Diagram
 
 <rk-img
   src="/assets/images/datasheet/rak8212/block_diagram.png"

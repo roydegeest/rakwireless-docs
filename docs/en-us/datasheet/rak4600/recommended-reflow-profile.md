@@ -1,14 +1,9 @@
----
-static_root: /assets/images/datasheet/rak4600/recommended-reflow-profile
-next: /en-us/datasheet/rak5205/
----
-
-# Recommended Reflow Profile
+## Recommended Reflow Profile
 
 In this section, the recommended Reflow profile for RAK4600 LPWAN Module is described with the image below:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/jrhzrgsko4nmfcwpirix.jpg`"
+  src="/assets/images/datasheet/rak4600/recommended-reflow-profile/jrhzrgsko4nmfcwpirix.jpg"
   width="100%"
   figure-number="1"
   caption="Recommended Reflow Profile"

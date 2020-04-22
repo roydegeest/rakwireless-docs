@@ -1,8 +1,4 @@
----
-next: interfaces
----
-
-# Networking Applications
+## Networking Applications
 
 RAK7431 can convert the data of RS485 devices into LoRaWAN® that can be sent to the cloud via a standard LoRaWAN® Gateway. Cloud servers can also actively send data to RS485 terminals to achieve two-way data transmission. Using RAK7431, what used to be a costly and time-consuming cable line network deployment can be transformed into a rapid and cost-efficient wireless network deployment.
 
@@ -15,7 +11,7 @@ An example would be using the RAK7249 LoRaWAN® Gateway coupled with the RAK Wis
   caption="RAK7431 - RS485 to LoRaWAN® network structure"
 />
 
-## Polling Mode
+### Polling Mode
 
 RAK7431 can work in polling mode in order to send query instructions to RS485 nodes, and convert the data returned into LoRa® frames to be relayed to the application server via a LoRaWAN® Gateway.
 

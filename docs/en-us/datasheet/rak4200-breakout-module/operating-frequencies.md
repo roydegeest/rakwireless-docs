@@ -1,8 +1,4 @@
----
-next: pin-definition
----
-
-# Operating Frequencies
+## Operating Frequencies
 
 The RAK4200 Breakout Module supports the following LoRa® bands:
 

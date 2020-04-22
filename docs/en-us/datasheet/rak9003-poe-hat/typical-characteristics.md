@@ -1,8 +1,4 @@
----
-next: electrical-characteristics
----
-
-# Typical Characteristics (Vout=5V)
+## Typical Characteristics (Vout=5V)
 
 <rk-img
   src="/assets/images/datasheet/rak9003-poe-hat/noise-fig-1.png"

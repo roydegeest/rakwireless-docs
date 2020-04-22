@@ -1,4 +1,4 @@
-# Operating Frequencies
+## Operating Frequencies
 
 The RAK4260 LPWAN Module supports LoRaWAN® frequency included in the table provided below:
 

@@ -1,8 +1,4 @@
----
-next: lte-and-gps-antenna
----
-
-# Mechanical Dimensions
+## Mechanical Dimensions
 
 Here is the detailed dimension of RAK2013 module. For full specification including electrical requirements, please visit this [**site**](https://github.com/raspberrypi/hats).
 

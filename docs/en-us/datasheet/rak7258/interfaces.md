@@ -1,9 +1,6 @@
----
-next: /en-us/datasheet/rak811-breakout-module/
----
-# Interfaces
+## Interfaces
 
-## Block Diagram
+### Block Diagram
 
 <rk-img
   src="/assets/images/datasheet/rak7258/block_diagram.png"
@@ -12,7 +9,7 @@ next: /en-us/datasheet/rak811-breakout-module/
   caption="RAK7258 Micro Gateway Block Diagram"
 />
 
-## Hardware Interfaces
+### Hardware Interfaces
 
 The hardware interfaces of RAK7258 Micro Gateway include DC 12V, ETH interface, Console interface, Reset key, USB port, Nano SIM slot, TF Card slot, six (6) Status indicator LEDs, LoRa® Antenna connector etc. as shown in the following figure.
 
@@ -23,7 +20,7 @@ The hardware interfaces of RAK7258 Micro Gateway include DC 12V, ETH interface, 
   caption="RAK7258 Micro Gateway Hardware Interfaces"
 />
 
-### Reset Key Functions
+#### Reset Key Functions
 The function of the **Reset** key is as follows:
 
 1. **Short press**: Restarts the Gateway
@@ -40,7 +37,7 @@ The status of the LEDs is described as below:
 | STAT | Expanded Led indicator, useless                                                                                                                                                                                                      |
 | WLAN | AP Mode : <br>**ON**: WLAN is working<br>**Flash**: Data Transmitting and Receiving <br><br>STA Mode : <br>**Slow Flash (1Hz)**: Connection Disconnected <br>**ON**: Connection Successful <br>**Flash**: Data Receiving and Sending |
 
-## Software Features and UI
+### Software Features and UI
 
 | LoRa                      | Back-haul              | Management           |
 | ------------------------- | ---------------------- | -------------------- |

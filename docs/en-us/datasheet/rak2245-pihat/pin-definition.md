@@ -1,8 +1,4 @@
----
-next: electrical-characteristics
----
-
-# Pin Definition
+## Pin Definition
 
 The pin connector of RAK2245 Pi HAT is located at the bottom side. Refer to the diagram and table below for the description and numbering of each pins.
 

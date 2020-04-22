@@ -1,11 +1,8 @@
----
-next: /en-us/datasheet/rak7431/
----
-# Sensor Characteristics
+## Sensor Characteristics
 
 Listed below are the individual specifications of sensors attached within the RAK7204 LPWAN Environmental Sensor: 
 
-## Temperature Sensor Specifications
+### Temperature Sensor Specifications
 
 | Parameter         | Min.   | Typical | Max.   |
 | ----------------- | ------ | ------- | ------ |
@@ -14,7 +11,7 @@ Listed below are the individual specifications of sensors attached within the RA
 | Output Resolution |        | 0.01 ºC |        |
 
 
-## Humidity Sensor Specifications
+### Humidity Sensor Specifications
 
 | Parameter         | Min.    | Typical     | Max.       |
 | ----------------- | ------- | ----------- | ---------- |
@@ -23,7 +20,7 @@ Listed below are the individual specifications of sensors attached within the RA
 | Output Resolution |         | 0.008% r.H. |            |
 
 
-## Gas Pressure Sensor Specifications
+### Gas Pressure Sensor Specifications
 
 | Parameter         | Min.    | Typical   | Max.     |
 | ----------------- | ------- | --------- | -------- |
@@ -32,7 +29,7 @@ Listed below are the individual specifications of sensors attached within the RA
 | Output Resolution |         | 0.18 Pa   |          |
 
 
-## IAQ Sensor Specifications
+### IAQ Sensor Specifications
 
 | Parameter         | Min. | Typical | Max. |
 | ----------------- | ---- | ------- | ---- |

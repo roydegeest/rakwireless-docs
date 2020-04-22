@@ -1,8 +1,4 @@
----
-static_root: /assets/images/datasheet/rak7246g/electrical-characteristics
----
-
-# Electrical Characteristics
+## Electrical Characteristics
 
 In this section, different Electrical Characteristics of the RAK2246 are listed. Furthermore, details and other parameter ranges are available on request.
 
@@ -12,7 +8,7 @@ listed under “**Absolute Maximum Ratings**” may cause permanent damage to th
 module.
 :::
 
-## Absolute Maximum Ratings
+### Absolute Maximum Ratings
 
 | **Parameter**         | **Condition** | **Min** | **Typ.** | **Max** | **Unit** |
 | --------------------- | ------------- | ------- | -------- | ------- | -------- |
@@ -24,7 +20,7 @@ module.
 With RF output power level above **+15 dBm,** a minimum distance to a transmitter should be 1m to avoid too large input level.
 :::
 
-## Global Electrical Characteristics
+### Global Electrical Characteristics
 
 | **Parameter**        | **Condition** | **Min** | **Typ.** | **Max** | **Unit** |
 | -------------------- | ------------- | ------- | -------- | ------- | -------- |

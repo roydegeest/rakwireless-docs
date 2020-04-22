@@ -1,8 +1,4 @@
----
-next: operating-frequencies
----
-
-# Board Overview
+## Board Overview
 
 The picture below shows the top view and external interfaces of the RAK5205 LPWAN tracker board.
 

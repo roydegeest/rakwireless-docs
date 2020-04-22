@@ -1,11 +1,7 @@
----
-static_root: /assets/images/datasheet/rak811/schematic-diagram
----
-
-# Schematic Diagram
+## Schematic Diagram
 
 <rk-img
-  :src="`${$frontmatter.static_root}/ghs8zbyhzisoqxezofnz.jpg`"
+  src="/assets/images/datasheet/rak811/schematic-diagram/ghs8zbyhzisoqxezofnz.jpg"
   width="100%"
   figure-number="1"
   caption="Reference Design"

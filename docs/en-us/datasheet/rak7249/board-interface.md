@@ -1,8 +1,4 @@
----
-next: /en-us/datasheet/rak7258/
----
-# Board Interface
-
+## Board Interface
 
 <rk-img
   src="/assets/images/datasheet/rak7249/circuit-board-interface.png"
@@ -11,14 +7,14 @@ next: /en-us/datasheet/rak7258/
   caption="Circuit Board Interface"
 />
 
-## Reset Key Functions
+### Reset Key Functions
 
 The RAK7249 Macro Outdoor Gateway's mainboard provides a Reset key and 6 x LEDs for status indication. The function of the Reset key is as follows:
 
 - **Short press**: Restarts the Gateway
 - **Long press (5s and above)**: Restore Factory Settings;
 
-## LED Indicators
+### LED Indicators
 
 The status of the LEDs is described as below. Please refer to the printing of the LEDs
 on the mainboard.

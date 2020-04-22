@@ -1,6 +1,6 @@
-# Device Specification
+## Device Specification
 
-## General Specification
+### General Specification
 
 | **Model Name**            | RAK811                      |
 | ------------------------- | --------------------------- |
@@ -9,14 +9,14 @@
 | **Operating Temperature** | -40°C to 85°C               |
 | **Storage Temperature**   | -40°C to 85°C               |
 
-## Recommended Operating Rating
+### Recommended Operating Rating
 
 | **Feature**           | **Min** | **Typ** | **Max** | **Unit** |
 | --------------------- | ------- | ------- | ------- | -------- |
 | Operating Temperature | -40     | 25      | 85      | °C       |
 | VCC                   | 3.15    | 3.3     | 3.45    | V        |
 
-## Specification
+### Specification
 
 | **Feature**    | **Description**                                                             |
 | -------------- | --------------------------------------------------------------------------- |

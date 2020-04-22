@@ -1,7 +1,4 @@
----
-next: /en-us/datasheet/rak7200/
----
-# Schematics
+## Schematics
 
 <rk-img
   src="/assets/images/datasheet/rak5205/rak5205-schematic-diagram-with-bq21040-chip.jpg"

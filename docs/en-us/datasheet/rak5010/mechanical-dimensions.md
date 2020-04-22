@@ -1,8 +1,4 @@
----
-next: antenna-characteristics
----
-
-# Mechanical Dimensions
+## Mechanical Dimensions
 
 Here are the detailed dimensions of the RAK5010 Tracker:
 

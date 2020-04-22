@@ -1,7 +1,4 @@
----
-next: /en-us/datasheet/rak8212/
----
-# Schematic Diagram
+## Schematic Diagram
 
 The component schematic diagram of the RAK5010 are shown below:
 

@@ -1,6 +1,6 @@
-# Interfaces
+## Interfaces
 
-## Block Diagram
+### Block Diagram
 
 The block diagram below shows the external interfaces of the RAK4200 LPWAN Module.
 

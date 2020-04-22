@@ -1,5 +1,4 @@
 ---
-next: /en-us/datasheet/rak7240/board-overview.html
 tags:
 - datasheet
 ---
@@ -42,3 +41,6 @@ Thus, the **RAK7240 Outdoor LPWAN Gateway**, is suited for any use case scenario
 * **MQTT v3.1** Bridging with **TLS** encryption
 * **Buffering of LoRa® frames** in case of NS outage (no data loss)
 
+!!!include(en-us/datasheet/rak7240/board-overview.md)!!!
+!!!include(en-us/datasheet/rak7240/product-specifications.md)!!!
+!!!include(en-us/datasheet/rak7240/interfaces.md)!!!

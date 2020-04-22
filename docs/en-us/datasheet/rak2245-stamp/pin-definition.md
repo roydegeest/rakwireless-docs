@@ -1,8 +1,4 @@
----
-static_root: /assets/images/datasheet/rak2245-stamp/pin-definition
----
-
-# Pin Definition
+## Pin Definition
 
 The pinout diagram for the RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module is shown by the figure below.
 

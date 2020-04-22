@@ -1,13 +1,9 @@
----
-static_root: /assets/images/datasheet/rak4600-breakout/pin-definition
----
-
-# Pin Definition
+## Pin Definition
 
 The figure below shows the pinout of the RAK4600 Breakout Module:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/bqiem8snfmmzg4hl3mk3.jpg`"
+  src="/assets/images/datasheet/rak4600-breakout/pin-definition/bqiem8snfmmzg4hl3mk3.jpg"
   width="100%"
   figure-number="1"
   caption="RAK4600 Breakout Module Pinout"
@@ -16,7 +12,7 @@ The figure below shows the pinout of the RAK4600 Breakout Module:
 The pin definitions of the
 RAK4600 Breakout Module are shown in the following tables below:
 
-## J7 Pin Definitions
+### J7 Pin Definitions
 
 | **Pin** | **Name**  | **I/O** | **Description**                              | **Alternate functions**                                 |
 | ------- | --------- | ------- | -------------------------------------------- | ------------------------------------------------------- |
@@ -29,7 +25,7 @@ RAK4600 Breakout Module are shown in the following tables below:
 | 7       | I2C_SCL   | I/O     | I2C (GPIO NRF52832 p0.12)                    | GPIO                                                    |
 | 8       | I2C_SDA   | I/O     | I2C (GPIO NRF52832 p0.13)                    | GPIO                                                    |
 
-## J8 Pin Definitions
+### J8 Pin Definitions
 
 | **Pin** | **Name** | **I/O** | **Description**                 | **Alternate Functions**         |
 | ------- | -------- | ------- | ------------------------------- | ------------------------------- |
@@ -42,7 +38,7 @@ RAK4600 Breakout Module are shown in the following tables below:
 | 7       | Reserved | I/O     | Reserved (GPIO NRF52832 p0.17)  | GPIO                            |
 | 8       | GND      | I/O     | Ground                          |                                 |
 
-## J4 Pin Definitions
+### J4 Pin Definitions
 
 | **Pin** | **Name** | **I/O** | **Description** | **Alternate Functions**   |
 | ------- | -------- | ------- | --------------- | ------------------------- |

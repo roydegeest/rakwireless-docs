@@ -1,12 +1,9 @@
----
-next: schematics
----
-
-# LTE and GPS Antenna
+## LTE and GPS Antenna
 
 For module built-in BG96, there is one LTE antenna and one GPS antenna. For module built-in EG91/EG95, there are two LTE antennas, and no GPS antenna with the module.
 
-## LTE Antenna
+### 1. LTE Antenna
+
 ### Overview
 
 <rk-img
@@ -80,7 +77,7 @@ The specifications and parameter of the antenna are shown below:
     </tbody>
 </table>
 
-## GPS Antenna
+### 1. GPS Antenna
 
 ### Overview
 The GPS antenna for RAK2013 is shown below. Only the RAK2013 with BG96 supports the GPS function.

@@ -1,8 +1,4 @@
----
-next: antenna-specifications
----
-
-# Environmental Requirements
+## Environmental Requirements
 
 The table below lists the operation and storage temperature Requirements.
 

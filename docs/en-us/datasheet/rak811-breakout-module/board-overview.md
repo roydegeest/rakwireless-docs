@@ -1,8 +1,4 @@
----
-next: pin-definition
----
-
-# Board Overview
+## Board Overview
 
 The **RAK811 LoRa® Breakout Module** has a board dimension of **42mm x 25mm** and weighs at about **0.2kg**.
 

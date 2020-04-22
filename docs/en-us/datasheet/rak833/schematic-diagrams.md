@@ -1,8 +1,4 @@
----
-next: reference-applications
----
-
-# Schematic Diagrams
+## Schematic Diagrams
 
 RAK833 LPWAN Gateway Concentrator Module refer Semtech’s reference design of SX1301, and a 4 chancel SPDT to switch SPI of SX1301 to PCI edge connector or FT2232H which converts SPI to USB2.0 interface.
 

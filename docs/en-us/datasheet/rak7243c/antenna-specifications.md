@@ -1,11 +1,8 @@
----
-next: /en-us/datasheet/rak7244c/
----
-# Antenna Specifications
+## Antenna Specifications
 
-## LoRa® Antenna
+### LoRa® Antenna
 
-### Overview
+#### Overview
 
 The LoRa® Antenna with RP-SMA female connector shown in the figure below:
 
@@ -16,7 +13,7 @@ The LoRa® Antenna with RP-SMA female connector shown in the figure below:
   caption="LoRa® Antenna Overview"
 />
 
-### Antenna Dimension
+#### Antenna Dimension
 
 The antenna's mechanical dimension is shown below:
 
@@ -27,7 +24,7 @@ The antenna's mechanical dimension is shown below:
   caption="LoRa® Antenna Dimension in mm"
 />
 
-### Antenna Parameters
+#### Antenna Parameters
 
 | Items                              | Specifications                 |
 | ---------------------------------- | ------------------------------ |
@@ -37,12 +34,12 @@ The antenna's mechanical dimension is shown below:
 | Storage Temperature &amp; Humidity | T:-40 ºC ~ +85 ºC, H: 0% ~ 95% |
 
 
-## LTE Antenna
+### LTE Antenna
 
 For module built-in BG96, there is one LTE antenna and one GPS antenna. For module
 built-in EG91/EG95, there are two LTE antennas, and no GPS antenna with the module.
 
-### Overview
+#### Overview
 
 The LTE antenna for the Pilot Gateway Pro covers working frequency band
 from 824MHz to 2690MHz. The antenna is shown as below.    
@@ -54,7 +51,7 @@ from 824MHz to 2690MHz. The antenna is shown as below.
   caption="LTE Antenna"
 />
 
-### Antenna Dimension
+#### Antenna Dimension
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/lte-antenna-dimensions.jpg"
@@ -63,7 +60,7 @@ from 824MHz to 2690MHz. The antenna is shown as below.
   caption="LTE Antenna Dimension"
 />
 
-### Antenna Parameters
+#### Antenna Parameters
 
 | Items                              | Specifications                                 |
 | ---------------------------------- | ---------------------------------------------- |
@@ -74,9 +71,9 @@ from 824MHz to 2690MHz. The antenna is shown as below.
 | Storage Temperature &amp; Humidity | T:-40 ºC ~ +85 ºC, H: 0% ~ 95%                 |
 
 
-## GPS Antenna
+### GPS Antenna
 
-### Overview
+#### Overview
 
 The GPS antenna for Pilot Gateway is shown below
 
@@ -87,7 +84,7 @@ The GPS antenna for Pilot Gateway is shown below
   caption="GPS Antenna"
 />
 
-### GPS Antenna Dimension
+#### GPS Antenna Dimension
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/gps-antenna-dimensions.jpg"
@@ -96,7 +93,7 @@ The GPS antenna for Pilot Gateway is shown below
   caption="GPS Antenna Dimensions"
 />
 
-### GPS Environmental Requirements
+#### GPS Environmental Requirements
 
 The antenna environmental requirements are listed in the table below:
 
@@ -106,7 +103,7 @@ The antenna environmental requirements are listed in the table below:
 | Storage    | -40 ºC ~ +85 ºC | 0% ~ 95% |
 
 
-### GPS Antenna Parameters
+#### GPS Antenna Parameters
 
 Antenna specifications are listed in the table below:
 

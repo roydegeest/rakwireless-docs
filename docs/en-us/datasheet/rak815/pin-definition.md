@@ -1,8 +1,4 @@
----
-next: schematic-diagram
----
-
-# Pin Definition
+## Pin Definition
 
 <rk-img
   src="/assets/images/datasheet/rak815/rak815-interface.png"
@@ -15,7 +11,7 @@ next: schematic-diagram
 The pin numbers in the succeeding tables are sorted from top to bottom as shown in the above figure.
 :::
 
-## SWD Debug Interface
+### SWD Debug Interface
 
 <rk-img
   src="/assets/images/datasheet/rak815/rak815-swd-debug-interface.jpg"
@@ -33,7 +29,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 |   4   | P0.21\_NRST | P0.21 for NRF52832, can be used as Reset pin (Button3) |
 |   5   |     GND     | Ground                                                 |
 
-## UART Switch Interface
+### UART Switch Interface
 
 <rk-img
   src="/assets/images/datasheet/rak815/rak815-uart-switch-interface.jpg"
@@ -52,7 +48,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 |   6   |   RXD    | The CP2102 converts the USB to the RXD pin of the UART |
 
 
-## GPS Module Expansion
+### GPS Module Expansion
 
 <rk-img
   src="/assets/images/datasheet/rak815/rak815-gps-module-expansion.jpg"
@@ -70,7 +66,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 |   4   | GPS\_RXD | UART RXD Pin for GPS Module                        |
 |   5   |  P0.30   | P0.30 for NRF52832, used to control GPS module PPS |
 
-## Reserved I2C Interface of the LCD
+### Reserved I2C Interface of the LCD
 
 <rk-img
   src="/assets/images/datasheet/rak815/rak815-reserved-i2c-interface.jpg"
@@ -86,7 +82,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 |   3   |  SCL   | I2C SCL Clock Line |
 |   4   |  SDA   | I2C SDA Data Line  |
 
-## P1 and P3 Interface PINOUT
+### P1 and P3 Interface PINOUT
 
 <rk-img
   src="/assets/images/datasheet/rak815/rak815-p1-and-p3-pinout.jpg"

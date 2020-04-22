@@ -1,13 +1,7 @@
----
-static_root: /assets/images/datasheet/rak813/pin-definition
----
-
-# Pin Definition
-
-### Pin Outline
+## Pin Definition
 
 <rk-img
-  :src="`${$frontmatter.static_root}/RAK813_Pinout.jpg`"
+  src="/assets/images/datasheet/rak813/pin-definition/RAK813_Pinout.jpg"
   width="80%"
   figure-number="1"
   caption="Pin Out Diagram for RAK813"

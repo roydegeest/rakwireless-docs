@@ -1,10 +1,10 @@
-# Electrical Characteristics
+## Electrical Characteristics
 
-## Electrical Consumption
+### Electrical Consumption
 
 Several current consumption ratings are provided below for a detailed RAK4200 LPWAN Module usage. Refer to the values provided for specific simulations and calculations.
 
-## Laboratory Testing
+### Laboratory Testing
 
 The following figures shown below are the average current consumptions based on the different test cases.
 

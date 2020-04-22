@@ -1,7 +1,6 @@
+## Electrical Characteristics
 
-# Electrical Characteristics
-
-## Power Consumption
+### Power Consumption
 Shown in the table provided below is the power consumption of the RAK4260 WisDuo LPWAN Module.
 
 
@@ -16,7 +15,7 @@ Shown in the table provided below is the power consumption of the RAK4260 WisDuo
 
 
 
-## OUTPUT POWER 20dB(MAX)PA_BOOST mode
+### OUTPUT POWER 20dB(MAX)PA_BOOST mode
 
 <rk-img
   src="/assets/images/datasheet/rak4260/output-power-20db.jpg"
@@ -25,7 +24,7 @@ Shown in the table provided below is the power consumption of the RAK4260 WisDuo
   caption="OUTPUT POWER 20dB(MAX)"
 />
 
-## OUTPUT POWER 17dB(PA_BOOST mode)
+### OUTPUT POWER 17dB(PA_BOOST mode)
 
 <rk-img
   src="/assets/images/datasheet/rak4260/output-power-17db.jpg"
@@ -34,7 +33,7 @@ Shown in the table provided below is the power consumption of the RAK4260 WisDuo
   caption="OUTPUT POWER 17dB"
 />
 
-## OUTPUT POWER 14dB(RFO_HF mode)
+### OUTPUT POWER 14dB(RFO_HF mode)
 
 <rk-img
   src="/assets/images/datasheet/rak4260/output-power-14db.jpg"
@@ -43,7 +42,7 @@ Shown in the table provided below is the power consumption of the RAK4260 WisDuo
   caption="OUTPUT POWER 14dB"
 />
 
-## Receive mode
+### Receive mode
 
 <rk-img
   src="/assets/images/datasheet/rak4260/receive-mode.jpg"
@@ -52,7 +51,7 @@ Shown in the table provided below is the power consumption of the RAK4260 WisDuo
   caption="Receive Mode"
 />
 
-## Sleep Mode
+### Sleep Mode
 
 <rk-img
   src="/assets/images/datasheet/rak4260/sleep-mode.jpg"
@@ -61,7 +60,7 @@ Shown in the table provided below is the power consumption of the RAK4260 WisDuo
   caption="Sleep Mode"
 />
 
-## Sensitivity Level
+### Sensitivity Level
 
 The following chart shows the receiving sensitivity of RAK4260 at 868 Mhz.
 

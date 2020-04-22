@@ -1,5 +1,4 @@
 ---
-next: operating-frequencies
 tags:
 - datasheet
 ---
@@ -36,3 +35,6 @@ Last but not least, the RAK7204 adopts a highly integrated design. The environme
 - Battery life of more than 2 years (At 15 minute data transmission interval)
 - Compact in size, easy to install and maintain.
 
+!!!include(en-us/datasheet/rak7204/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/rak7204/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/rak7204/sensor-characteristics.md)!!!

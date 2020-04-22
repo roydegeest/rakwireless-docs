@@ -1,8 +1,4 @@
----
-next: interfaces
----
-
-# Operating Frequencies
+## Operating Frequencies
 
 The board supports the following LoRaWAN® frequency channels shown in the table below. The frequency parameter is easy to configure when configuring the device setup.
 

@@ -1,5 +1,4 @@
 ---
-next: board-overview
 tags:
 - datasheet
 ---
@@ -36,3 +35,12 @@ The RAK2013 is compatible with RAK2245 Pi Hat Concentrator module via the onboar
 * SMA/IPEX antenna optional for LTE and GPS.
 * Supports I2C, GPIOs, UART and ADC interfaces for Raspberry board.
 * Supports EEPROM to configure IOs automatically.
+
+!!!include(en-us/datasheet/rak2013/board-overview.md)!!!
+!!!include(en-us/datasheet/rak2013/interfaces.md)!!!
+!!!include(en-us/datasheet/rak2013/frequency-bands-and-data-rate.md)!!!
+!!!include(en-us/datasheet/rak2013/board-pin-out-and-components.md)!!!
+!!!include(en-us/datasheet/rak2013/working-requirements.md)!!!
+!!!include(en-us/datasheet/rak2013/mechanical-dimensions.md)!!!
+!!!include(en-us/datasheet/rak2013/lte-and-gps-antenna.md)!!!
+!!!include(en-us/datasheet/rak2013/schematics.md)!!!

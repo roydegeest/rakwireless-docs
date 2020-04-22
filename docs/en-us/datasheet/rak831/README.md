@@ -1,5 +1,4 @@
 ---
-next: board-overview
 tags:
 - datasheet
 ---
@@ -47,3 +46,8 @@ Applications possible with the RAK831 include Smart Metering ,Wireless Star Netw
 * Optional GPS receiver 
 * **Line of Sight Range**: up to 15 kilometers
 
+!!!include(en-us/datasheet/rak831/board-overview.md)!!!
+!!!include(en-us/datasheet/rak831/pin-definition.md)!!!
+!!!include(en-us/datasheet/rak831/interfaces.md)!!!
+!!!include(en-us/datasheet/rak831/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/rak831/rf-characteristics.md)!!!

@@ -1,6 +1,6 @@
-# Product Specifications
+## Product Specifications
 
-## Main Specifcations
+### Main Specifcations
 
 | **Feature**           | **Specifications**                                                                                                                                                                                                                                      |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -17,9 +17,9 @@
 | Dimension             | • 96mm x 66mm x 47mm                                                                                                                                                                                                                                    |
 | Operating Temperature | • -10 to 65˚C                                                                                                                                                                                                                                           |
 
-## RF Specifications
+### RF Specifications
 
-### Wi-Fi Radio Specifications
+#### Wi-Fi Radio Specifications
 
 | **Feature**             | **Specifications**           |
 | ----------------------- | ---------------------------- |
@@ -27,7 +27,7 @@
 | **Operating Frequency** | • ISM band: 2.412~2.472(GHz) |
 | **Operation Channels**  | • 2.4GHz: 1-13               |
 
-### LoRa Radio Specifications
+#### LoRa Radio Specifications
 
 | **Feature**              | **Specifications**                                      |
 | ------------------------ | ------------------------------------------------------- |
@@ -35,9 +35,9 @@
 | **Transmit Power**       | • 20 dBm (Max)                                          |
 | **Receiver Sensitivity** | • -139 dBm (Min)                                        |
 
-## Software Specifications
+### Software Specifications
 
-### LoRa
+#### LoRa
 
 - Class A, C
 - LoRa package forwarder
@@ -46,11 +46,11 @@
 - Location setup
 - Supports server address & port setup
 
-### Network
+#### Network
 
 - Wi-Fi AP/Client mode
 - DHCP Client
 
-### Management
+#### Management
 
 - SSH2

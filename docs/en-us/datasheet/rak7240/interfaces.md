@@ -1,6 +1,6 @@
-# Interfaces
+## Interfaces
 
-## Block Diagram
+### Block Diagram
 
 <rk-img
   src="/assets/images/datasheet/rak7240/block-diagram.png"
@@ -10,7 +10,7 @@
 />
 
 
-## Hardware Interfaces
+### Hardware Interfaces
 
 The hardware interfaces of **RAK7240 Outdoor LPWAN Gateway** include five (5) antenna ports (LoRa, LTE-DIV/LoRa2, LTE-MAIN, WiFi, and GPS), six (6) status indicator LEDs, TF Card and nano-SIM sockets, a console port, an Ethernet Port (PoE), and a ground pad, as shown in the following figure:
 

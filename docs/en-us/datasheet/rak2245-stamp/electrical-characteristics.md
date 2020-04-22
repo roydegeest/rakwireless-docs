@@ -1,8 +1,4 @@
----
-static_root: /assets/images/datasheet/rak2245-stamp/electrical-characteristics
----
-
-# Electrical Characteristics
+## Electrical Characteristics
 
 The following are the electrical characteristics of RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module. Please [contact us ](mailto:fomi@rakwireless.com)if you need other details for your project.
 

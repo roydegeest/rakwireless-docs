@@ -1,8 +1,4 @@
----
-next: interfaces
----
-
-# Pin Definition
+## Pin Definition
 
 <rk-img
   src="/assets/images/datasheet/rak833/pinout.png"

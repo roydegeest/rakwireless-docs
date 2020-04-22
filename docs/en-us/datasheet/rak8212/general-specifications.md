@@ -1,9 +1,6 @@
----
-next: /en-us/datasheet/rak9003-poe-hat/
----
-# General Specification
+## General Specification
 
-## Overall Specification
+### Overall Specification
 
 | Model Name            | RAK8212                                                                                               |
 | --------------------- | ----------------------------------------------------------------------------------------------------- |
@@ -17,7 +14,7 @@ next: /en-us/datasheet/rak9003-poe-hat/
 | Power Supply          | 3.5 Volts ~ 18 Volts                                                                                  |
 
 
-## GPS Specification
+### GPS Specification
 
 | Feature              | Description                                    |
 | -------------------- | ---------------------------------------------- |
@@ -25,7 +22,7 @@ next: /en-us/datasheet/rak9003-poe-hat/
 | Protocols            | NMEA 0183                                      |
 
 
-## GPRS Specification
+### GPRS Specification
 
 | Feature            | Description                                                                                           |
 | ------------------ | ----------------------------------------------------------------------------------------------------- |

@@ -1,4 +1,4 @@
-# Power Requirements
+## VII. Power Requirements
 
 The RAK7244C LPWAN Developer Gateway operates at 5V/2.5A and can be powered by micro USB.
 

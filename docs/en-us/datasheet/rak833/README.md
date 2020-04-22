@@ -1,5 +1,4 @@
 ---
-next: board-overview
 tags:
 - datasheet
 ---
@@ -39,6 +38,12 @@ RAK833 LPWAN Gateway Concentrator Module is a complete and cost efficient LoRaWA
 |   RAK833-SPI-915   |     SPI, 902MHz-928 MHz     |
 |   RAK833-SPI-868   |     SPI, 863MHz-870 MHz     |
 
-
-
+!!!include(en-us/datasheet/rak833/board-overview.md)!!!
+!!!include(en-us/datasheet/rak833/pin-definition.md)!!!
+!!!include(en-us/datasheet/rak833/interfaces.md)!!!
+!!!include(en-us/datasheet/rak833/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/rak833/rf-characteristics.md)!!!
+!!!include(en-us/datasheet/rak833/mechanical-characteristics.md)!!!
+!!!include(en-us/datasheet/rak833/schematic-diagrams.md)!!!
+!!!include(en-us/datasheet/rak833/reference-applications.md)!!!
 

@@ -1,5 +1,4 @@
 ---
-next: block-diagram
 tags:
 - datasheet
 ---
@@ -33,3 +32,8 @@ The PoE HAT is designed to be compatible with the IEEE 802.3af/at Power-over-Eth
 - **Overcurrent / short-circuit** protection.
 - **RoHS Compliant**.
 - Operating Temperature: **-40 ℃ ～+85 ℃.**
+
+!!!include(en-us/datasheet/rak9003-poe-hat/block-diagram.md)!!!
+!!!include(en-us/datasheet/rak9003-poe-hat/pin-definition.md)!!!
+!!!include(en-us/datasheet/rak9003-poe-hat/typical-characteristics.md)!!!
+!!!include(en-us/datasheet/rak9003-poe-hat/electrical-characteristics.md)!!!

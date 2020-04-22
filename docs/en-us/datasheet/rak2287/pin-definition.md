@@ -1,19 +1,15 @@
----
-static_root: /assets/images/datasheet/rak2287/pin-definition
----
+## Pin Definition
 
-# Pin Definition
-
-## Pinout Diagram
+### Pinout Diagram
 
 <rk-img
-  :src="`${$frontmatter.static_root}/vxzsalj5pmn34nysz34q.jpg`"
+  src="/assets/images/datasheet/rak2287/pin-definition/vxzsalj5pmn34nysz34q.jpg"
   width="100%"
   figure-number="1"
   caption="RAK2287 Pinout Diagram"
 />
 
-## Pinout Description
+### Pinout Description
 
 | **Type** | **Description** | 
 | ---- | ------------------- | 

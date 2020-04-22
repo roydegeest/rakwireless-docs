@@ -1,4 +1,4 @@
-# Pin Definition
+## Pin Definition
 
 Provided in this section is the Pinout of the RAK4200 LPWAN Module.
 

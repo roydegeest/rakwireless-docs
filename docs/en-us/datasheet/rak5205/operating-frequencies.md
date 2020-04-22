@@ -1,8 +1,4 @@
----
-next: interfaces
----
-
-# Operating Frequencies
+## Operating Frequencies
 
 The board supports all LoRaWAN® frequency channels as stated in the table below which is easy to configure while building the firmware from the source code
 

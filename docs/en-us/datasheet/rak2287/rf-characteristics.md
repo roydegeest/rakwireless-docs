@@ -1,4 +1,4 @@
-# RF Characteristics
+## RF Characteristics
 
 The following table gives typically sensitivity level of the RAK2287 card.
 

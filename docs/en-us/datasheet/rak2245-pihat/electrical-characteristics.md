@@ -1,12 +1,8 @@
----
-next: rf-characteristics
----
-
-# Electrical Characteristics
+## Electrical Characteristics
 
 The following are the electrical characteristics of RAK2245 Pi HAT. Please [contact us](mailto:fomi@rakwireless.com) if you need other details for your project
 
-## Absolute Maximum Rating
+### Absolute Maximum Rating
 
 The values and range given below are all in accordance with Absolute Maximum Rating System (IEC 134)
 
@@ -21,7 +17,7 @@ The values and range given below are all in accordance with Absolute Maximum Rat
 With RF output power level above +15 dBm a minimum distance to a transmitter should be 1m for avoiding too large input level.
 :::
 
-## Maximum ESD
+### Maximum ESD
 
 The table below lists the maximum ESD
 
@@ -37,7 +33,7 @@ The table below lists the maximum ESD
 The module is an Electrostatic Sensitive Device and require special precautions when handling.
 :::
 
-## Operating Conditions
+### Operating Conditions
 
 The table below lists the operation temperature range.
 
@@ -46,7 +42,7 @@ The table below lists the operation temperature range.
 | Normal Operating Temperature | -40°C | +25°C   | +85°C | Fully functional and meets 3GPP specifications |
 
 
-## Power Consumption
+### Power Consumption
 
 | Mode             | Condition                  | Min | Typical | Max |
 | ---------------- | -------------------------- | --- | ------- | --- |

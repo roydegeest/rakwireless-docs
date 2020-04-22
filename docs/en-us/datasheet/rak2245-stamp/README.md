@@ -1,6 +1,5 @@
 ---
 static_root: /assets/images/datasheet/rak2245-stamp/overview
-next: board-overview
 tags:
 - datasheet
 ---
@@ -33,3 +32,10 @@ Overall, this LoRaWAN® gateway module is the most economical way to create diff
 - Supports global license-free frequency band (EU433, CN470, IN865, EU868, US915, AU915, KR920, AS920 and AS923).
 - Supports SPI interface.
 - Integrated the Ublox MAX-7Q GPS Module.
+
+!!!include(en-us/datasheet/rak2245-stamp/board-overview.md)!!!
+!!!include(en-us/datasheet/rak2245-stamp/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/rak2245-stamp/interfaces.md)!!!
+!!!include(en-us/datasheet/rak2245-stamp/pin-definition.md)!!!
+!!!include(en-us/datasheet/rak2245-stamp/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/rak2245-stamp/rf-characteristics.md)!!!

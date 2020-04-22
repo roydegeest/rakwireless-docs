@@ -1,10 +1,6 @@
----
-next: schematic-diagram
----
+## Board Layout
 
-# Board Layout
-
-## Board Physical Dimension
+### Board Physical Dimension
 
 
 <rk-img
@@ -14,7 +10,7 @@ next: schematic-diagram
   caption="RAK811 Physical Dimension"
 />
 
-## Layout Recommendation
+### Layout Recommendation
 
 <rk-img
   src="/assets/images/datasheet/rak811-breakout-module/rak811-layout.jpg"

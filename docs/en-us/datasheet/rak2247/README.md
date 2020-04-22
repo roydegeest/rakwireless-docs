@@ -1,5 +1,4 @@
 ---
-next: board-overview
 tags:
 - datasheet
 ---
@@ -30,3 +29,8 @@ Despite its small size this is an 8 channel concentrator module. By integrating 
 - Supports the LoRaWAN® 1.0.2 protocol.
 - Supports global license-free frequency band (EU433, CN470, IN865, EU868, US915, AU915, KR920, AS920 and AS923).
 
+!!!include(en-us/datasheet/rak2247/board-overview.md)!!!
+!!!include(en-us/datasheet/rak2247/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/rak2247/interfaces.md)!!!
+!!!include(en-us/datasheet/rak2247/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/rak2247/rf-characteristics.md)!!!

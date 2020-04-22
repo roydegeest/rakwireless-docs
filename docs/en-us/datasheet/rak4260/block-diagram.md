@@ -1,5 +1,4 @@
-
-# Block Diagram
+## Block Diagram
 
 Shown below is the functional block diagram of the RAK4260 composed of different interfaces for the specific functionalities set in the product overview.
 

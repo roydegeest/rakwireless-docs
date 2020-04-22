@@ -1,6 +1,5 @@
 ---
 static_root: /assets/images/datasheet/rak7246g/overview
-next: product-specifications
 tags:
 - datasheet
 ---
@@ -30,3 +29,11 @@ The RAK7246G is an ideal choice for prototype design, concept verification and d
 - Tx max **20dbm**, Rx min **-139dbm** @ SF12 at 125kHz
 - Covers the entirety of the **LoRa high frequency band space:** RU864, IN865, EU868, US915, AU915, KR920, AS923;
 - Power supply rating **5V / 2.5A (not included).**
+
+!!!include(en-us/datasheet/rak7246g/product-specifications.md)!!!
+!!!include(en-us/datasheet/rak7246g/board-overview.md)!!!
+!!!include(en-us/datasheet/rak7246g/interfaces.md)!!!
+!!!include(en-us/datasheet/rak7246g/pin-definition.md)!!!
+!!!include(en-us/datasheet/rak7246g/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/rak7246g/rf-characteristics.md)!!!
+!!!include(en-us/datasheet/rak7246g/systems-network-approach.md)!!!

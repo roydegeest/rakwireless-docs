@@ -1,12 +1,8 @@
----
-next: pin-definition
----
-
-# Cellular Frequency Bands
+## Cellular Frequency Bands
 
 The Pilot Gateway supports different frequency bands according to the modular mounted on the board.
 
-## BG96 Module
+### BG96 Module
 
 BG96 is a series of LTE Cat M1/Cat NB1/EGPRS module offering a maximum data rate of 300Kbps downlink and 375Kbps uplink.
 
@@ -17,7 +13,7 @@ BG96 is a series of LTE Cat M1/Cat NB1/EGPRS module offering a maximum data rate
 | EGPRS         | 850 / 900 / 1800 / 1900 MHz                                           |
 
 
-## EG91 Module
+### EG91 Module
 
 Quectel EG91 is a series of LTE category 1 module optimized specially for M2M and IoT applications. It delivers M2M-optimized speeds of 10Mbps downlink and 5Mbps uplink. These make EG91 an ideal solution for numerous IoT applications that are not reliant on high speed connectivity but still require the longevity and reliability of LTE networks
 
@@ -29,7 +25,7 @@ Quectel EG91 is a series of LTE category 1 module optimized specially for M2M an
 | Region    | Europe                         | North America            |
 
 
-## EG95 Module
+### EG95 Module
 
 Quectel EG95 is a series of LTE category 4 module optimized specially for M2M and IoT applications. Adopting 3GPP Rel. 11 LTE technology, it delivers **150Mbps downlink** and **50Mbps uplink** data rates
 

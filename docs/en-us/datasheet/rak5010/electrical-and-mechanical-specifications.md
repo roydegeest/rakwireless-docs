@@ -1,9 +1,6 @@
----
-next: power-requirements
----
-# Electrical and Mechanical Specifications 
+## Electrical and Mechanical Specifications 
 
-## Absolute Maximum Ratings
+### Absolute Maximum Ratings
 
 Stresses above those listed as “**absolute maximum ratings**” may cause permanent damage to the device. This is a stress rating, functional operation of the device under these conditions is not advised. Exposure to maximum rating conditions may affect device reliability.
 
@@ -20,7 +17,7 @@ Stresses above those listed as “**absolute maximum ratings**” may cause perm
 The RAK5010, as any electronic equipment, is sensitive to electrostatic discharge (ESD), improper handling can cause permanent damage to module.
 :::
 
-## Environmental Requirements
+### Environmental Requirements
 
 The table below lists the operation and storage temperature requirements:
 
@@ -31,7 +28,7 @@ The table below lists the operation and storage temperature requirements:
 |   Storage Temp. Range   | -40 ˚C | +25 ºC  | +80 ˚C |
 
 
-## Current Consumption
+### Current Consumption
 
 |                           Conditions                            | Current |
 | :-------------------------------------------------------------: | :-----: |
@@ -43,7 +40,7 @@ The table below lists the operation and storage temperature requirements:
 For the above results to be reached, the nRF52840's regulator has to be in DC-DC mode and all the sensors have to be in sleep mode.
 :::
 
-## Laboratory Testings
+### Laboratory Testings
 
 The figures below are the average current consumptions based on the different test cases.
 

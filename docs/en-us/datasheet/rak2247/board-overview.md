@@ -1,8 +1,4 @@
----
-next: operating-frequencies
----
-
-# Board Overview
+## Board Overview
 
 <rk-img
   src="/assets/images/datasheet/rak2247/board-overview-rak2247.jpg"

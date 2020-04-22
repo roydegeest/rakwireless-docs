@@ -1,10 +1,6 @@
----
-next: product-specifications
----
+## Board Overview
 
-# Board Overview
-
-## Main Electronic Circuit Board 
+### Main Electronic Circuit Board 
 
 <rk-img
   src="/assets/images/datasheet/rak7258/board_overview.jpg"

@@ -1,22 +1,18 @@
----
-static_root: /assets/images/datasheet/rak811/board-layout
----
+## Board Layout
 
-# Board Layout
-
-## Board Physical Dimension
+### Board Physical Dimension
 
 <rk-img
-  :src="`${$frontmatter.static_root}/ksglqsrthvgpykwcugzy.jpg`"
+  src="/assets/images/datasheet/rak811/board-layout/ksglqsrthvgpykwcugzy.jpg"
   width="60%"
   figure-number="1"
   caption="RAK811 Physical Dimension"
 />
 
-## Layout Recommendation
+### Layout Recommendation
 
 <rk-img
-  :src="`${$frontmatter.static_root}/u4axv5szljjuw195olgx.jpg`"
+  src="/assets/images/datasheet/rak811/board-layout/u4axv5szljjuw195olgx.jpg"
   width="60%"
   figure-number="2"
   caption="RAK811 Layout"

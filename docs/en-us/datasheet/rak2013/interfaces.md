@@ -1,10 +1,6 @@
----
-next: frequency-bands-and-data-rate
----
+## Interfaces
 
-# Interfaces
-
-## Functional Diagram
+### Functional Diagram
 
 The diagram below shows the internal architecture and external interfaces of RAK2013.
 

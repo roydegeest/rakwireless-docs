@@ -1,19 +1,15 @@
----
-static_root: /assets/images/datasheet/rak811/pin-definition
----
-
-# Pin Definition
+## Pin Definition
 
 The RAK811 supports two different frequency variation: Low Radio Frequency and High Radio frequency
 
-## Low Radio Frequency
+### 1. Low Radio Frequency
 
 The Low radio frequency is applicable to bandwidth of regions EU433 and CN470.
 
 ### Low RF Pin Outline
 
 <rk-img
-  :src="`${$frontmatter.static_root}/abscqo1rdux6ao13hdvu.jpg`"
+  src="/assets/images/datasheet/rak811/pin-definition/abscqo1rdux6ao13hdvu.jpg"
   width="100%"
   figure-number="1"
   caption="Board Pinout for RAK811 Low RF"
@@ -58,14 +54,14 @@ The Low radio frequency is applicable to bandwidth of regions EU433 and CN470.
 | 33          | RF_OUT        | I/O      | RF I/O port                           |
 | 34          | GND           |          | Ground connections                    |
 
-## High Radio Frequency
+### 2. High Radio Frequency
 
 High radio frequency hardware support the regions of EU868, US915, AU915, KR920, AS923, IN865.
 
 ### High RF Pin Outline
 
 <rk-img
-  :src="`${$frontmatter.static_root}/ajjxkmp1ydxopp6naaoc.jpg`"
+  src="/assets/images/datasheet/rak811/pin-definition/ajjxkmp1ydxopp6naaoc.jpg"
   width="100%"
   figure-number="2"
   caption="Board Pinout for RAK811 High RF"
