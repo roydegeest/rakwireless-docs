@@ -1,4 +1,4 @@
-# Cellular Frequency Bands
+## Cellular Frequency Bands
 
 The Quectel EG95 is part of the LTE CAT4 module series that are specially optimized for Machine to Machine (M2M) and Internet of Things (IoT) applications. Adopted from 3GPP Rel. 11 LTE technology, which delivers a data rates of 150Mbps downlink and 50Mbps uplink.
 

@@ -1,12 +1,8 @@
----
-next: power-requirements
----
-
-# Pin Definition
+## Pin Definition
 
 The RAK7243C Pilot Gateway is composed of the LoRa® Concentrator RAK2245 Pi Hat and the RAK2013 Pi Hat
 
-## LoRa® Concentrator RAK2245 Pi Hat
+### LoRa® Concentrator RAK2245 Pi Hat
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/rak2245.png"
@@ -26,7 +22,7 @@ RAK2245 Pi HAT(Model Name is: RAK2243) is a LoRa® Concentrator board which foll
   caption="LoRa® Hardware Structure"
 />
 
-## Cellular Board RAK2013 Pi Hat
+### Cellular Board RAK2013 Pi Hat
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/rak2013.jpg"

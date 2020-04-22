@@ -1,9 +1,4 @@
----
-static_root: /assets/images/datasheet/rak7246g/systems-network-approach
-next: /en-us/datasheet/rak7249/
----
-
-# LoRaWAN® Systems, Network Approach
+## LoRaWAN® Systems, Network Approach
 
 The use of LoRaWAN® technology can be distinguished in “Public” and “Private” networks. In both cases the usage of a concentrator module is a must if a multichannel performance is sought after. Public networks are operator (e.g. telecom) managed networks whereas private networks are individually managed networks.
 
@@ -13,12 +8,12 @@ Due to the long range LoRa provides the connection between the end-nodes and the
 
 Depending on the used spreading factor and signal bandwidth different data rates (0.3 kbps to ~22 kbps) and sensitivities down to -142.5 dBm are possible. Spreading factor and signal bandwidth are a trade-off between data rate and communication range.
 
-## Overview
+### Overview
 
 The RAK2246 is able to receive on different frequency channels at the same time and is able to demodulate the LoRa signal without knowledge of the used spreading factor of the sending node. Thus, any Gateway using it as its concentrator module has these inherent benefits as well.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/f333yrqj2l328fhmkpaf.png`"
+  src="/assets/images/datasheet/rak7246g/systems-network-approach/f333yrqj2l328fhmkpaf.png"
   width="70%"
   figure-number="1"
   caption="System Architecture"
@@ -28,7 +23,7 @@ Due to the fact that the combination of spreading factors and signal bandwidths 
 
 Due to the fact that spreading factors are orthogonal and the RAK2246 Concentrator can demodulate on 8 channels at the same time, channel capacity of a LoRaWAN Gateway is increased compared to traditional cellular networks.
 
-## Firwmare
+### Firwmare
 
 The LoRa MAC specification is currently driven by the companies Semtech, IBM and Actility. Currently all available software, firmware and documentation can be found and downloaded from the open source project LoRa-net hosted on [https://github.com/Lora-net](https://github.com/Lora-net)
 
@@ -36,7 +31,7 @@ This project considers all parts that are needed to run a network based on LoRa 
 
 It is highly recommended to utilize the latest HAL as provided by Semtech.
 
-## Configuring the Gateway
+### Configuring the Gateway
 
 You can login to the Gateway using an SSH client like PuTTY. For more
 details on the configuration and management of the Gateway please visit the

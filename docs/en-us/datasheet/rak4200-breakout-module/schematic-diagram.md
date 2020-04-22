@@ -1,8 +1,4 @@
----
-next: interfaces
----
-
-# Schematic Diagram
+## Schematic Diagram
 
 The RAK4200 Breakout Board circuit is shown below:
 

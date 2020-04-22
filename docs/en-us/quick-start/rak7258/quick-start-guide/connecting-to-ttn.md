@@ -36,7 +36,7 @@ The Things Network is about enabling low power devices to use long range gateway
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7258/2.quickstart/ttn-successful.png"
-  width="75%"
+  width="50%"
   figure-number="3"
   caption="Gateway successfully connected to The Things Network (TTN)"
 />

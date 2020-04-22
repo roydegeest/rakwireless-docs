@@ -1,12 +1,8 @@
----
-next: mechanical-dimensions
----
-
-# System on a Chip (SoCs) and Sensors
+## System on a Chip (SoCs) and Sensors
 
 This section provides detail specifications about the different module present in the RAK5010 device.
 
-## 1. BG96
+### 1. BG96
 
 ### 1.1 Frequency Bands
 
@@ -24,7 +20,7 @@ This section provides detail specifications about the different module present i
 |    **LTE Features**    | Supports LTE Cat M1 and LTE Cat NB1 Supports 1.4MHz RF bandwidth for LTE Cat M1 Supports 200KHz RF bandwidth for LTE Cat NB1 Supports SISO in the DL direction Cat M1: Max. 300Kbps (DL)/375Kbps (UL) Cat NB1: Max. 32Kbps (DL)/70Kbps (UL)                                                                                                                                   |
 |    **GSM Features**    | **GPRS**: Supports GPRS multi-slot class 33 (33 by default) Coding scheme: CS-1, CS-2, CS-3, and CS-4 Max. 107Kbps (DL), Max. 85.6Kbps (UL) EDGE: Supports Edge multi-slot class 33 (33 by default) Supports GMSK and 8-PSK for different MCS Downlink Coding Schemes: CS 1-4 and MCS 1-9 Uplink Coding Schemes: CS 1-4 and MCS 1-9 Max. 296Kbps (DL), 236.8Kbps (UL)         |
 
-## 2. nRF52840 Module
+### 2. nRF52840 Module
 
 |      Parameter      |                      Detail                       |
 | :-----------------: | :-----------------------------------------------: |
@@ -37,7 +33,7 @@ This section provides detail specifications about the different module present i
 |    BLE Data Rate    |         2 Mbps, 1 Mbps, 500 Kbps,125 Kbps         |
 | Current Consumption | 4.8mA in Tx, 4.6mA in Rx and 1.5uA in Sleep Mode  |
 
-## 3. Humidity and Temperature Sensors
+### 3. Humidity and Temperature Sensors
 
 The Temperature and Humidity Sensor is an SHTC3 from Sensirion.
 
@@ -66,7 +62,7 @@ The Temperature and Humidity Sensor is an SHTC3 from Sensirion.
 |  Response Time  |   τ 63%    |         8          |   s   |
 | Long-term Drift |    Typ.    |       <0.25        | %RH/y |
 
-## 4. Pressure Sensor
+### 4. Pressure Sensor
 
 The Pressure Sensor is an LPS22HB from ST:
 
@@ -82,7 +78,7 @@ The Pressure Sensor is an LPS22HB from ST:
 | Pnoise  |   RMS Pressure Sensing Noise    |                   with embedded filtering                    |   -   |    0.0075     |   -   | hPa RMS  |
 | ODRPres |    Pressure Output Data Rate    |                              -                               |   -   | 1/10/25/50/75 |   -   |    Hz    |
 
-## 5. 3-Axis Motion Sensor
+### 5. 3-Axis Motion Sensor
 
 
 | Symbol |     Parameter     |             Test Condition             | Min.  | Typ.  | Max.  |   Unit   |
@@ -105,7 +101,7 @@ The Pressure Sensor is an LPS22HB from ST:
 |        |                   |    FS bit set to 11; Low-power mode    |       |  192  |       | mg/digit |
 
 
-## 6. Ambient Light Sensor
+### 6. Ambient Light Sensor
 
 The Ambient Light Sensor is an OPT3001 from TI:
 

@@ -1,8 +1,4 @@
----
-next: block-diagram
----
-
-# Pin Definition
+## Pin Definition
 
 <rk-img
   src="/assets/images/datasheet/rak8212/pin-definition.png"

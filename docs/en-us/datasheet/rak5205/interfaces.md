@@ -1,10 +1,6 @@
----
-next: pin-definition
----
+## Interfaces
 
-# Interfaces
-
-## Functional Diagram
+### Functional Diagram
 
 <rk-img
   src="/assets/images/datasheet/rak5205/rak5205-functional-diagram.png"
@@ -30,7 +26,7 @@ following interfaces, headers, jumpers, button and connectors:
 - RP-SMA Male connector of LoRa® Antenna(optional iPEX connector) 
 - SMA Female connector of GPS Antenna(optional iPEX connector)
 
-## Micro-B USB Interface
+### Micro-B USB Interface
 
 A Standard Micro-B USB compliant with USB 2.0 standard specification is used to provide an interface to connect to a PC for control of the board and firmware upgrade.The Micro-B USB pin definition is shown below:
 
@@ -51,7 +47,7 @@ A Standard Micro-B USB compliant with USB 2.0 standard specification is used to 
 | 5   | GND            |
 
 
-## LEDs
+### LEDs
 
 Three LEDs are used to indicate operating status, here are their functions:
 
@@ -59,7 +55,7 @@ Three LEDs are used to indicate operating status, here are their functions:
 - 🔵 **BLUE LED**: Status - Defined By User
 - 🔴 **RED LED** : Charging Status - indicates the Li-ion Battery is Charging
 
-## Reset Push Button
+### Reset Push Button
 
  Reset Push Button is used to reset the RAK811 module. To reset the module push the Reset Button for 1 second.
 

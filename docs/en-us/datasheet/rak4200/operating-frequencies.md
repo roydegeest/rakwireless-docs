@@ -1,4 +1,4 @@
-# Operating Frequencies
+## Operating Frequencies
 
 The board supports the following LoRaWAN® frequency channels shown in the table below. The frequency parameter is easy to configure as you go through the device configuration setup. RAK4200 has two different types based on its frequency: RAK4200(L) for low frequency and RAK4200(H) for high frequency.
 

@@ -1,8 +1,4 @@
----
-next: interfaces
----
-
-# Board Overview
+## Board Overview
 
 The outer dimension of Pilot Gateway is **92 x 68.3 x 53.5 mm** as shown below    
 

@@ -1,8 +1,4 @@
----
-next: pin-definition
----
-
-# Board Overview
+## Board Overview
 
 Figure 1 shows the top view and the interfaces of the RAK5010 NB-IoT tracker board.
 

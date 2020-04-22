@@ -1,7 +1,4 @@
----
-next: /en-us/datasheet/rak811/
----
-# Reflow Profile
+## Reflow Profile
 
 Referred to IPC/JEDEC standard:
 

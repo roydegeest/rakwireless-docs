@@ -1,6 +1,5 @@
 ---
 static_root: /assets/images/datasheet/rak4600-breakout/overview
-next: board-overview
 tags:
 - datasheet
 ---
@@ -36,3 +35,10 @@ The RF communication capabilities of the module (LoRa® + BLE) make it suitable 
 - Ultra-Low Power Consumption **2.0uA** in sleep mode
 - Supply voltage: **2.0 ~ 3.6V**
 - Temperature range: **-40°C to +85°C**
+
+!!!include(en-us/datasheet/rak4600-breakout/board-overview.md)!!!
+!!!include(en-us/datasheet/rak4600-breakout/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/rak4600-breakout/pin-definition.md)!!!
+!!!include(en-us/datasheet/rak4600-breakout/power-consumption.md)!!!
+!!!include(en-us/datasheet/rak4600-breakout/schematic-diagram.md)!!!
+!!!include(en-us/datasheet/rak4600-breakout/interfaces.md)!!!

@@ -1,11 +1,7 @@
----
-static_root: /assets/images/datasheet/rak2245-stamp/board-overview
----
-
-# Board Overview
+## Board Overview
 
 <rk-img
-  :src="`${$frontmatter.static_root}/roohsofgitzlzhbea2vz.jpg`"
+  src="/assets/images/datasheet/rak2245-stamp/board-overview/roohsofgitzlzhbea2vz.jpg"
   width="60%"
   figure-number="1"
   caption="RAK2245 Stamp Edition Board Dimension"

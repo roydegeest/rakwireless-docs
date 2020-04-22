@@ -1,11 +1,8 @@
----
-next: /en-us/datasheet/rak7204/
----
-# Antenna Specifications
+## Antenna Specifications
 
 The RAK7200 LPWAN Tracker has a built-in passive GPS Antenan and an iPex LoRa® Antenna. The performance and the parameters of the Antenna are as follows:
 
-## GPS Antenna 
+### GPS Antenna 
 
 The GPS Antenna is shown in the following figure:
 
@@ -36,7 +33,7 @@ S- Parameter of the GPS Antenna as pictured in the figure below:
   caption="S-parameter of the GPS Antenna"
 />
 
-## LoRa® Antenna
+### LoRa® Antenna
 
 The LoRa® Antenna is shown in the following Figure:
 

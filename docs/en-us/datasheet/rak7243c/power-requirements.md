@@ -1,8 +1,4 @@
----
-next: environmental-requirements
----
-
-# Power Requirements
+## Power Requirements
 
 The Pilot Gateway  operates at **5V/2.5A**. It can be powered by micro USB with 5V.
 

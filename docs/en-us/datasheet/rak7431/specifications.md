@@ -1,8 +1,4 @@
----
-next: installation
----
-
-# Specifications
+## Specifications
 
 The table below shows the full specification of RAK7431.
 

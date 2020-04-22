@@ -1,8 +1,4 @@
----
-next: electrical-characteristics
----
-
-# Operating Frequencies
+## Operating Frequencies
 
 The RAK7204 supports different LoRaWAN® frequency bands for different country regions.
 

@@ -1,6 +1,5 @@
 ---
 static_root: /assets/images/datasheet/rak811/overview
-next: interfaces
 tags:
 - datasheet
 ---
@@ -43,3 +42,10 @@ The RAK811 Module is integrated with Semtech's SX1276 and STM32L which offers us
 - LoRa® technology is capable of demodulating 20 dB below noise level, significantly
   improving immunity to the interference when combined with integrated forward error
   correction.
+
+!!!include(en-us/datasheet/rak811/interfaces.md)!!!
+!!!include(en-us/datasheet/rak811/pin-definition.md)!!!
+!!!include(en-us/datasheet/rak811/board-layout.md)!!!
+!!!include(en-us/datasheet/rak811/schematic-diagram.md)!!!
+!!!include(en-us/datasheet/rak811/device-specification.md)!!!
+!!!include(en-us/datasheet/rak811/reflow-profile.md)!!!

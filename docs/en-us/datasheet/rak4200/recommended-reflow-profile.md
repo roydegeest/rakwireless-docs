@@ -1,7 +1,4 @@
----
-next: /en-us/datasheet/rak4260/
----
-# Recommended Reflow Profile
+## Recommended Reflow Profile
 
 In this section, the recommended reflow profile for RAK4200 LPWAN Module is described in the image below:
 
@@ -13,7 +10,7 @@ In this section, the recommended reflow profile for RAK4200 LPWAN Module is desc
   caption="Recommended Reflow Profile"
 />
 
-## Standard Conditions for Reflow Soldering:
+### Standard Conditions for Reflow Soldering:
 
 * **Pre-heating Ramp** (A) (Initial temperature: 150℃): 1-2.5℃/sec;
 * **Soaking Time** (T2) (150℃~180℃): 60sec-100sec;

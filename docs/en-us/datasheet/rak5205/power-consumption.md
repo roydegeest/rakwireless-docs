@@ -1,10 +1,6 @@
----
-next: environmental-requirements
----
+## Power Consumption
 
-# Power Consumption
-
-## Working Mode
+### Working Mode
 
 The board supports to enable the GPS low power mode, it has a 3-axis MEMS Sensor LIS3DH, which can detect the user's motion status, when the device is stationary, it will enter the low power sleep mode, reducing the overall power consumption and increase battery life. The power consumption as shown in the following table.
 
@@ -14,7 +10,7 @@ The board supports to enable the GPS low power mode, it has a 3-axis MEMS Sensor
 | Normal Mode | 174mA (Maximum) @ 20dBm and GPS Enabled |
 
 
-## Power Requirements
+### Power Requirements
 
 The RAK5205 LoRa® Tracker Board has an operating voltage of 3.7V. It can be powered by micro USB with 5V Max.
 

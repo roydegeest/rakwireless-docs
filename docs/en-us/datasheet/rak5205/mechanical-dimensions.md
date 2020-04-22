@@ -1,8 +1,4 @@
----
-next: antenna-specifications
----
-
-# Mechanical Dimensions
+## Mechanical Dimensions
 
 
 <rk-img

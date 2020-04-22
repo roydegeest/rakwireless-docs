@@ -1,8 +1,4 @@
----
-next: operating-frequencies
----
-
-# Board Overview
+## Board Overview
 
 The figure below shows the top view of the RAK4200 Breakout Module:
 

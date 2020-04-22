@@ -1,8 +1,8 @@
-# Electrical Characteristics
+## Electrical Characteristics
 
 The following are the electrical characteristics of the PoE HAT. Please contact us if you need other details and/or parameter for your project.
 
-## Operating Conditions
+### Operating Conditions
 
 The table below lists the operation voltage and temperature ranges:
 
@@ -13,7 +13,7 @@ The table below lists the operation voltage and temperature ranges:
 | Operating Temperature | Temperature Range | -40°C | +25°C | +85°C |
 
 
-## Maximum ESD
+### Maximum ESD
 
 The table below lists the maximum ESD:
 

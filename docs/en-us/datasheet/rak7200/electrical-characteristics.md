@@ -1,10 +1,6 @@
----
-next: environmental-requirements
----
+## Electrical Characteristics
 
-# Electrical Characteristics
-
-## Working Mode
+### Working Mode
 
 | Mode        | Condition | Power Consumption |
 | ----------- | --------- | ----------------- |
@@ -17,7 +13,7 @@ next: environmental-requirements
 |             | Rx        | 44 mA             |
 
 
-## Power Requirements
+### Power Requirements
 
 The RAK7200 LPWAN Tracker has built-in rechargeable 3.7V Li-ion battery which can be charged via Micro USB, the built-in battery is shown in the following figure.
 

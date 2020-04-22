@@ -33,3 +33,14 @@ Overall, this LoRaWAN® Gateway has various functionalities that are ideal for p
 - RX Sensitivity: **-139dBm**
 - Integrates **Ublox MAX-7Q GPS** module
 - **Quectel EG95** LTE module
+
+!!!include(en-us/datasheet/rak7244c/board-overview.md)!!!
+!!!include(en-us/datasheet/rak7244c/interfaces.md)!!!
+!!!include(en-us/datasheet/rak7244c/system-structure.md)!!!
+!!!include(en-us/datasheet/rak7244c/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/rak7244c/cellular-frequency-bands.md)!!!
+!!!include(en-us/datasheet/rak7244c/hardware-structure.md)!!!
+!!!include(en-us/datasheet/rak7244c/power-requirements.md)!!!
+!!!include(en-us/datasheet/rak7244c/environmental-requirements.md)!!!
+!!!include(en-us/datasheet/rak7244c/lora-rf-characteristics.md)!!!
+!!!include(en-us/datasheet/rak7244c/antenna-specifications.md)!!!

@@ -1,8 +1,4 @@
----
-next: pin-definition
----
-
-# Board Overview
+## Board Overview
 
 The detailed dimensions of the **RAK7200 LPWAN Tracker** with the protective case is shown in the figure below:
 

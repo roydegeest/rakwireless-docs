@@ -1,10 +1,6 @@
----
-next: /en-us/datasheet/rak7240/interfaces.html
----
+## Product Specifications
 
-# Product Specifications
-
-## Main Specifications
+### Main Specifications
 
 | Feature | Specifications | 
 | ---- | ---- | 
@@ -26,7 +22,7 @@ next: /en-us/datasheet/rak7240/interfaces.html
 | **Installation Method** | Pole or Wall mounting | 
 
 
-## Wi-Fi Radio Specifications
+### Wi-Fi Radio Specifications
 
 | Feature | Specifications | 
 | ---- | ---- | 
@@ -37,7 +33,7 @@ next: /en-us/datasheet/rak7240/interfaces.html
 | **Receiver<br>Sensitivity** <br>(Typical) | **802.11b** <br>• 1Mbps: 95dBm <br>• 11Mbps: 88dBm <br><br>**802.11g** <br>• 6 Mbps: 90dBm <br>• 54Mbps: 75dBm <br><br> **802.11n (2.4G)** <br>• MCS0 (HT20): 89dBm<br>• MCS7 (HT20): 72dBm <br>• MCS0 (HT40): 86dBm <br>• MCS7 (HT40): 68dBm| 
 
 
-## LoRa® Radio Specifications
+### LoRa® Radio Specifications
 
 | Feature | Specifications | 
 | ---- | ---- | 

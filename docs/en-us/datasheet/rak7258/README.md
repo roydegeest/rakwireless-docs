@@ -1,5 +1,4 @@
 ---
-next: board-overview
 tags:
 - datasheet
 ---
@@ -37,3 +36,6 @@ The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and an
 - Built-in LoRaServer for easy deployment of applications and integration of Gateways **(up to 128 LoRa nodes license included, higher tiers require a fee)**
 - TF card for log backup
 
+!!!include(en-us/datasheet/rak7258/board-overview.md)!!!
+!!!include(en-us/datasheet/rak7258/product-specifications.md)!!!
+!!!include(en-us/datasheet/rak7258/interfaces.md)!!!

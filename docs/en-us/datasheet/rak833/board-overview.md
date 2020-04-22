@@ -1,8 +1,4 @@
----
-next: pin-definition
----
-
-# Board Overview
+## Board Overview
 
 <rk-img
   src="/assets/images/datasheet/rak833/board_overview.jpg"

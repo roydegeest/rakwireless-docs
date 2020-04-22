@@ -1,5 +1,4 @@
 ---
-next: board-overview
 tags:
 - datasheet
 ---
@@ -34,3 +33,11 @@ RAK4260 is a solution that is cost efficient and flexible that can be deployed i
 - Maximum Transmit Power up to 20 dBm
 - Low RX current of 17mA (typical)
 - LoRa® Technology, (G)FSK, (G)MSK
+
+!!!include(en-us/datasheet/rak4260/board-overview.md)!!!
+!!!include(en-us/datasheet/rak4260/block-diagram.md)!!!
+!!!include(en-us/datasheet/rak4260/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/rak4260/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/rak4260/pin-definition.md)!!!
+!!!include(en-us/datasheet/rak4260/mechanical-characteristics.md)!!!
+!!!include(en-us/datasheet/rak4260/typical-application-circuit.md)!!!

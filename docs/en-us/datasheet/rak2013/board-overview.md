@@ -1,8 +1,4 @@
----
-next: interfaces
----
-
-# Board Overview
+## Board Overview
 
 Here is the top view and external interfaces of RAK2013 cellular add-on board.
 

@@ -1,8 +1,4 @@
----
-next: product-specifications
----
-
-# Hardware Interfaces
+## Hardware Interfaces
 
 The images below shows the hardware interfaces at the front and rear of RAK7249 Macro Outdoor Gateway.
 

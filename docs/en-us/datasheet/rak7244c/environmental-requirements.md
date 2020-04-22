@@ -1,4 +1,4 @@
-# Environmental Requirements
+## Environmental Requirements
 
 The table below lists the operation and storage temperature requirements for RAK7244C:
 

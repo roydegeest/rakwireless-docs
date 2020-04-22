@@ -1,8 +1,4 @@
----
-next: specifications
----
-
-# Interfaces
+## Interfaces
 
 <rk-img
   src="/assets/images/datasheet/rak7431/rak7431-bottom.jpg"
@@ -11,7 +7,7 @@ next: specifications
   caption="RAK7431 bottom panel"
 />
 
-## Power Supply and Configuration Interface
+### Power Supply and Configuration Interface
 
 RAK7431 can be powered by its DC terminal or via its Micro USB port.
 
@@ -22,7 +18,7 @@ The Micro USB port can also be used for powering the device (5V / 500mA DC). At 
 Connect it to a PC and use the [**RAK Serial Port Tool**](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip) to open a COM port. The default baud rate is 115200. There is a standard set of AT
 commands that can be used to configure the RAK7431.
 
-## Data Interface
+### Data Interface
 
 When connecting to RS485 nodes, please connect 485A and 485B on the data interface of RAK7431 with the A and B lines of the RS485 bus. Connect the GND terminal to the GN line of the RS485 devices The RS485 bus carrying capacity of RAK7431 goes up to 16 RS485 terminals at the same time.
 
@@ -41,7 +37,7 @@ Also, the Vout output voltage is the same as DC input voltage Vin.
   caption="RAK7431 ModBus connection diagram"
 />
 
-## Reset key and indicator LED
+### Reset key and indicator LED
 
 | Reset Key | Press the reset key shortly to restart the system                  |
 | --------- | ------------------------------------------------------------------ |

@@ -1,8 +1,4 @@
----
-next: operating-frequencies
----
-
-# Board Overview
+## Board Overview
  
 **RAK815 Hybrid Location Tracker** has outer dimensions of **74mm x 43mm 17mm** including the Antenna interface.
 

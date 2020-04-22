@@ -1,5 +1,4 @@
 ---
-next: board-overview
 tags:
 - datasheet
 ---
@@ -39,3 +38,10 @@ This module is a complete solution in developing your LoRaWAN® protocol techniq
 - Activation available through OTAA/ABP
 - **Long battery life** - over 10 years
 - Low power consumption with 500nA on standby and in-air wake-up capability.
+
+!!!include(en-us/datasheet/rak811-breakout-module/board-overview.md)!!!
+!!!include(en-us/datasheet/rak811-breakout-module/pin-definition.md)!!!
+!!!include(en-us/datasheet/rak811-breakout-module/board-layout.md)!!!
+!!!include(en-us/datasheet/rak811-breakout-module/schematic-diagram.md)!!!
+!!!include(en-us/datasheet/rak811-breakout-module/device-specifications.md)!!!
+!!!include(en-us/datasheet/rak811-breakout-module/reflow-profile.md)!!!

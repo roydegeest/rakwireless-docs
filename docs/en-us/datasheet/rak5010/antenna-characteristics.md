@@ -1,10 +1,6 @@
----
-next: schematic-diagram
----
+## Antenna Characteristics
 
-# Antenna Characteristics
-
-## 1. LTE Antenna
+### 1. LTE Antenna
 
 The LTE Antenna Connector is shown below: 
 
@@ -45,7 +41,7 @@ The antenna environmental requirements are listed in the table below:
 | Working    | -40 ºC ~ +75 ºC | 0% ~ 95% |
 | Storage    | 40 ºC ~ +85 ºC  | 0% ~ 95% |
 
-## 2. GPS Antenna
+### 2. GPS Antenna
 
 The GPS antenna connector is shown below (same as the LTE one):
 

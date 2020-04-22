@@ -1,4 +1,4 @@
-# Operating Frequencies
+## Operating Frequencies
 
 The RAK4600 Breakout Module supports the following LoRa® bands:
 

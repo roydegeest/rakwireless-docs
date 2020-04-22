@@ -1,18 +1,14 @@
----
-next: working-requirements
----
-
-# Board Pin Out and Components
+## Board Pin Out and Components
 
 RAK2013 board is composed of four connectors: **J3**, **J15**, **J16** and **J17**. 
 
-## J3 - Boot Jumper
+### J3 - Boot Jumper
 
 * Jumper for BG96/EG91/EG95 USB boot
 * J3 open: boot normally.
 * J3 shorted: Force the module to boot from USB port.
 
-## J15 - Raspberry Connector
+### J15 - Raspberry Connector
 
 <rk-img
   src="/assets/images/datasheet/rak2013/rak2013-raspberry-connector.jpg"
@@ -67,7 +63,7 @@ The table below shows the pin connections of the raspberry connector.
 | 39         | GND                 | GND                  |
 | 40         | BG96_STATUS         | GPIO21               |
 
-## J16 and J17 – MikroBus Interface
+### J16 and J17 – MikroBus Interface
 
 <rk-img
   src="/assets/images/datasheet/rak2013/mikroBUS_Pinout.png"
@@ -77,7 +73,7 @@ The table below shows the pin connections of the raspberry connector.
 />
 
 
-## Micro-B USB Interface
+### Micro-B USB Interface
 
 A Standard Micro-B USB compliant with USB 2.0 standard specification is used to provide an interface to connect our device to Raspberry Pi or a PC for control of the board and firmware upgrade. The Micro-B USB pin connection and definition is shown below: 
 
@@ -98,7 +94,7 @@ A Standard Micro-B USB compliant with USB 2.0 standard specification is used to 
 
 This USB port is connected to the BG96/EG91/EG95 USB interface. The USB interface is used for AT command communication, data transmission, software debugging and firmware upgrade.
 
-## LEDs
+### LEDs
 
 Three (3) LEDs are used to indicate operating status, here are their functions:
 
@@ -110,14 +106,14 @@ Three (3) LEDs are used to indicate operating status, here are their functions:
 | Red       | NETLIGHT  | ON         | Indicates the module's network activity status. |
 |           |           | OFF        | Not registered to the network.                  |
 
-## RESET Push Button
+### RESET Push Button
 
 Reset Push Button is used to reset the BG96/EG91/EG95 module. To reset the module, push the Reset Button for 1 second.
 
-## PWRKEY Push Button
+### PWRKEY Push Button
 
 When either of Quectel BG96 / EG91 / EG95 module is in power off mode, it can be turned on to normal mode by driving the PWRKEY pin to a low level for at least 100 ms. Note that the module is still in power off mode even when plugging in the power socket, thus, press the PWRKEY to power up the module. When the module is in normal mode, it can be turned to power off mode by pressing the PWRKEY button.
 
-## Antenna RF interface
+### Antenna RF interface
 
 The modules have two RF interfaces for LTE antenna and GPS/LTE DIV antenna over standard UFL connectors (Hirose U. FL-R-SMT) with a characteristic impedance of 50Ω. The RF ports support both the transmitter and receiver, providing the antenna interface.

@@ -1,10 +1,6 @@
----
-next: schematics
----
+## Antenna Specifications
 
-# Antenna Specifications
-
-## LoRa® Antenna
+### LoRa® Antenna
 
 ### Overview
 
@@ -45,7 +41,7 @@ Here is the iPEX LoRa® Antenna Interface:
 | Storage Temperature &amp; Humidity | T:-40 °C ~ +85 °C, H: 0% ~ 95% |
 
 
-## GPS Antenna
+### GPS Antenna
 
 The GPS antenna and interfaces for RAK5205 tracker board is shown below:
 

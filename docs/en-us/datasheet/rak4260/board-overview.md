@@ -1,4 +1,4 @@
-# Board Overview
+## Board Overview
 
 The figures shown below are the different views of the RAK4260 chip labelled for proper reference.
 

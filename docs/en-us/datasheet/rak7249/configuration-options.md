@@ -1,8 +1,4 @@
----
-next: hardware-interfaces
----
-
-# Configuration Options
+## Configuration Options
 
 The table below shows the main board configurations of the Macro outdoor.
 

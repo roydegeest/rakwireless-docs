@@ -1,8 +1,4 @@
----
-next: system-structure
----
-
-# Interfaces
+## Interfaces
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/rak7243c-interfaces.png"

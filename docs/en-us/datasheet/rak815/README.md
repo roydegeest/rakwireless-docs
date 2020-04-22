@@ -1,5 +1,4 @@
 ---
-next: board-overview
 tags:
 - datasheet
 ---
@@ -34,3 +33,9 @@ Overall, this LoRa® device has various functionalities designed in a single boa
 - Micro USB interface for charging and configuration
 - Equipped with MEMS and HT sensors + I2C LCD expansion
 - Operation temperature: -20ºC ~ 60ºC
+
+!!!include(en-us/datasheet/rak815/board-overview.md)!!!
+!!!include(en-us/datasheet/rak815/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/rak815/interfaces.md)!!!
+!!!include(en-us/datasheet/rak815/pin-definition.md)!!!
+!!!include(en-us/datasheet/rak815/schematic-diagram.md)!!!

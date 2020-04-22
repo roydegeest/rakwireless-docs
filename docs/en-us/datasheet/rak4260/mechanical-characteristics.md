@@ -1,4 +1,4 @@
-# Mechanical Characteristics
+## Mechanical Characteristics
 
 The dimensions of the RAK4260 WisDuo LPWAN Module is shown in the figures below.
 

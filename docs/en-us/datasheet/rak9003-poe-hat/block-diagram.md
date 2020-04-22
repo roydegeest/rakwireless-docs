@@ -1,8 +1,4 @@
----
-next: pin-definition
----
-
-# Block Diagram
+## Block Diagram
 
 <rk-img
   src="/assets/images/datasheet/rak9003-poe-hat/poe-hat-block-diagram.png"

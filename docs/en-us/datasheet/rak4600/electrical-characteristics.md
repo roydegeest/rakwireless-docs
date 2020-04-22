@@ -1,10 +1,4 @@
----
-static_root: /assets/images/datasheet/rak4600/electrical-characteristics
----
-
-# Electrical Characteristics
-
-## Electrical Consumption
+## Electrical Characteristics
 
 Several current consumption ratings are provided below for detailed RAK4600 LPWAN Module usage. Please refer to the values below for your preferred values for specific simulations and calculations.
 
@@ -38,7 +32,7 @@ The RAK4600 LPWAN Module takes **92.291 ms** to send a LoRa® packet which consu
 - **Current consumption**: 119 mA
 
 <rk-img
-  :src="`${$frontmatter.static_root}/awyqt4s9r3469vtgai1p.jpg`"
+  src="/assets/images/datasheet/rak4600/electrical-characteristics/awyqt4s9r3469vtgai1p.jpg"
   width="100%"
   figure-number="1"
   caption="Oscilloscope Screen Capture of LoRa® Packet Sending"
@@ -52,7 +46,7 @@ The RAK4600 LPWAN Module takes **30.052 ms** to receive a LoRa® packet which co
 - **Current consumption**: 13.8 mA
 
 <rk-img
-  :src="`${$frontmatter.static_root}/ufgf8mxmibztzhezvr6l.jpg`"
+  src="/assets/images/datasheet/rak4600/electrical-characteristics/ufgf8mxmibztzhezvr6l.jpg"
   width="100%"
   figure-number="2"
   caption="Oscilloscope Screen Capture of LoRa® Packet Receiving"
@@ -65,7 +59,7 @@ The RAK4600 LPWAN Module when in sleep mode consumes **11.2 μA** of current.
 - **Current consumption**: 11.2 μA
 
 <rk-img
-  :src="`${$frontmatter.static_root}/bpm1nbybf4exvnop89yo.jpg`"
+  src="/assets/images/datasheet/rak4600/electrical-characteristics/bpm1nbybf4exvnop89yo.jpg"
   width="100%"
   figure-number="3"
   caption="Oscilloscope Screen Capture of RAK4600 LPWAN Module in sleep mode"

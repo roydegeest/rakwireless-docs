@@ -1,8 +1,4 @@
----
-next: device-specifications
----
-
-# Schematic Diagram
+## Schematic Diagram
 
 <rk-img
   src="/assets/images/datasheet/rak811-breakout-module/schematic-diagram-for-rak811.jpg"

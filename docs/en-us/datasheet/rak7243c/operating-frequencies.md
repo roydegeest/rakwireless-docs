@@ -1,8 +1,4 @@
----
-next: cellular-frequency-bands
----
-
-# Operating Frequencies
+## Operating Frequencies
 
 The Pilot Gateway  supports all LoRaWAN® frequency channels as below. Which is easy to configure while building the firmware from the source code.
 

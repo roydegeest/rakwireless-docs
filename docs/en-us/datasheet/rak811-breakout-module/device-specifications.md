@@ -1,10 +1,6 @@
----
-next: reflow-profile
----
+## Device Specifications
 
-# Device Specifications
-
-## General Specification
+### General Specification
 
 | Model Name            | RAK811                      |
 | --------------------- | --------------------------- |
@@ -14,7 +10,7 @@ next: reflow-profile
 | Storage Temperature   | -40°C to 85°C               |
 
 
-## Recommended Operating Rating
+### Recommended Operating Rating
 
 | Feature               | Min  | Typ | Max  | Unit |
 | --------------------- | ---- | --- | ---- | ---- |
@@ -22,7 +18,7 @@ next: reflow-profile
 | VCC                   | 3.15 | 3.3 | 3.45 | V    |
 
 
-## Specification
+### Specification
 
 | Feature        | Description                                                                              |
 | -------------- | ---------------------------------------------------------------------------------------- |

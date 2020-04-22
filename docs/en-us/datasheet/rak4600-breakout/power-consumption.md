@@ -1,4 +1,4 @@
-# Power Consumption
+## Power Consumption
 
 The table below shows the power consumption of RAK4600 Breakout Module:
 

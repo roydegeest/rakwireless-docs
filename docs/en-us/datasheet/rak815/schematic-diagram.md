@@ -1,7 +1,4 @@
----
-next: /en-us/datasheet/rak4200/
----
-# Schematic Diagram
+## Schematic Diagram
 
 <rk-img
   src="/assets/images/datasheet/rak815/gps-max-7q-schematic-diagram.png"

@@ -1,30 +1,26 @@
----
-next: power-consumption
----
-
-# Pin Definition
+## Pin Definition
 
 Here are the six connectors for RAK5205 tracker board: **P1**, **P2**, **J11**, **J12**, **J22** and **J25**
 
-## P1
+### P1
 
 (Pin1 connected to VBATT, Pin2 connected to GND) Li-ion battery connector.
 
-## P2
+### P2
 
 (Pin1 connected to VBUS, Pin2 connected to GND) Solar cell interface.
 
-## J11
+### J11
 
 Pin1 is connected to VBUS. Pin2 is connected to VBIN. Without a battery
 connection, the J11 needs to be short-circuited with a jumper. Instead, the J11
 needs to be kept open.
 
-## J12
+### J12
 
 Pin1 is connected to BOOT0. Pin2 is connected to VDD. Enter flash mode through jumper short circuit and open into normal mode.
 
-## J22
+### J22
 
 30pins, follow the 96Board’s pin definition.
 
@@ -70,7 +66,7 @@ Pin1 is connected to BOOT0. Pin2 is connected to VDD. Enter flash mode through j
 | 30 | NC | No Connection | 
 
 
-## J25
+### J25
 
 (RX1, RX, RXCP) J22 and USB UART share. If you use the UART of J22, you need to connect Rx and RX1 pins. If you use USB UART, you need to connect Rx and RXCP pins.
 

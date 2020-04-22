@@ -1,8 +1,4 @@
----
-next: /en-us/datasheet/rak7240/product-specifications.html
----
-
-# Board Overview
+## Board Overview
 
 ## Main Electronic Circuit Board
 

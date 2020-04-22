@@ -1,8 +1,4 @@
----
-next: electrical-characteristics
----
-
-# Operating Frequencies
+## Operating Frequencies
 
 The device supports all LoRaWAN® frequency bands as the table below. Which is easy to configure while building the firmware from the source code.
 

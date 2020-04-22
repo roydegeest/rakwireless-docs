@@ -1,4 +1,4 @@
-# Mechanical Characteristics
+## Mechanical Characteristics
 
 The following figure is the mechanical dimensions of the RAK4200 LPWAN Module.
 

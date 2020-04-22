@@ -1,7 +1,4 @@
----
-next: /en-us/datasheet/rak5010/
----
-# Schematics
+## Schematics
 
 The schematic diagram shows the power and MikroBus interface of RAK2013.
 

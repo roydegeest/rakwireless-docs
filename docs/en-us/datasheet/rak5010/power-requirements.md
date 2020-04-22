@@ -1,8 +1,4 @@
----
-next: system-on-a-chip-and-sensors
----
-
-# Power Requirements
+## Power Requirements
 
 The RAK5010 tracker board can be powered by a battery, connected to the P2. The nominal operational voltage of the battery should be within the range in the table:
 

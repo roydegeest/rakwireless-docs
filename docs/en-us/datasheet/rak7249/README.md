@@ -1,5 +1,4 @@
 ---
-next: components-and-accessories
 tags:
 - datasheet
 ---
@@ -44,3 +43,9 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 6. **MQTT v3.1** Bridging with **TLS** encryption
 7. **Buffering of LoRa frames** in case of NS outage (no data loss)
 
+!!!include(en-us/datasheet/rak7249/components-and-accessories.md)!!!
+!!!include(en-us/datasheet/rak7249/configuration-options.md)!!!
+!!!include(en-us/datasheet/rak7249/hardware-interfaces.md)!!!
+!!!include(en-us/datasheet/rak7249/product-specifications.md)!!!
+!!!include(en-us/datasheet/rak7249/block-diagram.md)!!!
+!!!include(en-us/datasheet/rak7249/board-interface.md)!!!

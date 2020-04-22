@@ -1,35 +1,30 @@
----
-static_root: /assets/images/datasheet/rak7244c/antenna-specifications
-next: /en-us/datasheet/rak7246g/
----
+## Antenna Specifications
 
-# Antenna Specifications
+### LoRa® Antenna
 
-## LoRa® Antenna
-
-### Overview
+#### Overview
 
 The LoRa® Antenna with RP-SMA female connector is shown in the image below:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/ve8scbrbhdlcdaxa8x43.png`"
+  src="/assets/images/datasheet/rak7244c/antenna-specifications/ve8scbrbhdlcdaxa8x43.png"
   width="80%"
   figure-number="1"
   caption="LoRa® Antenna Overview"
 />
 
-### Antenna Dimension
+#### Antenna Dimension
 
 Figure 2 shows the antenna's mechanical dimension.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/fggmm4b6rk79c5jj9xot.png`"
+  src="/assets/images/datasheet/rak7244c/antenna-specifications/fggmm4b6rk79c5jj9xot.png"
   width="100%"
   figure-number="2"
   caption="LoRa® Antenna Dimension"
 />
 
-### Antenna Parameters
+#### Antenna Parameters
 
 | Items                              | Specifications                 |
 | ---------------------------------- | ------------------------------ |
@@ -38,29 +33,29 @@ Figure 2 shows the antenna's mechanical dimension.
 | Working Temperature &amp; Humidity | T:-35 ºC ~ +80 ºC, H: 0% ~ 95% |
 | Storage Temperature &amp; Humidity | T:-40 ºC ~ +85 ºC, H: 0% ~ 95% |
 
-## LTE Antenna
+### LTE Antenna
 
-### Overview
+#### Overview
 
 The LTE antenna for the Developer Gateway covers working frequency band from 824MHz to 2690MHz. The antenna is shown in Figure 3.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/rhh9xrj0pfazqtaegxiv.jpg`"
+  src="/assets/images/datasheet/rak7244c/antenna-specifications/rhh9xrj0pfazqtaegxiv.jpg"
   width="80%"
   figure-number="3"
   caption="LTE Antenna"
 />
 
-### Antenna Dimension
+#### Antenna Dimension
 
 <rk-img
-  :src="`${$frontmatter.static_root}/hmqp4xvybryisixcoq86.jpg`"
+  src="/assets/images/datasheet/rak7244c/antenna-specifications/hmqp4xvybryisixcoq86.jpg"
   width="80%"
   figure-number="4"
   caption="LTE Antenna Dimension"
 />
 
-### Antenna Parameters
+#### Antenna Parameters
 
 | Items                              | Specifications                                 |
 | ---------------------------------- | ---------------------------------------------- |
@@ -70,29 +65,29 @@ The LTE antenna for the Developer Gateway covers working frequency band from 824
 | Working Temperature &amp; Humidity | T:-35 ºC ~ +80 ºC, H: 0% ~ 95%                 |
 | Storage Temperature &amp; Humidity | T:-40 ºC ~ +85 ºC, H: 0% ~ 95%                 |
 
-## GPS Antenna
+### GPS Antenna
 
-### Overview
+#### Overview
 
 The GPS antenna for Pilot Gateway is shown below
 
 <rk-img
-  :src="`${$frontmatter.static_root}/ftzgxoaywuiq7xmy8shj.jpg`"
+  src="/assets/images/datasheet/rak7244c/antenna-specifications/ftzgxoaywuiq7xmy8shj.jpg"
   width="70%"
   figure-number="5"
   caption="GPS Antenna"
 />
 
-### GPS Antenna Dimension
+#### GPS Antenna Dimension
 
 <rk-img
-  :src="`${$frontmatter.static_root}/boh9fwujcictm8er5yug.jpg`"
+  src="/assets/images/datasheet/rak7244c/antenna-specifications/boh9fwujcictm8er5yug.jpg"
   width="100%"
   figure-number="6"
   caption="GPS Antenna Dimensions"
 />
 
-### GPS Environmental Requirements
+#### GPS Environmental Requirements
 
 The antenna environmental requirements are listed in the table below:
 
@@ -101,7 +96,7 @@ The antenna environmental requirements are listed in the table below:
 | Working    | -35 ºC ~ +80 ºC | 0% ~ 95% |
 | Storage    | -40 ºC ~ +85 ºC | 0% ~ 95% |
 
-### GPS Antenna Parameters
+#### GPS Antenna Parameters
 
 The GPS Antenna specifications are listed in the table below:
 

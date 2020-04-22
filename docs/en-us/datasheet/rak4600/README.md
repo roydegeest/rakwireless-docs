@@ -1,6 +1,5 @@
 ---
 static_root: /assets/images/datasheet/rak4600/overview
-next: board-overview
 tags:
 - datasheet
 ---
@@ -33,3 +32,11 @@ The module complies with LoRaWAN® 1.0.2 protocols. It also supports LoRa® Poin
 - Ultra-Low Power Consumption 2.0uA in Sleep mode
 - LoRa® Boost mode with 20dBm output power
 - BLE 5.0 (Tx power -20 to +4 dBm in 4dB steps)
+
+!!!include(en-us/datasheet/rak4600/board-overview.md)!!!
+!!!include(en-us/datasheet/rak4600/block-diagram.md)!!!
+!!!include(en-us/datasheet/rak4600/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/rak4600/pin-definition.md)!!!
+!!!include(en-us/datasheet/rak4600/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/rak4600/mechanical-characteristics.md)!!!
+!!!include(en-us/datasheet/rak4600/recommended-reflow-profile.md)!!!

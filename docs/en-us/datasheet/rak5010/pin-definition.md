@@ -1,12 +1,8 @@
----
-next: interfaces
----
-
-# Pin Definition
+## Pin Definition
 
 There are two connectors on the board:
 
-## P1
+### P1
 
 **Solar panel interface**
 
@@ -19,7 +15,7 @@ There are two connectors on the board:
 The output of the solar panel cannot exceed 5.5V, otherwise it may cause permanent damage to the board.
 :::
 
-## P2
+### P2
 
 **Li-ion battery connector**
 
@@ -29,7 +25,7 @@ The output of the solar panel cannot exceed 5.5V, otherwise it may cause permane
 |   2   |   VBAT   | Positive of the Battery |
 
 
-## J9
+### J9
 
 J9 is J-LINK connector, with J-LINK debugger, you can program and debug nRF52840.
 
@@ -59,7 +55,7 @@ Below is the definition of 20PIN segger J-LINK connector:
 |   1   | VTref  | Input | This is the target reference voltage. It is used to check if the target has power, to create the logic-level reference for the input comparators and to control the output logic levels to the target. It is normally fed from VDD of the target board and must not have a series resistor |
 
 
-## J10 and J12
+### J10 and J12
 
 J10 and J12 are IO extension headers. Those are bridged from the nRF52840 IOs, through logical level shift circuits. Thus, the IOs level is set by the VREF pin. The function of these IOs is configurable. They can work as UART, I2C ，general GPIO or AD.
 

@@ -1,10 +1,6 @@
----
-static_root: /assets/images/datasheet/rak4600-breakout/interfaces
----
+## Interfaces
 
-# Interfaces
-
-## SWD Programming Interface
+### SWD Programming Interface
 
 When programming via a JLINK tool, it is required to have all of the following 5 pins connected to your JLINK tool:
 
@@ -18,21 +14,21 @@ When programming via a JLINK tool, it is required to have all of the following 5
 :pencil: For the aforementioned reason, it is best you leave these exposed for programming purposes and not to remap them as GPIOs
 :::
 
-## UART Port
+### UART Port
 
 There are two UART interfaces on RAK4600 module:
 
 - **UART1** – recommended for debugging/firmware update
 - **UART2** – recommended for external MCU connection.
 
-## I2C interface
+### I2C interface
 
 The following pins are intended for I2C (_require 10k resistance pull-up_):
 
 - **I2C_SCL**
 - **I2C_SDA**
 
-## RF interface
+### RF interface
 
 Both are utilizing an IPEX connector, where one is for the LoRa® antenna and the other for the BLE.
 

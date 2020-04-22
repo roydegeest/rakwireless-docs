@@ -1,8 +1,4 @@
----
-next: typical-characteristics
----
-
-# Pin Definition
+## Pin Definition
 
 <rk-img
   src="/assets/images/datasheet/rak9003-poe-hat/raspberry-pi-connector-overview.png"

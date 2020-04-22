@@ -1,10 +1,6 @@
----
-next: electrical-and-mechanical-specifications
----
+## Interfaces
 
-# Interfaces
-
-## Functional Diagram
+### Functional Diagram
 
 The block diagram below shows the internal architecture and external interfaces of the RAK5010 board.
 
@@ -15,7 +11,7 @@ The block diagram below shows the internal architecture and external interfaces 
   caption="Block Diagram of RAK5010"
 />
 
-## Interfaces
+### Interfaces
 
 The node is built around the BG96 module and the nRF52840 BLE chip. It provides the following interfaces, headers, jumpers, buttons and connectors:
 
@@ -38,7 +34,7 @@ connector
 - GPS Antenna with iPEX
 connector
 
-## Micro-B USB Interface
+### Micro-B USB Interface
 
 A Standard Micro-B USB compliant with USB 2.0 standard specification. This USB interface is connected to the USB port of NRF52840 for default. It also can connect to BG96 by reworking some resistor on the board. If this USB port is connected to the BG96, BG96’s AT command port GNSS port and debug port can be accessed through
 this USB. It is also used as charge input port for battery. The Micro-B USB pin
@@ -63,7 +59,7 @@ definition is shown below:
 
 This USB port is also used as port for charging the battery.
 
-## LEDs
+### LEDs
 
 Three LEDs are used to indicate operating status, here are their functions:
 
@@ -74,15 +70,15 @@ Three LEDs are used to indicate operating status, here are their functions:
 |  🔴 Red LED  |    connect to the BG96    | Indicates the network status of the BG96 |
 
 
-## RESET Push Button
+### RESET Push Button
 
 Reset Push Button is used to reset the nRF52840. You can control the BG96 reset with by the firmware of the nRF52840.
 
-## PWRKEY Push Button
+### PWRKEY Push Button
 
 When the BG96 is inpower off mode, it can be turned back on to normal mode by holding the PWRKEY button for at least 100ms. Holding the PWRKEY button for at least 650 ms, the module will execute the power-down procedure, after the PWRKEY is released.
 
-## IO Connections between the BG96 and the nRF52840
+### IO Connections between the BG96 and the nRF52840
 
 The nRF52840 communicates with the BG96 primarily though the UART interface. There is, however, additional signaling between the two modules. This is for the purpose
 of auto monitoring of status indicators and control. The pin mapping is shown
@@ -114,7 +110,7 @@ If BG96_RESET, BG96_PWRKEY, and BG96_WDISABLE are not set correctly, the BG96 mo
   caption="Turning on the BG96 via the PWRKEY"
 />
 
-## Antenna Connector
+### Antenna Connector
 
 The connectors for both the GPS and LTE antennas are iPEX.
 

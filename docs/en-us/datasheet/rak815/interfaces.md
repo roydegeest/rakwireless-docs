@@ -1,10 +1,6 @@
----
-next: pin-definition
----
+## Interfaces
 
-# Interfaces
-
-## System Diagram
+### System Diagram
 
 Shown below is the System Diagram of RAK815 Breakout Board.
 

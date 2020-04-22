@@ -1,8 +1,4 @@
----
-next: power-consumption
----
-
-# Pin Definition
+## Pin Definition
 
 The figure below shows the pinout of the RAK4200 Breakout Module:
 
@@ -15,7 +11,7 @@ The figure below shows the pinout of the RAK4200 Breakout Module:
 
 The pin definitions of RAK4200 Breakout Module are shown in the following tables below:
 
-## J1 Pin Definitions
+### J1 Pin Definitions
 
 | Pin | Name | I/O | Description | Alternate functions | 
 | ---- | ---- | ---- | ---- | ---- | 
@@ -29,7 +25,7 @@ The pin definitions of RAK4200 Breakout Module are shown in the following tables
 | 8 | I2C_SDA | I/O | I2C interface (STM32L071 PB6) | USART1_RX, I2C1_ SDA, LPTIM1_IN2, USART4_CTS, COMP2_INP, VREF_PVD_IN | 
 
 
-## J2 Pin Definitions
+### J2 Pin Definitions
 
 | Pin | Name | I/O | Description | Alternate Functions | 
 | ---- | ---- | ---- | ---- | ---- | 
@@ -43,7 +39,7 @@ The pin definitions of RAK4200 Breakout Module are shown in the following tables
 | 8 | SPI_MISO | I/O | Reserved PA7 | Internal connection to **SX1276 SPI_MOSI** | 
 
 
-## J4 Pin Definitions
+### J4 Pin Definitions
 
 | Pin | Name | I/O | Description | Alternate Functions | 
 | ---- | ---- | ---- | ---- | ---- | 

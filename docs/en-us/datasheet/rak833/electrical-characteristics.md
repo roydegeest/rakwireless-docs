@@ -1,11 +1,6 @@
----
-next: rf-characteristics
----
+## Electrical Characteristics
 
-
-# Electrical Characteristics
-
-## Absolute Maximum Rating
+### Absolute Maximum Rating
 
 Limiting values given below are in accordance with the Absolute Maximum Rating System (IEC 134).
 
@@ -28,7 +23,7 @@ Stressing the device above one or more of the ratings listed in the Absolute Max
 The product is not protected against over-voltage or reversed voltages. If necessary, voltage spikes exceeding the power supply voltage specification, given in table above, must be limited to values within the specified boundaries by using appropriate protection devices. 
 :::
 
-## Maximum Electrostatic Discharge (ESD)
+### Maximum Electrostatic Discharge (ESD)
 
 :::tip 📝 NOTE
 RAK833 LoRaWAN® Gateway Concentrator Module are Electrostatic Sensitive Devices and require special precautions when handling.
@@ -41,7 +36,7 @@ RAK833 LoRaWAN® Gateway Concentrator Module are Electrostatic Sensitive Devices
 | ESD immunity for ANT1                    | -   | -       | 4000 | V    | Contact Discharge according to IEC 61000-4-2 |
 | -                                        | -   | -       | 8000 | V    | Air Discharge according to IEC 61000-4-2     |
 
-## Operating Conditions
+### Operating Conditions
 
 Unless otherwise indicated, all operating condition specifications are at an ambient temperature of 25°C.
 
@@ -49,14 +44,14 @@ Unless otherwise indicated, all operating condition specifications are at an amb
 Operation beyond the operating conditions is not recommended and extended exposure beyond them may affect device reliability.
 :::
 
-## Operating Temperature Range
+### Operating Temperature Range
 
 | Parameter                      | Min | Typical | Max | Unit | Remarks                                                                                                                                 |
 | ------------------------------ | --- | ------- | --- | ---- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Normal operating temperature   | –20 | +25     | +65 | °C   | Normal operating temperature range (fully functional and meet 3GPP specifications)                                                      |
 | Extended operating temperature | –40 | -       | +85 | °C   | Extended operating temperature range (RF performance may be affected outside normal operating range, though module is fully functional) |
 
-## Supply/Power Pins
+### Supply/Power Pins
 
 Input voltage at **3.3Vaux** must be above the normal operating range minimum limit to switch-on the module.
 
@@ -64,7 +59,7 @@ Input voltage at **3.3Vaux** must be above the normal operating range minimum li
 | ------- | ------------------------------------- | ---- | ------- | ---- | ---- |
 | 3.3Vaux | Module supply operating input voltage | 3.00 | 3.30    | 3.60 | V    |
 
-## Current Consumption
+### Current Consumption
 
 | Mode              | Condition                                                 | Min | Type | Max | Unit |
 | ----------------- | --------------------------------------------------------- | --- | ---- | --- | ---- |

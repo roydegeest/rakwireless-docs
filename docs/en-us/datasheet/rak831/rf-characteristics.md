@@ -1,10 +1,6 @@
----
-next: /en-us/datasheet/rak833/
----
+## RF Characteristics
 
-# RF Characteristics
-
-## Transmitter RF Characteristics
+### Transmitter RF Characteristics
 
 The RAK831 has an excellent transmitter performance . It is highly recommended to use the optimized configuration for the power level configuration, which is part of the HAL. This results in a mean RF output power level and current consumption.
 
@@ -43,7 +39,7 @@ The table below is for 868 MHz RAK831 LPWAN gateway. Other frequencies are also 
 | TX Power Variation                     |                        | -1.5 |      | +1.5 | dB   |
 
 
-## Receiver RF Characteristics
+### Receiver RF Characteristics
 
 It is highly recommended to use optimized RSSI calibration values, which is part of the HAL v3.1. For both, Radio 1 and 2, **the RSSI-Offset should be set -169.0**.
 

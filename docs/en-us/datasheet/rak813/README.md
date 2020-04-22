@@ -1,6 +1,5 @@
 ---
 static_root: /assets/images/datasheet/rak813/overview
-next: board-overview
 tags:
 - datasheet
 ---
@@ -47,3 +46,9 @@ RAK813 supports various protocols, including the newest BLE and LoRaWAN®, where
 - FSK, GFSK, and LoRa® Technology modulation
 - llP3 = -11dBm
 - Up to 15 km coverage at suburban and up to 5 km coverage at urban area.
+
+!!!include(en-us/datasheet/rak813/board-overview.md)!!!
+!!!include(en-us/datasheet/rak813/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/rak813/interfaces.md)!!!
+!!!include(en-us/datasheet/rak813/pin-definition.md)!!!
+!!!include(en-us/datasheet/rak813/mechanical-dimension.md)!!!

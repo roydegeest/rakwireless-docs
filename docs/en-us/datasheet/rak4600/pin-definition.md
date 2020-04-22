@@ -1,13 +1,9 @@
----
-static_root: /assets/images/datasheet/rak4600/pin-definition
----
-
-# Pin Definition
+## Pin Definition
 
 Provided in this section is the Pinout of the RAK4600 LPWAN Module.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/tbnfkqxtk0arvvmlddsf.jpg`"
+  src="/assets/images/datasheet/rak4600/pin-definition/tbnfkqxtk0arvvmlddsf.jpg"
   width="100%"
   figure-number="1"
   caption="RAK4600 Board Pinout"
