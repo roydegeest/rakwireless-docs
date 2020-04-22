@@ -46,7 +46,9 @@ module.exports = {
     pageFooter: [
       '© 2014-2020 Shenzhen RAKwireless Technology Co., Ltd.',
       'All rights reserved. 粤ICP备16112976号'
-    ]
+    ],
+    searchMaxSuggestions: 5,
+    test: ['/quick-start/', '/datasheet/']
   },
   plugins: {
     'sitemap': {
