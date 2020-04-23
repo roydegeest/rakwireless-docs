@@ -1,51 +1,74 @@
 <template>
-  <main
-    class="home"
-    aria-labelledby="main-title"
+  <div
+    class="full-width"
+    style="margin-top: 50px;"
   >
-    <header class="hero">
-      <img
-        v-if="data.heroImage"
-        :src="$withBase(data.heroImage)"
-        :alt="data.heroAlt || 'hero'"
-      >
+    <div
+      class="column"
+      style="height: 90vh"
+    >
+      <q-space />
+      <div class="flex flex-center q-pa-md">
+        <img
+          v-if="data.heroImage"
+          :src="$withBase(data.heroImage)"
+          :alt="data.heroAlt || 'hero'"
+          class="fit"
+        >
+      </div>
 
-      <h1
-        v-if="data.heroText !== null"
-        id="main-title"
+      <div
+        class="q-pa-md text-center column q-gutter-y-md"
+        style="line-height: normal"
       >
-        {{ data.heroText || $title || 'Hello' }}
-      </h1>
+        <div
+          v-if="data.heroText !== null"
+          class="text-weight-medium"
+          style="font-size: 2.3rem"
+        >
+          {{ data.heroText || $title || 'Hello' }}
+        </div>
 
-      <p
-        v-if="data.tagline !== null"
-        class="description"
-      >
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
-      </p>
-
-      <p
-        v-if="data.actionText && data.actionLink"
-        class="action"
-      >
+        <div
+          v-if="data.tagline !== null"
+          class="text-weight-regular text-grey-7"
+          style="font-size: 1.25rem"
+        >
+          {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+        </div>
+      </div>
+      <div class="flex flex-center q-pa-md">
         <NavLink
-          class="action-button"
+          class="bg-light-blue-10 text-white q-pa-md rounded-borders"
           :item="actionLink"
         />
-      </p>
-    </header>
+      </div>
+      <q-space />
+    </div>
 
     <div
       v-if="data.features && data.features.length"
-      class="features"
+      style="padding-top: 50px"
+      class="row justify-center"
+      id="features"
     >
       <div
+        class="q-pa-sm"
         v-for="(feature, index) in data.features"
         :key="index"
-        class="feature"
+        style="width: 20rem"
       >
-        <h2>{{ feature.title }}</h2>
-        <p>{{ feature.details }}</p>
+        <q-card>
+          <q-card-section class="text-h6 text-center">{{ feature.title }}</q-card-section>
+          <q-card-section class="text-caption text-justify">{{ feature.details }}</q-card-section>
+          <q-card-actions align="center">
+            <NavLink
+              class="bg-light-blue-10 text-white q-pa-sm rounded-borders text-center"
+              :item="{ link: feature.actionLink || '#', text: feature.actionLabel || 'Go' }"
+              style="width: 5rem"
+            />
+          </q-card-actions>
+        </q-card>
       </div>
     </div>
 
@@ -57,7 +80,7 @@
     >
       {{ data.footer }}
     </div>
-  </main>
+  </div>
 </template>
 
 <script>
@@ -75,7 +98,7 @@ export default {
 
     actionLink () {
       return {
-        link: this.data.actionLink,
+        link: this.data.actionLink || '/en-us/#features',
         text: this.data.actionText
       }
     }
@@ -84,6 +107,26 @@ export default {
 </script>
 
 <style lang="stylus">
+.action {
+  margin: 1.8rem auto;
+}
+
+.action-button {
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: $accentColor;
+  padding: 0.8rem 1.6rem;
+  border-radius: 4px;
+  transition: background-color 0.1s ease;
+  box-sizing: border-box;
+  border-bottom: 1px solid darken($accentColor, 10%);
+
+  &:hover {
+    background-color: lighten($accentColor, 10%);
+  }
+}
+
 .home {
   padding: $navbarHeight 2rem 0;
   max-width: $homePageWidth;
