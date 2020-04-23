@@ -7,7 +7,7 @@ next: lorawan-gateway-configuration
 ## 1. WAN Interface
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-wan-interface.png"
+  src="/assets/images/user-manual/web-management-platform/network-wan-interface.png"
   width="100%"
   figure-number="1"
   caption="WAN Interface Configuration"
@@ -20,7 +20,7 @@ Additionally, one can set the **Gateway metric** (how high is this interface in 
 ## 2. Cellular Network Configuration
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-cellular-interface.png"
+  src="/assets/images/user-manual/web-management-platform/network-cellular-interface.png"
   width="100%"
   figure-number="2"
   caption="Cellular Interface Configuration"
@@ -35,7 +35,7 @@ There is also a field for the PIN Code in case your SIM card is locked.
 ## 3. Wi-Fi
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-wifi-config.png"
+  src="/assets/images/user-manual/web-management-platform/network-wifi-config.png"
   width="100%"
   figure-number="3"
   caption="Wi-Fi Configuration"
@@ -54,7 +54,7 @@ If you swipe the **Hidden** slider, the SSID will not be advertised.
 ## 4. Firewall
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-firewall.png"
+  src="/assets/images/user-manual/web-management-platform/network-firewall.png"
   width="100%"
   figure-number="4"
   caption="Firewall"
@@ -65,7 +65,7 @@ You can configure a number of settings including, but not limited to: **Zones**,
 ## 5. Diagnostics
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-diagnostics.png"
+  src="/assets/images/user-manual/web-management-platform/network-diagnostics.png"
   width="100%"
   figure-number="5"
   caption="Diagnostics"
@@ -78,7 +78,7 @@ You can enter either an URL or an IP Address in the text box and execute the com
 ## 6. Ping Watchdog
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-ping-watchdog.png"
+  src="/assets/images/user-manual/web-management-platform/network-ping-watchdog.png"
   width="100%"
   figure-number="6"
   caption="Ping Watchdog"

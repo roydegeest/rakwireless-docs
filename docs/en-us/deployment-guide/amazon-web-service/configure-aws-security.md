@@ -14,7 +14,7 @@ By default, all inbound traffic to an AWS Instance is blocked, only port 22 (SSH
 1. Open the Security Groups tab in the AWS Dashboard:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/aws-sec-group.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/aws-sec-group.jpg"
   width="100%"
   figure-number="1"
   caption="AWS Security Groups"
@@ -23,7 +23,7 @@ By default, all inbound traffic to an AWS Instance is blocked, only port 22 (SSH
 2. Select your desired Security Group (**Ubuntu Instance**). If you have multiple instances you can use the date and time of creation of the group as a guide to which is the one you want. Click the “**Action**” button and from the drop-worn menu select **Edit Inbound Rules**:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/inbound-rules.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/inbound-rules.jpg"
   width="100%"
   figure-number="2"
   caption="Security Group Inbound Rules"
@@ -32,7 +32,7 @@ By default, all inbound traffic to an AWS Instance is blocked, only port 22 (SSH
 3. In the opened window, press the “**Add Rule**” button and add all the 4 rules mentioned before.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/add-inbound-rules.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/add-inbound-rules.jpg"
   width="100%"
   figure-number="3"
   caption="Adding Inbound Rules"
@@ -47,7 +47,7 @@ By default, all inbound traffic to an AWS Instance is blocked, only port 22 (SSH
 5. Finally check if the rules you created are working by entering your instance Public IP address using port 8080 in a browser window. You should see the Login page of the Chirpstack Web UI (for example `3.120.237.38:8080` as in the image below).
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/chirpstack-login.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/chirpstack-login.jpg"
   width="100%"
   figure-number="4"
   caption="Chirpstack Login Page"

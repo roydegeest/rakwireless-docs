@@ -38,7 +38,7 @@ import directly which would not need to set every channel manually. However, the
 
 * The image below shows what the values for the EU863-870 band should be.
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/4.loraspectrumeu868/eu868freqtemplate.png"
+  src="/assets/images/user-manual/lora-spectrum-eu868/eu868freqtemplate.png"
   width="75%"
   figure-number="1"
   caption="Default Frequency Template in the Web Management Platform"
@@ -50,7 +50,7 @@ Let us have a summary of the parameters that can be seen in the image below, whi
 0 and Radio 1 frequency fields we discussed in the previous section.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/4.loraspectrumeu868/channel-panel.png"
+  src="/assets/images/user-manual/lora-spectrum-eu868/channel-panel.png"
   width="100%"
   figure-number="2"
   caption="Concentrator Channel Panel"

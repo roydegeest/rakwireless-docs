@@ -25,7 +25,7 @@ This section walks through the details on the steps on how to configure the free
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/aws-console.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/aws-console.jpg"
   width="100%"
   figure-number="1"
   caption="AWS Management Console"
@@ -34,7 +34,7 @@ This section walks through the details on the steps on how to configure the free
 2. In the following screen you can see your running instances, key pairs, security groups, etc. Press the blue “**Launch instance**” button.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/launch-instance.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/launch-instance.jpg"
   width="100%"
   figure-number="2"
   caption="Launching an Instance"
@@ -43,7 +43,7 @@ This section walks through the details on the steps on how to configure the free
 3. The is a ton of choices for the operating system, however we will be using **Ubuntu**. Scroll down and choose **Ubuntu Server 18.04 LTS** (latest at the time of this document). Click the “**Select**” button.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/selecting-os.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/selecting-os.jpg"
   width="100%"
   figure-number="3"
   caption="Selecting the Operating System"
@@ -52,7 +52,7 @@ This section walks through the details on the steps on how to configure the free
 4. In the next window, you can configure your Instance. However, we will leave it as it is. Just select the _**t2.Micro**_ for the **instance type** as in figure shown below and click “**Review and Launch**”.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/select-instance-type.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/select-instance-type.jpg"
   width="100%"
   figure-number="4"
   caption="Selecting the Instance Type"
@@ -61,7 +61,7 @@ This section walks through the details on the steps on how to configure the free
 5. Confirm your choice and Launch. Security groups will be edited in the next section so you can go ahead and confirm your choice by pressing the “**Launch**” button as shown in the image below:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/launch-instance-f.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/launch-instance-f.jpg"
   width="100%"
   figure-number="5"
   caption="Launching the Instance"
@@ -72,7 +72,7 @@ This section walks through the details on the steps on how to configure the free
 In order to have an SSH session to the Instance, we need to create the appropriate access keys. Thus, after Launching you will see the window in the image below:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/key-pair.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/key-pair.jpg"
   width="75%"
   figure-number="6"
   caption="Key pair creation"
@@ -81,7 +81,7 @@ In order to have an SSH session to the Instance, we need to create the appropria
 1. We will choose to "**Create a new key pair**" from the drop-down menu and give it an appropriate name. Finally, click the “**Download Key Pair**” button shown in the image below.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/new-key-pair.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/new-key-pair.jpg"
   width="75%"
   figure-number="7"
   caption="Creating a new key pair"
@@ -96,7 +96,7 @@ In order to have an SSH session to the Instance, we need to create the appropria
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/instance-param.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/instance-param.jpg"
   width="100%"
   figure-number="8"
   caption="Instance Parameters"
@@ -115,7 +115,7 @@ In order to have an SSH session to the Instance, we need to create the appropria
 7. In the main window, select the **Type of key to generate** as **RSA** (should be the default choice). In older versions, it is named **SSH-2 RSA**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/puttygen.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/puttygen.jpg"
   width="75%"
   figure-number="9"
   caption="PuTTYgen main window"
@@ -130,7 +130,7 @@ In order to have an SSH session to the Instance, we need to create the appropria
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/puttygen-public-key.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/puttygen-public-key.jpg"
   width="75%"
   figure-number="10"
   caption="PuTTYgen Saving the public key"
@@ -139,7 +139,7 @@ In order to have an SSH session to the Instance, we need to create the appropria
 10. As your Private Key is now in the correct format, now you can create an SSH session with PuTTY. Open the client and select SSH
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/putty-main.png"
+  src="/assets/images/deployment-guide/amazon-web-service/putty-main.png"
   width="75%"
   figure-number="11"
   caption="PuTTY main window"
@@ -157,7 +157,7 @@ user_name@public_dns_name
     * **Host name**: [ubuntu@ec2-3-120-237-38.eu-central-1.compute.amazonaws.com](mailto:ubuntu@ec2-3-120-237-38.eu-central-1.compute.amazonaws.com)
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/putty-hostname.png"
+  src="/assets/images/deployment-guide/amazon-web-service/putty-hostname.png"
   width="75%"
   figure-number="12"
   caption="PuTTY main window with Host Name"
@@ -170,7 +170,7 @@ user_name@public_dns_name
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/putty-ssh-auth.png"
+  src="/assets/images/deployment-guide/amazon-web-service/putty-ssh-auth.png"
   width="75%"
   figure-number="13"
   caption="PuTTY SSH Authentication"
@@ -179,7 +179,7 @@ user_name@public_dns_name
 13. Click the “**Open**” button to initiate the session. If this is your first time connecting, PuTTY will ask for confirmation (click **Yes**). You should see the command line window to your instance now.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/putty-ssh-command.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/putty-ssh-command.jpg"
   width="75%"
   figure-number="14"
   caption="PuTTY SSH Command line"

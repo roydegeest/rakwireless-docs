@@ -9,7 +9,7 @@ This is where statistics about the Gateway behavior can be monitored in real tim
 ## 1. Overview
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/status-overview.png"
+  src="/assets/images/user-manual/web-management-platform/status-overview.png"
   width="100%"
   figure-number="1"
   caption="Status Overview of the WEB Management Platform."
@@ -37,14 +37,14 @@ This is where statistics about the Gateway behavior can be monitored in real tim
 This is where the logs of the LoRa® messages is shown in real time. There are several options for filtering as well as the possibility to download the statistics in a file. Additionally, there is a summary (**Total, Uplink, and Downlink**), below the filter fields.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/packet-logger-view.jpg"
+  src="/assets/images/user-manual/web-management-platform/packet-logger-view.jpg"
   width="100%"
   figure-number="2"
   caption="LoRaWAN® Packet Logger View of the WEB Management Platform."
 />
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/packet-logger-detailed.jpg"
+  src="/assets/images/user-manual/web-management-platform/packet-logger-detailed.jpg"
   width="100%"
   figure-number="3"
   caption="Detailed Information of each Message in the LoRaWAN® Packet Logger"
@@ -60,7 +60,7 @@ This is where the logs of the LoRa® messages is shown in real time. There are s
 Through the system log, updated logs in real time can be seen in this menu. It includes in addition to the host processes, the LoRa® frames received/transmitted by the gateway. If the connection to the LoRa® Network server is lost, it is automatically backed up on the SD card (**Provide one is inserted in the slot**).
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/system-logger.jpg"
+  src="/assets/images/user-manual/web-management-platform/system-logger.jpg"
   width="100%"
   figure-number="4"
   caption="System logger tab"
@@ -71,7 +71,7 @@ Through the system log, updated logs in real time can be seen in this menu. It i
 This section houses the Firewall settings. It also where you go to reset the Firewall remotely.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/firewall.jpg"
+  src="/assets/images/user-manual/web-management-platform/firewall.jpg"
   width="100%"
   figure-number="5"
   caption="Firewall tab"

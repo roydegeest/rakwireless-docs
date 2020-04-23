@@ -11,7 +11,7 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 ## Packet Forwarder Set-up
 
 :::tip 📝 NOTE
- For other settings and detailed documentation for this section, kindly browse the [LoRaWAN Gateway Configuration](/en-us/quick-start/rak7249/web-management-platform/lorawan-gateway-configuration.html#general-setup) section.
+ For other settings and detailed documentation for this section, browse the [LoRaWAN Gateway Configuration](/en-us/user-manual/web-management-platform/lorawan-gateway-configuration.html#general-setup) section.
 :::
 
 1. By navigating through LoRa® Gateway tab-> LoRa® Packet Forwarder-> General Setup, set the Protocol in the drop-down list to **Build-in LoRa ® Server**.
@@ -19,7 +19,7 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 2. You can leave the rest of the settings with their default values. Remember to "**Save & Apply**".
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/build-in-lora-server.png"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/build-in-lora-server.png"
   width="100%"
   figure-number="1"
   caption="Build-in LoRa Server Protocol in Gateway"
@@ -28,7 +28,7 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 ## Configure the LoRa® Server
 
 :::tip 📝 NOTE
- For other settings and detailed documentation for this section, kindly browse the [LoRa Network Server](/en-us/quick-start/rak7249/web-management-platform/lora-network-server.html#_2-general) section.
+ For other settings and detailed documentation for this section, browse the [LoRa Network Server](/en-us/user-manual/web-management-platform/lora-network-server.html#_2-general) section.
 :::
 
 1. Navigate through LoRa® Network Server tab -> General and turn-on this feature using the Enable slider. 
@@ -36,7 +36,7 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 2. Select your Region (Frequency Band). For this demonstration, we are going to use **EU863-870 frequency band**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/lora-network-server-general.png"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/lora-network-server-general.png"
   width="100%"
   figure-number="2"
   caption="LoRa Network Server General"
@@ -47,7 +47,7 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 1. Navigate through LoRa® Network Server-> Gateway and enter the **Gateway EUI** in the field.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/adding-gateway-eui.png"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/adding-gateway-eui.png"
   width="100%"
   figure-number="3"
   caption="Adding Gateway EUI"
@@ -66,7 +66,7 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/gateway-successful-add.jpg"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/gateway-successful-add.jpg"
   width="100%"
   figure-number="4"
   caption="Gateway Successful Adding"

@@ -1,7 +1,3 @@
----
-next: /en-us/quick-start/rak7258/web-management-platform/#web-management-platform
----
-
 # Connecting to The Things Network (TTN)
 
 The Things Network is about enabling low power devices to use long range gateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about The Things Network [here](https://www.thethingsnetwork.org/docs/).
@@ -42,7 +38,7 @@ The Things Network is about enabling low power devices to use long range gateway
 />
 
 :::tip 📝 NOTE:
- By default, the Gateway is set to connect to TTN. For detailed information about advanced configuration options refer to the [LoRaWAN® Gateway Configuration](../web-management-platform/lorawan-gateway-configuration.html#_1-lora®-packet-forwarder) section.
+ By default, the Gateway is set to connect to TTN. For detailed information about advanced configuration options refer to the [LoRaWAN® Gateway Configuration](/en-us/user-manual/web-management-platform/lorawan-gateway-configuration.html#_1-lora®-packet-forwarder) section.
 :::
 
 
