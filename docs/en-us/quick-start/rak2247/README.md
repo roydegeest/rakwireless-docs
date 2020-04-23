@@ -44,7 +44,7 @@ The **RAK2247 LoRaWAN® Gateway Concentrator Module** is a LoRa® Concentrator m
 Despite its small size, the device is an 8-channel concentrator module. By integrating it together with a computing core, a fully fledged LoRaWAN® Gateway solution can easily be created.
 
 <rk-btn
-  src="overview.html"
+  src="quick-start-guide.html"
   label="Set up Your RAK2247 LoRaWAN® Gateway Concentrator Module"
 />
 

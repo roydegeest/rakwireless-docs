@@ -40,7 +40,7 @@ The RAK2246 Pi HAT is based on a Semtech SX1308 chip, which allows for simultane
 The RAK7246G LPWAN Developer Gateway is an ideal choice for prototype design, concept verification and demonstrations, development evaluation and other scenarios. It is developer-friendly due to its minimalistic design that reduces cost and allows for easily accessing the internals. It is easy to set-up, which makes it a good choice for both experienced and novice LoRa specialists.
 
 <rk-btn
-  src="overview.html"
+  src="quick-start-guide.html"
   label="Set up Your RAK7246G LPWAN Developer Gateway"
 />
 
