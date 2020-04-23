@@ -1,12 +1,11 @@
 <template>
-  <div>
-    <!-- <input
+  <div class="search-box">
+    <input
       ref="input"
       aria-label="Search"
       :value="query"
       :class="{ 'focused': focused }"
       :placeholder="placeholder"
-      :debounce="200"
       autocomplete="off"
       spellcheck="false"
       @input="query = $event.target.value"
@@ -15,99 +14,34 @@
       @keyup.enter="go(focusIndex)"
       @keyup.up="onUp"
       @keyup.down="onDown"
-    > -->
-    <q-input
-      ref="qinput"
-      class="q-mr-md"
-      v-if="!$q.screen.lt.sm || visible"
-      v-model="query"
-      style="width: 12.5rem; transition: all 0.2 ease"
-      :class="{ 'focused': focused }"
-      :placeholder="placeholder"
-      :debounce="200"
-      @focus="focused = true"
-      @blur="focused = false; visible=false"
-      @keyup.enter="onEnter"
-      @keyup.up="onUp"
-      @keyup.down="onDown"
-      autofocus
-      rounded
-      outlined
-      standout
-      dense
-      clearable
     >
-      <template #prepend>
-        <q-icon name="search" />
-      </template>
-    </q-input>
-    <q-btn
-      v-if="!visible && $q.screen.lt.sm"
-      icon="search"
-      flat
-      round
-      @click="visible=true;"
-    />
-    <q-card
+
+    <ul
       v-if="showSuggestions"
-      class="q-pa-sm"
-      :style="$q.screen.lt.sm ? `right:0; width: 85vw`: null"
-      style="position: absolute;  white-space: normal; line-height: normal; width: 20rem"
-      @mouseleave="unfocus"
-    >
-      <q-card-section class="q-pa-none">
-        <div
-          v-for="(key, i) in Object.keys(suggestions)"
-          :key="`${key}-${i}`"
-        >
-          <div
-            class="q-pa-sm bg-light-blue-10 text-white text-weight-medium rounded-borders"
-            style="text-transform: capitalize"
-          >{{ clean(key) }}</div>
-          <q-list>
-            <q-item
-              class="full-width q-mt-xs"
-              :ref="`pk-${s.pk}`"
-              v-for="(s, i) in suggestions[key]"
-              :key="i"
-              :to="s.path"
-              dense
-              @click="query=''"
-              @keydown.enter="$router.push(s.path)"
-              :focused="focusIndex === s.pk"
-            >
-              <q-item-label>{{ s.title || s.path }}</q-item-label>
-              <q-item-label
-                v-if="s.header"
-                caption
-              >{{ s.header.title }}</q-item-label>
-            </q-item>
-          </q-list>
-        </div>
-      </q-card-section>
-    </q-card>
-    <!-- <ul
-      v-if="showSuggestions"
-      class="suggestions"
-      :class="{ 'align-right': alignRight }"
+      class="suggestions q-pa-none"
+      :class="{ 'align-right': false }"
       @mouseleave="unfocus"
     >
       <li
+        class="q-pa-xs"
         v-for="(key, i) in Object.keys(suggestions)"
         :key="`${key}-${i}`"
       >
-        <h6>{{key}}</h6>
+        <div
+          class="q-pa-xs bg-light-blue-10 text-white text-weight-medium rounded-borders"
+          style="text-transform: capitalize"
+        >{{ clean(key) }}</div>
         <ul
-          class="fit"
-          :class="{ 'align-right': alignRight }"
+          class="column"
+          style="list-style: none"
         >
           <li
+            class="suggestion full-width q-pa-xs"
             v-for="(s, i) in suggestions[key]"
             :key="i"
-            class="suggestion"
-            :class="{ focused: i === focusIndex }"
-            @mousedown="go(i)"
-            @mouseenter="focus(i)"
+            :class="{ focused: focusIndex === s.pk }"
+            @mousedown="go(s.pk)"
+            @mouseenter="focus(s.pk)"
           >
             <a
               :href="s.path"
@@ -122,7 +56,7 @@
           </li>
         </ul>
       </li>
-    </ul> -->
+    </ul>
   </div>
 </template>
 
@@ -174,11 +108,10 @@ const SEARCH_PATHS = null
 const SEARCH_HOTKEYS = ['s', '/']
 
 export default {
-  name: 'SearchBox',
+  name: 'RkSearchBox',
 
   data () {
     return {
-      visible: !this.$q.screen.lt.sm,
       query: '',
       focused: false,
       focusIndex: 0,
@@ -190,7 +123,8 @@ export default {
   computed: {
     showSuggestions () {
       return (
-        this.suggestions
+        this.focused
+        && this.suggestions
         && Object.keys(this.suggestions).length
       )
     },
@@ -208,7 +142,6 @@ export default {
       }
 
       const { pages } = this.$site
-      // console.log('pages: ', this.$refs)
       const max = this.$site.themeConfig.searchMaxSuggestions || SEARCH_MAX_SUGGESTIONS
       const localePath = this.$localePath
       const res = {}
@@ -243,6 +176,12 @@ export default {
         }
       }
 
+      return res
+    },
+
+    suggestionList () {
+      const res = []
+      for (const key in this.suggestions) res.push(...this.suggestions[key])
       return res
     },
 
@@ -323,11 +262,11 @@ export default {
       }
     },
 
-    go (i) {
+    go (focusIndex) {
       if (!this.showSuggestions) {
         return
       }
-      this.$router.push(this.suggestions[i].path)
+      this.$router.push(this.suggestionList[focusIndex].path)
       this.query = ''
       this.focusIndex = 0
     },
@@ -378,7 +317,7 @@ export default {
     top: 2 rem;
     border: 1px solid darken($borderColor, 10%);
     border-radius: 6px;
-    padding: 0.4rem;
+    // padding: 0.4rem;
     list-style-type: none;
 
     &.align-right {
@@ -388,7 +327,7 @@ export default {
 
   .suggestion {
     line-height: 1.4;
-    padding: 0.4rem 0.6rem;
+    // padding: 0.4rem 0.6rem;
     border-radius: 4px;
     cursor: pointer;
 
