@@ -58,7 +58,7 @@ at+set_config=lora:join_mode:0
   :src="`${$frontmatter.static_root}/mrydatc2hlwrxiyjpoqw.jpg`"
   width="60%"
   figure-number="5"
-  caption="hirpstack OTAA Join Mode via RAK Serial Port Tool"
+  caption="Chirpstack OTAA Join Mode via RAK Serial Port Tool"
 />
 
 8. Set the LoRa® class to **Class A**:
@@ -78,7 +78,7 @@ at+set_config=lora:region:EU868
 ```
 <rk-img
   :src="`${$frontmatter.static_root}/evudoedib3ovd9ye98gy.jpg`"
-  width="100%"
+  width="60%"
   figure-number="7"
   caption="Chirpstack OTAA Set Region/Frequency via RAK Serial Port Tool"
 />
@@ -88,21 +88,23 @@ at+set_config=lora:region:EU868
 at+set_config=lora:dev_eui:XXXX
 ```
 <rk-img
-  :src="`${$frontmatter.static_root}/yzqpmzjhqj58akm7xqcm.jpg`"
-  width="100%"
+  :src="`${$frontmatter.static_root}/vsbevdit52xkqq0ocn5n.jpg`"
+  width="60%"
   figure-number="8"
-  caption="Chirpstack OTAA Set Application EUI via RAK Serial Port Tool"
+  caption="Chirpstack OTAA Set Device EUI via RAK Serial Port Tool"
 />
+
+
 
 11. Set the **Application EUI**:
 ```
 at+set_config=lora:app_eui:XXXX
 ```
 <rk-img
-  :src="`${$frontmatter.static_root}/uf6hawlomc92hhp2dlbl.jpg`"
-  width="100%"
+  :src="`${$frontmatter.static_root}/yzqpmzjhqj58akm7xqcm.jpg`"
+  width="60%"
   figure-number="9"
-  caption="Chirpstack OTAA Set Application Key via RAK Serial Port Tool"
+  caption="Chirpstack OTAA Set Application EUI via RAK Serial Port Tool"
 />
 
 12. Set the **Application Key**:
@@ -110,10 +112,10 @@ at+set_config=lora:app_eui:XXXX
 at+set_config=lora:app_key:XXXX
 ```
 <rk-img
-  :src="`${$frontmatter.static_root}/kp0hhztd0d1txr0xlsnd.jpg`"
-  width="100%"
+  :src="`${$frontmatter.static_root}/uf6hawlomc92hhp2dlbl.jpg`"
+  width="60%"
   figure-number="10"
-  caption="Chirpstack OTAA Join via RAK Serial Port Tool"
+  caption="Chirpstack OTAA Set Application Key via RAK Serial Port Tool"
 />
 
 ::: tip 📝 NOTE:
@@ -125,16 +127,16 @@ at+set_config=lora:app_key:XXXX
 at+join
 ```
 <rk-img
-  :src="`${$frontmatter.static_root}/1.htym80ccfx3xe5ycormf.png`"
-  width="100%"
+  :src="`${$frontmatter.static_root}/kp0hhztd0d1txr0xlsnd.jpg`"
+  width="60%"
   figure-number="11"
-  caption="Balena Etcher Software"
+  caption="Chirpstack OTAA Join via RAK Serial Port Tool"
 />
 
 
 14. You can then see the **JoinRequest** and **JoinAccept** on ChirpStack page:
 <rk-img
-  :src="`${$frontmatter.static_root}/Chirpstack OTAA JoinRequest and JoinAccept`"
+  :src="`${$frontmatter.static_root}/szgnpputwklp26s1epwd.png`"
   width="100%"
   figure-number="12"
   caption=" Chirpstack OTAA JoinRequest and JoinAccept"
@@ -146,7 +148,7 @@ at+send=lora:2:1234567890
 ```
 <rk-img
   :src="`${$frontmatter.static_root}/sy4nezodryajjldti9ki.jpg`"
-  width="100%"
+  width="60%"
   figure-number="13"
   caption="Chirpstack OTAA Sample Data Sent via RAK Serial Port Tool"
 />

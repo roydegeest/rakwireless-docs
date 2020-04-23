@@ -10,7 +10,7 @@ When programming via a JLINK tool, it is required to have all of the following 5
 4. **GND**
 5. **MCU_NRST**
 
-::: tip Note:
+::: tip 📝 NOTE
 :pencil: For the aforementioned reason, it is best you leave these exposed for programming purposes and not to remap them as GPIOs
 :::
 
@@ -32,6 +32,6 @@ The following pins are intended for I2C (_require 10k resistance pull-up_):
 
 Both are utilizing an IPEX connector, where one is for the LoRa® antenna and the other for the BLE.
 
-NFC interface
+### NFC interface
 
 Two physical pins can be configured either as NFC antenna pins (factory default), or as GPIOs, When configured as NFC antenna pins, the GPIOs on those pins will automatically be set to DISABLE state and a protection circuit will be enabled preventing the chip from being damaged in the presence of a strong NFC field. The protection circuit will short the two pins together if the voltage difference exceeds approximately 2V.

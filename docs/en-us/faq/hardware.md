@@ -68,7 +68,7 @@ Whenever the keys 1 - 4 is pressed, the corresponding basket light under each ke
 * **At 16-Channels Working**
   - 12V DC Power Supply-Average Power: 12 Volts x 0.46 Amperes = **5.52 Watts**
   - PoE 48V Power Supply-Average Power: 48 Volts x 0.13 Amperes = **6.24 Watts**
-    :::
+:::
 
 :::details 8. How many lora modules does RAK currently have? What are the features of each module?
 
@@ -96,7 +96,7 @@ The features of each module are shown in the following table:
 
 :::
 
-:::details 9. What is the difference between all Raspberry Pi based LoRaWAN**™** Gateways that RAK currently offers?
+:::details 9. What is the difference between all Raspberry Pi based LPWAN Gateways that RAK currently offers?
 
 Currently, RAKwireless offers 4 Raspberry Pi Based LoRaWAN Gateways namely RAK7246G, RAK7246, RAK7243 and RAK7244.
 
