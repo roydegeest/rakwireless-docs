@@ -5,7 +5,7 @@
 This is the section where you configure general device parameters.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/system-tab.png"
+  src="/assets/images/user-manual/web-management-platform/system-tab.png"
   width="100%"
   figure-number="1"
   caption="System Tab"
@@ -32,7 +32,7 @@ By default, this is in Auto (English), however you can choose from several optio
 This is where you change the administration password of the device.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/admin-tab.png"
+  src="/assets/images/user-manual/web-management-platform/admin-tab.png"
   width="100%"
   figure-number="2"
   caption="Administration Tab"
@@ -43,7 +43,7 @@ This is where you change the administration password of the device.
 This is the status of your license. You can see the Type, Number of Supported Nodes, Expiration date, and the Number of External Gateways Supported. There is a field to enter the License data in case you are upgrading.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/license-tab.png"
+  src="/assets/images/user-manual/web-management-platform/license-tab.png"
   width="100%"
   figure-number="3"
   caption="License Tab"
@@ -52,7 +52,7 @@ This is the status of your license. You can see the Type, Number of Supported No
 ## 4. Backup / Flash Firmware
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/backup.png"
+  src="/assets/images/user-manual/web-management-platform/backup.png"
   width="100%"
   figure-number="4"
   caption="Backup, reset and firmware update"
@@ -72,7 +72,7 @@ The **Keep Settings** check box is selected by default, as unchecking it will re
 Reboots the gateway. All unsaved changes will be discarded. This is not a reset in any way and only power cycles the device. All configuration settings will be left intact.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/reboot.png"
+  src="/assets/images/user-manual/web-management-platform/reboot.png"
   width="100%"
   figure-number="5"
   caption="System reboot"
@@ -83,7 +83,7 @@ Reboots the gateway. All unsaved changes will be discarded. This is not a reset 
 This gives you access to the files in the **root** partition.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/file-browser.png"
+  src="/assets/images/user-manual/web-management-platform/file-browser.png"
   width="100%"
   figure-number="6"
   caption="File Browser"

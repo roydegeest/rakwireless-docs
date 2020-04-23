@@ -38,7 +38,7 @@ The Things Network is about enabling low power devices to use long range gateway
 />
 
 :::tip 📝 NOTE
- By default, the Gateway is set to connect to TTN. For detailed information about advanced configuration options refer to the [LoRaWAN® Gateway Configuration](https://doc.rakwireless.com/quick-start/rak7240-outdoor-lpwan-gateway/lorawan-gateway-configuration#1lora%C2%AE-packet-forwarder) section.
+ By default, the Gateway is set to connect to TTN. For detailed information about advanced configuration options refer to the [LoRaWAN® Gateway Configuration](/en-us/user-manual/web-management-platform/lorawan-gateway-configuration.html#_1-lora®-packet-forwarder) section.
 :::
 
 <!---

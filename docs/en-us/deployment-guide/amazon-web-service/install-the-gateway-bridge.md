@@ -40,7 +40,7 @@ sudo systemctl start lora-gateway-bridge
 journalctl -u lora-gateway-bridge -f -n 50
 ```
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/gateway-bridge-journal.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/gateway-bridge-journal.jpg"
   width="100%"
   figure-number="1"
   caption="Gateway Bridge Journal Control Output (no errors)"

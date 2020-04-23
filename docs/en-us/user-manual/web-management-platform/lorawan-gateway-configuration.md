@@ -11,7 +11,7 @@ All settings related to the LoRaWAN® Gateway's performance can be found in this
 As this is the most important part of the LoRaWAN® Gateway, the number of settings and options is greatest here. Thus, this section will be larger and provide information in more detail than previous ones. For the aforementioned reasons this section has several configuration tabs, which are listed in the following paragraphs. Additionally, some of the configuration options have their own documents, with detailed explanation of the configuration process, which you can find in the [RAKwireless Documentation Hub](https://doc.rakwireless.com/).
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/lora-packet-forwder.png"
+  src="/assets/images/user-manual/web-management-platform/lora-packet-forwder.png"
   width="100%"
   figure-number="1"
   caption="LoRa® Packet Forwarder Page"
@@ -37,7 +37,7 @@ This is where the core settings are: **Gateway EUI**, **Frequency channels**, et
 In the case of Class B LoRa® devices, you need to have a beacon in order to synchronize downlink message windows. Thus, you have to configure its parameters: Beacon Period, Beacon Frequency (Hz), Beacon Channel Number, Beacon Frequency Step, Beacon Data Rate (SF9-SF12), Beacon Bandwidth (125000 Hz by default), Beacon Tx Power (14 dBm by default), Beacon Information Descriptor.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/beacon-setup.png"
+  src="/assets/images/user-manual/web-management-platform/beacon-setup.png"
   width="100%"
   figure-number="2"
   caption="Beacon Setup Page"
@@ -50,7 +50,7 @@ By enabling this functionality, you can filter any incoming traffic and only for
 The **Enable Auto Filter** slider allows nodes to be automatically dropped in accordance with a set of parameters. One can set threshold values for Discard Period, Join Period, Join Interval, and Join Count (1 and 2 for Join Interval and Join Period respectively).
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/packet-filter-page.png"
+  src="/assets/images/user-manual/web-management-platform/packet-filter-page.png"
   width="100%"
   figure-number="3"
   caption="Packet Filter Page"
@@ -61,7 +61,7 @@ The **Enable Auto Filter** slider allows nodes to be automatically dropped in ac
 In case, you want to enter the GPS parameters for the Gateway manually. Just input your **Latitude**, **Longitude** and **Altitude** then press "**Save and Apply**" at the bottom of the page.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/gps-information-page.png"
+  src="/assets/images/user-manual/web-management-platform/gps-information-page.png"
   width="100%"
   figure-number="4"
   caption="GPS Information Page"
@@ -78,7 +78,7 @@ In case you have the RAK7249 or RAK7240 with a second concentrator module, you c
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/standard-freq-plan.png"
+  src="/assets/images/user-manual/web-management-platform/standard-freq-plan.png"
   width="100%"
   figure-number="5"
   caption="Frequency Plan (Standard Mode)"
@@ -87,7 +87,7 @@ In case you have the RAK7249 or RAK7240 with a second concentrator module, you c
 - **Advanced Mode**: Because of the presence of double SX1257s, you need to configure the two radios separately. You have eight Multi Spreading Factor Channels, The LoRa® Standard Channel and the FSK Channel. The sliders can enable or disable those, so you can choose to have any number of them active. Additionally you can choose which radio to use for a given, channel as long as you do not assign more than five channels per radio. In order to set the desired channel to a given frequency you need to input an offset value in the **If field**. Thus, the channel frequency will be the central frequency (Radio 0 Freq or Radio 1 Freq parameter) summed with the offset value (in Hz). As mentioned before you can choose to import those settings for the Indian, Russian and EU Regions (in accordance with the LoRa Alliance® specifications).
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/advanced-freq-plan.png"
+  src="/assets/images/user-manual/web-management-platform/advanced-freq-plan.png"
   width="100%"
   figure-number="6"
   caption="Frequency Plan (Advanced Mode)"
@@ -98,7 +98,7 @@ In case you have the RAK7249 or RAK7240 with a second concentrator module, you c
 The Gateway is capable of working with an external LoRa® Server, where the MQTT Broker is functioning separately. For this purpose, there are several tabs with their corresponding parameters to be filled.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/mqtt-bridge-setup.png"
+  src="/assets/images/user-manual/web-management-platform/mqtt-bridge-setup.png"
   width="100%"
   figure-number="7"
   caption="MQTT Bridge Setup Page"
@@ -152,7 +152,7 @@ Please refer to the [MQTT Bridge with TLS Encryption Configuration Manual](https
 Refer to the image below for the MQTT 2x Topic Template:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/mqtt-2x.png"
+  src="/assets/images/user-manual/web-management-platform/mqtt-2x.png"
   width="100%"
   figure-number="8"
   caption="MQTT 2x Setup Page"
@@ -161,7 +161,7 @@ Refer to the image below for the MQTT 2x Topic Template:
 Refer to the image below for the MQTT 3x Topic Template, which both the loraserver 3x and Built-in server use:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/mqtt-3x.png"
+  src="/assets/images/user-manual/web-management-platform/mqtt-3x.png"
   width="100%"
   figure-number="9"
   caption="MQTT 3x Setup Page"

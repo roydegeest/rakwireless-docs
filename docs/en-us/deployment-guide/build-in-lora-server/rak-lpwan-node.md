@@ -1,7 +1,3 @@
----
-next: /en-us/quick-start/rak7249/multi-rak-gateway-mesh/#multi-rak-gateway-mesh
---- 
-
 # RAK LPWAN Node
 
 This document discusses the steps on how to add your RAK811 LPWAN Node Application into the Built-in LoRa® Network Server demonstration. For this demonstration, it is best advised to use our very own [RAK Serial Port Tool](https://downloads.rakwireless.com/en/LoRa/Tools/).
@@ -11,7 +7,7 @@ This document discusses the steps on how to add your RAK811 LPWAN Node Applicati
 1. Connect your RAK811 to your computer by following the [Interfacing your RAK811 LPWAN Node](/en-us/quick-start/rak811/interfacing-with-rak811.html) section or the RAK811 LPWAN Node. Once connecting is successful, open the RAK Serial Port Tool and press the **RESET Button (RST)** to reboot your device to check the LoRa® parameters same with the image shown below:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/6.build-in-lora-server-rak811/rak811-parameters.png"
+  src="/assets/images/deployment-guide/build-in-lora-server/rak811-parameters.png"
   width="100%"
   figure-number="1"
   caption="RAK811 LPWAN Node Parameters"
@@ -40,7 +36,7 @@ at+set_config=lora:join_mode:0
 4. Navigate through `LoRa® Network Server -> Application -> Devices`. Enter a name for your application and press the "**Add**" button.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/6.build-in-lora-server-rak811/add-application.png"
+  src="/assets/images/deployment-guide/build-in-lora-server/add-application.png"
   width="100%"
   figure-number="2"
   caption="Adding Application"
@@ -49,7 +45,7 @@ at+set_config=lora:join_mode:0
 5. Refer back to the RAK Serial Port Tool shown in **Figure 1: RAK811 LPWAN Node Parameters** and take note the **Application EUI** and **Application Key**. Input those into the corresponding fields in the **Application Configuration** screen in the Gateway:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/6.build-in-lora-server-rak811/set-otaa-parameters.png"
+  src="/assets/images/deployment-guide/build-in-lora-server/set-otaa-parameters.png"
   width="100%"
   figure-number="3"
   caption="Adding Application EUI and Key"
@@ -78,7 +74,7 @@ at+set_config=lora:app_key:XXXX"
 1. Locate the application created in the previous section and press the "**Edit**" button.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/6.build-in-lora-server-rak811/edit-applications.png"
+  src="/assets/images/deployment-guide/build-in-lora-server/edit-applications.png"
   width="100%"
   figure-number="4"
   caption="Editing the Application"
@@ -87,7 +83,7 @@ at+set_config=lora:app_key:XXXX"
 2. Enter the **Device EUI** into the corresponding field and press "**Add**" button.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/6.build-in-lora-server-rak811/add-device-in-application.png"
+  src="/assets/images/deployment-guide/build-in-lora-server/add-device-in-application.png"
   width="100%"
   figure-number="5"
   caption="Adding Device in the Application"
@@ -96,7 +92,7 @@ at+set_config=lora:app_key:XXXX"
 3. Enter a **Device name**, make sure you are in **Class A**, **OTAA** mode. Leave the rest of the parameters with their default settings then **Save & Apply**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/6.build-in-lora-server-rak811/edit-device-parameters.png"
+  src="/assets/images/deployment-guide/build-in-lora-server/edit-device-parameters.png"
   width="100%"
   figure-number="6"
   caption="Editing Device Parameters"
@@ -119,7 +115,7 @@ at+set_config=device:restart
 2. Upon reboot, your RAK811 should be able to join via OTAA if all the credentials are authenticated. You should see a **Join** request in the Live Data tab and the **Join Succeeded!** message in the Serial Tool.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/6.build-in-lora-server-rak811/data-monitoring.png"
+  src="/assets/images/deployment-guide/build-in-lora-server/data-monitoring.png"
   width="100%"
   figure-number="7"
   caption="Live Device Data Monitoring"

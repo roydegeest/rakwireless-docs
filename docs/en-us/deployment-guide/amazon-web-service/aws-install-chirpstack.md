@@ -47,7 +47,7 @@ sudo journalctl -f -n 100 -u ChirpStack
 6. You should see no errors same with the image provided below. Make sure you interrupt the output of the commands above with the key combination “**Ctrl+Z**” so you can continue with the configuration process.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/8.aws-ec2-chirpstack-rak7249/chirpstack-journal.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/chirpstack-journal.jpg"
   width="100%"
   figure-number="1"
   caption="ChirpStack Journal Control Output (no errors)"

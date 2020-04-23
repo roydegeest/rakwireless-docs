@@ -13,7 +13,7 @@ A summary of the most important statistics is displayed on the Status page. The 
 Additionally, there are graphs for the most important KPI parameters (RSSI, SNR and DataRate), together with a Traffic History.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/lora-network-server-status.jpg"
+  src="/assets/images/user-manual/web-management-platform/lora-network-server-status.jpg"
   width="100%"
   figure-number="1"
   caption="LoRa® Network Server Status page"
@@ -24,7 +24,7 @@ Additionally, there are graphs for the most important KPI parameters (RSSI, SNR 
 In order to use the LoRa® Server, you need to enable its protocol from the following menu: LoRaWAN® Gateway Menu -> LoRa® Packet Forwarder -> Protocol -> Built-in LoRa® Server. Now you can choose to **enable/disable** it via the slider in the General Configuration tab.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/lora-network-general.png"
+  src="/assets/images/user-manual/web-management-platform/lora-network-general.png"
   width="100%"
   figure-number="2"
   caption="General Parameters Page"
@@ -52,7 +52,7 @@ Below is a short explanation of the main parameters:
 In this section you can add and External Gateways to work with your LoRa® Network Server. This way packet forwarded by the listed Gateways will be forwarded as though they were within the range of this device.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-sever-gateway.png"
+  src="/assets/images/user-manual/web-management-platform/network-sever-gateway.png"
   width="100%"
   figure-number="3"
   caption="Network Server Gateway tab"
@@ -74,7 +74,7 @@ Here you can add a Gateway. You simply need to input the EUI into the text box a
 The first time you access the menu, it will have no applications listed. Create one by Entering a name in the field and pressing the "**Add**" button.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/adding-application.jpg"
+  src="/assets/images/user-manual/web-management-platform/adding-application.jpg"
   width="100%"
   figure-number="4"
   caption="Adding an application"
@@ -83,7 +83,7 @@ The first time you access the menu, it will have no applications listed. Create 
 You will be automatically forward to the Application Edit screen. You have 3 tabs here, which are explained below:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-server-app-config.png"
+  src="/assets/images/user-manual/web-management-platform/network-server-app-config.png"
   width="100%"
   figure-number="5"
   caption="Network Server Applications Configuration"
@@ -104,7 +104,7 @@ This is where you configure the parameters required to successfully create your 
 As of the time of writing this document, you can choose to have only one integration, which is **Cayenne LPP**. By default, this is not selected.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/payload-format-tab.png"
+  src="/assets/images/user-manual/web-management-platform/payload-format-tab.png"
   width="100%"
   figure-number="6"
   caption="Application Payload Format Tab"
@@ -117,7 +117,7 @@ If you turn the button in the on position only the parsed data will be forwarded
 There is an option to have an HTTPS integration for your application. See the figure for details:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/payload-format-tab.png"
+  src="/assets/images/user-manual/web-management-platform/payload-format-tab.png"
   width="100%"
   figure-number="7"
   caption="Application Integration Tab"
@@ -138,14 +138,14 @@ You can test the HTTP endpoint integration with a free service like: [Webhook.si
 In this section is in depth explanation of the data available per device. You can enter this section by either inputting a valid **Device EUI** and pressing the "**Add**" button, or pressing the "**Edit**" button for an existing device:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/adding-network-device.png"
+  src="/assets/images/user-manual/web-management-platform/adding-network-device.png"
   width="100%"
   figure-number="8"
   caption="Network Server Adding a Device"
 />
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/adding-network-device-otaa.png"
+  src="/assets/images/user-manual/web-management-platform/adding-network-device-otaa.png"
   width="100%"
   figure-number="9"
   caption="Network Server Device Configuration (OTAA)"
@@ -165,7 +165,7 @@ In this section is in depth explanation of the data available per device. You ca
 If you choose Join mode to be **ABP**, you have to additionally enter the **Device Address**, **Application Session Key**, and **Network Session Key** (optionally, you can generate random ones). Refer to the image below if you want to see how the window changes with ABP mode.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/adding-network-device-abp.png"
+  src="/assets/images/user-manual/web-management-platform/adding-network-device-abp.png"
   width="100%"
   figure-number="10"
   caption="Network Server Device Configuration (ABP)"
@@ -176,7 +176,7 @@ If you choose Join mode to be **ABP**, you have to additionally enter the **Devi
 Upon activation, this will be automatically populated in the case of OTAA. In case of ABP it will be filled by the parameters you entered.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-device-activation.png"
+  src="/assets/images/user-manual/web-management-platform/network-device-activation.png"
   width="100%"
   figure-number="11"
   caption="Network Server Device Activation"
@@ -187,7 +187,7 @@ Upon activation, this will be automatically populated in the case of OTAA. In ca
 You can send a downlink frame with this tool. The slider determines if the frame is Confirmed or Unconfirmed. You need to enter the number of the Frame Port (Fport) and a payload in HEX format. The downlink will be transmitted in the next Rx window in case of Class A for example.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-device-downlink.png"
+  src="/assets/images/user-manual/web-management-platform/network-device-downlink.png"
   width="100%"
   figure-number="12"
   caption="Network Server Device Downlink"
@@ -198,7 +198,7 @@ You can send a downlink frame with this tool. The slider determines if the frame
 You can see the packets for the selected devices in real time in this section.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-live-device-data.png"
+  src="/assets/images/user-manual/web-management-platform/network-live-device-data.png"
   width="100%"
   figure-number="13"
   caption="Network Server Device Live Data"
@@ -209,7 +209,7 @@ You can see the packets for the selected devices in real time in this section.
 This feature allows for integration of the **Built-in LoRa® Server** with an **External MQTT broker**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/network-global-integration.png"
+  src="/assets/images/user-manual/web-management-platform/network-global-integration.png"
   width="100%"
   figure-number="14"
   caption="Network Server Global Integration"
@@ -224,7 +224,7 @@ Again, you can refer to the [LoRaWAN® Gateway Configuration](lorawan-gateway-co
 Here you can get information on the topic templates: **Join Topic**, **Uplink Topic**, **Downlink Topic**, **Ack Topic**, and **Status Topic**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/global-integration-mqtt-template.png"
+  src="/assets/images/user-manual/web-management-platform/global-integration-mqtt-template.png"
   width="100%"
   figure-number="15"
   caption="NS Global Integration MQTT Topic Template"

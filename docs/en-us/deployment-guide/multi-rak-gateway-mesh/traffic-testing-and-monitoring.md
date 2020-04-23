@@ -1,7 +1,3 @@
----
-next: /en-us/quick-start/rak7249/amazon-web-service/#amazon-web-service
----
-
 # Traffic Testing and Monitoring
 
 ## Uplink
@@ -18,7 +14,7 @@ mosquitto_sub -t application/{{application_ID}}/device/{{device_EUI}}/rx -v
 ```
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/app-id.jpg"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/app-id.jpg"
   width="100%"
   figure-number="1"
   caption="Application ID"
@@ -30,7 +26,7 @@ mosquitto_sub -t application/{{application_ID}}/device/{{device_EUI}}/rx -v
 at+send=lora:1:1110
 ```
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/test-uplink.jpg"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/test-uplink.jpg"
   width="100%"
   figure-number="2"
   caption="Test Uplink (Application)"
@@ -49,7 +45,7 @@ mosquitto_sub -t gateway/{{eui}}/rx -v
 ```
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/app-test-gateway.jpg"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/app-test-gateway.jpg"
   width="100%"
   figure-number="3"
   caption="Test Uplink (Gateway)"
@@ -64,7 +60,7 @@ There is a convenient tool in the Built-in LoRa® Server for sending a Downlink 
 1. You can find it in the Device tab in the LoRa® Network Server section. You can choose your Type of frame (confirmed/unconfirmed), the Frame port and the Hex Data shown in the image below:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/downlink-tool.jpg"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/downlink-tool.jpg"
   width="100%"
   figure-number="4"
   caption="LoRa® Network Server Device Downlink Tool"
@@ -73,7 +69,7 @@ There is a convenient tool in the Built-in LoRa® Server for sending a Downlink 
 2. Once you schedule a message for downlink, it will be displayed in the Live Device Data window. Upon sending the next uplink via the RAK Serial Port Tool you will also see it there, as it needs an uplink frame in order to send the downlink in the RX1 window shown in the image below.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/downlink-frame.jpg"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/downlink-frame.jpg"
   width="100%"
   figure-number="5"
   caption="Received Downlink Frame"
