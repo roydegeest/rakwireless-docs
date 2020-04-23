@@ -1,4 +1,7 @@
-# Interfacing with Evaluation Board
+---
+next: checking-device-logs
+---
+### Interfacing with Evaluation Board
 
 In order for you to be able to interface with the Evaluation Board, using a Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
 

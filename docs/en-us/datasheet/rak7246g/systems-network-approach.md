@@ -23,7 +23,7 @@ Due to the fact that the combination of spreading factors and signal bandwidths 
 
 Due to the fact that spreading factors are orthogonal and the RAK2246 Concentrator can demodulate on 8 channels at the same time, channel capacity of a LoRaWAN Gateway is increased compared to traditional cellular networks.
 
-### Firwmare
+### Firmware
 
 The LoRa MAC specification is currently driven by the companies Semtech, IBM and Actility. Currently all available software, firmware and documentation can be found and downloaded from the open source project LoRa-net hosted on [https://github.com/Lora-net](https://github.com/Lora-net)
 
