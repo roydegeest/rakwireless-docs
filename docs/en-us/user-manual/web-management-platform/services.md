@@ -9,7 +9,7 @@ next: system
 Dynamic DNS allows your router to be reached via a fixed host name while having a dynamically changing IP address.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/dynamic-dns.png"
+  src="/assets/images/user-manual/web-management-platform/dynamic-dns.png"
   width="100%"
   figure-number="1"
   caption="Dynamic DNS Tab"
@@ -28,7 +28,7 @@ To change the global settings press on the text that is marked in the red rectan
 This is where you can create and new tunnels and monitor existing ones. You can check the available options in the image below:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/3.web management platform/openvpn-tunnels.png"
+  src="/assets/images/user-manual/web-management-platform/openvpn-tunnels.png"
   width="100%"
   figure-number="2"
   caption="OpenVPN Tunnels Tab"

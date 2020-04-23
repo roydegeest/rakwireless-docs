@@ -21,7 +21,7 @@ Using your preferred Web browser, input the aforementioned IP Address and you sh
 * **Password**: root
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/2.quickstart/web-ui-home.jpg"
+  src="/assets/images/user-manual/web-management-platform/web-ui-home.jpg"
   width="100%"
   figure-number="1"
   caption="Web User Interface Log-in"

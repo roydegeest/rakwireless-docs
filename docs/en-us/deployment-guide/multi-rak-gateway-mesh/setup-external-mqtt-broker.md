@@ -34,7 +34,7 @@ This section provides the procedure in setting the external MQTT Broker for your
 ifconfig
 ```
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/rpi-interfaces.jpg"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/rpi-interfaces.jpg"
   width="75%"
   figure-number="1"
   caption="Raspberry Pi interfaces"
@@ -48,7 +48,7 @@ ifconfig
 sudo apt install mosquitto mosquitto-clients
 ```
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/mqtt-installation.jpg"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/mqtt-installation.jpg"
   width="80%"
   figure-number="2"
   caption="Mosquitto installation"
@@ -71,7 +71,7 @@ We will now then configure the Gateway to connect to our external MQTT broker. F
 1. First go to the Packet Forwarder Tab and choose Built-in LoRa® Server as your Protocol:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/protocol-selection.jpg"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/protocol-selection.jpg"
   width="100%"
   figure-number="3"
   caption="Protocol selection"
@@ -80,7 +80,7 @@ We will now then configure the Gateway to connect to our external MQTT broker. F
 2. Make sure you have the LoRa® Network Server **Enabled** in the General tab:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/builtin-server-activation.jpg"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/builtin-server-activation.jpg"
   width="100%"
   figure-number="4"
   caption="Built-in LoRa® Server activation"
@@ -89,7 +89,7 @@ We will now then configure the Gateway to connect to our external MQTT broker. F
 3. Add Your Gateway in the Gateway tab if you haven’t done so already. You can also add multiple gateways depending on your preference.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/lora-gateway-config.jpg"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/lora-gateway-config.jpg"
   width="100%"
   figure-number="5"
   caption="LoRa® Server Gateway configuration"
@@ -98,7 +98,7 @@ We will now then configure the Gateway to connect to our external MQTT broker. F
 4. Finally, go to the **Global Integration** tab and enter the address where you have your Mosquitto instance running in the MQTT Broker Address field leaving the Port with the default `1883` value.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/set-global-integration.jpg"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/set-global-integration.jpg"
   width="100%"
   figure-number="6"
   caption="Setting up the Global Integration"
@@ -113,7 +113,7 @@ There is a convenient tool in the Built-in LoRa® Server for sending a Downlink 
 1. You can find it in the Device tab in the LoRa® Network Server section. You can choose your Type of frame (**confirmed/unconfirmed**), the Frame port and the Hex Data shown in the image below:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/downlink.jpg"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/downlink.jpg"
   width="100%"
   figure-number="7"
   caption="LoRa® Network Server Device Downlink tool"
@@ -122,7 +122,7 @@ There is a convenient tool in the Built-in LoRa® Server for sending a Downlink 
 2. Once you schedule a message for downlink it will be displayed in the Live Device Data window. Upon sending the next uplink via the RAK Serial Port Tool you will also see it there, as it needs an uplink frame in order to send the downlink in the RX1 window shown in the image below.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/7.rak-gateway-mesh-rak811/rec-downlink-frm.jpg"
+  src="/assets/images/deployment-guide/rak-gateway-mesh/rec-downlink-frm.jpg"
   width="100%"
   figure-number="8"
   caption="Received Downlink Frame"

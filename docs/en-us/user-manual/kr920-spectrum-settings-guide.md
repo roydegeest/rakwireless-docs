@@ -1,7 +1,3 @@
----
-next: /en-us/quick-start/rak7249/build-in-lora-server/#build-in-lora-network-server-configuration
----
-
 # KR920 Spectrum Settings
 
 This is the LoRa RF Radio unit. It integrated two **Semtech SX1257** front-end modules with the most popular LoRaWAN® Baseband chip, the **SX1301**. Because of the design of the concentrator module, there are two separate RX chains, which need to have the proper number of channels assigned in order for the module to function optimally. The chains are referred to as Radio 0 and Radio 1 in the Web Management Platform.
@@ -34,14 +30,14 @@ import directly which would not need to set every channel manually. However, the
 
 * The figures below shows what the values for the KR920-923 frequency band should be:
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/5.loraspectrumkr920/kr920_concentrator0.png"
+  src="/assets/images/user-manual/lora-spectrum-kr920/kr920_concentrator0.png"
   width="75%"
   figure-number="1"
   caption="Concentrator 0 Frequency Range"
 />
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/5.loraspectrumkr920/kr920_concentrator1.png"
+  src="/assets/images/user-manual/lora-spectrum-kr920/kr920_concentrator1.png"
   width="75%"
   figure-number="2"
   caption="Concentrator 1 Frequency Range"
@@ -53,7 +49,7 @@ Let us have a summary of the parameters that can be seen in the image below, whi
 0 and Radio 1 frequency fields we talked about in the previous section.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/5.loraspectrumkr920/concentrator0_panel.png"
+  src="/assets/images/user-manual/lora-spectrum-kr920/concentrator0_panel.png"
   width="100%"
   figure-number="3"
   caption="Concentrator 0 Settings"
@@ -62,7 +58,7 @@ Let us have a summary of the parameters that can be seen in the image below, whi
 The same summary applies to Concentrator Module 1 in the image below:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/5.loraspectrumkr920/concentrator1_panel.png"
+  src="/assets/images/user-manual/lora-spectrum-kr920/concentrator1_panel.png"
   width="100%"
   figure-number="4"
   caption="Concentrator 1 Settings"
@@ -87,7 +83,7 @@ to be available in any equipment using the band.
 
 ### Sub-Band 1
 
-#### Uplink
+###### Uplink
     1. 922.1 - SF7BW125 to SF12BW125
     2. 922.3 - SF7BW125 to SF12BW125
     3. 922.5 - SF7BW125 to SF12BW125
@@ -96,19 +92,19 @@ to be available in any equipment using the band.
     6. 923.1 - SF7BW125 to SF12BW125
     7. 923.3 - SF7BW125 to SF12BW125
 
-#### Downlink
+###### Downlink
     Uplink channels 1-9 (RX1)
 
 ### Sub-Band 2
 
-#### Uplink
+###### Uplink
     8. 920.9 - SF7BW125 to SF12BW125
     9. 921.1 - SF7BW125 to SF12BW125
     10. 921.3 - SF7BW125 to SF12BW125
     11. 921.5 - SF7BW125 to SF12BW125
     12. 921.7 - SF7BW125 to SF12BW125
     13. 921.9 - SF7BW125 to SF12BW125
-#### Downlink
+###### Downlink
     Uplink channels 1-9 (RX1)
 
 With the [Frequency Plan](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf) provided by LoRa Alliance®, it is now easy to see why we have chosen the values shown in Figure 1: Concentrator 0 Frequency Range and Figure 2: Concentrator 1 Frequency Range. 
@@ -136,7 +132,7 @@ for each channel. We will use the following formula:
 
 ### Concentrator Module 0
 
-#### RADIO 0 
+###### RADIO 0 
     MultiSF 0 = CH 1 = 922100000 Hz 
      If 0 = MultiSF 0 - Radio 0 Freq = 922100000 – 922500000 = -400000 Hz 
     MultiSF 1 = CH 2 = 922300000 Hz 
@@ -147,7 +143,7 @@ for each channel. We will use the following formula:
      If 3 = MultiSF 3 - Radio 0 Freq = 922700000 – 922500000 = 200000 Hz 
     MultiSF 4 = CH 5 = 922900000 Hz 
      If 4 = MultiSF 4 - Radio 0 Freq = 922900000 – 922500000 = 400000 Hz 
-#### RADIO 1 
+###### RADIO 1 
     MultiSF 5 = CH 6 = 923100000 Hz 
      If 5 = MultiSF 5 - Radio 1 Freq = 923100000 Hz – 923300000 = -200000 Hz 
     MultiSF 6 = CH 7 = 923300000 Hz 
@@ -158,7 +154,7 @@ TTN KR920-923 frequency plan.
 
 ### Concentrator Module 1
 
-#### RADIO 0
+###### RADIO 0
     MultiSF 0 = CH 1 = 920900000 Hz 
      If 0 = MultiSF 0 - Radio 0 Freq = 920900000 – 921100000 = -200000 Hz 
     MultiSF 1 = CH 2 = 921100000 Hz 
@@ -166,7 +162,7 @@ TTN KR920-923 frequency plan.
     MultiSF 2 = CH 3 = 921300000 Hz 
      If 2 = MultiSF 2 - Radio 0 Freq = 921300000 – 921100000 = 200000 Hz 
 
-#### RADIO 1 
+###### RADIO 1 
     MultiSF 3 = CH 4 = 921500000 Hz 
      If 3 = MultiSF 3 - Radio 1 Freq = 921500000 – 921700000 = -200000 Hz 
     MultiSF 4 = CH 5 = 921700000 Hz 
