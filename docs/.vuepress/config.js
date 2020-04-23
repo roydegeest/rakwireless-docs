@@ -68,17 +68,12 @@ module.exports = {
         allow: []
       }]
     },
-<<<<<<< HEAD
     '@vuepress/medium-zoom': {
       selector: '.zoomable',
       delay: 200,
       options: {},
     },
     // '@vuepress/back-to-top': {},
-=======
-    '@vuepress/medium-zoom': {},
-//     '@vuepress/back-to-top': {},
->>>>>>> 215e10d34601e6479ccbfce9290085c4c40e6240
     'vuepress-plugin-code-copy': {
       selector: String,
       align: String,
