@@ -8,7 +8,7 @@ tags:
 
 <rk-img
   :src="`${$frontmatter.static_root}/yb23mhfij8dwh5muoavk.png`"
-  width="70%"
+  width="45%"
   figure-number="1"
   caption="RAK4600 LPWAN Module"
 />

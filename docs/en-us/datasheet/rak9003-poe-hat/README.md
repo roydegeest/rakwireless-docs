@@ -8,7 +8,7 @@ tags:
 
 <rk-img
   src="/assets/images/datasheet/rak9003-poe-hat/rak9003-poe-hat.png"
-  width="100%"
+  width="75%"
   figure-number="1"
   caption="RAK9003 PoE Hat"
 />

@@ -22,7 +22,7 @@ Thus, the **RAK7240 Outdoor LPWAN Gateway**, is suited for any use case scenario
 
 ### Key Features
 
-#### Hardware
+###### Hardware
 
 * **IP65** industrial-grade enclosure with cable glands
 * **PoE** + Surge Protection
@@ -31,7 +31,7 @@ Thus, the **RAK7240 Outdoor LPWAN Gateway**, is suited for any use case scenario
 * **GPS**
 * SD Card slot
 
-#### Software
+###### Software
 
 * Built-in LoRa® Server **(up to 128 LoRa® nodes license included, higher tiers require a fee)**
 * OpenVPN

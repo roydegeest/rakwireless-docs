@@ -20,7 +20,7 @@ The hardware interfaces of RAK7258 Micro Gateway include DC 12V, ETH interface, 
   caption="RAK7258 Micro Gateway Hardware Interfaces"
 />
 
-#### Reset Key Functions
+###### Reset Key Functions
 The function of the **Reset** key is as follows:
 
 1. **Short press**: Restarts the Gateway

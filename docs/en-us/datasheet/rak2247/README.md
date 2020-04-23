@@ -31,6 +31,7 @@ Despite its small size this is an 8 channel concentrator module. By integrating 
 
 !!!include(en-us/datasheet/rak2247/board-overview.md)!!!
 !!!include(en-us/datasheet/rak2247/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/rak2247/pin-definition.md)!!!
 !!!include(en-us/datasheet/rak2247/interfaces.md)!!!
 !!!include(en-us/datasheet/rak2247/electrical-characteristics.md)!!!
 !!!include(en-us/datasheet/rak2247/rf-characteristics.md)!!!
