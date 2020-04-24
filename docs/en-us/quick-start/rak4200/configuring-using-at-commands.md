@@ -28,8 +28,8 @@ The purpose of this document is to demonstrate on how to configure the  RAK4200 
 | `at+set_config=lora:apps_key:XXXX` | Set the application session key for ABP. <br>**• XXXX** - the Application Session Key. | 
 | `at+set_config=lora:nwks_key:XXXX` | Set the network session key for ABP. <br>**• XXXX** - the Network Session Key. | 
 | `at+set_config=lora:ch_mask:X:Y` | Set a certain channel on or off. <br>**• X** - the channel number, and you can check which channel can be set before you set it. <br>**• Y** - 0: off, 1: on | 
-| `at+set_config=lora:adr:X` | Open or close the ADR function of LoRa® Node. <br>**• X** - 0: Close ADR; 1: Open ADR. | 
-| `at+set_config=lora:dr:X` | Set the DR of LoRa® Node. <br>**• X** - the number of DR. Generally, the value of X can be 0~5. More details, please check the LoRaWAN® 1.0.2 specification. | 
+| `at+set_config=lora:adr:X` | Open or close the ADR function of Node. <br>**• X** - 0: Close ADR; 1: Open ADR. | 
+| `at+set_config=lora:dr:X` | Set the DR of Node. <br>**• X** - the number of DR. Generally, the value of X can be 0~5. More details, please check the LoRaWAN® 1.0.2 specification. | 
 | `at+set_config=lora:tx_power:X` | **• X** - The level of TX power. If you want to know the relationship between TX power level and dbm, please have a look at LoRaWAN® 1.0.2 region specification | 
 | `at+get_config=lora:status` | It will return all of the current information of LoRa®, except LoRa® channel. | 
 | `at+get_config=lora:channel` | It will return the state of all LoRa® channels, then you can see which channel is closed and which channel is open very clearly | 

@@ -55,7 +55,7 @@ In case the driver is still not installed upon doing the previous steps, kindly 
   caption="Connecting to the RAK Serial Port Tool"
 />
 
-- To verify connectivity, let's try sending AT+Commands. In the RAK Serial Port Tool, there are built-in AT+Commands within it at the right side. Try sending the code below to check the firmware version of your RAK7200 LoRa® Tracker. If connection is successful, in the monitor panel at the left, the firmware version should appear same with the image shown below:
+- To verify connectivity, let's try sending AT+Commands. In the RAK Serial Port Tool, there are built-in AT+Commands within it at the right side. Try sending the code below to check the firmware version of your RAK7200 LPWAN Tracker. If connection is successful, in the monitor panel at the left, the firmware version should appear same with the image shown below:
 
 ```bash
 at+version

@@ -32,7 +32,7 @@ Make sure to disconnect the connection between the Rx and Tx connection between 
 
 4. You can check the uploading logs shown in the red box in the image above to check whether it is successfully uploaded or not. If the sketch uploading fails, kindly look into each of the logs to address each issue.
 
-## Test LoRa Node with LoRaWAN®
+## Test LoRa® Node with LoRaWAN®
 
 Using the "JoinNetworkOTAA.ino" sketch in the previous section, it should automatically connect to **TheThingsNetwork(TTN)** through the Gateway in range.
 

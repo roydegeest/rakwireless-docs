@@ -3,10 +3,10 @@ title: RAK2247 + x86 Linux PC
 ---
 
 # RAK2247 + x86 Linux PC
-This section explains the basic steps on how to interface the RAK2247 LoRaWAN® Gateway Concentrator Module with a Linux Operating System in a computer.
+This section explains the basic steps on how to interface the RAK2247 LPWAN Gateway Concentrator Module with a Linux Operating System in a computer.
 
 <!-- * The following devices are necessary for the interface:
-  * RAK2247 LoRaWAN® Gateway Concentrator Module
+  * RAK2247 LPWAN Gateway Concentrator Module
   * [mPCIe to USB Board](https://store.rakwireless.com/products/mpcie-to-usb-board) -->
 
 1. Insert the RAK2247 mPCIe board into the USB carrier board and plugged into a free USB port of your PC. Your Linux PC should recognized it as a USB device.
@@ -19,7 +19,7 @@ This section explains the basic steps on how to interface the RAK2247 LoRaWAN® 
   src="/assets/images/quick-start-guide/rak2247/3.rak2247+linuxpc/rak2247pcie.jpg"
   width="75%"
   figure-number="1"
-  caption="RAK2247 LoRaWAN® Gateway Concentrator Module to a PCIe-to-USB board"
+  caption="RAK2247 LPWAN Gateway Concentrator Module to a PCIe-to-USB board"
 />
 
 2. Open the command line then enter the command below in order to clone the Github repository that is required for the process to be completed:

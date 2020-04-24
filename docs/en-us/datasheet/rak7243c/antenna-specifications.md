@@ -2,29 +2,27 @@
 
 ### LoRa® Antenna
 
-#### Overview
-
 The LoRa® Antenna with RP-SMA female connector shown in the figure below:
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/lora-antenna-overview.png"
-  width="75%"
+  width="50%"
   figure-number="1"
   caption="LoRa® Antenna Overview"
 />
 
-#### Antenna Dimension
+###### Antenna Dimension
 
 The antenna's mechanical dimension is shown below:
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/lora-antenna-dimensions.png"
-  width="75%"
+  width="50%"
   figure-number="2"
   caption="LoRa® Antenna Dimension in mm"
 />
 
-#### Antenna Parameters
+###### Antenna Parameters
 
 | Items                              | Specifications                 |
 | ---------------------------------- | ------------------------------ |
@@ -39,28 +37,26 @@ The antenna's mechanical dimension is shown below:
 For module built-in BG96, there is one LTE antenna and one GPS antenna. For module
 built-in EG91/EG95, there are two LTE antennas, and no GPS antenna with the module.
 
-#### Overview
-
 The LTE antenna for the Pilot Gateway Pro covers working frequency band
 from 824MHz to 2690MHz. The antenna is shown as below.    
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/lte-antenna.jpg"
-  width="75%"
+  width="50%"
   figure-number="3"
   caption="LTE Antenna"
 />
 
-#### Antenna Dimension
+###### Antenna Dimension
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/lte-antenna-dimensions.jpg"
-  width="75%"
+  width="50%"
   figure-number="4"
   caption="LTE Antenna Dimension"
 />
 
-#### Antenna Parameters
+###### Antenna Parameters
 
 | Items                              | Specifications                                 |
 | ---------------------------------- | ---------------------------------------------- |
@@ -73,8 +69,6 @@ from 824MHz to 2690MHz. The antenna is shown as below.
 
 ### GPS Antenna
 
-#### Overview
-
 The GPS antenna for Pilot Gateway is shown below
 
 <rk-img
@@ -84,7 +78,7 @@ The GPS antenna for Pilot Gateway is shown below
   caption="GPS Antenna"
 />
 
-#### GPS Antenna Dimension
+###### GPS Antenna Dimension
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/gps-antenna-dimensions.jpg"
@@ -93,7 +87,7 @@ The GPS antenna for Pilot Gateway is shown below
   caption="GPS Antenna Dimensions"
 />
 
-#### GPS Environmental Requirements
+###### GPS Environmental Requirements
 
 The antenna environmental requirements are listed in the table below:
 
@@ -103,7 +97,7 @@ The antenna environmental requirements are listed in the table below:
 | Storage    | -40 ºC ~ +85 ºC | 0% ~ 95% |
 
 
-#### GPS Antenna Parameters
+###### GPS Antenna Parameters
 
 Antenna specifications are listed in the table below:
 

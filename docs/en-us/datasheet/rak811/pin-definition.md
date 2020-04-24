@@ -1,6 +1,6 @@
 ## Pin Definition
 
-The RAK811 supports two different frequency variation: Low Radio Frequency and High Radio frequency
+The RAK811 supports two different frequency variation: Low Radio Frequency and High Radio frequency.
 
 ### 1. Low Radio Frequency
 

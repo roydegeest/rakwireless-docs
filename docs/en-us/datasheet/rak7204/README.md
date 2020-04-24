@@ -15,7 +15,7 @@ tags:
 
 ### Product Description
 
-The **RAK7204** is a LPWAN node with integrated environmental sensors. The high-precision environmental sensors, can measure changes in temperature, humidity, gas pressure and provide an indoor air quality index. All the accumulated data can be send to a LoRaWAN® Gateway in order for it to be forwarded to the Cloud.
+The **RAK7204** is a LPWAN node with integrated environmental sensors. The high-precision environmental sensors, can measure changes in temperature, humidity, gas pressure and provide an indoor air quality index. All the accumulated data can be send to a gateway in order for it to be forwarded to the Cloud.
 
 Because RAK7204 is built-around a low-power MCU and low-power sensors, and the firmware has been optimized for efficiency, it can achieve a very low-power operation in both dormancy and when measuring and transmitting. The non-rechargeable battery that comes with the unit can last more than 2 years. With the ability to regularly report battery status in addition to having an alarm for when critical levels are reached, you can be sure you will never be surprised and be left with your device not operational when you need it most. Furthermore, the design still allows for replacing the battery, so even after those 2 year are up you can still refresh your node for another 2 years of operation.
 

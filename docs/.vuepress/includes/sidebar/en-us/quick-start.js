@@ -7,7 +7,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'overview'
+        'quick-start-guide'
       ]
     },
     {
@@ -112,7 +112,7 @@ module.exports = {
       sidebarDepth: 1,
       children: [
         '',
-        'overview'
+        'quick-start-guide'
       ]
     },
     {
@@ -144,7 +144,7 @@ module.exports = {
       sidebarDepth: 1,
       children: [
         '',
-        'overview'
+        'quick-start-guide'
       ]
     },
     {
@@ -207,7 +207,7 @@ module.exports = {
       sidebarDepth: 1,
       children: [
         '',
-        'overview'
+        'quick-start-guide'
       ]
     },
     {

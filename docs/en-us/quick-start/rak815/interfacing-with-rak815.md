@@ -3,7 +3,7 @@
 In order for you to interface with the RAK815 Hybrid Location Tracker with your Windows Machine, you need to download the [**RAK Serial Port Tool**](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).
 
 :::warning ⚠️ WARNING
-Before powering the RAK815 Hybrid Location Tracker, you should install the LoRa antenna first . Not doing so might damage the board
+Before powering the RAK815 Hybrid Location Tracker, you should install the LoRa® antenna first . Not doing so might damage the board
 :::
 
 1. Using a standard **Micro - USB Cable**, connect your RAK815 Hybrid Location Tracker to your computer.

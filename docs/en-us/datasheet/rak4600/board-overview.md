@@ -2,7 +2,7 @@
 
 <rk-img
   src="/assets/images/datasheet/rak4600/board-overview/vnje0doldhjv9gszuu8o.jpg"
-  width="100%"
+  width="50%"
   figure-number="1"
   caption="RAK4600 LPWAN Module"
 />

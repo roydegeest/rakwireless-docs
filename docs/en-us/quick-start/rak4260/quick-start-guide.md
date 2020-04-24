@@ -12,7 +12,7 @@
 Before going through each and every step in the installation guide of the RAK4260 LPWAN Evaluation Board, make sure to prepare the necessary items listed below:
 
 1. **RAK4260 LPWAN Evaluation Board**
-2. LoRaWAN® Gateway in Range, for Testing
+2. Gateway in Range, for Testing
 3. Micro-USB Cable
 4. Windows PC
 5. Emulator Kit

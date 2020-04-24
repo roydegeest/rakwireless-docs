@@ -102,7 +102,7 @@ at+join=otaa
   src="/assets/images/quick-start-guide/rak612/ttn/otaa-senddata.jpg"
   width="60%"
   figure-number="8"
-  caption="Testing the RAK612 LoRa® Button in RAK Serial Port Tool"
+  caption="Testing the RAK612 LPWAN Button in RAK Serial Port Tool"
 />
 
 * You can then see the data sent from RAK612 LPWAN BUtton in TTN website as follows:

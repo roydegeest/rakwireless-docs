@@ -10,7 +10,7 @@ The ChirpStack or previously known as LoRaServer project provides open-source co
 You can use RAK7204 LPWAN Environmental Sensor to connect with ChirpStack according to the following steps:
 
 :::tip 📝 NOTE:
- In this document, it is  assumed that you are using RAK LoRa® gateway and its built-in ChirpStack or RAK cloud testing ChirpStack. It is also assumed that a Gateway with the ChirpStack has been configured successfully. If not, please have a look at RAK's documents for more details about RAK LPWAN Gateway and [**RAK cloud testing**](https://forum.rakwireless.com/t/rak-free-cloud-loraserver-for-testing/344).
+ In this document, it is  assumed that you are using RAK Gateway and its built-in ChirpStack or RAK cloud testing ChirpStack. It is also assumed that a Gateway with the ChirpStack has been configured successfully. If not, please have a look at RAK's documents for more details about RAK LPWAN Gateway and [**RAK cloud testing**](https://forum.rakwireless.com/t/rak-free-cloud-loraserver-for-testing/344).
 :::
 
 1. Open the web page of the ChirpStack which you want to connect with and login.
@@ -46,13 +46,13 @@ You can use RAK7204 LPWAN Environmental Sensor to connect with ChirpStack accord
   caption="RAKwireless Test Application"
 />
 
-5. Add a LoRa® node device into ChirpStack by clicking the “**CREATE**” button:
+5. Add a Node device into ChirpStack by clicking the “**CREATE**” button:
 
 <rk-img
   :src="`${$frontmatter.static_root}/sdrlazcgfseimitslo6u.png`"
   width="100%"
   figure-number="5"
-  caption="Adding a LoRa® Node Device"
+  caption="Adding a Node Device"
 />
 
 6. Fill them in. You can generate a **Device EUI** automatically by clicking the Device EUI icon, or you can write the correct Device EUI in the edit box.

@@ -31,7 +31,7 @@ This board is particularly suitable to be used as a quick testing and prototypin
 - nRF52840 integrates the ultra-low power microcontroller ARM Cortex-M4 (64Mhz)
 - Built-in humidity and temperature sensor, pressure sensor, 3-axis motion
 sensor, and ambient light sensor.
-- iPEX connectors for the LoRa and GPS antenna and an on-board ceramic
+- iPEX connectors for the LoRa® and GPS antenna and an on-board ceramic
 antenna for the BLE.
 - nano SIM and ESIM options.
 - Can be powered by either Micro USB, 3.7V rechargeable battery or a 5V

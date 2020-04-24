@@ -20,7 +20,7 @@ The control of the SX1301 by the host system (PC, MCU) is made using a Hardware 
 
 It is highly recommended to fully re-use the latest HAL as provided by Semtech on [https://github.com/Lora-net](https://github.com/Lora-net).
 
-#### Block Diagram
+###### Block Diagram
 
 <rk-img
   src="/assets/images/datasheet/rak831/Block_Diagrams_RAK831.png"
@@ -31,15 +31,15 @@ It is highly recommended to fully re-use the latest HAL as provided by Semtech o
 
 The SX1301 digital baseband chip contains ten (10) programmable reception paths. These paths have differentiated levels of programmability and allow different use cases. It is important to understand the differences between these demodulation paths to make the best possible use from the system.
 
-#### IF8 LORA® channel
+###### IF8 LORA® channel
 
 This channel is connected to one SX1257 using any arbitrary intermediate frequency within the allowed range. This channel is LoRa® only. The demodulation bandwidth can be configured to be 125, 250 or 500 kHz. The data rate can be configured to any of the LoRa® available data rates (SF7 to SF12) but, as opposed to IF0 to IF7, only the configured data rate will be demodulated. This channel is intended to serve as a high speed backhaul link to other gateways or infrastructure equipment. This demodulation path is compatible with the signal transmitted by the SX1272 and SX1276 chip family.
 
-#### IF9 (G) FSK channel
+###### IF9 (G) FSK channel
 
 The IF9 channel is connected to a GFSK demodulator. The channel bandwidth and bit rate can be adjusted. This demodulator offers a very high level of configurability, going well beyond the scope of this document. The demodulator characteristics are essentially the same than the GFSK demodulator implemented on the SX1232 and SX1272 Semtech chips. This demodulation path can demodulate any legacy FSK or GFSK formatted signal.
 
-#### IF0 to IF7 LORA® channels
+###### IF0 to IF7 LORA® channels
 
 Those channels are connected to one SX1257. The channel bandwidth is 125 kHz and cannot be modified or configured. Each channel IF frequency can be individually configured. On each of those channels any data rate can be received without prior configuration.
 
@@ -64,17 +64,17 @@ The unique multi data-rate multi-channel demodulation capacity SF7 to SF12 and o
 
 ### External Module Connector
 
-#### SPI
+###### SPI
 
 The connector on the bottom side provides an SPI connection, which allows direct access to the Sx1301 SPI interface. This gives the target system the possibility to use existing SPI interfaces to communicate.
 
 After powering up RAK831 ,it is required to **reset** SX1301 via **PIN 19.** If the HAL driver from Github is used this functionality is already implemented.
 
-#### GPS PPS
+###### GPS PPS
 
 In case of available PPS signals in the target system, it is possible to connect this available signal to the appropriate pin at the connector.
 
-#### Digital IOs
+###### Digital IOs
 
 There are five GPIOs of the Sx1301 available, which gives the user some possibilities to get information about the system status. Theses pins are the same, as they are used for the LEDs on the RAK831 .
 

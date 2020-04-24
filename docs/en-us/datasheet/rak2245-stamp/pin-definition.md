@@ -3,7 +3,7 @@
 The pinout diagram for the RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module is shown by the figure below.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/fahimiuydovhvpxrmcl9.jpg`"
+  src="/assets/images/datasheet/rak2245-stamp/pin-definition/fahimiuydovhvpxrmcl9.jpg"
   width="50%"
   figure-number="1"
   caption="Pinout Diagram of RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module"

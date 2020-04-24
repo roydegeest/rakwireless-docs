@@ -90,7 +90,7 @@ cable (right or below).
   :src="`${$frontmatter.static_root}/roaftyivpwpzljam2c9x.jpg`"
   width="80%"
   figure-number="7"
-  caption="Attached GPS and LoRa Antenna"
+  caption="Attached GPS and LoRa® Antenna"
 />
 
 **6.**Install two M2.5x15 hexagonal standoffs.

@@ -31,7 +31,7 @@ params:
 
 ## Product Background
 
-The RAK7204 is a LoRaWAN® node with integrated environmental sensors. The high-precision environmental sensors, can measure changes in temperature, humidity, gas pressure and provide an indoor air quality index. All the accumulated data can be send to a LoRaWAN® Gateway in order for it to be forwarded to the Cloud.
+The RAK7204 is a LPWAN node with integrated environmental sensors. The high-precision environmental sensors, can measure changes in temperature, humidity, gas pressure and provide an indoor air quality index. All the accumulated data can be send to a gateway in order for it to be forwarded to the Cloud.
 
 The environmental sensors, LoRa® transceiver module, LoRa® antenna, and the battery are fitted in a 90 mm x 85 mm x 34 mm sized housing. These small dimensions allow for installation in tight spaces or ones that require the sensor to have a minimal impact on the overall feel of the surrounding environment. The housing adopts a hollow, permeable design to facilitate air flow in order to more accurately detect the environmental changes.
 

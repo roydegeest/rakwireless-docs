@@ -14,9 +14,9 @@ tags:
 
 ### Product Background
 
-The **RAK833 LPWAN Gateway Concentrator Module** is a family of LoRa® concentrator modules with mini PCIe form factor based on SX1301, which enables an easy integration into an existing routers and other network equipments with LoRaWAN® Gateway capabilities.This can be used in any embedded platform offering a free mini-PCIe slot with USB and SPI connectivity.
+The **RAK833 LPWAN Gateway Concentrator Module** is a family of LoRa® concentrator modules with mini PCIe form factor based on SX1301, which enables an easy integration into an existing routers and other network equipments with gateway capabilities.This can be used in any embedded platform offering a free mini-PCIe slot with USB and SPI connectivity.
 
-RAK833 LPWAN Gateway Concentrator Module is a complete and cost efficient LoRaWAN® gateway solution offering up to 10 programmable parallel demodulation paths. It is targeted at smart metering fixed networks and Internet of Things applications with up to 500 nodes per square kilometer (km²) in moderately interfered environment. These modules have the industry standard PCI Express Mini Card form factor which enables easy integration into an application board.
+RAK833 LPWAN Gateway Concentrator Module is a complete and cost efficient gateway solution offering up to 10 programmable parallel demodulation paths. It is targeted at smart metering fixed networks and Internet of Things applications with up to 500 nodes per square kilometer (km²) in moderately interfered environment. These modules have the industry standard PCI Express Mini Card form factor which enables easy integration into an application board.
 
 ### Product Features
 

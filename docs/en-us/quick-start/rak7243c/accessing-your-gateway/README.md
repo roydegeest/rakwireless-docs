@@ -5,7 +5,7 @@ next: accessing-the-internet
 
 # Accessing your Gateway
 
-After burning the image into the SD Card, make sure you have inserted the SD Card with the Latest Firmware installed to the **RAK7243C LoRaWAN**® **Developer Gateway** and the LoRa®, GPS, and LTE Antenna attached to it. After which, you can now safely power on the gateway. In this document, several ways in accessing the gateway are provided to have different alternatives for you to choose depending on the availability of the requirements needed.
+After burning the image into the SD Card, make sure you have inserted the SD Card with the Latest Firmware installed to the **RAK7243C LPWAN** **Developer Gateway** and the LoRa®, GPS, and LTE Antenna attached to it. After which, you can now safely power on the gateway. In this document, several ways in accessing the gateway are provided to have different alternatives for you to choose depending on the availability of the requirements needed.
 
 ::: warning
  Before powering the Raspberry Pi 3B+ you should install the LoRa® , GPS and LTE antennas. Not doing so might damage the boards.
@@ -13,7 +13,7 @@ After burning the image into the SD Card, make sure you have inserted the SD Car
 
 ## 1. Wi-Fi AP Mode
 
-By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that you can find an SSID named like "**Rakwireless_XXXX**" on your PC Wi-Fi Network List.
+By default, the gateway will work in Wi-Fi AP Mode which means that you can find an SSID named like "**Rakwireless_XXXX**" on your PC Wi-Fi Network List.
 
 <rk-img
   :src="`${$frontmatter.static_root}/1.lz4jkwc4hc5bulz0tial.jpg`"
@@ -31,7 +31,7 @@ By default, the LoRaWAN® Gateway will work in Wi-Fi AP Mode which means that yo
 
 ## 2. Via the Ethernet Port on the Raspberry Pi 3B+
 
-You can also connect your PC with the LoRaWAN® Gateway through an Ethernet cable. By default, the IP address of the LoRaWAN® Gateway’s Ethernet interface is `192.168.10.10`, so you need to set the IP address of your PC’s Ethernet to the same network segment, for example, `192.168.10.20`_._
+You can also connect your PC with the gateway through an Ethernet cable. By default, the IP address of the gateway’s Ethernet interface is `192.168.10.10`, so you need to set the IP address of your PC’s Ethernet to the same network segment, for example, `192.168.10.20`_._
 
 - To do this in Windows, go to Control Panel -> Network and Internet -> Network and Sharing Center and Click **Ethernet**
 
@@ -60,7 +60,7 @@ You can also connect your PC with the LoRaWAN® Gateway through an Ethernet cabl
   caption="TCP/IPv4 Properties"
 />
 
-Now , you should be able to access your LoRaWAN® Gateway from your PC successfully using the IP Address `192.168.10.10`through SSH.
+Now , you should be able to access your gateway from your PC successfully using the IP Address `192.168.10.10`through SSH.
 
 ## Log into the Gateway via SSH
 
@@ -75,8 +75,8 @@ SSH (Secure Shell) is typically used to log in to a remote machine and execute c
   caption="Putty Software for SSH in Windows"
 />
 
-- If you have connected to the LoRaWAN® Gateway through **Wi-Fi AP Mode**, the IP Address is `192.168.230.1`
-- If you have connected to the LoRaWAN® Gateway through **Ethernet**, the IP Address is `192.168.10.10`
+- If you have connected to the gateway through **Wi-Fi AP Mode**, the IP Address is `192.168.230.1`
+- If you have connected to the gateway through **Ethernet**, the IP Address is `192.168.10.10`
 - It will then prompt you to enter the username and password. The default username is "**pi**" and the default password is "**raspberry**"
 
 <rk-img
@@ -106,10 +106,10 @@ Open the terminal of Mac OS. Enter **root mode** by typing the following command
   caption="SSH in Mac OS"
 />
 
-- If you are not in root mode, enter "`ssh pi@192.168.230.1`" in the terminal to login to your LoRaWAN® Gateway, the default password is "**raspberry**".
-- If you connect your PC with the LoRaWAN® Gateway through Ethernet Cable, you should enter "`ssh pi@192.168.10.10`", the default password is "**raspberry**".
+- If you are not in root mode, enter "`ssh pi@192.168.230.1`" in the terminal to login to your gateway, the default password is "**raspberry**".
+- If you connect your PC with the gateway through Ethernet Cable, you should enter "`ssh pi@192.168.10.10`", the default password is "**raspberry**".
 
-OK, you have logged into the LoRaWAN® Gateway through SSH successfully same with the image shown below:
+OK, you have logged into the gateway through SSH successfully same with the image shown below:
 
 <rk-img
   :src="`${$frontmatter.static_root}/9.ke0ouxpmixgalqyu5cgk.jpg`"

@@ -12,14 +12,14 @@ title: Quick Start Guide
 />
 
 ## What do you need?
-1. RAK7244 LoRaWAN® Developer Gateway
+1. RAK7244 LPWAN Developer Gateway
 2. 16GB SD Card (included) + Card Reader
 3. 5V at least 2.5A Micro USB Power Supply (not included)
 4. A Windows/Mac OS/Linux Computer
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak7244-developer-lorawan-gateway"
-  label="Buy a RAK7244 LoRaWAN® Developer Gateway"
+  label="Buy a RAK7244 LPWAN Developer Gateway"
   _blank
 />
 

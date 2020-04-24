@@ -43,4 +43,4 @@ Your SD Card should be automatically detected by the Etcher software in the Labe
   caption="Firmware Burning Complete"
 />
 
-You can now then close the Balena software and insert the SD card into your RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module.
+You can now then close the Balena software and insert the SD card into your RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module.

@@ -6,7 +6,7 @@ next: ttn-otaa-mode
 ## Connecting to The Things Network (TTN)
 
 The Things Network is about enabling low power devices to be used in long range gateways that connect to an open-source, decentralized network and exchange data with Applications. Learn more about the Things Network [**here**](https://www.thethingsnetwork.org/docs/).
-In this section, we’ll show you how to connect the RAK811 LoRa® Breakout Module with TTN.
+In this section, we’ll show you how to connect the RAK811 LPWAN Breakout Module with TTN.
 
 1. First, **connect** the RAK811 LPWAN Breakout Module to your PC and open the **Serial Port Tool**.
 

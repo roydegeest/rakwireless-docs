@@ -7,5 +7,6 @@ export default ({
   siteData // site metadata
 }) => {
   // ...apply enhancements to the app
+
   Vue.use(Quasar)
 }
