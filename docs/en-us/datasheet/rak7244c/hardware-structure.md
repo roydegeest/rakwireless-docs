@@ -9,7 +9,7 @@ The **RAK2245 Pi HAT** is an LPWAN Gateway Concentrator Module based on the Pi H
 <rk-img
   src="/assets/images/datasheet/rak7244c/hardware-structure/rotyeaxfbqr7ngh9xfxm.jpg"
   width="100%"
-  figure-number="1"
+  figure-number="7"
   caption="LoRa® Hardware Structure"
 />
 
@@ -20,6 +20,6 @@ The RAK2013 is an add-on board based on the Raspberry Pi HAT standard that can t
 <rk-img
   src="/assets/images/datasheet/rak7244c/hardware-structure/wkdg3qk1cnrg3sqhaqsc.png"
   width="100%"
-  figure-number="2"
+  figure-number="8"
   caption="Cellular Hardware Structure"
 />

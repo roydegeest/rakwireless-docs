@@ -10,7 +10,7 @@ Create your own RAK7249 Macro Outdoor Gateway using the supplied building Blocks
 <rk-img
   src="/assets/images/datasheet/rak7249/diy-enterprise-gateway-components-and-accessories.jpg"
   width="75%"
-  figure-number="1"
+  figure-number="2"
   caption="DIY Enterprise Gateway Components and Accessories"
 />
 

@@ -5,7 +5,7 @@
 <rk-img
   src="/assets/images/datasheet/rak2245-pihat/rak2245-pihat-block-diagram.png"
   width="100%"
-  figure-number="1"
+  figure-number="3"
   caption="RAK2245 Pi Hat Block Diagram"
 />
 

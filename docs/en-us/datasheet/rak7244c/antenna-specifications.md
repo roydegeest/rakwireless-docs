@@ -7,7 +7,7 @@ The LoRa® Antenna with RP-SMA female connector is shown in the image below:
 <rk-img
   src="/assets/images/datasheet/rak7244c/antenna-specifications/ve8scbrbhdlcdaxa8x43.png"
   width="75%"
-  figure-number="1"
+  figure-number="9"
   caption="LoRa® Antenna Overview"
 />
 
@@ -18,7 +18,7 @@ Figure 2 shows the antenna's mechanical dimension.
 <rk-img
   src="/assets/images/datasheet/rak7244c/antenna-specifications/fggmm4b6rk79c5jj9xot.png"
   width="75%"
-  figure-number="2"
+  figure-number="10"
   caption="LoRa® Antenna Dimension"
 />
 
@@ -38,7 +38,7 @@ The LTE antenna for the Developer Gateway covers working frequency band from 824
 <rk-img
   src="/assets/images/datasheet/rak7244c/antenna-specifications/rhh9xrj0pfazqtaegxiv.jpg"
   width="75%"
-  figure-number="3"
+  figure-number="11"
   caption="LTE Antenna"
 />
 
@@ -47,7 +47,7 @@ The LTE antenna for the Developer Gateway covers working frequency band from 824
 <rk-img
   src="/assets/images/datasheet/rak7244c/antenna-specifications/hmqp4xvybryisixcoq86.jpg"
   width="75%"
-  figure-number="4"
+  figure-number="12"
   caption="LTE Antenna Dimension"
 />
 
@@ -68,7 +68,7 @@ The GPS antenna for Pilot Gateway is shown below
 <rk-img
   src="/assets/images/datasheet/rak7244c/antenna-specifications/ftzgxoaywuiq7xmy8shj.jpg"
   width="40%"
-  figure-number="5"
+  figure-number="13"
   caption="GPS Antenna"
 />
 
@@ -77,7 +77,7 @@ The GPS antenna for Pilot Gateway is shown below
 <rk-img
   src="/assets/images/datasheet/rak7244c/antenna-specifications/boh9fwujcictm8er5yug.jpg"
   width="75%"
-  figure-number="6"
+  figure-number="14"
   caption="GPS Antenna Dimensions"
 />
 

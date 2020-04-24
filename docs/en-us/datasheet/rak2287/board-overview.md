@@ -5,6 +5,6 @@ RAK2287 is a compact LPWAN Gateway Module weighing 9.7 grams, with outer dimensi
 <rk-img
   src="/assets/images/datasheet/rak2287/board-overview/vgepgcmcyupufbgsqyue.jpg"
   width="100%"
-  figure-number="1"
+  figure-number="2"
   caption="RAK2287 Board Dimension"
 />

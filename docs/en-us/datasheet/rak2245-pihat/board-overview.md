@@ -3,7 +3,7 @@
 <rk-img
   src="/assets/images/datasheet/rak2245-pihat/rak2245-dimensions.jpg"
   width="100%"
-  figure-number="1"
+  figure-number="2"
   caption="RAK2245 Pi Hat Dimensions"
 />
 

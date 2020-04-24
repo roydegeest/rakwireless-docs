@@ -53,7 +53,7 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 
 ### Key Features
 
-#### Hardware
+###### Hardware
 
 - **IP67/NEMA-6** industrial grade enclosure with cable glands
 - **PoE (802.3 af)** + Surge Protection
@@ -62,7 +62,7 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 - GPS **L70 GPS Module**
 - Up to **5 hours of autonomous work** on battery (Battery + Solar Kit optional)
 
-#### Software
+###### Software
 
 - Built-in LoRa® Server (**up to 128 nodes license included, higher tiers require a fee**)
 - OpenVPN
