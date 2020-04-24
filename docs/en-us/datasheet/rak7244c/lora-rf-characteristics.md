@@ -1,4 +1,4 @@
-## IX. LoRa RF Characteristics
+## IX. LoRa® RF Characteristics
 
 ### Transmitter RF Characteristics
 

@@ -10,7 +10,7 @@ In this document, we will be using an Arduino MEGA 2560 and RAK811 LPWAN Evaluat
 As of now, our RAK811 LPWAN Evaluation Board only works with Arduino Mega 2560. Watch out for our future revisions for you to interface it with other Arduino boards.
 :::
 
-1. To start with, we are going to differentiate the existing RAK811 LPWAN Evaluation Boards or as named in the boards as WisNode-LoRa.
+1. To start with, we are going to differentiate the existing RAK811 LPWAN Evaluation Boards or as named in the boards as WisNode-LoRa®.
 
 <rk-img
   :src="`${$frontmatter.static_root}/zsznmbkn2pnfmpuido2s.png`"

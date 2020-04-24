@@ -3,7 +3,7 @@ title: Lightning Protection
 ---
 # Lightning Protection
 
-In this document, we will be discussing on how to setup your lightning surge protection system whether be your RAK7249 Macro Outdoor Gateway situated outdoor or indoor. Such protection system must be taken into consideration to ensure a fully functional LoRaWAN® Gateway without interruption or damage from the lightings.
+In this document, we will be discussing on how to setup your lightning surge protection system whether be your RAK7249 Macro Outdoor Gateway situated outdoor or indoor. Such protection system must be taken into consideration to ensure a fully functional Gateway without interruption or damage from the lightings.
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/Outdoor Deployment/Lighting Protection/Diagram.jpg"
@@ -36,13 +36,7 @@ No additional protection for the Ethernet cabling is required at the Gateway sid
 
 ## Indoor Surge Protection
 
-For the purpose of protecting the indoor equipment and circuitry connected to the LoRaWAN®
-Gateway you need to install an **Ethernet port SPD lightning arrester**. It should be positioned along the cabling connecting the Gateway to the PoE injector. Make sure you connect its
-grounding wire terminal to an appropriate building grounding point. Thus your PoE
-injector and network switch/router should be surge protected. Please refer to the images in the diagram below for the Outdoor and Indoor portion of the
-surge protection system. Should you fail to adhere to the recommendations in this
-document RAKwireless carries no responsibility for any damage your equipment incurs
-due to lightning strike!
+For the purpose of protecting the indoor equipment and circuitry connected to the Gateway you need to install an **Ethernet port SPD lightning arrester**. It should be positioned along the cabling connecting the Gateway to the PoE injector. Make sure you connect its grounding wire terminal to an appropriate building grounding point. Thus your PoE injector and network switch/router should be surge protected. Please refer to the images in the diagram below for the Outdoor and Indoor portion of the surge protection system. Should you fail to adhere to the recommendations in this document RAKwireless carries no responsibility for any damage your equipment incurs due to lightning strike!
 
 ## Recommended Equipment
 
@@ -80,7 +74,7 @@ This is a surge protective device for securing transceivers against over-voltage
 
 This lightning arrestor connects between antenna and GPS receiver. A surge protection device for securing transceiver against transients, over-voltage, and surge currents induced by bolts of lightning.
 
-For the purpose of protecting the indoor equipment and circuitry connected to the LoRaWAN® gateway, you need to install an Ethernet port SPD lightning arrestor.
+For the purpose of protecting the indoor equipment and circuitry connected to the gateway, you need to install an Ethernet port SPD lightning arrestor.
 
 By adopting a high pass filter, this product can effectively suppress the low-frequency interference induced by lightning while letting through the GPS signal with low insertion loss. A transient suppression device (TVS) and a gas discharge tube (GDT) is adopted for the protection of the DC feed circuit.
 

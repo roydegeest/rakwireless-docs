@@ -10,7 +10,7 @@ The ChirpStack or previously known as LoRaServer project provides open-source co
 You can use RAK811 LPWAN Evaluation Board to connect with ChirpStack according to the following steps:
 
 ::: tip 📝 NOTE
-In this section, it is an assumption that you have already connected your LoRa® Gateway with TTN correctly. If not, please have a look at the document of RAK LoRa® Gateway.
+In this section, it is an assumption that you have already connected your Gateway with TTN correctly. If not, please have a look at the document of RAK Gateway.
 :::
 
 1. Open the web page of the ChirpStack which you want to connect with and login.
@@ -49,13 +49,13 @@ In this section, it is an assumption that you have already connected your LoRa®
   caption="RAK811 Application"
 />
 
-5. **Add** a LoRa® node device into ChirpStack by clicking the “**CREATE**” button:
+5. **Add** a node device into ChirpStack by clicking the “**CREATE**” button:
 
 <rk-img
   :src="`${$frontmatter.static_root}/pjl7qdbeh1nnkw7su8s3.png`"
   width="100%"
   figure-number="5"
-  caption="Adding a LoRa® Node Device"
+  caption="Adding a Node Device"
 />
 
 6. Fill them in. You can generate a **Device EUI** automatically by clicking the Device EUI icon, or you can write the correct Device EUI in the edit box.

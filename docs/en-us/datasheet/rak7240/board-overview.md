@@ -1,7 +1,5 @@
 ## Board Overview
 
-## Main Electronic Circuit Board
-
 <rk-img
   src="/assets/images/datasheet/rak7240/circuit-board.png"
   width="100%"

@@ -12,7 +12,7 @@ title: Quick Start Guide
 />
 
 ## What do you need?
-1. RAK7243 LoRaWAN® Developer Gateway
+1. RAK7243 LPWAN Developer Gateway
 2. 16GB SD Card (included) + Card Reader
 3. 5V at least 2.5A Micro USB Power Supply (not included)
 4. A Windows/Mac OS/Linux Computer
@@ -20,7 +20,7 @@ title: Quick Start Guide
 <rk-btn 
   src="https://store.rakwireless.com/collections/lorawan-gateways-concentrators/products/rak7243c-pilot-gateway?variant=26682434224228"
   _blank
-  label="Buy a RAK7243 LoRaWAN® Developer Gateway"
+  label="Buy a RAK7243 LPWAN Developer Gateway"
 />
 
 ## What's included in the Package? 

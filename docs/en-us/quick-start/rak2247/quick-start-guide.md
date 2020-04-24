@@ -8,15 +8,15 @@ title: Quick Start Guide
   src="/assets/images/quick-start-guide/rak2247/2.quickstart/rak2247_1.png"
   width="100%"
   figure-number="1"
-  caption="RAK2247 LoRaWAN® Gateway Concentrator Module Components"
+  caption="RAK2247 LPWAN Gateway Concentrator Module Components"
 />
 
 
 ## What do you need?
 
-Before going through each and every step in the installation and guide of the RAK2247 LoRaWAN® Gateway, make sure to prepare the necessary items listed below:
+Before going through each and every step in the installation and guide of the RAK2247 LPWAN Gateway, make sure to prepare the necessary items listed below:
 
-1. RAK2247 LoRaWAN® Gateway Concentrator Module
+1. RAK2247 LPWAN Gateway Concentrator Module
 2. [mPCIe to USB Board](https://store.rakwireless.com/products/mpcie-to-usb-board)
 <!-- 2. RAK2247 Pi Hat (Not included in the package) -->
 <!-- 3. Raspberry Pi 3B+ (Not included in the package)  -->
@@ -25,7 +25,7 @@ Before going through each and every step in the installation and guide of the RA
 
 <rk-btn 
   src="https://store.rakwireless.com/products/rak2247-lorawan-gateway-concentrator-module"
-  label="Buy a RAK2247 LoRaWAN® Gateway Concentrator Module"
+  label="Buy a RAK2247 LPWAN Gateway Concentrator Module"
   _blank
 />
 

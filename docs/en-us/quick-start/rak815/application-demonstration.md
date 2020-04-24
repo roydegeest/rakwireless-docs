@@ -26,7 +26,7 @@ log information in the serial port.
 ## LoRaWAN® Demo
 
 * Turn on your RAK815 and download the LoRaWAN® Demonstration. 
-* Navigate to the Bluetooth settings of your mobile phone and check for "RAK815 LoRaWAN® Demo". 
+* Navigate to the Bluetooth settings of your mobile phone and check for "RAK815 LPWAN Demo". 
 
 <rk-img
   src="/assets/images/quick-start-guide/rak815/5application-demonstration/bluetooth-radio-status.jpg"
@@ -45,7 +45,7 @@ log information in the serial port.
 />
 
 * Open the app and connect to the device's Bluetooth radio "**RAK813
-LoRaWAN® Demo**". Then, click RX Characteristic to
+LPWAN Demo**". Then, click RX Characteristic to
 send data.
 
 <rk-img
@@ -77,7 +77,7 @@ send data.
 
 The LoRaWAN® web server provider selected use for this case is The Things Network (TTN). To know more about setting up your LoRa® Gateway device, refer to this **[page](https://www.thethingsnetwork.org/labs/story/rak831-lora-gateway-from-package-to-online).**
 
-* After getting OTAA or ABP parameters of LoRa® device from TTN, you can write data into the flash of RAK815 by transmitting data
+* After getting OTAA or ABP parameters of device from TTN, you can write data into the flash of RAK815 by transmitting data
 through Bluetooth. The format of the data you are sending must be as shown below:
 
 ```
@@ -90,7 +90,7 @@ Because the information is too long, the serial port won't show the details of t
 
 * After successfully configuring your device parameters, a message will be shown in your serial port saying: "**LoRaWAN**® **parameters configured successfully**".
 
-* Then, **Reset** the device. If your LoRa® gateway device is ready, RAK815 will send a join request to LoRaWAN® network server. You can see the successful information in the terminal. 
+* Then, **Reset** the device. If your gateway device is ready, RAK815 will send a join request to LoRaWAN® network server. You can see the successful information in the terminal. 
 
 <rk-img
   src="/assets/images/quick-start-guide/rak815/5application-demonstration/lorawan-status.jpg"
@@ -154,7 +154,7 @@ for each sensor on the LCD display.
   caption="LoRaWAN® Parameters Configuration Status"
 />
 
-* After successfully configuring the parameters, check if your LoRaWAN® gateway has been set in advance. Reset the device and a message will be sent to your terminal that the device has successfully joined in OTAA. 
+* After successfully configuring the parameters, check if your gateway has been set in advance. Reset the device and a message will be sent to your terminal that the device has successfully joined in OTAA. 
 
 <rk-img
   src="/assets/images/quick-start-guide/rak815/5application-demonstration/otaa-activation.jpg"

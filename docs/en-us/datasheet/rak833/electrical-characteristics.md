@@ -26,7 +26,7 @@ The product is not protected against over-voltage or reversed voltages. If neces
 ### Maximum Electrostatic Discharge (ESD)
 
 :::tip 📝 NOTE
-RAK833 LoRaWAN® Gateway Concentrator Module are Electrostatic Sensitive Devices and require special precautions when handling.
+RAK833 LPWAN Gateway Concentrator Module are Electrostatic Sensitive Devices and require special precautions when handling.
 :::
 
 | Parameter                                | Min | Typical | Max  | Unit | Remarks                                      |

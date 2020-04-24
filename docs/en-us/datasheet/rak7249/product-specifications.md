@@ -22,7 +22,7 @@
 
 ### RF Specifications
 
-#### WiFi Radio Specifications
+###### WiFi Radio Specifications
 
 | Features                                                                                            | Specifications                                                                                                                                                                                                                                                       |
 | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -33,7 +33,7 @@
 | **Receiver Sensitivity** (Typical)                                                                  | **802.11b** <br> • 1Mbps : -95dBm <br> • 11Mbps : -88dBm <br> <br> **802.11g** <br> • 6Mbps : -90dBm <br> • 54Mbps : -75dBm <br><br> **802.11n (2.4G)** <br> • MCS0 (HT20) : -89dBm <br> • MCS7(HT20) : -72dBm <br> • MCS0(HT40) : -86dBm <br> • MCS7(HT40) : -68dBm |
 
 
-#### LoRa® Radio Specifications
+###### LoRa® Radio Specifications
 
 | Feature              | Specifications                                                        |
 | -------------------- | --------------------------------------------------------------------- |
@@ -44,7 +44,7 @@
 
 ### Software Specifications
 
-#### LoRa®
+###### LoRa®
 
 - Supports class A & C
 - Supports LoRaWAN® protocol
@@ -55,7 +55,7 @@
 - Supports location setup
 - Supports server address & port setup
 
-#### Network
+###### Network
 
 - Supports WiFi AP mode
 - Supports LTE APN setup
@@ -65,7 +65,7 @@
 - Supports router module NAT
 - Supports firewall
 
-#### Management
+###### Management
 
 - Supports WEB Management
 - Supports SSH2

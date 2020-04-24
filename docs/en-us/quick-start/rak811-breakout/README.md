@@ -37,7 +37,7 @@ params:
 
 This node has an expandable sensor interface, which greatly increases the product's application scenarios. It is equipped with advanced 3D acceleration chip that allows faster motion detection. The device has low-power features at stationary, reducing overall consumption and increasing battery life.
 
-Overall, this node has various functionalities and applications designed in single board that could help you develop your own LoRa® Projects.
+Overall, this node has various functionalities and applications designed in single board that could help you develop your own LPWAN Projects.
 
 <rk-btn
   src="quick-start-guide.html"

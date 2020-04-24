@@ -4,7 +4,7 @@ static_root: /assets/images/datasheet/rak7244c/3.configure-gateway
 
 # Configuring the Gateway
 
-Assuming you have successfully logged into your LoRaWAN® Gateway using SSH. Enter the following command in the command line:
+Assuming you have successfully logged into your Gateway using SSH. Enter the following command in the command line:
 
 ```bash
 sudo gateway-config
@@ -19,8 +19,8 @@ You will now then see a page like the following picture below:
   caption="Configuration Options for the Gateway"
 />
 
-1. **Set pi password** - used to set/change the password of the LoRaWAN® Gateway.
-2. **Set up RAK Gateway LoRa Concentrator** - used to configure the frequency, which the LoRaWAN® Gateway will operate on, and the LoRaWAN® Server which the LoRaWAN® Gateway will work with.
+1. **Set pi password** - used to set/change the password of the Gateway.
+2. **Set up RAK Gateway LoRa® Concentrator** - used to configure the frequency, which the Gateway will operate on, and the LoRaWAN® Server which the gateway will work with.
 3. **Restart packet -forwarder** - used to restart the LoRa® packet forwarded process.
 4. **Edit packet-forwarder config-** used to open the global_conf.json file, in order to edit LoRaWAN® parameters manually.
 5. **Configure Wifi** - used to configure the Wi-Fi settings in order to connect to a network.
@@ -29,7 +29,7 @@ You will now then see a page like the following picture below:
 8. **Configure LAN** - used to configure the Ethernet adapter settings.
 
 ::: tip 📝 NOTE:
- A unique ID will be generated in for LoRaWAN® Gateway. This is also called Gateway EUI squared in red in the figure above and is essential for registering the gateway with any LoRa® Network Server (TTN, ChirpStack)
+ A unique ID will be generated in for Gateway. This is also called Gateway EUI squared in red in the figure above and is essential for registering the gateway with any LoRa® Network Server (TTN, ChirpStack)
 :::
 
 There is also another way to get your "Gateway ID", just enter the command below in the command line:
@@ -76,9 +76,9 @@ It is a good security practice to change the default password "**raspberry**" wh
   caption="Successful Password Change"
 />
 
-## Set up RAK Gateway LoRa Concentrator
+## Set up RAK Gateway LoRa® Concentrator
 
-This menu allows you to select your LoRa® frequency band and one of the two available Networks Server options by choosing "**2 Setup RAK Gateway LoRa concentrator**"
+This menu allows you to select your LoRa® frequency band and one of the two available Networks Server options by choosing "**2 Setup RAK Gateway LoRa® concentrator**"
 
 <rk-img
   :src="`${$frontmatter.static_root}/06.ktnjwl2w33wsmzgth2oh.png`"
@@ -87,7 +87,7 @@ This menu allows you to select your LoRa® frequency band and one of the two ava
   caption="Choosing Setup RAK Gateway LoRa® concentrator"
 />
 
-You can choose one of two supported LoRa Servers here: **TTN** or
+You can choose one of two supported LoRa® Servers here: **TTN** or
 **ChirpStack**.
 
 ### Server is TTN
@@ -141,7 +141,7 @@ First, select option 1 for configuring your Regional Frequency Band
   caption="Regional Frequency Band Option"
 />
 
-Then, set the IP address of the ChirpStack which you want your LoRaWAN® Gateway to work with:
+Then, set the IP address of the ChirpStack which you want your Gateway to work with:
 
 <rk-img
   :src="`${$frontmatter.static_root}/12.cnm6bvyeuxzzj2uyoes0.png`"
@@ -151,7 +151,7 @@ Then, set the IP address of the ChirpStack which you want your LoRaWAN® Gateway
 />
 
 ::: tip 📝 NOTE:
- The default IP Address is **`127.0.0.1`** which means you will be using the Built-in LoRa Server. If you want to use an independent LoRa Server running on another device or a cloud based LoRa Server, you need to set it to the corresponding IP address
+ The default IP Address is **`127.0.0.1`** which means you will be using the Built-in LoRa® Server. If you want to use an independent LoRa® Server running on another device or a cloud based LoRa® Server, you need to set it to the corresponding IP address
 :::
 
 - If you have instead selected "**Chirpstack ADR Configure**" you can enable/disable the Adaptive Data Rate (ADR) functionality:

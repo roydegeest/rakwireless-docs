@@ -1,7 +1,7 @@
 ---
 title: Connect the Gateway with Chirpstack
 ---
-# Connect the LoRaWAN® Gateway with Chirpstack
+# Connect the Gateway with Chirpstack
 
 The ChirpStack or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [here](https://www.chirpstack.io/).
 
@@ -48,7 +48,7 @@ Assuming you have set it up correctly, Login to your ChirpStack to register your
 
 <rk-img src="/assets/images/quick-start-guide/rak7246/chirpstack_success.png" width="100%" figure-number = "7" caption=" Successfully Registered the Gateway"/>
 
-* By clicking the Live LORAWAN FRAMES tab, you can check the LoRa packets sent by the LoRa nodes into your RAK7246G LPWAN Developer Gateway
+* By clicking the Live LORAWAN® FRAMES tab, you can check the LoRa® packets sent by the nodes into your RAK7246G LPWAN Developer Gateway
 
 **Congratulations!** :tada: You have connected your Gateway to an external ChirpStack Successfully!
 

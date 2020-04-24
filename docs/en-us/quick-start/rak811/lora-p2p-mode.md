@@ -10,7 +10,7 @@ This document show how to communicate **two (2) RAK811 LPWAN Evaluation Boards**
 
 2. Next, connect these two RAK811 LPWAN Evaluation Board with PC through UART, and open two serial port tool on PC.
 
-3. Now, configure them to both work in LoRa P2P mode as follow:
+3. Now, configure them to both work in LoRa® P2P mode as follow:
 
 <rk-img
   :src="`${$frontmatter.static_root}/wiyvchxtiv4tgr3izuff.png`"

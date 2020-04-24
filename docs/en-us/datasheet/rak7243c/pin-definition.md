@@ -1,8 +1,8 @@
 ## Pin Definition
 
-The RAK7243C Pilot Gateway is composed of the LoRa® Concentrator RAK2245 Pi Hat and the RAK2013 Pi Hat
+The RAK7243C Pilot Gateway is composed of the LPWAN Concentrator RAK2245 Pi Hat and the RAK2013 Pi Hat
 
-### LoRa® Concentrator RAK2245 Pi Hat
+### LPWAN Concentrator RAK2245 Pi Hat
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/rak2245.png"
@@ -11,7 +11,7 @@ The RAK7243C Pilot Gateway is composed of the LoRa® Concentrator RAK2245 Pi Hat
   caption="RAK2245 Pi Hat"
 />
 
-RAK2245 Pi HAT(Model Name is: RAK2243) is a LoRa® Concentrator board which follows the Pi HAT standard, and can be mounted to Pi board with 40-pin connector.
+RAK2245 Pi HAT(Model Name is: RAK2243) is an LPWAN Concentrator board which follows the Pi HAT standard, and can be mounted to Pi board with 40-pin connector.
 
 * For detailed information about the RAK2245, Go to the [RAK2245 Pi Hat Datasheet](/en-us/datasheet/rak2245-pihat/#rak2245-pi-hat-lpwan-gateway-concentrator-module).
 

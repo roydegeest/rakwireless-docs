@@ -17,7 +17,7 @@ Before going through each and every step in the installation and guide of the LP
 
 1. **RAK811 LPWAN Breakout Module**
 2. USB-UART Module
-3. LoRaWAN® Gateway in Range for Testing
+3. Gateway in Range for Testing
 4. Jumper Wires
 5. 3.3 V Battery Power Supply
 6. A Windows/Mac OS/Linux Computer

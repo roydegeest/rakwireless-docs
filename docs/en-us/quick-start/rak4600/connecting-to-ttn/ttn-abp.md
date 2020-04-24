@@ -104,7 +104,7 @@ at+join
   :src="`${$frontmatter.static_root}/mqklekitvyx1smagkvx5.jpg`"
   width="60%"
   figure-number="9"
-  caption="AT Command for ABP LoRa®  Join via RAK Serial Port Tool"
+  caption="AT Command for ABP LoRa® Join via RAK Serial Port Tool"
 />
 
 ::: tip 📝 NOTE:

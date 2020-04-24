@@ -10,7 +10,7 @@ The **ChirpStack** or previously known as LoRaServer project provides open-sourc
 You can use to connect with ChirpStack according to the following steps:
 
 ::: tip 📝 NOTE
-In this section, it is an assumption that you have already connected your LoRa® Gateway with TTN correctly. If not, kindly look into our [online documentation](https://doc.rakwireless.com/) of your RAK Gateway in hand.
+In this section, it is an assumption that you have already connected your Gateway with TTN correctly. If not, kindly look into our [online documentation](https://doc.rakwireless.com/) of your RAK Gateway in hand.
 :::
 
 1. Open the web page of the ChirpStack which you want to connect with and login.
@@ -55,7 +55,7 @@ In this section, it is an assumption that you have already connected your LoRa®
   :src="`${$frontmatter.static_root}/jocka410vvlsenkdcf0a.png`"
   width="100%"
   figure-number="5"
-  caption="Adding a LoRa® Node Device"
+  caption="Adding a Node Device"
 />
 
 6. Fill them in. You can generate a **Device EUI** automatically by clicking the Device EUI icon, or you can write the correct Device EUI in the edit box.

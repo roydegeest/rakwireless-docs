@@ -11,7 +11,7 @@
 
 1. **RAK612 LPWAN Button**
 2. Micro USB Cable
-3. LoRaWAN® Gateway in Range for Testing
+3. Gateway in Range for Testing
 4. A Windows PC
 
 <rk-btn

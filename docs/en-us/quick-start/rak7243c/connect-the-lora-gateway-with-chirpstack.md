@@ -2,17 +2,17 @@
 static_root: /assets/images/quick-start-guide/rak7243c/2.product-configuration/5.connect-chirpstack
 ---
 
-# Connect the LoRaWAN® Gateway with ChirpStack
+# Connect the Gateway with ChirpStack
 
 The ChirpStack or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [**here**](https://www.chirpstack.io/)
 
-For the RAK7243C LoRaWAN® Developer Gateway, there are 2 ways to use the ChirpStack:
+For the RAK7243C LPWAN Developer Gateway, there are 2 ways to use the ChirpStack:
 
 ## 1. Using the built-in ChirpStack
 
 There is a built-in ChirpStack in every RAK Developer gateway if you use the latest firmware.
 
-- When you use it for the first time after burning the latest firmware, the LoRaWAN® Gateway will work in the EU868 Band and use the built-in ChirpStack as its default LoRa® Server. If you don't want to change the frequency or LoRa® Server, you don't have to do anything as this will be configured automatically when the LoRaWAN® Gateway boots.
+- When you use it for the first time after burning the latest firmware, the gateway will work in the EU868 Band and use the built-in ChirpStack as its default LoRa® Server. If you don't want to change the frequency or LoRa® Server, you don't have to do anything as this will be configured automatically when the gateway boots.
 - However if it is not the first time and you want to use the built-in ChirpStack as the LoRa® Server, follow the steps discussed in [Configuring the Gateway](/en-us/quick-start/rak7243c/configuring-the-gateway.html) section.
 - **Optional:** If ever you disabled the AP Mode and you have connected it to your own Wifi network (Client Mode). You can search for your gateway’s IP Address via [**Advanced IP Scanner**](https://www.advanced-ip-scanner.com/). Copy the IP Address of your Gateway, it should have a Manufacturer name of **Raspberry Pi Foundation**:
 
@@ -78,7 +78,7 @@ This is a lot more complicated having to deploy a remote ChirpStack by yourself 
  Remember to run the \"`sudo gateway-config`\" command in the CLI and point the Gateway to the IP address of the machine you just installed Chirpstack on. This can be done in item 2 in the menu \"**Setup RAK Gateway LoRa® concentrator**\"!
 :::
 
-- Assuming you have set it up correctly, Login to your ChirpStack to register your LoRaWAN® Gateway by opening the ChirpStack's web page in a browser by entering "IP Address of ChirpStack:8080".
+- Assuming you have set it up correctly, Login to your ChirpStack to register your gateway by opening the ChirpStack's web page in a browser by entering "IP Address of ChirpStack:8080".
 
 <rk-img
   :src="`${$frontmatter.static_root}/06.rmibul5ouzluictf9zpq.png`"
@@ -105,7 +105,7 @@ This is a lot more complicated having to deploy a remote ChirpStack by yourself 
   caption="ChirpStack Registered Gateways"
 />
 
-- Click "Create" to register your LoRaWAN® Gateway and fill up the necessary information.
+- Click "Create" to register your gateway and fill up the necessary information.
 
 <rk-img
   :src="`${$frontmatter.static_root}/09.ku6wofqafkogdpndggwu.png`"
@@ -115,7 +115,7 @@ This is a lot more complicated having to deploy a remote ChirpStack by yourself 
 />
 
 - Fill in the Gateway ID that we got from the last section ([Configuring the Gateway](/en-us/quick-start/rak7243c/configuring-the-gateway.html)), also called Gateway EUI.
-- If you have properly configured your LoRaWAN® Gateway and there is a network connection between the external ChirpStack and your LoRaWAN® Gateway, you should see the following page and status:
+- If you have properly configured your gateway and there is a network connection between the external ChirpStack and your gateway, you should see the following page and status:
 
 <rk-img
   :src="`${$frontmatter.static_root}/10.p9wtubhkjdsatrhkwvfu.png`"
@@ -124,4 +124,4 @@ This is a lot more complicated having to deploy a remote ChirpStack by yourself 
   caption="Successfully Registered the Gateway"
 />
 
-**Congratulations!** :tada: You have connected your LoRaWAN® Gateway to an external ChirpStack Successfully!
+**Congratulations!** :tada: You have connected your gateway to an external ChirpStack Successfully!

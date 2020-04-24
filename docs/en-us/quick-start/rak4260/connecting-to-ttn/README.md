@@ -1,4 +1,4 @@
-# Connecting to The Things Network (TTN)
+1# Connecting to The Things Network (TTN)
 
 In this section, we will be connecting the RAK4260 LPWAN Evaluation Board to The Things Network (TTN). If you don't have an account yet, head on to [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and create one. Once done, Log in to your account and go to the console which can be found here:
 

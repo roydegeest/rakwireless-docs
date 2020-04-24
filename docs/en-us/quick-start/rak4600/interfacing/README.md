@@ -10,7 +10,7 @@ Before powering the RAK4600 LPWAN Evaluation Board , you should install the LoRa
   src="/assets/images/quick-start-guide/rak4600/3.interfacing/u9lgszijijydbyjkgwnx.png"
   width="50%"
   figure-number="1"
-  caption="LoRa and BLE Antennas"
+  caption="LoRa® and BLE Antennas"
 />
 
 - Connect your RAK4600 LPWAN Evaluation Board to your Windows Machine using the provided Micro USB cable.
