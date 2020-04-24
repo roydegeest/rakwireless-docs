@@ -3,7 +3,7 @@
 <rk-img
   src="/assets/images/datasheet/rak7243c/rak7243c-interfaces.png"
   width="100%"
-  figure-number="1"
+  figure-number="3"
   caption="RAK7243C Interfaces"
 />
 

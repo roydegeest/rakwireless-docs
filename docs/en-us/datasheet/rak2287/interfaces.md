@@ -5,9 +5,9 @@
 RAK2287 card is equipped with one SX1302 chip and two SX1250. The first chip is utilized for RF signal and the core of the device. While the latter, provides the related LoRa® modem and processing functionalities. Additional signal conditioning circuitry is implemented for PCI Express Mini Card compliance, and one UFL connectors are available for external antennas integration.
 
 <rk-img
-  src="/assets/images/datasheet/rak2287/interfacesblock_diagram.png"
+  src="/assets/images/datasheet/rak2287/interfaces/block_diagram.png"
   width="100%"
-  figure-number="1"
+  figure-number="4"
   caption="RAK2287 Block Diagram"
 />
 

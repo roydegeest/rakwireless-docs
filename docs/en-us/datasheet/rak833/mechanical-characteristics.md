@@ -5,6 +5,6 @@ RAK833 LPWAN Gateway Concentrator Module is fully compliant to the **52-pin PCI 
 <rk-img
   src="/assets/images/datasheet/rak833/rak833-lpwan-gateway-concentrator-module-mechanical-characteristics.png"
   width="100%"
-  figure-number="1"
+  figure-number="5"
   caption="RAK833 LPWAN Gateway Concentrator Module Mechanical Characteristics"
 />

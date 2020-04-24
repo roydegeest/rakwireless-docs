@@ -5,7 +5,7 @@
 <rk-img
   src="/assets/images/datasheet/rak7258/block_diagram.png"
   width="75%"
-  figure-number="1"
+  figure-number="3"
   caption="RAK7258 Micro Gateway Block Diagram"
 />
 
@@ -16,7 +16,7 @@ The hardware interfaces of RAK7258 Micro Gateway include DC 12V, ETH interface, 
 <rk-img
   src="/assets/images/datasheet/rak7258/hardware-interfaces.jpg"
   width="75%"
-  figure-number="2"
+  figure-number="4"
   caption="RAK7258 Micro Gateway Hardware Interfaces"
 />
 

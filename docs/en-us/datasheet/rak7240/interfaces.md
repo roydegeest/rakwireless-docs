@@ -5,7 +5,7 @@
 <rk-img
   src="/assets/images/datasheet/rak7240/block-diagram.png"
   width="100%"
-  figure-number="1"
+  figure-number="3"
   caption="RAK7240 Outdoor LPWAN Gateway Block Diagram"
 />
 
@@ -17,7 +17,7 @@ The hardware interfaces of **RAK7240 Outdoor LPWAN Gateway** include five (5) an
 <rk-img
   src="/assets/images/datasheet/rak7240/hardware-interfaces.jpg"
   width="100%"
-  figure-number="2"
+  figure-number="4"
   caption="RAK7240 Outdoor LPWAN Gateway Hardware Interfaces" 
 />
 

@@ -5,7 +5,7 @@
 <rk-img
   src="/assets/images/datasheet/rak7258/board_overview.jpg"
   width="100%"
-  figure-number="1"
+  figure-number="2"
   caption="RAK7258 Micro Gateway Circuit Board"
 />
 
