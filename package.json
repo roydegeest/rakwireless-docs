@@ -1,11 +1,4 @@
 {
-  "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.4.1",
-    "@vuepress/plugin-medium-zoom": "^1.4.1",
-    "@vuepress/plugin-nprogress": "^1.4.1",
-    "vuepress": "^1.4.1",
-    "vuepress-plugin-robots": "^1.0.1"
-  },
   "scripts": {
     "docs:dev": "vuepress dev docs --no-cache",
     "docs:build": "vuepress build docs --no-cache",
@@ -14,12 +7,18 @@
   "dependencies": {
     "@quasar/extras": "1.6.4",
     "@vuepress/core": "^1.4.1",
+    "@vuepress/plugin-back-to-top": "^1.4.1",
+    "@vuepress/plugin-medium-zoom": "^1.4.1",
+    "@vuepress/plugin-nprogress": "^1.4.1",
     "markdown-it-include": "^1.1.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.0",
     "nodemon": "^2.0.3",
     "quasar": "1.9.15",
     "sass-loader": "^8.0.2",
+    "vuepress": "^1.4.1",
+    "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-redirect": "^1.2.3",
+    "vuepress-plugin-robots": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.3.1"
   },
   "nodemonConfig": {
