@@ -9,7 +9,7 @@ For module built-in BG96, there is one LTE antenna and one GPS antenna. For modu
 <rk-img
   src="/assets/images/datasheet/rak2013/lte-antenna.jpg"
   width="50%"
-  figure-number="1"
+  figure-number="10"
   caption="LTE Antenna"
 />
 
@@ -20,7 +20,7 @@ The LTE antenna for the RAK2013 covers working frequency band from **824 MHz to 
 <rk-img
   src="/assets/images/datasheet/rak2013/lte-antenna-dimension.jpg"
   width="75%"
-  figure-number="2"
+  figure-number="11"
   caption="LTE Antenna Dimension"
 />
 
@@ -85,7 +85,7 @@ The GPS antenna for RAK2013 is shown below. Only the RAK2013 with BG96 supports 
 <rk-img
   src="/assets/images/datasheet/rak2013/gps-antenna.jpg"
   width="50%"
-  figure-number="3"
+  figure-number="12"
   caption="GPS Antenna"
 />
 
@@ -94,7 +94,7 @@ The GPS antenna for RAK2013 is shown below. Only the RAK2013 with BG96 supports 
 <rk-img
   src="/assets/images/datasheet/rak2013/gps-antenna-dimensions.jpg"
   width="75%"
-  figure-number="4"
+  figure-number="13"
   caption="GPS Antenna Dimensions"
 />
 

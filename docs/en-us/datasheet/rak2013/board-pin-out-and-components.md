@@ -13,7 +13,7 @@ RAK2013 board is composed of four connectors: **J3**, **J15**, **J16** and **J17
 <rk-img
   src="/assets/images/datasheet/rak2013/rak2013-raspberry-connector.jpg"
   width="85%"
-  figure-number="1"
+  figure-number="6"
   caption="RAK2013 Raspberry Connector"
 />
 
@@ -68,7 +68,7 @@ The table below shows the pin connections of the raspberry connector.
 <rk-img
   src="/assets/images/datasheet/rak2013/mikroBUS_Pinout.png"
   width="100%"
-  figure-number="2"
+  figure-number="7"
   caption="MikroBus Interface"
 />
 
@@ -80,7 +80,7 @@ A Standard Micro-B USB compliant with USB 2.0 standard specification is used to 
 <rk-img
   src="/assets/images/datasheet/rak2013/micro-b-usb-connection.jpg"
   width="20%"
-  figure-number="3"
+  figure-number="8"
   caption="Micro-B USB Connection"
 />
 

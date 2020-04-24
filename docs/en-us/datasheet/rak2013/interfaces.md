@@ -7,7 +7,7 @@ The diagram below shows the internal architecture and external interfaces of RAK
 <rk-img
   src="/assets/images/datasheet/rak2013/Block_Diagrams_RAK2013.png"
   width="100%"
-  figure-number="1"
+  figure-number="5"
   caption="RAK2013 Cellular Board"
 />
 

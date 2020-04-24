@@ -7,7 +7,7 @@ The block diagram below shows the internal architecture and external interfaces 
 <rk-img
   src="/assets/images/datasheet/rak5010/block_diagram.jpg"
   width="100%"
-  figure-number="1"
+  figure-number="8"
   caption="Block Diagram of RAK5010"
 />
 
@@ -44,7 +44,7 @@ definition is shown below:
 <rk-img
   src="/assets/images/datasheet/rak5010/usb-connector-pinout.png"
   width="25%"
-  figure-number="2"
+  figure-number="9"
   caption="USB Connector Pinout"
 />
 
@@ -106,7 +106,7 @@ If BG96_RESET, BG96_PWRKEY, and BG96_WDISABLE are not set correctly, the BG96 mo
 <rk-img
   src="/assets/images/datasheet/rak5010/turning-on-the-bg96-via-the-pwrkey.jpg"
   width="100%"
-  figure-number="3"
+  figure-number="10"
   caption="Turning on the BG96 via the PWRKEY"
 />
 

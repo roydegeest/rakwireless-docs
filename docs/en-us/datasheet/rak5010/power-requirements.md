@@ -33,6 +33,7 @@ _A 5V Solar panel can be connected to the board via the P1 connector to serve fo
 <rk-img
   src="/assets/images/datasheet/rak5010/battery-charging-via-solar-panel.jpg"
   width="75%"
-  figure-number="1"
+  figure-number="13"
   caption="Battery Charging via Solar Panel"
 />
+
