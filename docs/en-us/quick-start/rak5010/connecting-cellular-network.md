@@ -152,7 +152,7 @@ Let’s check the data in the receiving server:
 <rk-img
   :src="`${$frontmatter.static_root}/urwjby1runkjaijb18re.jpg`"
   width="100%"
-  figure-number="13"
+  figure-number="12"
   caption="Data Receive in the Server"
 />
 

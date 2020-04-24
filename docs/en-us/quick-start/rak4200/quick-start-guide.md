@@ -22,7 +22,7 @@ Before going through each and every step in the installation guide of the RAK420
 
 
 ::: tip 📝 NOTE
-In order to have an optimal antenna matching for the Low and High LoRa® bands there are two types of modules with different hardware. The L type module only works for the 433MHz and 470MHz LoRa bands. The H type module is for the 868MHz to 923MHz (the rest of the spectrum). Note that the hardware is specific for your selected band and can't be changed.
+In order to have an optimal antenna matching for the Low and High LoRa® bands there are two types of modules with different hardware. The L type module only works for the 433MHz and 470MHz LoRa® bands. The H type module is for the 868MHz to 923MHz (the rest of the spectrum). Note that the hardware is specific for your selected band and can't be changed.
 :::
 <rk-btn
   src="https://store.rakwireless.com/products/rak4200-evaluation-board"

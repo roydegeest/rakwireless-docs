@@ -19,7 +19,7 @@
 
 ### RF Specifications
 
-###### Wi-Fi Radio Specifications
+#### Wi-Fi Radio Specifications
 
 | **Feature**             | **Specifications**           |
 | ----------------------- | ---------------------------- |
@@ -27,7 +27,7 @@
 | **Operating Frequency** | • ISM band: 2.412~2.472(GHz) |
 | **Operation Channels**  | • 2.4GHz: 1-13               |
 
-###### LoRa Radio Specifications
+#### LoRa Radio Specifications
 
 | **Feature**              | **Specifications**                                      |
 | ------------------------ | ------------------------------------------------------- |
@@ -37,7 +37,7 @@
 
 ### Software Specifications
 
-###### LoRa
+#### LoRa
 
 - Class A, C
 - LoRa package forwarder
@@ -46,11 +46,11 @@
 - Location setup
 - Supports server address & port setup
 
-###### Network
+#### Network
 
 - Wi-Fi AP/Client mode
 - DHCP Client
 
-###### Management
+#### Management
 
 - SSH2

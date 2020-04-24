@@ -91,7 +91,7 @@ You still have to connect the Micro-usb Cable to the RAK4600 LPWAN Evaluation Bo
 
 <rk-img
   src="/assets/images/quick-start-guide/rak4600/4.checking-device-logs/ebx6auejnil1ob8hvhaf.jpg"
-  width="60%"
+  width="100%"
   figure-number="8"
   caption="Log Checking through UART"
 />

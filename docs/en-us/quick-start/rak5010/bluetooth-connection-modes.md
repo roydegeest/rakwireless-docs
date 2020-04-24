@@ -23,7 +23,7 @@ For the Beacon Scan mode, RAK5010 can scan around the Beacon signal, it is usefu
 
 ## RAK5010 BLE Default Settings
 
-By default, the RAK5010 LoRa Evaluation Board will work on **Peripheral Mode.** In this mode users can configure it through BLE including DFU easily. It should be noted that after resetting the RAK5010, the user has only 60 seconds to establish a connection with your Mobile Device through BLE based on its power consumption settings. If no connection has been established within 60 seconds, the RAK5010's BLE signal will not be broadcasted and it will enter power saving mode. On the other hand, there is no limitation once you are already connected with the RAK5010's BLE.
+By default, the RAK5010 LPWAN Evaluation Board will work on **Peripheral Mode.** In this mode users can configure it through BLE including DFU easily. It should be noted that after resetting the RAK5010, the user has only 60 seconds to establish a connection with your Mobile Device through BLE based on its power consumption settings. If no connection has been established within 60 seconds, the RAK5010's BLE signal will not be broadcasted and it will enter power saving mode. On the other hand, there is no limitation once you are already connected with the RAK5010's BLE.
 
 If you set the RAK5010 to work in Central Mode, the RAK5010 will work first on Peripheral Mode for 30 seconds and if no connection is established after 30 seconds, it will automatically work in **Central Mode.** In this mode,the BLE signal of the RAK5010 will stop broadcasting and will not be visible on your mobile devices up until you change the work mode to peripheral mode or reset the RAK5010 again.
 

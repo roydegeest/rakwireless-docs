@@ -71,7 +71,7 @@ params:
 ---
 # Configuring the Gateway
 
-Assuming you have successfully logged into your LoRaWAN® Gateway using SSH, enter the following command in the command line:
+Assuming you have successfully logged into your Gateway using SSH, enter the following command in the command line:
 
 ```sh
 sudo gateway-config
@@ -81,15 +81,15 @@ You will now then see a page like the following picture below
 
 <rk-img :params="$page.frontmatter.params.img1" />
 
-1. **Set pi password** - used to set/change the password of the LoRaWAN® Gateway.
-2. **Set up RAK Gateway LoRa® Concentrator** - used to configure the frequency, which the LoRaWAN® Gateway will operate on, and the LoRaWAN® Server which the LoRaWAN® Gateway will work with.
+1. **Set pi password** - used to set/change the password of the Gateway.
+2. **Set up RAK Gateway LoRa® Concentrator** - used to configure the frequency, which the Gateway will operate on, and the LoRaWAN® Server which the Gateway will work with.
 3. **Restart packet -forwarder** - used to restart the LoRa® packet forwarded process.
 4. **Edit packet-forwarder config**- used to open the global_conf.json file, in order to edit LoRaWAN® parameters manually.
 5. **Configure Wifi** - used to configure the Wi-Fi settings in order to connect to a network.
 6. **Configure LAN** - used to configure the Ethernet adapter settings.
 
 :::tip 📝 NOTE:
- A unique ID will be generated in for LoRaWAN® Gateway. This is also called Gateway EUI squared in red in the figure above and is essential for registering the gateway with any LoRa® Network Server (TTN, ChirpStack)
+ A unique ID will be generated in for Gateway. This is also called Gateway EUI squared in red in the figure above and is essential for registering the gateway with any LoRa® Network Server (TTN, ChirpStack)
 :::
 
 There is also another way to get your "Gateway ID", just enter the command below in the command line:

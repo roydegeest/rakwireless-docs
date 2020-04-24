@@ -18,24 +18,24 @@ params:
         href: https://downloads.rakwireless.com/LoRa/RAK2245-96Boards/Hardware-Specification/RAK2245_96Boards-3D-File.zip 
 ---
 
-# RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module
+# RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module
 
 <rk-img
   :src="`${$frontmatter.static_root}/ylbgm3hgwwari6itxmii.png`"
   width="60%"
   figure-number="1"
-  caption="RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module"
+  caption="RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module"
 />
 
 ## Product Background
 
-The **RAK2245 Stamp Edition -LoRaWAN**® **Gateway Concentrator Module** is a complete and cost efficient LoRaWAN® Gateway Solution that will help you get started in developing a full LoRa® System. The module can be easily integrated into a system's main board, providing LoRaWAN® functionality.
+The **RAK2245 Stamp Edition - LPWAN**® **Gateway Concentrator Module** is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. The module can be easily integrated into a system's main board, providing LoRaWAN® functionality.
 
-This LoRaWAN® Concentrator supports eight channels and is available for all LoRaWAN® global frequency bands. This super compact module measures just 60mm x 30mm x 14.9mm. It comes with a built-in GPS chip and mounted heat-sink in order to improve thermal performance.
+This Concentrator supports eight channels and is available for all LoRaWAN® global frequency bands. This super compact module measures just 60mm x 30mm x 14.9mm. It comes with a built-in GPS chip and mounted heat-sink in order to improve thermal performance.
 
 <rk-btn
   src="quick-start-guide.html"
-  label="Set up Your RAK2245 Stamp Edition -LoRaWAN® Gateway Concentrator Module"
+  label="Set up Your RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module"
 />
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />

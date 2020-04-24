@@ -9,7 +9,7 @@ An easy and quick way to have a fully functional gateway is by using a Precompil
 ## Burn the Latest Firmware
 
 ::: tip 📝 NOTE:
- If your RAK7244 - LoRaWAN® Developer Gateway has the latest firmware image in the SD card, you can
+ If your RAK7244 - LPWAN Developer Gateway has the latest firmware image in the SD card, you can
 skip this section.
 :::
 

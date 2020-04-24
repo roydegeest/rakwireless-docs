@@ -26,7 +26,7 @@ The RAK7200 device provides three external interfaces, as shown in the following
 
 ### LEDs
 
-The  RAK7200 LoRa® Tracker provides three LEDs for indicating the operating status, here are their functions:
+The  RAK7200 LPWAN Tracker provides three LEDs for indicating the operating status, here are their functions:
 
 <rk-img
   src="/assets/images/datasheet/rak7200/leds.jpg"

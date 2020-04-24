@@ -5,12 +5,12 @@ next: hardware-interfacing
 
 # Interfacing your RAK811 LPWAN Evaluation Board with Arduino Boards
 
-In this document, a set of instruction is written in detail on how to interface your RAK811 LoRa® Evaluation Board with [Arduino](https://www.arduino.cc/), which is an open-source electronics platform based on easy-to-use hardware and software.
+In this document, a set of instruction is written in detail on how to interface your RAK811 LPWAN Evaluation Board with [Arduino](https://www.arduino.cc/), which is an open-source electronics platform based on easy-to-use hardware and software.
 
 ## Requirements:
 
 - **RAK811 LPWAN** **Evaluation Board** (v1.1 or v1.2)
-- LoRaWAN® Gateway in range for testing
+- Gateway in range for testing
 - Arduino Mega 2560
 - External USB-UART TTL Converter
 - Jumper wires
@@ -27,7 +27,7 @@ Uploaded in the RAKwireless official Github repository is the Arduino Library ne
   :src="`${$frontmatter.static_root}/vexsae4pqn4x4q4xjb3j.png`"
   width="100%"
   figure-number="1"
-  caption="RAK811 LoRa® Evaluation Board Arduino Library Repository"
+  caption="RAK811 LPWAN Evaluation Board Arduino Library Repository"
 />
 
 ### Adding the Arduino RAK811 Library to Arduino IDE

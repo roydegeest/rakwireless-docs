@@ -33,7 +33,7 @@ Thus, the **RAK7240 Outdoor LPWAN Gateway**, is suited for any use case scenario
 
 ###### Software
 
-* Built-in LoRa® Server **(up to 128 LoRa® nodes license included, higher tiers require a fee)**
+* Built-in LoRa® Server **(up to 128 nodes license included, higher tiers require a fee)**
 * OpenVPN
 * Software and UI sit on top of **OpenWRT**
 * LoRaWAN® 1.0.2

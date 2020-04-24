@@ -28,24 +28,24 @@ params:
         href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Hardware-Specification/RAK2247-3D-Model.rar
 ---
 
-# RAK2247 LoRaWAN® Gateway Concentrator Module
+# RAK2247 LPWAN Gateway Concentrator Module
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak2247_overview.jpg`"
   width="50%"
   figure-number="1"
-  caption="RAK2247 LoRaWAN® Gateway Concentrator Module"
+  caption="RAK2247 LPWAN Gateway Concentrator Module"
 />
 
 ## Product Background
 
-The **RAK2247 LoRaWAN® Gateway Concentrator Module** is a LoRa® Concentrator module with mini-PCIe form factor based on the SX1301. This enables easy integration into routers and other networking equipment, adding LoRaWAN® Gateway capabilities. The module can be used in any embedded platform offering a mini-PCIe slot with an SPI or USB connection.
+The **RAK2247 LPWAN Gateway Concentrator Module** is a LoRa® Concentrator module with mini-PCIe form factor based on the SX1301. This enables easy integration into routers and other networking equipment, adding Gateway capabilities. The module can be used in any embedded platform offering a mini-PCIe slot with an SPI or USB connection.
 
-Despite its small size, the device is an 8-channel concentrator module. By integrating it together with a computing core, a fully fledged LoRaWAN® Gateway solution can easily be created.
+Despite its small size, the device is an 8-channel concentrator module. By integrating it together with a computing core, a fully fledged Gateway solution can easily be created.
 
 <rk-btn
   src="quick-start-guide.html"
-  label="Set up Your RAK2247 LoRaWAN® Gateway Concentrator Module"
+  label="Set up Your RAK2247 LPWAN Gateway Concentrator Module"
 />
 
 &nbsp;

@@ -9,7 +9,7 @@ An easy and quick way to have a fully functional gateway is by using a Precompil
 ## Burn the Latest Firmware
 
 ::: tip 📝 NOTE:
- If your RAK7243 - LoRaWAN® Developer Gateway has the latest firmware image in the SD card, you can
+ If your RAK7243 - LPWAN Developer Gateway has the latest firmware image in the SD card, you can
 skip this section. 
 :::
 1. Download the latest firmware [here](https://downloads.rakwireless.com/en/LoRa/Pilot-Gateway-Pro-RAK7243/Firmware/RAK7243_Latest_Firmware.zip), which is based on the Raspbian OS.

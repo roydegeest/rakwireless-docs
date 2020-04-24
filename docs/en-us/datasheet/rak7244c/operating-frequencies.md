@@ -1,6 +1,6 @@
 ## IV. Operating Frequencies
 
-The LoRaWAN® Developer Gateway supports all LoRaWAN® frequency channels listed below. Now, it is easy to configure while building the firmware with the source code available.
+The LPWAN Developer Gateway supports all LoRaWAN® frequency channels listed below. Now, it is easy to configure while building the firmware with the source code available.
 
 | **Region**    | **Frequency (Mhz)** |
 | ------------- | ------------------- |

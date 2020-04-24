@@ -29,31 +29,31 @@ params:
 
 ---
 
-# RAK7243C LoRaWAN® Developer Gateway
+# RAK7243C LPWAN Developer Gateway
 
 <rk-img
   :src="`${$frontmatter.static_root}/1.pnebj6mub4bpzc83ehzw.jpg`"
   width="100%"
   figure-number="1"
-  caption="RAK7243C LoRaWAN® Developer Gateway"
+  caption="RAK7243C LPWAN Developer Gateway"
 />
 
 ## Product Background
 
-The **RAK7243C LoRaWAN**® **Developer Gateway** is a complete and cost efficient LoRaWAN® Gateway Solution that will help you get started in developing a full LoRa System. It is built with the RAK2245 Pi Hat stacked with the Raspberry Pi 3B+ along with the GPS module and Heat Sink, increasing its performance and thermal dissipation, plus a RAK2013 Cellular Pi HAT for cellular connectivity. The housing for the device is durable and entirely built from aluminum.
+The **RAK7243C LPWAN** **Developer Gateway** is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa System. It is built with the RAK2245 Pi Hat stacked with the Raspberry Pi 3B+ along with the GPS module and Heat Sink, increasing its performance and thermal dissipation, plus a RAK2013 Cellular Pi HAT for cellular connectivity. The housing for the device is durable and entirely built from aluminum.
 
-The RAK7243C LoRaWAN® Developer Gateway is ideal for prototyping, proof-of concept evaluation and demonstration. It includes everything you need to help you get started in building your own LoRaWAN® Network in just a couple of minutes. It provides great value and flexible functionality for a variety of applications: Smart Grids, Intelligent Farming and other IoT applications.
+The RAK7243C LPWAN Developer Gateway is ideal for prototyping, proof-of concept evaluation and demonstration. It includes everything you need to help you get started in building your own LoRaWAN® Network in just a couple of minutes. It provides great value and flexible functionality for a variety of applications: Smart Grids, Intelligent Farming and other IoT applications.
 
 <rk-btn
   src="quick-start-guide.html"
-  label="Set up Your RAK7243C LoRaWAN® Developer Gateway"
+  label="Set up Your RAK7243C LPWAN Developer Gateway"
 />
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />
 
 ## Product Features
 
-- Pre-assembled, fully functioning LoRaWAN® Gateway
+- Pre-assembled, fully functioning Gateway
 - SX1301 base band processor, emulates 49 x LoRa® demodulators 10 programmable parallel demodulation paths, support 8 uplinks channel, 1 downlink channel.
 - Support optional Cellular module (Quectel BG96 or EG95) for NB-IOT / LTE CAT-M1 / LTE CAT1 / LTE CAT4.
 - Built-in the Ublox MAX-7Q GPS Module.
@@ -63,5 +63,5 @@ The RAK7243C LoRaWAN® Developer Gateway is ideal for prototyping, proof-of conc
 - Includes Pi ready 'ID EEPROM', GPIO setup and device tree can be automatically configured from vendor information.
 
 ::: warning
- The RAK7243C LoRaWAN® Developer Gateway is different from RAK7243 LoRaWAN® Developer Gateway . The RAK7243C LoRaWAN® Developer Gateway is the Cellular Version and it comes with the Cellular Pi Hat.
+ The RAK7243C LPWAN Developer Gateway is different from RAK7243 LPWAN Developer Gateway . The RAK7243C LPWAN Developer Gateway is the Cellular Version and it comes with the Cellular Pi Hat.
 :::

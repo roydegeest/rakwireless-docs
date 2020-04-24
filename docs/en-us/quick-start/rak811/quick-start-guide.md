@@ -17,7 +17,7 @@ Before going through each and every step in the installation guide of the RAK811
 
 1. **RAK811 LPWAN Evaluation Board**
 2. Micro- USB cable
-3. LoRaWAN® Gateway in Range for Testing
+3. Gateway in Range for Testing
 4. A Windows/Mac OS/Linux Computer
 
 <rk-btn

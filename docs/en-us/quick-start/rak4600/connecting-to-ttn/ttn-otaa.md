@@ -1,6 +1,5 @@
 ---
 static_root: /assets/images/quick-start-guide/rak4200/4.connecting-to-ttn/ttn-otaa
-next: ttn-abp
 ---
 
 # OTAA Mode
@@ -96,7 +95,7 @@ at+join
   :src="`${$frontmatter.static_root}/mgztynrigiozealhlv6t.jpg`"
   width="60%"
   figure-number="8"
-  caption=" AT Command for OTAA LoRa®  Join via RAK Serial Port Tool"
+  caption=" AT Command for OTAA LoRa® Join via RAK Serial Port Tool"
 />
 
 8. Joined successfully! Now, let’s try to send a data from the  RAK4600 LPWAN Evaluation Board to TTN:

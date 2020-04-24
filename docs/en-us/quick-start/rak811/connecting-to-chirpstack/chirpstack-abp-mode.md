@@ -30,7 +30,7 @@ static_root: /assets/images/quick-start-guide/rak811/chirpstack-abp-mode
   :src="`${$frontmatter.static_root}/dkulqzpldm5nlpsjhbyz.jpg`"
   width="100%"
   figure-number="3"
-  caption="Setting of LoRaWAN Mode and Class"
+  caption="Setting of LoRaWAN® Mode and Class"
 />
 
 5. Type the following AT command to set your respective: **Frequency/Region**, **Device Address**, **Network Session Key** and **App Session Key**.

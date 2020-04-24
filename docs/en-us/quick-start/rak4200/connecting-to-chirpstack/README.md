@@ -7,7 +7,7 @@ next: chirpstack-otaa
 The **ChirpStack** or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [**here**](https://www.chirpstack.io/).
 
 :::tip 📝 NOTE
-In this document, it is  assumed that you are using RAK LoRa® gateway and its built-in ChirpStack or RAK cloud testing ChirpStack. It is also assumed that a Gateway with the ChirpStack has been configured successfully. If not, please have a look at RAK's documents for more details about RAK LPWAN Gateway and [**RAK cloud testing**](https://forum.rakwireless.com/t/rak-free-cloud-loraserver-for-testing/344).
+In this document, it is  assumed that you are using RAK Gateway and its built-in ChirpStack or RAK cloud testing ChirpStack. It is also assumed that a Gateway with the ChirpStack has been configured successfully. If not, please have a look at RAK's documents for more details about RAK LPWAN Gateway and [**RAK cloud testing**](https://forum.rakwireless.com/t/rak-free-cloud-loraserver-for-testing/344).
 :::
 
 1. Open the web page of the ChirpStack which you want to connect with and login.
@@ -46,19 +46,19 @@ By default, there is already one or more items in this page, you can use it or c
   caption=" Applications Page in Chirpstack"
 />
 
-5. Add a LoRa® node device into ChirpStack by clicking the “**CREATE**” button:
+5. Add a node device into ChirpStack by clicking the “**CREATE**” button:
 <rk-img
   :src="`${$frontmatter.static_root}/sdrlazcgfseimitslo6u.png`"
   width="100%"
   figure-number="5"
-  caption="Chirpstack Adding LoRa® Node into the  RAK4200 LPWAN Evaluation Board "
+  caption="Chirpstack Adding Node into the  RAK4200 LPWAN Evaluation Board "
 />
 
-6. Once the LoRa® node is created, fill-in  the necessary data. You can generate a Device EUI automatically by clicking the following icon, or you can write a correct Device EUI in the edit box.
+6. Once the node is created, fill-in  the necessary data. You can generate a Device EUI automatically by clicking the following icon, or you can write a correct Device EUI in the edit box.
 <rk-img
   :src="`${$frontmatter.static_root}/bx0hvot72klwrnznnbig.png`"
   width="100%"
   figure-number="6"
-  caption="Chirpstack Adding Parameters in the LoRa® Node"
+  caption="Chirpstack Adding Parameters in the Node"
 />
 

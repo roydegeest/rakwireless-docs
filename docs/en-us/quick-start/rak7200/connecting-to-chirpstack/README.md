@@ -10,7 +10,7 @@ The ChirpStack or previously known as LoRaServer project provides open-source co
 You can use RAK7200 LPWAN Tracker to connect with ChirpStack by following this steps:
 
 ::: tip 📝 NOTE
-In this section, it is an assumed that you have already connected your LoRa® Gateway with TTN correctly. If not, please have a look at the document of RAK LoRa® Gateway.
+In this section, it is an assumed that you have already connected your Gateway with TTN correctly. If not, please have a look at the document of RAK Gateway.
 :::
 
 OK! Let’s get started!
@@ -51,13 +51,13 @@ OK! Let’s get started!
   caption="RAK7200 Application"
 />
 
-5. **Add** a LoRa® node device into ChirpStack by clicking the “**CREATE**” button:
+5. **Add** a Node device into ChirpStack by clicking the “**CREATE**” button:
 
 <rk-img
   :src="`${$frontmatter.static_root}/znvzmk7sz4vrhgqmfx4x.png`"
   width="100%"
   figure-number="5"
-  caption="Adding a LoRa® Node Device"
+  caption="Adding a Node Device"
 />
 
 <rk-img

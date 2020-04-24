@@ -17,7 +17,7 @@ Before going through each and every step in the installation guide of the RAK520
 
 1. **RAK5205 WisTrio LPWAN Tracker**
 2. Micro USB Cable
-3. LoRaWAN® Gateway in Range for Testing
+3. Gateway in Range for Testing
 4. Windows PC
 
 <rk-btn

@@ -24,7 +24,7 @@ params:
         href: https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/
    
 ---
-# RAK2245 Pi Hat Edition - LoRaWAN® Gateway Concentrator Module
+# RAK2245 Pi Hat Edition - LPWAN Gateway Concentrator Module
 
 <rk-img
   :src="`${$frontmatter.static_root}/wwj49yp9jeqcmrynbtjz.jpg`"
@@ -35,13 +35,13 @@ params:
 
 ## Product Background
 
-The **RAK2245 Raspberry Pi Hat** is a complete and cost efficient LoRaWAN® Gateway Solution that will help you get started in developing a full LoRa® System. It can be easily stacked on top of a cheap Single Board Computer (SBC) such as the Raspberry Pi 3B+.
+The **RAK2245 Raspberry Pi Hat** is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. It can be easily stacked on top of a cheap Single Board Computer (SBC) such as the Raspberry Pi 3B+.
 
-This LoRaWAN® Gateway Pi HAT supports eight channels and is available for all LoRaWAN® global frequency bands. The board is equipped and powered by a Semtech SX1301 Baseband chip and can provide low data rate LoRa® Radio Links over large distances.
+This LPWAN Gateway Pi HAT supports eight channels and is available for all LoRaWAN® global frequency bands. The board is equipped and powered by a Semtech SX1301 Baseband chip and can provide low data rate LoRa® Radio Links over large distances.
 
 <rk-btn
   src="quick-start-guide.html"
-  label="Set up Your RAK2245 Pi Hat Edition - LoRaWAN® Gateway Concentrator Module"
+  label="Set up Your RAK2245 Pi Hat Edition - LPWAN Gateway Concentrator Module"
 />
 
 &nbsp;

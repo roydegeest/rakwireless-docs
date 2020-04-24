@@ -4,7 +4,7 @@ next: connecting-to-ttn/
 
 # Configuring the RAK7200 LPWAN Tracker using AT Commands
 
-You can configure your LoRa® Tracker by sending AT Commands via a Serial port tool running on your PC. The following list shows the AT Commands that you can use:
+You can configure your LPWAN Tracker by sending AT Commands via a Serial port tool running on your PC. The following list shows the AT Commands that you can use:
 
 | **AT Command**                               | **Description**                                                                                                                                                                                                                                                                             |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

@@ -10,7 +10,7 @@ When programming via a JLINK tool, it is required to have all of the following 5
 4. **GND**
 5. **MCU_NRST**
 
-:::tip 📝 NOTE
+:::tip Note:
 :pencil: For the aforementioned reason, it is best you leave these exposed for programming purposes and not to remap them as GPIOs.
 :::
 
@@ -36,7 +36,7 @@ J3 is soldered to the antenna connector. Depending on your choice, it can come w
 
 The SPI interface (**_SPIMOSI, SPI MISO, SPI_CLK_**) is connected to **SX1276** internally. 
 
-:::tip 📝 NOTE
+:::tip Note:
 :pencil: For the aforementioned reason, it is best you leave unconnected.
 :::
 

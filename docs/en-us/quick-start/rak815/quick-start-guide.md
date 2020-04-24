@@ -12,7 +12,7 @@
 1. **RAK815 Hybrid Location Tracker**
 2. Emulator Kit w/ Debugging Tool
 3. Micro - USB Cable
-4. LPWAN Gateway in Range for Testing
+4. Gateway in Range for Testing
 5. Raspberry Pi
 6. A Windows/Mac OS/Linux Computer
 7. Android phone/ Iphone

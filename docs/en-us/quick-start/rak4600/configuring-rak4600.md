@@ -1,6 +1,5 @@
 ---
 static_root: /assets/images/quick-start-guide/RAK4600/5.configuring-rak4600
-next: /en-us/quick-start/rak4600/connecting-to-ttn/
 ---
 # Configuring RAK4600
 

@@ -11,7 +11,7 @@ The concentrator is available with an SPI interface:
   caption="RAK2246 Bottom View"
 />
 
-###### SX1308
+#### SX1308
 
 The RAK2246 includes Semtech’s SX1308, which is a digital baseband chip including a massive digital signal processing engine specifically designed to offer breakthrough gateway capabilities in the worldwide ISM band.
 
@@ -24,7 +24,7 @@ The control of the SX1308 by the host system (PC, MCU) is made using a Hardware 
 It is highly
 recommended to utilize the latest HAL as provided by Semtech on [https://github.com/Lora-net](https://github.com/Lora-net)
 
-###### Block Diagram
+#### Block Diagram
 
 <rk-img
   src="/assets/images/datasheet/rak7246g/interfaces/lwlwm5p9t7vg7oshxox0.jpg"
@@ -35,15 +35,15 @@ recommended to utilize the latest HAL as provided by Semtech on [https://github.
 
 The SX1308 digital baseband chip contains 10 programmable reception paths. Those paths have differentiated levels of programmability and allow for different use cases. It is important to understand the differences between those demodulation paths to make the best possible use of the system.
 
-###### IF8 LoRa channel
+#### IF8 LoRa channel
 
 This channel is connected to one SX1257 using any arbitrary intermediate frequency within the allowed range. This channel is LoRa only. The demodulation bandwidth can be configured to be 125, 250 or 500 kHz. The data rate can be configured to any of the LoRa available data rates (SF7 to SF12), but as opposed to the IF0 to IF7 channels, only the configured data rate will be demodulated. This channel is intended to serve as a high speed backhaul link to other gateways or infrastructure equipment. This demodulation path is compatible with the signal transmitted by the SX1272 and SX1276 chip family.
 
-###### IF9 (G)FSK channel
+#### IF9 (G)FSK channel
 
 The IF9 channel is connected to a (G)FSK demodulator. The channel bandwidth and bit rate can be adjusted. This demodulator offers a very high level of configurability, going well beyond the scope of this document. The demodulator characteristics are essentially the same as the (G)FSK demodulator implemented in the SX1232 and SX1272 Semtech chips. This demodulation path can demodulate any legacy FSK or GFSK formatted signal.
 
-###### IF0 to IF7 LoRa channels
+#### IF0 to IF7 LoRa channels
 
 These channels are connected to one SX1257. The channel bandwidth is 125 kHz and cannot be modified or configured. Each channel’s IF frequency can be individually configured. On each of these channels any data rate can be received without prior configuration.
 
@@ -68,7 +68,7 @@ The unique multi data-rate multi-channel demodulation capacity SF7 to SF12 and o
 
 ### External Module Interfaces
 
-###### SPI
+#### SPI
 
 The PINs on the connector provide an SPI connection, which allows direct access to the SX1308 SPI interface. This gives the target system the possibility to use existing SPI interfaces to communicate.
 
@@ -76,10 +76,10 @@ The PINs on the connector provide an SPI connection, which allows direct access 
 After powering up RAK2246, it is required to reset SX1308 via PIN 11.
 :::
 
-###### UART and I2C
+#### UART and I2C
 
 The PINs on the bottom side provide an UART connection and I2C connection, which allows direct access to the GPS module. The 1PPS has been connected to the SX1308 internally.
 
-###### Digital IOs
+#### Digital IOs
 
 There are two digital IO PINs, which give the user an interface to reset the GPS module or set it into standby mode.

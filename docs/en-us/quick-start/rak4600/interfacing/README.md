@@ -1,7 +1,4 @@
----
-next: checking-device-logs
----
-### Interfacing with Evaluation Board
+# Interfacing with Evaluation Board
 
 In order for you to be able to interface with the Evaluation Board, using a Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
 
@@ -13,7 +10,7 @@ Before powering the RAK4600 LPWAN Evaluation Board , you should install the LoRa
   src="/assets/images/quick-start-guide/rak4600/3.interfacing/u9lgszijijydbyjkgwnx.png"
   width="50%"
   figure-number="1"
-  caption="LoRa and BLE Antennas"
+  caption="LoRa® and BLE Antennas"
 />
 
 - Connect your RAK4600 LPWAN Evaluation Board to your Windows Machine using the provided Micro USB cable.

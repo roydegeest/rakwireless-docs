@@ -28,22 +28,22 @@ params:
         href: https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/
 ---
 
-# RAK7243 LoRaWAN® Developer Gateway
+# RAK7243 LPWAN Developer Gateway
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak7243_overview.jpg`"
   width="75%"
   figure-number="1"
-  caption="RAK7243 LoRaWAN® Developer Gateway"
+  caption="RAK7243 LPWAN Developer Gateway"
 />
 
 ## Product Background
 
-The **RAK7243 LoRaWAN® Developer Gateway** is a complete and cost efficient LoRaWAN® Gateway Solution that will help you get started in developing a full LoRa® System. The RAK7243 LoRaWAN® Developer Gateway is just a RAK2245 Pi Hat which can be easily stacked on top of a cheap Single Board Computer (SBC) such as the **Raspberry Pi 3B+** which is enclosed in a Pilot Gateway Casing. You can also use its sister model [RAK7243C LoRaWAN® Developer Gateway](https://store.rakwireless.com/products/rak7243c-pilot-gateway) if you want to have Cellular functions added into it.
+The **RAK7243 LPWAN Developer Gateway** is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. The RAK7243 LPWAN Developer Gateway is just a RAK2245 Pi Hat which can be easily stacked on top of a cheap Single Board Computer (SBC) such as the **Raspberry Pi 3B+** which is enclosed in a Pilot Gateway Casing. You can also use its sister model [RAK7243C LPWAN Developer Gateway](https://store.rakwireless.com/products/rak7243c-pilot-gateway) if you want to have Cellular functions added into it.
 
 <rk-btn
-  src="quick-start-guide.html"
-  label="Set up Your RAK7243 LoRaWAN® Developer Gateway"
+  src="quick-start-guide"
+  label="Set up Your RAK7243 LPWAN Developer Gateway"
 />
 
 &nbsp;

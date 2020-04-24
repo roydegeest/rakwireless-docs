@@ -23,7 +23,7 @@ static_root: /assets/images/quick-start-guide/rak2245/1.product-overview/2.quick
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak2245-pi-hat/"
-  label="Buy a RAK2245 Raspberry Pi Hat LoRaWAN® Gateway Concentrator Module"
+  label="Buy a RAK2245 Raspberry Pi Hat LPWAN Gateway Concentrator Module"
   _blank
 />
 

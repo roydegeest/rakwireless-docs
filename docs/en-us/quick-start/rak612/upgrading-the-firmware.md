@@ -68,8 +68,8 @@ Please use the the latest firmware for the RAK612 LPWAN Button in order to avoid
 * **Sending** - this is where you input your AT Command.
 * **Command** - this is where you save all of your AT Commands for quick reuse. This is very useful in the [Configuring the RAK612 LPWAN Button](configuring-the-rak612.html) section.
 
-2. Choose the appropriate COM Port and Baud Rate for your LoRa® Button then Click the **Open** button to open the serial port.
-3. Hold any key of the LoRa® Button for more than 5 seconds and then you will be able to see the following information:
+2. Choose the appropriate COM Port and Baud Rate for your RAK612 LPWAN Button then click the **Open** button to open the serial port.
+3. Hold any key of the RAK612 LPWAN Button for more than 5 seconds and then you will be able to see the following information:
 
 <rk-img
   src="/assets/images/quick-start-guide/rak612/firmware-upgrade/lpwan-upgrade-success.jpg"

@@ -19,7 +19,7 @@ The RAK2013 is a Raspberry Pi 3B+ edition cellular communications module that su
 
 The module is supported with extendable sensor board connected that follows the mikroBus standard. MikroBus has many kinds of sensor board, such as temperature, humidity, 3 axis sensor and light sensor, allowing easy sensor data transmission. Because of its wide range of supported sensors, it is suitable for applications such as environmental monitoring and presence sensing, that require cellular connectivity.
 
-The RAK2013 is compatible with RAK2245 Pi Hat Concentrator module via the onboard 40 pin header. It can function as a cellular backhaul to LoRaWAN gateway, providing an even greater flexibility for IoT solutions that require cellular as an option for ensuring service reliability.
+The RAK2013 is compatible with RAK2245 Pi Hat Concentrator module via the onboard 40 pin header. It can function as a cellular backhaul to gateway, providing an even greater flexibility for IoT solutions that require cellular as an option for ensuring service reliability.
 
 ### Product Features
 
@@ -29,7 +29,7 @@ The RAK2013 is compatible with RAK2245 Pi Hat Concentrator module via the onboar
 * Supports Nano SIM card or eSIM card.
 * Integrates audio codec and audio amplifier.
 * Integrates MikroBus interface to support sensor extended board.
-* Can be added to another Pi HAT to support LoRa concentrator.
+* Can be added to another Pi HAT to support LoRa® concentrator.
 * Supports USB connector for higher data rate.
 * Supports GPS function(only for BG96 module) .
 * SMA/IPEX antenna optional for LTE and GPS.
