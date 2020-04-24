@@ -11,7 +11,7 @@ The Low radio frequency is applicable to bandwidth of regions EU433 and CN470.
 <rk-img
   src="/assets/images/datasheet/rak811/pin-definition/abscqo1rdux6ao13hdvu.jpg"
   width="100%"
-  figure-number="1"
+  figure-number="3"
   caption="Board Pinout for RAK811 Low RF"
 />
 
@@ -63,7 +63,7 @@ High radio frequency hardware support the regions of EU868, US915, AU915, KR920,
 <rk-img
   src="/assets/images/datasheet/rak811/pin-definition/ajjxkmp1ydxopp6naaoc.jpg"
   width="100%"
-  figure-number="2"
+  figure-number="4"
   caption="Board Pinout for RAK811 High RF"
 />
 

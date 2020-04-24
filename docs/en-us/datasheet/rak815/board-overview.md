@@ -5,7 +5,7 @@
 <rk-img
   src="/assets/images/datasheet/rak815/rak815-breakout-board-dimensions.jpg"
   width="75%"
-  figure-number="1"
+  figure-number="2"
   caption="RAK815 Breakout Board Dimensions"
 />
 

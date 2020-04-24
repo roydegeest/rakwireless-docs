@@ -3,7 +3,7 @@
 <rk-img
   src="/assets/images/datasheet/rak815/rak815-interface.png"
   width="100%"
-  figure-number="1"
+  figure-number="4"
   caption="RAK815 Interface"
 />
 
@@ -16,7 +16,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 <rk-img
   src="/assets/images/datasheet/rak815/rak815-swd-debug-interface.jpg"
   width="40%"
-  figure-number="2"
+  figure-number="5"
   caption="RAK815 SWD Debug Interface"
 />
 
@@ -34,7 +34,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 <rk-img
   src="/assets/images/datasheet/rak815/rak815-uart-switch-interface.jpg"
   width="65%"
-  figure-number="3"
+  figure-number="6"
   caption="RAK815 UART Switch Interface"
 />
 
@@ -53,7 +53,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 <rk-img
   src="/assets/images/datasheet/rak815/rak815-gps-module-expansion.jpg"
   width="40%"
-  figure-number="4"
+  figure-number="7"
   caption="RAK815 GPS Module Expansion"
 />
 
@@ -71,7 +71,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 <rk-img
   src="/assets/images/datasheet/rak815/rak815-reserved-i2c-interface.jpg"
   width="65%"
-  figure-number="5"
+  figure-number="8"
   caption="RAK815 Reserved I2C Interface"
 />
 
@@ -87,7 +87,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 <rk-img
   src="/assets/images/datasheet/rak815/rak815-p1-and-p3-pinout.jpg"
   width="75%"
-  figure-number="6"
+  figure-number="9"
   caption="RAK815 P1 and P3 Pinout"
 />
 

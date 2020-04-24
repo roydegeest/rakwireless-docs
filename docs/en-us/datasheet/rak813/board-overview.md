@@ -5,6 +5,6 @@
 <rk-img
   src="/assets/images/datasheet/rak813/board-overview/RAK813_Board_Dimension.jpg"
   width="60%"
-  figure-number="1"
+  figure-number="2"
   caption="RAK813 Board Dimensions"
 />

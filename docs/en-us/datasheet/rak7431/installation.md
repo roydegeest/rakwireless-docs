@@ -5,7 +5,7 @@ RAK7431 allows for three installation methods: wall mounting, DIN rail installat
 <rk-img
   src="/assets/images/datasheet/rak7431/mounting.jpg"
   width="100%"
-  figure-number="1"
+  figure-number="7"
   caption="Different Types of Mounting"
 />
 

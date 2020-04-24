@@ -20,7 +20,7 @@ Shown in the table provided below is the power consumption of the RAK4260 WisDuo
 <rk-img
   src="/assets/images/datasheet/rak4260/output-power-20db.jpg"
   width="100%"
-  figure-number="1"
+  figure-number="5"
   caption="OUTPUT POWER 20dB(MAX)"
 />
 
@@ -29,7 +29,7 @@ Shown in the table provided below is the power consumption of the RAK4260 WisDuo
 <rk-img
   src="/assets/images/datasheet/rak4260/output-power-17db.jpg"
   width="100%"
-  figure-number="2"
+  figure-number="6"
   caption="OUTPUT POWER 17dB"
 />
 
@@ -38,7 +38,7 @@ Shown in the table provided below is the power consumption of the RAK4260 WisDuo
 <rk-img
   src="/assets/images/datasheet/rak4260/output-power-14db.jpg"
   width="100%"
-  figure-number="3"
+  figure-number="7"
   caption="OUTPUT POWER 14dB"
 />
 
@@ -47,7 +47,7 @@ Shown in the table provided below is the power consumption of the RAK4260 WisDuo
 <rk-img
   src="/assets/images/datasheet/rak4260/receive-mode.jpg"
   width="100%"
-  figure-number="4"
+  figure-number="8"
   caption="Receive Mode"
 />
 
@@ -56,7 +56,7 @@ Shown in the table provided below is the power consumption of the RAK4260 WisDuo
 <rk-img
   src="/assets/images/datasheet/rak4260/sleep-mode.jpg"
   width="100%"
-  figure-number="5"
+  figure-number="9"
   caption="Sleep Mode"
 />
 
@@ -79,7 +79,7 @@ The following chart shows the receiving sensitivity of RAK4260 at 868 Mhz.
 <rk-img
   src="/assets/images/datasheet/rak4260/sensitivity-level-sf7.jpg"
   width="100%"
-  figure-number="6"
+  figure-number="10"
   caption="Sensitivity Level (SF7)"
 />
 
@@ -97,6 +97,6 @@ The following chart shows the receiving sensitivity of RAK4260 at 868 Mhz.
 <rk-img
   src="/assets/images/datasheet/rak4260/sensitivity-level-sf12.jpg"
   width="100%"
-  figure-number="7"
+  figure-number="11"
   caption="Sensitivity Level (SF12)"
 />

@@ -7,7 +7,7 @@ An example would be using the RAK7249 Macro Outdoor Gateway coupled with the RAK
 <rk-img
   src="/assets/images/datasheet/rak7431/rs485-structure.jpg"
   width="75%"
-  figure-number="1"
+  figure-number="2"
   caption="RAK7431 - RS485 to LoRaWAN® network structure"
 />
 
@@ -18,7 +18,7 @@ RAK7431 can work in polling mode in order to send query instructions to RS485 no
 <rk-img
   src="/assets/images/datasheet/rak7431/rak7431-polling-mode.jpg"
   width="75%"
-  figure-number="2"
+  figure-number="3"
   caption="RAK7431 polling mode"
 />
 
@@ -35,7 +35,7 @@ No matter whether polling mode is enabled or not, the server can actively send c
 <rk-img
   src="/assets/images/datasheet/rak7431/rak7431-transparent-mode.jpg"
   width="75%"
-  figure-number="3"
+  figure-number="4"
   caption="RAK7431 transparent mode"
 />
 

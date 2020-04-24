@@ -3,7 +3,7 @@
 <rk-img
   src="/assets/images/datasheet/rak7431/rak7431-bottom.jpg"
   width="75%"
-  figure-number="1"
+  figure-number="5"
   caption="RAK7431 bottom panel"
 />
 
@@ -33,7 +33,7 @@ Also, the Vout output voltage is the same as DC input voltage Vin.
 <rk-img
   src="/assets/images/datasheet/rak7431/rak7431-modbus.jpg"
   width="75%"
-  figure-number="2"
+  figure-number="6"
   caption="RAK7431 ModBus connection diagram"
 />
 

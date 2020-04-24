@@ -5,7 +5,7 @@ The figure below shows the pinout of the RAK4200 Breakout Module:
 <rk-img
   src="/assets/images/datasheet/rak4200-breakout-module/rak4200-breakout-board-pinout.png"
   width="75%"
-  figure-number="1"
+  figure-number="3"
   caption="RAK4200 Breakout Module Pinout"
 />
 

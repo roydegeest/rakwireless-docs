@@ -7,7 +7,7 @@ The block diagram below shows the internal architecture and external interfaces 
 <rk-img
   src="/assets/images/datasheet/rak7200/block_diagram.png"
   width="100%"
-  figure-number="1"
+  figure-number="4"
   caption="RAK7200 LPWAN Tracker Block Diagram"
 />
 
@@ -16,7 +16,7 @@ The RAK7200 device provides three external interfaces, as shown in the following
 <rk-img
   src="/assets/images/datasheet/rak7200/rak7200-interfaces.jpg"
   width="50%"
-  figure-number="2"
+  figure-number="5"
   caption="RAK7200 LPWAN Tracker Interfaces"
 />
 
@@ -31,7 +31,7 @@ The  RAK7200 LPWAN Tracker provides three LEDs for indicating the operating stat
 <rk-img
   src="/assets/images/datasheet/rak7200/leds.jpg"
   width="50%"
-  figure-number="3"
+  figure-number="6"
   caption="RAK7200 LPWAN Tracker LEDs"
 />
 
