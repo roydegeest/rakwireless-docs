@@ -808,10 +808,10 @@
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha512-shAmDyaQC4H92APFoIaVDHCx5bStIocgvbwQyxPRrbUY20V1EYTbSDchWbuwlMG3V17cprZhA6+78JfB+3DTPw==
 
-"@quasar/extras@1.6.4":
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.6.4.tgz#eb97a5f543e17db38a12fe6e9fd5285ff28fffb8"
-  integrity sha512-OfVlzQhrIo4XImyVARvje85bf8D/OOYprUYjRNypEED5v64xt4nrT0lsh2wivleh7hwE9x22jQCB3o4GMLWkvg==
+"@quasar/extras@1.3.2":
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/@quasar/extras/-/extras-1.3.2.tgz#d50f34fec235b79d4e570dc7f8b36209b0a9ada1"
+  integrity sha512-EGBvl4By7Cv/WFGD4dc2FX+iLA+GX7YOnDj8AH92Df4pSMDKxP3TdvpXRnKs3V6bfHKyafc3VklVdf30hT5EoA==
 
 "@shigma/stringify-object@^3.3.0":
   version "3.3.0"
@@ -5513,10 +5513,10 @@ node-releases@^1.1.52:
   dependencies:
     semver "^6.3.0"
 
-node-sass@^4.13.1:
-  version "4.13.1"
-  resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.13.1.tgz#9db5689696bb2eec2c32b98bfea4c7a2e992d0a3"
-  integrity sha512-TTWFx+ZhyDx1Biiez2nB0L3YrCZ/8oHagaDalbuBSlqXgUPsdkUSzJsVxeDO9LtPB49+Fh3WQl3slABo6AotNw==
+node-sass@^4.14.0:
+  version "4.14.0"
+  resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.14.0.tgz#a8e9d7720f8e15b4a1072719dcf04006f5648eeb"
+  integrity sha512-AxqU+DFpk0lEz95sI6jO0hU0Rwyw7BXVEv6o9OItoXLyeygPeaSpiV4rwQb10JiTghHaa0gZeD21sz+OsQluaw==
   dependencies:
     async-foreach "^0.1.3"
     chalk "^1.1.1"
@@ -6587,10 +6587,10 @@ qs@~6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-quasar@1.9.15:
-  version "1.9.15"
-  resolved "https://registry.yarnpkg.com/quasar/-/quasar-1.9.15.tgz#a8ba1f78b943402fc60e08a1600e263b28636138"
-  integrity sha512-1StU62FSiZtPd0jrbQZoTBRzZ+dQZXhmTxx0DXfm4OKmsn9628VIN32jBBSPsPnuHa+rvTlqzMYo/I5oPoUcxw==
+quasar@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/quasar/-/quasar-1.2.2.tgz#9a64bb35814833c36a2585b86c5b84d862064510"
+  integrity sha512-aBeFvd/UGQfEdZM5Kd2z3qV/LXfetWL3gOJL6wnLdqhjFkOvaecc8r9HV6EKPt/pFiL1rlpwTOkQ2ARNTuYJJw==
 
 query-string@^5.0.1:
   version "5.1.1"
