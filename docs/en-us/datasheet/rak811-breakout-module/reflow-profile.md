@@ -8,6 +8,6 @@ Referred to IPC/JEDEC standard:
 <rk-img
   src="/assets/images/datasheet/rak811-breakout-module/reflow-profile-for-rak811.jpg"
   width="75%"
-  figure-number="1"
+  figure-number="9"
   caption="Reflow Profile for RAK811"
 />

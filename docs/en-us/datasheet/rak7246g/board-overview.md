@@ -5,7 +5,7 @@
 <rk-img
   src="/assets/images/datasheet/rak7246g/board-overview/dqtuzznrpsuevoizzgvc.png"
   width="100%"
-  figure-number="1"
+  figure-number="2"
   caption="uFL Connectors for LoRa and GPS"
 />
 
@@ -14,7 +14,7 @@ The Interfaces of the RAK7246G are as shown in Figure 2. The TF card slot is use
 <rk-img
   src="/assets/images/datasheet/rak7246g/board-overview/bxaaih8ljc2dkbdjoxva.png"
   width="100%"
-  figure-number="2"
+  figure-number="3"
   caption="Hardware Interfaces"
 />
 
@@ -25,6 +25,6 @@ Both the RAK2246 and Raspberry Pi have the same board dimensions: **30 x 65 mm**
 <rk-img
   src="/assets/images/datasheet/rak7246g/board-overview/ifljf8dbokouw7ppnudi.jpg"
   width="80%"
-  figure-number="3"
+  figure-number="4"
   caption="Casing Dimension"
 />

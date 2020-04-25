@@ -3,7 +3,7 @@
 <rk-img
   src="/assets/images/datasheet/rak2245-stamp/board-overview/roohsofgitzlzhbea2vz.jpg"
   width="60%"
-  figure-number="1"
+  figure-number="2"
   caption="RAK2245 Stamp Edition Board Dimension"
 />
 

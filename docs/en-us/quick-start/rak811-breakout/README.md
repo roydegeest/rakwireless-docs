@@ -19,7 +19,7 @@ params:
       - name: 3D Model
         href: https://downloads.rakwireless.com/LoRa/RAK811-BreakoutBoard/Hardware_Specification/RAK811_BreakoutBoard-3D-File.zip
       - name: Downloads
-      - href: https://downloads.rakwireless.com/LoRa/RAK811-BreakoutBoard/
+        href: https://downloads.rakwireless.com/LoRa/RAK811-BreakoutBoard/
 ---
 
 # RAK811 LPWAN Breakout Module

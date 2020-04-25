@@ -3,7 +3,7 @@
 <rk-img
   src="/assets/images/datasheet/rak7249/circuit-board-interface.png"
   width="100%"
-  figure-number="1"
+  figure-number="6"
   caption="Circuit Board Interface"
 />
 

@@ -6,6 +6,6 @@ The image below shows the minimum application schematic of RAK833 LPWAN Gateway 
 <rk-img
   src="/assets/images/datasheet/rak833/reference-minimum-schematic.png"
   width="100%"
-  figure-number="1"
+  figure-number="15"
   caption="Reference Minimum Schematic"
 />

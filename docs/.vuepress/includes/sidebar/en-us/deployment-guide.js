@@ -4,12 +4,12 @@
       {
         title: 'Build-in LoRa Network Server Configuration',
         path: '',
-        collapsable: true,
+        collapsable: false,
         sidebarDepth: 2,
         children: [
             {
                 title: "Getting Started",
-                nested: true,
+                nested: false,
                 // collapsable: false,
                 path: '/en-us/deployment-guide/build-in-lora-server/',
                 children: [
@@ -22,12 +22,12 @@
      {
         title: 'Multi-RAK Gateway Mesh',
         path: '',
-        collapsable: true,
+        collapsable: false,
         sidebarDepth: 2,
         children: [
             {
                 title: "Getting Started",
-                nested: true,
+                nested: false,
                 // collapsable: false,
                 path: '/en-us/deployment-guide/multi-rak-gateway-mesh/',
                 children: [
@@ -43,12 +43,12 @@
      {
         title: 'Amazon Web Service',
         path: '',
-        collapsable: true,
+        collapsable: false,
         sidebarDepth: 2,
         children: [
             {
                 title: "Getting Started",
-                nested: true,
+                nested: false,
                 // collapsable: false,
                 path: '/en-us/deployment-guide/amazon-web-service/',
                 children: [

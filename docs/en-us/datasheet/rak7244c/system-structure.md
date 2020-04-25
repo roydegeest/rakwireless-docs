@@ -5,6 +5,6 @@ The following figure shows the basic concept for LoRaWAN® system. The RAK2245 i
 <rk-img
   src="/assets/images/datasheet/rak7244c/system-structure/wmishmfyonwnd31mgbph.png"
   width="100%"
-  figure-number="1"
+  figure-number="6"
   caption="RAK7244C Gateway System Structure"
 />

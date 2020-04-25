@@ -5,7 +5,7 @@ The following figure shows the basic concept for LoRaWAN® system. RAK7243 Pilot
 <rk-img
   src="/assets/images/datasheet/rak7243c/rak7243-system-structure.png"
   width="100%"
-  figure-number="1"
+  figure-number="4"
   caption="RAK7243C Pilot Gateway System Structure"
 />
 

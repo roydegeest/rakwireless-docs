@@ -5,6 +5,6 @@ RAK2287 card refers to Semtech's reference design of SX1302. The SPI interface c
 <rk-img
   src="/assets/images/datasheet/rak2287/schematic-diagram/gpvh8ltdwzxkureac6jq.jpg"
   width="100%"
-  figure-number="1"
+  figure-number="5"
   caption="Schematic Diagram of RAK2287"
 />

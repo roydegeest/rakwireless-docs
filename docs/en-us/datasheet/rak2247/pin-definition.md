@@ -3,7 +3,7 @@
 <rk-img
   src="/assets/images/datasheet/rak2247/pinout.png"
   width="100%"
-  figure-number="1"
+  figure-number="3"
   caption="RAK2247 LPWAN Gateway Concentrator Module Pinout Diagram"
 />
 

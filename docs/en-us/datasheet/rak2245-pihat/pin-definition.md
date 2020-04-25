@@ -5,7 +5,7 @@ The pin connector of RAK2245 Pi HAT is located at the bottom side. Refer to the 
 <rk-img
   src="/assets/images/datasheet/rak2245-pihat/rak2245-pihat-pin-definition.jpg"
   width="100%"
-  figure-number="1"
+  figure-number="4"
   caption="Pinout Diagram"
 />
 

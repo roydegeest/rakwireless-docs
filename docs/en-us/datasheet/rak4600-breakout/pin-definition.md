@@ -5,12 +5,11 @@ The figure below shows the pinout of the RAK4600 Breakout Module:
 <rk-img
   src="/assets/images/datasheet/rak4600-breakout/pin-definition/bqiem8snfmmzg4hl3mk3.jpg"
   width="100%"
-  figure-number="1"
+  figure-number="3"
   caption="RAK4600 Breakout Module Pinout"
 />
 
-The pin definitions of the
-RAK4600 Breakout Module are shown in the following tables below:
+The pin definitions of the RAK4600 Breakout Module are shown in the following tables below:
 
 ### J7 Pin Definitions
 
