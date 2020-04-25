@@ -1,23 +1,6 @@
 ---
 title: Accessing Your Gateway
 next: accessing-the-internet
-params:
-  {
-    img1:
-      {
-        src: "/assets/images/quick-start-guide/rak7246/access_point.jpg",
-        width: "100%",
-        figureNumber: "1",
-        caption: "Balena Etcher Software",
-      },
-    img2:
-      {
-        src: "/assets/images/quick-start-guide/rak7246/ssh.png",
-        width: "70%",
-        figureNumber: "2",
-        caption: "Balena Etcher Software",
-      },
-  }
 ---
 
 # Accessing your Gateway
@@ -30,7 +13,12 @@ After burning the image into the SD Card, make sure you have inserted the SD Car
 ## Wi-Fi AP Mode
 By default, the Gateway will work in Wi-Fi AP Mode which means that you can find an SSID named like "**Rakwireless_XXXX**" on your PC Wi-Fi Network List.
 
-<rk-img :params="$page.frontmatter.params.img1" />
+<rk-img 
+src="/assets/images/quick-start-guide/rak7246/access_point.jpg" 
+width="100%" 
+figure-number  = "1" 
+caption="RAKWireless Access Point"
+/>
 
 ::: tip 📝 NOTE: 
  “XXXX” is the last 2 bytes of your RAK7246’s WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the Gateway provided below as this will be needed in connecting via SSH.
@@ -44,7 +32,12 @@ By default, the Gateway will work in Wi-Fi AP Mode which means that you can find
 SSH (Secure Shell) is typically used to log in to a remote machine and execute commands. There are a lot of free and good SSH Clients out there namely [**Putty**](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), [**BitVise SSH Client**](https://www.bitvise.com/ssh-client-download), [**MobaXterm**](https://mobaxterm.mobatek.net/) and many more. Feel free to choose one that fits your needs, you will be using Putty for this guide.
 
 
-<rk-img :params="$page.frontmatter.params.img2" />
+<rk-img 
+src="/assets/images/quick-start-guide/rak7246/ssh.png" 
+width="70%" 
+figure-number  = "2" 
+caption=" Putty Software for SSH in Windows"
+/>
 
 <!-- <Cimg src="/assets/images/quick-start-guide/rak7246/ssh.png" width="70%" figure_number = "2" caption="RAKwireless Access Point"/> -->
 
