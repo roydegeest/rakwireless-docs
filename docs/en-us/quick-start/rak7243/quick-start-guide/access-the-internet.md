@@ -1,5 +1,5 @@
 ---
-title: Accessing the Internet
+next: configure-the-gateway
 ---
 # Accessing the Internet
 

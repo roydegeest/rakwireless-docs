@@ -1,5 +1,5 @@
 ---
-title: Quick Start Guide
+next: access-the-gateway
 ---
 
 # Quick Start Guide
@@ -11,7 +11,7 @@ title: Quick Start Guide
   caption="RAK7243 Product Overview"
 />
 
-## What do you need?
+### What do you need?
 1. RAK7243 LPWAN Developer Gateway
 2. 16GB SD Card (included) + Card Reader
 3. 5V at least 2.5A Micro USB Power Supply (not included)
@@ -23,7 +23,7 @@ title: Quick Start Guide
   label="Buy a RAK7243 LPWAN Developer Gateway"
 />
 
-## What's included in the Package? 
+### What's included in the Package? 
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7243/2.quickstart/package.jpg"

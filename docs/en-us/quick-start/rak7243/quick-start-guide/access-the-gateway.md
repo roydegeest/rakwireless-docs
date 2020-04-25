@@ -1,6 +1,5 @@
 ---
-title: Accessing your Gateway
-next: accessing-the-internet
+next: access-the-internet
 ---
 
 # Accessing your Gateway

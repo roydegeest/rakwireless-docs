@@ -1,5 +1,5 @@
 ---
-title: Connecting to The Things Network (TTN)
+next: connecting-to-chirpstack
 ---
 
 # Connecting to the Things Network (TTN)
