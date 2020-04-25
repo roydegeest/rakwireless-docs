@@ -1,8 +1,8 @@
 ---
-title: Configuring the Gateway
+next: connecting-to-ttn
 ---
 
-# Configuring the Gateway
+# Configure the Gateway
 
 Assuming you have successfully logged into your gateway using SSH, enter the following command in the command line:
 

@@ -144,27 +144,19 @@ module.exports = {
       sidebarDepth: 1,
       children: [
         '',
-        'quick-start-guide'
-      ]
-    },
-    {
-      title: 'Product Configuration',
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        'device-firmware',
         {
-          title: "Accessing your Gateway",
+          title: "Quick Start Guide",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak7243/accessing-your-gateway/',
+          path: '/en-us/quick-start/rak7243/quick-start-guide/',
           children: [
-            'accessing-your-gateway/accessing-the-internet'
+            'quick-start-guide/access-the-gateway',
+            'quick-start-guide/access-the-internet',
+            'quick-start-guide/configure-the-gateway',
+            'quick-start-guide/connecting-to-ttn',
+            'quick-start-guide/connecting-to-chirpstack'
           ]
-        },
-        'configuring-the-gateway',
-        'connecting-to-the-ttn',
-        'connecting-with-chirpstack'
+        }
       ]
     }
   ],
