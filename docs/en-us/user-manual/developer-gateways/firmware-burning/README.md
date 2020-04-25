@@ -24,20 +24,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci po
 :::
 1. Download the latest firmware in the [Firmwares](/en-us/user-manual/developer-gateways/firmware-burning/#firmwares) section which is based on the Raspbian OS.
 
-2. An image writing tool is needed to install the downloaded firmware into the SD Card. For this instruction, the open source utility software [balenaEtcher](https://www.balena.io/etcher/) will be used for burning the image file.
+2. An image writing tool is needed to install the downloaded firmware into the SD Card. For this instruction, the open source utility software [Etcher](https://www.balena.io/etcher/) will be used for burning the image file.
 
 3. Insert the SD Card into the SD Card reader and plug it into the Computer.
 
-4. Open the balenaEtcher Software and select the necessary settings as shown in Figure 1:
-    * **Select Image Button (Label - 1)**: The Firmware downloaded
-    * **Select Drive Button (Label -2)**: The SD Card where the firmware will be burned
+4. Open the Etcher Software and select the necessary settings as shown in Figure 1:
+    * **Select Image Button**: Select the image to be burned in the SD Card
+    * **Select Drive Button**: The SD Card where the firmware will be burned
  
  <!---
 Feel free to change the description for Select Image and Select Drive buttons
 -->
 
 ::: tip 📝 NOTE:
- The SD Card should be automatically detected by the balenaEtcher software in the Select Drive Button (Label -2) in Figure 1. If not, kindly ensure proper connection.
+ The SD Card should be automatically detected by the Etcher in the Select Drive Button in Figure 1. If not, kindly ensure proper connection.
 :::
 
 <rk-img
