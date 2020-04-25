@@ -1,34 +1,39 @@
 <template>
   <div class="fit q-py-xl flex flex-center">
     <div class="row fit q-gutter-x-md justify-center">
-      <rk-btn
+      <q-btn
         label="RUI"
-        src="#"
+        to="#"
         class="col-12 col-sm-2"
+        color="grey-8"
         flat
       />
-      <rk-btn
+      <q-btn
         label="Store"
-        src="#"
+        to="#"
         class="col-12 col-sm-2"
+        color="grey-8"
         flat
       />
-      <rk-btn
+      <q-btn
         label="Downloads"
-        src="#"
+        to="#"
         class="col-12 col-sm-2"
+        color="grey-8"
         flat
       />
-      <rk-btn
+      <q-btn
         label="FAQ"
-        src="#"
+        to="#"
         class="col-12 col-sm-2"
+        color="grey-8"
         flat
       />
-      <rk-btn
+      <q-btn
         label="Forums"
-        src="#"
+        to="#"
         class="col-12 col-sm-2"
+        color="grey-8"
         flat
       />
     </div>

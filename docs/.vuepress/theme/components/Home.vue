@@ -38,9 +38,11 @@
         </div>
       </div>
       <div class="flex flex-center q-pa-md">
-        <NavLink
-          class="bg-light-blue-10 text-white q-pa-md rounded-borders"
-          :item="actionLink"
+        <q-btn
+          :label="actionLink.text"
+          :to="actionLink.link"
+          color="primary"
+          size="md"
         />
       </div>
       <q-space />
@@ -62,10 +64,12 @@
           <q-card-section class="text-h6 text-center">{{ feature.title }}</q-card-section>
           <q-card-section class="text-caption text-justify">{{ feature.details }}</q-card-section>
           <q-card-actions align="center">
-            <NavLink
-              class="bg-light-blue-10 text-white q-pa-sm rounded-borders text-center"
-              :item="{ link: feature.actionLink || '#', text: feature.actionLabel || 'Go' }"
+            <q-btn
+              :label="feature.actionLabel || 'Go'"
+              :to="feature.actionLink || '#'"
               style="width: 5rem"
+              color="secondary"
+              size="md"
             />
           </q-card-actions>
         </q-card>

@@ -1,5 +1,6 @@
 <template>
   <div
+    v-if="mounted"
     class="theme-container"
     :class="pageClasses"
     @touchstart="onTouchStart"
@@ -62,7 +63,8 @@ export default {
 
   data () {
     return {
-      isSidebarOpen: false
+      isSidebarOpen: false,
+      mounted: false
     }
   },
 
@@ -119,6 +121,7 @@ export default {
     this.$router.afterEach(() => {
       this.isSidebarOpen = false
     })
+    this.mounted = true
   },
 
   methods: {
