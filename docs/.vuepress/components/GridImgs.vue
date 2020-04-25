@@ -20,11 +20,8 @@
                 style="height: 17rem; width: 13rem"
               >
                 <q-card-section class="col q-pa-none flex flex-center">
-                  <div class="fit">
-                    <img
-                      :src="rakImg(qs.frontmatter)"
-                      style="height: 100%"
-                    />
+                  <div class="fit img-container" 
+                    :style="rakImg(qs.frontmatter)">
                   </div>
                 </q-card-section>
                 <q-card-section class="col-4 flex flex-center q-pa-xs">
@@ -67,7 +64,7 @@ export default {
   methods: {
     rakImg (frontmatter) {
       const { static_root, rak_img } = frontmatter
-      return `${static_root}/${rak_img}`
+      return `background-image:url('${static_root}/${rak_img}');`
     },
     rakGrp (rak_grp) {
       if (!rak_grp) return 'Others'
@@ -100,5 +97,11 @@ export default {
 }
 .grow:hover {
   transform: scale(1.05);
+}
+.img-container {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 5%;
 }
 </style>
