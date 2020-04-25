@@ -4,6 +4,7 @@ heroImage: /assets/rakwireless/rak-blue-dark.svg
 heroText: Welcome to RAK Documentation Center
 tagline: Where your project starts
 actionText: Get Started
+actionLink: /en-us/quick-start/
 features:
   - title: Quick Start Guide
     details: A manual on how to set up your device for the first time and deploy with only its core functionality in mind.
