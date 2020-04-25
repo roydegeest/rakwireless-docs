@@ -46,7 +46,7 @@ Below is the definition of 20PIN segger J-LINK connector:
 <rk-img
   src="/assets/images/datasheet/rak5010/j-link-pinout.png"
   width="100%"
-  figure-number="1"
+  figure-number="6"
   caption="J-LINK Pinout"
 />
 
@@ -85,6 +85,6 @@ The logic level shift circuit on the RAK5010 board connects EXT_VREF to your ext
 <rk-img
   src="/assets/images/datasheet/rak5010/typical-converter-circuitry.jpg"
   width="100%"
-  figure-number="2"
+  figure-number="7"
   caption="Typical Converter Circuitry"
 />

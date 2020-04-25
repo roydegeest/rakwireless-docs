@@ -9,7 +9,7 @@ The GPS Antenna is shown in the following figure:
 <rk-img
   src="/assets/images/datasheet/rak7200/gps-antenna.jpg"
   width="25%"
-  figure-number="1"
+  figure-number="8"
   caption="GPS Antenna"
 />
 
@@ -29,7 +29,7 @@ S- Parameter of the GPS Antenna as pictured in the figure below:
 <rk-img
   src="/assets/images/datasheet/rak7200/s-parameter.jpg"
   width="100%"
-  figure-number="2"
+  figure-number="9"
   caption="S-parameter of the GPS Antenna"
 />
 
@@ -40,7 +40,7 @@ The LoRa® Antenna is shown in the following Figure:
 <rk-img
   src="/assets/images/datasheet/rak7200/lora-antenna.jpg"
   width="50%"
-  figure-number="3"
+  figure-number="10"
   caption="LoRa® Antenna"
 />
 
@@ -57,7 +57,7 @@ LoRa® Antenna return loss is also shown in the figure below:
 <rk-img
   src="/assets/images/datasheet/rak7200/loss-lora-antenna.jpg"
   width="100%"
-  figure-number="4"
+  figure-number="11"
   caption="Return Loss of the LoRa® Antenna"
 />
 

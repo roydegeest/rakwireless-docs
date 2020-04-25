@@ -1,41 +1,53 @@
 <template>
   <div>
-    <div
-      v-for="key in Object.keys(groups)"
-      :key="`grp-${key}`"
-      class="column q-mt-md "
-    >
-      <div class="text-h6 q-pa-md">{{ rakGrp(key) }}</div>
-      <div class="row justify-center items-center q-gutter-md">
-        <q-item
-          v-for="qs in groups[key]"
-          :key="qs.path"
-          :to="qs.path"
-          class="grow text-center q-pa-none"
-        >
-          <q-item-section>
-            <q-card
-              class="column"
-              style="height: 17rem; width: 13rem"
-            >
-              <q-card-section class="col q-pa-none flex flex-center">
-                <div class="fit">
-                  <img
-                    :src="rakImg(qs.frontmatter)"
-                    style="height: 100%"
-                  />
-                </div>
-              </q-card-section>
-              <q-card-section class="col-4 flex flex-center q-pa-xs">
-                <div
-                  class="text-weight-medium"
-                  style="font-size: 0.9rem"
-                >{{ qs.title }}</div>
-              </q-card-section>
-            </q-card>
-          </q-item-section>
-        </q-item>
+    <div v-if="groups">
+      <div
+        v-for="key in Object.keys(groups)"
+        :key="`grp-${key}`"
+        class="column q-mt-md "
+      >
+        <div class="text-h6 q-pa-md">{{ rakGrp(key) }}</div>
+        <div class="row justify-center items-center q-gutter-md">
+          <q-item
+            v-for="qs in groups[key]"
+            :key="qs.path"
+            :to="qs.path"
+            class="grow text-center q-pa-none"
+          >
+            <q-item-section>
+              <q-card
+                class="column"
+                style="height: 17rem; width: 13rem"
+              >
+                <q-card-section class="col q-pa-none flex flex-center">
+                  <div class="fit">
+                    <img
+                      :src="rakImg(qs.frontmatter)"
+                      style="height: 100%"
+                    />
+                  </div>
+                </q-card-section>
+                <q-card-section class="col-4 flex flex-center q-pa-xs">
+                  <div
+                    class="text-weight-medium"
+                    style="font-size: 0.9rem"
+                  >{{ qs.title }}</div>
+                </q-card-section>
+              </q-card>
+            </q-item-section>
+          </q-item>
+        </div>
       </div>
+    </div>
+    <div
+      v-else
+      class="flex flex-center"
+    >
+      <q-spinner-dots
+        size="2.5rem"
+        color="grey-10"
+        :thickness="1"
+      />
     </div>
   </div>
 </template>
@@ -43,7 +55,7 @@
 <script>
 export default {
   data: () => ({
-    groups: {}
+    groups: null
   }),
   computed: {
     quickStarts () {
@@ -67,19 +79,17 @@ export default {
       }
     }
   },
-  created () {
+  mounted () {
     for (const qs of this.quickStarts) {
       const { rak_grp } = qs.frontmatter
       const index = rak_grp || 'others'
-      // console.log('rakgrp: ', rak_grp)
-
+      if (!this.groups) this.groups = {}
       if (!this.groups[index]) this.groups[index] = []
       this.groups[index] = [
         ...this.groups[index],
         qs
       ]
     }
-    // console.log('gprs: ', this.groups)
   }
 }
 </script>

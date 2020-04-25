@@ -3,7 +3,7 @@
 <rk-img
   src="/assets/images/datasheet/rak8212/block_diagram.png"
   width="100%"
-  figure-number="1"
+  figure-number="5"
   caption="System Block Diagram"
 />
 

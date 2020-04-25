@@ -22,7 +22,7 @@ It is recommended to provide slots or cutouts for camera and display flexes so c
 <rk-img
   src="/assets/images/datasheet/rak2013/mechanical-dimensions.jpg"
   width="75%"
-  figure-number="1"
+  figure-number="9"
   caption="Mechanical Dimensions"
 />
 

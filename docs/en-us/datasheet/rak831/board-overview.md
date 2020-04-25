@@ -7,7 +7,7 @@ The Concentrator Module currently available is in SPI version with its board sho
 <rk-img
   src="/assets/images/datasheet/rak831/board-overview.jpg"
   width="100%"
-  figure-number="1"
+  figure-number="2"
   caption="RAK831 LPWAN Gateway Board Overview"
 />
 
@@ -18,7 +18,7 @@ The outer dimensions of the RAK831 are given by **80 mm x 50mm**  with ± 0.2 mm
 <rk-img
   src="/assets/images/datasheet/rak831/rak831-dimensions.jpg"
   width="80%"
-  figure-number="2"
+  figure-number="3"
   caption="RAK831 LPWAN Gateway Board Dimension"
 />
 

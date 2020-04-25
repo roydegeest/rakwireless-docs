@@ -8,7 +8,7 @@ The RAK831 includes Semtech’s SX1301 which is a digital baseband chip which in
 <rk-img
   src="/assets/images/datasheet/rak831/Block_Diagrams_SX1301.png"
   width="100%"
-  figure-number="1"
+  figure-number="5"
   caption="SX1301 Chip Block Diagram"
 />
 
@@ -25,7 +25,7 @@ It is highly recommended to fully re-use the latest HAL as provided by Semtech o
 <rk-img
   src="/assets/images/datasheet/rak831/Block_Diagrams_RAK831.png"
   width="100%"
-  figure-number="2"
+  figure-number="6"
   caption="RAK831 LPWAN Gateway Block Diagram"
 />
 
@@ -58,7 +58,7 @@ The unique multi data-rate multi-channel demodulation capacity SF7 to SF12 and o
 <rk-img
   src="/assets/images/datasheet/rak831/lora_channels.png"
   width="100%"
-  figure-number="3"
+  figure-number="7"
   caption="IF0 to IF7 LoRa® Channels"
 />
 

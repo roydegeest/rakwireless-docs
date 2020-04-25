@@ -20,7 +20,7 @@ The RAK7200 LPWAN Tracker has built-in rechargeable 3.7V Li-ion battery which ca
 <rk-img
   src="/assets/images/datasheet/rak7200/built-in-battery.jpg"
   width="50%"
-  figure-number="1"
+  figure-number="7"
   caption="Built-in Battery in RAK7200 LPWAN Tracker"
 />
 

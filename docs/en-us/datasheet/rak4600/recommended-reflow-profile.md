@@ -5,7 +5,7 @@ In this section, the recommended Reflow profile for RAK4600 LPWAN Module is desc
 <rk-img
   src="/assets/images/datasheet/rak4600/recommended-reflow-profile/jrhzrgsko4nmfcwpirix.jpg"
   width="100%"
-  figure-number="1"
+  figure-number="10"
   caption="Recommended Reflow Profile"
 />
 

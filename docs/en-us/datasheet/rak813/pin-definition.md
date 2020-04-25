@@ -3,7 +3,7 @@
 <rk-img
   src="/assets/images/datasheet/rak813/pin-definition/RAK813_Pinout.jpg"
   width="80%"
-  figure-number="1"
+  figure-number="5"
   caption="Pin Out Diagram for RAK813"
 />
 

@@ -5,7 +5,7 @@ Provided in this section is the Pinout of the RAK4260 WisDuo LPWAN Module.
 <rk-img
   src="/assets/images/datasheet/rak4260/rak4260-board-pinout.jpg"
   width="75%"
-  figure-number="1"
+  figure-number="12"
   caption="RAK4260 Board Pinout"
 />
 

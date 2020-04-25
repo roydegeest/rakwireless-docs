@@ -5,7 +5,7 @@ Provided in this section is the Pinout of the RAK4600 LPWAN Module.
 <rk-img
   src="/assets/images/datasheet/rak4600/pin-definition/tbnfkqxtk0arvvmlddsf.jpg"
   width="100%"
-  figure-number="1"
+  figure-number="4"
   caption="RAK4600 Board Pinout"
 />
 

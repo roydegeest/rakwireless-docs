@@ -1,24 +1,19 @@
 <template>
   <div
-    class="full-width"
-    style="margin-top: 50px;"
+    class="column full-width no-wrap"
+    style="height: 100vh; margin-top: 50px;"
   >
-    <div
-      class="column"
-      style="height: 90vh"
-    >
-      <q-space />
-      <div class="flex flex-center q-pa-md">
+    <div class="column">
+      <div class="flex flex-center q-pa-sm">
         <img
           v-if="data.heroImage"
           :src="$withBase(data.heroImage)"
           :alt="data.heroAlt || 'hero'"
-          class="fit"
         >
       </div>
 
       <div
-        class="q-pa-md text-center column q-gutter-y-md"
+        class="q-pa-sm text-center column q-gutter-y-md"
         style="line-height: normal"
       >
         <div
@@ -37,49 +32,64 @@
           {{ data.tagline || $description || 'Welcome to your VuePress site' }}
         </div>
       </div>
-      <div class="flex flex-center q-pa-md">
-        <NavLink
-          class="bg-light-blue-10 text-white q-pa-md rounded-borders"
-          :item="actionLink"
+      <div class="flex flex-center q-pa-sm">
+        <q-btn
+          :label="actionLink.text"
+          :to="actionLink.link"
+          color="primary"
+          size="1rem"
         />
       </div>
-      <q-space />
     </div>
 
     <div
       v-if="data.features && data.features.length"
-      style="padding-top: 50px"
-      class="row justify-center"
-      id="features"
+      class="flex flex-center"
     >
-      <div
-        class="q-pa-sm"
-        v-for="(feature, index) in data.features"
-        :key="index"
-        style="width: 20rem"
-      >
-        <q-card>
-          <q-card-section class="text-h6 text-center">{{ feature.title }}</q-card-section>
-          <q-card-section class="text-caption text-justify">{{ feature.details }}</q-card-section>
-          <q-card-actions align="center">
-            <NavLink
-              class="bg-light-blue-10 text-white q-pa-sm rounded-borders text-center"
-              :item="{ link: feature.actionLink || '#', text: feature.actionLabel || 'Go' }"
-              style="width: 5rem"
-            />
-          </q-card-actions>
-        </q-card>
+      <div class="row justify-center">
+        <div
+          class="q-pa-sm"
+          v-for="(feature, index) in data.features"
+          :key="index"
+          style="width: 14rem"
+        >
+          <q-card
+            flat
+            class="column fit"
+          >
+            <q-card-section
+              class="q-py-sm text-grey-10 text-weight-medium"
+              style="font-size: 1.15rem"
+            >{{ feature.title }}</q-card-section>
+            <q-card-section
+              class="col text-grey-8"
+              style="font-size: 0.9rem"
+            >{{ feature.details }}</q-card-section>
+            <q-card-actions align="left">
+              <q-btn
+                :label="feature.actionLabel || 'Learn More'"
+                :to="feature.actionLink || '#'"
+                size="0.7rem"
+                color="primary"
+                no-caps
+              />
+            </q-card-actions>
+          </q-card>
+        </div>
       </div>
     </div>
 
-    <Content class="theme-default-content custom" />
+    <div class="col">
+      <Content class="theme-default-content custom" />
+    </div>
 
-    <div
+    <!-- <div
       v-if="data.footer"
       class="footer"
     >
       {{ data.footer }}
-    </div>
+    </div> -->
+    <rk-home />
   </div>
 </template>
 
@@ -107,6 +117,17 @@ export default {
 </script>
 
 <style lang="stylus">
+.custom-btn {
+  background-color: white !important;
+  color: $primary !important;
+  border: solid 2px $primary;
+
+  &:hover {
+    background-color: $primary !important;
+    color: white !important;
+  }
+}
+
 .action {
   margin: 1.8rem auto;
 }

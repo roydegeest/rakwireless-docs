@@ -23,7 +23,7 @@ The RAK4200 LPWAN Module takes **53.155 ms** to send a LoRa® packet which consu
 <rk-img
   src="/assets/images/datasheet/rak4200/oscilloscope-screen-capture-of-lora®-packet-sending.jpg"
   width="75%"
-  figure-number="1"
+  figure-number="5"
   caption="Oscilloscope Screen Capture of LoRa® Packet Sending"
 />
 
@@ -37,7 +37,7 @@ The RAK4200 LPWAN Module takes **46.179 ms** to receive a LoRa® packet which co
 <rk-img
   src="/assets/images/datasheet/rak4200/oscilloscope-screen-capture-of-lora®-packet-receiving.jpg"
   width="75%"
-  figure-number="2"
+  figure-number="6"
   caption="Oscilloscope Screen Capture of LoRa® Packet Receiving"
 />
 
@@ -50,6 +50,6 @@ The RAK4200 LPWAN Module when in sleep mode consumes **11.8 uA** of current.
 <rk-img
   src="/assets/images/datasheet/rak4200/oscilloscope-screen-capture-of-rak4200-lpwan-module-in-sleep-mode.jpg"
   width="75%"
-  figure-number="3"
+  figure-number="7"
   caption="Oscilloscope Screen Capture of RAK4200 LPWAN Module in sleep mode"
 />

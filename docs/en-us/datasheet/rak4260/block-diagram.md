@@ -5,6 +5,6 @@ Shown below is the functional block diagram of the RAK4260 composed of different
 <rk-img
   src="/assets/images/datasheet/rak4260/block_diagram.png"
   width="100%"
-  figure-number="1"
+  figure-number="4"
   caption="RAK4260 Interfaces"
 />

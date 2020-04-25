@@ -59,7 +59,7 @@ The RAK5010 WisTrio NB-IoT Tracker takes **489.733 ms** to send a LoRa® packet 
 <rk-img
   src="/assets/images/datasheet/rak5010/oscilloscope-screen-capture-of-lora®-packet-sending.jpg"
   width="85%"
-  figure-number="1"
+  figure-number="11"
   caption="Oscilloscope Screen Capture of LoRa® Packet Sending"
 />
 
@@ -72,6 +72,6 @@ The RAK5010 WisTrio NB-IoT Tracker when in sleep mode consumes **20.5 uA** of cu
 <rk-img
   src="/assets/images/datasheet/rak5010/oscilloscope-screen-capture-of-rak4600-lora®-module-in-sleep-mode.jpg"
   width="85%"
-  figure-number="2"
+  figure-number="12"
   caption="Oscilloscope Screen Capture of RAK4600 LoRa® Module in Sleep Mode"
 />

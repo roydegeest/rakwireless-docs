@@ -1,8 +1,3 @@
----
-title: Device Firmware Setup
-next: accessing-your-gateway/
----
-
 # Device Firmware Setup
 An easy and quick way to have a fully functional gateway is by using a Precompiled Firmware Image provided. In this section is the step by step instructions on how to install the Image into your SD Card used for the gateway.
 

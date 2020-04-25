@@ -15,7 +15,7 @@ The RAK2246 is able to receive on different frequency channels at the same time 
 <rk-img
   src="/assets/images/datasheet/rak7246g/systems-network-approach/f333yrqj2l328fhmkpaf.png"
   width="70%"
-  figure-number="1"
+  figure-number="10"
   caption="System Architecture"
 />
 

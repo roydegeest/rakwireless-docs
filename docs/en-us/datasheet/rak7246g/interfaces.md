@@ -7,7 +7,7 @@ The concentrator is available with an SPI interface:
 <rk-img
   src="/assets/images/datasheet/rak7246g/interfaces/qdr3oj29xkjdfu0a3bys.jpg"
   width="80%"
-  figure-number="1"
+  figure-number="5"
   caption="RAK2246 Bottom View"
 />
 
@@ -29,7 +29,7 @@ recommended to utilize the latest HAL as provided by Semtech on [https://github.
 <rk-img
   src="/assets/images/datasheet/rak7246g/interfaces/lwlwm5p9t7vg7oshxox0.jpg"
   width="100%"
-  figure-number="2"
+  figure-number="6"
   caption="Block Diagram"
 />
 
@@ -62,7 +62,7 @@ The unique multi data-rate multi-channel demodulation capacity SF7 to SF12 and o
 <rk-img
   src="/assets/images/datasheet/rak7246g/interfaces/jlyqgowwfeidn4k49cy3.png"
   width="100%"
-  figure-number="3"
+  figure-number="7"
   caption="LoRa Channel"
 />
 

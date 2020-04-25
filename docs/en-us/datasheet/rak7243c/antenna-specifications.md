@@ -7,7 +7,7 @@ The LoRa® Antenna with RP-SMA female connector shown in the figure below:
 <rk-img
   src="/assets/images/datasheet/rak7243c/lora-antenna-overview.png"
   width="50%"
-  figure-number="1"
+  figure-number="9"
   caption="LoRa® Antenna Overview"
 />
 
@@ -18,7 +18,7 @@ The antenna's mechanical dimension is shown below:
 <rk-img
   src="/assets/images/datasheet/rak7243c/lora-antenna-dimensions.png"
   width="50%"
-  figure-number="2"
+  figure-number="10"
   caption="LoRa® Antenna Dimension in mm"
 />
 
@@ -43,7 +43,7 @@ from 824MHz to 2690MHz. The antenna is shown as below.
 <rk-img
   src="/assets/images/datasheet/rak7243c/lte-antenna.jpg"
   width="50%"
-  figure-number="3"
+  figure-number="11"
   caption="LTE Antenna"
 />
 
@@ -52,7 +52,7 @@ from 824MHz to 2690MHz. The antenna is shown as below.
 <rk-img
   src="/assets/images/datasheet/rak7243c/lte-antenna-dimensions.jpg"
   width="50%"
-  figure-number="4"
+  figure-number="12"
   caption="LTE Antenna Dimension"
 />
 
@@ -74,7 +74,7 @@ The GPS antenna for Pilot Gateway is shown below
 <rk-img
   src="/assets/images/datasheet/rak7243c/gps-antenna.jpg"
   width="50%"
-  figure-number="5"
+  figure-number="13"
   caption="GPS Antenna"
 />
 
@@ -83,7 +83,7 @@ The GPS antenna for Pilot Gateway is shown below
 <rk-img
   src="/assets/images/datasheet/rak7243c/gps-antenna-dimensions.jpg"
   width="75%"
-  figure-number="6"
+  figure-number="14"
   caption="GPS Antenna Dimensions"
 />
 

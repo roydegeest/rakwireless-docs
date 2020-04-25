@@ -3,7 +3,7 @@
 <rk-img
   src="/assets/images/datasheet/rak9003-poe-hat/raspberry-pi-connector-overview.png"
   width="100%"
-  figure-number="1"
+  figure-number="3"
   caption="Raspberry Pi Connector Overview"
 />
 

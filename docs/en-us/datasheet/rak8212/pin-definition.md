@@ -3,7 +3,7 @@
 <rk-img
   src="/assets/images/datasheet/rak8212/pin-definition.png"
   width="100%"
-  figure-number="1"
+  figure-number="4"
   caption="RAK8212 Pin Definition"
 />
 

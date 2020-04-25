@@ -59,6 +59,6 @@ The FEM chosen is a SKYWORKS SKY66422, which integrates a PA, LNA and a Switch. 
 <rk-img
   src="/assets/images/datasheet/rak7246g/rf-characteristics/qbxfrqry28q2p8ozhicz.jpg"
   width="90%"
-  figure-number="1"
+  figure-number="9"
   caption="System Architecture"
 />

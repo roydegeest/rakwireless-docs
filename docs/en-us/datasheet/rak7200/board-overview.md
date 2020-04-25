@@ -5,7 +5,7 @@ The detailed dimensions of the **RAK7200 LPWAN Tracker** with the protective cas
 <rk-img
   src="/assets/images/datasheet/rak7200/rak7200-dimensions.jpg"
   width="50%"
-  figure-number="1"
+  figure-number="2"
   caption="RAK7200 LPWAN Tracker Dimensions"
 />
 

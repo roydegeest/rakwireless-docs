@@ -6,7 +6,7 @@
 <rk-img
   src="/assets/images/datasheet/rak811-breakout-module/rak811-physical-dimension.jpg"
   width="75%"
-  figure-number="1"
+  figure-number="5"
   caption="RAK811 Physical Dimension"
 />
 
@@ -15,6 +15,6 @@
 <rk-img
   src="/assets/images/datasheet/rak811-breakout-module/rak811-layout.jpg"
   width="75%"
-  figure-number="2"
+  figure-number="6"
   caption="RAK811 Layout"
 />

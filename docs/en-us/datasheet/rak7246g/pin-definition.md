@@ -3,7 +3,7 @@
 <rk-img
   src="/assets/images/datasheet/rak7246g/pin-definition/e7ik5kliydnba3jh6ogy.jpg"
   width="80%"
-  figure-number="1"
+  figure-number="8"
   caption="RAK7246G Pinout Diagram"
 />
 

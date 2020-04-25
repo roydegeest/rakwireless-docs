@@ -7,7 +7,7 @@ The LTE Antenna Connector is shown below:
 <rk-img
   src="/assets/images/datasheet/rak5010/ipex-onboard-connector-for-the-lte-antenna.jpg"
   width="50%"
-  figure-number="1"
+  figure-number="16"
   caption="iPEX onboard connector for the LTE antenna"
 />
 
@@ -16,7 +16,7 @@ A PCB antenna (Figure 2) is included with the board. In case you want to use ano
 <rk-img
   src="/assets/images/datasheet/rak5010/pcb-lte-antenna-with-pigtail.png"
   width="75%"
-  figure-number="2"
+  figure-number="17"
   caption="PCB LTE Antenna with Pigtail"
 />
 
@@ -48,7 +48,7 @@ The GPS antenna connector is shown below (same as the LTE one):
 <rk-img
   src="/assets/images/datasheet/rak5010/ipex-onboard-connector-for-the-gps-antenna.jpg"
   width="50%"
-  figure-number="3"
+  figure-number="18"
   caption="iPEX onboard connector for the GPS antenna"
 />
 
@@ -64,7 +64,7 @@ In order to support low power and long battery life, the active GPS antenna’s 
 <rk-img
   src="/assets/images/datasheet/rak5010/circuit-diagram-2.png"
   width="50%"
-  figure-number="4"
+  figure-number="19"
   caption="iPEX onboard connector for the GPS antenna"
 />
 
@@ -76,7 +76,7 @@ In order to support low power and long battery life, the active GPS antenna’s 
 <rk-img
   src="/assets/images/datasheet/rak5010/gps-antenna.png"
   width="75%"
-  figure-number="5"
+  figure-number="20"
   caption="GPS Antenna"
 />
 
