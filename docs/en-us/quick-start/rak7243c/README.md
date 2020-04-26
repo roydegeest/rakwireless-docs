@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7243c/1.product-overview/1.index
-rak_img: 1.pnebj6mub4bpzc83ehzw.jpg
+rak_img: RAK7243C.svg
 rak_grp: lora-gateway
 params:
   qlinks:

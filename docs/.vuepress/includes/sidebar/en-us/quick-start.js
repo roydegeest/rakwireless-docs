@@ -15,7 +15,6 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
-        'device-firmware',
         {
           title: "Accessing your Gateway",
           nested: true,
@@ -120,7 +119,6 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
-        'device-firmware',
         {
           title: "Accessing your Gateway",
           nested: true,
@@ -175,7 +173,6 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
-        'device-firmware-setup',
         {
           title: "Accessing your Gateway",
           nested: true,
@@ -228,7 +225,6 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
-        'device-firmware-setup',
         {
           title: "Accessing your Gateway",
           nested: true,
@@ -259,7 +255,6 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
-        'device-firmware-setup',
         {
           title: "Accessing your Gateway",
           nested: true,
@@ -290,7 +285,6 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
-        'device-firmware-setup',
         {
           title: "Accessing your Gateway",
           nested: true,

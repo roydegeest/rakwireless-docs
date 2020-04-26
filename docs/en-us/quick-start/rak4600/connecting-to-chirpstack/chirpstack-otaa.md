@@ -78,7 +78,7 @@ at+set_config=lora:region:EU868
 ```
 <rk-img
   :src="`${$frontmatter.static_root}/evudoedib3ovd9ye98gy.jpg`"
-  width="100%"
+  width="60%"
   figure-number="7"
   caption="Chirpstack OTAA Set Region/Frequency via RAK Serial Port Tool"
 />
@@ -89,7 +89,7 @@ at+set_config=lora:dev_eui:XXXX
 ```
 <rk-img
   :src="`${$frontmatter.static_root}/yzqpmzjhqj58akm7xqcm.jpg`"
-  width="100%"
+  width="60%"
   figure-number="8"
   caption="Chirpstack OTAA Set Application EUI via RAK Serial Port Tool"
 />
@@ -100,7 +100,7 @@ at+set_config=lora:app_eui:XXXX
 ```
 <rk-img
   :src="`${$frontmatter.static_root}/uf6hawlomc92hhp2dlbl.jpg`"
-  width="100%"
+  width="60%"
   figure-number="9"
   caption="Chirpstack OTAA Set Application Key via RAK Serial Port Tool"
 />
@@ -111,7 +111,7 @@ at+set_config=lora:app_key:XXXX
 ```
 <rk-img
   :src="`${$frontmatter.static_root}/kp0hhztd0d1txr0xlsnd.jpg`"
-  width="100%"
+  width="60%"
   figure-number="10"
   caption="Chirpstack OTAA Join via RAK Serial Port Tool"
 />
@@ -128,7 +128,7 @@ at+join
   :src="`${$frontmatter.static_root}/1.htym80ccfx3xe5ycormf.png`"
   width="100%"
   figure-number="11"
-  caption="Balena Etcher Software"
+  caption="Chirpstack OTAA Join via RAK Serial Port Tool"
 />
 
 
@@ -146,7 +146,7 @@ at+send=lora:2:1234567890
 ```
 <rk-img
   :src="`${$frontmatter.static_root}/sy4nezodryajjldti9ki.jpg`"
-  width="100%"
+  width="60%"
   figure-number="13"
   caption="Chirpstack OTAA Sample Data Sent via RAK Serial Port Tool"
 />
