@@ -24,7 +24,7 @@
     >
       <li
         class="q-pa-xs"
-        v-for="(key, i) in Object.keys(suggestions)"
+        v-for="(key, i) in this.$site.themeConfig.test"
         :key="`${key}-${i}`"
       >
         <div
@@ -204,7 +204,7 @@ export default {
 
   methods: {
     clean (path) {
-      return path.split('/').find(t => t !== "")
+      return path.split('/').find(t => t !== "").replace('-', ' ')
     },
     getPageLocalePath (page) {
       for (const localePath in this.$site.locales || {}) {
