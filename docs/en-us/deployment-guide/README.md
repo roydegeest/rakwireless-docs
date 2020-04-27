@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 # Welcome to Deployment Guide
 
 Practical examples and tutorials on common use cases. Contains varied documents, specifically addressing one use case.
