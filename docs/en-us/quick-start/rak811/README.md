@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/overview
-rak_img: rak811-wisnode.svg
+rak_img: RAK811-wisnode.svg
 rak_grp: lora-node
 params:
   qlinks:

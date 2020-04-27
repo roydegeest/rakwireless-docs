@@ -6,28 +6,28 @@
         :key="`grp-${key}`"
         class="column q-mt-md "
       >
-        <div class="text-h6 q-pa-md">{{ rakGrp(key) }}</div>
-        <div class="row justify-center items-center q-gutter-md">
+        <div class="text-h6 q-py-md">{{ rakGrp(key) }}</div>
+        <div class="row justify-start items-center q-gutter-md">
           <q-item
             v-for="qs in groups[key]"
             :key="qs.path"
             :to="qs.path"
-            class="grow text-center q-pa-none"
+            class="grow text-center q-pa-none shadow-2"
           >
             <q-item-section>
               <q-card
                 class="column"
-                style="height: 17rem; width: 13rem"
+                style="height: 17rem; width: 11rem"
               >
                 <q-card-section class="col q-pa-none flex flex-center">
-                  <div class="fit img-container" 
-                    :style="rakImg(qs.frontmatter)">
+                  <div class="fit flex flex-center">
+                    <q-img :src="rakImg(qs.frontmatter)" />
                   </div>
                 </q-card-section>
-                <q-card-section class="col-4 flex flex-center q-pa-xs">
+                <q-card-section class="col-4 flex flex-center q-px-md q-py-sm">
                   <div
                     class="text-weight-medium"
-                    style="font-size: 0.9rem"
+                    style="font-size: 0.8rem"
                   >{{ qs.title }}</div>
                 </q-card-section>
               </q-card>
@@ -64,13 +64,14 @@ export default {
   methods: {
     rakImg (frontmatter) {
       const { static_root, rak_img } = frontmatter
-      return `background-image:url('${static_root}/${rak_img}');`
+      // return `background-image:url('${static_root}/${rak_img}');`
+      return `${static_root}/${rak_img}`
     },
     rakGrp (rak_grp) {
       if (!rak_grp) return 'Others'
       switch (rak_grp) {
-        case 'lora-node': return 'LoRa Node'
-        case 'lora-gateway': return 'LoRa Gateway'
+        case 'lora-node': return 'LPWAN Nodes'
+        case 'lora-gateway': return 'LPWAN Gateways/ Concentrator'
         case 'nb-iot': return 'NB-IoT'
         default: return 'Others'
       }
@@ -99,9 +100,9 @@ export default {
   transform: scale(1.05);
 }
 .img-container {
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 5%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 5%;
 }
 </style>

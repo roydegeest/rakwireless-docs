@@ -2,6 +2,15 @@
  module.exports = {
     '/en-us/deployment-guide/': [
       {
+            title: "← Back to Deployment Guides",
+                nested: true,
+                collapsable: false,
+                path: '/en-us/deployment-guide/',
+                children: [
+    
+                ]
+      },
+      {
         title: 'Build-in LoRa Network Server Configuration',
         path: '',
         collapsable: false,
@@ -10,8 +19,8 @@
             {
                 title: "Getting Started",
                 nested: false,
-                // collapsable: false,
-                path: '/en-us/deployment-guide/build-in-lora-server/',
+                collapsable: false,
+                path: '/en-us/deployment-guide/build-in-lora-server',
                 children: [
                     'build-in-lora-server/built-in-lora-network-server',
                     'build-in-lora-server/rak-lpwan-node'
@@ -28,8 +37,8 @@
             {
                 title: "Getting Started",
                 nested: false,
-                // collapsable: false,
-                path: '/en-us/deployment-guide/multi-rak-gateway-mesh/',
+                collapsable: false,
+                path: '/en-us/deployment-guide/multi-rak-gateway-mesh',
                 children: [
                     'multi-rak-gateway-mesh/gateway-a-built-in-ns',
                     'multi-rak-gateway-mesh/gateway-b-mqtt-bridge',
@@ -49,8 +58,8 @@
             {
                 title: "Getting Started",
                 nested: false,
-                // collapsable: false,
-                path: '/en-us/deployment-guide/amazon-web-service/',
+                collapsable: false,
+                path: '/en-us/deployment-guide/amazon-web-service',
                 children: [
                     'amazon-web-service/aws-install-chirpstack',
                     'amazon-web-service/install-the-gateway-bridge',

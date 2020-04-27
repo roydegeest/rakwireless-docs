@@ -13,7 +13,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: Datasheet
-        href: /en-us/datasheet/rak2245-pihat
+        href: /en-us/datasheet/rak7244
       - name: RAK7244 with PoE Assembly Guide
         href: https://downloads.rakwireless.com/LoRa/Developer-LoRaWAN-Gateway-RAK7244%26RAK7244P/Hardware-Specification/RAK7244P_Assembly_Guide.pdf
       - name: Environment Test Report

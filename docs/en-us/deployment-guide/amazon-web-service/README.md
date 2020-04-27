@@ -2,7 +2,7 @@
 next: aws-install-chirpstack
 ---
 
-<!-- # Amazon Web Service -->
+# Amazon Web Service
 
 This section walks through the details on the steps on how to configure the free cloud services of **[Amazon](http://aws.amazon.com/)**. Follow each and every step discussed in this document to have a fully functional system. If you encounter errors, kindly contact us through the email provided in the Product Overview.
 

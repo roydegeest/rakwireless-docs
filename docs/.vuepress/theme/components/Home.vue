@@ -9,11 +9,12 @@
           v-if="data.heroImage"
           :src="$withBase(data.heroImage)"
           :alt="data.heroAlt || 'hero'"
+          style="height: 5rem"
         >
       </div>
 
       <div
-        class="q-pa-sm text-center column q-gutter-y-md"
+        class="q-pa-sm text-center column items-center q-gutter-y-md"
         style="line-height: normal"
       >
         <div
@@ -27,7 +28,7 @@
         <div
           v-if="data.tagline !== null"
           class="text-weight-regular text-grey-7"
-          style="font-size: 1.25rem"
+          style="max-width: 40rem"
         >
           {{ data.tagline || $description || 'Welcome to your VuePress site' }}
         </div>
@@ -48,10 +49,10 @@
     >
       <div class="row justify-center">
         <div
-          class="q-pa-sm"
+          class="row no-wrap q-pa-sm"
           v-for="(feature, index) in data.features"
           :key="index"
-          style="width: 14rem"
+          style="width: 14rem; padding-top: 20px; padding-bottom: 30px;"
         >
           <q-card
             flat
@@ -75,6 +76,17 @@
               />
             </q-card-actions>
           </q-card>
+          <!-- <div
+            class="bg-black"
+            style="width: 1px; margin-top: 10px; margin-bottom: 10px;"
+          /> -->
+          <q-separator
+            v-if="index < data.features.length-1"
+            color="grey-5"
+            class="custom-qs desktop-only"
+            vertical
+            inset
+          />
         </div>
       </div>
     </div>
@@ -117,6 +129,11 @@ export default {
 </script>
 
 <style lang="stylus">
+.custom-qs {
+  min-height: 50% !important;
+  margin: auto !important;
+}
+
 .custom-btn {
   background-color: white !important;
   color: $primary !important;
