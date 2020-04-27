@@ -71,8 +71,8 @@ export default {
     rakGrp (rak_grp) {
       if (!rak_grp) return 'Others'
       switch (rak_grp) {
-        case 'lora-node': return 'LoRa Node'
-        case 'lora-gateway': return 'LoRa Gateway'
+        case 'lora-node': return 'LPWAN Nodes'
+        case 'lora-gateway': return 'LPWAN Gateways/ Concentrator'
         case 'nb-iot': return 'NB-IoT'
         default: return 'Others'
       }

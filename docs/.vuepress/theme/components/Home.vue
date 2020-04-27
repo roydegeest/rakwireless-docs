@@ -27,7 +27,7 @@
         <div
           v-if="data.tagline !== null"
           class="text-weight-regular text-grey-7"
-          style="font-size: 1.25rem"
+          style="padding-left: 20%; padding-right:20%"
         >
           {{ data.tagline || $description || 'Welcome to your VuePress site' }}
         </div>
@@ -51,7 +51,7 @@
           class="q-pa-sm"
           v-for="(feature, index) in data.features"
           :key="index"
-          style="width: 14rem"
+          style="width: 14rem; padding-top: 20px; padding-bottom: 30px;"
         >
           <q-card
             flat

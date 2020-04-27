@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak4200/3.interfacing/
+next: /en-us/quick-start/rak4200/connecting-to-ttn/
 ---
 
 # Interfacing with RAK4200 LPWAN Evaluation Board

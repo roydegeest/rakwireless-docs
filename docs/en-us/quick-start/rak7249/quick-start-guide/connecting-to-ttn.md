@@ -38,7 +38,7 @@ The Gateway EUI can be found either on the sticker on the casing or via the LoRa
 />
 
 :::tip 📝 NOTE
-By default, the Gateway is set to connect to TTN. For detailed information about advanced configuration options refer to the [LoRaWAN® Gateway Configuration](/en-us/user-manual/commercial-gateways/web-management-platform/lorawan-gateway-configuration.html#_1-lora®-packet-forwarder) section.
+By default, the Gateway is set to connect to TTN. For detailed information about advanced configuration options refer to the [LoRaWAN® Gateway Configuration](/en-us/user-manual/web-management-platform/lorawan-gateway-configuration.html#_1-lora®-packet-forwarder) section.
 :::
 
 
