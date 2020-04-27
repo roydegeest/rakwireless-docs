@@ -44,3 +44,4 @@ Thus, the **RAK7240 Outdoor LPWAN Gateway**, is suited for any use case scenario
 !!!include(en-us/datasheet/rak7240/board-overview.md)!!!
 !!!include(en-us/datasheet/rak7240/product-specifications.md)!!!
 !!!include(en-us/datasheet/rak7240/interfaces.md)!!!
+!!!include(en-us/datasheet/rak7240/certifications.md)!!!
