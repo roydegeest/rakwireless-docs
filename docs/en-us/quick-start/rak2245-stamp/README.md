@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak2245-stamp/overview
-rak_img: ylbgm3hgwwari6itxmii.png
+rak_img: RAK2245-stamp-edition.svg
 rak_grp: lora-gateway
 params:
   qlinks:

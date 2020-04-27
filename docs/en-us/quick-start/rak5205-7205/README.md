@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5205-7205/overview
-rak_img: exlexmejfxoowom4gmuf.jpg
+rak_img: RAK5205.svg
 rak_grp: lora-node
 params:
   qlinks:

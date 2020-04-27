@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak4600/1.overview
-rak_img: fnzdgl9lx3nyimumyq1j.jpg
+rak_img: RAK4600-evaluation-board.svg
 rak_grp: lora-node
 params:
   qlinks1:

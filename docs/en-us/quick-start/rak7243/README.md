@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7243/1.main
 next: /en-us/quick-start/rak7243/quick-start-guide/#quick-start-guide
-rak_img: rak7243_overview.jpg
+rak_img: RAK7243.svg
 rak_grp: lora-gateway
 params:
   qlinks1:

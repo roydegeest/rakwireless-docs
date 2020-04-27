@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak612/main
-rak_img: rak612-overview.png
+rak_img: RAK612.svg
 rak_grp: lora-node
 params:
   qlinks1:
@@ -23,7 +23,7 @@ params:
 # RAK612 LPWAN Button
 
 <rk-img
-  :src="`${$frontmatter.static_root}/rak612-overview.png`"
+  :src="`${$frontmatter.static_root}/RAK612.svg`"
   width="60%"
   figure-number="1"
   caption="RAK612 LPWAN Button"

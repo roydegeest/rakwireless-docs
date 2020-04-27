@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/overview
-rak_img: o5qqux3jaeyiiuosw0qi.jpg
+rak_img: rak811-wisnode.svg
 rak_grp: lora-node
 params:
   qlinks:
@@ -26,7 +26,7 @@ params:
 
 <rk-img
   :src="`${$frontmatter.static_root}/o5qqux3jaeyiiuosw0qi.jpg`"
-  width="70%"
+  width="75%"
   figure-number="1"
   caption="RAK811 LPWAN Evaluation Board"
 />
