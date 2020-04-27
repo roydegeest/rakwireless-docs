@@ -2,8 +2,8 @@
 sidebar: false
 ---
 
-# RAKwireless Docs Quick Start Guide
+# Welcome to Quick Start Guide
 
-The RAKwireless Docs is a great place to explore our hardware, software and developer tools, and find all the information you need to get started in your LoRa project!
+Learn how to set up your device for the first time and deploy with only its core functionality in mind.
 
 <grid-imgs />

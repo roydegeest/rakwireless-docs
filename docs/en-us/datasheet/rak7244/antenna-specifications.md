@@ -1,24 +1,24 @@
-## X. Antenna Specifications
+## Antenna Specifications
 
 ### LoRa® Antenna
 
 The LoRa® Antenna with RP-SMA female connector is shown in the image below:
 
 <rk-img
-  src="/assets/images/datasheet/rak7244c/antenna-specifications/ve8scbrbhdlcdaxa8x43.png"
+  src="/assets/images/datasheet/rak7244/antenna-specifications/ve8scbrbhdlcdaxa8x43.png"
   width="75%"
-  figure-number="9"
+  figure-number="15"
   caption="LoRa® Antenna Overview"
 />
 
 ### Antenna Dimension
 
-Figure 2 shows the antenna's mechanical dimension.
+Figure 16 shows the antenna's mechanical dimension.
 
 <rk-img
-  src="/assets/images/datasheet/rak7244c/antenna-specifications/fggmm4b6rk79c5jj9xot.png"
+  src="/assets/images/datasheet/rak7244/antenna-specifications/fggmm4b6rk79c5jj9xot.png"
   width="75%"
-  figure-number="10"
+  figure-number="16"
   caption="LoRa® Antenna Dimension"
 />
 
@@ -33,21 +33,21 @@ Figure 2 shows the antenna's mechanical dimension.
 
 ### LTE Antenna
 
-The LTE antenna for the Developer Gateway covers working frequency band from 824MHz to 2690MHz. The antenna is shown in Figure 3.
+The LTE antenna for the Developer Gateway covers working frequency band from 824MHz to 2690MHz. The antenna is shown in Figure 17.
 
 <rk-img
-  src="/assets/images/datasheet/rak7244c/antenna-specifications/rhh9xrj0pfazqtaegxiv.jpg"
+  src="/assets/images/datasheet/rak7244/antenna-specifications/rhh9xrj0pfazqtaegxiv.jpg"
   width="75%"
-  figure-number="11"
+  figure-number="17"
   caption="LTE Antenna"
 />
 
 ### Antenna Dimension
 
 <rk-img
-  src="/assets/images/datasheet/rak7244c/antenna-specifications/hmqp4xvybryisixcoq86.jpg"
+  src="/assets/images/datasheet/rak7244/antenna-specifications/hmqp4xvybryisixcoq86.jpg"
   width="75%"
-  figure-number="12"
+  figure-number="18"
   caption="LTE Antenna Dimension"
 />
 
@@ -66,18 +66,18 @@ The LTE antenna for the Developer Gateway covers working frequency band from 824
 The GPS antenna for Pilot Gateway is shown below
 
 <rk-img
-  src="/assets/images/datasheet/rak7244c/antenna-specifications/ftzgxoaywuiq7xmy8shj.jpg"
+  src="/assets/images/datasheet/rak7244/antenna-specifications/ftzgxoaywuiq7xmy8shj.jpg"
   width="40%"
-  figure-number="13"
+  figure-number="19"
   caption="GPS Antenna"
 />
 
 ### GPS Antenna Dimension
 
 <rk-img
-  src="/assets/images/datasheet/rak7244c/antenna-specifications/boh9fwujcictm8er5yug.jpg"
+  src="/assets/images/datasheet/rak7244/antenna-specifications/boh9fwujcictm8er5yug.jpg"
   width="75%"
-  figure-number="14"
+  figure-number="20"
   caption="GPS Antenna Dimensions"
 />
 

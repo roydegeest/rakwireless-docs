@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/interfacing-with-rak811
+next: /en-us/quick-start/rak811/connecting-to-ttn/
 ---
 
 # Interfacing with RAK811 LPWAN Evaluation Board
@@ -72,4 +73,4 @@ at+version
   caption="AT+Command Sample Serial Communication Test"
 />
 
-Congratulations! :tada: You have just successfully interfaced your RAK811 LPWAN Evaluation Board with your computer! Go on to the next documentations to fully configure your RAK811 LPWAN Evaluation Board.
+Congratulations! :tada: You have just successfully interfaced your RAK811 LPWAN Evaluation Board with your computer! Go on to the next documentations to fully configure your RAK811 LPWAN Evaluation Board and Connect it to The Things Network (TTN).

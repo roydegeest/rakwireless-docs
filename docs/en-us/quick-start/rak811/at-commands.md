@@ -1,9 +1,8 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/configuring-your-rak811
-next: connecting-to-ttn/
 ---
 
-# Configuring your RAK811 LPWAN Evaluation Board
+# AT Commands for RAK811 LPWAN Evaluation Board
 
 The purpose of this document is to demonstrate on how to configure the RAK811 LPWAN Evaluation Board thru the use of AT Commands via a **Serial Port Tool** running in your Windows PC. The list below shows the AT Commands available for use:
 

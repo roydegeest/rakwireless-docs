@@ -1,6 +1,4 @@
----
-next: connecting-to-ttn/
----
+
 
 # Configuring the RAK7200 LPWAN Tracker using AT Commands
 

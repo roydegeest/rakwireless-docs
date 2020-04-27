@@ -3,35 +3,41 @@
     <div class="row fit q-gutter-x-md justify-center">
       <q-btn
         label="RUI"
-        to="#"
+        to="/en-us/rui/"
         class="col-12 col-sm-2"
         color="white"
         flat
       />
       <q-btn
         label="Store"
-        to="#"
+        type="a"
+        href="https://store.rakwireless.com/"
+        target="__blank"
         class="col-12 col-sm-2"
         color="white"
         flat
       />
       <q-btn
         label="Downloads"
-        to="#"
+        type="a"
+        href="https://downloads.rakwireless.com/"
+        target="__blank"
         class="col-12 col-sm-2"
         color="white"
         flat
       />
       <q-btn
         label="FAQ"
-        to="#"
+        to="/en-us/faq"
         class="col-12 col-sm-2"
         color="white"
         flat
       />
       <q-btn
         label="Forums"
-        to="#"
+        type="a"
+        href="https://forum.rakwireless.com/"
+        target="__blank"
         class="col-12 col-sm-2"
         color="white"
         flat
