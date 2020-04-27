@@ -2,6 +2,8 @@
 next: status-page
 ---
 
+# Web Management Platform
+
 This section describes in detail the functionality of the Web Management UI. It is based on OpenWRT and is shared among all gateway products of RAKwireless Commercial Gateway line.
 
 ## Accessing the Web Management Platform

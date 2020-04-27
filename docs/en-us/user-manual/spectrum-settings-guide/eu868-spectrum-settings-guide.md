@@ -1,7 +1,7 @@
 
 # EU868 Spectrum Settings
 
-This is the LoRa RF Radio unit. It integrated two **Semtech SX1257** front-end modules with the
+This is the LoRa® RF Radio unit. It integrated two **Semtech SX1257** front-end modules with the
 most popular LoRaWAN® Baseband chip, the **SX1301**. Because of the design of the
 concentrator module, there are two separate RX chains, which need to have the proper
 number of channels assigned in order for the module to function optimally. The chains are
