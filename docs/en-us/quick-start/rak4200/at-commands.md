@@ -1,7 +1,5 @@
----
-next: connecting-to-ttn/
----
-# Configuring using AT Commands
+
+# AT Commands for RAK4200 LPWAN Evaluation Board
 The purpose of this document is to demonstrate on how to configure the  RAK4200 LPWAN Evaluation Board thru the use of AT Commands via a Serial Port Tool running in your Windows PC. The list below shows the AT Commands available for use:
 
 | AT Command    | Description |

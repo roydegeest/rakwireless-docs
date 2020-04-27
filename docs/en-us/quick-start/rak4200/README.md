@@ -14,7 +14,7 @@ params:
     resources:
       - name: Datasheet
         href: /en-us/datasheet/rak4200/#rak4200-lpwan-module
-      - name: Evaluation Board Schematic Diagram
+      - name: RAK4200 Evaluation Board Schematic Diagram
         href: https://downloads.rakwireless.com/LoRa/RAK4200/Hardware-Specification/RAK4200_EVB_Schematic.pdf
       - name: RAK4200 Module Schematic Diagram
         href: https://downloads.rakwireless.com/LoRa/RAK4200/Hardware-Specification/RAK4200_Schematic.pdf

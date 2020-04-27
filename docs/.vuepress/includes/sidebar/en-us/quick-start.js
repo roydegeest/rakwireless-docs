@@ -323,7 +323,6 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         'interfacing-with-rak811',
-        'configuring-your-rak811',
         {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
@@ -352,6 +351,7 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
+        'at-commands',
         'upgrading-the-firmware',
         'rui-online-compiler',
         {
@@ -422,7 +422,6 @@ module.exports = {
           path: '/en-us/quick-start/rak4260/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa'
-
           ]
         }
       ]
@@ -444,7 +443,6 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         'interfacing',
-        'configuring-using-at-commands',
         {
           title: "Connecting to The Things Network",
           nested: true,
@@ -473,6 +471,7 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
+        'at-commands',
         'burning-the-firmware',
         'upgrading-the-firmware'
       ]
@@ -812,7 +811,6 @@ module.exports = {
             'interfacing/checking-device-logs',
           ]
         },
-        'at-commands',
         'configuring-rak4600',
         {
           title: "Connecting to The Things Network",
@@ -841,6 +839,7 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
+        'at-commands',
         'bluetooth-connection-modes',
         'burning-the-firmware',
         'upgrading-firmware',
