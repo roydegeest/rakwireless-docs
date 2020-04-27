@@ -79,10 +79,10 @@ module.exports = {
           ]
         },
         {
-          title: "RAK7244C LPWAN Developer Gateway",
+          title: "RAK7244 LPWAN Developer Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/datasheet/rak7244c/',
+          path: '/en-us/datasheet/rak7244/',
           children: [
 
           ]

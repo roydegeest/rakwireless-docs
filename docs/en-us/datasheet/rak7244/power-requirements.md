@@ -1,6 +1,6 @@
-## VII. Power Requirements
+## Power Requirements
 
-The RAK7244C LPWAN Developer Gateway operates at 5V/2.5A and can be powered by micro USB.
+The Pilot Gateway Pro operates at 5V/2.5A, that are provisioned through an USB Type C port.
 
 | **Parameter**                   | **Min.** | **Typical** | **Max** |
 | ------------------------------- | -------- | ----------- | ------- |
