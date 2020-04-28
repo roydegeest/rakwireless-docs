@@ -1,10 +1,11 @@
 ---
+prev: /en-us/user-manual/gateway-firmware-burning/#device-firmware-setup
 next: firmware-burning
 ---
 
 # Firmwares
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra orci porttitor ipsum efficitur, ut ornare nibh ultrices. Ut id metus nec neque fringilla hendrerit id vitae augue. Nullam finibus turpis eu aliquet aliquet. Aliquam porta metus luctus ipsum posuere commodo. Duis id ligula justo.
+Welcome to the Developer Gateways Firmware Catalog. Download the latest firmware on your chosen device and proceed to the [Firmware Burning](/en-us/user-manual/gateway-firmware-burning/firmware-burning.html#burn-the-firmware) section to burn it. 
 
 |                        Model                              |              Raspberry Board         |Firmware Version|       Source           |
 |-----------------------------------------------------------|--------------------------------------|----------------|------------------------|

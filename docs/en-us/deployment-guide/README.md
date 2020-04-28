@@ -1,5 +1,6 @@
 ---
 sidebar: false
+next: false
 ---
 
 # Welcome to Deployment Guide
