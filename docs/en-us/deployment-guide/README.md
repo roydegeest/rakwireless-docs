@@ -4,7 +4,14 @@ sidebar: false
 
 # Welcome to Deployment Guide
 
-Practical examples and tutorials on common use cases. Contains varied documents, specifically addressing one use case.
+Practical examples and tutorials on common use cases; contains varied documents, specifically addressing one use case.
+
+<!---
+This guide discusses detailed information on how to set-up and configure the device. It also contains a sample demonstration on how to interconnect several devices on different configuration cases. 
+
+Should you have any questions, require further information or any errors encounter, kindly contact us through email: insert email here.
+-->
+
 
 <summary><b>Commercial Gateways</b></summary> 
 <li><a href="/en-us/deployment-guide/build-in-lora-server/">Built-in LoRa Network Server</a></li>
