@@ -1,6 +1,7 @@
 ---
 title: Quick Start Guide
 static_root: /assets/images/quick-start-guide/rak2245/1.product-overview/2.quick-start
+next: /en-us/quick-start/rak2245-pi-hat/accessing-your-gateway/
 ---
 
 # Quick Start Guide

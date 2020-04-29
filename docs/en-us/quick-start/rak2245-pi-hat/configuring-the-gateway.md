@@ -1,6 +1,6 @@
 ---
 title: Configuring the Gateway
-
+next: connecting-to-the-ttn
 params:
 
   img1:

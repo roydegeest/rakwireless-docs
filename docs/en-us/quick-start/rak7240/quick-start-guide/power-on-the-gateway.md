@@ -1,4 +1,5 @@
 ---
+prev: /en-us/quick-start/rak7240/quick-start-guide/#quick-start-guide
 next: /en-us/quick-start/rak7240/quick-start-guide/access-the-gateway.html
 ---
 

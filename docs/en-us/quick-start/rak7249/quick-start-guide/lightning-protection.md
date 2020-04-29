@@ -1,5 +1,5 @@
 ---
-title: Lightning Protection
+next: power-on-the-gateway
 ---
 # Lightning Protection
 

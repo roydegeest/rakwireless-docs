@@ -1,5 +1,6 @@
 ---
-title: Gateway Installation Guide
+prev: /en-us/quick-start/rak7249/quick-start-guide/#quick-start-guide
+next: solar-panel-and-battery-kit-installation
 ---
 # Gateway Installation Guide
 

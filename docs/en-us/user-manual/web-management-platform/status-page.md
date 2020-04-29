@@ -1,4 +1,5 @@
 ---
+prev: /en-us/user-manual/web-management-platform/#web-management-platform
 next: network-configuration
 ---
 

@@ -1,3 +1,7 @@
+---
+next: false
+---
+
 # Burn the Firmware
 
 ::: tip 📝 NOTE:

@@ -1,12 +1,8 @@
+---
+next: false
+---
+
 # KR920 Spectrum Settings
-
-This is the LoRa® RF Radio unit. It integrated two **Semtech SX1257** front-end modules with the most popular LoRaWAN® Baseband chip, the **SX1301**. Because of the design of the concentrator module, there are two separate RX chains, which need to have the proper number of channels assigned in order for the module to function optimally. The chains are referred to as Radio 0 and Radio 1 in the Web Management Platform.
-
-* **Radio 0**: can work in both TX and RX mode. It can have up to 5 channels assigned
-* **Radio 1**: works solely in RX mode. It can also have up to 5 channels assigned.
-
-The concentrator module supports up to 8 Multi-Spreading Factor Channels (Multi-SF), 1 Lora Standard Channel and 1 FSK Channel, that can be spread over the 2 Radios as long as the 5 channels/Radio rule is obeyed.
-
 
 Let us take as an example the **KR920-923 frequency band**. When accessing the Web Management Platform, there is a template for it that you can
 import directly which would not need to set every channel manually. However, the way it has been configured is in accordance with principles that apply for any band.

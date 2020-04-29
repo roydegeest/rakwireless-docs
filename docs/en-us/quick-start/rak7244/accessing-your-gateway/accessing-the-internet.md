@@ -1,5 +1,6 @@
 ---
 title: Accessing the Internet
+prev: /en-us/quick-start/rak7244/accessing-your-gateway/#accessing-your-gateway
 ---
 
 # Accessing the Internet

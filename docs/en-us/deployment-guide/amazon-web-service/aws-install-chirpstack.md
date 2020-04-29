@@ -1,4 +1,5 @@
 ---
+prev: /en-us/deployment-guide/amazon-web-service/#amazon-web-service
 next: install-the-gateway-bridge
 ---
 # Chirpstack

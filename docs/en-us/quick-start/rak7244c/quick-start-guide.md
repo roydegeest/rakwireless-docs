@@ -1,11 +1,12 @@
 ---
 title: Quick Start Guide
+next: /en-us/quick-start/rak7244c/accessing-your-gateway/#accessing-your-gateway
 ---
 
 # Quick Start Guide
 
 <rk-img
-  src="/assets/images/datasheet/rak7244c/quick-start-guide/fendmvbfrguhtcxjnewh.jpg"
+  src="/assets/images/quick-start-guide/rak7244c/quick-start-guide/fendmvbfrguhtcxjnewh.jpg"
   width="90%"
   figure-number="1"
   caption="RAK7244C Product Overview"
