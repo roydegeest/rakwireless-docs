@@ -2,17 +2,33 @@
 
 ![Hardware FAQ Logo](/assets/images/faq/hardware/hardware-overview.png)
 
-:::details 1. Can we develop our own Applications in RAK’s LoRaWAN® modules?
+<faq default-opened>
+<template #question>
+1. Can we develop our own Applications in RAK’s LoRaWAN® modules?
+</template>
+<template #answer>
 
 Yes, with the newly released **RAK RUI API**, it is now possible to connect specific sensors in your device. You will be able to customize your own firmware for your specific needs whether be a project or even as a hobby. Check out this [Guide](https://doc.rakwireless.com/developer-tools/developer-tools/getting-started) for more information about RAK RUI API. You can also check out this sample [Firmware Customizing](https://doc.rakwireless.com/rak7204-lora-environmental-sensor/firmware-customizing) guide on how to upload your firmware to your device.
-:::
 
-:::details 2. What are the external interfaces in RAK5205 Wistrio LPWAN Tracker? What are the frequency bands that it supports?and how many GPIOs are there?
+</template>
+</faq>
+
+<faq>
+<template #question>
+2. What are the external interfaces in RAK5205 Wistrio LPWAN Tracker? What are the frequency bands that it supports?and how many GPIOs are there?
+</template>
+<template #answer>
 
 The RAK5205 LPWAN Tracker board is built on the Semtech SX1276 chip, with the STM32L1 MCU at its core. It supports **I2C, GPIOs, UART and ADC interfaces**. The board supports all LoRaWAN® frequency channels (EU433, EU868, CN470 , US915, AS920, AS923, AU915, KR920, IN865) which is easy to configure while building the firmware from the source code. The RAK5205 has 7 GPIOs labeled as **PA8, PB3, PB5, SWD*TMS, SWD* CLK, LED1_PA12 and LED2_PB4**. Checkout the [RK5205 Datasheet](/en-us/datasheet/rak5205/pin-definition.html) for a full overview of the pinout diagram.
-:::
 
-:::details 3. What are the frequencies supported by RAK Gateways?
+</template>
+</faq>
+
+<faq>
+<template #question>
+3. What are the frequencies supported by RAK Gateways?
+</template>
+<template #answer>
 
 RAK Gateways support all LoRaWAN® frequency channels as shown in the list provided below:
 
@@ -25,36 +41,61 @@ RAK Gateways support all LoRaWAN® frequency channels as shown in the list provi
 - AS920
 - KR920
 - AS923
-  :::
 
-:::details 4. Will the RAK2245 Pi Hat work with the newly released Raspberry Pi 4?
+</template>
+</faq>
+
+<faq>
+<template #question>
+4. Will the RAK2245 Pi Hat work with the newly released Raspberry Pi 4?
+</template>
+<template #answer>
 
 Yes. We have provided a pre-compiled firmware image that you can just easily use and flash it into your Raspberry Pi 4. You can check out the [RAK2245 - Pi Hat Device Firmware Setup](/en-us/quick-start/rak2245-pi-hat/device-firmware-setup.html) guide on how to burn the firmware image into your Raspberry Pi device.
 
 Note:
 
 - Use the official **USB-C Power supply** to have a stable power supply
-  :::
 
-:::details 5. What is the range that I can achieve with LoRa®?
+</template>
+</faq>
+
+<faq>
+<template #question>
+5. What is the range that I can achieve with LoRa®?
+</template>
+<template #answer>
 
 Technically, one can achieve with a range of **10-15 km** but there are a lot of factors that one should consider like placement of gateway, type of antenna used, message payload, physical obstructions and many more. In Rakwireless, we have obtained with a range of **20km** through the use of the **RAK7249 Macro Outdoor Gateway.** Checkout the [RAKwireless LoRaWAN® Coverage Drive Test Document](https://downloads.rakwireless.com/en/LoRa/DIY-Gateway-RAK7249/Application-Notes/RAKwireless_LoRAWAN_Coverage_Drive_Test_Report.pdf) to learn more.
-:::
 
-:::details 6. What is the meaning of the LED of the RAK612 LPWAN Button?
+</template>
+</faq>
+
+<faq>
+<template #question>
+6. What is the meaning of the LED of the RAK612 LPWAN Button?
+</template>
+<template #answer>
 
 Whenever the keys 1 - 4 is pressed, the corresponding basket light under each key lights up for 300ms. To enter Configuration Mode, long press Key 1 for at least 500 ms. Press Key 1 again for at least 500 ms to exit Configuration Mode.
 
+<rk-table>
 | Mode                    | Red LED     | Green LED | Blue LED                  |
 | ----------------------- | ----------- | --------- | ------------------------- |
 | Configuration Mode      | Steady ON   | OFF       | OFF                       |
 | Transmission Successful | ON          | OFF       | Flash Twice after Red LED |
 | Transmission Fail       | Flash Twice | OFF       | OFF                       |
 | USB Cable Plugged       | OFF         | ON        | OFF                       |
+</rk-table>
 
-:::
+</template>
+</faq>
 
-:::details 7. What is the average power consumption of the RAK7249 Macro Outdoor Gateway with LTE working for both 8-channel and 16-channel LoRa?
+<faq>
+<template #question>
+7. What is the average power consumption of the RAK7249 Macro Outdoor Gateway with LTE working for both 8-channel and 16-channel LoRa?
+</template>
+<template #answer>
 
 - Note: To attain such test condition, settings must be followed below:
   - **GPS and Wi-Fi**: Disabled
@@ -68,14 +109,21 @@ Whenever the keys 1 - 4 is pressed, the corresponding basket light under each ke
 * **At 16-Channels Working**
   - 12V DC Power Supply-Average Power: 12 Volts x 0.46 Amperes = **5.52 Watts**
   - PoE 48V Power Supply-Average Power: 48 Volts x 0.13 Amperes = **6.24 Watts**
-:::
 
-:::details 8. How many lora modules does RAK currently have? What are the features of each module?
+</template>
+</faq>
+
+<faq>
+<template #question>
+8. How many lora modules does RAK currently have? What are the features of each module?
+</template>
+<template #answer>
 
 The following are the available modules: **RAK4200, RAK4270, RAK4600, RAK4260, RAK811, RAK2200 several modules with RAK4200 and RAK811** for both high and low frequency.
 
 The features of each module are shown in the following table:
 
+<rk-table>
 | Module Name     | RAK4200                                                                     | RAK4270                                              | RAK4600                                                                       | RAK4260                                                                                                    | RAK811                                                                      | RAK2200                                                          |
 | --------------- | --------------------------------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | MCU             | STM32L071KB                                                                 | STM32L071KB                                          | nRF52832                                                                      | ATSAMR34J18B                                                                                               | STM32L151CBU6                                                               | N/A                                                              |
@@ -93,13 +141,20 @@ The features of each module are shown in the following table:
 | RF port         | with Ipex                                                                   | without Ipex                                         | •LoRa® with Ipex <br>•BT with ipex                                            | Stamp pinout without Ipex                                                                                  | Stamp pinout without Ipex                                                   | Stamp pinout without Ipex                                        |
 | Pin Count       | 20                                                                          | 20                                                   | 42                                                                            | 36                                                                                                         | 34                                                                          | 24                                                               |
 | Program Tool    | J-link                                                                      | J-link                                               | J-link                                                                        | J-link                                                                                                     | UART                                                                        | N/A                                                              |
+</rk-table>
 
-:::
+</template>
+</faq>
 
-:::details 9. What is the difference between all Raspberry Pi based LPWAN Gateways that RAK currently offers?
+<faq>
+<template #question>
+9. What is the difference between all Raspberry Pi based LPWAN Gateways that RAK currently offers?
+</template>
+<template #answer>
 
 Currently, RAKwireless offers 4 Raspberry Pi Based LoRaWAN Gateways namely RAK7246G, RAK7246, RAK7243 and RAK7244.
 
+<rk-table>
 |                        | RAK7246                     | RAK7246G                    | RAK7243                         | RAK7244                         |
 | ---------------------- | --------------------------- | --------------------------- | ------------------------------- | ------------------------------- |
 | Platform               | Raspberry Pi Zero W         | Raspberry Pi Zero W         | Raspberry Pi 3B+                | Raspberry Pi 4                  |
@@ -110,5 +165,7 @@ Currently, RAKwireless offers 4 Raspberry Pi Based LoRaWAN Gateways namely RAK72
 | Enclosure              | Acrylic                     | Acrylic                     | Metal                           | Metal                           |
 | Cost                   | \$99                        | \$114                       | \$199                           | \$212                           |
 | Target Use Case        | Development Platform in Lab | Development Platform in Lab | Development and Real Deployment | Development and Real Deployment |
+</rk-table>
 
-:::
+</template>
+</faq>
