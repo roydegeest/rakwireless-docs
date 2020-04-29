@@ -17,7 +17,7 @@ The RAK5205 LoRa® Tracker Board has an operating voltage of 3.7V. It can be pow
 <rk-img
   src="/assets/images/datasheet/rak5205/powered-by-micro-usb.png"
   width="75%"
-  figure-number="7"
+  figure-number="8"
   caption="Powered by Micro USB"
 />
 
@@ -26,6 +26,6 @@ The board can also be powered by a 3.7V Li-Ion battery. You can connect a 5V sol
 <rk-img
   src="/assets/images/datasheet/rak5205/rak5205-with-5v-solar-panel-plastic-enclosure-and-li-ion-battery.png"
   width="50%"
-  figure-number="8"
+  figure-number="9"
   caption="RAK5205 With 5V Solar Panel, Plastic Enclosure and Li-ion Battery"
 />

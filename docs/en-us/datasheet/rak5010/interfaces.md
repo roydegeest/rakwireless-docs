@@ -5,10 +5,10 @@
 The block diagram below shows the internal architecture and external interfaces of the RAK5010 board.
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/block_diagram.jpg"
+  src="/assets/images/datasheet/rak5010/block-diagram.png"
   width="100%"
   figure-number="8"
-  caption="Block Diagram of RAK5010"
+  caption="RAK5010 Block Diagram"
 />
 
 ### Interfaces

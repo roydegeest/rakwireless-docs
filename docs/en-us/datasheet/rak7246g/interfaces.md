@@ -27,7 +27,7 @@ recommended to utilize the latest HAL as provided by Semtech on [https://github.
 #### Block Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak7246g/interfaces/lwlwm5p9t7vg7oshxox0.jpg"
+  src="/assets/images/datasheet/rak7246g/interfaces/block-diagram.png"
   width="100%"
   figure-number="6"
   caption="Block Diagram"

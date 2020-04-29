@@ -1,11 +1,24 @@
 ## Interfaces
 
+### Block Diagram
+
+In figure 4, it shows the block diagram of the external interfaces of RAK4200 LPWAN Module. 
+
+
+<rk-img
+  src="/assets/images/datasheet/rak5205/block-diagram.png"
+  width="100%"
+  figure-number="4"
+  caption="RAK5205 Functional Diagram"
+/>
+
+
 ### Functional Diagram
 
 <rk-img
   src="/assets/images/datasheet/rak5205/rak5205-functional-diagram.png"
   width="100%"
-  figure-number="4"
+  figure-number="5"
   caption="RAK5205 Functional Diagram"
 />
 
@@ -34,7 +47,7 @@ A Standard Micro-B USB compliant with USB 2.0 standard specification is used to 
 <rk-img
   src="/assets/images/datasheet/rak5205/micro-usb-pinout.png"
   width="25%"
-  figure-number="5"
+  figure-number="6"
   caption="Micro USB Pinout"
 />
 

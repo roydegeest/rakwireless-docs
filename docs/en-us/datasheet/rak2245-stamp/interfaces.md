@@ -3,7 +3,7 @@
 ### Block Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak2245-stamp/interfaces/block_diagram.png"
+  src="/assets/images/datasheet/rak2245-stamp/interfaces/block-diagram.png"
   width="100%"
   figure-number="3"
   caption="RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module Block Diagram"

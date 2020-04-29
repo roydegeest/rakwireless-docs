@@ -5,7 +5,7 @@
 The block diagram below shows the internal architecture and external interfaces of the RAK7200 LPWAN Tracker.
 
 <rk-img
-  src="/assets/images/datasheet/rak7200/block_diagram.png"
+  src="/assets/images/datasheet/rak7200/block-diagram.png"
   width="100%"
   figure-number="4"
   caption="RAK7200 LPWAN Tracker Block Diagram"
