@@ -2,6 +2,7 @@
 static_root: /assets/images/quick-start-guide/rak2245/1.product-overview/1.index
 rak_img: RAK2245-pi-hat.svg
 rak_grp: lora-gateway
+next: quick-start-guide
 params:
   qlinks:
     learnMore:

@@ -1,4 +1,5 @@
 ---
+prev: /en-us/deployment-guide/build-in-lora-server/#build-in-lora-network-server-configuration
 next: rak-lpwan-node
 ---
 

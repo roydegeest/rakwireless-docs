@@ -1,3 +1,7 @@
+---
+next: false
+---
+
 # Gateway Configuring
 
 ## Packet Forwarder Set-up

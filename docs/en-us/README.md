@@ -11,7 +11,7 @@ features:
     actionLink: /en-us/quick-start/
   - title: Datasheet
     details: Detailed information about the components of the device and its functionality.
-    actionLink: /en-us/datasheet/
+    actionLink: /en-us/datasheet/rak831/#rak831-lpwan-gateway-concentrator
   - title: User Manual
     details: A software reference cheat sheet to help you navigate the firmware and interface of our devices.
     actionLink: /en-us/user-manual/

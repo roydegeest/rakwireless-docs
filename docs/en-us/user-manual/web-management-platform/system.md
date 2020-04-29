@@ -1,3 +1,7 @@
+---
+next: false
+---
+
 # System
 
 ## 1. System

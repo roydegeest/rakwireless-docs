@@ -1,3 +1,7 @@
+---
+next: false
+---
+
 # RAK LPWAN Node
 
 This document discusses the steps on how to add your RAK811 LPWAN Node Application into the Built-in LoRa® Network Server demonstration. For this demonstration, it is best advised to use our very own [RAK Serial Port Tool](https://downloads.rakwireless.com/en/LoRa/Tools/).
