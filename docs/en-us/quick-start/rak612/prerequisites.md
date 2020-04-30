@@ -1,4 +1,4 @@
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   src="/assets/images/quick-start-guide/rak612/quick-start-guide/rak612-overview.jpg"

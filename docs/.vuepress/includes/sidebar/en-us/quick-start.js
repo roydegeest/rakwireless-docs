@@ -308,7 +308,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -369,7 +369,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -399,7 +399,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -428,7 +428,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -480,7 +480,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -530,7 +530,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -561,7 +561,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -614,7 +614,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -664,7 +664,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -717,7 +717,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -756,7 +756,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -789,7 +789,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
