@@ -1,5 +1,5 @@
 ---
-title: Solar Panel and Battery Kit Installation
+next: lightning-protection
 ---
 # Solar Panel and Battery Kit Installation
 

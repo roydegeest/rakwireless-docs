@@ -1,4 +1,5 @@
 ---
+prev: /en-us/quick-start/rak7243/#rak7243-lpwan-developer-gateway
 next: access-the-gateway
 ---
 

@@ -28,7 +28,7 @@ Pin1 is connected to BOOT0. Pin2 is connected to VDD. Enter flash mode through j
 <rk-img
   src="/assets/images/datasheet/rak5205/rak5205-pinout-diagram.jpg"
   width="75%"
-  figure-number="6"
+  figure-number="7"
   caption="RAK5205 Pinout Diagram"
 />
 

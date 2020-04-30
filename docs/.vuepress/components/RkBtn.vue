@@ -5,6 +5,7 @@
       color="primary"
       type="a"
       target="_blank"
+      size="0.95rem"
       :label="opt.label"
       :href="opt.src"
       rounded
@@ -13,6 +14,7 @@
     <q-btn
       v-else
       color="primary"
+      size="0.95rem"
       :label="opt.label"
       :to="opt.src"
       rounded

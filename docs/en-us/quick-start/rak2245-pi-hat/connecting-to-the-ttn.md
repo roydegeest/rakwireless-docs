@@ -1,6 +1,6 @@
 ---
 title: Connecting to The Things Network (TTN)
-
+next: connecting-with-chirpstack
 params:
 
   img1:

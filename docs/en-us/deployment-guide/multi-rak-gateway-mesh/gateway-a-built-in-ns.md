@@ -1,4 +1,5 @@
 ---
+prev: /en-us/deployment-guide/multi-rak-gateway-mesh/#multi-rak-gateway-mesh
 next: gateway-b-mqtt-bridge
 ---
 

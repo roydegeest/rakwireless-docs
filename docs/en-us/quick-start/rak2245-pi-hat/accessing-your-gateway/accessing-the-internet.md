@@ -1,6 +1,7 @@
 ---
 title: Accessing the Internet
-
+prev: /en-us/quick-start/rak2245-pi-hat/accessing-your-gateway/
+next: /en-us/quick-start/rak2245-pi-hat/configuring-the-gateway.html
 params:
 
   img1:

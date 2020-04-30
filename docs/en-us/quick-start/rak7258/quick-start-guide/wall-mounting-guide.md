@@ -1,4 +1,5 @@
 ---
+prev: /en-us/quick-start/rak7258/quick-start-guide/#quick-start-guide
 next: power-on-the-gateway
 ---
 

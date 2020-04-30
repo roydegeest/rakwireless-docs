@@ -1,5 +1,6 @@
 ---
 title: Quick Start Guide
+next: /en-us/quick-start/rak7246g/accessing-your-gateway/#accessing-your-gateway
 params:
   {
     img1:

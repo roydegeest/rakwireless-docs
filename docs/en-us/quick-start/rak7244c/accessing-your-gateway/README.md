@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/datasheet/rak7244c/2.accessing-gateway
+prev: /en-us/quick-start/rak7244c/quick-start-guide.html#quick-start-guide
 next: accessing-the-internet
 ---
 

@@ -9,7 +9,7 @@ The LoRa® Antenna and Interfaces are shown in the figure below:
 <rk-img
   src="/assets/images/datasheet/rak5205/rp-sma-male-connector-of-lora®-antenna.jpg"
   width="50%"
-  figure-number="10"
+  figure-number="11"
   caption="RP-SMA Male Connector of LoRa® Antenna"
 />
 
@@ -18,7 +18,7 @@ Here is the iPEX LoRa® Antenna Interface:
 <rk-img
   src="/assets/images/datasheet/rak5205/ipex-antenna-interface-for-lora®-antenna.jpg"
   width="75%"
-  figure-number="11"
+  figure-number="12"
   caption="iPex Antenna Interface for LoRa® Antenna"
 />
 
@@ -27,7 +27,7 @@ Here is the iPEX LoRa® Antenna Interface:
 <rk-img
   src="/assets/images/datasheet/rak5205/lora®-antenna-dimension.jpg"
   width="50%"
-  figure-number="12"
+  figure-number="13"
   caption="LoRa® Antenna Dimension"
 />
 
@@ -48,7 +48,7 @@ The GPS antenna and interfaces for RAK5205 tracker board is shown below:
 <rk-img
   src="/assets/images/datasheet/rak5205/sma-female-interface-for-gps.jpg"
   width="75%"
-  figure-number="13"
+  figure-number="14"
   caption="SMA Female Interface for GPS"
 />
 
@@ -57,7 +57,7 @@ Here is the iPEX GPS Antenna interface:
 <rk-img
   src="/assets/images/datasheet/rak5205/ipex-interface-for-gps-antenna.jpg"
   width="75%"
-  figure-number="14"
+  figure-number="15"
   caption="iPex Interface for GPS Antenna"
 />
 
@@ -66,7 +66,7 @@ Here is the iPEX GPS Antenna interface:
 <rk-img
   src="/assets/images/datasheet/rak5205/gps-antenna-dimension.jpg"
   width="50%"
-  figure-number="15"
+  figure-number="16"
   caption="GPS Antenna Dimension"
 />
 
