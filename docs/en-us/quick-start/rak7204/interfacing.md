@@ -1,8 +1,9 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/3.interfacing
+next: /en-us/quick-start/rak7204/connecting-to-ttn/
 ---
 
-# Interfacing with the RAK7204 LPWAN Environmental Sensor
+# Interfacing with the RAK7204 
 
 In order for you to be able to interface with the RAK7204 LPWAN Environmental Sensor with your Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
 

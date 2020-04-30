@@ -1,9 +1,10 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811-breakout/connecting-to-ttn
+prev: /en-us/quick-start/rak811-breakout/interfacing-with-rak811-breakout
 next: ttn-otaa-mode
 ---
 
-## Connecting to The Things Network (TTN)
+# Connecting to The Things Network (TTN)
 
 The Things Network is about enabling low power devices to be used in long range gateways that connect to an open-source, decentralized network and exchange data with Applications. Learn more about the Things Network [**here**](https://www.thethingsnetwork.org/docs/).
 In this section, we’ll show you how to connect the RAK811 LPWAN Breakout Module with TTN.
@@ -41,6 +42,7 @@ In this section, it is the assumption that you are within the coverage range of 
   caption="TTN Console page"
 />
 
+## Adding an Application
 5. Press the "**add application**" button.
 
 <rk-img

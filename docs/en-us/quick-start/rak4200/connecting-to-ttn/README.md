@@ -1,12 +1,13 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7204/5.connecting-to-ttn/
+static_root: /assets/images/quick-start-guide/rak4200/4.connecting-to-ttn/
+prev: /en-us/quick-start/rak4200/interfacing
 next: ttn-otaa
 ---
 # Connecting to The Things Network (TTN)
 
 The Things Network is about enabling low power devices to be used in long range gateways that connect to an open-source, decentralized network and exchange data with Applications. Learn more about the Things Network [**here**](https://www.thethingsnetwork.org/docs/).
 
-In this section, we will be connecting the RAK7204 LPWAN Environmental Sensor to The Things Network (TTN). If you don't have an account yet, head on to [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and create one. Once done, Log in to your account and go to the console which can be found here:
+In this section, we will be connecting the RAK4200 LPWAN Evaluation Board to The Things Network (TTN). If you don't have an account yet, head on to [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and create one. Once done, Log in to your account and go to the console which can be found here:
 
 <rk-img
   :src="`${$frontmatter.static_root}/szwxvka0wyqg5ybjrffb.png`"

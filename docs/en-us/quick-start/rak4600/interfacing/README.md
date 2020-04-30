@@ -1,4 +1,8 @@
-# Interfacing with Evaluation Board
+---
+prev: /en-us/quick-start/rak4600/quick-start-guide
+next: /en-us/quick-start/rak4600/interfacing/checking-device-logs
+---
+### Interfacing with RAK4600
 
 In order for you to be able to interface with the Evaluation Board, using a Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
 
@@ -26,7 +30,7 @@ Before powering the RAK4600 LPWAN Evaluation Board , you should install the LoRa
 
 <rk-img
   src="/assets/images/quick-start-guide/rak4600/3.interfacing/gnm0smmpj2hiaaxv65m2.png"
-  width="50%"
+  width="100%"
   figure-number="3"
   caption="RAK Serial Port Tool"
 />
@@ -35,7 +39,7 @@ Before powering the RAK4600 LPWAN Evaluation Board , you should install the LoRa
 
 <rk-img
   src="/assets/images/quick-start-guide/rak4600/3.interfacing/cj2yhkexwphkmkscqoxb.png"
-  width="50%"
+  width="100%"
   figure-number="4"
   caption="Device Manager"
 />
@@ -50,7 +54,7 @@ If you didn't find any Port with the name USB-Serial CH340, make sure you have i
 
 <rk-img
   src="/assets/images/quick-start-guide/rak4600/3.interfacing/gqq1izhoofyqj6ecrgaa.png"
-  width="50%"
+  width="100%"
   figure-number="5"
   caption="Correct Port Number and Correct Baud rate"
 />

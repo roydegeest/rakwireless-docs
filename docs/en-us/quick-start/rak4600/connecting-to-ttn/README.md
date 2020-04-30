@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/5.connecting-to-ttn/
+next: /en-us/quick-start/rak4600/connecting-to-ttn/ttn-otaa
+prev: /en-us/quick-start/rak4600/configuring-rak4600
 ---
 # Connecting to The Things Network (TTN)
 

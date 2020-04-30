@@ -31,8 +31,8 @@ Before going through the configuration guide of the RAK4600 LPWAN Evaluation Boa
 :::tip 📝 NOTE
 This device released by RAKWireless is already pre-loaded with its latest firmware upon manufacture. If you want to have your device's firmware burned or upgraded, please refer to the links below:
 
-1. Device Firmware Setup
-2. Device Firmware Upgrading
+1. [Device Firmware Setup](burning-the-firmware) 
+2. [Device Firmware Upgrading](upgrading-firmware)
 :::
 
 ### What's Included in the Package?

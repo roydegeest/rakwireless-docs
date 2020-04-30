@@ -1,8 +1,4 @@
----
-next: /en-us/quick-start/rak612/connecting-to-ttn/#connecting-to-the-things-network-ttn
----
-
-# Configuring the LPWAN Button
+# AT Commands for RAK612 LPWAN Button
 
 The purpose of this document is to demonstrate on how to configure the LPWAN Button thru the use of AT Commands via a Serial Port Tool running in your Windows PC. The list below shows the AT Commands available for use:
 
@@ -10,7 +6,7 @@ The purpose of this document is to demonstrate on how to configure the LPWAN But
 | ---- | ---- | 
 | `at+version` | Get the current firmware version. | 
 | `at+mode=0` | Set the LPWAN Button to work LoRaWAN® mode. | 
-| `at+band=XXX` | Set the region for LoRa®. • XXX - one of the following items: EU868 EU433, CN470, IN865, EU868, AU915, US915, KR920, AS923. | 
+| `at+band=XXX` | Set the region for LoRa®. <br>• XXX - one of the following items: EU868 EU433, CN470, IN865, EU868, AU915, US915, KR920, AS923. | 
 | `at+get_config=dev_eui` | Check the current device EUI | 
 | `at+set_config=join_mode:X` | Set the activation method <br>• X - 0: ABP, 1: OTAA | 
 | `at+set_config=dev_eui:XXXX` | Set the device EUI for OTAA. <br>• XXXX - the device EUI. | 

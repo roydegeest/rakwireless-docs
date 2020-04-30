@@ -87,9 +87,9 @@ Example Data: **09 02 CD BA 0A 02 F3 67 0B 02 17 CA**
 
 ### Input Decoding Function in TTN
 
-**1**. To start with, download the decoding function through this **[link](https://github.com/RAKWireless/RUI_LoRa_node_payload_decoder/blob/master/RUISensorDataDecoder_for_TTN.js)**.
+1. To start with, download the decoding function through this **[link](https://github.com/RAKWireless/RUI_LoRa_node_payload_decoder/blob/master/RUISensorDataDecoder_for_TTN.js)**.
 
-**2**. From your TTN console, go to application page and click the "**Payload Formats**" tab as shown in the image below.
+2. From your TTN console, go to application page and click the "**Payload Formats**" tab as shown in the image below.
 
 <rk-img
   :src="`${$frontmatter.static_root}/sldtdovigclybyfohpcb.jpg`"
@@ -98,7 +98,7 @@ Example Data: **09 02 CD BA 0A 02 F3 67 0B 02 17 CA**
   caption="Payload Format at TTN Application Page"
 />
 
-**3**. Next, select "**Payload Format**" as "**Custom**". Then, from the decoder tab, copy and paste the decoder function from **step 1**.
+3. Next, select "**Payload Format**" as "**Custom**". Then, from the decoder tab, copy and paste the decoder function from **step 1**.
 
 <rk-img
   :src="`${$frontmatter.static_root}/f4iojgdt1y7tyjhs00ir.jpg`"
@@ -122,9 +122,9 @@ After gateway and node go online, click the uplink data record from the applicat
 
 ### Input Decoding Function in ChirpStack
 
-**1.** To start with, download the decoding function through this **[link](https://github.com/RAKWireless/RUI_LoRa_node_payload_decoder/blob/master/RUISensorDataDecoder_for_ChirpStack.js)**.
+1. To start with, download the decoding function through this **[link](https://github.com/RAKWireless/RUI_LoRa_node_payload_decoder/blob/master/RUISensorDataDecoder_for_ChirpStack.js)**.
 
-**2.** From to your ChirpStack, go to application page and click the "**APPLICATION CONFIGURATION**" tab as shown in the image below.
+2. From to your ChirpStack, go to application page and click the "**APPLICATION CONFIGURATION**" tab as shown in the image below.
 
 <rk-img
   :src="`${$frontmatter.static_root}/zjrvbx39f2hb1tzsan9a.jpg`"
@@ -133,7 +133,7 @@ After gateway and node go online, click the uplink data record from the applicat
   caption="Application Configuration Tab"
 />
 
-**3**. Next, select "**Payload codec**" as "**Custom JavaScript codec functions**". Then, from the decoder tab, copy and paste the decoder function from **step 1**.
+3. Next, select "**Payload codec**" as "**Custom JavaScript codec functions**". Then, from the decoder tab, copy and paste the decoder function from **step 1**.
 
 <rk-img
   :src="`${$frontmatter.static_root}/dxyccziqcihhez5ipyvp.jpg`"
@@ -142,7 +142,7 @@ After gateway and node go online, click the uplink data record from the applicat
   caption="Decoded Function in Chirpstack"
 />
 
-**4.** Then, click ‘**UPDATE APPLICATION**’ button to save decoding function.
+4. Then, click ‘**UPDATE APPLICATION**’ button to save decoding function.
 
 ### Testing in Real System in ChirpStack
 

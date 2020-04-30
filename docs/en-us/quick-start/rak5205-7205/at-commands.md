@@ -1,8 +1,4 @@
----
-next: connecting-to-ttn/
----
-
-# Configuring the RAK5205 LPWAN Tracker using AT Commands
+# AT Commands for RAK5205 WisTrio LPWAN Tracker
 
 The purpose of this document is to demonstrate on how to configure the RAK5205 LPWAN Tracker thru the use of AT Commands via a Serial Port Tool running in your Windows PC. The list below shows the AT Commands available for use:
 

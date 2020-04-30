@@ -1,3 +1,6 @@
+---
+prev: /en-us/quick-start/rak4260/connecting-to-ttn/
+---
 # OTAA Mode
 
 1. After connecting the device and choosing the appropriate COM Port and Baudrate, press the "**Reset button**" on your RAK5005 Baseboard Module and If everything works perfectly, you should see the following message below:

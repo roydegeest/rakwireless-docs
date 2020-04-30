@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak4200/5. connecting-to-chirpstack
+prev: /en-us/quick-start/rak4200/connecting-to-chirpstack/chirpstack-abp
 next: chirpstack-otaa
 ---
 ### Connecting with Chirpstack

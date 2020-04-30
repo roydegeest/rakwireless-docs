@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/5.connecting-to-ttn/otaa
+prev: /en-us/quick-start/rak7204/connecting-to-ttn/
 ---
 
 # OTAA Mode

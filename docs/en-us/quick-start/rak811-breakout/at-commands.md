@@ -1,8 +1,4 @@
----
-next: connecting-to-ttn/
----
-
-# Configuring the RAK811 LPWAN Breakout Module using AT Commands
+# AT Commands for RAK811 LPWAN Breakout Module
 
 The purpose of this section is to demonstrate on how to configure the RAK811 through the use of AT Commands via a Serial Port Tool running in your Windows PC. The list below shows the AT Commands available for use:
 

@@ -1,7 +1,4 @@
----
-next: connecting-to-ttn/
----
-# Configuring using AT Commands
+# AT Commands for RAK7204 LPWAN Environmental Sensor
 
 You can configure your RAK7204 Environmental Sensor by sending AT Commands via a Serial port tool running on your PC. The following list shows the AT Commands that you can use:
 

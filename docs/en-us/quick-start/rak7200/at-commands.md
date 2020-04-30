@@ -1,6 +1,6 @@
 
 
-# Configuring the RAK7200 LPWAN Tracker using AT Commands
+# AT Commands for RAK7200 LPWAN Tracker
 
 You can configure your LPWAN Tracker by sending AT Commands via a Serial port tool running on your PC. The following list shows the AT Commands that you can use:
 
@@ -28,7 +28,7 @@ You can configure your LPWAN Tracker by sending AT Commands via a Serial port to
 | `at+set_config=lora:apps_key:XXXX`        | Set the application session key for ABP. <br>• **XXXX -** the application session key.                                                                                                                                                                                                      |
 | `at+set_config=lora:ch_mask:X:Y`       | Turn a certain channel on/off <br>• **X** - The Channel Number you want to toggle. You can check the channel number using the command : `at+get_config=lora:channel` <br>• **Y** - **0**: off, **1**: on                                                                                      |
 | `at+set_config=lora:dr:X`                  | Set the DR of LoRa® Node <br>• **X** - the number of DR. Generally, the value of X can be 0~5. More details, please check the LoRaWAN® 1.0.2 specification.                                                                                                                                 |
-| `at+set_config=lora:tx_power:X`            | Set the TX Power Level <br>• **X** - The level of TX power. If you want to know the relationship between TX power level and dbm, please have a look at\[ LoRaWAN® 1.0.2 region specification \](https://github.com/RAKWireless/Update-File/blob/master/LoRaWANRegionalParametersv1.0.2.pdf) |
+| `at+set_config=lora:tx_power:X`            | Set the TX Power Level <br>• **X** - The level of TX power. If you want to know the relationship between TX power level and dbm, please have a look at [LoRaWAN® 1.0.2 region specification](https://github.com/RAKWireless/Update-File/blob/master/LoRaWANRegionalParametersv1.0.2.pdf) |
 | `at+set_config=lora:send_interval:X:Y` | Set the time interval for sending data <br>• **X** - Enable/disable sending data in intervals. **0**: the device will not send data automatically, **1**: the device will send data every Y seconds. <br>• **Y** - Interval time in seconds. This parameter is only valid if X is set to 1. |
 | `at+get_config=lora:status`                    | It will return all of the current information of LoRa®, except the LoRa® Channel                                                                                                                                                                                                            |
 | `at+get_config=lora:channel `                  | It will return the state of all LoRa® channels, then you can see which channel is closed and which channel is open very clearly                                                                                                                                                             |

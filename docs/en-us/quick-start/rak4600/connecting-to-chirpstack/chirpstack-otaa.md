@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak4200/5. connecting-to-chirpstack/otaa
+prev: /en-us/quick-start/rak4600/connecting-to-chirpstack/
 next: chirpstack-abp
 ---
 # OTAA Mode
@@ -58,7 +59,7 @@ at+set_config=lora:join_mode:0
   :src="`${$frontmatter.static_root}/mrydatc2hlwrxiyjpoqw.jpg`"
   width="60%"
   figure-number="5"
-  caption="hirpstack OTAA Join Mode via RAK Serial Port Tool"
+  caption="Chirpstack OTAA Join Mode via RAK Serial Port Tool"
 />
 
 8. Set the LoRa® class to **Class A**:
@@ -88,33 +89,38 @@ at+set_config=lora:region:EU868
 at+set_config=lora:dev_eui:XXXX
 ```
 <rk-img
-  :src="`${$frontmatter.static_root}/yzqpmzjhqj58akm7xqcm.jpg`"
+  :src="`${$frontmatter.static_root}/vsbevdit52xkqq0ocn5n.jpg`"
   width="60%"
   figure-number="8"
-  caption="Chirpstack OTAA Set Application EUI via RAK Serial Port Tool"
+  caption="Chirpstack OTAA Set Dev EUI via RAK Serial Port Tool"
 />
+
 
 11. Set the **Application EUI**:
 ```
 at+set_config=lora:app_eui:XXXX
 ```
 <rk-img
-  :src="`${$frontmatter.static_root}/uf6hawlomc92hhp2dlbl.jpg`"
+  :src="`${$frontmatter.static_root}/yzqpmzjhqj58akm7xqcm.jpg`"
   width="60%"
   figure-number="9"
-  caption="Chirpstack OTAA Set Application Key via RAK Serial Port Tool"
+  caption="Chirpstack OTAA Set Application EUI via RAK Serial Port Tool"
 />
+
+
 
 12. Set the **Application Key**:
 ```
 at+set_config=lora:app_key:XXXX
 ```
 <rk-img
-  :src="`${$frontmatter.static_root}/kp0hhztd0d1txr0xlsnd.jpg`"
+  :src="`${$frontmatter.static_root}/uf6hawlomc92hhp2dlbl.jpg`"
   width="60%"
   figure-number="10"
-  caption="Chirpstack OTAA Join via RAK Serial Port Tool"
+  caption="Chirpstack OTAA Set Application Key via RAK Serial Port Tool"
 />
+
+
 
 ::: tip 📝 NOTE:
  After configuring all parameters, you need to reset RAK4600 LPWAN Evaluation Board to save the parameters.
@@ -125,16 +131,17 @@ at+set_config=lora:app_key:XXXX
 at+join
 ```
 <rk-img
-  :src="`${$frontmatter.static_root}/1.htym80ccfx3xe5ycormf.png`"
-  width="100%"
+  :src="`${$frontmatter.static_root}/kp0hhztd0d1txr0xlsnd.jpg`"
+  width="60%"
   figure-number="11"
   caption="Chirpstack OTAA Join via RAK Serial Port Tool"
 />
 
 
+
 14. You can then see the **JoinRequest** and **JoinAccept** on ChirpStack page:
 <rk-img
-  :src="`${$frontmatter.static_root}/Chirpstack OTAA JoinRequest and JoinAccept`"
+  :src="`${$frontmatter.static_root}/szgnpputwklp26s1epwd.png`"
   width="100%"
   figure-number="12"
   caption=" Chirpstack OTAA JoinRequest and JoinAccept"

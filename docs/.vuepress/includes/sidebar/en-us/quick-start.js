@@ -489,7 +489,6 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         'interfacing-with-rak7200',
-        'configuring-the-rak7200',
         {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
@@ -518,6 +517,7 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
+        'at-commands',
         'burning-the-bootloader',
         'upgrading-the-firmware'
       ]
@@ -570,7 +570,6 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         'interfacing',
-        'configuring-using-at-commands',
         {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
@@ -602,6 +601,7 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
+        'at-commands',
         'burning-bootloader',
         'burning-firmware'
       ]
@@ -623,7 +623,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         'interfacing-with-rak811-breakout',
-        'configuring-rak811-breakout',
+      
         {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
@@ -652,6 +652,7 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
+        'at-commands',
         'upgrading-the-firmware'
       ]
     }
@@ -672,7 +673,6 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         'interfacing-with',
-        'configuring-using-at-commands',
         {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
@@ -703,6 +703,7 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
+        'at-commands',
         'burning-the-bootloader',
         'upgrading-the-firmware',
         'assembly-guide'
@@ -725,7 +726,6 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         'interfacing-with-rak612',
-        'configuring-the-rak612',
         {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
@@ -744,6 +744,7 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
+        'at-commands',
         'upgrading-the-firmware'
       ]
     }

@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/connecting-to-ttn
+prev: /en-us/quick-start/rak811/interfacing-with-rak811
 next: ttn-otaa-mode
 ---
 
