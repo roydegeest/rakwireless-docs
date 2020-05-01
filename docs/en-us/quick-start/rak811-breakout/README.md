@@ -15,7 +15,7 @@ params:
       - name: Datasheet
         href: /en-us/datasheet/rak811-breakout-module/#rak811-lpwan-breakout-module
       - name: Schematic Diagram
-        href: /en-us/datasheet/rak811-breakout-module/schematic-diagram.html#schematic-diagram
+        href: /en-us/datasheet/rak811-breakout-module/#schematic-diagram
       - name: 3D Model
         href: https://downloads.rakwireless.com/LoRa/RAK811-BreakoutBoard/Hardware_Specification/RAK811_BreakoutBoard-3D-File.zip
       - name: Downloads

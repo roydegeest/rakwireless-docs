@@ -15,7 +15,7 @@ params:
       - name: Datasheet
         href: /en-us/datasheet/rak5205/#rak5205-wistrio-lpwan-tracker
       - name: Schematic Diagram
-        href: /en-us/datasheet/rak5205/schematics.html#schematics
+        href: /en-us/datasheet/rak5205/#schematics
       - name: RAK5205 3D Model (SMA Version)
         href: https://downloads.rakwireless.com/LoRa/WisTrio-LoRa-RAK5205/Hardware_Specification/
       - name : RAK5205 3D Model (iPEX Version)

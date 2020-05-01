@@ -15,7 +15,7 @@ params:
       - name: Datasheet
         href: /en-us/datasheet/rak815/#rak815-hybrid-location-tracker
       - name: Schematic Diagram
-        href: /en-us/datasheet/rak815/schematic-diagram.html
+        href: /en-us/datasheet/rak815/#schematic-diagram
       - name: Open Source Codes
         href: https://github.com/RAKWireless/RAK813-BreakBoard
       - name: nRF52832 Product Specifications
