@@ -819,6 +819,44 @@ module.exports = {
         'rui-online-compiler'
       ]
     }
+  ], 
+  '/en-us/quick-start/rak4600-breakout/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        'prerequisites'
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'interfacing',
+        {
+          title: "Connecting to The Things Network",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/quick-start/rak4600-breakout/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa'
+          ]
+        }
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'burning-the-firmware',
+        'upgrading-the-firmware'
+      ]
+
+    }
   ],
   '/en-us/quick-start/rak4600/': [
     {
