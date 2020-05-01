@@ -31,6 +31,8 @@ Before going through each and every step in the installation guide of the RAK420
   _blank
 />
 
+
+
 ## What's Included in the Package?
 
 TO FOLLOW
