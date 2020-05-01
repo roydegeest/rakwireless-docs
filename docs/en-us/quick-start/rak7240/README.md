@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7240
-rak_img: rak7240-overview.jpg
+rak_img: rak7240.png
 next: /en-us/quick-start/rak7240/quick-start-guide/#quick-start-guide
 rak_grp: lora-gateway
 params:
