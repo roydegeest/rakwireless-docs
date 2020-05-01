@@ -44,7 +44,7 @@ The board is equipped with four sensors on board: humidity and temperature senso
 This board is particularly suitable to be used as a quick testing and prototyping tool for applications requiring Nb-IoT connectivity. Application development supports the GCC environment.
 
 <rk-btn
-  src="quick-start-guide.html"
+  src="prerequisites.html"
   label=" Set up Your RAK5010 WisTrio NB-IoT Tracker"
 />
 

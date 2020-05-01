@@ -42,7 +42,7 @@ The board is equipped with 3 customizable buttons and 2 customizable LEDs, allow
 Overall, this LoRa® device has various functionalities designed in a single board that could help you develop your own LoRa® projects.
 
 <rk-btn
-  src="quick-start-guide.html"
+  src="prerequisites.html"
   label="Setup your RAK815 Hybrid Location Tracker"
 />
 

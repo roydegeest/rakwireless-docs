@@ -36,7 +36,7 @@ The RAK7204 is an LPWAN node with integrated environmental sensors. The high-pre
 The environmental sensors, LoRa® transceiver module, LoRa® antenna, and the battery are fitted in a 90 mm x 85 mm x 34 mm sized housing. These small dimensions allow for installation in tight spaces or ones that require the sensor to have a minimal impact on the overall feel of the surrounding environment. The housing adopts a hollow, permeable design to facilitate air flow in order to more accurately detect the environmental changes.
 
 <rk-btn
-  src="quick-start-guide.html"
+  src="prerequisites.html"
   label="Set up Your RAK7204 LPWAN Environmental Sensor"
 />
 

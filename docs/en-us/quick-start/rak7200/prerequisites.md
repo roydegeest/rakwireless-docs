@@ -2,7 +2,7 @@
 static_root: /assets/images/quick-start-guide/rak7200/quick-start-guide
 ---
 
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   :src="`${$frontmatter.static_root}/ldehq53t7ujcp5awqlgj.jpg`"

@@ -7,7 +7,7 @@ params:
     caption: RAK4200 LPWAN Evaluation Board
 ---
 
-# Quick Start Guide
+# Prerequisites
 
 <rk-img :params="$page.frontmatter.params.img1" />
 

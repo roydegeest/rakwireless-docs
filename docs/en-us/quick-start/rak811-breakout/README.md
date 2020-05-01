@@ -40,7 +40,7 @@ This node has an expandable sensor interface, which greatly increases the produc
 Overall, this node has various functionalities and applications designed in single board that could help you develop your own LPWAN Projects.
 
 <rk-btn
-  src="quick-start-guide.html"
+  src="prerequisites.html"
   label="Set up Your RAK811 LPWAN Breakout Module"
 />
 

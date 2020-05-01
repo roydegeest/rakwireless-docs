@@ -48,7 +48,7 @@ It is a perfect solution for any LoRaWAN® end node developer. The integration o
 RAK4260 is a solution that is cost efficient and flexible that can be deployed in a wide variety of IoT scenarios that require long range connectivity and great battery life that LoRaWAN® provides.
 
 <rk-btn
-  src="quick-start-guide.html"
+  src="prerequisites.html"
   label="Setup your RAK4260 LPWAN Evaluation Board"
 />
 

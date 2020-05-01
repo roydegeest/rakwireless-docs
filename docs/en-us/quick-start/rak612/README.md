@@ -36,7 +36,7 @@ The **RAK612 LPWAN Button** is a remote wireless trigger device. It supports use
 The RAK612 LPWAN Button is suitable for a variety of Smart Home applications: Entertainment system control ,Control of Lights, as a Snooze Button for your Alarms, or a Remote trigger. With long range wireless connectivity, amazing battery life, and four programmable buttons, the possibilities are only limited by your imagination!
 
 <rk-btn
-  src="quick-start-guide.html"
+  src="prerequisites.html"
   label="Setup your RAK612 LPWAN Button"
 />
 
