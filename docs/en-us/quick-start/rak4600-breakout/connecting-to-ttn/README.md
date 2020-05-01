@@ -11,14 +11,16 @@ In this section, we will be connecting the RAK4600 LPWAN Breakout Module to The 
 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/ttn-home-page.png
+  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/ttn-home-page.png"
+  width="100%"
   figure-number="1"
   caption="The Things Network Home Page"
 />
 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/ttn-console-main-page.png
+  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/ttn-console-main-page.png"
+  width="100%"
   figure-number="2"
   caption="TTN Console Page"
 />
@@ -26,7 +28,8 @@ In this section, we will be connecting the RAK4600 LPWAN Breakout Module to The 
 - Choose "**APPLICATIONS**"
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/application-page.png
+  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/application-page.png"
+  width="100%"
   figure-number="3"
   caption="Application Page"
 />
@@ -36,7 +39,8 @@ In this section, we will be connecting the RAK4600 LPWAN Breakout Module to The 
 - Click the "**add application**" button
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/adding-application.png
+  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/adding-application.png"
+  width="100%"
   figure-number="4"
   caption="Adding an Application"
 />
@@ -51,7 +55,8 @@ Here are the things that you should take note in adding an application:
 After you fill in the necessary information, press the "**Add application**" button at the bottom of this page. If you see the following page, this means that you have successfully registered your application.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/application-overview.png
+  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/application-overview.png"
+  width="100%"
   figure-number="5"
   caption="Application Overview"
 />
@@ -62,7 +67,8 @@ After you fill in the necessary information, press the "**Add application**" but
 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/device-section.png
+  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/device-section.png"
+  width="100%"
   figure-number="6"
   caption="Device Section"
 />
@@ -70,7 +76,8 @@ After you fill in the necessary information, press the "**Add application**" but
 - Click "**Register device**"
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/device-section.png
+  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/add-device.png"
+  width="100%"
   figure-number="7"
   caption="Add your Device"
 />
@@ -78,17 +85,18 @@ After you fill in the necessary information, press the "**Add application**" but
 
 Here are the things that you should take note in registering your device:
 
-1. **Device ID** - this is the unique identifier for your RAK4200 LPWAN Breakout Module in your application. You need to enter this manually.
+1. **Device ID** - this is the unique identifier for your RAK4600 LPWAN Breakout Module in your application. You need to enter this manually.
 2. **Device EUI** - this is the unique identifier for your device in the network. You can change it later, if you want. 
-3. **App Key **– this key 	will be used to secure the communication between the device and the 	network. 
-4. **App EUI **– a unique 	identifier of the Application that you are registering the device 	within.
+3. **App Key**– this key 	will be used to secure the communication between the device and the 	network. 
+4. **App EUI**– a unique 	identifier of the Application that you are registering the device 	within.
 
-Populate the **Device ID** and **Device EUI**_(generate a random one by pressing the arrows)_ fields and leave the rest as is.
+Populate the **Device ID** and **Device EUI** _(generate a random one by pressing the arrows)_ fields and leave the rest as is.
  Click “**Register**”
 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/device-overview-page.png
+  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/device-overview-page.png"
+  width="100%"
   figure-number="8"
   caption="Device Overview"
 />
