@@ -1,3 +1,6 @@
+---
+next: /en-us/quick-start/rak4200-breakout/connecting-to-ttn/#connecting-to-the-things-network-ttn
+---
 # Interfacing with RAK4200 LPWAN Breakout Module
 
 In order for you to be able to interface with the RAK4200 LPWAN Evaluation Board with your Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
