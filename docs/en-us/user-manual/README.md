@@ -21,3 +21,9 @@ Should you have any questions, require further information or any errors encount
 <br>
 <summary><b>Developer Gateways</b></summary> 
 <li><a href="/en-us/user-manual/gateway-firmware-burning/">Developer Gateway Firmware Burning</a></li>
+<br>
+<summary><b>LPWAN Nodes</b></summary> 
+<li><a href="/en-us/user-manual/node-firmware-upgrading/#node-firmware-upgrading">Node Firmware Upgrading</a></li>
+
+
+

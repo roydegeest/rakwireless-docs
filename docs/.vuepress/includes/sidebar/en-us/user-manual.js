@@ -66,6 +66,23 @@ module.exports = {
                 ]
           },
       ]
+    },
+    {
+      title: 'Node Firmware Upgrading',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+          {
+              title: "Getting Started",
+              nested: false,
+              collapsable: false,
+              path: '/en-us/user-manual/node-firmware-upgrading',
+              children: [
+                'node-firmware-upgrading/firmware-upgrading'
+                ]
+          },
+      ]
     }
   ]
 }
