@@ -1,12 +1,12 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/2.quick-start-guide
 ---
-# Quick Start Guide
+# Prerequisites
 <rk-img
   :src="`${$frontmatter.static_root}/s9kfxgy3q8qiuydxxkrk.jpg`"
   width="70%"
   figure-number="1"
-  caption="RAK7200 Front View"
+  caption="RAK7204 Front View"
 />
 
 ## What do you need?

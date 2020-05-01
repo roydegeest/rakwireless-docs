@@ -42,7 +42,7 @@ The **RAK5205 LPWAN Tracker Board** is built on the Semtech SX1276 chip, with th
 This node module is ideal as a quick prototyping tool for LoRaWAN® applications. It is perfect for use case scenarios such as asset tracking, smart vehicle management and location-based services.
 
 <rk-btn
-  src="quick-start-guide.html"
+  src="prerequisites.html"
   label="Set up Your RAK5205 RAK5205 WisTrio LPWAN Tracker"
 />
 

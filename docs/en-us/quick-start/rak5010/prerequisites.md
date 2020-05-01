@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5010/2.quick-start-guide
 ---
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   :src="`${$frontmatter.static_root}/fqyo41hvkupnrljccsam.jpg`"

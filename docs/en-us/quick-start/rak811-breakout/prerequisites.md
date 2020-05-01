@@ -2,7 +2,7 @@
 static_root: /assets/images/quick-start-guide/rak811-breakout/quick-start-guide
 ---
 
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   :src="`${$frontmatter.static_root}/dzsrvm2eaasyt3shktdh.png`"
