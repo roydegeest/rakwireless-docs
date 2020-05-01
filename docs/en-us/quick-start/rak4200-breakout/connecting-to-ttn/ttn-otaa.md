@@ -1,3 +1,8 @@
+---
+prev: /en-us/quick-start/rak4200-breakout/connecting-to-ttn/#connecting-to-the-things-network-ttn
+next: /en-us/quick-start/rak4200-breakout/burning-the-firmware.html
+---
+
 # OTAA Mode
 
 When setting up a new device in TTN its default is to join in OTAA mode. For configuration, you need the following three parameters: **Device EUI, Application EUI** and **App Key**. You can get them all from the **Overview page**.

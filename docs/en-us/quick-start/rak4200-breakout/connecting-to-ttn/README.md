@@ -1,3 +1,8 @@
+---
+prev: /en-us/quick-start/rak4200-breakout/interfacing.html
+next: /en-us/quick-start/rak4200-breakout/connecting-to-ttn/ttn-otaa.html
+---
+
 # Connecting to The Things Network (TTN)
 
 The Things Network is about enabling low power devices to be used in long range gateways that connect to an open-source, decentralized network and exchange data with Applications. Learn more about the Things Network [**here**](https://www.thethingsnetwork.org/docs/).
