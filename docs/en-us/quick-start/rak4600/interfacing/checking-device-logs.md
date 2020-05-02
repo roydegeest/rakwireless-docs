@@ -1,3 +1,6 @@
+---
+prev: /en-us/quick-start/rak4600/interfacing/
+---
 # Checking Device Logs
 
 There are 2 ways that you can check the logs for debugging purposes on your RAK4600 LPWAN Evaluation Board:

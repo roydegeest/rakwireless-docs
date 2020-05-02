@@ -63,7 +63,7 @@ module.exports = {
         {
           title: "RAK7240 Outdoor LPWAN Gateway",
           nested: true,
-          collapsable: false,
+          collapsable: true,
           path: '/en-us/datasheet/rak7240/',
           children: [
 

@@ -12,7 +12,7 @@ Before powering the RAK815 Hybrid Location Tracker, you should install the LoRaÂ
 If this is your first time to connect your RAK815 Hybrid Location Tracker to your computer, it should automatically download the USB - Serial Port Chip CP2102, in order for them to communicate propperly. Make sure to have an internet access if you want such automatic installation to be successful. If such process fails, re-plug your Micro - USB cord and proceed to the next step.
 :::
 
-1. Go to your **Device Manager** by pressing : **Windows + R** and type `devmgmt.msc` or **search in Start Menu** or right click "**My Computer**" or "**This PC**" and click **Manage**. Look for Other Devices.
+2. Go to your **Device Manager** by pressing : **Windows + R** and type `devmgmt.msc` or **search in Start Menu** or right click "**My Computer**" or "**This PC**" and click **Manage**. Look for Other Devices.
 
 <rk-img
   src="/assets/images/quick-start-guide/rak815/3interfacing/serial-driver.png"

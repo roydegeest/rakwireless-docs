@@ -19,7 +19,7 @@ This sample firmware is solely for testing purposes only. If you want to use and
 ## Installing J-Flash
 
 1. Go to the Official Website of **Segger** where you can Download the J-Flash software: 
-    * [https://www.segger.com/products/debug-probes/j-link/tools/j-flash/about-j-flash/](https://www.segger.com/products/debug-probes/j-link/tools/j-flash/about-j-flash/)
+[https://www.segger.com/products/debug-probes/j-link/tools/j-flash/about-j-flash/](https://www.segger.com/products/debug-probes/j-link/tools/j-flash/about-j-flash/)
 
 <rk-img
   src="/assets/images/quick-start-guide/rak4260/3burning-the-firmware/segger-website.jpg"

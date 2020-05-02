@@ -44,7 +44,7 @@ communication capabilities (LoRa® + Bluetooth) make it suitable for a variety o
 the IoT field.
 
 <rk-btn
-  src="quick-start-guide.html"
+  src="prerequisites.html"
   label="Setup your RAK4600 LPWAN Evaluation Board"
 />
 

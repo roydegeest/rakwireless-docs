@@ -6,7 +6,7 @@ static_root: /assets/images/quick-start-guide/rak7200/burning-the-bootloader
 
 You can burn the bootloader on your RAK7200 by following the steps below:
 
-1.Download and Install the [**STM32CubeProgrammer**](https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/stm32cubeprog.html#overview) Software from STMicroelectronics on your Windows PC.
+1. Download and Install the [**STM32CubeProgrammer**](https://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-programmers/stm32cubeprog.html#overview) Software from STMicroelectronics on your Windows PC.
 
 <rk-img
   :src="`${$frontmatter.static_root}/wm3z5nau3zpemcfviq0h.png`"
@@ -15,7 +15,7 @@ You can burn the bootloader on your RAK7200 by following the steps below:
   caption="STM32CubeProg Download Page"
 />
 
-1. Plug in the provided Micro-USB cable into the RAK7200 LPWAN Tracker and insert it in your PC. We need to set the RAK7200 first to work in **Boot Mode.** Refer to Figure 2 below and do the following: Hold down the BOOT0 Button, then press the Reset Button for a couple of seconds. Release the Reset and the BOOT0 Button.
+2. Plug in the provided Micro-USB cable into the RAK7200 LPWAN Tracker and insert it in your PC. We need to set the RAK7200 first to work in **Boot Mode.** Refer to Figure 2 below and do the following: Hold down the BOOT0 Button, then press the Reset Button for a couple of seconds. Release the Reset and the BOOT0 Button.
 
 <rk-img
   :src="`${$frontmatter.static_root}/b1horbt3p40hmvnuxqed.jpg`"
@@ -24,7 +24,7 @@ You can burn the bootloader on your RAK7200 by following the steps below:
   caption="RAK7200 Buttons and USB Interface"
 />
 
-3.Open the STM32CubeProgrammer Software and Select UART type.
+3. Open the STM32CubeProgrammer Software and Select UART type.
 
 <rk-img
   :src="`${$frontmatter.static_root}/aekfryuujx4mig7hfwua.jpg`"
@@ -55,7 +55,7 @@ If you didn't properly set your RAK7200 device to work in BOOT Mode, you will se
   caption="Success - Working in Boot Mode"
 />
 
-4.Now that you have successfully connected your RAK7200 to the STM32CubeProgrammer Tool, let's burn the Bootloader into the RAK7200.
+4. Now that you have successfully connected your RAK7200 to the STM32CubeProgrammer Tool, let's burn the Bootloader into the RAK7200.
 
 - Download the Bootloader for the RAK7200 LPWAN Tracker [**here**](https://downloads.rakwireless.com/en/LoRa/RAK7200-Tracker/Firmware/).
 - In the STM32CubeProgrammer, Click the "**Erase Chip**" button to erase all the data on RAK7200:

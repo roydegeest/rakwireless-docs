@@ -38,7 +38,7 @@ The **RAK811 LPWAN Evaluation Board** is a development board which comes in an A
 The module integrates the **Semtech SX1276** and a **STM32 Chip** that comes along with a firmware which comes with AT command support. It is easy to configure via the Micro USB and connects with LoRaWAN® Network Server in just a couple of minutes. Now, Rapid testing is made easy.
 
 <rk-btn
-  src="quick-start-guide.html"
+  src="prerequisites.html"
   label="Set up Your RAK811 LPWAN Evaluation Board"
 />
 

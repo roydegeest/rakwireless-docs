@@ -42,7 +42,7 @@ params:
 **RAK4200 LPWAN Evaluation Board** is a WisBlock product consisting of [RAK4200 LPWAN Module](https://store.rakwireless.com/products/rak4200-lora-module) and RAK5005 WisBase. You can use this development board to access all serial and GPIO ports for easy configuration. RAK4200 includes an STM32L071 MCU and an SX1276 LoRa® chip. It has Ultra-Low Power Consumtion of 1.5uA in sleep mode and high LoRa® output power up to 19dBm max in work mode. The module complies with the LoRaWAN® 1.0.2 protocols. It also supports LoRa® P2P (Point-to-Point) communications. The module is sutiable for various applications that require long-range data acquisition and low power consumption.
 
 <rk-btn
-  src="quick-start-guide.html"
+  src="prerequisites.html"
   label="Set up Your RAK4200 LPWAN Evaluation Board"
 />
 

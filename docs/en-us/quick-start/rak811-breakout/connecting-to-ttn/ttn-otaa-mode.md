@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811-breakout/ttn-otaa-mode
+prev: /en-us/quick-start/rak811-breakout/connecting-to-ttn/
+next: /en-us/quick-start/rak811-breakout/connecting-to-ttn/ttn-abp-mode
 ---
 
 # OTAA Mode
@@ -40,7 +42,7 @@ at+set_config=lora:region:XXX
   caption="Setting up the RAK811 operation mode"
 />
 
-**2.** Now that the modes are set, enter the parameters: **Device EUI, Application EUI** and **App Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case:
+2. Now that the modes are set, enter the parameters: **Device EUI, Application EUI** and **App Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case:
 
 ```bash
 at+set_config=lora:dev_eui:XXXX
@@ -63,7 +65,7 @@ at+set_config=lora:app_key:XXXX
 
 You should end up with a window as the one in **Figure 3** above with **a series of OK messages**.
 
-**3.** Finally execute the join command:
+3. Finally execute the join command:
 
 ```bash
 at+join
@@ -76,7 +78,7 @@ at+join
   caption="Join command"
 />
 
-**4.** You can test the connection by sending an uplink frame. Use the following for example:
+4. You can test the connection by sending an uplink frame. Use the following for example:
 
 ```bash
 at+send=lora:1:12345678

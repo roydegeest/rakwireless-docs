@@ -308,7 +308,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -369,7 +369,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -399,7 +399,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -421,6 +421,44 @@ module.exports = {
       ]
     }
   ],
+  '/en-us/quick-start/rak4200-breakout/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        'prerequisites'
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'interfacing',
+        {
+          title: "Connecting to The Things Network",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/quick-start/rak4200-breakout/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa'
+          ]
+        }
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'burning-the-firmware',
+        'upgrading-the-firmware'
+      ]
+
+    }
+  ],
   '/en-us/quick-start/rak4200/': [
     {
       title: 'Product Overview',
@@ -428,7 +466,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -480,7 +518,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -489,7 +527,6 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         'interfacing-with-rak7200',
-        'configuring-the-rak7200',
         {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
@@ -518,6 +555,7 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
+        'at-commands',
         'burning-the-bootloader',
         'upgrading-the-firmware'
       ]
@@ -530,7 +568,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -561,7 +599,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -570,7 +608,6 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         'interfacing',
-        'configuring-using-at-commands',
         {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
@@ -602,6 +639,7 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
+        'at-commands',
         'burning-bootloader',
         'burning-firmware'
       ]
@@ -614,7 +652,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -623,7 +661,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         'interfacing-with-rak811-breakout',
-        'configuring-rak811-breakout',
+      
         {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
@@ -652,6 +690,7 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
+        'at-commands',
         'upgrading-the-firmware'
       ]
     }
@@ -663,7 +702,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -672,7 +711,6 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         'interfacing-with',
-        'configuring-using-at-commands',
         {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
@@ -703,6 +741,7 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
+        'at-commands',
         'burning-the-bootloader',
         'upgrading-the-firmware',
         'assembly-guide'
@@ -716,7 +755,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -725,7 +764,6 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         'interfacing-with-rak612',
-        'configuring-the-rak612',
         {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
@@ -744,6 +782,7 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 2,
       children: [
+        'at-commands',
         'upgrading-the-firmware'
       ]
     }
@@ -755,7 +794,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {
@@ -780,6 +819,44 @@ module.exports = {
         'rui-online-compiler'
       ]
     }
+  ], 
+  '/en-us/quick-start/rak4600-breakout/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        'prerequisites'
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'interfacing',
+        {
+          title: "Connecting to The Things Network",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/quick-start/rak4600-breakout/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa'
+          ]
+        }
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'burning-the-firmware',
+        'upgrading-the-firmware'
+      ]
+
+    }
   ],
   '/en-us/quick-start/rak4600/': [
     {
@@ -788,7 +865,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
+        'prerequisites'
       ]
     },
     {

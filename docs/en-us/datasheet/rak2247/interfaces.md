@@ -3,7 +3,7 @@
 ### Block Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak2247/block_diagram.png"
+  src="/assets/images/datasheet/rak2247/block-diagram.png"
   width="100%"
   figure-number="4"
   caption="RAK2247 LPWAN Gateway Concentrator Module Block Diagram"

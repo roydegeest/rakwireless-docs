@@ -20,7 +20,7 @@ This document discusses the steps on how to add your RAK811 LPWAN Node Applicati
 * In case your device is already configured to work in OTAA same with the image above, it will attempt connecting to the gateway but does not get authenticated as it is not registered yet and needs to be configured first.
 
 :::tip 📝 NOTE
-Open the [Configuring your RAK811 LPWAN Node](/en-us/quick-start/rak811/configuring-your-rak811.html) section of the RAK811 LPWAN Node to check the complete list of AT Commands compatible.
+Open the [AT Commands for RAK811 LPWAN Node](/en-us/quick-start/rak811/at-commands.html) section of the RAK811 LPWAN Node to check the complete list of AT Commands compatible.
 :::
 
 2. Set the Region/Band by plugging in the AT Command below in the RAK Serial Port Tool. For this demonstration, EU868 frequency band shall be used.

@@ -3,7 +3,7 @@
 ### Block Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak7258/block_diagram.png"
+  src="/assets/images/datasheet/rak7258/block-diagram.png"
   width="75%"
   figure-number="3"
   caption="RAK7258 Micro Gateway Block Diagram"

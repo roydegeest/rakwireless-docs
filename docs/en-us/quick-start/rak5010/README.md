@@ -15,7 +15,7 @@ params:
       - name: Datasheet
         href: /en-us/datasheet/rak5010/#rak5010-wistrio-nb-iot-tracker
       - name: Schematic Diagram
-        href: /en-us/datasheet/rak5010/schematic-diagram.html#schematic-diagram
+        href: /en-us/datasheet/rak5010/#schematic-diagram
       - name: 3D Model
         href: https://downloads.rakwireless.com/Cellular/RAK5010/Hardware-Specification/RAK5010-3D-File.zip
       - name: Firmware
@@ -44,7 +44,7 @@ The board is equipped with four sensors on board: humidity and temperature senso
 This board is particularly suitable to be used as a quick testing and prototyping tool for applications requiring Nb-IoT connectivity. Application development supports the GCC environment.
 
 <rk-btn
-  src="quick-start-guide.html"
+  src="prerequisites.html"
   label=" Set up Your RAK5010 WisTrio NB-IoT Tracker"
 />
 

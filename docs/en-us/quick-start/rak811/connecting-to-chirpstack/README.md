@@ -1,9 +1,10 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/connecting-to-chirpstack
 next: chirpstack-otaa-mode
+prev: /en-us/quick-start/rak811/connecting-to-ttn/ttn-abp-mode
 ---
 
-## Connecting to ChirpStack
+### Connecting to ChirpStack
 
 The ChirpStack or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [**here**](https://www.chirpstack.io/).
 

@@ -15,7 +15,7 @@ params:
       - name: Datasheet
         href: /en-us/datasheet/rak811-breakout-module/#rak811-lpwan-breakout-module
       - name: Schematic Diagram
-        href: /en-us/datasheet/rak811-breakout-module/schematic-diagram.html#schematic-diagram
+        href: /en-us/datasheet/rak811-breakout-module/#schematic-diagram
       - name: 3D Model
         href: https://downloads.rakwireless.com/LoRa/RAK811-BreakoutBoard/Hardware_Specification/RAK811_BreakoutBoard-3D-File.zip
       - name: Downloads
@@ -40,7 +40,7 @@ This node has an expandable sensor interface, which greatly increases the produc
 Overall, this node has various functionalities and applications designed in single board that could help you develop your own LPWAN Projects.
 
 <rk-btn
-  src="quick-start-guide.html"
+  src="prerequisites.html"
   label="Set up Your RAK811 LPWAN Breakout Module"
 />
 
