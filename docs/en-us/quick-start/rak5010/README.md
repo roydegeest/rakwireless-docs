@@ -15,7 +15,7 @@ params:
       - name: Datasheet
         href: /en-us/datasheet/rak5010/#rak5010-wistrio-nb-iot-tracker
       - name: Schematic Diagram
-        href: /en-us/datasheet/rak5010/schematic-diagram.html#schematic-diagram
+        href: /en-us/datasheet/rak5010/#schematic-diagram
       - name: 3D Model
         href: https://downloads.rakwireless.com/Cellular/RAK5010/Hardware-Specification/RAK5010-3D-File.zip
       - name: Firmware
