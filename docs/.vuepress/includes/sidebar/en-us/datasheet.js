@@ -177,6 +177,15 @@ module.exports = {
           ]
         },
         {
+          title: "RAK4260 WisDuo LPWAN Breakout Module",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak4260-breakout/',
+          children: [
+
+          ]
+        },
+        {
           title: "RAK4260 WisDuo LPWAN Module",
           nested: true,
           collapsable: false,
