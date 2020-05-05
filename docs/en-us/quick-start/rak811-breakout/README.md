@@ -46,6 +46,8 @@ Overall, this node has various functionalities and applications designed in sing
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />
 
+
+[Schematic Diagram](/en-us/datasheet/rak811-breakout-module/#schematic-diagram)
 ## Product Features
 
 - Based on **Semtech SX1276**
@@ -57,3 +59,4 @@ Overall, this node has various functionalities and applications designed in sing
 - Integrates both **SMA** and **iPEX** antenna connectors
 - **Operating temperature**: -40°C ~ 85°C (industrial grade)
 - **Storage temperature**: -40°C ~ 85°C (non-condensing)
+
