@@ -6,8 +6,8 @@ An example would be using the RAK7249 LoRaWAN® Gateway coupled with the RAK Wis
 
 
 <rk-img
-  src="/assets/images/datasheet/rak7431/rs485-structure.jpg"
-  width="75%"
+  src="/assets/images/datasheet/rak7431/RAK7431-1.png"
+  width="100%"
   figure-number="2"
   caption="RAK7431 - RS485 to LoRaWAN® network structure"
 />
@@ -17,8 +17,8 @@ An example would be using the RAK7249 LoRaWAN® Gateway coupled with the RAK Wis
 RAK7431 can work in polling mode in order to send query instructions to RS485 nodes, and convert the data returned into LoRa® frames to be relayed to the application server via Gateway.
 
 <rk-img
-  src="/assets/images/datasheet/rak7431/rak7431-polling-mode.jpg"
-  width="75%"
+  src="/assets/images/datasheet/rak7431/RAK7431-2.png"
+  width="100%"
   figure-number="3"
   caption="RAK7431 polling mode"
 />
@@ -34,8 +34,8 @@ No matter whether polling mode is enabled or not, the server can actively send c
 
 
 <rk-img
-  src="/assets/images/datasheet/rak7431/rak7431-transparent-mode.jpg"
-  width="75%"
+  src="/assets/images/datasheet/rak7431/RAK7431-3.png"
+  width="100%"
   figure-number="4"
   caption="RAK7431 transparent mode"
 />

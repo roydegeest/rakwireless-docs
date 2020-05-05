@@ -1,8 +1,8 @@
 ## Interfaces
 
 <rk-img
-  src="/assets/images/datasheet/rak7431/rak7431-bottom.jpg"
-  width="75%"
+  src="/assets/images/datasheet/rak7431/RAK7431-4.png"
+  width="100%"
   figure-number="5"
   caption="RAK7431 bottom panel"
 />
@@ -29,8 +29,8 @@ Only valid when using the DC input interface power supply, USB power supply is i
 Also, the Vout output voltage is the same as DC input voltage Vin.
 
 <rk-img
-  src="/assets/images/datasheet/rak7431/rak7431-modbus.jpg"
-  width="75%"
+  src="/assets/images/datasheet/rak7431/RAK7431-5.png"
+  width="100%"
   figure-number="6"
   caption="RAK7431 ModBus connection diagram"
 />
