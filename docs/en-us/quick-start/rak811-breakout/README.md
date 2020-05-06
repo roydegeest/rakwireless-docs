@@ -46,8 +46,6 @@ Overall, this node has various functionalities and applications designed in sing
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />
 
-
-[Schematic Diagram](/en-us/datasheet/rak811-breakout-module/#schematic-diagram)
 ## Product Features
 
 - Based on **Semtech SX1276**
