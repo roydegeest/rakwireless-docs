@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/datasheet/rak7244c/4.connecting-ttn
+static_root: /assets/images/quick-start-guide/rak7244c/4.connecting-ttn
 ---
 
 # Connecting to The Things Network (TTN)

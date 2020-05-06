@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/datasheet/rak7244c/5.connect-chirpstack
+static_root: /assets/images/quick-start-guide/rak7244c/5.connect-chirpstack
 ---
 
 # Connect the Gateway with ChirpStack
