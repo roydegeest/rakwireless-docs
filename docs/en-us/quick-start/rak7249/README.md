@@ -60,7 +60,7 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 - Dual LoRa® Concentrators for up to **16 channels**
 - **Backhaul**: Wi-Fi, LTE and Ethernet
 - GPS **L70 GPS Module**
-- Up to **5 hours of autonomous work** on battery (Battery + Solar Kit optional)
+- Powered by **PoE**, optional for battery, solar or AC power supply.
 
 ###### Software
 
