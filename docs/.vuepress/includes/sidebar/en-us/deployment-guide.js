@@ -69,5 +69,23 @@
             },
         ]
      },
+     {
+        title: 'Gateway Remote Management - DDNS',
+        path: '',
+        collapsable: false,
+        sidebarDepth: 2,
+        children: [
+            {
+                title: "Getting Started",
+                nested: false,
+                collapsable: false,
+                path: '/en-us/deployment-guide/gateway-remote-management-ddns',
+                children: [
+                    'gateway-remote-management-ddns/register-ddns-service',
+                    'gateway-remote-management-ddns/setup-ddns-in-gateway'
+                  ]
+            },
+        ]
+     },
     ]
  }
