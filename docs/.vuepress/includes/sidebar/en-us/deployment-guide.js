@@ -69,5 +69,25 @@
             },
         ]
      },
+     {
+        title: 'Gateway Remote Management - OpenVPN',
+        path: '',
+        collapsable: false,
+        sidebarDepth: 2,
+        children: [
+            {
+                title: "Getting Started",
+                nested: false,
+                collapsable: false,
+                path: '/en-us/deployment-guide/gateway-remote-management-openvpn',
+                children: [
+                    'gateway-remote-management-openvpn/openvpn-server-deployment',
+                    'gateway-remote-management-openvpn/openvpn-management-client-setup',
+                    'gateway-remote-management-openvpn/openvpn-client-setup-on-lora-gateway',                    
+                  ]
+            },
+        ]
+     },
+     
     ]
  }
