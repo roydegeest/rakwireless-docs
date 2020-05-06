@@ -18,6 +18,8 @@ Should you have any questions, require further information or any errors encount
 <li><a href="/en-us/deployment-guide/build-in-lora-server/">Built-in LoRa Network Server</a></li>
 <li><a href="/en-us/deployment-guide/multi-rak-gateway-mesh/">Multi-RAK Gateway Mesh</a></li>
 <li><a href="/en-us/deployment-guide/amazon-web-service/">Amazon Web Service</a></li>
+<li><a href="/en-us/deployment-guide/gateway-remote-management-ddns/">Gateway Remote Management - DDNS</a></li>
+<li><a href="/en-us/deployment-guide/gateway-remote-management-openvpn/">Gateway Remote Management - OpenVPN</a></li>
 <!--
 <br>
 <summary><b>LPWAN Nodes</b></summary> 

@@ -28,7 +28,7 @@ next: /en-us/quick-start/rak7244c/accessing-your-gateway/#accessing-your-gateway
 ## What's included in the Package
 
 <rk-img
-  src="/assets/images/datasheet/rak7244c/quick-start-guide/j6mh7yqldts3f7rywpsz.jpg"
+  src="/assets/images/quick-start-guide/rak7244c/quick-start-guide/j6mh7yqldts3f7rywpsz.jpg"
   width="100%"
   figure-number="2"
   caption="RAK7244C Package Contents"

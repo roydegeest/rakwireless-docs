@@ -40,7 +40,7 @@ This section walks through the details on the steps on how to configure the free
   caption="Launching an Instance"
 />
 
-3. The is a ton of choices for the operating system, however we will be using **Ubuntu**. Scroll down and choose **Ubuntu Server 18.04 LTS** (latest at the time of this document). Click the “**Select**” button.
+3. There is a ton of choices for the operating system, however we will be using **Ubuntu**. Scroll down and choose **Ubuntu Server 18.04 LTS** (latest at the time of this document). Click the “**Select**” button.
 
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/selecting-os.jpg"
@@ -58,7 +58,7 @@ This section walks through the details on the steps on how to configure the free
   caption="Selecting the Instance Type"
 />
 
-5. Confirm your choice and Launch. Security groups will be edited in the next section so you can go ahead and confirm your choice by pressing the “**Launch**” button as shown in the image below:
+5. Confirm your choice and Launch. Security groups will be edited in the next section so you can go ahead and confirm your choice by pressing the “**Launch**” button as shown in Figure 5:
 
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/launch-instance-f.jpg"
@@ -69,7 +69,7 @@ This section walks through the details on the steps on how to configure the free
 
 ### Accessing Instance via SSH
 
-In order to have an SSH session to the Instance, we need to create the appropriate access keys. Thus, after Launching you will see the window in the image below:
+In order to have an SSH session to the Instance, we need to create the appropriate access keys. Thus, after Launching you will see the window in Figure 6:
 
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/key-pair.jpg"
@@ -78,7 +78,7 @@ In order to have an SSH session to the Instance, we need to create the appropria
   caption="Key pair creation"
 />
 
-1. We will choose to "**Create a new key pair**" from the drop-down menu and give it an appropriate name. Finally, click the “**Download Key Pair**” button shown in the image below.
+1. We will choose to "**Create a new key pair**" from the drop-down menu and give it an appropriate name. Finally, click the “**Download Key Pair**” button shown in Figure 7.
 
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/new-key-pair.jpg"
@@ -89,10 +89,10 @@ In order to have an SSH session to the Instance, we need to create the appropria
 
 2. After saving the Keys to your chosen location, you can Launch the instance via the blue button "**Launch Instances**".
 
-3. In the image below, you can see the parameters of your instance. Note the fields in the highlighted with the red rectangle. These are you real **URL** and **IP Address** for accessing this instance.
+3. In Figure 8, you can see the parameters of your instance. Note the fields in the highlighted with the red rectangle. These are you real **URL** and **IP Address** for accessing this instance.
 
 :::tip 📝 NOTE
- The URL and IP Address shown in the image below are just examples. You will have a different set of information on your setup.
+ The URL and IP Address shown in Figure 8 are just examples. You will have a different set of information on your setup.
 :::
 
 <rk-img
@@ -115,7 +115,7 @@ In order to have an SSH session to the Instance, we need to create the appropria
 7. In the main window, select the **Type of key to generate** as **RSA** (should be the default choice). In older versions, it is named **SSH-2 RSA**.
 
 <rk-img
-  src="/assets/images/deployment-guide/amazon-web-service/puttygen.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/puttygen.png"
   width="75%"
   figure-number="9"
   caption="PuTTYgen main window"
@@ -185,4 +185,11 @@ user_name@public_dns_name
   caption="PuTTY SSH Command line"
 />
 
+14. As a last step execute the commands in the text box below in order. This will make sure your Ubuntu is up to date:
 
+```
+sudo apt-get update
+```
+```
+sudo apt-get upgrade
+```
