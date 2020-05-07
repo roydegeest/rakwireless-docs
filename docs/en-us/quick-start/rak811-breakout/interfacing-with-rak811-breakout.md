@@ -15,7 +15,7 @@ Before powering the RAK811 LPWAN Breakout Module , you should install the LoRa a
 - **Figure 1** shows the Pinout Diagram of the Board and **Figure 2** shows how to connect the RAK811 LPWAN Breakout Board to the UART Module.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/dno0imdy6gb8nfvyol5p.jpg`"
+  :src="`${$frontmatter.static_root}/pinout_diagram.png`"
   width="85%"
   figure-number="1"
   caption="RAK811 LPWAN Breakout Module Pinout Diagram"
