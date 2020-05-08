@@ -2,8 +2,10 @@
 prev: /en-us/deployment-guide/amazon-web-service/#amazon-web-service
 next: install-the-gateway-bridge
 ---
-# Chirpstack
-It is always a good idea to make an update and upgrade of your packages. In order to do so, run the following commands in the terminal:
+# Installing Chirpstack
+It is assumed that you have a running Ubuntu on an AWS EC2 instance and you are able to access it via an SSH terminal from the previous section.
+
+It is always a good idea to make an update and upgrade of your packages. In order to do so run the following commands in the terminal:
 
 ```sh
 sudo apt update
@@ -45,7 +47,7 @@ sudo journalctl -f -n 100 -u lora-app-server
 sudo journalctl -f -n 100 -u ChirpStack
 ```
 
-6. You should see no errors same with the image provided below. Make sure you interrupt the output of the commands above with the key combination “**Ctrl+Z**” so you can continue with the configuration process.
+6. You should see no errors as in Figure 1. Make sure you interrupt the output of the commands above with the key combination “Ctrl+z” so you can continue with the configuration process.
 
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/chirpstack-journal.jpg"
@@ -54,3 +56,5 @@ sudo journalctl -f -n 100 -u ChirpStack
   caption="ChirpStack Journal Control Output (no errors)"
 />
 
+
+In case you want to use the Semtech Packet Forwarder to connect your Gateway to the LoRa Network Server proceed [here](install-the-gateway-bridge). If you are going to use the MQTT Bridge instead proceed directly [here](configure-aws-security)

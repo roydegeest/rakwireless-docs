@@ -50,7 +50,6 @@ cd rak_common_for_gateway/lora/rak2247_usb
 ```
 
 4. Next, you need to insert the name you got in Step 3 for your interface in the following files:
-    * rak_common_for_gateway/lora/rak2247_usb/install.sh
     * rak_common_for_gateway/lora/set_eui.sh
     * rak_common_for_gateway/lora/update_gwid.sh
 * Then, replace the following line:
