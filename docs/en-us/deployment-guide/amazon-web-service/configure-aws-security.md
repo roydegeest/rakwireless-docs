@@ -20,7 +20,7 @@ By default, all inbound traffic to an AWS Instance is blocked, only port 22 (SSH
   caption="AWS Security Groups"
 />
 
-2. Select your desired Security Group (**Ubuntu Instance**). If you have multiple instances you can use the date and time of creation of the group as a guide to which is the one you want. Click the “**Action**” button and from the drop-worn menu select **Edit Inbound Rules**:
+2. Select your desired Security Group (**Ubuntu Instance**). If you have multiple instances you can use the date and time of creation of the group as a guide to which is the one you want. Click the “**Action**” button and from the drop-down menu select **Edit Inbound Rules**:
 
 <rk-img
   src="/assets/images/deployment-guide/amazon-web-service/inbound-rules.jpg"
