@@ -448,16 +448,6 @@ module.exports = {
         }
       ]
     },
-    {
-      title: 'Miscellaneous',
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        'burning-the-firmware',
-        'upgrading-the-firmware'
-      ]
-
-    }
   ],
   '/en-us/quick-start/rak4200/': [
     {
@@ -847,16 +837,6 @@ module.exports = {
         }
       ]
     },
-    {
-      title: 'Miscellaneous',
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        'burning-the-firmware',
-        'upgrading-the-firmware'
-      ]
-
-    }
   ],
   '/en-us/quick-start/rak4600/': [
     {
