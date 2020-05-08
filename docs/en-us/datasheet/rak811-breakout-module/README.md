@@ -6,7 +6,7 @@ tags:
 # RAK811 LPWAN Breakout Module
 
 <rk-img
-  src="/assets/images/datasheet/rak811-breakout-module/rak811-lpwan-breakout-module.jpg"
+  src="/assets/images/datasheet/rak811-breakout-module/rak811-breakout.png"
   width="50%"
   figure-number="1"
   caption="RAK811 LPWAN Breakout Module"

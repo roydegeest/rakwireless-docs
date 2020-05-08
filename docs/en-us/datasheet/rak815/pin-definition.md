@@ -85,7 +85,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 ### P1 and P3 Interface PINOUT
 
 <rk-img
-  src="/assets/images/datasheet/rak815/rak815-p1-and-p3-pinout.jpg"
+  src="/assets/images/datasheet/rak815/rak815-p1-and-p3-pinout.png"
   width="75%"
   figure-number="9"
   caption="RAK815 P1 and P3 Pinout"

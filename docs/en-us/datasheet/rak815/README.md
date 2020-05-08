@@ -7,7 +7,7 @@ tags:
 
 
 <rk-img
-  src="/assets/images/datasheet/rak815/rak815.png"
+  src="/assets/images/datasheet/rak815/rak815-board.png"
   width="40%"
   figure-number="1"
   caption="RAK815 Breakout Board"
