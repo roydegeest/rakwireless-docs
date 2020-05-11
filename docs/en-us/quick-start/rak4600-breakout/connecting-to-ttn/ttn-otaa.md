@@ -82,7 +82,7 @@ at+set_config=lora:app_key:XXXX
 />
 
 
-7. Reboot the RAK4200 LPWAN Breakout Module to save the parameters.
+7. Reboot the RAK4600 LPWAN Breakout Module to save the parameters.
 
 
 ```
@@ -90,7 +90,7 @@ at+set_config=device:restart
 ```
 
 
-8. After resetting  RAK4200 LPWAN Breakout Module, join in OTAA mode:
+8. After resetting RAK4600 LPWAN Breakout Module, join in OTAA mode:
 
 
 ```
@@ -105,7 +105,7 @@ at+join
 />
 
 
-9. Joined successfully! Now, let’s try to send a data from the  RAK4200 LPWAN Breakout Module to TTN:
+9. Joined successfully! Now, let’s try to send a data from the  RAK4600 LPWAN Breakout Module to TTN:
 
 ```
 at+send=lora:2:0123456789

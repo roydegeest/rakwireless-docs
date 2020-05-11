@@ -33,10 +33,6 @@ Before going through each and every step in the installation guide of the RAK420
 
 
 
-## What's Included in the Package?
-
-TO FOLLOW
-
 ::: tip 📝 NOTE
 This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware burned or upgraded, please refer to the documentations below:
 1. [Burning the Bootloader into the Device](burning-the-firmware)

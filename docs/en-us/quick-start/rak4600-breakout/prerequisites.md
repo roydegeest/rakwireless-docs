@@ -33,11 +33,4 @@ Before going through each and every step in the installation guide of the RAK460
 />
 
 
-::: tip 📝 NOTE
-This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware burned or upgraded, please refer to the documentations below: <br> 1. [Burning the Bootloader into the Device](/en-us/quick-start/rak4600-breakout/burning-the-firmware.html) <br> 2. [Upgrading the Firmware](/en-us/quick-start/rak4600-breakout/upgrading-the-firmware.html)
-:::
-
-## What's Included in the Package?
-
-TO FOLLOW
 
