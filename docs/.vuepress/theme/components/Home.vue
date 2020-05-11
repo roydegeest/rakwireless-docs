@@ -46,16 +46,16 @@
     <div
       v-if="data.features && data.features.length"
       class="flex flex-center"
+      style="max-width: 60rem; margin: auto;"
     >
       <div class="row justify-center">
         <div
-          class="row no-wrap q-pa-sm"
+          class="row no-wrap q-pa-sm col-11 col-sm-4 col-md-3"
           v-for="(feature, index) in data.features"
           :key="index"
-          style="width: 14rem; padding-top: 20px; padding-bottom: 30px;"
+          style="padding-top: 10px; padding-bottom: 10px;"
         >
           <q-card
-            flat
             class="column fit"
           >
             <q-card-section
@@ -80,13 +80,13 @@
             class="bg-black"
             style="width: 1px; margin-top: 10px; margin-bottom: 10px;"
           /> -->
-          <q-separator
+          <!-- <q-separator
             v-if="index < data.features.length-1"
             color="grey-5"
             class="custom-qs desktop-only"
             vertical
             inset
-          />
+          /> -->
         </div>
       </div>
     </div>

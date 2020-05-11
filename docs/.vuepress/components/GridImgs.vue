@@ -7,32 +7,34 @@
         class="column q-mt-md "
       >
         <div class="text-h6 q-py-md">{{ rakGrp(key) }}</div>
-        <div class="row justify-start items-center q-gutter-md">
-          <q-item
+        <div class="row justify-center items-center">
+          <div
             v-for="qs in groups[key]"
             :key="qs.path"
-            :to="qs.path"
-            class="grow text-center q-pa-none shadow-2"
+            class="col-12 col-sm-4 col-md-3 col-md-3 q-pa-sm"
           >
-            <q-item-section>
-              <q-card
-                class="column"
-                style="height: 17rem; width: 11rem"
-              >
-                <q-card-section class="col q-pa-none flex flex-center">
-                  <div class="fit flex flex-center">
-                    <q-img :src="rakImg(qs.frontmatter)" />
-                  </div>
-                </q-card-section>
-                <q-card-section class="col-4 flex flex-center q-px-md q-py-sm">
+            <q-item
+              :to="qs.path"
+              class="grow text-center q-pa-none shadow-2"
+              style="height: 15rem"
+            >
+              <q-item-section>
+                <div class="col q-pa-none flex flex-center">
+                  <img
+                    class="fit"
+                    :src="rakImg(qs.frontmatter)"
+                  />
+                </div>
+                <div class="col-3 flex flex-center q-ma-sm">
                   <div
+                    ref="test"
                     class="text-weight-medium"
                     style="font-size: 0.8rem"
                   >{{ qs.title }}</div>
-                </q-card-section>
-              </q-card>
-            </q-item-section>
-          </q-item>
+                </div>
+              </q-item-section>
+            </q-item>
+          </div>
         </div>
       </div>
     </div>
