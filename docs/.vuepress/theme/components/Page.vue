@@ -1,7 +1,7 @@
 <template>
   <main class="page">
     <slot name="top" />
-
+    
     <Content
       id="nodeToRenderAsPDF"
       class="theme-default-content"

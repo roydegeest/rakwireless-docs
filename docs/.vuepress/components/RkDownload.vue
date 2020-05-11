@@ -1,55 +1,34 @@
 <template>
   <q-btn
+    class="q-mb-lg"
     color="primary"
-    size="0.95rem"
-    label="Save as PDF"
-    @click="print2()"
+    size="0.85rem"
+    label="Save Document as PDF"
+    @click="generate()"
     rounded
     no-caps
   />
 </template>
 
 <script>
-import * as jsPDF from 'jspdf'
-import * as html2canvas from 'html2canvas'
-
-function print (quality = 1) {
-  const filename = 'Test.pdf';
-  console.log(document.querySelector('#nodeToRenderAsPDF'))
-  html2canvas(document.querySelector('#nodeToRenderAsPDF'))
-    .then(canvas => {
-      let pdf = new jsPDF('p', 'mm', 'a4');
-      pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 211, 298);
-      pdf.save(filename);
-    });
-}
-function print2 () {
-  var scaleBy = 1;
-  var w = 2480;
-  var h = 3508;
-  var div = document.querySelector('#nodeToRenderAsPDF');
-  var canvas = document.createElement('canvas');
-  canvas.width = w * scaleBy;
-  canvas.height = h * scaleBy;
-  canvas.style.width = w + 'px';
-  canvas.style.height = h + 'px';
-  var context = canvas.getContext('2d');
-  context.scale(scaleBy, scaleBy);
-
-  html2canvas(div, { canvas: canvas })
-    .then(canvas => {
-      const filename = 'Test.pdf';
-      console.log('ok! ', canvas)
-      let pdf = new jsPDF('p', 'mm', 'a4');
-      pdf.addImage(canvas, 'PNG', 0, 0);
-      pdf.save(filename);
-    });
-}
+var html2pdf = require('html2pdf.js')
 export default {
   name: 'RkDownload',
+  props: ['filename'],
   methods: {
-    print,
-    print2
+    generate () {
+      var element = document.getElementById('nodeToRenderAsPDF');
+      var opt = {
+        margin: [0.5, 0.25],
+        pagebreak: { mode: ['css', 'avoid-all', 'legacy'] },
+        filename: this.filename,
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { imageTimeout: 0, scale: 1.25 },
+        jsPDF: { unit: 'in', format: 'legal', orientation: 'portrait' }
+      };
+
+      html2pdf().set(opt).from(element).save();
+    }
   }
 }
 </script>
