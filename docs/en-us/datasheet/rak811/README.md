@@ -6,6 +6,8 @@ tags:
 
 # RAK811 LPWAN Module
 
+<rk-download filename="Datasheet - RAK811 LPWAN Board" />
+
 <rk-img
   :src="`${$frontmatter.static_root}/nwgqobrzwanalynildkc.jpg`"
   width="50%"

@@ -1,8 +1,11 @@
 <template>
   <main class="page">
     <slot name="top" />
-
-    <Content class="theme-default-content" />
+    
+    <Content
+      id="nodeToRenderAsPDF"
+      class="theme-default-content"
+    />
     <PageEdit />
 
     <PageNav v-bind="{ sidebarItems }" />
