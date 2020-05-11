@@ -392,6 +392,34 @@ module.exports = {
       ]
     }
   ],
+  '/en-us/quick-start/rak4260-breakout/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        'prerequisites'
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [      
+        'interfacing',
+        {
+          title: "Connecting to The Things Network (TTN)",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/quick-start/rak4260-breakout/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/otaa-mode'
+          ]
+        }
+      ]
+    }
+  ],
   '/en-us/quick-start/rak4260/': [
     {
       title: 'Product Overview',
@@ -448,16 +476,6 @@ module.exports = {
         }
       ]
     },
-    {
-      title: 'Miscellaneous',
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        'burning-the-firmware',
-        'upgrading-the-firmware'
-      ]
-
-    }
   ],
   '/en-us/quick-start/rak4200/': [
     {
@@ -847,16 +865,6 @@ module.exports = {
         }
       ]
     },
-    {
-      title: 'Miscellaneous',
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        'burning-the-firmware',
-        'upgrading-the-firmware'
-      ]
-
-    }
   ],
   '/en-us/quick-start/rak4600/': [
     {

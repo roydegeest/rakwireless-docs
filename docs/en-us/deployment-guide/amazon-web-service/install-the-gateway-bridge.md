@@ -2,7 +2,7 @@
 next: configure-aws-security
 ---
 
-# Gateway Bridge Setup
+# Installing the Gateway Bridge 
 
 We are going to provide an outline on how to perform the installation. For detailed information you can visit [Chirpstack.io](https://www.chirpstack.io/).
 
