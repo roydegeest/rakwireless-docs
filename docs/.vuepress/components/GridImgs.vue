@@ -26,7 +26,7 @@
                   <div
                     ref="test"
                     class="text-weight-medium ellipsis-2-lines"
-                    style="font-size: 0.75rem; line-height: 0.8rem"
+                    style="font-size: 0.75rem; line-height: 0.95rem"
                   >{{ qs.title }}</div>
                 </div>
               </q-item-section>
