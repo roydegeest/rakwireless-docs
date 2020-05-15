@@ -50,7 +50,7 @@ export default {
       const element = document.getElementById(path)
       if (!element) return
 
-      this.$refs.scrollArea.setScrollPosition(element.offsetTop)
+      this.$refs.scrollArea.setScrollPosition(element.offsetTop, 300)
     }
   },
   mounted () {
