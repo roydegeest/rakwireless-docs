@@ -6,6 +6,7 @@
     <li
       v-for="(item, i) in items"
       :key="i"
+      :id="item.type !== 'group' ? item.path : null"
     >
       <!-- <SidebarLink
         v-if="item.nested"
