@@ -1,12 +1,15 @@
 <template>
-  <figure align="center">
+  <figure
+    align="center"
+    id="rk-img"
+  >
     <img
       class="zoomable"
       :src="opt.src"
       :width="opt.width"
       alt=""
     />
-    <figcaption><small><b>Figure {{opt.figureNumber}}:</b> {{ opt.caption }}</small></figcaption>
+    <figcaption><small><b>Figure {{opt.figureNumber || figNum}}:</b> {{ opt.caption }}</small></figcaption>
   </figure>
 </template>
 
@@ -20,6 +23,9 @@ export default {
       else {
         return { src, width, figureNumber, caption }
       }
+    },
+    figNum () {
+      return document.querySelectorAll("#rk-img").length + 1
     }
   }
 }
