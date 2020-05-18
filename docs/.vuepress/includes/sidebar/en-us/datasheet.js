@@ -290,6 +290,15 @@ module.exports = {
           children: [
 
           ]
+        },
+        {
+          title: "RAK8213 WisLink NB-IoT Module",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/datasheet/rak8213/',
+          children: [
+
+          ]
         }
       ]
     },
