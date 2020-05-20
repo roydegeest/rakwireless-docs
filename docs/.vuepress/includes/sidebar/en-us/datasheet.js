@@ -3,13 +3,13 @@ module.exports = {
     {
       title: 'LPWAN Gateways',
       path: '',
-      collapsable: false,
-      sidebarDepth: 1,
+      collapsable: true,
+      sidebarDepth: 3,
       children: [
         {
           title: "RAK831 LPWAN Gateway Concentrator",
           nested: true,
-          collapsable: false,
+          collapsable: true,
           path: '/en-us/datasheet/rak831/',
           children: [
 

@@ -1,3 +1,43 @@
+<template>
+  <div>
+    <div>
+      <a
+        v-if="item.type === 'external'"
+        :href="to"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {{ text }}
+        <OutboundLink />
+      </a>
+      <router-link
+        v-else
+        :to="to"
+        :active-class="''"
+        :exact-active-class="''"
+        :class="{ active, 'sidebar-link': true }"
+        :style="level > 2 ? `padding-left: ${level} rem` : ''"
+      >
+        <span v-if="children">
+          <span>{{ text }}</span>
+          <span
+            :class="{ 'arrow': true, 'down': open, 'right': !open }"
+            :style="{
+          position: 'relative',
+          top: '-0.12em',
+          left: '0.5em',
+        }"
+          />
+        </span>
+        <span v-else>{{ text }}</span>
+      </router-link>
+    </div>
+    <ul class="sidebar-sub-headers">
+
+    </ul>
+  </div>
+</template>
+
 <script>
 import { isActive, hashRE, groupHeaders } from '../util'
 
@@ -23,8 +63,7 @@ export default {
     }) {
     // use custom active class matching logic
     // due to edge case of paths ending with / + hash
-    let selfActive = isActive($route, item.path)
-    // console.log()
+    const selfActive = isActive($route, item.path)
     // for sidebar: auto pages, a hash link should be active if one of its child
     // matches
     const active = item.type === 'auto'
@@ -33,7 +72,7 @@ export default {
     // console.log('item: ', item)
     const link = item.type === 'external'
       ? renderExternal(h, item.path, item.title || item.path)
-      : renderLink(h, active, item.headers ? groupHeaders(item.headers) : null, item.path, item.title || item.path, active)
+      : renderLink(h, listeners, item.headers ? groupHeaders(item.headers) : null, item.path, item.title || item.path, active)
 
     const maxDepth = [
       $page.frontmatter.sidebarDepth,
@@ -61,7 +100,7 @@ export default {
     }
   }
 }
-function renderLink (h, localActive, children, to, text, active, open, level) {
+function renderLink (h, listeners, children, to, text, active, open, level) {
   const component = {
     props: {
       to,
@@ -80,11 +119,20 @@ function renderLink (h, localActive, children, to, text, active, open, level) {
     }
   }
 
+  if (children) {
+    component.nativeOn = {
+      click: ev => {
+        const emit_event = listeners.toggle
+        emit_event()
+      }
+    }
+  }
+
   const el = children
     ? [
       h('span', text),
       h('span', {
-        class: { 'arrow': true, 'down': localActive, 'right': !localActive },
+        class: { 'arrow': true, 'down': open, 'right': !open },
         style: {
           position: 'relative',
           top: '-0.12em',
@@ -105,14 +153,10 @@ function renderChildren (h, listeners, children, path, route, maxDepth, depth = 
   if (!children || depth > maxDepth) return null
   return h('ul', { class: 'sidebar-sub-headers' }, children.map(c => {
     const active = isActive(route, path + '#' + c.slug)
-    let localActive = route.fullPath === path + '#' + c.slug
-      || (c.children && c.children.some(cc => route.fullPath === path + '#' + cc.slug))
-      || false
-
-    const el = [renderLink(h, localActive, c.children, path + '#' + c.slug, c.title, active, c.level - 1)]
-    if (localActive) el.push(renderChildren(h, listeners, c.children, path, route, maxDepth, depth + 1))
-
-    return h('li', { class: 'sidebar-sub-header' }, el)
+    return h('li', { class: 'sidebar-sub-header' }, [
+      renderLink(h, listeners, c.children, path + '#' + c.slug, c.title, active, c.level - 1),
+      renderChildren(h, listeners, c.children, path, route, maxDepth, depth + 1)
+    ])
   }))
 }
 

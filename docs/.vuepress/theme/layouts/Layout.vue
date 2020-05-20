@@ -122,6 +122,8 @@ export default {
       this.isSidebarOpen = false
     })
     this.mounted = true
+    // console.log('pages: ', this.$site.pages)
+    // console.log('page: ', this.$page)
   },
 
   methods: {
