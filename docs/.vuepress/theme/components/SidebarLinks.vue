@@ -26,6 +26,8 @@
         v-else
         :sidebar-depth="sidebarDepth"
         :item="item"
+        :open="i === openGroupIndex"
+        @toggle="toggleGroup(i)"
       />
     </li>
   </ul>

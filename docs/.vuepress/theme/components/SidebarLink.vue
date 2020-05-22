@@ -8,6 +8,7 @@ export default {
 
   render (h,
     {
+      listeners,
       parent: {
         $page,
         $site,
@@ -20,17 +21,20 @@ export default {
         sidebarDepth
       }
     }) {
+    const theme = { $themeConfig, $themeLocaleConfig }
     // use custom active class matching logic
     // due to edge case of paths ending with / + hash
-    const selfActive = isActive($route, item.path)
+    let selfActive = isActive($route, item.path)
+    // console.log()
     // for sidebar: auto pages, a hash link should be active if one of its child
     // matches
     const active = item.type === 'auto'
       ? selfActive || item.children.some(c => isActive($route, item.basePath + '#' + c.slug))
       : selfActive
+    // console.log('item: ', item)
     const link = item.type === 'external'
       ? renderExternal(h, item.path, item.title || item.path)
-      : renderLink(h, item.path, item.title || item.path, active)
+      : renderLink(h, false, item.path, item.title || item.path, active)
 
     const maxDepth = [
       $page.frontmatter.sidebarDepth,
@@ -44,21 +48,20 @@ export default {
       || $themeConfig.displayAllHeaders
     // console.log(item.nested, $page.path, item.path)
     if (item.type === 'auto') {
-      return [link, renderChildren(h, item.children, item.basePath, $route, maxDepth)]
+      return [link, renderChildren(h, item.children, item.basePath, $route, maxDepth, theme)]
+      // } else if ((active || displayAllHeaders) && item.headers && !hashRE.test(item.path)) {
     } else if ((active || displayAllHeaders) && item.headers && !hashRE.test(item.path)) {
       const children = groupHeaders(item.headers)
       if (item.nested) {
-        if (!$page.path !== item.path) return [renderChildren(h, children, item.path, $route, maxDepth)]
-        else return []
+        return [renderChildren(h, children, item.path, $route, maxDepth, theme)]
       }
-      else return [link, renderChildren(h, children, item.path, $route, maxDepth)]
+      else return [link, renderChildren(h, children, item.path, $route, maxDepth, theme)]
     } else {
       return link
     }
   }
 }
-
-function renderLink (h, to, text, active, level) {
+function renderLink (h, isParent, to, text, active, level, open) {
   const component = {
     props: {
       to,
@@ -77,17 +80,57 @@ function renderLink (h, to, text, active, level) {
     }
   }
 
-  return h('RouterLink', component, text)
+  // const { $themeConfig, $themeLocaleConfig } = theme
+  // const displayAllHeaders = $themeLocaleConfig.displayAllHeaders
+  //     || $themeConfig.displayAllHeaders
+
+  const el = isParent
+    ? [
+      h('span', text),
+      h('span', {
+        class: { 'arrow': true, 'down': open, 'right': !open },
+        style: {
+          position: 'relative',
+          top: '-0.12em',
+          left: '0.5em',
+        }
+      })
+    ]
+    : text
+
+  return h(
+    'RouterLink',
+    component,
+    el
+  )
 }
 
-function renderChildren (h, children, path, route, maxDepth, depth = 1) {
+function renderChildren (h, children, path, route, maxDepth, theme, depth = 1) {
   if (!children || depth > maxDepth) return null
   return h('ul', { class: 'sidebar-sub-headers' }, children.map(c => {
     const active = isActive(route, path + '#' + c.slug)
-    return h('li', { class: 'sidebar-sub-header' }, [
-      renderLink(h, path + '#' + c.slug, c.title, active, c.level - 1),
-      renderChildren(h, c.children, path, route, maxDepth, depth + 1)
-    ])
+    let open = route.fullPath === path + '#' + c.slug
+      || (c.children && c.children.some(cc => route.fullPath === path + '#' + cc.slug))
+      || false
+    const { $themeConfig, $themeLocaleConfig } = theme
+    const displayAllHeaders = $themeLocaleConfig.displayAllHeaders
+      || $themeConfig.displayAllHeaders
+
+
+    const el = [renderLink(
+      h,
+      depth + 1 <= maxDepth && c.children,
+      path + '#' + c.slug,
+      c.title,
+      active,
+      c.level - 1,
+      displayAllHeaders || open
+    )]
+
+    if (displayAllHeaders || open)
+      el.push(renderChildren(h, c.children, path, route, maxDepth, theme, depth + 1))
+
+    return h('li', { class: 'sidebar-sub-header' }, el)
   }))
 }
 

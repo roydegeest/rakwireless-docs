@@ -90,6 +90,6 @@ module.exports = {
     }
   },
   extraWatchFiles: [
-    '.vuepress/*/.js'
+    '.vuepress/**/*.js'
   ]
 }
