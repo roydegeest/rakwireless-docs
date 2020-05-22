@@ -77,7 +77,6 @@ export default {
     },
 
     toggleGroup (index) {
-      console.log(index)
       this.openGroupIndex = index === this.openGroupIndex ? -1 : index
     },
 
