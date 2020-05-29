@@ -56,7 +56,7 @@ export default {
   computed: {
     quickStarts () {
       return this.$site.pages.filter(t => {
-        return t.path.match(/^\/[a-z]{2}-[a-z]{2}\/quick-start\/[^\/]+\/$/g)
+        return t.path.match(/^\/[a-z]{2}-[a-z]{2}\/quick-start-guide\/[^\/]+\/[^\/]+\/$/g)
       })
     }
   },

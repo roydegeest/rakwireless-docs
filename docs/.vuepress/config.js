@@ -89,7 +89,9 @@ module.exports = {
       md.use(require('markdown-it-include'), 'docs')
     }
   },
+  host: 'localhost',
   extraWatchFiles: [
     '.vuepress/**/*.js'
+    // '.vuepress/**/*.vue',
   ]
 }
