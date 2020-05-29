@@ -8,7 +8,7 @@ module.exports = {
       children: [
         '/en-us/datasheet/gateways/rak831/',
         '/en-us/datasheet/gateways/rak833/',
-        '/en-us/datasheet/gateways/rak2245-pihat-edition/',
+        '/en-us/datasheet/gateways/rak2245-pi-hat-edition/',
         '/en-us/datasheet/gateways/rak2245-stamp-edition/',
         '/en-us/datasheet/gateways/rak2247/',
         '/en-us/datasheet/gateways/rak2287/',
