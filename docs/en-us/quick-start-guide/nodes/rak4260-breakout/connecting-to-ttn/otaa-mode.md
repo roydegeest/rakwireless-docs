@@ -1,5 +1,5 @@
 ---
-prev: /en-us/quick-start/rak4260-breakout/interfacing.html
+prev: /en-us/quick-start-guide/rak4260-breakout/interfacing.html
 ---
 
 

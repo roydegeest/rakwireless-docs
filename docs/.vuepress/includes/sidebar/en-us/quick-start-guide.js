@@ -1,5 +1,5 @@
 module.exports = {
-  '/en-us/quick-start/rak7246g/': [
+  '/en-us/quick-start-guide/gateways/rak7246g/': [
     {
       title: 'Product Overview',
       path: '',
@@ -19,7 +19,7 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak7246g/accessing-your-gateway/',
+          path: '/en-us/quick-start-guide/gateways/rak7246g/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]
@@ -30,7 +30,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak7240/': [
+  '/en-us/quick-start-guide/gateways/rak7240/': [
     {
       title: 'Product Overview',
       path: '',
@@ -42,7 +42,7 @@ module.exports = {
           title: "Quick Start Guide",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak7240/quick-start-guide/',
+          path: '/en-us/quick-start-guide/gateways/rak7240/quick-start-guide/',
           children: [
             'quick-start-guide/power-on-the-gateway',
             'quick-start-guide/access-the-gateway',
@@ -53,7 +53,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak7249/': [
+  '/en-us/quick-start-guide/gateways/rak7249/': [
     {
       title: 'Product Overview',
       path: '',
@@ -65,7 +65,7 @@ module.exports = {
           title: "Quick Start Guide",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak7249/quick-start-guide/',
+          path: '/en-us/quick-start-guide/gateways/rak7249/quick-start-guide/',
           children: [
             'quick-start-guide/gateway-installation-guide',
             'quick-start-guide/solar-panel-and-battery-kit-installation',
@@ -79,7 +79,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak7258/': [
+  '/en-us/quick-start-guide/gateways/rak7258/': [
     {
       title: 'Product Overview',
       path: '',
@@ -91,7 +91,7 @@ module.exports = {
           title: "Quick Start Guide",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak7258/quick-start-guide/',
+          path: '/en-us/quick-start-guide/gateways/k7258/quick-start-guide/',
           children: [
             'quick-start-guide/wall-mounting-guide',
             'quick-start-guide/power-on-the-gateway',
@@ -103,7 +103,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak7244/': [
+  '/en-us/quick-start-guide/gateways/rak7244/': [
     {
       title: 'Product Overview',
       path: '',
@@ -123,7 +123,7 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak7244/accessing-your-gateway/',
+          path: '/en-us/quick-start-guide/gateways/rak7244/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]
@@ -134,7 +134,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak7243/': [
+  '/en-us/quick-start-guide/gateways/rak7243/': [
     {
       title: 'Product Overview',
       path: '',
@@ -146,7 +146,7 @@ module.exports = {
           title: "Quick Start Guide",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak7243/quick-start-guide/',
+          path: '/en-us/quick-start-guide/gateways/rak7243/quick-start-guide/',
           children: [
             'quick-start-guide/access-the-gateway',
             'quick-start-guide/access-the-internet',
@@ -158,7 +158,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak7243c/': [
+  '/en-us/quick-start-guide/gateways/rak7243c/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -177,7 +177,7 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak7243c/accessing-your-gateway/',
+          path: '/en-us/quick-start-guide/gateways/rak7243c/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]
@@ -188,7 +188,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak2247/': [
+  '/en-us/quick-start-guide/gateways/rak2247/': [
     {
       title: 'Product Overview',
       path: '',
@@ -209,7 +209,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak2245-pi-hat/': [
+  '/en-us/quick-start-guide/gateways/rak2245-pi-hat-edition/': [
     {
       title: 'Product Overview',
       path: '',
@@ -229,7 +229,7 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak2245-pi-hat/accessing-your-gateway/',
+          path: '/en-us/quick-start-guide/gateways/rak2245-pi-hat-edition/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]
@@ -240,7 +240,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak2245-stamp/': [
+  '/en-us/quick-start-guide/gateways/rak2245-stamp-edition/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -259,7 +259,7 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak2245-stamp/accessing-your-gateway/',
+          path: '/en-us/quick-start-guide/gateways/rak2245-stamp-edition/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]
@@ -270,7 +270,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak7244c/': [
+  '/en-us/quick-start-guide/gateways/rak7244c/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -289,7 +289,7 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak7244c/accessing-your-gateway/',
+          path: '/en-us/quick-start-guide/gateways/rak7244c/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]
@@ -301,7 +301,7 @@ module.exports = {
     }
 
   ],
-  '/en-us/quick-start/rak811/': [
+  '/en-us/quick-start-guide/nodes/rak811-evaluation/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -321,7 +321,7 @@ module.exports = {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start/rak811/connecting-to-ttn/',
+          path: '/en-us/quick-start-guide/nodes/rak811-evaluation/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa-mode',
             'connecting-to-ttn/ttn-abp-mode'
@@ -331,7 +331,7 @@ module.exports = {
           title: "Connecting to ChirpStack",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start/rak811/connecting-to-chirpstack/',
+          path: '/en-us/quick-start-guide/nodes/rak811-evaluation/connecting-to-chirpstack/',
           children: [
             'connecting-to-chirpstack/chirpstack-otaa-mode',
             'connecting-to-chirpstack/chirpstack-abp-mode'
@@ -352,7 +352,7 @@ module.exports = {
           title: "Interfacing your RAK811 LPWAN Evaluation Board with Arduino Boards",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak811/interfacing-with-arduino/',
+          path: '/en-us/quick-start-guide/rak811/interfacing-with-arduino/',
           children: [
             'interfacing-with-arduino/hardware-interfacing',
             'interfacing-with-arduino/firmware-flashing',
@@ -362,7 +362,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak815/': [
+  '/en-us/quick-start-guide/nodes/rak815/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -392,7 +392,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak4260-breakout/': [
+  '/en-us/quick-start-guide/nodes/rak4260-breakout/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -412,7 +412,7 @@ module.exports = {
           title: "Connecting to The Things Network (TTN)",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak4260-breakout/connecting-to-ttn/',
+          path: '/en-us/quick-start-guide/nodes/rak4260-breakout/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/otaa-mode'
           ]
@@ -420,7 +420,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak4260/': [
+  '/en-us/quick-start-guide/nodes/rak4260-evaluation/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -441,7 +441,7 @@ module.exports = {
           title: "Connecting to The Things Network (TTN)",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak4260/connecting-to-ttn/',
+          path: '/en-us/quick-start-guide/nodes/rak4260-evaluation/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa'
           ]
@@ -449,7 +449,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak4200-breakout/': [
+  '/en-us/quick-start-guide/nodes/rak4200-breakout/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -469,7 +469,7 @@ module.exports = {
           title: "Connecting to The Things Network",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak4200-breakout/connecting-to-ttn/',
+          path: '/en-us/quick-start-guide/nodes/rak4200-breakout/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa'
           ]
@@ -477,7 +477,7 @@ module.exports = {
       ]
     },
   ],
-  '/en-us/quick-start/rak4200/': [
+  '/en-us/quick-start-guide/nodes/rak4200-evaluation/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -497,7 +497,7 @@ module.exports = {
           title: "Connecting to The Things Network",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak4200/connecting-to-ttn/',
+          path: '/en-us/quick-start-guide/nodes/rak4200-evaluation/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa',
             'connecting-to-ttn/ttn-abp',
@@ -507,7 +507,7 @@ module.exports = {
           title: "Connecting to Chirpstack",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak4200/connecting-to-chirpstack/',
+          path: '/en-us/quick-start-guide/nodes/rak4200-evaluation/connecting-to-chirpstack/',
           children: [
             'connecting-to-chirpstack/chirpstack-otaa',
             'connecting-to-chirpstack/chirpstack-abp',
@@ -529,7 +529,7 @@ module.exports = {
     }
 
   ],
-  '/en-us/quick-start/rak7200/': [
+  '/en-us/quick-start-guide/nodes/rak7200/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -549,7 +549,7 @@ module.exports = {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start/rak7200/connecting-to-ttn/',
+          path: '/en-us/quick-start-guide/nodes/rak7200/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa-mode',
             'connecting-to-ttn/ttn-abp-mode'
@@ -559,7 +559,7 @@ module.exports = {
           title: "Connecting to ChirpStack",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start/rak7200/connecting-to-chirpstack/',
+          path: '/en-us/quick-start-guide/nodes/rak7200/connecting-to-chirpstack/',
           children: [
             'connecting-to-chirpstack/chirpstack-otaa-mode',
             'connecting-to-chirpstack/chirpstack-abp-mode'
@@ -579,7 +579,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak8212/': [
+  '/en-us/quick-start-guide/nb-iot/rak8212/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -610,7 +610,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak7204/': [
+  '/en-us/quick-start-guide/nodes/rak7204/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -630,7 +630,7 @@ module.exports = {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start/rak7204/connecting-to-ttn/',
+          path: '/en-us/quick-start-guide/nodes/rak7204/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa',
             'connecting-to-ttn/ttn-abp'
@@ -640,7 +640,7 @@ module.exports = {
           title: "Connecting to Chirpstack",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start/rak7204/connecting-to-chirpstack/',
+          path: '/en-us/quick-start-guide/nodes/rak7204/connecting-to-chirpstack/',
           children: [
             'connecting-to-chirpstack/chirpstack-otaa',
             'connecting-to-chirpstack/chirpstack-abp'
@@ -663,7 +663,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak811-breakout/': [
+  '/en-us/quick-start-guide/nodes/rak811-breakout/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -684,7 +684,7 @@ module.exports = {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start/rak811-breakout/connecting-to-ttn/',
+          path: '/en-us/quick-start-guide/nodes/rak811-breakout/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa-mode',
             'connecting-to-ttn/ttn-abp-mode'
@@ -694,7 +694,7 @@ module.exports = {
           title: "Connecting to ChirpStack",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start/rak811-breakout/connecting-to-chirpstack/',
+          path: '/en-us/quick-start-guide/nodes/rak811-breakout/connecting-to-chirpstack/',
           children: [
             'connecting-to-chirpstack/chirpstack-otaa-mode',
             'connecting-to-chirpstack/chirpstack-abp-mode'
@@ -713,7 +713,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak5205-7205/': [
+  '/en-us/quick-start-guide/nodes/rak7205(5205)/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -733,7 +733,7 @@ module.exports = {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start/rak5205-7205/connecting-to-ttn/',
+          path: '/en-us/quick-start-guide/nodes/rak7205(5205)/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa-mode',
             'connecting-to-ttn/ttn-abp-mode'
@@ -743,7 +743,7 @@ module.exports = {
           title: "Connecting to ChirpStack",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start/rak5205-7205/connecting-to-chirpstack/',
+          path: '/en-us/quick-start-guide/nodes/rak7205(5205)/connecting-to-chirpstack/',
           children: [
             'connecting-to-chirpstack/chirpstack-otaa-mode',
             'connecting-to-chirpstack/chirpstack-abp-mode'
@@ -766,7 +766,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak612/': [
+  '/en-us/quick-start-guide/nodes/rak612/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -786,7 +786,7 @@ module.exports = {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start/rak612/connecting-to-ttn/',
+          path: '/en-us/quick-start-guide/nodes/rak612/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa',
             'connecting-to-ttn/ttn-abp'
@@ -805,7 +805,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/rak5010/': [
+  '/en-us/quick-start-guide/nb-iot/rak5010/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -838,7 +838,7 @@ module.exports = {
       ]
     }
   ], 
-  '/en-us/quick-start/rak4600-breakout/': [
+  '/en-us/quick-start-guide/nodes/rak4600-breakout/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -858,7 +858,7 @@ module.exports = {
           title: "Connecting to The Things Network",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak4600-breakout/connecting-to-ttn/',
+          path: '/en-us/quick-start-guide/nodes/rak4600-breakout/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa'
           ]
@@ -866,7 +866,7 @@ module.exports = {
       ]
     },
   ],
-  '/en-us/quick-start/rak4600/': [
+  '/en-us/quick-start-guide/nodes/rak4600-evaluation/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -885,7 +885,7 @@ module.exports = {
           title: "Interfacing with RAK4600",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start/rak4600/interfacing/',
+          path: '/en-us/quick-start-guide/nodes/rak4600-evaluation/interfacing/',
           children: [
             'interfacing/checking-device-logs',
           ]
@@ -895,7 +895,7 @@ module.exports = {
           title: "Connecting to The Things Network",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak4600/connecting-to-ttn/',
+          path: '/en-us/quick-start-guide/nodes/rak4600-evaluation/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa',
             'connecting-to-ttn/ttn-abp',
@@ -905,7 +905,7 @@ module.exports = {
           title: "Connecting to Chirpstack",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start/rak4600/connecting-to-chirpstack/',
+          path: '/en-us/quick-start-guide/nodes/rak4600-evaluation/connecting-to-chirpstack/',
           children: [
             'connecting-to-chirpstack/chirpstack-otaa',
             'connecting-to-chirpstack/chirpstack-abp',
@@ -926,7 +926,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start/': [
+  '/en-us/quick-start-guide/': [
     ''
   ]
 }

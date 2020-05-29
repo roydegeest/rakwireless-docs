@@ -1,5 +1,5 @@
 ---
-next: /en-us/quick-start/rak4600/interfacing/
+next: /en-us/quick-start-guide/rak4600/interfacing/
 ---
 # Prerequisites
 

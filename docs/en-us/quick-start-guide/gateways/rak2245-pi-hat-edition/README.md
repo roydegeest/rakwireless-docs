@@ -16,13 +16,13 @@ params:
       - name: Datasheet
         href: /en-us/datasheet/rak2245-pihat/#rak2245-pi-hat-lpwan-gateway-concentrator-module
       - name: Comparison Between RAK831
-        href: http://docs.rakwireless.com/en/LoRa/RAK2245-Pi-HAT/Hardware-Specification/RAK2245_RAK831_Design_Guide_Comparison.pdf
+        href: http://docs.rakwireless.com/en/LoRa/rak2245-pi-hat-edition/Hardware-Specification/RAK2245_RAK831_Design_Guide_Comparison.pdf
       - name: CE and FCC Certification Report
-        href: https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Certification-Report/
+        href: https://downloads.rakwireless.com/LoRa/rak2245-pi-hat-edition/Certification-Report/
       - name: 3D Model
-        href: https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Hardware-Specification/RAK2245_Pi_HAT-3D-File.zip
+        href: https://downloads.rakwireless.com/LoRa/rak2245-pi-hat-edition/Hardware-Specification/RAK2245_Pi_HAT-3D-File.zip
       - name: Downloads
-        href: https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/
+        href: https://downloads.rakwireless.com/LoRa/rak2245-pi-hat-edition/
    
 ---
 # RAK2245 Pi Hat Edition - LPWAN Gateway Concentrator Module
@@ -51,7 +51,7 @@ This LPWAN Gateway Pi HAT supports eight channels and is available for all LoRaW
 
 ## Product Features
 
-- Compatible with Raspberry Pi 3 Model B+ edition. and [Raspberry Pi 4](https://downloads.rakwireless.com/en/LoRa/RAK2245-Pi-HAT/Firmware/Raspberry-Pi-4/)
+- Compatible with Raspberry Pi 3 Model B+ edition. and [Raspberry Pi 4](https://downloads.rakwireless.com/en/LoRa/rak2245-pi-hat-edition/Firmware/Raspberry-Pi-4/)
 - Large Heatsink for Heat Dissipation
 - SX1301 base band processor emulates 49 x LoRa® demodulators 10 parallel demodulation paths, supports 8 uplink channels, 1 downlink channel.
 - 2 x SX125x Tx/Rx front-ends high/ low frequency.

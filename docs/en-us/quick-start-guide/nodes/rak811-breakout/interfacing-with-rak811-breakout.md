@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811-breakout/interfacing-with-rak811-breakout
-next: /en-us/quick-start/rak811-breakout/connecting-to-ttn/
+next: /en-us/quick-start-guide/rak811-breakout/connecting-to-ttn/
 ---
 
 # Interfacing with RAK811 LPWAN Breakout Module

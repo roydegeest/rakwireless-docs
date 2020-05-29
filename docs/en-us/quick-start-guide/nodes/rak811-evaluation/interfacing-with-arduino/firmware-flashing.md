@@ -9,13 +9,13 @@ static_root: /assets/images/quick-start-guide/rak811/firmware-flashing
 Kindly look into the different documents on how to burn and update the bootloader and firmware of RAK811 LPWAN Evaluation board. Both the bootloader and firmware files can be downloaded [here](https://downloads.rakwireless.com/en/LoRa/WisNode/Firmware/).
 
 - **Bootloader**: [Burning the Bootloader]()
-- **Firmware**: [Upgrading the Firmware](/en-us/quick-start/rak811/upgrading-the-firmware.html)
+- **Firmware**: [Upgrading the Firmware](/en-us/quick-start-guide/rak811/upgrading-the-firmware.html)
 
 ## Arduino Demo firmware
 
 1. Open the "**JoinNetworkOTAA.ino**" by navigating through `File>Examples>Arduino-RAK811-Library` in the Arduino IDE.
 
-2. Edit the **Device EUI**, **Application Key and Application EUI** in the "**JoinNetworkOTAA.ino**" which can be obtained in the [Connecting to TTN](/en-us/quick-start/rak811/connecting-to-ttn/) document.
+2. Edit the **Device EUI**, **Application Key and Application EUI** in the "**JoinNetworkOTAA.ino**" which can be obtained in the [Connecting to TTN](/en-us/quick-start-guide/rak811/connecting-to-ttn/) document.
 
 3.Afterwhich, proceed to uploading the sketch by following the steps in the image below:
 

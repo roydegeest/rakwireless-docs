@@ -1,5 +1,5 @@
 ---
-prev: /en-us/quick-start/rak4260/interfacing-with-rak4260
+prev: /en-us/quick-start-guide/rak4260/interfacing-with-rak4260
 next: ttn-otaa
 ---
 # Connecting to The Things Network (TTN)

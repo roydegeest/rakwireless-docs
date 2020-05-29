@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7243c/1.product-overview/2.quick-start
-next: /en-us/quick-start/rak7243c/accessing-your-gateway/#accessing-your-gateway
+next: /en-us/quick-start-guide/rak7243c/accessing-your-gateway/#accessing-your-gateway
 ---
 
 # Quick Start Guide

@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5205-7205/connecting-to-ttn
 next: ttn-otaa-mode
-prev: /en-us/quick-start/rak5205-7205/interfacing-with
+prev: /en-us/quick-start-guide/rak5205-7205/interfacing-with
 ---
 
 # Connecting to The Things Network (TTN)

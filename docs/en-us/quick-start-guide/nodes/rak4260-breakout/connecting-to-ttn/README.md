@@ -1,6 +1,6 @@
 ---
-prev: /en-us/quick-start/rak4260-breakout/interfacing.html
-next: /en-us/quick-start/rak4260-breakout/connecting-to-ttn/otaa-mode.html
+prev: /en-us/quick-start-guide/rak4260-breakout/interfacing.html
+next: /en-us/quick-start-guide/rak4260-breakout/connecting-to-ttn/otaa-mode.html
 ---
 
 ## Connecting to The Things Network (TTN)

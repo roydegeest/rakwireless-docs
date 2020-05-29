@@ -1,5 +1,5 @@
 module.exports = {
-  '/en-us/faq/': [
+  '/en-us/faqs/': [
     {
       title: 'RAKwireless Help Center',
       path: '',

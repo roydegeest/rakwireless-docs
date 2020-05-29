@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5205-7205/chirpstack-otaa-mode
 next: chirpstack-abp-mode
-prev: /en-us/quick-start/rak5205-7205/connecting-to-chirpstack/
+prev: /en-us/quick-start-guide/rak5205-7205/connecting-to-chirpstack/
 ---
 
 # OTAA Mode

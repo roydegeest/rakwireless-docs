@@ -1,5 +1,5 @@
 ---
-next: /en-us/quick-start/rak4260-breakout/connecting-to-ttn/
+next: /en-us/quick-start-guide/rak4260-breakout/connecting-to-ttn/
 ---
 
 # Interfacing with RAK4260 LPWAN Breakout Module

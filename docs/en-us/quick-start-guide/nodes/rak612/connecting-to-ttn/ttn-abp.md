@@ -1,5 +1,5 @@
 ---
-next: /en-us/quick-start/rak612/key-function-customizing.html
+next: /en-us/quick-start-guide/rak612/key-function-customizing.html
 ---
 # ABP Mode
 

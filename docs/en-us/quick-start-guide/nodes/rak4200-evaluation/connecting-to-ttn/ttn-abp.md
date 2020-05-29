@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak4200/4.connecting-to-ttn/ttn-abp
-next: /en-us/quick-start/rak4200/connecting-to-chirpstack/
+next: /en-us/quick-start-guide/rak4200/connecting-to-chirpstack/
 ---
 # ABP Mode
 

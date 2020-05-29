@@ -1,5 +1,5 @@
 ---
-prev: /en-us/quick-start/rak7249/#rak7249-macro-outdoor-gateway
+prev: /en-us/quick-start-guide/rak7249/#rak7249-macro-outdoor-gateway
 next: gateway-installation-guide
 ---
 

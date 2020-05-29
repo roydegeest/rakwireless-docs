@@ -1,5 +1,5 @@
 ---
-prev: /en-us/quick-start/rak7243/quick-start-guide/#quick-start-guide
+prev: /en-us/quick-start-guide/rak7243/quick-start-guide/#quick-start-guide
 next: access-the-internet
 ---
 

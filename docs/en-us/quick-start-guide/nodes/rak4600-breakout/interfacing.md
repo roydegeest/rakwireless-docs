@@ -1,5 +1,5 @@
 ---
-next: /en-us/quick-start/rak4600-breakout/connecting-to-ttn/
+next: /en-us/quick-start-guide/rak4600-breakout/connecting-to-ttn/
 ---
 
 # Interfacing with RAK4600 LPWAN Breakout Module

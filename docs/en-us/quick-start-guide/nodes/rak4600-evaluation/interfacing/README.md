@@ -1,6 +1,6 @@
 ---
-prev: /en-us/quick-start/rak4600/prerequisites
-next: /en-us/quick-start/rak4600/interfacing/checking-device-logs
+prev: /en-us/quick-start-guide/rak4600/prerequisites
+next: /en-us/quick-start-guide/rak4600/interfacing/checking-device-logs
 ---
 ### Interfacing with RAK4600
 

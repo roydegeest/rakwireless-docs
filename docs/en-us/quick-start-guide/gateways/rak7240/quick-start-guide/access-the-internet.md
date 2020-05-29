@@ -1,5 +1,5 @@
 ---
-next: /en-us/quick-start/rak7240/quick-start-guide/connecting-to-ttn.html
+next: /en-us/quick-start-guide/rak7240/quick-start-guide/connecting-to-ttn.html
 ---
 
 # Access the Internet

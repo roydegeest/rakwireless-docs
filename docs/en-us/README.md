@@ -4,11 +4,11 @@ heroImage: /assets/rakwireless/rak-blue-dark.svg
 heroText: Welcome to RAK Documentation Center
 tagline: The RAKwireless Docs is a great place to explore our hardware, software and developer tools, and find all the information you need to get started in your LoRa® project!
 actionText: Get Started
-actionLink: /en-us/quick-start/
+actionLink: /en-us/quick-start-guide/
 features:
   - title: Quick Start Guide
     details: A manual on how to set up your device for the first time and deploy with only its core functionality in mind.
-    actionLink: /en-us/quick-start/
+    actionLink: /en-us/quick-start-guide/
   - title: Datasheet
     details: Detailed information about the components of the device and its functionality.
     actionLink: /en-us/datasheet/rak831/#rak831-lpwan-gateway-concentrator

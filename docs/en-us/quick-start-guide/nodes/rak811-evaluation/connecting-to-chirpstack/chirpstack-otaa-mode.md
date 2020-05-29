@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/chirpstack-otaa-mode
-prev: /en-us/quick-start/rak811/connecting-to-chirpstack/
+prev: /en-us/quick-start-guide/rak811/connecting-to-chirpstack/
 ---
 
 # OTAA Mode

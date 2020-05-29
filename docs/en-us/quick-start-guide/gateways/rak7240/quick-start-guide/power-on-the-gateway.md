@@ -1,6 +1,6 @@
 ---
-prev: /en-us/quick-start/rak7240/quick-start-guide/#quick-start-guide
-next: /en-us/quick-start/rak7240/quick-start-guide/access-the-gateway.html
+prev: /en-us/quick-start-guide/rak7240/quick-start-guide/#quick-start-guide
+next: /en-us/quick-start-guide/rak7240/quick-start-guide/access-the-gateway.html
 ---
 
 # Power on the Gateway

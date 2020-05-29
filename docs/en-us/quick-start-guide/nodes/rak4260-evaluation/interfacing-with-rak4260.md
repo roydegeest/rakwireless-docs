@@ -1,5 +1,5 @@
 ---
-next: /en-us/quick-start/rak4260/connecting-to-ttn/
+next: /en-us/quick-start-guide/rak4260/connecting-to-ttn/
 ---
 
 # Interfacing with the RAK4260 LPWAN Evaluation Board

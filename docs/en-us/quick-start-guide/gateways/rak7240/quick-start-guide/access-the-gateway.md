@@ -1,5 +1,5 @@
 ---
-next: /en-us/quick-start/rak7240/quick-start-guide/access-the-internet.html
+next: /en-us/quick-start-guide/rak7240/quick-start-guide/access-the-internet.html
 ---
 
 # Access the Gateway

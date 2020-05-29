@@ -37,4 +37,4 @@ You can login to the Gateway using an SSH client like PuTTY. For more
 details on the configuration and management of the Gateway please visit the
 link below:
 
-[RAK7246G LPWAN Developer Gateway User Manual](/en-us/quick-start/rak7246g)
+[RAK7246G LPWAN Developer Gateway User Manual](/en-us/quick-start-guide/rak7246g)

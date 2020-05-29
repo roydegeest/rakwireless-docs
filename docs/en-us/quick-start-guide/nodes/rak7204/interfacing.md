@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/3.interfacing
-next: /en-us/quick-start/rak7204/connecting-to-ttn/
+next: /en-us/quick-start-guide/rak7204/connecting-to-ttn/
 ---
 
 # Interfacing with the RAK7204 

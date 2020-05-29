@@ -1,6 +1,6 @@
 ---
-prev: /en-us/quick-start/rak7240/#rak7240-outdoor-lpwan-gateway
-next: /en-us/quick-start/rak7240/quick-start-guide/power-on-the-gateway.html
+prev: /en-us/quick-start-guide/rak7240/#rak7240-outdoor-lpwan-gateway
+next: /en-us/quick-start-guide/rak7240/quick-start-guide/power-on-the-gateway.html
 ---
 
 # Quick Start Guide

@@ -51,7 +51,7 @@ RAK Gateways support all LoRaWAN® frequency channels as shown in the list provi
 </template>
 <template #answer>
 
-Yes. We have provided a pre-compiled firmware image that you can just easily use and flash it into your Raspberry Pi 4. You can check out the [RAK2245 - Pi Hat Device Firmware Setup](/en-us/quick-start/rak2245-pi-hat/device-firmware-setup.html) guide on how to burn the firmware image into your Raspberry Pi device.
+Yes. We have provided a pre-compiled firmware image that you can just easily use and flash it into your Raspberry Pi 4. You can check out the [RAK2245 - Pi Hat Device Firmware Setup](/en-us/quick-start-guide/rak2245-pi-hat/device-firmware-setup.html) guide on how to burn the firmware image into your Raspberry Pi device.
 
 Note:
 

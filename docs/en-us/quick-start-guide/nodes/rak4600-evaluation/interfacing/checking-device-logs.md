@@ -1,5 +1,5 @@
 ---
-prev: /en-us/quick-start/rak4600/interfacing/
+prev: /en-us/quick-start-guide/rak4600/interfacing/
 ---
 # Checking Device Logs
 

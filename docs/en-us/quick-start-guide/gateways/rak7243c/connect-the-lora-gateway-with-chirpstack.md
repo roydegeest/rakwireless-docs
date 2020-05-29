@@ -13,7 +13,7 @@ For the RAK7243C LPWAN Developer Gateway, there are 2 ways to use the ChirpStack
 There is a built-in ChirpStack in every RAK Developer gateway if you use the latest firmware.
 
 - When you use it for the first time after burning the latest firmware, the gateway will work in the EU868 Band and use the built-in ChirpStack as its default LoRa® Server. If you don't want to change the frequency or LoRa® Server, you don't have to do anything as this will be configured automatically when the gateway boots.
-- However if it is not the first time and you want to use the built-in ChirpStack as the LoRa® Server, follow the steps discussed in [Configuring the Gateway](/en-us/quick-start/rak7243c/configuring-the-gateway.html) section.
+- However if it is not the first time and you want to use the built-in ChirpStack as the LoRa® Server, follow the steps discussed in [Configuring the Gateway](/en-us/quick-start-guide/rak7243c/configuring-the-gateway.html) section.
 - **Optional:** If ever you disabled the AP Mode and you have connected it to your own Wifi network (Client Mode). You can search for your gateway’s IP Address via [**Advanced IP Scanner**](https://www.advanced-ip-scanner.com/). Copy the IP Address of your Gateway, it should have a Manufacturer name of **Raspberry Pi Foundation**:
 
 <rk-img
@@ -114,7 +114,7 @@ This is a lot more complicated having to deploy a remote ChirpStack by yourself 
   caption="Registering your own Gateway"
 />
 
-- Fill in the Gateway ID that we got from the last section ([Configuring the Gateway](/en-us/quick-start/rak7243c/configuring-the-gateway.html)), also called Gateway EUI.
+- Fill in the Gateway ID that we got from the last section ([Configuring the Gateway](/en-us/quick-start-guide/rak7243c/configuring-the-gateway.html)), also called Gateway EUI.
 - If you have properly configured your gateway and there is a network connection between the external ChirpStack and your gateway, you should see the following page and status:
 
 <rk-img

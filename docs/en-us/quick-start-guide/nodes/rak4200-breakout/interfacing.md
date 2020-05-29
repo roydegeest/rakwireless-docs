@@ -1,5 +1,5 @@
 ---
-next: /en-us/quick-start/rak4200-breakout/connecting-to-ttn/#connecting-to-the-things-network-ttn
+next: /en-us/quick-start-guide/rak4200-breakout/connecting-to-ttn/#connecting-to-the-things-network-ttn
 ---
 # Interfacing with RAK4200 LPWAN Breakout Module
 

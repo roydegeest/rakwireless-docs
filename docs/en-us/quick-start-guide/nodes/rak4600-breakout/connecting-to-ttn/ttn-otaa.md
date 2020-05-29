@@ -1,5 +1,5 @@
 ---
-prev: /en-us/quick-start/rak4600-breakout/connecting-to-ttn/
+prev: /en-us/quick-start-guide/rak4600-breakout/connecting-to-ttn/
 ---
 
 # OTAA Mode
