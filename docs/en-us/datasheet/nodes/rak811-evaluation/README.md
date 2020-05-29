@@ -45,9 +45,9 @@ The RAK811 Module is integrated with Semtech's SX1276 and STM32L which offers us
   improving immunity to the interference when combined with integrated forward error
   correction.
 
-!!!include(en-us/datasheet/rak811/interfaces.md)!!!
-!!!include(en-us/datasheet/rak811/pin-definition.md)!!!
-!!!include(en-us/datasheet/rak811/board-layout.md)!!!
-!!!include(en-us/datasheet/rak811/schematic-diagram.md)!!!
-!!!include(en-us/datasheet/rak811/device-specification.md)!!!
-!!!include(en-us/datasheet/rak811/reflow-profile.md)!!!
+!!!include(en-us/datasheet/nodes/rak811-evaluation/interfaces.md)!!!
+!!!include(en-us/datasheet/nodes/rak811-evaluation/pin-definition.md)!!!
+!!!include(en-us/datasheet/nodes/rak811-evaluation/board-layout.md)!!!
+!!!include(en-us/datasheet/nodes/rak811-evaluation/schematic-diagram.md)!!!
+!!!include(en-us/datasheet/nodes/rak811-evaluation/device-specification.md)!!!
+!!!include(en-us/datasheet/nodes/rak811-evaluation/reflow-profile.md)!!!

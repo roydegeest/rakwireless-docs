@@ -38,12 +38,12 @@ antenna for the BLE.
 Solar Panel Port
 - Multiple interfaces, I2C, UART, GPIO and AD.
 
-!!!include(en-us/datasheet/rak5010/board-overview.md)!!!
-!!!include(en-us/datasheet/rak5010/pin-definition.md)!!!
-!!!include(en-us/datasheet/rak5010/interfaces.md)!!!
-!!!include(en-us/datasheet/rak5010/electrical-and-mechanical-specifications.md)!!!
-!!!include(en-us/datasheet/rak5010/power-requirements.md)!!!
-!!!include(en-us/datasheet/rak5010/system-on-a-chip-and-sensors.md)!!!
-!!!include(en-us/datasheet/rak5010/mechanical-dimensions.md)!!!
-!!!include(en-us/datasheet/rak5010/antenna-characteristics.md)!!!
-!!!include(en-us/datasheet/rak5010/schematic-diagram.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak5010/board-overview.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak5010/pin-definition.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak5010/interfaces.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak5010/electrical-and-mechanical-specifications.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak5010/power-requirements.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak5010/system-on-a-chip-and-sensors.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak5010/mechanical-dimensions.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak5010/antenna-characteristics.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak5010/schematic-diagram.md)!!!

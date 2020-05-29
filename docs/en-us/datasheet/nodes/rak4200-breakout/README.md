@@ -42,9 +42,9 @@ automation, sensor networks, building automation, personal area networks applica
 - Supply voltage: **2.0 ~ 3.6V**
 - Temperature range: **-40°C to +85°C**
 
-!!!include(en-us/datasheet/rak4200-breakout-module/board-overview.md)!!!
-!!!include(en-us/datasheet/rak4200-breakout-module/operating-frequencies.md)!!!
-!!!include(en-us/datasheet/rak4200-breakout-module/pin-definition.md)!!!
-!!!include(en-us/datasheet/rak4200-breakout-module/power-consumption.md)!!!
-!!!include(en-us/datasheet/rak4200-breakout-module/schematic-diagram.md)!!!
-!!!include(en-us/datasheet/rak4200-breakout-module/interfaces.md)!!!
+!!!include(en-us/datasheet/nodes/rak4200-breakout/board-overview.md)!!!
+!!!include(en-us/datasheet/nodes/rak4200-breakout/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/nodes/rak4200-breakout/pin-definition.md)!!!
+!!!include(en-us/datasheet/nodes/rak4200-breakout/power-consumption.md)!!!
+!!!include(en-us/datasheet/nodes/rak4200-breakout/schematic-diagram.md)!!!
+!!!include(en-us/datasheet/nodes/rak4200-breakout/interfaces.md)!!!

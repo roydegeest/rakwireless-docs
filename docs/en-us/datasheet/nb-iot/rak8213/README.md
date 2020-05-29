@@ -29,13 +29,13 @@ Rich Internet protocol, industry-standard interfaces (USB/UART/I2C/Status indica
 - Robust mounting and interfaces.
 - PCM interface available for VOLTE.
 
-!!!include(en-us/datasheet/rak8213/board-overview.md)!!!
-!!!include(en-us/datasheet/rak8213/ordering-information.md)!!!
-!!!include(en-us/datasheet/rak8213/block-diagram.md)!!!
-!!!include(en-us/datasheet/rak8213/operating-frequencies.md)!!!
-!!!include(en-us/datasheet/rak8213/pin-definition.md)!!!
-!!!include(en-us/datasheet/rak8213/interfaces.md)!!!
-!!!include(en-us/datasheet/rak8213/gnss-receiver.md)!!!
-!!!include(en-us/datasheet/rak8213/antenna-interfaces.md)!!!
-!!!include(en-us/datasheet/rak8213/electrical-characteristics.md)!!!
-!!!include(en-us/datasheet/rak8213/schematic-diagram.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak8213/board-overview.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak8213/ordering-information.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak8213/block-diagram.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak8213/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak8213/pin-definition.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak8213/interfaces.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak8213/gnss-receiver.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak8213/antenna-interfaces.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak8213/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak8213/schematic-diagram.md)!!!

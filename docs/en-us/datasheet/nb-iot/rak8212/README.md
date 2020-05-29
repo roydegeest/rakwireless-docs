@@ -61,7 +61,7 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
 - Loss of assets / personnel positioning
 - Other remote, battery powered applications
 
-!!!include(en-us/datasheet/rak8212/board-overview.md)!!!
-!!!include(en-us/datasheet/rak8212/pin-definition.md)!!!
-!!!include(en-us/datasheet/rak8212/block-diagram.md)!!!
-!!!include(en-us/datasheet/rak8212/general-specifications.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak8212/board-overview.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak8212/pin-definition.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak8212/block-diagram.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak8212/general-specifications.md)!!!

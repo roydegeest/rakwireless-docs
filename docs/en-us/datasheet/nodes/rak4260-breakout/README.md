@@ -42,9 +42,9 @@ The low power, long range LoRa® communication capabilities of the module make i
 - Supply voltage: 2.0V ~ 3.6V
 - Temperature range: -40°C to +85°C
 
-!!!include(en-us/datasheet/rak4260-breakout/board-overview.md)!!!
-!!!include(en-us/datasheet/rak4260-breakout/operating-frequencies.md)!!!
-!!!include(en-us/datasheet/rak4260-breakout/pin-definition.md)!!!
-!!!include(en-us/datasheet/rak4260-breakout/interfaces.md)!!!
-!!!include(en-us/datasheet/rak4260-breakout/electrical-characteristics.md)!!!
-!!!include(en-us/datasheet/rak4260-breakout/schematic-diagram.md)!!!
+!!!include(en-us/datasheet/nodes/rak4260-breakout/board-overview.md)!!!
+!!!include(en-us/datasheet/nodes/rak4260-breakout/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/nodes/rak4260-breakout/pin-definition.md)!!!
+!!!include(en-us/datasheet/nodes/rak4260-breakout/interfaces.md)!!!
+!!!include(en-us/datasheet/nodes/rak4260-breakout/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/nodes/rak4260-breakout/schematic-diagram.md)!!!

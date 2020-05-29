@@ -35,13 +35,13 @@ Pilot Gateway Pro is ideal for prototyping, proof-of-concept demonstration or fo
 * Includes Pi ready 'ID EEPROM', GPIO setup and device tree can be automatically configured from vendor information.
 * Supports fully open source code connected to a LoRaWAN® server.
 
-!!!include(en-us/datasheet/rak7243c/board-overview.md)!!!
-!!!include(en-us/datasheet/rak7243c/interfaces.md)!!!
-!!!include(en-us/datasheet/rak7243c/system-structure.md)!!!
-!!!include(en-us/datasheet/rak7243c/operating-frequencies.md)!!!
-!!!include(en-us/datasheet/rak7243c/cellular-frequency-bands.md)!!!
-!!!include(en-us/datasheet/rak7243c/pin-definition.md)!!!
-!!!include(en-us/datasheet/rak7243c/power-requirements.md)!!!
-!!!include(en-us/datasheet/rak7243c/environmental-requirements.md)!!!
-!!!include(en-us/datasheet/rak7243c/lora-rf-characteristics.md)!!!
-!!!include(en-us/datasheet/rak7243c/antenna-specifications.md)!!!
+!!!include(en-us/datasheet/gateways/rak7243c/board-overview.md)!!!
+!!!include(en-us/datasheet/gateways/rak7243c/interfaces.md)!!!
+!!!include(en-us/datasheet/gateways/rak7243c/system-structure.md)!!!
+!!!include(en-us/datasheet/gateways/rak7243c/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/gateways/rak7243c/cellular-frequency-bands.md)!!!
+!!!include(en-us/datasheet/gateways/rak7243c/pin-definition.md)!!!
+!!!include(en-us/datasheet/gateways/rak7243c/power-requirements.md)!!!
+!!!include(en-us/datasheet/gateways/rak7243c/environmental-requirements.md)!!!
+!!!include(en-us/datasheet/gateways/rak7243c/lora-rf-characteristics.md)!!!
+!!!include(en-us/datasheet/gateways/rak7243c/antenna-specifications.md)!!!

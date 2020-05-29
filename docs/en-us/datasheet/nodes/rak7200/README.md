@@ -29,10 +29,10 @@ It is a feature-packed tracker device for featured applications development. Thi
 - Supports Micro USB or built-in battery for power supply.
 - **Supports global license-free frequency band**: EU433, CN470, EU868, US915, AS923, AU915, KR920 and IN865.
 
-!!!include(en-us/datasheet/rak7200/board-overview.md)!!!
-!!!include(en-us/datasheet/rak7200/pin-definition.md)!!!
-!!!include(en-us/datasheet/rak7200/interfaces.md)!!!
-!!!include(en-us/datasheet/rak7200/operating-frequencies.md)!!!
-!!!include(en-us/datasheet/rak7200/electrical-characteristics.md)!!!
-!!!include(en-us/datasheet/rak7200/environmental-requirements.md)!!!
-!!!include(en-us/datasheet/rak7200/antenna-specifications.md)!!!
+!!!include(en-us/datasheet/nodes/rak7200/board-overview.md)!!!
+!!!include(en-us/datasheet/nodes/rak7200/pin-definition.md)!!!
+!!!include(en-us/datasheet/nodes/rak7200/interfaces.md)!!!
+!!!include(en-us/datasheet/nodes/rak7200/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/nodes/rak7200/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/nodes/rak7200/environmental-requirements.md)!!!
+!!!include(en-us/datasheet/nodes/rak7200/antenna-specifications.md)!!!

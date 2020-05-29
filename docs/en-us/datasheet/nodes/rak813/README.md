@@ -47,8 +47,8 @@ RAK813 supports various protocols, including the newest BLE and LoRaWAN®, where
 - llP3 = -11dBm
 - Up to 15 km coverage at suburban and up to 5 km coverage at urban area.
 
-!!!include(en-us/datasheet/rak813/board-overview.md)!!!
-!!!include(en-us/datasheet/rak813/operating-frequencies.md)!!!
-!!!include(en-us/datasheet/rak813/interfaces.md)!!!
-!!!include(en-us/datasheet/rak813/pin-definition.md)!!!
-!!!include(en-us/datasheet/rak813/mechanical-dimension.md)!!!
+!!!include(en-us/datasheet/nodes/rak813/board-overview.md)!!!
+!!!include(en-us/datasheet/nodes/rak813/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/nodes/rak813/interfaces.md)!!!
+!!!include(en-us/datasheet/nodes/rak813/pin-definition.md)!!!
+!!!include(en-us/datasheet/nodes/rak813/mechanical-dimension.md)!!!

@@ -51,13 +51,13 @@ The RAK7244 LoRaWAN® Developer Gateway is ideal for prototyping, proof-of-conce
 />
 
 
-!!!include(en-us/datasheet/rak7244/board-overview.md)!!!
-!!!include(en-us/datasheet/rak7244/interfaces.md)!!!
-!!!include(en-us/datasheet/rak7244/system-structure.md)!!!
-!!!include(en-us/datasheet/rak7244/operating-frequencies.md)!!!
-!!!include(en-us/datasheet/rak7244/cellular-frequency-bands.md)!!!
-!!!include(en-us/datasheet/rak7244/hardware-structure.md)!!!
-!!!include(en-us/datasheet/rak7244/power-requirements.md)!!!
-!!!include(en-us/datasheet/rak7244/environmental-requirements.md)!!!
-!!!include(en-us/datasheet/rak7244/lora-rf-characteristics.md)!!!
-!!!include(en-us/datasheet/rak7244/antenna-specifications.md)!!!
+!!!include(en-us/datasheet/gateways/rak7244/board-overview.md)!!!
+!!!include(en-us/datasheet/gateways/rak7244/interfaces.md)!!!
+!!!include(en-us/datasheet/gateways/rak7244/system-structure.md)!!!
+!!!include(en-us/datasheet/gateways/rak7244/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/gateways/rak7244/cellular-frequency-bands.md)!!!
+!!!include(en-us/datasheet/gateways/rak7244/hardware-structure.md)!!!
+!!!include(en-us/datasheet/gateways/rak7244/power-requirements.md)!!!
+!!!include(en-us/datasheet/gateways/rak7244/environmental-requirements.md)!!!
+!!!include(en-us/datasheet/gateways/rak7244/lora-rf-characteristics.md)!!!
+!!!include(en-us/datasheet/gateways/rak7244/antenna-specifications.md)!!!

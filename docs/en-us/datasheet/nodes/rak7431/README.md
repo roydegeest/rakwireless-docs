@@ -35,7 +35,7 @@ RAK7431 together with RAK gateway and LoRa® Server products, can easily and qui
 * Mounting: Wall, DIN rail, and magnetic mounting 
 * Compliant with IEC61000-4-2, IEC61000-4-4 and 18KV HMB ESD protection
 
-!!!include(en-us/datasheet/rak7431/networking-applications.md)!!!
-!!!include(en-us/datasheet/rak7431/interfaces.md)!!!
-!!!include(en-us/datasheet/rak7431/specifications.md)!!!
-!!!include(en-us/datasheet/rak7431/installation.md)!!!
+!!!include(en-us/datasheet/nodes/rak7431/networking-applications.md)!!!
+!!!include(en-us/datasheet/nodes/rak7431/interfaces.md)!!!
+!!!include(en-us/datasheet/nodes/rak7431/specifications.md)!!!
+!!!include(en-us/datasheet/nodes/rak7431/installation.md)!!!

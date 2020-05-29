@@ -34,9 +34,9 @@ demodulation paths, supports 8 uplink / 1 downlink channels.
 * Supports global license-free frequency band (EU433, CN470, EU868, US915, AS923, AU915, KR920, IN865 and AS920).
 * Supports SPI, UART, I2C interface.
 
-!!!include(en-us/datasheet/rak2245-pihat/board-overview.md)!!!
-!!!include(en-us/datasheet/rak2245-pihat/operating-frequencies.md)!!!
-!!!include(en-us/datasheet/rak2245-pihat/interfaces.md)!!!
-!!!include(en-us/datasheet/rak2245-pihat/pin-definition.md)!!!
-!!!include(en-us/datasheet/rak2245-pihat/electrical-characteristics.md)!!!
-!!!include(en-us/datasheet/rak2245-pihat/rf-characteristics.md)!!!
+!!!include(en-us/datasheet/gateways/rak2245-pi-hat-edition/board-overview.md)!!!
+!!!include(en-us/datasheet/gateways/rak2245-pi-hat-edition/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/gateways/rak2245-pi-hat-edition/interfaces.md)!!!
+!!!include(en-us/datasheet/gateways/rak2245-pi-hat-edition/pin-definition.md)!!!
+!!!include(en-us/datasheet/gateways/rak2245-pi-hat-edition/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/gateways/rak2245-pi-hat-edition/rf-characteristics.md)!!!

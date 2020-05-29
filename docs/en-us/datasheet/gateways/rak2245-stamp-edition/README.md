@@ -33,9 +33,9 @@ Overall, this gateway module is the most economical way to create different solu
 - Supports SPI interface.
 - Integrated the Ublox MAX-7Q GPS Module.
 
-!!!include(en-us/datasheet/rak2245-stamp/board-overview.md)!!!
-!!!include(en-us/datasheet/rak2245-stamp/operating-frequencies.md)!!!
-!!!include(en-us/datasheet/rak2245-stamp/interfaces.md)!!!
-!!!include(en-us/datasheet/rak2245-stamp/pin-definition.md)!!!
-!!!include(en-us/datasheet/rak2245-stamp/electrical-characteristics.md)!!!
-!!!include(en-us/datasheet/rak2245-stamp/rf-characteristics.md)!!!
+!!!include(en-us/datasheet/gateways/rak2245-stamp-edition/board-overview.md)!!!
+!!!include(en-us/datasheet/gateways/rak2245-stamp-edition/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/gateways/rak2245-stamp-edition/interfaces.md)!!!
+!!!include(en-us/datasheet/gateways/rak2245-stamp-edition/pin-definition.md)!!!
+!!!include(en-us/datasheet/gateways/rak2245-stamp-edition/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/gateways/rak2245-stamp-edition/rf-characteristics.md)!!!

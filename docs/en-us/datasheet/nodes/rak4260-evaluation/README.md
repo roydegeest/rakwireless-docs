@@ -34,10 +34,10 @@ RAK4260 is a solution that is cost efficient and flexible that can be deployed i
 - Low RX current of 17mA (typical)
 - LoRa® Technology, (G)FSK, (G)MSK
 
-!!!include(en-us/datasheet/rak4260/board-overview.md)!!!
-!!!include(en-us/datasheet/rak4260/block-diagram.md)!!!
-!!!include(en-us/datasheet/rak4260/operating-frequencies.md)!!!
-!!!include(en-us/datasheet/rak4260/electrical-characteristics.md)!!!
-!!!include(en-us/datasheet/rak4260/pin-definition.md)!!!
-!!!include(en-us/datasheet/rak4260/mechanical-characteristics.md)!!!
-!!!include(en-us/datasheet/rak4260/typical-application-circuit.md)!!!
+!!!include(en-us/datasheet/nodes/rak4260-evaluation/board-overview.md)!!!
+!!!include(en-us/datasheet/nodes/rak4260-evaluation/block-diagram.md)!!!
+!!!include(en-us/datasheet/nodes/rak4260-evaluation/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/nodes/rak4260-evaluation/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/nodes/rak4260-evaluation/pin-definition.md)!!!
+!!!include(en-us/datasheet/nodes/rak4260-evaluation/mechanical-characteristics.md)!!!
+!!!include(en-us/datasheet/nodes/rak4260-evaluation/typical-application-circuit.md)!!!

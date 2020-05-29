@@ -31,12 +31,12 @@ This module is an exceptional, complete and cost efficient gateway solution offe
 * Supports optional SPI interfaces.
 * Built-in **ZOE-M8Q GPS** module
 
-!!!include(en-us/datasheet/rak2287/board-overview.md)!!!
-!!!include(en-us/datasheet/rak2287/ordering-information.md)!!!
-!!!include(en-us/datasheet/rak2287/operating-frequencies.md)!!!
-!!!include(en-us/datasheet/rak2287/pin-definition.md)!!!
-!!!include(en-us/datasheet/rak2287/interfaces.md)!!!
-!!!include(en-us/datasheet/rak2287/electrical-characteristics.md)!!!
-!!!include(en-us/datasheet/rak2287/rf-characteristics.md)!!!
-!!!include(en-us/datasheet/rak2287/schematic-diagram.md)!!!
+!!!include(en-us/datasheet/gateways/rak2287/board-overview.md)!!!
+!!!include(en-us/datasheet/gateways/rak2287/ordering-information.md)!!!
+!!!include(en-us/datasheet/gateways/rak2287/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/gateways/rak2287/pin-definition.md)!!!
+!!!include(en-us/datasheet/gateways/rak2287/interfaces.md)!!!
+!!!include(en-us/datasheet/gateways/rak2287/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/gateways/rak2287/rf-characteristics.md)!!!
+!!!include(en-us/datasheet/gateways/rak2287/schematic-diagram.md)!!!
 

@@ -33,10 +33,10 @@ The module complies with LoRaWAN® 1.0.2 protocols. It also supports LoRa® Poin
 * 20KB RAM
 * 6KB of data EEPROM with ECC
 
-!!!include(en-us/datasheet/rak4200/board-overview.md)!!!
-!!!include(en-us/datasheet/rak4200/interfaces.md)!!!
-!!!include(en-us/datasheet/rak4200/operating-frequencies.md)!!!
-!!!include(en-us/datasheet/rak4200/pin-definition.md)!!!
-!!!include(en-us/datasheet/rak4200/electrical-characteristics.md)!!!
-!!!include(en-us/datasheet/rak4200/mechanical-characteristics.md)!!!
-!!!include(en-us/datasheet/rak4200/recommended-reflow-profile.md)!!!
+!!!include(en-us/datasheet/nodes/rak4200-evaluation/board-overview.md)!!!
+!!!include(en-us/datasheet/nodes/rak4200-evaluation/interfaces.md)!!!
+!!!include(en-us/datasheet/nodes/rak4200-evaluation/operating-frequencies.md)!!!
+!!!include(en-us/datasheet/nodes/rak4200-evaluation/pin-definition.md)!!!
+!!!include(en-us/datasheet/nodes/rak4200-evaluation/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/nodes/rak4200-evaluation/mechanical-characteristics.md)!!!
+!!!include(en-us/datasheet/nodes/rak4200-evaluation/recommended-reflow-profile.md)!!!
