@@ -37,6 +37,7 @@ This module is an exceptional, complete and cost efficient gateway solution offe
 !!!include(en-us/datasheet/gateways/rak2287/pin-definition.md)!!!
 !!!include(en-us/datasheet/gateways/rak2287/interfaces.md)!!!
 !!!include(en-us/datasheet/gateways/rak2287/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/gateways/rak2287/mechanical-characteristics.md)!!!
 !!!include(en-us/datasheet/gateways/rak2287/rf-characteristics.md)!!!
 !!!include(en-us/datasheet/gateways/rak2287/schematic-diagram.md)!!!
 

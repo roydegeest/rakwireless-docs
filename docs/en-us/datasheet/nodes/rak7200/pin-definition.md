@@ -1,7 +1,7 @@
 ## Pin Definition
 
 <rk-img
-  src="/assets/images/datasheet/rak7200/pinout-diagram.jpg"
+  src="/assets/images/datasheet/rak7200/pinout-diagram.png"
   width="100%"
   figure-number="3"
   caption="RAK7200 Pinout Diagram"

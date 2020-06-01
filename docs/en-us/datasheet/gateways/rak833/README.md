@@ -6,7 +6,7 @@ tags:
 # RAK833 LPWAN Gateway Concentrator Module
 
 <rk-img
-  src="/assets/images/datasheet/rak833/rak833-lpwan-gateway-concentrator-module.png"
+  src="/assets/images/datasheet/rak833/rak833.png"
   width="60%"
   figure-number="1"
   caption="RAK833 LPWAN Gateway Concentrator Module"

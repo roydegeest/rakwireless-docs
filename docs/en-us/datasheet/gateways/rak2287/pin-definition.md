@@ -3,7 +3,7 @@
 ### Pinout Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak2287/pin-definition/vxzsalj5pmn34nysz34q.jpg"
+  src="/assets/images/datasheet/rak2287/pin-definition/vxzsalj5pmn34nysz34q.png"
   width="100%"
   figure-number="3"
   caption="RAK2287 Pinout Diagram"

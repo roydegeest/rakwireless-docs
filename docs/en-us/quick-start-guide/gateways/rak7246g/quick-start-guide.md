@@ -12,7 +12,7 @@ params:
       },
     img2:
       {
-        src: "/assets/images/quick-start-guide/rak7246/package_contents.jpg",
+        src: "/assets/images/quick-start-guide/rak7246/package-contents.png",
         width: "100%",
         figureNumber: "2",
         caption: "RAK7246G Package Contents",

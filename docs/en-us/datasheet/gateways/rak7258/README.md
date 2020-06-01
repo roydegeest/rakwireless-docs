@@ -41,7 +41,7 @@ The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and an
 ### Main Electronic Circuit Board 
 
 <rk-img
-  src="/assets/images/datasheet/rak7258/board_overview.jpg"
+  src="/assets/images/datasheet/rak7258/board_overview.png"
   width="100%"
   figure-number="2"
   caption="RAK7258 Micro Gateway Circuit Board"
@@ -107,7 +107,7 @@ The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and an
 The hardware interfaces of RAK7258 Micro Gateway include DC 12V, ETH interface, Console interface, Reset key, USB port, Nano SIM slot, TF Card slot, six (6) Status indicator LEDs, LoRa® Antenna connector etc. as shown in the following figure.
 
 <rk-img
-  src="/assets/images/datasheet/rak7258/hardware-interfaces.jpg"
+  src="/assets/images/datasheet/rak7258/hardware-interfaces.png"
   width="75%"
   figure-number="4"
   caption="RAK7258 Micro Gateway Hardware Interfaces"

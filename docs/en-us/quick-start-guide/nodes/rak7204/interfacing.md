@@ -14,7 +14,7 @@ In order for you to be able to interface with the RAK7204 LPWAN Environmental Se
 - Connect your RAK7204 LPWAN Environmental Sensor in your Windows Machine using the provided micro-usb cable.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/pj5awtxqmofk1km02f8b.jpg`"
+  :src="`${$frontmatter.static_root}/rak7204-pc.png`"
   width="70%"
   figure-number="1"
   caption="RAK7204 LPWAN Environmental Sensor to Laptop Connection"

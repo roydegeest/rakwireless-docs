@@ -1,7 +1,7 @@
 ## Board Overview
 
 <rk-img
-  src="/assets/images/datasheet/rak2245-pihat/rak2245-dimensions.jpg"
+  src="/assets/images/datasheet/rak2245-pihat/rak2245-dimensions.png"
   width="100%"
   figure-number="2"
   caption="RAK2245 Pi Hat Dimensions"

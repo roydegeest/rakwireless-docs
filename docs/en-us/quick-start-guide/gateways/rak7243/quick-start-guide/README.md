@@ -27,7 +27,7 @@ next: access-the-gateway
 ### What's included in the Package? 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/2.quickstart/package.jpg"
+  src="/assets/images/quick-start-guide/rak7243/2.quickstart/package.png"
   width="100%"
   figure-number="2"
   caption="RAK7243 Package Contents"
