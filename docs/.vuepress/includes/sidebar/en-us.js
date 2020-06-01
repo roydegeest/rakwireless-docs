@@ -1,14 +1,14 @@
-var quickstart = require('./en-us/quick-start')
+var quickStartGuide = require('./en-us/quick-start-guide')
 var datasheet = require('./en-us/datasheet')
-var faq = require('./en-us/faq')
+var faqs = require('./en-us/faqs')
 var rui = require('./en-us/rui')
 var usermanual = require('./en-us/user-manual')
 var deploymentGuide = require('./en-us/deployment-guide')
 
 module.exports = {
-  ...quickstart,
+  ...quickStartGuide,
   ...datasheet,
-  ...faq,
+  ...faqs,
   ...rui,
   ...usermanual,
   ...deploymentGuide

@@ -8,4 +8,7 @@ export default ({
 }) => {
   // ...apply enhancements to the app
   Vue.use(Quasar)
+  router.addRoutes([
+    { path: '/en-us/datasheet/', redirect: '/en-us/datasheet/gateways/rak831/' }
+  ])
 }

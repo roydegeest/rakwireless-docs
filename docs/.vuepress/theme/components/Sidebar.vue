@@ -2,7 +2,7 @@
   <aside class="sidebar">
     <q-scroll-area
       ref="scrollArea"
-      class="fit"
+      class="fit q-pb-md"
       :thumb-style="thumbStyle"
       :bar-style="barStyle"
     >
@@ -53,14 +53,15 @@ export default {
       this.$refs.scrollArea.setScrollPosition(element.offsetTop)
     }
   },
-  mounted () {
+  updated () {
     this.setInitialScroll()
-  },
-  watch: {
-    $page: function (val) {
-      this.setInitialScroll()
-    }
   }
+  // not applicable for ssr
+  // watch: {
+  //   $page: function (val) {
+  //     this.setInitialScroll()
+  //   }
+  // }
 }
 </script>
 
