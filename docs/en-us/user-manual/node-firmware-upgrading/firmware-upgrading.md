@@ -8,7 +8,7 @@ next: false
 For this sample demonstration, we will be using the RAK4200 LPWAN Node.
 :::
 
-1. Connect your LPWAN intoindows machine as instructed in the [Quick Start Guide](/en-us/quick-start/) of your chosen LPWAN Node.
+1. Connect your LPWAN intoindows machine as instructed in the [Quick Start Guide](/en-us/quick-start-guide/) of your chosen LPWAN Node.
 
 2. Open the RAK Serial Port Tool you have just installed and let your RAK LPWAN Node work in boot mode by setting an AT command through serial port as follows: 
 

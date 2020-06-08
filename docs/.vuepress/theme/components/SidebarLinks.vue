@@ -6,6 +6,7 @@
     <li
       v-for="(item, i) in items"
       :key="i"
+      :id="item.type !== 'group' ? item.path : null"
     >
       <!-- <SidebarLink
         v-if="item.nested"
@@ -25,6 +26,8 @@
         v-else
         :sidebar-depth="sidebarDepth"
         :item="item"
+        :open="i === openGroupIndex"
+        @toggle="toggleGroup(i)"
       />
     </li>
   </ul>

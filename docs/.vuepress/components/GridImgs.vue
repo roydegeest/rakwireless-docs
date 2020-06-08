@@ -11,7 +11,7 @@
           <div
             v-for="qs in groups[key]"
             :key="qs.path"
-            class="col-12 col-sm-4 col-md-3 col-md-3 q-pa-sm"
+            class="col-6 col-sm-4 col-md-3 col-md-3 q-pa-sm"
           >
             <q-item
               :to="qs.path"
@@ -20,16 +20,13 @@
             >
               <q-item-section>
                 <div class="col q-pa-none flex flex-center">
-                  <img
-                    class="fit"
-                    :src="rakImg(qs.frontmatter)"
-                  />
+                  <q-img :src="rakImg(qs.frontmatter)" />
                 </div>
-                <div class="col-3 flex flex-center q-ma-sm">
+                <div class="col-2 flex flex-center q-ma-sm">
                   <div
                     ref="test"
-                    class="text-weight-medium"
-                    style="font-size: 0.8rem"
+                    class="text-weight-medium ellipsis-2-lines"
+                    style="font-size: 0.75rem; line-height: 0.95rem"
                   >{{ qs.title }}</div>
                 </div>
               </q-item-section>
@@ -59,7 +56,7 @@ export default {
   computed: {
     quickStarts () {
       return this.$site.pages.filter(t => {
-        return t.path.match(/^\/[a-z]{2}-[a-z]{2}\/quick-start\/[^\/]+\/$/g)
+        return t.path.match(/^\/[a-z]{2}-[a-z]{2}\/quick-start-guide\/[^\/]+\/[^\/]+\/$/g)
       })
     }
   },
