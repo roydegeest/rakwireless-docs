@@ -15,7 +15,7 @@ After burning the image into the SD Card, make sure you have inserted the SD Car
 By default, the Gateway will work in Wi-Fi AP Mode which means that you can find an SSID named like "**Rakwireless_XXXX**" on your PC Wi-Fi Network List.
 
 <rk-img 
-src="/assets/images/quick-start-guide/rak7246/access_point.jpg" 
+src="/assets/images/quick-start-guide/rak7246/access_point.png" 
 width="100%" 
 figure-number  = "1" 
 caption="RAKWireless Access Point"
@@ -50,7 +50,7 @@ caption=" Putty Software for SSH in Windows"
 ### 2. Mac OS
 Open the Terminal of Mac OS. Launch the **Terminal** application, which is found in "/Applications/Utilities/" directory but you can also launch it from Spotlight by hitting Command + Spacebar and typing “Terminal” and then return:
 
-<rk-img src="/assets/images/quick-start-guide/rak7246/mac_terminal.jpg" width="100%" figure-number  = "4" caption="Opening Terminal in Mac OS"/>
+<rk-img src="/assets/images/quick-start-guide/rak7246/mac_terminal.png" width="100%" figure-number  = "4" caption="Opening Terminal in Mac OS"/>
 
 Open the terminal of Mac OS. Enter root mode by typing the following command: `sudo -i`
 
