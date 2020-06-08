@@ -11,7 +11,7 @@ The Things Network is about enabling low power devices to use long range gateway
 * Now go to the [TTN Website](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/7.connecting to ttn/ttn_home_page.jpg"
+  src="/assets/images/quick-start-guide/rak7244/7.connecting to ttn/ttn_home_page.png"
   width="100%"
   figure-number="1"
   caption="The Things Network Home Page"

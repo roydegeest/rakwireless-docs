@@ -11,7 +11,7 @@ The Things Network is about enabling low power devices to use long range [gatewa
 - Now go to the TTN Website: [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/nedimpnbuhfzonrz8z6y.jpg`"
+  :src="`${$frontmatter.static_root}/nedimpnbuhfzonrz8z6y.png`"
   width="100%"
   figure-number="1"
   caption="The Things Network Home Page"

@@ -14,12 +14,12 @@ params:
     figureNumber: 2
     caption: ChirpStack Web-based UI
   img3:
-    src: /assets/images/quick-start-guide/rak2245/8.connecting to chirpstack/gateways-in-chirpstack.jpg
+    src: /assets/images/quick-start-guide/rak2245/8.connecting to chirpstack/gateways-in-chirpstack.png
     width: 100%
     figureNumber: 3
     caption: Available Gateways in Chirpstack
   img4:
-    src: /assets/images/quick-start-guide/rak2245/8.connecting to chirpstack/chirpstack-last-seen.jpg
+    src: /assets/images/quick-start-guide/rak2245/8.connecting to chirpstack/chirpstack-last-seen.png
     width: 100%
     figureNumber: 4
     caption: Last Seen Status
@@ -65,7 +65,7 @@ There is a built-in ChirpStack in every RAK Developer gateway if you use the lat
 <rk-img :params="$page.frontmatter.params.img1" />
 
 * There is a Web-based UI that comes with the ChirpStack instance. Simply open a browser and enter the following credentials:
-    * **Browser Address**: `<Gateway IP address>:8080` (**Example**: https:/192.168.254.105:8080)
+    * **Browser Address**: `<Gateway IP address>:8080` (**Example**: https:/192.168.254.176:8080)
     * **Username**: admin
     * **Password**: admin
 

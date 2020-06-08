@@ -14,7 +14,7 @@ After burning the image into the SD Card, make sure you have inserted the SD Car
 By default, the Gateway will work in Wi-Fi AP Mode which means that you can find an SSID named like "**Rakwireless_XXXX**" on your PC Wi-Fi Network List.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/4.accessing your gateway/wifi.jpg" 
+  src="/assets/images/quick-start-guide/rak7243/4.accessing your gateway/wifi.png" 
   width="100%"
   figure-number="1"
   caption="RAKwireless Access Point"
@@ -32,7 +32,7 @@ You can also connect your PC with the Gateway through an Ethernet cable. By defa
 * To do this in Windows, go to Control Panel -> Network and Internet -> Network and Sharing Center and Click **Ethernet**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/4.accessing your gateway/networ&sharing.png"
+  src="/assets/images/quick-start-guide/rak7243/4.accessing your gateway/network&sharing.png"
   width="100%"
   figure-number="2"
   caption="Network and Sharing Center"
@@ -41,7 +41,7 @@ You can also connect your PC with the Gateway through an Ethernet cable. By defa
 * Click **Properties** then Choose **Internet Protocol Version 4 (TCP/IPv4)**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/4.accessing your gateway/ethernetproperties.jpg"
+  src="/assets/images/quick-start-guide/rak7243/4.accessing your gateway/ethernetproperties.png"
   width="100%"
   figure-number="3"
   caption="Ethernet Properties"
@@ -50,7 +50,7 @@ You can also connect your PC with the Gateway through an Ethernet cable. By defa
 * By default, it will obtain an IP Address automatically. Click the Option "Use the following IP Address" and enter the IP Address: `192.168.10.20` and press OK.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/4.accessing your gateway/tcpipv4.jpg"
+  src="/assets/images/quick-start-guide/rak7243/4.accessing your gateway/tcpipv4.png"
   width="100%"
   figure-number="4"
   caption="TCP/IPv4 Properties"
@@ -86,7 +86,7 @@ SSH (Secure Shell) is typically used to log in to a remote machine and execute c
 Open the Terminal of Mac OS. Launch the **Terminal** application, which is found in "/Applications/Utilities/" directory but you can also launch it from Spotlight by hitting **Command + Spacebar** and typing “**Terminal**” and then return:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/4.accessing your gateway/mac_terminal.jpg"
+  src="/assets/images/quick-start-guide/rak7243/4.accessing your gateway/mac_terminal.png"
   width="100%"
   figure-number="7"
   caption="Opening Terminal in Mac OS"

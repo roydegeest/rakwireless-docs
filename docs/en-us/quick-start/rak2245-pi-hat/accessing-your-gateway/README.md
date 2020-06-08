@@ -3,7 +3,7 @@ title: Accessing Your Gateway
 
 params:
   img1:
-    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/wifi.jpg
+    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/wifi.png
     width: 100%
     figureNumber: 1
     caption: RAKwireless Access Point
@@ -13,12 +13,12 @@ params:
     figureNumber: 2
     caption: Network and Sharing Center
   img3:
-    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/ethernetproperties.jpg
+    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/ethernetproperties.png
     width: 100%
     figureNumber: 3
     caption: Ethernet Properties
   img4:
-    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/tcpipv4.jpg
+    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/tcpipv4.png
     width: 100%
     figureNumber: 4
     caption: TCP/IPv4 Properties

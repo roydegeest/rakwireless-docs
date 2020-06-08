@@ -43,7 +43,7 @@ You can also connect your PC with the Gateway through an Ethernet cable. By defa
 - Click **Properties** then Choose **Internet Protocol Version 4 (TCP/IPv4).**
 
 <rk-img
-  :src="`${$frontmatter.static_root}/nopiph8bjpdxczgxbztx.jpg`"
+  :src="`${$frontmatter.static_root}/nopiph8bjpdxczgxbztx.png`"
   width="100%"
   figure-number="3"
   caption="Ethernet Properties"
@@ -89,7 +89,7 @@ SSH (Secure Shell) is typically used to log in to a remote machine and execute c
 Open the Terminal of Mac OS. Launch the **Terminal** application, which is found in "/Applications/Utilities/" directory but you can also launch it from Spotlight by hitting **Command + Spacebar** and typing “Terminal” and then return:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/yhqsxlzfx7b4azgjam4e.jpg`"
+  :src="`${$frontmatter.static_root}/yhqsxlzfx7b4azgjam4e.png`"
   width="100%"
   figure-number="7"
   caption="Opening Terminal in Mac OS"

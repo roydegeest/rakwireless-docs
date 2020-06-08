@@ -25,7 +25,7 @@ There is a built-in ChirpStack in every RAK Developer gateway if you use the lat
 
 There is a Web-based UI that comes with the ChirpStack instance. Simply open a browser and enter the following credentials:
 
-- **Browser Address**: "Gateway IP Address:8080" (**Example**: https:/192.168.254.105:8080)
+- **Browser Address**: "Gateway IP Address:8080" (**Example**: https:/192.168.254.176:8080)
 - **Username**: admin
 - **Password**: admin
 
@@ -43,7 +43,7 @@ It is advisable to change your password to tighten the security of your account.
 - Everything should be pre-configured: Device profiles have been created, the Gateway has been registered with the server, etc. If you go to the Gateways tab and click on rak_gateway, you should see the Gateway details page.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/nm1rcooh5749oeyknm7t.jpg`"
+  :src="`${$frontmatter.static_root}/nm1rcooh5749oeyknm7t.png`"
   width="100%"
   figure-number="3"
   caption="Available Gateways in Chirpstack"
@@ -52,7 +52,7 @@ It is advisable to change your password to tighten the security of your account.
 - Go to the rak_gateway and see the "Last seen" status. It must be a few seconds ago which signifies that the Gateway is visible in the ChirpStack server.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/qzfweifwadyreztjellx.jpg`"
+  :src="`${$frontmatter.static_root}/qzfweifwadyreztjellx.png`"
   width="100%"
   figure-number="4"
   caption="Last Seen Status"

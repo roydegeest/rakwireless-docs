@@ -11,7 +11,7 @@ The Things Network is about enabling low power devices to use long range [gatewa
 - Now go to the TTN Website: [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/1.fnb3qqtayustdujbkhmt.jpg`"
+  :src="`${$frontmatter.static_root}/1.fnb3qqtayustdujbkhmt.png`"
   width="100%"
   figure-number="1"
   caption="The Things Network Home Page"
@@ -20,14 +20,14 @@ The Things Network is about enabling low power devices to use long range [gatewa
 - Choose Console then Click Gateway.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/2.yeysczfmxhmlh26j6o28.jpg`"
+  :src="`${$frontmatter.static_root}/2.yeysczfmxhmlh26j6o28.png`"
   width="100%"
   figure-number="2"
   caption="The Things Network Console Page"
 />
 
 <rk-img
-  :src="`${$frontmatter.static_root}/3.qkmub7m7hgn0zzoi0cnh.jpg`"
+  :src="`${$frontmatter.static_root}/3.qkmub7m7hgn0zzoi0cnh.png`"
   width="100%"
   figure-number="3"
   caption="Adding a Gateway to TTN"
@@ -36,7 +36,7 @@ The Things Network is about enabling low power devices to use long range [gatewa
 - All of your Registered Gateways will be displayed here in this page. Click "register gateway"
 
 <rk-img
-  :src="`${$frontmatter.static_root}/4.ohve3d6gfqksz1ctk27a.jpg`"
+  :src="`${$frontmatter.static_root}/4.ohve3d6gfqksz1ctk27a.png`"
   width="100%"
   figure-number="4"
   caption="Registering your Gateway"
