@@ -1,5 +1,5 @@
 ---
-prev: /en-us/quick-start-guide/rak7258/#rak7258-micro-gateway
+prev: /en-us/quick-start-guide/gateways/rak7258/#rak7258-micro-gateway
 next: wall-mounting-guide
 ---
 

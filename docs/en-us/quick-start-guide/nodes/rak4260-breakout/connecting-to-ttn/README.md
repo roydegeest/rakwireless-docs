@@ -1,6 +1,6 @@
 ---
-prev: /en-us/quick-start-guide/rak4260-breakout/interfacing.html
-next: /en-us/quick-start-guide/rak4260-breakout/connecting-to-ttn/otaa-mode.html
+prev: /en-us/quick-start-guide/nodes/rak4260-breakout/interfacing.html
+next: /en-us/quick-start-guide/nodes/rak4260-breakout/connecting-to-ttn/otaa-mode.html
 ---
 
 ## Connecting to The Things Network (TTN)
@@ -8,7 +8,6 @@ next: /en-us/quick-start-guide/rak4260-breakout/connecting-to-ttn/otaa-mode.html
 The Things Network is about enabling low power devices to be used in long range gateways that connect to an open-source, decentralized network and exchange data with Applications. Learn more about [**The Things Network**](https://www.thethingsnetwork.org/docs/).
 
 In this section, we will be connecting the RAK4260 LPWAN Breakout Module to The Things Network (TTN). If you don't have an account yet, head on to [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and create an account. Once done, log in to your account and in the home page, go to the console. Refer to figure 1.
-
 
 <rk-img
   src="/assets/images/quick-start-guide/rak4260-breakout/ttn/ttn-home-page.png"
@@ -24,7 +23,6 @@ In this section, we will be connecting the RAK4260 LPWAN Breakout Module to The 
   caption="TTN Console Page"
 />
 
-
 - Choose "**APPLICATIONS**".
 
 <rk-img
@@ -33,7 +31,6 @@ In this section, we will be connecting the RAK4260 LPWAN Breakout Module to The 
   figure-number="3"
   caption="Application Page"
 />
-
 
 ### Adding an Application
 
@@ -62,7 +59,6 @@ After filling in the necessary information, press the "**Add application**". If 
   caption="Application Overview"
 />
 
-
 ### Register Device
 
 - Scroll down until you see the Devices section, or you can also click the "**Devices**" button at the top:
@@ -74,7 +70,6 @@ After filling in the necessary information, press the "**Add application**". If 
   caption="Device Section"
 />
 
-
 - Click "**Register device "**
 
 <rk-img
@@ -83,7 +78,6 @@ After filling in the necessary information, press the "**Add application**". If 
   figure-number="7"
   caption="Add your Device"
 />
-
 
 Here are the things that you should take note in registering your device:
 
@@ -102,7 +96,3 @@ Populate the **Device ID** and **Device EUI**_ (generate a random one by pressin
 />
 
 In the Device Overview, there are two options of the **Activation Method**: **OTTA** and **ABP**. Take note that the default option is **OTAA** as shown in figure 8. However, instructions will be provided on both methods in the following sections starting with OTAA.
-
-
-
-

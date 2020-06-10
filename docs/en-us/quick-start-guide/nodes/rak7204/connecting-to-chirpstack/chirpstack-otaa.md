@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/6.connecting-to-chirpstack/otaa/
-prev: /en-us/quick-start-guide/rak7204/connecting-to-chirpstack/
+prev: /en-us/quick-start-guide/nodes/rak7204/connecting-to-chirpstack/
 ---
 
 # OTAA Mode
@@ -44,13 +44,15 @@ prev: /en-us/quick-start-guide/rak7204/connecting-to-chirpstack/
 />
 
 :::tip 📝 NOTE:
- The Application EUI which was into RAK7204 LPWAN Environmental Sensor as “app_eui” is not needed for ChirpStack.
+The Application EUI which was into RAK7204 LPWAN Environmental Sensor as “app_eui” is not needed for ChirpStack.
 :::
 
 4. Next, let’s **configure** RAK7204 LPWAN Environmental Sensor by using **AT commands**. To do this, connect yourRAK7204 LPWAN Environmental Sensor to a PC, power it on and open **RAK Serial Port Tool** on your computer.
+
 ```
 at+version
 ```
+
 <rk-img
   :src="`${$frontmatter.static_root}/fqw3e70otnu8ymgnmu79.png`"
   width="50%"
@@ -61,12 +63,15 @@ at+version
 - Now, let us join our RAK7204 using the OTAA activation mode.
 
 5. If the join mode is not in OTAA, just set the LoRa® join mode to **OTAA** and LoRa® class to **Class A** by typing the AT commands shown in the picture below.
+
 ```
 at+set_config=lora:join_mode:0
 ```
+
 ```
 at+set_config-lora:class:0
 ```
+
 <rk-img
   :src="`${$frontmatter.static_root}/mdjpe1uhxdmahhthbt8w.jpg`"
   width="100%"
@@ -75,18 +80,23 @@ at+set_config-lora:class:0
 />
 
 6. Type the following AT command to set the: **Frequency/Region, Device EUI, Application EUI and Application Key.** Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case:
+
 ```
 at+set_config=lora:region:XXXX
 ```
+
 ```
 at+set_config=lora:dev_eui:XXXX
 ```
+
 ```
 at+set_config=lora:app_eui:XXXX
 ```
+
 ```
 at+set_config=lora:app_key:XXXX
 ```
+
 <rk-img
   :src="`${$frontmatter.static_root}/vugtbybavkertynte382.jpg`"
   width="100%"
@@ -102,9 +112,11 @@ at+set_config=lora:app_key:XXXX
 />
 
 7. Then, **join** in OTAA mode.
+
 ```
 at+join
 ```
+
 <rk-img
   :src="`${$frontmatter.static_root}/xlebk2u3xe2ryxo5ss11.png`"
   width="50%"
@@ -115,17 +127,19 @@ at+join
 - **Joined Successfully! :tada:**
 
 8. You can view the "**JoinRequest**" and "**JoinAccept**" on ChirpStack page:
-<rk-img
-  :src="`${$frontmatter.static_root}/bomjx5d87s8b3dnk7wlc.png`"
-  width="100%"
-  figure-number="10"
-  caption="Join Request of the Device in the ChirpStack"
-/>
+   <rk-img
+     :src="`${$frontmatter.static_root}/bomjx5d87s8b3dnk7wlc.png`"
+     width="100%"
+     figure-number="10"
+     caption="Join Request of the Device in the ChirpStack"
+   />
 
 9. Let’s try sending data from our RAK7204 LPWAN Environmental Sensor to the ChirpStack by typing the command below in the serial port.
+
 ```
 at+send=lora:2:1234567890
 ```
+
 <rk-img
   :src="`${$frontmatter.static_root}/j7c4lszbgth963mh6kea.png`"
   width="50%"

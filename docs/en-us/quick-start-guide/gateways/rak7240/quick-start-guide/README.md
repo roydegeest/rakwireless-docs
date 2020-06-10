@@ -1,6 +1,6 @@
 ---
-prev: /en-us/quick-start-guide/rak7240/#rak7240-outdoor-lpwan-gateway
-next: /en-us/quick-start-guide/rak7240/quick-start-guide/power-on-the-gateway.html
+prev: /en-us/quick-start-guide/gateways/rak7240/#rak7240-outdoor-lpwan-gateway
+next: /en-us/quick-start-guide/gateways/rak7240/quick-start-guide/power-on-the-gateway.html
 ---
 
 # Quick Start Guide
@@ -17,8 +17,6 @@ next: /en-us/quick-start-guide/rak7240/quick-start-guide/power-on-the-gateway.ht
 1. **RAK7240 Outdoor LPWAN Gateway**
 2. A Windows/Mac OS/Linux Computer
 
-
-
 ### What's included in the Package?
 
 <rk-img
@@ -29,6 +27,5 @@ next: /en-us/quick-start-guide/rak7240/quick-start-guide/power-on-the-gateway.ht
 />
 
 :::tip 📝 NOTE
- The number of antennas in different depending on what you order. Refer to the store for more information.
+The number of antennas in different depending on what you order. Refer to the store for more information.
 :::
-

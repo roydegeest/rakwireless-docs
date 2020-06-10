@@ -1,6 +1,7 @@
 ---
-next: /en-us/quick-start-guide/rak4200-breakout/connecting-to-ttn/#connecting-to-the-things-network-ttn
+next: /en-us/quick-start-guide/nodes/rak4200-breakout/connecting-to-ttn/#connecting-to-the-things-network-ttn
 ---
+
 # Interfacing with RAK4200 LPWAN Breakout Module
 
 In order for you to be able to interface with the RAK4200 LPWAN Evaluation Board with your Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
@@ -33,7 +34,7 @@ Windows 10 should recognize the board and automatically install drivers, however
   caption="COM Port settings"
 />
 
--  Open the RAK Serial Port Tool. Select the COM Port number (the one you noted in the previous step) and set the **Baud Rate to 115200**. Click “**OPEN**” and you should be connected to the board and be able to send commands.
+- Open the RAK Serial Port Tool. Select the COM Port number (the one you noted in the previous step) and set the **Baud Rate to 115200**. Click “**OPEN**” and you should be connected to the board and be able to send commands.
 
 <rk-img
   src="/assets/images/quick-start-guide/rak4200-breakout/interfacing/ybo1fczw8uhagao2io7h.png"
@@ -41,5 +42,3 @@ Windows 10 should recognize the board and automatically install drivers, however
   figure-number="3"
   caption="Configuring the RAK Serial Port Tool"
 />
-
-

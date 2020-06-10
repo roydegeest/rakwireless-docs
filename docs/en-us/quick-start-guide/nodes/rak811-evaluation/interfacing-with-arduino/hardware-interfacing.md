@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/hardware-interfacing
-prev: /en-us/quick-start-guide/rak811/interfacing-with-arduino/
+prev: /en-us/quick-start-guide/nodes/rak811-evaluation/interfacing-with-arduino/
 ---
 
 # Hardware Interfacing

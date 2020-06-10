@@ -1,8 +1,10 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/5.connecting-to-ttn/abp
-next: /en-us/quick-start-guide/rak7204/connecting-to-chirpstack/
+next: /en-us/quick-start-guide/nodes/rak7204/connecting-to-chirpstack/
 ---
+
 # ABP Mode
+
 1. To join the ABP mode, go to device settings and switch the activation method to **ABP**.
 2. The **Device Address**, **Network Session Key** and **App Session Key** will be generated automatically by default.
 
@@ -14,7 +16,6 @@ next: /en-us/quick-start-guide/rak7204/connecting-to-chirpstack/
 />
 
 3. Save the mode change and return to the **Device Overview page**. You can copy the keys by pressing the button after the value fields marked in red in Figure 2.
-
 
 <rk-img
   :src="`${$frontmatter.static_root}/ytbwh3dd3u6ul6mw174p.png`"
@@ -28,6 +29,7 @@ next: /en-us/quick-start-guide/rak7204/connecting-to-chirpstack/
 ```
 at+set_config=lora:region:EU868
 ```
+
 - As you can see in Figure 3, as we were in the same region (EU868), there was no change.
 
 <rk-img
@@ -38,9 +40,11 @@ at+set_config=lora:region:EU868
 />
 
 5. Change the mode to **ABP** with the command:
+
 ```
 at+set_config=lora:join_mode:1
 ```
+
 <rk-img
   :src="`${$frontmatter.static_root}/xxgmfyq9dkgzu7hcfq4g.png`"
   width="100%"
@@ -48,14 +52,16 @@ at+set_config=lora:join_mode:1
   caption="Join mode setup"
 />
 
-6. Now that the mode has been changed, enter the parameters: **Device Address, Network  Session Key**, and **Application Session Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case (Figure 2 for reference of the parameters):
+6. Now that the mode has been changed, enter the parameters: **Device Address, Network Session Key**, and **Application Session Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case (Figure 2 for reference of the parameters):
 
 ```
 at+set_config=lora:dev_addr:XXXX
 ```
+
 ```
 at+set_config=lora:nwks_key:XXXX
 ```
+
 ```
 at+set_config=lora:apps_key:XXXX
 ```
@@ -70,6 +76,7 @@ at+set_config=lora:apps_key:XXXX
 You should end up with a window as the one in **Figure 5** above with **a series of OK messages**.
 
 7. Finally, execute the join command:
+
 ```
 at+join
 ```
@@ -82,9 +89,11 @@ at+join
 />
 
 8. You can test the connection by sending an uplink frame. Use the following as an example:
+
 ```
 at+send=lora:1:12345678
 ```
+
 <rk-img
   :src="`${$frontmatter.static_root}/tfs0ngbmzluoex9gl3kn.png`"
   width="100%"

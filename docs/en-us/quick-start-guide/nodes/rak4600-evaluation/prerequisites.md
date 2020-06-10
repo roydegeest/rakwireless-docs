@@ -1,6 +1,7 @@
 ---
-next: /en-us/quick-start-guide/rak4600/interfacing/
+next: /en-us/quick-start-guide/nodes/rak4600-evaluation/interfacing/
 ---
+
 # Prerequisites
 
 <rk-img
@@ -20,20 +21,18 @@ Before going through the configuration guide of the RAK4600 LPWAN Evaluation Boa
 4. JTAG Emulator Kit
 5. Windows PC
 
-
 <rk-btn
   src="https://store.rakwireless.com/products/rak4600-evaluation-board"
   label=" Buy a RAK4600 LPWAN Evaluation Board"
   _blank
 />
 
-
 :::tip 📝 NOTE
 This device released by RAKWireless is already pre-loaded with its latest firmware upon manufacture. If you want to have your device's firmware burned or upgraded, please refer to the links below:
 
-1. [Device Firmware Setup](burning-the-firmware) 
+1. [Device Firmware Setup](burning-the-firmware)
 2. [Device Firmware Upgrading](upgrading-firmware)
-:::
+   :::
 
 ### What's Included in the Package?
 
@@ -43,4 +42,3 @@ This device released by RAKWireless is already pre-loaded with its latest firmwa
 - 1pc - 2.4G Antenna (iPEX)
 - 2pcs - 4-pin Header (not soldered)
 - 9pcs - Dupont Lines
-

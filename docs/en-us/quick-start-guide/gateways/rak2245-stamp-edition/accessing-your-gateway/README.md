@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak2245-stamp/accessing-your-gateway
-prev: /en-us/quick-start-guide/rak2245-stamp/quick-start-guide.html#quick-start-guide
+prev: /en-us/quick-start-guide/gateways/rak2245-stamp-edition/quick-start-guide.html#quick-start-guide
 next: accessing-the-internet
 ---
 

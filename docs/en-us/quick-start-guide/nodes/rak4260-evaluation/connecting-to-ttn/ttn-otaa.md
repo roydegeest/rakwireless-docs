@@ -1,6 +1,7 @@
 ---
-prev: /en-us/quick-start-guide/rak4260/connecting-to-ttn/
+prev: /en-us/quick-start-guide/nodes/rak4260-evaluation/connecting-to-ttn/
 ---
+
 # OTAA Mode
 
 1. After connecting the device and choosing the appropriate COM Port and Baudrate, press the "**Reset button**" on your RAK5005 Baseboard Module and If everything works perfectly, you should see the following message below:
@@ -32,11 +33,9 @@ You can modify the dev_eui, app_eui, and the app_key as you want. You can find i
 
 3. In order for you to send the data from the RAK4260 to the TTN successfully, choose the option 2 then press Enter. The following figure below shows the data received in the TTN.
 
-
 <rk-img
   src="/assets/images/quick-start-guide/rak4260/5ttn/data-received-ttn.jpg"
   width="100%"
   figure-number="2"
   caption="Data received in the TTN"
 />
-

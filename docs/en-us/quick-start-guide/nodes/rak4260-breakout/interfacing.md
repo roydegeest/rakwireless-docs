@@ -1,5 +1,5 @@
 ---
-next: /en-us/quick-start-guide/rak4260-breakout/connecting-to-ttn/
+next: /en-us/quick-start-guide/nodes/rak4260-breakout/connecting-to-ttn/
 ---
 
 # Interfacing with RAK4260 LPWAN Breakout Module
@@ -9,7 +9,6 @@ Before powering the RAK4260 Breakout Module, make sure you have installed the in
 :::
 
 ## USB to UART
-
 
 - Connect your USB to UART converter to the pin header on the RAK4260 via a set of 4 dupont lines. Use Figure 1 for reference on wiring the device properly.
 
@@ -60,5 +59,3 @@ Connect the tool in accordance with the diagram shown in Figure 4.
   figure-number="5"
   caption="J-link connection"
 />
-
-
