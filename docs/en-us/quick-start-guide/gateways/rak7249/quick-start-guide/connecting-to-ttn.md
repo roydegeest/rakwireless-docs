@@ -32,7 +32,7 @@ The Gateway EUI can be found either on the sticker on the casing or via the LoRa
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/2.quickstart/ttn-successful.png"
-  width="50%"
+  width="100%"
   figure-number="3"
   caption="Gateway successfully connected to The Things Network (TTN)"
 />

@@ -33,7 +33,7 @@ params:
     figureNumber: 6
     caption: Command line after log in
   img7:
-    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/mac_terminal.jpg
+    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/mac_terminal.png
     width: 100%
     figureNumber: 7
     caption: Opening Terminal in Mac OS
