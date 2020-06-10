@@ -82,7 +82,7 @@ Here are the things that you should take note in adding an application:
 
 Here are the things that you should take note in registering your device:
 
-1. **Device ID** - this is the unique identifier for your RAK4200 LPWAN Evaluation Board in your application. You need to enter this manually.
+1. **Device ID** - this is the unique identifier for your RAK7204 LPWAN Environmental Sensor in your application. You need to enter this manually.
 2. **Device EUI** - this is the unique identifier for your device in the network. You can change it later, if you want.
 
 Click the following icon and the Device EUI will be automatically generated. The App Key should be in auto generation mode by default.
