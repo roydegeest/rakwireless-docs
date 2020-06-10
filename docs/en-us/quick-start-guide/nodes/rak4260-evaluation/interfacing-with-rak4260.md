@@ -1,5 +1,5 @@
 ---
-next: /en-us/quick-start-guide/rak4260/connecting-to-ttn/
+next: /en-us/quick-start-guide/nodes/rak4260-evaluation/connecting-to-ttn/
 ---
 
 # Interfacing with the RAK4260 LPWAN Evaluation Board
@@ -10,7 +10,7 @@ In order for you to be able to interface with the RAK4260 LPWAN Evaluation Board
 Before powering the RAK4260 LPWAN Evaluation Board , you should install the LoRa® antenna first . Not doing so might damage the board
 :::
 
-1. Connect your RAK4260 LPWAN Evaluation Board in your Windows Machine using the provided micro-usb cable. 
+1. Connect your RAK4260 LPWAN Evaluation Board in your Windows Machine using the provided micro-usb cable.
 
 <rk-img
   src="/assets/images/quick-start-guide/rak4260/4interfacing-with-rak4260/rak4260-laptop.png"
@@ -18,7 +18,7 @@ Before powering the RAK4260 LPWAN Evaluation Board , you should install the LoRa
   figure-number="1"
   caption="RAK4260 LPWAN Evaluation Board to Laptop Connection"
 />
- 
+
 2. Open the RAK Serial Port Tool:
 
 <rk-img

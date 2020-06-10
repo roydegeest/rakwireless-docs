@@ -1,6 +1,7 @@
 ---
-next: /en-us/quick-start-guide/rak612/connecting-to-ttn/
+next: /en-us/quick-start-guide/nodes/rak612/connecting-to-ttn/
 ---
+
 # Interfacing with RAK612 LPWAN Button
 
 In order for you to be able to interface with the RAK612 LPWAN Button with your Windows Machine, you need to download the [RAK Serial Port Tool](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).
@@ -44,8 +45,8 @@ In case the driver is still not installed upon doing the previous steps, kindly 
 
 5. Let us now test if your RAK612 LPWAN Button can now communicate with the RAK Serial Port Tool. Connect with the RAK Serial Port Tool using the parameters listed below and click "**Open**".
 
-    * **COM**: Choose the COMPort associated with the USB-SERIAL CH340 from the previous step. For this tutorial, the COM Port is COM4.
-    * **Baud Rate**: **115200** bps
+   - **COM**: Choose the COMPort associated with the USB-SERIAL CH340 from the previous step. For this tutorial, the COM Port is COM4.
+   - **Baud Rate**: **115200** bps
 
 <rk-img
   src="/assets/images/quick-start-guide/rak612/interfacing-with-rak612/rak-serial.png"
@@ -59,6 +60,7 @@ In case the driver is still not installed upon doing the previous steps, kindly 
 ```
 at+version
 ```
+
 <rk-img
   src="/assets/images/quick-start-guide/rak612/interfacing-with-rak612/at-comm.png"
   width="100%"

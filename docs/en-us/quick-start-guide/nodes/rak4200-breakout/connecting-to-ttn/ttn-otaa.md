@@ -1,6 +1,6 @@
 ---
-prev: /en-us/quick-start-guide/rak4200-breakout/connecting-to-ttn/#connecting-to-the-things-network-ttn
-next: /en-us/quick-start-guide/rak4200-breakout/burning-the-firmware.html
+prev: /en-us/quick-start-guide/nodes/rak4200-breakout/connecting-to-ttn/#connecting-to-the-things-network-ttn
+next: /en-us/quick-start-guide/nodes/rak4200-breakout/burning-the-firmware.html
 ---
 
 # OTAA Mode
@@ -21,7 +21,6 @@ As an example, let's join in OTAA mode, EU868 frequency and the default LoRa® c
 ::: tip 📝 NOTE
 Execute the following commands one by one and in the order given.
 :::
-
 
 1. Set the LoRa® join mode to **OTAA** as follows:
 
@@ -83,7 +82,7 @@ at+set_config=lora:app_key:XXXX
 at+set_config=device:restart
 ```
 
-8. After resetting  RAK4200 LPWAN Breakout Module, join in OTAA mode:
+8. After resetting RAK4200 LPWAN Breakout Module, join in OTAA mode:
 
 ```
 at+join
@@ -96,7 +95,7 @@ at+join
   caption="AT Command for OTAA LoRa® Join via RAK Serial Port Tool"
 />
 
-9. Joined successfully! Now, let’s try to send a data from the  RAK4200 LPWAN Breakout Module to TTN:
+9. Joined successfully! Now, let’s try to send a data from the RAK4200 LPWAN Breakout Module to TTN:
 
 ```
 at+send=lora:2:1234567890
@@ -109,7 +108,7 @@ at+send=lora:2:1234567890
   caption="OTAA Test Sample Data Sent via RAK Serial Port Tool"
 />
 
-You can then see the data sent from  RAK4200 LPWAN Breakout Module on TTN website as follows:
+You can then see the data sent from RAK4200 LPWAN Breakout Module on TTN website as follows:
 
 <rk-img
   src="/assets/images/quick-start-guide/rak4200-breakout/ttn/ttn-traffic.png"
@@ -117,5 +116,3 @@ You can then see the data sent from  RAK4200 LPWAN Breakout Module on TTN websit
   figure-number="6"
   caption="OTAA Test Sample Data Sent Viewed in The Things Network"
 />
-
-

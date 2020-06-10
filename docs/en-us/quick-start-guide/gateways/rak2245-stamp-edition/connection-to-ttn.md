@@ -6,8 +6,8 @@ static_root: /assets/images/quick-start-guide/rak2245-stamp/connection-to-ttn
 
 The Things Network is about enabling low power devices to use long range [gateways](https://www.thethingsnetwork.org/docs/gateways/) to connect to an open-source, decentralized network to exchange data with Application. Learn more about the Things Network [here](https://www.thethingsnetwork.org/docs/).
 
-- First, you should have connected your Gateway to the router in order to access the internet according to the method which has been introduced in the [Accessing the Internet](/en-us/quick-start-guide/rak2245-stamp/accessing-your-gateway/accessing-the-internet.html) section of this document.
-- Second, config your Gateway and choose TTN as the LoRa® Server and choose a correct frequency according to the method which has been introduced in the [Configuring the Gateway](/en-us/quick-start-guide/rak2245-stamp/configuring-the-gateway.html#server-is-ttn) section.
+- First, you should have connected your Gateway to the router in order to access the internet according to the method which has been introduced in the [Accessing the Internet](/en-us/quick-start-guide/gateways/rak2245-stamp-edition/accessing-your-gateway/accessing-the-internet.html) section of this document.
+- Second, config your Gateway and choose TTN as the LoRa® Server and choose a correct frequency according to the method which has been introduced in the [Configuring the Gateway](/en-us/quick-start-guide/gateways/rak2245-stamp-edition/configuring-the-gateway.html#server-is-ttn) section.
 - Now go to the TTN Website: [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 <rk-img

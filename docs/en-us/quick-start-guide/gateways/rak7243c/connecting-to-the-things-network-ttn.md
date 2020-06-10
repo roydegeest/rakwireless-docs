@@ -6,8 +6,8 @@ static_root: /assets/images/quick-start-guide/rak7243c/2.product-configuration/4
 
 The Things Network is about enabling low power devices to use long range [gateways](https://www.thethingsnetwork.org/docs/gateways/) to connect to an open-source, decentralized network to exchange data with Application. Learn more about the Things Network [here](https://www.thethingsnetwork.org/docs/).
 
-- First, you should have connected your gateway to the router in order to access the internet according to the method which has been introduced in the [Accessing the Internet](/en-us/quick-start-guide/rak7243c/accessing-your-gateway/accessing-the-internet.html) section of this document.
-- Second, config your gateway and choose TTN as the LoRa® Server and choose a correct frequency according to the method which has been introduced in the [Configuring the Gateway](/en-us/quick-start-guide/rak7243c/configuring-the-gateway.html#server-is-ttn) section.
+- First, you should have connected your gateway to the router in order to access the internet according to the method which has been introduced in the [Accessing the Internet](/en-us/quick-start-guide/gateways/rak7243c/accessing-your-gateway/accessing-the-internet.html) section of this document.
+- Second, config your gateway and choose TTN as the LoRa® Server and choose a correct frequency according to the method which has been introduced in the [Configuring the Gateway](/en-us/quick-start-guide/gateways/rak7243c/configuring-the-gateway.html#server-is-ttn) section.
 - Now go to the TTN Website: [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 <rk-img
@@ -43,7 +43,7 @@ The Things Network is about enabling low power devices to use long range [gatewa
 />
 
 ::: tip 📝 NOTE:
- Make sure to select the \"**I'm using the legacy packet forwarder**\" check box.
+Make sure to select the \"**I'm using the legacy packet forwarder**\" check box.
 :::
 
 - **Gateway EUI** - refers to the Gatway ID you obtained from the previous step. In case you forgot, just type `gateway-version` in the command line. This must be the same with the gateway's True Gateway ID otherwise you will fail to register your gateway on TTN.

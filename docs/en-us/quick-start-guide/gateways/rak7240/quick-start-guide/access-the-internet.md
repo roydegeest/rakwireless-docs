@@ -1,10 +1,10 @@
 ---
-next: /en-us/quick-start-guide/rak7240/quick-start-guide/connecting-to-ttn.html
+next: /en-us/quick-start-guide/gateways/rak7240/quick-start-guide/connecting-to-ttn.html
 ---
 
 # Access the Internet
 
-## Connect through Wi-Fi 
+## Connect through Wi-Fi
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7240/access-internet-wifi.jpg"
@@ -23,7 +23,7 @@ Go into the **Network>Wi-Fi Menu** and make sure to enable the **Wireless Client
 />
 
 :::tip 📝 NOTE
- Assuming you have entered the correct parameter values you should get an IP address assigned by your Wi-Fi router's (AP) built-in DHCP server. You can use this new IP address to log in via a web browser (same way as in AP mode).
+Assuming you have entered the correct parameter values you should get an IP address assigned by your Wi-Fi router's (AP) built-in DHCP server. You can use this new IP address to log in via a web browser (same way as in AP mode).
 :::
 
 ## Connect through Ethernet/PoE
@@ -43,4 +43,3 @@ Connect the Ethernet cable to the port marked “ETH” on the Gateway and the o
   figure-number="4"
   caption="Connect through Ethernet Settings"
 />
-

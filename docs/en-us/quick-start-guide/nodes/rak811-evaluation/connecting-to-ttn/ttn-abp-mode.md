@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/ttn-abp-mode
-next: /en-us/quick-start-guide/rak811/connecting-to-chirpstack/
+next: /en-us/quick-start-guide/nodes/rak811-evaluation/connecting-to-chirpstack/
 ---
 
 # ABP Mode
@@ -8,12 +8,12 @@ next: /en-us/quick-start-guide/rak811/connecting-to-chirpstack/
 1. To join the ABP mode, go to device settings and switch the activation method to **ABP**.
 
 2. The **Device Address**, **Network Session Key** and **App Session Key** will be generated automatically by default.
-<rk-img
-  :src="`${$frontmatter.static_root}/ghtjt9jvmsfgkbqyrbkz.png`"
-  width="100%"
-  figure-number="1"
-  caption="Switching to ABP Mode"
-/>
+   <rk-img
+     :src="`${$frontmatter.static_root}/ghtjt9jvmsfgkbqyrbkz.png`"
+     width="100%"
+     figure-number="1"
+     caption="Switching to ABP Mode"
+   />
 
 3. Save the mode change and return to the **Device Overview page**. You can copy the keys by pressing the button after the value fields marked in red in **Figure 2**.
 

@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811-breakout/connecting-to-ttn
-prev: /en-us/quick-start-guide/rak811-breakout/interfacing-with-rak811-breakout
+prev: /en-us/quick-start-guide/nodes/rak811-breakout/interfacing-with-rak811-breakout
 next: ttn-otaa-mode
 ---
 
@@ -43,6 +43,7 @@ In this section, it is the assumption that you are within the coverage range of 
 />
 
 ## Adding an Application
+
 5. Press the "**add application**" button.
 
 <rk-img

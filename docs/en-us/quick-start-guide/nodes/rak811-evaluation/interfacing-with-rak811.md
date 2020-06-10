@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/interfacing-with-rak811
-next: /en-us/quick-start-guide/rak811/connecting-to-ttn/
+next: /en-us/quick-start-guide/nodes/rak811-evaluation/connecting-to-ttn/
 ---
 
 # Interfacing with RAK811 LPWAN Evaluation Board

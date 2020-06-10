@@ -117,7 +117,7 @@ If you turn the button in the on position only the parsed data will be forwarded
 There is an option to have an HTTPS integration for your application. See the figure for details:
 
 <rk-img
-  src="/assets/images/user-manual/web-management-platform/payload-format-tab.png"
+  src="/assets/images/user-manual/web-management-platform/app-integration-tab.png"
   width="100%"
   figure-number="7"
   caption="Application Integration Tab"

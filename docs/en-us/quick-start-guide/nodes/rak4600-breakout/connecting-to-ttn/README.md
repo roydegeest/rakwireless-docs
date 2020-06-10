@@ -1,6 +1,6 @@
 ---
-prev: /en-us/quick-start-guide/rak4600-breakout/interfacing.html
-next: /en-us/quick-start-guide/rak4600-breakout/connecting-to-ttn/ttn-otaa.html
+prev: /en-us/quick-start-guide/nodes/rak4600-breakout/interfacing.html
+next: /en-us/quick-start-guide/nodes/rak4600-breakout/connecting-to-ttn/ttn-otaa.html
 ---
 
 # Connecting to The Things Network (TTN)
@@ -9,14 +9,12 @@ The Things Network is about enabling low power devices to be used in long range 
 
 In this section, we will be connecting the RAK4600 LPWAN Breakout Module to The Things Network (TTN). If you don't have an account yet, head on to [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and create one. Once done, log in to your account and go to the console which can be found here:
 
-
 <rk-img
   src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/ttn-home-page.png"
   width="100%"
   figure-number="1"
   caption="The Things Network Home Page"
 />
-
 
 <rk-img
   src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/ttn-console-main-page.png"
@@ -65,7 +63,6 @@ After you fill in the necessary information, press the "**Add application**" but
 
 - Scroll down until you see the Devices section, or you can also click the "**Devices**" button at the top:
 
-
 <rk-img
   src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/device-section.png"
   width="100%"
@@ -82,17 +79,15 @@ After you fill in the necessary information, press the "**Add application**" but
   caption="Add your Device"
 />
 
-
 Here are the things that you should take note in registering your device:
 
 1. **Device ID** - this is the unique identifier for your RAK4600 LPWAN Breakout Module in your application. You need to enter this manually.
-2. **Device EUI** - this is the unique identifier for your device in the network. You can change it later, if you want. 
-3. **App Key**– this key 	will be used to secure the communication between the device and the 	network. 
-4. **App EUI**– a unique 	identifier of the Application that you are registering the device 	within.
+2. **Device EUI** - this is the unique identifier for your device in the network. You can change it later, if you want.
+3. **App Key**– this key will be used to secure the communication between the device and the network.
+4. **App EUI**– a unique identifier of the Application that you are registering the device within.
 
 Populate the **Device ID** and **Device EUI** _(generate a random one by pressing the arrows)_ fields and leave the rest as is.
- Click “**Register**”
-
+Click “**Register**”
 
 <rk-img
   src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/device-overview-page.png"

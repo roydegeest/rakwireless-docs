@@ -1,7 +1,7 @@
 ---
 title: Quick Start Guide
 static_root: /assets/images/quick-start-guide/rak2245/1.product-overview/2.quick-start
-next: /en-us/quick-start-guide/rak2245-pi-hat/accessing-your-gateway/
+next: /en-us/quick-start-guide/gateways/rak2245-pi-hat-edition/accessing-your-gateway/
 ---
 
 # Quick Start Guide
@@ -21,7 +21,6 @@ next: /en-us/quick-start-guide/rak2245-pi-hat/accessing-your-gateway/
 4. 5V at least 2A Micro USB Power Supply or USB C Power Supply
 5. A Windows/Mac OS/Linux Computer
 
-
 <rk-btn
   src="https://store.rakwireless.com/products/rak2245-pi-hat/"
   label="Buy a RAK2245 Raspberry Pi Hat LPWAN Gateway Concentrator Module"
@@ -38,4 +37,3 @@ next: /en-us/quick-start-guide/rak2245-pi-hat/accessing-your-gateway/
   figure-number="2"
   caption="Package Contents"
 />
-

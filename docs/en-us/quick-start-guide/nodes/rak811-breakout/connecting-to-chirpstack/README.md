@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811-breakout/connecting-to-chirpstack
-prev: /en-us/quick-start-guide/rak811-breakout/connecting-to-ttn/ttn-abp-mode
+prev: /en-us/quick-start-guide/nodes/rak811-breakout/connecting-to-ttn/ttn-abp-mode
 next: chirpstack-otaa-mode
 ---
 

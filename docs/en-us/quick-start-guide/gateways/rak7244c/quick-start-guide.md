@@ -1,6 +1,6 @@
 ---
 title: Quick Start Guide
-next: /en-us/quick-start-guide/rak7244c/accessing-your-gateway/#accessing-your-gateway
+next: /en-us/quick-start-guide/gateways/rak7244c/accessing-your-gateway/#accessing-your-gateway
 ---
 
 # Quick Start Guide

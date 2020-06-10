@@ -1,8 +1,9 @@
 ---
 static_root: /assets/images/quick-start-guide/rak4200/5. connecting-to-chirpstack/otaa
-prev: /en-us/quick-start-guide/rak4200/connecting-to-chirpstack/
+prev: /en-us/quick-start-guide/nodes/rak4200/connecting-to-chirpstack/
 next: chirpstack-abp
 ---
+
 # OTAA Mode
 
 1. If you select “**device_profile_otaa**”, it means you want to join ChirpStack in **OTAA mode**.
@@ -33,15 +34,15 @@ next: chirpstack-abp
 />
 
 4. Set the **Application Key** for the RAK4200 LPWAN Evaluation Board using the "**app_key**" same with the image below:
-<rk-img
-  :src="`${$frontmatter.static_root}/gomyqs6fsi4limpvngbp.jpg`"
-  width="100%"
-  figure-number="4"
-  caption="Chirpstack OTAA Set Application Key"
-/>
-::: tip 📝 NOTE
-The Application EUI which will be set into RAK4200 LPWAN Evaluation Board as “app_eui” is not necessary for ChirpStack, and you can set it to any value with a correct format.
-:::
+   <rk-img
+     :src="`${$frontmatter.static_root}/gomyqs6fsi4limpvngbp.jpg`"
+     width="100%"
+     figure-number="4"
+     caption="Chirpstack OTAA Set Application Key"
+   />
+   ::: tip 📝 NOTE
+   The Application EUI which will be set into RAK4200 LPWAN Evaluation Board as “app_eui” is not necessary for ChirpStack, and you can set it to any value with a correct format.
+   :::
 
 5. Configure RAK4200 LPWAN Evaluation Board by using the available AT Commands found in this [section](configuring-using-at-commands). Connect your RAK4200 LPWAN Evaluation Board in your Windows Machine.
 
@@ -52,9 +53,11 @@ The default join mode is **OTAA**, the default class is **Class A** and the defa
 :::
 
 7. If the **join mode** is not in OTAA, just set the LoRa® join mode to **OTAA** as follows:
+
 ```
 at+set_config=lora:join_mode:0
 ```
+
 <rk-img
   :src="`${$frontmatter.static_root}/mrydatc2hlwrxiyjpoqw.jpg`"
   width="60%"
@@ -63,9 +66,11 @@ at+set_config=lora:join_mode:0
 />
 
 8. Set the LoRa® class to **Class A**:
+
 ```
 at+set_config-lora:class:0
 ```
+
 <rk-img
   :src="`${$frontmatter.static_root}/edffrutqfohfxvhz0su8.jpg`"
   width="60%"
@@ -74,9 +79,11 @@ at+set_config-lora:class:0
 />
 
 9. Set the frequency/region to **EU868**:
+
 ```
 at+set_config=lora:region:EU868
 ```
+
 <rk-img
   :src="`${$frontmatter.static_root}/evudoedib3ovd9ye98gy.jpg`"
   width="60%"
@@ -85,9 +92,11 @@ at+set_config=lora:region:EU868
 />
 
 10. Set the **Device EUI**:
+
 ```
 at+set_config=lora:dev_eui:XXXX
 ```
+
 <rk-img
   :src="`${$frontmatter.static_root}/vsbevdit52xkqq0ocn5n.jpg`"
   width="60%"
@@ -96,6 +105,7 @@ at+set_config=lora:dev_eui:XXXX
 />
 
 11. Set the **Application EUI**:
+
 ```
 at+set_config=lora:app_eui:XXXX
 ```
@@ -108,6 +118,7 @@ at+set_config=lora:app_eui:XXXX
 />
 
 12. Set the **Application Key**:
+
 ```
 at+set_config=lora:app_key:XXXX
 ```
@@ -119,13 +130,12 @@ at+set_config=lora:app_key:XXXX
   caption="Chirpstack OTAA Set Application Key via RAK Serial Port Tool"
 />
 
-
-
 ::: tip 📝 NOTE
 After configuring all parameters, you need to reset RAK4200 LPWAN Evaluation Board to save the parameters.
 :::
 
-13.  After resetting, start to join:
+13. After resetting, start to join:
+
 ```
 at+join
 ```
@@ -138,17 +148,19 @@ at+join
 />
 
 14. You can then see the **JoinRequest** and **JoinAccept** on ChirpStack page:
-<rk-img
-  :src="`${$frontmatter.static_root}/szgnpputwklp26s1epwd.png`"
-  width="100%"
-  figure-number="12"
-  caption=" Chirpstack OTAA JoinRequest and JoinAccept"
-/>
+    <rk-img
+      :src="`${$frontmatter.static_root}/szgnpputwklp26s1epwd.png`"
+      width="100%"
+      figure-number="12"
+      caption=" Chirpstack OTAA JoinRequest and JoinAccept"
+    />
 
 15. Let’s try to send a data from RAK4200 LPWAN Evaluation Board to ChirpStack:
+
 ```
 at+send=lora:2:1234567890
 ```
+
 <rk-img
   :src="`${$frontmatter.static_root}/sy4nezodryajjldti9ki.jpg`"
   width="60%"
@@ -157,11 +169,11 @@ at+send=lora:2:1234567890
 />
 
 - You can then see the message on ChirpStack page:
-<rk-img
-  :src="`${$frontmatter.static_root}/y8olaqg8ywggopiglkdv.png`"
-  width="100%"
-  figure-number="14"
-  caption="Chirpstack Data Received Preview"
-/>
+  <rk-img
+    :src="`${$frontmatter.static_root}/y8olaqg8ywggopiglkdv.png`"
+    width="100%"
+    figure-number="14"
+    caption="Chirpstack Data Received Preview"
+  />
 
 OK, that’s all about “Join in OTAA Mode” with ChirpStack.

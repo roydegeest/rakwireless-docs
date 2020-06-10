@@ -1,5 +1,5 @@
 ---
-prev: /en-us/quick-start-guide/rak4600-breakout/connecting-to-ttn/
+prev: /en-us/quick-start-guide/nodes/rak4600-breakout/connecting-to-ttn/
 ---
 
 # OTAA Mode
@@ -21,9 +21,8 @@ As an example, let\u2019s join in OTAA mode, EU868 frequency and the default LoR
 Execute the following commands one by one and in the\norder given.
 :::
 
-
 1. Set the LoRa® join mode to
-**OTAA** as follows:
+   **OTAA** as follows:
 
 ```
 at+set_config=lora:join_mode:0
@@ -52,13 +51,11 @@ at+set_config=lora:region:EU868
 Execute the following commands one by one and in the\norder given.
 :::
 
-
 4. Set the **Device EUI.**
 
 ```
 at+set_config=lora:dev_eui:XXXX
 ```
-
 
 5. Set the **Application EUI**:
 
@@ -66,9 +63,7 @@ at+set_config=lora:dev_eui:XXXX
 at+set_config=lora:app_eui:XXXX
 ```
 
-
 6. Set the **Application Key**:
-
 
 ```
 at+set_config=lora:app_key:XXXX
@@ -81,17 +76,13 @@ at+set_config=lora:app_key:XXXX
   caption="AT Command for OTAA Device EUI, Application EUI and Application Key"
 />
 
-
 7. Reboot the RAK4600 LPWAN Breakout Module to save the parameters.
-
 
 ```
 at+set_config=device:restart
 ```
 
-
 8. After resetting RAK4600 LPWAN Breakout Module, join in OTAA mode:
-
 
 ```
 at+join
@@ -104,12 +95,12 @@ at+join
   caption="AT Command for OTAA LoRa® Join via RAK Serial Port Tool"
 />
 
-
-9. Joined successfully! Now, let’s try to send a data from the  RAK4600 LPWAN Breakout Module to TTN:
+9. Joined successfully! Now, let’s try to send a data from the RAK4600 LPWAN Breakout Module to TTN:
 
 ```
 at+send=lora:2:0123456789
 ```
+
 <rk-img
   src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/otaa-test-sample-data.png"
   width="50%"
@@ -117,14 +108,11 @@ at+send=lora:2:0123456789
   caption="OTAA Test Sample Data Sent via RAK Serial Port Tool"
 />
 
-
-You can then see the data sent from  RAK4600 LPWAN Breakout Module on TTN website as follows:
-
+You can then see the data sent from RAK4600 LPWAN Breakout Module on TTN website as follows:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/otaa-test-sample-sent.png""
-  width="100%"
-  figure-number="6"
-  caption="OTAA Test Sample Data Sent Viewed in The Things Network"
+src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/otaa-test-sample-sent.png""
+width="100%"
+figure-number="6"
+caption="OTAA Test Sample Data Sent Viewed in The Things Network"
 />
-

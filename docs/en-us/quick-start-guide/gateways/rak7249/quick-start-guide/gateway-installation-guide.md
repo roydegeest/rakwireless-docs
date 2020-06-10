@@ -1,10 +1,12 @@
 ---
-prev: /en-us/quick-start-guide/rak7249/quick-start-guide/#quick-start-guide
+prev: /en-us/quick-start-guide/gateways/rak7249/quick-start-guide/#quick-start-guide
 next: solar-panel-and-battery-kit-installation
 ---
+
 # Gateway Installation Guide
 
 ## Assembly
+
 1. Fix the support plate on the base with three M3x6 screws.
 
 <rk-img
@@ -26,7 +28,7 @@ next: solar-panel-and-battery-kit-installation
 3. Install the LoRa® cards (for example RAK833), the motherboard supports two LoRa® cards, the first slot is for LoRa® card of SPI type, the second slot is for LoRa® card of USB type.
 
 :::tip 📝 NOTE
- If there is only one LoRa® card (SPI type), please install it in the first slot.
+If there is only one LoRa® card (SPI type), please install it in the first slot.
 :::
 
 <rk-img
@@ -50,7 +52,7 @@ next: solar-panel-and-battery-kit-installation
 6. Connect the cable to the motherboard. The connectors on motherboard are as follows. Connect the cables one by one.
 
 :::tip 📝 NOTE
- ou must use the WiFI-MAIN connector to connect the WiFi Antenna.
+ou must use the WiFI-MAIN connector to connect the WiFi Antenna.
 :::
 
 <rk-img
@@ -74,7 +76,7 @@ next: solar-panel-and-battery-kit-installation
 ## Mounting
 
 :::tip 📝 NOTE
- All the necessary components (bolts, washers, nuts) come with the mounting kit.
+All the necessary components (bolts, washers, nuts) come with the mounting kit.
 :::
 
 1. Fix the device bracket to the backside of the enclosure with four M6x12 screws.
@@ -112,4 +114,3 @@ next: solar-panel-and-battery-kit-installation
   figure-number="10"
   caption="RAK7249 Macro Outdoor Gateway Optional Accessories"
 />
-
