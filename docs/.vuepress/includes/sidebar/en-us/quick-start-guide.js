@@ -188,6 +188,41 @@ module.exports = {
       ]
     }
   ],
+
+  '/en-us/quick-start-guide/gateways/rak2287/': [
+    {
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        {
+          title: "Prerequisites",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/quick-start-guide/gateways/rak2287/prerequisites/',
+          children: [
+            'prerequisites/device-firmware',
+            'prerequisites/assembly-guide',
+            'prerequisites/access-the-gateway'
+          ]
+        }
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'configuring-the-gateway',
+        'connecting-to-a-network',
+        'connecting-to-the-ttn',
+        'connecting-with-chirpstack'
+      ]
+    }
+  ],
+
   '/en-us/quick-start-guide/gateways/rak2247/': [
     {
       title: 'Product Overview',
