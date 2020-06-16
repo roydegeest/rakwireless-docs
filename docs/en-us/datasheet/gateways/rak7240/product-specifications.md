@@ -18,7 +18,7 @@
 | **Enclosure Material** | Aluminum | 
 | **Weight** | 1.3 kg | 
 | **Dimension** | 224 mm x 121 mm x 42 mm | 
-| **Operating Temperature** | -20˚C to +55 ˚C | 
+| **Operating Temperature** | -30˚C to +55 ˚C | 
 | **Installation Method** | Pole or Wall mounting | 
 
 
