@@ -1,0 +1,31 @@
+diff --git a/node_modules/@vuepress/core/lib/node/Page.js b/node_modules/@vuepress/core/lib/node/Page.js
+index 07f50b4..da476f2 100644
+--- a/node_modules/@vuepress/core/lib/node/Page.js
++++ b/node_modules/@vuepress/core/lib/node/Page.js
+@@ -36,7 +36,7 @@ module.exports = class Page {
+    * @param {string} permalinkPattern
+    */
+ 
+-  constructor ({
++  constructor({
+     path: _path,
+     meta,
+     title,
+@@ -46,7 +46,7 @@ module.exports = class Page {
+     permalink,
+     frontmatter = {},
+     permalinkPattern,
+-    extractHeaders = ['h2', 'h3']
++    extractHeaders = ['h2', 'h3', 'h4', 'h5', 'h6']
+   }, context) {
+     this.title = title
+     this._meta = meta
+@@ -132,7 +132,7 @@ module.exports = class Page {
+           this.excerpt = html
+         }
+       } else if (this._filePath.endsWith('.vue')) {
+-        const { data = {}} = parseVueFrontmatter(this._content)
++        const { data = {} } = parseVueFrontmatter(this._content)
+         // When Vue SFCs are source files, make them as layout components directly.
+         this.frontmatter = Object.assign({
+           layout: this.key
