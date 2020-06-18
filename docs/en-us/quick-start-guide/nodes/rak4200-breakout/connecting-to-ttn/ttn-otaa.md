@@ -1,6 +1,5 @@
 ---
 prev: /en-us/quick-start-guide/nodes/rak4200-breakout/connecting-to-ttn/#connecting-to-the-things-network-ttn
-next: /en-us/quick-start-guide/nodes/rak4200-breakout/burning-the-firmware.html
 ---
 
 # OTAA Mode

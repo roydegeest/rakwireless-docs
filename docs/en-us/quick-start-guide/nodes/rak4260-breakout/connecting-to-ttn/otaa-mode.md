@@ -1,5 +1,5 @@
 ---
-prev: /en-us/quick-start-guide/nodes/rak4260-breakout/interfacing.html
+prev: /en-us/quick-start-guide/nodes/rak4260-breakout/connecting-to-ttn/
 ---
 
 # OTAA Mode

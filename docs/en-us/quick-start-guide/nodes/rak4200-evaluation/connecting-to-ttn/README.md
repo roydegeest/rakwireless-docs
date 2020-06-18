@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak4200/4.connecting-to-ttn/
-prev: /en-us/quick-start-guide/nodes/rak4200/interfacing
+prev: /en-us/quick-start-guide/nodes/rak4200-evaluation/interfacing.html
 next: ttn-otaa
 ---
 
