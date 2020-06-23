@@ -120,10 +120,30 @@ The hardware interfaces of RAK7258 Micro Gateway include DC 12V, ETH interface, 
 
 Supported Software
 
-| LoRa                      | Back-haul              | Management           |
-| ------------------------- | ---------------------- | -------------------- |
-| Class A, C device support | WiFi AP/Client mode    | WEB UI               |
-| Built-in LoRaServer       | Multi back-haul backup | Supports SSH2        |
-| MQTT Bridge mode          | Supports 802.1q        | Firmware update      |
-| Real Time logger          | NAT                    | Back-up and recovery |
-|                           | Firewall               | NTP                  |
+| LoRa                          | Network            | Management                                   |
+| ----------------------------- | ------------------ | -------------------------------------------- |
+| Supports class A, C           | WiFi AP mode       | WEB Management                               |
+| LoRa package forward          | LTE APN setup      | Supports SSH2 , NTP                          |
+| Country code setup            | Uplink backup      | Firmware update                              |
+| TX power up setup             | Supports 802.1q    | Supports configure the LoRa Packet Forwarder |
+| Datalogger                    | DHCP Server/Client | Supports Build-in LoRa Server                |
+| Statistic                     | Router module NAT  | Supports OpenVPN, Ping Watch Dog             |
+| Location setup                | Firewall           | Supports MQTT Bridge                         |
+| Server address and port setup |                    |                                              |
+
+## Models / Bundles
+
+Order Information
+
+| Part Number    | Package                                                         | Description    |
+| -------------- | --------------------------------------------------------------- | -------------- |
+| RAK7258-01-R01 | 1x RAK7258, 1x LoRa Antenna and 1x Power Adapter retail package | LoRa 8RX EU433 |
+| RAK7258-02-R01 | 1x RAK7258, 1x LoRa Antenna and 1x Power Adapter retail package | LoRa 8RX CN470 |
+| RAK7258-03-R01 | 1x RAK7258, 1x LoRa Antenna and 1x Power Adapter retail package | LoRa 8RX EU868 |
+| RAK7258-04-R01 | 1x RAK7258, 1x LoRa Antenna and 1x Power Adapter retail package | LoRa 8RX US915 |
+| RAK7258-06-R01 | 1x RAK7258, 1x LoRa Antenna and 1x Power Adapter retail package | LoRa 8RX AS923 |
+
+## Certification
+
+- [CE Certification](https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/Certification-Report/RAK7258_CE_Certificate.zip)
+- [FCC Certification](https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/Certification-Report/RAK7258_FCC_Certificate.zip)
