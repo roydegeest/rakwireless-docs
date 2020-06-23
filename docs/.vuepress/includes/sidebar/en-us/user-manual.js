@@ -22,9 +22,9 @@ module.exports = {
                 path: '/en-us/user-manual/web-management-platform',
                 children: [
                   'web-management-platform/status-page',
-                  'web-management-platform/network-configuration',
-                  'web-management-platform/lorawan-gateway-configuration',
-                  'web-management-platform/lora-network-server',
+                  'web-management-platform/network',
+                  'web-management-platform/channel-plan',
+                  'web-management-platform/lora-network',
                   'web-management-platform/services',
                   'web-management-platform/system'
                   ]
