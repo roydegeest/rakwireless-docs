@@ -8,7 +8,6 @@ tags:
 <rk-img
   src="/assets/images/datasheet/rak7258/rak7258-overview.png"
   width="60%"
-  figure-number="1"
   caption="RAK7258 Micro Gateway"
 />
 
@@ -47,7 +46,6 @@ The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and an
 <rk-img
   src="/assets/images/datasheet/rak7258/board_overview.png"
   width="100%"
-  figure-number="2"
   caption="RAK7258 Micro Gateway Circuit Board"
 />
 
@@ -56,7 +54,6 @@ The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and an
 <rk-img
   src="/assets/images/datasheet/rak7258/block-diagram.png"
   width="75%"
-  figure-number="3"
   caption="RAK7258 Micro Gateway Block Diagram"
 />
 
@@ -69,9 +66,25 @@ The hardware interfaces of RAK7258 Micro Gateway include DC 12V, ETH interface, 
 <rk-img
   src="/assets/images/datasheet/rak7258/hardware-interfaces.png"
   width="75%"
-  figure-number="4"
   caption="RAK7258 Micro Gateway Hardware Interfaces"
 />
+
+##### Reset Key Functions
+The function of the **Reset** key is as follows:
+
+1. **Short press**: Restarts the Gateway
+2. **Long press (5 seconds and above)**: Restore Factory Settings
+
+The status of the LEDs is described as below:
+
+| LEDs | Status Indication Description                                                                                                                                                                                                        |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| PWR  | Power Indicator, Led on when device power on                                                                                                                                                                                         |
+| ETH  | **ON**: linkup <br> **OFF**: linkdown <br>**Flash**: Data Transmitting and Receiving                                                                                                                                                 |
+| LoRa | **ON**: LoRa1 is working <br>**OFF**: LoRa1 is not working <br>**Flash**: Indicate that LoRa1 Packet receiving and sending                                                                                                           |
+| ACT  | Expanded Led indicator, useless                                                                                                                                                                                                      |
+| STAT | Expanded Led indicator, useless                                                                                                                                                                                                      |
+| WLAN | AP Mode : <br>**ON**: WLAN is working<br>**Flash**: Data Transmitting and Receiving <br><br>STA Mode : <br>**Slow Flash (1Hz)**: Connection Disconnected <br>**ON**: Connection Successful <br>**Flash**: Data Receiving and Sending |
 
 #### Main Specifications
 
