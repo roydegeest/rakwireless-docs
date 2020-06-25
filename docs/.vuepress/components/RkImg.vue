@@ -9,13 +9,19 @@
       :width="opt.width"
       alt=""
     />
-    <figcaption><small><b>Figure {{opt.figureNumber || figNum}}:</b> {{ opt.caption }}</small></figcaption>
+    <div class="text-caption text-weight-bold">Figure {{opt.figureNumber || figNum}}:</b> {{ opt.caption }}</div>
   </figure>
 </template>
 
 <script>
+let count = 0
+let lastPath = null
+
 export default {
   props: ['params', 'src', 'width', 'figureNumber', 'caption'],
+  data: () => ({
+    figNum: null
+  }),
   computed: {
     opt () {
       const { params, src, width, figureNumber, caption } = this
@@ -23,10 +29,14 @@ export default {
       else {
         return { src, width, figureNumber, caption }
       }
-    },
-    figNum () {
-      return document.querySelectorAll("#rk-img").length + 1
     }
+  },
+  mounted () {
+    if (this.$page.path !== lastPath) {
+      lastPath = this.$page.path
+      count = 1
+      this.figNum = count
+    } else this.figNum = ++count
   }
 }
 </script>
