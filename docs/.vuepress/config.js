@@ -74,7 +74,14 @@ module.exports = {
       options: {},
     },
     // '@vuepress/back-to-top': {},
-    'vuepress-plugin-code-copy': true,
+    'vuepress-plugin-code-copy': {
+      selector: 'div[class*="language-"] pre',
+      align: 'top',
+      color: '#ffffff',
+      backgroundTransition: true,
+      backgroundColor: '#ffffff',
+      successText: 'Copied!'
+    },
   },
   markdown: {
     extendMarkdown: md => {
