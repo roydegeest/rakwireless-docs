@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7243c/2.product-configuration/2.accessing-gateway
-prev: /en-us/quick-start-guide/rak7243c/quick-start-guide.html#quick-start-guide
+prev: /en-us/quick-start-guide/gateways/rak7243c/quick-start-guide.html#quick-start-guide
 next: accessing-the-internet
 ---
 
@@ -9,7 +9,7 @@ next: accessing-the-internet
 After burning the image into the SD Card, make sure you have inserted the SD Card with the Latest Firmware installed to the **RAK7243C LPWAN** **Developer Gateway** and the LoRa®, GPS, and LTE Antenna attached to it. After which, you can now safely power on the gateway. In this document, several ways in accessing the gateway are provided to have different alternatives for you to choose depending on the availability of the requirements needed.
 
 ::: warning
- Before powering the Raspberry Pi 3B+ you should install the LoRa® , GPS and LTE antennas. Not doing so might damage the boards.
+Before powering the Raspberry Pi 3B+ you should install the LoRa® , GPS and LTE antennas. Not doing so might damage the boards.
 :::
 
 ## 1. Wi-Fi AP Mode
@@ -17,18 +17,18 @@ After burning the image into the SD Card, make sure you have inserted the SD Car
 By default, the gateway will work in Wi-Fi AP Mode which means that you can find an SSID named like "**Rakwireless_XXXX**" on your PC Wi-Fi Network List.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/1.lz4jkwc4hc5bulz0tial.jpg`"
+  :src="`${$frontmatter.static_root}/1.lz4jkwc4hc5bulz0tial.png`"
   width="100%"
   figure-number="1"
   caption="RAKWireless Access Point"
 />
 
-::: tip 📝 NOTE: 
- “XXXX” is the last 2 bytes of your RAK7243C WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also  of the default IP address of the Gateway provided below as this will be needed in connecting via SSH.
+::: tip 📝 NOTE:
+“XXXX” is the last 2 bytes of your RAK7243C WiFi MAC address. Connect to this Wi-Fi SSID using the password provided below. Take note also of the default IP address of the Gateway provided below as this will be needed in connecting via SSH.
 
-* **Wi-Fi Password:** rakwireless
-* **Default IP Address:** `192.168.230.1`
-:::
+- **Wi-Fi Password:** rakwireless
+- **Default IP Address:** `192.168.230.1`
+  :::
 
 ## 2. Via the Ethernet Port on the Raspberry Pi 3B+
 
@@ -46,7 +46,7 @@ You can also connect your PC with the gateway through an Ethernet cable. By defa
 - Click **Properties** then Choose **Internet Protocol Version 4 (TCP/IPv4).**
 
 <rk-img
-  :src="`${$frontmatter.static_root}/3.q1fuiang2vcayglvgirm.jpg`"
+  :src="`${$frontmatter.static_root}/3.q1fuiang2vcayglvgirm.png`"
   width="100%"
   figure-number="3"
   caption="Ethernet Properties"
@@ -55,7 +55,7 @@ You can also connect your PC with the gateway through an Ethernet cable. By defa
 - By default, it will obtain an IP Address automatically. Click the Option "Use the following IP Address" and enter the IP Address: `192.168.10.20` and press OK.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/4.qdbxt5z0vcc0xuv6kjie.jpg`"
+  :src="`${$frontmatter.static_root}/4.qdbxt5z0vcc0xuv6kjie.png`"
   width="100%"
   figure-number="4"
   caption="TCP/IPv4 Properties"
@@ -92,7 +92,7 @@ SSH (Secure Shell) is typically used to log in to a remote machine and execute c
 Open the Terminal of Mac OS. Launch the **Terminal** application, which is found in "/Applications/Utilities/" directory but you can also launch it from Spotlight by hitting **Command + Spacebar** and typing “Terminal” and then return:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/7.ml30pbgwlefwpd72liak.jpg`"
+  :src="`${$frontmatter.static_root}/7.ml30pbgwlefwpd72liak.png`"
   width="100%"
   figure-number="7"
   caption="Opening Terminal in Mac OS"

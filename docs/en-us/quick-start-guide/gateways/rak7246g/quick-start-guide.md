@@ -1,6 +1,6 @@
 ---
 title: Quick Start Guide
-next: /en-us/quick-start-guide/rak7246g/accessing-your-gateway/#accessing-your-gateway
+next: /en-us/quick-start-guide/gateways/rak7246g/accessing-your-gateway/#accessing-your-gateway
 params:
   {
     img1:
@@ -12,7 +12,7 @@ params:
       },
     img2:
       {
-        src: "/assets/images/quick-start-guide/rak7246/package_contents.jpg",
+        src: "/assets/images/quick-start-guide/rak7246/package-contents.png",
         width: "100%",
         figureNumber: "2",
         caption: "RAK7246G Package Contents",

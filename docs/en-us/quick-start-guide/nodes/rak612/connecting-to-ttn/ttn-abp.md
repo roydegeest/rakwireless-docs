@@ -1,6 +1,7 @@
 ---
-next: /en-us/quick-start-guide/rak612/key-function-customizing.html
+next: /en-us/quick-start-guide/nodes/rak612/key-function-customizing.html
 ---
+
 # ABP Mode
 
 Follow these steps, if you want to join with The Things Network in **Activation By Personalisation** (ABP) Mode.
@@ -41,6 +42,7 @@ As an example, let's join in ABP mode and EU868 frequency.
 ```
 at+band=EU868
 ```
+
 <rk-img
   src="/assets/images/quick-start-guide/rak612/ttn/lora-region-otaa.jpg"
   width="60%"
@@ -48,7 +50,7 @@ at+band=EU868
   caption="AT Command for ABP LoRa® Region/Frequency via RAK Serial Port Tool"
 />
 
-5. Set the **Device Address**: 
+5. Set the **Device Address**:
 
 ```
 at+set_config=dev_addr:XXXX
@@ -61,12 +63,12 @@ at+set_config=dev_addr:XXXX
   caption="AT Command for ABP LoRa® Device Address via RAK Serial Port Tool"
 />
 
-
 6. Set the **Network Session Key**:
 
 ```
 at+set_config=nwks_key:XXXX
 ```
+
 <rk-img
   src="/assets/images/quick-start-guide/rak612/ttn/abp-nwkskey.jpg"
   width="60%"
@@ -79,13 +81,13 @@ at+set_config=nwks_key:XXXX
 ```
 at+set_config=apps_key:XXXX
 ```
+
 <rk-img
   src="/assets/images/quick-start-guide/rak612/ttn/abp-appskey.jpg"
   width="60%"
   figure-number="7"
   caption="AT Command for ABP LoRa® Application Session Key via RAK Serial Port Tool"
 />
-
 
 :::tip 📝 NOTE
 After configuring all parameters, you need to reset the RAK612 LPWAN Button for saving parameters.
@@ -109,7 +111,7 @@ After configuring all parameters, you need to reset the RAK612 LPWAN Button for 
   caption="Testing the RAK612 LoRa® Button in RAK Serial Port Tool"
 />
 
-* You can then see the data sent from RAK612 LPWAN BUtton in TTN website as follows:
+- You can then see the data sent from RAK612 LPWAN BUtton in TTN website as follows:
 
 <rk-img
   src="/assets/images/quick-start-guide/rak612/ttn/ttn-abp-received.jpg"
@@ -117,5 +119,3 @@ After configuring all parameters, you need to reset the RAK612 LPWAN Button for 
   figure-number="10"
   caption="ABP Test Sample Data Sent Viewed in The Things Network"
 />
-
-

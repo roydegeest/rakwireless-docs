@@ -4,7 +4,7 @@ next: connecting-with-chirpstack
 params:
 
   img1:
-    src: /assets/images/quick-start-guide/rak2245/7.connecting to ttn/ttn_home_page.jpg
+    src: /assets/images/quick-start-guide/rak2245/7.connecting to ttn/ttn_home_page.png
     width: 100%
     figureNumber: 1
     caption: The Things Network Home Page

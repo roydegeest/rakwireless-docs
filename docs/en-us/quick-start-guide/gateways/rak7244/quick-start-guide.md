@@ -1,6 +1,6 @@
 ---
 title: Quick Start Guide
-next: /en-us/quick-start-guide/rak7244/accessing-your-gateway/#accessing-your-gateway
+next: /en-us/quick-start-guide/gateways/rak7244/accessing-your-gateway/#accessing-your-gateway
 ---
 
 # Quick Start Guide
@@ -13,6 +13,7 @@ next: /en-us/quick-start-guide/rak7244/accessing-your-gateway/#accessing-your-ga
 />
 
 ## What do you need?
+
 1. RAK7244 LPWAN Developer Gateway
 2. 16GB SD Card (included) + Card Reader
 3. 5V at least 2.5A Micro USB Power Supply (not included)
@@ -27,7 +28,7 @@ next: /en-us/quick-start-guide/rak7244/accessing-your-gateway/#accessing-your-ga
 ## What's included in the Package?
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/2.quickstart/package.jpg"
+  src="/assets/images/quick-start-guide/rak7244/2.quickstart/package.png"
   width="100%"
   figure-number="2"
   caption="RAK7244 Package Contents"

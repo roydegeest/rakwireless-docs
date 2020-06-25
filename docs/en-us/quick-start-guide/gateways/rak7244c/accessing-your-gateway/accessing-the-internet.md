@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7244c/2.accessing-gateway/1.accessing-internet
-prev: /en-us/quick-start-guide/rak7244c/accessing-your-gateway/#accessing-your-gateway
+prev: /en-us/quick-start-guide/gateways/rak7244c/accessing-your-gateway/#accessing-your-gateway
 ---
 
 # Accessing the Internet
@@ -49,7 +49,7 @@ There are 5 options to choose from in the Wi-Fi configuration menu:
 5. **Change Wi-Fi Country** - this is used to modify the Resident Country to match with Wi-Fi standards.
 
 ::: warning
- In order to enable Wi-Fi Client Mode, you have to disable first the AP Mode.
+In order to enable Wi-Fi Client Mode, you have to disable first the AP Mode.
 :::
 
 Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable AP Mode**", you can now then connect to a new Wi-Fi Network by choosing "**4 Add New SSID for Client**":
@@ -73,7 +73,7 @@ Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable
 - Enter the SSID of the network you want to connect:
 
 ::: warning
- Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK7244C again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow this procedure listed in the [Reverting Back to Wi-Fi AP Mode](#reverting-to-wi-fi-ap-mode) section which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
+Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK7244C again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow this procedure listed in the [Reverting Back to Wi-Fi AP Mode](#reverting-to-wi-fi-ap-mode) section which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
 :::
 
 <rk-img
@@ -178,7 +178,7 @@ sudo minicom -D /dev/ttyAMA0 -b 115200
 />
 
 ::: tip 📝 NOTE:
- If you cannot see the “at”, which you just entered, try to hold “CTRL+A”, then press “Z”, then press “E”. This should allow you to go to the command entering mode.
+If you cannot see the “at”, which you just entered, try to hold “CTRL+A”, then press “Z”, then press “E”. This should allow you to go to the command entering mode.
 :::
 
 **6.** Next, execute the AT command “**`at+cops=?`**” to look for all available LTE networks in range:
@@ -200,7 +200,7 @@ This may take a couple of seconds. After that, you'll see the available LTE Netw
 />
 
 ::: tip 📝 NOTE:
- The image above shows the available LTE network in China. These information may vary depending on the available network in your region. For instance in China, the available network are “CHINA MOBILE”, “CHN-UNICOM”, or “CHN-CT”.
+The image above shows the available LTE network in China. These information may vary depending on the available network in your region. For instance in China, the available network are “CHINA MOBILE”, “CHN-UNICOM”, or “CHN-CT”.
 :::
 
 **7.** Next, execute the AT command below to set the information of the LTE network operator that you want to use.
@@ -229,7 +229,7 @@ Then, using the sample AT command described above, the command will be:
 After then, you will receive "OK" which means you have successfully configured the LTE network.
 
 ::: tip How to Quit Minicom?
- In order for you to exit Minicom. Press Enter, Ctrl + A then press Q. A pop up will appear and choose Yes.
+In order for you to exit Minicom. Press Enter, Ctrl + A then press Q. A pop up will appear and choose Yes.
 :::
 
 **8.** Proceed to setting the **APN name** for the **pppd**
@@ -246,7 +246,7 @@ Configure APN name**”.
 **9.** Then, you will see the window option below where you can change the APN Name or retain its default name.
 
 ::: tip 📝 NOTE:
- If you want to modify the APN Name, make it sure it is a real and valid APN Name.
+If you want to modify the APN Name, make it sure it is a real and valid APN Name.
 :::
 
 <rk-img

@@ -2,7 +2,7 @@
 
 ### RAK7244/ RAK7244P Interfaces
 <rk-img
-  src="/assets/images/datasheet/rak7244/interfaces/zvezqtwo20ciahxdvh9s.jpg"
+  src="/assets/images/datasheet/rak7244/interfaces/interfaces.png"
   width="100%"
   figure-number="5"
   caption="RAK7244/RAK7244P Interfaces"

@@ -91,7 +91,7 @@ module.exports = {
           title: "Quick Start Guide",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/k7258/quick-start-guide/',
+          path: '/en-us/quick-start-guide/gateways/rak7258/quick-start-guide/',
           children: [
             'quick-start-guide/wall-mounting-guide',
             'quick-start-guide/power-on-the-gateway',
@@ -188,6 +188,41 @@ module.exports = {
       ]
     }
   ],
+
+  '/en-us/quick-start-guide/gateways/rak2287/': [
+    {
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        {
+          title: "Prerequisites",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/quick-start-guide/gateways/rak2287/prerequisites/',
+          children: [
+            'prerequisites/device-firmware',
+            'prerequisites/assembly-guide',
+            'prerequisites/access-the-gateway'
+          ]
+        }
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'configuring-the-gateway',
+        'connecting-to-a-network',
+        'connecting-to-the-ttn',
+        'connecting-with-chirpstack'
+      ]
+    }
+  ],
+
   '/en-us/quick-start-guide/gateways/rak2247/': [
     {
       title: 'Product Overview',
@@ -352,7 +387,7 @@ module.exports = {
           title: "Interfacing your RAK811 LPWAN Evaluation Board with Arduino Boards",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/rak811/interfacing-with-arduino/',
+          path: '/en-us/quick-start-guide/nodes/rak811-evaluation/interfacing-with-arduino/',
           children: [
             'interfacing-with-arduino/hardware-interfacing',
             'interfacing-with-arduino/firmware-flashing',
@@ -406,7 +441,7 @@ module.exports = {
       title: 'Product Configuration',
       collapsable: false,
       sidebarDepth: 2,
-      children: [      
+      children: [
         'interfacing',
         {
           title: "Connecting to The Things Network (TTN)",
@@ -679,7 +714,7 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         'interfacing-with-rak811-breakout',
-      
+
         {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
@@ -837,7 +872,7 @@ module.exports = {
         'rui-online-compiler'
       ]
     }
-  ], 
+  ],
   '/en-us/quick-start-guide/nodes/rak4600-breakout/': [
     {
       title: 'Product Overview',

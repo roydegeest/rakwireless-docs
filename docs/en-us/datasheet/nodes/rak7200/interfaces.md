@@ -22,11 +22,11 @@ The RAK7200 device provides three external interfaces, as shown in the following
 
 - **Micro USB** - 5V DC power supply and UART communication.
 - **Reset Button** - Used to reset the RAK7200 LPWAN Tracker. Press the Reset Button for more than 1 second, then the device will be reset.
-- **BOOT0 Button -** When upgrading the firmware, you need to hold the BOOT0 Button, and then press the reset button to enter the boot mode. More information can be found here in the [RAK7200 LPWAN Tracker](/en-us/quick-start-guide/rak7200/#rak7200-lpwan-tracker) documentation.
+- **BOOT0 Button -** When upgrading the firmware, you need to hold the BOOT0 Button, and then press the reset button to enter the boot mode. More information can be found here in the [RAK7200 LPWAN Tracker](/en-us/quick-start-guide/nodes/rak7200/#rak7200-lpwan-tracker) documentation.
 
 ### LEDs
 
-The  RAK7200 LPWAN Tracker provides three LEDs for indicating the operating status, here are their functions:
+The RAK7200 LPWAN Tracker provides three LEDs for indicating the operating status, here are their functions:
 
 <rk-img
   src="/assets/images/datasheet/rak7200/leds.jpg"
@@ -38,4 +38,3 @@ The  RAK7200 LPWAN Tracker provides three LEDs for indicating the operating stat
 - **LED1 Status** - Indicates that the Li-Ion Battery is Charging
 - **LED2 Status** - Indicates that the Li-Ion Battery is Fully Charged.
 - **LED3 Status** - Indicates that the device is sending data.
-

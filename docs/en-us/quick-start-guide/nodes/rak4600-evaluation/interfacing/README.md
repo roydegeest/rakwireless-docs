@@ -1,7 +1,8 @@
 ---
-prev: /en-us/quick-start-guide/rak4600/prerequisites
-next: /en-us/quick-start-guide/rak4600/interfacing/checking-device-logs
+prev: /en-us/quick-start-guide/nodes/rak4600-evaluation/prerequisites
+next: /en-us/quick-start-guide/nodes/rak4600-evaluation/interfacing/checking-device-logs
 ---
+
 ### Interfacing with RAK4600
 
 In order for you to be able to interface with the Evaluation Board, using a Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
@@ -47,7 +48,7 @@ Before powering the RAK4600 LPWAN Evaluation Board , you should install the LoRa
 - Look for Ports (COM & LPT) and Find the name **USB-SERIAL CH340** and take note of the COM Port Number.
 
 :::tip 📝 NOTE
-If you didn't find any Port with the name USB-Serial CH340, make sure you have instaalled the  the [CH340 Drivers](https:\/\/downloads.rakwireless.com\/LoRa\/RAK811\/Tools\/CH340%20Drive.rar) to your Machine.
+If you didn't find any Port with the name USB-Serial CH340, make sure you have instaalled the the [CH340 Drivers](https://downloads.rakwireless.com/LoRa/RAK811/Tools/CH340%20Drive.rar) to your Machine.
 :::
 
 - Choose the Correct Port Number from the device manager and the Correct Baud Rate then click Open:
@@ -58,4 +59,3 @@ If you didn't find any Port with the name USB-Serial CH340, make sure you have i
   figure-number="5"
   caption="Correct Port Number and Correct Baud rate"
 />
-

@@ -1,4 +1,5 @@
 ---
+prev: /en-us/quick-start-guide/nodes/rak612/connecting-to-ttn/
 next: ttn-abp
 ---
 

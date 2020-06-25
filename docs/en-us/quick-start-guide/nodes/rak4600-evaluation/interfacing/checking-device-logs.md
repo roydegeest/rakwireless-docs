@@ -1,6 +1,7 @@
 ---
-prev: /en-us/quick-start-guide/rak4600/interfacing/
+prev: /en-us/quick-start-guide/nodes/rak4600-evaluation/interfacing/
 ---
+
 # Checking Device Logs
 
 There are 2 ways that you can check the logs for debugging purposes on your RAK4600 LPWAN Evaluation Board:
@@ -11,7 +12,6 @@ There are 2 ways that you can check the logs for debugging purposes on your RAK4
 ## Through J-Link RTT Viewer
 
 1. If you want to check the logs of RAK4600 LPWAN Evaluation Board using this method, make sure you have connected the RAK4600 LPWAN Evaluation Board with your PC through JTAG like the following diagram below:
-
 
 <rk-img
   src="/assets/images/quick-start-guide/rak4600/4.checking-device-logs/zyvc5cexqy2g04lh5gqm.png"
@@ -31,9 +31,7 @@ There are 2 ways that you can check the logs for debugging purposes on your RAK4
 You still have to connect the Micro-usb Cable to the RAK4600 LPWAN Evaluation Board to power the board.
 :::
 
-
 2. Go to the Official Website of **Segger** where you can Download the [J-Flash software](https://www.segger.com/products/debug-probes/j-link/tools/j-flash/about-j-flash/). Open the program “**J-Link RTT Viewer V6.60f**” and choose "**USB**" for the type of connection to J-Link. After which, press "**OK**".
-
 
 <rk-img
   src="/assets/images/quick-start-guide/rak4600/4.checking-device-logs/k40v5ssykcsgrwfvd6ds.png"

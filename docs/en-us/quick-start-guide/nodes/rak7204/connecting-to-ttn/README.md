@@ -1,8 +1,9 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/5.connecting-to-ttn/
-next: /en-us/quick-start-guide/rak7204/connecting-to-ttn/ttn-otaa
-prev: /en-us/quick-start-guide/rak7204/interfacing
+next: /en-us/quick-start-guide/nodes/rak7204/connecting-to-ttn/ttn-otaa
+prev: /en-us/quick-start-guide/nodes/rak7204/interfacing
 ---
+
 # Connecting to The Things Network (TTN)
 
 The Things Network is about enabling low power devices to be used in long range gateways that connect to an open-source, decentralized network and exchange data with Applications. Learn more about the Things Network [**here**](https://www.thethingsnetwork.org/docs/).
@@ -25,7 +26,6 @@ In this section, we will be connecting the RAK7204 LPWAN Environmental Sensor to
 
 - Choose "**APPLICATIONS**"
 
-
 <rk-img
   :src="`${$frontmatter.static_root}/bfbdxer0da06nxv0bymr.png`"
   width="100%"
@@ -36,13 +36,12 @@ In this section, we will be connecting the RAK7204 LPWAN Environmental Sensor to
 ## Adding An Application
 
 - Click the "**add application**" button
-<rk-img
-  :src="`${$frontmatter.static_root}/eixjrjjdmpc4bstoyleu.png`"
-  width="100%"
-  figure-number="4"
-  caption="Adding an Application"
-/>
-
+  <rk-img
+    :src="`${$frontmatter.static_root}/eixjrjjdmpc4bstoyleu.png`"
+    width="100%"
+    figure-number="4"
+    caption="Adding an Application"
+  />
 
 Here are the things that you should take note in adding an application:
 
@@ -61,6 +60,7 @@ Here are the things that you should take note in adding an application:
 />
 
 ### Register Device
+
 - Scroll down until you see the Devices section, or you can also click the "**Devices**" button at the top:
 
 <rk-img
@@ -79,10 +79,9 @@ Here are the things that you should take note in adding an application:
   caption="Add your Device"
 />
 
-
 Here are the things that you should take note in registering your device:
 
-1. **Device ID** - this is the unique identifier for your RAK4200 LPWAN Evaluation Board in your application. You need to enter this manually.
+1. **Device ID** - this is the unique identifier for your RAK7204 LPWAN Environmental Sensor in your application. You need to enter this manually.
 2. **Device EUI** - this is the unique identifier for your device in the network. You can change it later, if you want.
 
 Click the following icon and the Device EUI will be automatically generated. The App Key should be in auto generation mode by default.

@@ -38,4 +38,5 @@ Rich Internet protocol, industry-standard interfaces (USB/UART/I2C/Status indica
 !!!include(en-us/datasheet/nb-iot/rak8213/gnss-receiver.md)!!!
 !!!include(en-us/datasheet/nb-iot/rak8213/antenna-interfaces.md)!!!
 !!!include(en-us/datasheet/nb-iot/rak8213/electrical-characteristics.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak8213/mechanical-characteristics.md)!!!
 !!!include(en-us/datasheet/nb-iot/rak8213/schematic-diagram.md)!!!

@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5205-7205/chirpstack-otaa-mode
 next: chirpstack-abp-mode
-prev: /en-us/quick-start-guide/rak5205-7205/connecting-to-chirpstack/
+prev: /en-us/quick-start-guide/nodes/rak7205(5205)/connecting-to-chirpstack/
 ---
 
 # OTAA Mode
@@ -45,7 +45,7 @@ prev: /en-us/quick-start-guide/rak5205-7205/connecting-to-chirpstack/
 />
 
 ::: tip 📝 NOTE:
- The Application EUI which was into RAK5205 as “**app_eui**” is not needed for ChirpStack.
+The Application EUI which was into RAK5205 as “**app_eui**” is not needed for ChirpStack.
 :::
 
 4. Next, let’s **configure** RAK5205 WisTrio LPWAN Tracker by using **AT commands**. To do this, connect your RAK5205 WisTrio LPWAN Tracker to a PC, power it on and open **RAK Serial Port Tool** on your computer.

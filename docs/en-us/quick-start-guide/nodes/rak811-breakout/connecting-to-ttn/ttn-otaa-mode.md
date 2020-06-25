@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811-breakout/ttn-otaa-mode
-prev: /en-us/quick-start-guide/rak811-breakout/connecting-to-ttn/
-next: /en-us/quick-start-guide/rak811-breakout/connecting-to-ttn/ttn-abp-mode
+prev: /en-us/quick-start-guide/nodes/rak811-breakout/connecting-to-ttn/
+next: /en-us/quick-start-guide/nodes/rak811-breakout/connecting-to-ttn/ttn-abp-mode
 ---
 
 # OTAA Mode

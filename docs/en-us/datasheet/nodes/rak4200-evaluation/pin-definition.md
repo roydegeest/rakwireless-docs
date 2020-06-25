@@ -3,7 +3,7 @@
 Provided in this section is the Pinout of the RAK4200 LPWAN Module.
 
 <rk-img
-  src="/assets/images/datasheet/rak4200/pinout-for-rak4200.jpg"
+  src="/assets/images/datasheet/rak4200/pinout-for-rak4200.png"
   width="75%"
   figure-number="4"
   caption="Pinout for RAK4200"

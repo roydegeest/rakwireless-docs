@@ -1,8 +1,9 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7200/connecting-to-ttn
-next: /en-us/quick-start-guide/rak7200/connecting-to-ttn/ttn-otaa-mode
-prev: /en-us/quick-start-guide/rak7200/interfacing-with-rak7200
+next: /en-us/quick-start-guide/nodes/rak7200/connecting-to-ttn/ttn-otaa-mode
+prev: /en-us/quick-start-guide/nodes/rak7200/interfacing-with-rak7200
 ---
+
 # Connecting to The Things Network
 
 In this section, we will be connecting the RAK7200 LPWAN Tracker to The Things Network (TTN). If you don't have an account yet, head on to [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and create one. Once done, Log in to your account and go to the console which can be found here:
@@ -31,6 +32,7 @@ In this section, we will be connecting the RAK7200 LPWAN Tracker to The Things N
 />
 
 ## Adding An Application
+
 - Click the "**add application**" button
 
 <rk-img
@@ -57,6 +59,7 @@ Here are the things that you should take note in adding an application:
 />
 
 ### Register Device
+
 - Scroll down until you see the Devices section, or you can also click the "**Devices**" button at the top:
 
 <rk-img

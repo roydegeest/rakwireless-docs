@@ -51,7 +51,7 @@ RAK Gateways support all LoRaWAN® frequency channels as shown in the list provi
 </template>
 <template #answer>
 
-Yes. We have provided a pre-compiled firmware image that you can just easily use and flash it into your Raspberry Pi 4. You can check out the [RAK2245 - Pi Hat Device Firmware Setup](/en-us/quick-start-guide/rak2245-pi-hat/device-firmware-setup.html) guide on how to burn the firmware image into your Raspberry Pi device.
+Yes. We have provided a pre-compiled firmware image that you can just easily use and flash it into your Raspberry Pi 4. You can check out the [RAK2245 - Pi Hat Device Firmware Setup](/en-us/quick-start-guide/gateways/rak2245-pi-hat-edition/device-firmware-setup.html) guide on how to burn the firmware image into your Raspberry Pi device.
 
 Note:
 
@@ -79,14 +79,14 @@ Technically, one can achieve with a range of **10-15 km** but there are a lot of
 
 Whenever the keys 1 - 4 is pressed, the corresponding basket light under each key lights up for 300ms. To enter Configuration Mode, long press Key 1 for at least 500 ms. Press Key 1 again for at least 500 ms to exit Configuration Mode.
 
-<rk-table>
+
 | Mode                    | Red LED     | Green LED | Blue LED                  |
 | ----------------------- | ----------- | --------- | ------------------------- |
 | Configuration Mode      | Steady ON   | OFF       | OFF                       |
 | Transmission Successful | ON          | OFF       | Flash Twice after Red LED |
 | Transmission Fail       | Flash Twice | OFF       | OFF                       |
 | USB Cable Plugged       | OFF         | ON        | OFF                       |
-</rk-table>
+
 
 </template>
 </faq>
@@ -123,7 +123,7 @@ The following are the available modules: **RAK4200, RAK4270, RAK4600, RAK4260, R
 
 The features of each module are shown in the following table:
 
-<rk-table>
+
 | Module Name     | RAK4200                                                                     | RAK4270                                              | RAK4600                                                                       | RAK4260                                                                                                    | RAK811                                                                      | RAK2200                                                          |
 | --------------- | --------------------------------------------------------------------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | MCU             | STM32L071KB                                                                 | STM32L071KB                                          | nRF52832                                                                      | ATSAMR34J18B                                                                                               | STM32L151CBU6                                                               | N/A                                                              |
@@ -141,7 +141,7 @@ The features of each module are shown in the following table:
 | RF port         | with Ipex                                                                   | without Ipex                                         | •LoRa® with Ipex <br>•BT with ipex                                            | Stamp pinout without Ipex                                                                                  | Stamp pinout without Ipex                                                   | Stamp pinout without Ipex                                        |
 | Pin Count       | 20                                                                          | 20                                                   | 42                                                                            | 36                                                                                                         | 34                                                                          | 24                                                               |
 | Program Tool    | J-link                                                                      | J-link                                               | J-link                                                                        | J-link                                                                                                     | UART                                                                        | N/A                                                              |
-</rk-table>
+
 
 </template>
 </faq>
@@ -154,7 +154,7 @@ The features of each module are shown in the following table:
 
 Currently, RAKwireless offers 4 Raspberry Pi Based LoRaWAN Gateways namely RAK7246G, RAK7246, RAK7243 and RAK7244.
 
-<rk-table>
+
 |                        | RAK7246                     | RAK7246G                    | RAK7243                         | RAK7244                         |
 | ---------------------- | --------------------------- | --------------------------- | ------------------------------- | ------------------------------- |
 | Platform               | Raspberry Pi Zero W         | Raspberry Pi Zero W         | Raspberry Pi 3B+                | Raspberry Pi 4                  |
@@ -165,7 +165,7 @@ Currently, RAKwireless offers 4 Raspberry Pi Based LoRaWAN Gateways namely RAK72
 | Enclosure              | Acrylic                     | Acrylic                     | Metal                           | Metal                           |
 | Cost                   | \$99                        | \$114                       | \$199                           | \$212                           |
 | Target Use Case        | Development Platform in Lab | Development Platform in Lab | Development and Real Deployment | Development and Real Deployment |
-</rk-table>
+
 
 </template>
 </faq>

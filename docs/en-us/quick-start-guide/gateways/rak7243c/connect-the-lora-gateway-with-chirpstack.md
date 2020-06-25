@@ -13,7 +13,7 @@ For the RAK7243C LPWAN Developer Gateway, there are 2 ways to use the ChirpStack
 There is a built-in ChirpStack in every RAK Developer gateway if you use the latest firmware.
 
 - When you use it for the first time after burning the latest firmware, the gateway will work in the EU868 Band and use the built-in ChirpStack as its default LoRa® Server. If you don't want to change the frequency or LoRa® Server, you don't have to do anything as this will be configured automatically when the gateway boots.
-- However if it is not the first time and you want to use the built-in ChirpStack as the LoRa® Server, follow the steps discussed in [Configuring the Gateway](/en-us/quick-start-guide/rak7243c/configuring-the-gateway.html) section.
+- However if it is not the first time and you want to use the built-in ChirpStack as the LoRa® Server, follow the steps discussed in [Configuring the Gateway](/en-us/quick-start-guide/gateways/rak7243c/configuring-the-gateway.html) section.
 - **Optional:** If ever you disabled the AP Mode and you have connected it to your own Wifi network (Client Mode). You can search for your gateway’s IP Address via [**Advanced IP Scanner**](https://www.advanced-ip-scanner.com/). Copy the IP Address of your Gateway, it should have a Manufacturer name of **Raspberry Pi Foundation**:
 
 <rk-img
@@ -25,12 +25,12 @@ There is a built-in ChirpStack in every RAK Developer gateway if you use the lat
 
 There is a Web-based UI that comes with the ChirpStack instance. Simply open a browser and enter the following credentials:
 
-- **Browser Address**: "Gateway IP Address:8080" (**Example**: https:/192.168.254.105:8080)
+- **Browser Address**: "Gateway IP Address:8080" (**Example**: https:/192.168.254.176:8080)
 - **Username**: admin
 - **Password**: admin
 
 ::: warning
- It is advisable to change your password to tighten the security of your account. You can change this by clicking the \"change password\" button at the user icon.
+It is advisable to change your password to tighten the security of your account. You can change this by clicking the \"change password\" button at the user icon.
 :::
 
 <rk-img
@@ -43,7 +43,7 @@ There is a Web-based UI that comes with the ChirpStack instance. Simply open a b
 - Everything should be pre-configured: Device profiles have been created, the Gateway has been registered with the server, etc. If you go to the Gateways tab and click on rak_gateway, you should see the Gateway details page.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/03.nm1rcooh5749oeyknm7t.jpg`"
+  :src="`${$frontmatter.static_root}/03.nm1rcooh5749oeyknm7t.png`"
   width="100%"
   figure-number="3"
   caption="Available Gateways in Chirpstack"
@@ -52,7 +52,7 @@ There is a Web-based UI that comes with the ChirpStack instance. Simply open a b
 - Go to the rak_gateway and see the "Last seen" status. It must be a few seconds ago which signifies that the Gateway is visible in the ChirpStack server.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/04.qzfweifwadyreztjellx.jpg`"
+  :src="`${$frontmatter.static_root}/04.qzfweifwadyreztjellx.png`"
   width="100%"
   figure-number="4"
   caption="Last Seen Status"
@@ -75,7 +75,7 @@ This is a lot more complicated having to deploy a remote ChirpStack by yourself 
 />
 
 ::: warning
- Remember to run the \"`sudo gateway-config`\" command in the CLI and point the Gateway to the IP address of the machine you just installed Chirpstack on. This can be done in item 2 in the menu \"**Setup RAK Gateway LoRa® concentrator**\"!
+Remember to run the \"`sudo gateway-config`\" command in the CLI and point the Gateway to the IP address of the machine you just installed Chirpstack on. This can be done in item 2 in the menu \"**Setup RAK Gateway LoRa® concentrator**\"!
 :::
 
 - Assuming you have set it up correctly, Login to your ChirpStack to register your gateway by opening the ChirpStack's web page in a browser by entering "IP Address of ChirpStack:8080".
@@ -114,7 +114,7 @@ This is a lot more complicated having to deploy a remote ChirpStack by yourself 
   caption="Registering your own Gateway"
 />
 
-- Fill in the Gateway ID that we got from the last section ([Configuring the Gateway](/en-us/quick-start-guide/rak7243c/configuring-the-gateway.html)), also called Gateway EUI.
+- Fill in the Gateway ID that we got from the last section ([Configuring the Gateway](/en-us/quick-start-guide/gateways/rak7243c/configuring-the-gateway.html)), also called Gateway EUI.
 - If you have properly configured your gateway and there is a network connection between the external ChirpStack and your gateway, you should see the following page and status:
 
 <rk-img

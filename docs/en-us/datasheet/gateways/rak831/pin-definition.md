@@ -3,7 +3,7 @@
 The RAK831 provides headers at the bottom side, which have a pitch of **2.54 mm**. The description of the pins is given by the table below. 
 
 <rk-img
-  src="/assets/images/datasheet/rak831/pin-assignment.jpg"
+  src="/assets/images/datasheet/rak831/pin-assignment.png"
   width="100%"
   figure-number="4"
   caption="RAK831 LPWAN Gateway Module Pinout Diagram"

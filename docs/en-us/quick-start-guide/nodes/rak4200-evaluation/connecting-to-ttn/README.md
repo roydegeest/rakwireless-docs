@@ -1,8 +1,9 @@
 ---
 static_root: /assets/images/quick-start-guide/rak4200/4.connecting-to-ttn/
-prev: /en-us/quick-start-guide/rak4200/interfacing
+prev: /en-us/quick-start-guide/nodes/rak4200-evaluation/interfacing.html
 next: ttn-otaa
 ---
+
 # Connecting to The Things Network (TTN)
 
 The Things Network is about enabling low power devices to be used in long range gateways that connect to an open-source, decentralized network and exchange data with Applications. Learn more about the Things Network [**here**](https://www.thethingsnetwork.org/docs/).
@@ -25,7 +26,6 @@ In this section, we will be connecting the RAK4200 LPWAN Evaluation Board to The
 
 - Choose "**APPLICATIONS**"
 
-
 <rk-img
   :src="`${$frontmatter.static_root}/bfbdxer0da06nxv0bymr.png`"
   width="100%"
@@ -36,13 +36,12 @@ In this section, we will be connecting the RAK4200 LPWAN Evaluation Board to The
 ## Adding An Application
 
 - Click the "**add application**" button
-<rk-img
-  :src="`${$frontmatter.static_root}/eixjrjjdmpc4bstoyleu.png`"
-  width="100%"
-  figure-number="4"
-  caption="Adding an Application"
-/>
-
+  <rk-img
+    :src="`${$frontmatter.static_root}/eixjrjjdmpc4bstoyleu.png`"
+    width="100%"
+    figure-number="4"
+    caption="Adding an Application"
+  />
 
 Here are the things that you should take note in adding an application:
 
@@ -61,6 +60,7 @@ Here are the things that you should take note in adding an application:
 />
 
 ### Register Device
+
 - Scroll down until you see the Devices section, or you can also click the "**Devices**" button at the top:
 
 <rk-img
@@ -78,7 +78,6 @@ Here are the things that you should take note in adding an application:
   figure-number="7"
   caption="Add your Device"
 />
-
 
 Here are the things that you should take note in registering your device:
 

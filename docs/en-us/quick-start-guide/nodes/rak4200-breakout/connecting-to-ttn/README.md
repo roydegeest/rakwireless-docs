@@ -1,6 +1,6 @@
 ---
-prev: /en-us/quick-start-guide/rak4200-breakout/interfacing.html
-next: /en-us/quick-start-guide/rak4200-breakout/connecting-to-ttn/ttn-otaa.html
+prev: /en-us/quick-start-guide/nodes/rak4200-breakout/interfacing.html
+next: /en-us/quick-start-guide/nodes/rak4200-breakout/connecting-to-ttn/ttn-otaa.html
 ---
 
 # Connecting to The Things Network (TTN)
@@ -96,4 +96,3 @@ Click the following icon and the Device EUI will be automatically generated. The
 />
 
 Depending on which authentication method you want to use ,proceed to either the **OTAA mode** or **ABP mode** section.
-

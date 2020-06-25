@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7249/1.main
 rak_img: RAK7249.svg
-next: /en-us/quick-start-guide/rak7249/quick-start-guide/#quick-start-guide
+next: /en-us/quick-start-guide/gateways/rak7249/quick-start-guide/#quick-start-guide
 rak_grp: lora-gateway
 params:
   qlinks1:
@@ -39,7 +39,7 @@ params:
 ### Product Background
 
 **RAK7249 Macro Outdoor Gateway** is an ideal product for IoT commercial deployment. Its modularity and customization options allow for flexibility when deploying a solution. With its industrial-grade components, it achieves a high standard of reliability.
- 
+
 The Gateway provides for a solid out of the box experience for quick deployment. Additionally, since its software and UI sits on top of OpenWRT it is perfect for the development of custom applications (via the open SDK).
 
 Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or customization with regards to UI and functionality.

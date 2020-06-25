@@ -3,7 +3,6 @@
 <rk-img
   :src="`${$frontmatter.static_root}/irruft8ngircsmenz5qr.png`"
   width="100%"
-  figure-number="1"
   caption="RAK8213 Pin Definition"
 />
 
