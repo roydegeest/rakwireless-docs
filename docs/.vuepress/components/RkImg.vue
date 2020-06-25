@@ -9,7 +9,7 @@
       :width="opt.width"
       alt=""
     />
-    <div class="text-caption text-weight-bold">Figure {{opt.figureNumber || figNum}}:</b> {{ opt.caption }}</div>
+    <div class="text-caption"><b>Figure {{opt.figureNumber || figNum}}:</b> {{ opt.caption }}</div>
   </figure>
 </template>
 
