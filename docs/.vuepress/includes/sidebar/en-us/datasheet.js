@@ -12,6 +12,7 @@ module.exports = {
         '/en-us/datasheet/gateways/rak2245-stamp-edition/',
         '/en-us/datasheet/gateways/rak2247/',
         '/en-us/datasheet/gateways/rak2287/',
+        '/en-us/datasheet/gateways/rak2287-pi-hat/',
         '/en-us/datasheet/gateways/rak7240/',
         '/en-us/datasheet/gateways/rak7243c/',
         '/en-us/datasheet/gateways/rak7244/',
