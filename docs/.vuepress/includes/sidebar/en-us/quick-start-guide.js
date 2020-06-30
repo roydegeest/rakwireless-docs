@@ -645,6 +645,41 @@ module.exports = {
       ]
     }
   ],
+
+  
+  '/en-us/quick-start-guide/nb-iot/rak8213/': [
+    {
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+        {
+          title: "Prerequisites",
+          nested: true,
+          collapsable: false,
+          path: '/en-us/quick-start-guide/nb-iot/rak8213/prerequisites/',
+          children: [
+            'prerequisites/device-firmware-setup',
+            'prerequisites/assembly-guide',
+            'prerequisites/access-the-gateway'
+          ]
+        }
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'connecting-to-network',
+      ]
+    }
+  ],
+
+
+
   '/en-us/quick-start-guide/nodes/rak7204/': [
     {
       title: 'Product Overview',
