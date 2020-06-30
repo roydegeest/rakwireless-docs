@@ -47,3 +47,4 @@ Solar Panel Port
 !!!include(en-us/datasheet/nb-iot/rak5010/mechanical-dimensions.md)!!!
 !!!include(en-us/datasheet/nb-iot/rak5010/antenna-characteristics.md)!!!
 !!!include(en-us/datasheet/nb-iot/rak5010/schematic-diagram.md)!!!
+!!!include(en-us/datasheet/nb-iot/rak5010/ordering-information.md)!!!
