@@ -11,6 +11,7 @@ module.exports = {
         '/en-us/datasheet/gateways/rak2245-pi-hat-edition/',
         '/en-us/datasheet/gateways/rak2245-stamp-edition/',
         '/en-us/datasheet/gateways/rak2247/',
+        '/en-us/datasheet/gateways/rak2247-pi-hat/',
         '/en-us/datasheet/gateways/rak2287/',
         '/en-us/datasheet/gateways/rak2287-pi-hat/',
         '/en-us/datasheet/gateways/rak7240/',
@@ -60,6 +61,7 @@ module.exports = {
       children: [
         '/en-us/datasheet/nb-iot/rak5010/',
         '/en-us/datasheet/nb-iot/rak8212/',
+        '/en-us/datasheet/nb-iot/rak8213-pi-hat/',
         '/en-us/datasheet/nb-iot/rak8213/'
       ]
     },
