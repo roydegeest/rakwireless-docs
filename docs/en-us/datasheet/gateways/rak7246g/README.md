@@ -9,7 +9,6 @@ tags:
 <rk-img
   :src="`${$frontmatter.static_root}/jtv6vtbowwxsrbeupcac.png`"
   width="100%"
-  figure-number="1"
   caption="RAK7246G LPWAN Developer Gateway"
 />
 
@@ -43,7 +42,6 @@ The RAK7246G is an ideal choice for prototype design, concept verification and d
 <rk-img
   src="/assets/images/datasheet/rak7246g/board-overview/dqtuzznrpsuevoizzgvc.png"
   width="100%"
-  figure-number="2"
   caption="uFL Connectors for LoRa and GPS"
 />
 
@@ -52,7 +50,6 @@ The Interfaces of the RAK7246G are as shown in Figure 2. The TF card slot is use
 <rk-img
   src="/assets/images/datasheet/rak7246g/board-overview/dimensions.png"
   width="100%"
-  figure-number="3"
   caption="Hardware Interfaces"
 />
 
@@ -63,7 +60,6 @@ Both the RAK2246 and Raspberry Pi have the same board dimensions: **30 x 65 mm**
 <rk-img
   src="/assets/images/datasheet/rak7246g/board-overview/ifljf8dbokouw7ppnudi.jpg"
   width="80%"
-  figure-number="4"
   caption="Casing Dimension"
 />
 
@@ -72,7 +68,6 @@ Both the RAK2246 and Raspberry Pi have the same board dimensions: **30 x 65 mm**
 <rk-img
   src="/assets/images/datasheet/rak7246g/interfaces/block-diagram.png"
   width="100%"
-  figure-number="6"
   caption="Block Diagram"
 />
 
@@ -89,7 +84,6 @@ The concentrator is available with an SPI interface:
 <rk-img
   src="/assets/images/datasheet/rak7246g/interfaces/qdr3oj29xkjdfu0a3bys.jpg"
   width="80%"
-  figure-number="5"
   caption="RAK2246 Bottom View"
 />
 
@@ -111,7 +105,6 @@ recommended to utilize the latest HAL as provided by Semtech on [https://github.
 <rk-img
   src="/assets/images/datasheet/rak7246g/interfaces/block-diagram.png"
   width="100%"
-  figure-number="6"
   caption="Block Diagram"
 />
 
@@ -144,7 +137,6 @@ The unique multi data-rate multi-channel demodulation capacity SF7 to SF12 and o
 <rk-img
   src="/assets/images/datasheet/rak7246g/interfaces/jlyqgowwfeidn4k49cy3.png"
   width="100%"
-  figure-number="7"
   caption="LoRa Channel"
 />
 
@@ -171,7 +163,6 @@ There are two digital IO PINs, which give the user an interface to reset the GPS
 <rk-img
   src="/assets/images/datasheet/rak7246g/pin-definition/e7ik5kliydnba3jh6ogy.png"
   width="80%"
-  figure-number="8"
   caption="RAK7246G Pinout Diagram"
 />
 
