@@ -1,5 +1,11 @@
 ## Pin Definition
 
+<rk-img
+  src="/assets/images/datasheet/rak2247-pi-hat/pinout_diagram.png"
+  width="100%"
+  caption="RAK2247 Pi HAT Pinout Diagram"
+/>
+
 The following tables show the pin definitions and the description of the RAK2247 Pi HAT on the 40-Pin Pi HAT connector:
 
 | **Type** | **Description** | 
