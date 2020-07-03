@@ -209,7 +209,7 @@ on the mainboard.
 
 ### Software
 
-Supported Software
+#### Supported Software
 
 | LoRa                          | Network            | Management                                   |
 | ----------------------------- | ------------------ | -------------------------------------------- |

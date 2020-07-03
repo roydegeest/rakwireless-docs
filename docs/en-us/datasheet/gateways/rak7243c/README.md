@@ -11,8 +11,6 @@ tags:
   caption="RAK7243C Pilot Gateway"
 />
 
-## Overview
-
 ### Product Description
 
 The **RAK7243C Pilot Gateway** is a device that consists of Raspberry Pi 3B+, RAK2245 Pi HAT which includes a GPS module and a Heat Sink for better performance and thermal heat dissipation management, and a RAK2013 Cellular Pi HAT and it’s housing is built with an aluminum casing.
@@ -49,7 +47,7 @@ The outer dimension of Pilot Gateway is **92 x 68.3 x 53.5 mm** as shown below
   caption="RAK7243C Outer Dimensions"
 />
 
-#### Block Diagram (System Structure)
+#### Block Diagram
 
 The following figure shows the basic concept for LoRaWAN® system. RAK7243 Pilot Gateway is the central hardware solution for all LoRa® based radio communication. It receives and transmits radio messages. The processing of radio messages as well as the protocol related tasks is done by embedded host system (Raspberry Pi). Received and processed radio messages are being sent to a LoRaWAN® server. The concrete segmentation of the protocol related tasks is outside the scope of this document
 
@@ -77,7 +75,7 @@ LTE Antenna(DIV) is only using for the EG91 / EG95 Version and reserved for BG96
 
 The RAK7243C Pilot Gateway is composed of the LPWAN Concentrator RAK2245 Pi Hat and the RAK2013 Pi Hat |
 
-##### LPWAN Concentrator RAK2245 Pi Hat
+##### RAK2245 Pi Hat
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/rak2245.png"
@@ -87,7 +85,7 @@ The RAK7243C Pilot Gateway is composed of the LPWAN Concentrator RAK2245 Pi Hat 
 
 RAK2245 Pi HAT(Model Name is: RAK2243) is an LPWAN Concentrator board which follows the Pi HAT standard, and can be mounted to Pi board with 40-pin connector.
 
-- For detailed information about the RAK2245, Go to the [RAK2245 Pi Hat Datasheet](/en-us/datasheet/rak2245-pihat/#rak2245-pi-hat-lpwan-gateway-concentrator-module).
+- For detailed information about the RAK2245, Go to the [RAK2245 Pi Hat Datasheet](/en-us/datasheet/gateways/rak2245-pi-hat-edition/).
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/lora-hardware-structure.jpg"
@@ -95,7 +93,7 @@ RAK2245 Pi HAT(Model Name is: RAK2243) is an LPWAN Concentrator board which foll
   caption="LoRa® Hardware Structure"
 />
 
-##### Cellular Board RAK2013 Pi Hat
+##### RAK2013 Cellular
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/rak2013.jpg"
@@ -107,7 +105,7 @@ RAK2013 is an add-on board following Raspberry Pi HAT standard. It can transmit 
 
 The RAK2013 integrates audio codec and audio amplifier on it, with carrier operator's network, it can support VoLTE function. For easy use, there are earphone connector, MIC connector and speaker connector with audio amplifier
 
-- For detailed information about the RAK2013, go to [RAK2013 Cellular Datasheet](/en-us/datasheet/rak2013/#rak2013-cellular).
+- For detailed information about the RAK2013, go to [RAK2013 Cellular Datasheet](#).
 
 <rk-img
   src="/assets/images/datasheet/rak7243c/cellular-hardware-structure.png"
@@ -131,9 +129,9 @@ The Pilot Gateway supports all LoRaWAN® frequency channels as below. Which is e
 |     Korea     | KR920           |
 |    Indian     | IN865           |
 
-##### LoRa® RF Characteristics
+##### LoRa
 
-###### Transmitter RF Characteristics
+###### Transmitter RF
 
 The RAK2245 has an excellent transmitter performance. It is highly recommended to use an optimized configuration for the power level configuration, which is part of the HAL. This results in a mean RF output power level and current consumption
 
@@ -167,7 +165,7 @@ The RAK2245 has an excellent transmitter performance. It is highly recommended t
 | TX Power Variation vs. Temperature     | Power Level Setting : 20 |  -5 dBm  |      |  +5 dBm  |
 | TX Power Variation                     |                          | -1.5 dBm |      | +1.5 dBm |
 
-###### Receiver RF Characteristics
+###### Receiver RF
 
 It is highly recommended, to use optimized RSSI calibration values, which is part of the HAL v3.1. For both, Radio 1 and 2, the RSSI-Offset should be set - 169.0. The following table gives typically sensitivity level of the RAK2245.
 
@@ -180,7 +178,7 @@ It is highly recommended, to use optimized RSSI calibration values, which is par
 |           500           |        12        |       -134        |
 |           500           |        7         |       -120        |
 
-##### Cellular Frequency Bands
+##### Cellular
 
 The Pilot Gateway supports different frequency bands according to the modular mounted on the board.
 
@@ -218,7 +216,7 @@ Quectel EG95 is a series of LTE category 4 module optimized specially for M2M an
 
 #### Antenna Specifications
 
-##### LoRa® Antenna
+##### LoRa
 
 The LoRa® Antenna with RP-SMA female connector shown in the figure below:
 
@@ -247,7 +245,7 @@ The antenna's mechanical dimension is shown below:
 | Working Temperature &amp; Humidity | T:-35 ºC ~ +80 ºC, H: 0% ~ 95% |
 | Storage Temperature &amp; Humidity | T:-40 ºC ~ +85 ºC, H: 0% ~ 95% |
 
-##### LTE Antenna
+##### LTE
 
 For module built-in BG96, there is one LTE antenna and one GPS antenna. For module
 built-in EG91/EG95, there are two LTE antennas, and no GPS antenna with the module.
@@ -279,7 +277,7 @@ from 824MHz to 2690MHz. The antenna is shown as below.
 | Working Temperature &amp; Humidity | T:-35 ºC ~ +80 ºC, H: 0% ~ 95%                 |
 | Storage Temperature &amp; Humidity | T:-40 ºC ~ +85 ºC, H: 0% ~ 95%                 |
 
-##### GPS Antenna
+##### GPS
 
 The GPS antenna for Pilot Gateway is shown below
 
@@ -367,7 +365,9 @@ The table below lists the operation and storage temperature requirements:
 | Extended Temperature Range  | -40 ˚C |         | +85 ˚C |
 | Storage Temperature Range   | -40 ˚C |         | +85 ˚C |
 
-### Software (Firmware)
+### Software
+
+#### Firmware
 
 | Model                  | Raspberry Pi Board   | Firmware Version | Source                                                                                                             |
 | ---------------------- | -------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -384,7 +384,7 @@ Order Information
 | RAK7243-1x-141 | With 1x LoRa Antenna, 1x GPS Antenna, 2x LTE Antenna, 1x Power Adapter and 1x SD card | ECG95-NA version for Cat 4 Cellular, GPS and for US915 / AU915 / AS920 / AS923 / KR920 regions                               |
 | RAK7243-0x-000 | With 1x LoRa Antenna, 1x GPS Antenna, 1x LTE Antenna, 1x Power Adapter and 1x SD card | Without Cellular version for EU433 / CN470 / IN865 / EU868 / US915 / AU915 / AS920 / AS923 / KR920 regions                   |
 
-## Certification
+## Certification Report
 
-- [FCC Certification](https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/Certification-Report/RAK7243_FCC_Certificate.zip)
-- [CE Certification](https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/Certification-Report/RAK7243_FCC_Certificate.zip)
+- [FCC](https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/Certification-Report/RAK7243_FCC_Certificate.zip)
+- [CE](https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/Certification-Report/RAK7243_FCC_Certificate.zip)

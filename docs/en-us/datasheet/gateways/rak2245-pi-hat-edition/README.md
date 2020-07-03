@@ -11,8 +11,6 @@ tags:
   caption="RAK2245 Pi Hat"
 />
 
-## Overview
-
 ### Product Description
 
 **RAK2245 Pi HAT** is a module with Raspberry PI form factor. It can be plugged into
@@ -62,18 +60,7 @@ paths have differentiated levels of programmability and allow different use case
 
 ### Hardware
 
-#### Interfaces
-
-##### Block Diagram
-
-<rk-img
-  src="/assets/images/datasheet/rak2245-pihat/rak2245-pihat-block-diagram.png"
-  width="100%"
-  caption="RAK2245 Pi Hat Block Diagram"
-/>
-
-The SX1301 digital baseband chip contains 10 programmable reception paths. Those
-paths have differentiated levels of programmability and allow different use cases. It is important to understand the differences between those demodulation paths to make the best possible use from the system.
+#### Interface
 
 ##### Power Supply
 
@@ -174,7 +161,7 @@ The board supports all LoRaWAN® frequency channels as below. Which is easy to c
 |     Korea     |      KR920      |
 |    Indian     |      IN865      |
 
-##### Transmitter RF Characteristics
+##### Transmitter RF
 
 The RAK2245 Pi HAT has an excellent transmitter performance. It is highly recommended to use an optimized configuration for the power level configuration, which is part of the HAL. This results in a mean RF output power level and current consumption.
 
@@ -208,7 +195,7 @@ The RAK2245 Pi HAT has an excellent transmitter performance. It is highly recomm
 |   TX Power Variation vs Temperature   | Power Level Setting: 20 |  -5 dBm  |      |  +5 dbm  |
 |          TX Power Variation           |                         | -1.5 dBm |      | +1.5 dBm |
 
-##### Receiver RF Characteristics
+##### Receiver RF
 
 We recommended you to use optimized RSSI calibration values which is part of HAL v3.1. For both Radio 1 and 2, the RSSI-offset should be set to -169. The following table gives typical sensitivity level of RAK2245 Pi HAT.
 
@@ -254,14 +241,6 @@ The table below lists the maximum ESD
 The module is an Electrostatic Sensitive Device and require special precautions when handling.
 :::
 
-##### Operating Conditions
-
-The table below lists the operation temperature range.
-
-| Parameter                    | Min.  | Typical | Max   | Remarks                                        |
-| ---------------------------- | ----- | ------- | ----- | ---------------------------------------------- |
-| Normal Operating Temperature | -40°C | +25°C   | +85°C | Fully functional and meets 3GPP specifications |
-
 ##### Power Consumption
 
 | Mode             | Condition                  | Min | Typical | Max |
@@ -271,9 +250,17 @@ The table below lists the operation temperature range.
 
 #### Environmental Requirements
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum, sem vel sollicitudin lacinia, nulla purus vehicula nisi, in sodales eros est sed elit. Phasellus luctus pharetra velit eu hendrerit. Sed tincidunt blandit pellentesque. Donec ac risus nec velit finibus interdum at vitae sapien. Ut nec venenatis diam. Praesent lacinia fringilla scelerisque. Proin in faucibus arcu. Donec tincidunt pellentesque tortor consequat commodo. Curabitur vestibulum, justo congue luctus viverra, elit ex egestas diam, ut aliquam erat odio congue metus. Quisque dapibus ligula vel quam accumsan, eget pretium risus malesuada. Curabitur rhoncus mi cursus porta rhoncus. Aliquam finibus justo eget enim consectetur laoreet. Maecenas elementum sed purus eget mattis.
+##### Operating Conditions
 
-### Software (Firmware)
+The table below lists the operation temperature range.
+
+| Parameter                    | Min.  | Typical | Max   | Remarks                                        |
+| ---------------------------- | ----- | ------- | ----- | ---------------------------------------------- |
+| Normal Operating Temperature | -40°C | +25°C   | +85°C | Fully functional and meets 3GPP specifications |
+
+### Software
+
+#### Firmware
 
 | Model          | Raspberry Pi Board | Firmware Version | Source                                                                                                                                           |
 | -------------- | ------------------ | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -281,6 +268,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum, sem 
 | RAK2245 Pi Hat | Raspberry Pi 4     | V4.1.0           | [Download](https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Firmware/Raspberry-Pi-4/RAK2245%26RAK831_based_on_Raspbian_V4.1.0_20191202.zip) |
 
 ## Models / Bundles
+
+### Ordering Information
 
 Order Information
 
@@ -291,5 +280,5 @@ Order Information
 
 ## Certification
 
-- [FCC Certification](https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Certification-Report/RAK2245_Pi_HAT_FCC_Certificate.zip)
-- [CE Certification](https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Certification-Report/RAK2245_Pi_HAT_CE_Certificate.zip)
+- [FCC Certificate](https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Certification-Report/RAK2245_Pi_HAT_FCC_Certificate.zip)
+- [CE Certificate](https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Certification-Report/RAK2245_Pi_HAT_CE_Certificate.zip)
