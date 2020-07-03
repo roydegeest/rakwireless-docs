@@ -29,8 +29,6 @@ Applications possible with the RAK831 include Smart Metering ,Wireless Star Netw
 
 ### Product Features
 
-uct Features
-
 - **Compact size** 80 mm 50 mm x 5 mm
 - LoRaWAN® modulation technology
 - **Frequency bands**: 433 MHz,470 MHz, 868 MHz,915 MHz
