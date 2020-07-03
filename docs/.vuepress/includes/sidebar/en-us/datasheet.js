@@ -4,7 +4,7 @@ module.exports = {
       title: 'LPWAN Gateways',
       path: '',
       collapsable: false,
-      sidebarDepth: 3,
+      sidebarDepth: 4,
       children: [
         '/en-us/datasheet/gateways/rak831/',
         '/en-us/datasheet/gateways/rak833/',

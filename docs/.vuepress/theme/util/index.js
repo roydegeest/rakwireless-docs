@@ -168,17 +168,35 @@ function resolveHeaders (page) {
 }
 
 export function groupHeaders (headers) {
-  // group h3s under h2
+  // group headers
+  // h2 > h3 > h4 > h5 > h6
   headers = headers.map(h => Object.assign({}, h))
-  let lastH2
+  let H = []
+  let idx
   headers.forEach(h => {
-    if (h.level === 2) {
-      lastH2 = h
-    } else if (lastH2) {
-      (lastH2.children || (lastH2.children = [])).push(h)
+    if (!H.length) {
+      H.push(h)
+      return
+    }
+
+    idx = H.length - 1
+    if (h.level > H[idx].level) {
+      (H[idx].children || (H[idx].children = [])).push(h)
+      H.push(h)
+    } else if (h.level < H[idx].level) {
+      const times = H[idx].level - h.level
+      for (var i = 0; i < times; ++i) H.pop()
+      H.push(h)
+    } else {
+      if (H[idx - 1]) {
+        (H[idx - 1].children || (H[idx - 1].children = [])).push(h)
+      }
+      H[idx] = h
     }
   })
-  return headers.filter(h => h.level === 2)
+  const ret = headers.filter(h => h.level === 2)
+  // console.log('groupHeaders: ', ret)
+  return ret
 }
 
 export function resolveNavLinkItem (linkItem) {
