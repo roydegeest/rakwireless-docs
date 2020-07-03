@@ -138,9 +138,11 @@ export function resolveSidebarItems (page, regularPath, site, localePath) {
     return []
   } else {
     const { base, config } = resolveMatchingConfig(regularPath, sidebarConfig)
-    return config
+    const res = config
       ? config.map(item => resolveItem(item, pages, base))
       : []
+    // console.log('sidebaritems: ', res)
+    return res
   }
 }
 

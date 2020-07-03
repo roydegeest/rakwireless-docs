@@ -11,8 +11,6 @@ tags:
   caption="RAK7249 Macro Outdoor Gateway"
 />
 
-## Overview
-
 ### Product Description
 
 **RAK7249 Macro Outdoor Gateway** is an ideal product for IoT commercial deployment. Its modularity and customization options allow for flexibility when deploying a solution. With its industrial-grade components, it achieves a high standard of reliability.
@@ -125,7 +123,7 @@ The image below shows the block diagram for RAK7249 Macro Outdoor Gateway with M
 
 #### Interfaces
 
-##### Hardware Interfaces
+##### Hardware Interface
 
 The images below shows the hardware interfaces at the front and rear of RAK7249 Macro Outdoor Gateway.
 
@@ -141,7 +139,7 @@ The images below shows the hardware interfaces at the front and rear of RAK7249 
   caption="Hardware Interfaces - Rear"
 />
 
-##### Board Interfaces
+##### Board Interface
 
 <rk-img
   src="/assets/images/datasheet/rak7249/circuit-board-interface.png"
@@ -191,7 +189,7 @@ on the mainboard.
 
 #### RF Specifications
 
-##### LoRa® Radio Specifications
+##### LoRa
 
 | Feature              | Specifications                                                        |
 | -------------------- | --------------------------------------------------------------------- |
@@ -199,7 +197,7 @@ on the mainboard.
 | Transmit Power       | 27dBm (Max)                                                           |
 | Receiver Sensitivity | -142dBm (Min)                                                         |
 
-##### Wi-Fi Radio Specifications
+##### Wi-Fi
 
 | Features                                                                                            | Specifications                                                                                                                                                                                                                                                       |
 | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -210,8 +208,6 @@ on the mainboard.
 | **Receiver Sensitivity** (Typical)                                                                  | **802.11b** <br> • 1Mbps : -95dBm <br> • 11Mbps : -88dBm <br> <br> **802.11g** <br> • 6Mbps : -90dBm <br> • 54Mbps : -75dBm <br><br> **802.11n (2.4G)** <br> • MCS0 (HT20) : -89dBm <br> • MCS7(HT20) : -72dBm <br> • MCS0(HT40) : -86dBm <br> • MCS7(HT40) : -68dBm |
 
 ### Software
-
-#### Software Features
 
 Supported Software
 
