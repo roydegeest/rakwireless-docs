@@ -3,15 +3,13 @@ tags:
   - datasheet
 ---
 
-# RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module
+# RAK2245 Stamp Edition
 
 <rk-img
   :src="`${$frontmatter.static_root}/r8b1kuz7nsyovmac80kq.png`"
   width="60%"
   caption="RAK2245 Stamp Edition"
 />
-
-## Overview
 
 ### Product Description
 
@@ -64,19 +62,6 @@ best possible use from the system.
 ### Hardware
 
 #### Interfaces
-
-##### Block Diagram
-
-<rk-img
-  src="/assets/images/datasheet/rak2245-stamp/interfaces/block-diagram.png"
-  width="100%"
-  caption="RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module Block Diagram"
-/>
-
-The SX1301 digital baseband chip contains 10 programmable reception paths. These
-paths have different levels of programmability and has a variety of cases. It is
-important to understand the differences between those demodulation paths to make the
-best possible use from the system.
 
 ##### Power Supply
 
@@ -167,7 +152,7 @@ The board supports the following LoRaWAN® frequency channels shown in the table
 | Korea         | KR920               |
 | India         | IN865               |
 
-##### Transmitter RF Characteristics
+##### Transmitter RF
 
 The RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module has an excellent transmitter performance . It is highly recommended to use an optimized configuration for the power level
 configuration, which is part of the HAL. This results in a mean RF output power
@@ -203,7 +188,7 @@ level and current consumption.
 | TX Power Variation vs. Temperature    |                         | -5 dBm   |             | +5 dBm   |
 | TX Power Variation                    |                         | -1.5 dBm |             | +1.5 dBm |
 
-##### Receiver RF Characteristics
+##### Receiver RF
 
 We recommended you to use optimized RSSI calibration values which is part of HAL v3.1. For both Radio 1 and 2, the RSSI-offset should be set to -169. The following table shows typical sensitivity level of RAK2245 Stamp Edition -LPWAN Gateway Concentrator Module.
 
@@ -250,14 +235,6 @@ The module is an Electrostatic Sensitive Device and require special precautions 
 handling.
 :::
 
-##### Operating Conditions
-
-The table below shows the operation temperature range.
-
-| **Parameter**                    | **Min** | **Typical** | **Max** | **Remarks**                                                                         |
-| -------------------------------- | ------- | ----------- | ------- | ----------------------------------------------------------------------------------- |
-| **Normal Operating Temperature** | -40°C   | +25°C       | +85°C   | Normal operating temperature range (fully functional and meets 3GPP specifications) |
-
 ##### Power Consumption
 
 | **Mode**             | **Condition**              | **Min** | **Typical** | **Max** |
@@ -267,8 +244,10 @@ The table below shows the operation temperature range.
 
 #### Environmental Requirements
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum, sem vel sollicitudin lacinia, nulla purus vehicula nisi, in sodales eros est sed elit. Phasellus luctus pharetra velit eu hendrerit. Sed tincidunt blandit pellentesque. Donec ac risus nec velit finibus interdum at vitae sapien. Ut nec venenatis diam. Praesent lacinia fringilla scelerisque. Proin in faucibus arcu. Donec tincidunt pellentesque tortor consequat commodo. Curabitur vestibulum, justo congue luctus viverra, elit ex egestas diam, ut aliquam erat odio congue metus. Quisque dapibus ligula vel quam accumsan, eget pretium risus malesuada. Curabitur rhoncus mi cursus porta rhoncus. Aliquam finibus justo eget enim consectetur laoreet. Maecenas elementum sed purus eget mattis.
+##### Operating Conditions
 
-### Software (Firmware)
+The table below shows the operation temperature range.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum, sem vel sollicitudin lacinia, nulla purus vehicula nisi, in sodales eros est sed elit. Phasellus luctus pharetra velit eu hendrerit. Sed tincidunt blandit pellentesque. Donec ac risus nec velit finibus interdum at vitae sapien. Ut nec venenatis diam. Praesent lacinia fringilla scelerisque. Proin in faucibus arcu. Donec tincidunt pellentesque tortor consequat commodo. Curabitur vestibulum, justo congue luctus viverra, elit ex egestas diam, ut aliquam erat odio congue metus. Quisque dapibus ligula vel quam accumsan, eget pretium risus malesuada. Curabitur rhoncus mi cursus porta rhoncus. Aliquam finibus justo eget enim consectetur laoreet. Maecenas elementum sed purus eget mattis.
+| **Parameter**                    | **Min** | **Typical** | **Max** | **Remarks**                                                                         |
+| -------------------------------- | ------- | ----------- | ------- | ----------------------------------------------------------------------------------- |
+| **Normal Operating Temperature** | -40°C   | +25°C       | +85°C   | Normal operating temperature range (fully functional and meets 3GPP specifications) |
