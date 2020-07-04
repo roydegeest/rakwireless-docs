@@ -12,8 +12,6 @@ tags:
   caption="RAK7246G LPWAN Developer Gateway"
 />
 
-## Overview
-
 ### Product Description
 
 The RAK7246G is a LoRaWAN® Developer gateway with GPS function. It is a device composed of a the RAK2246 Pi HAT LPWAN Concentrator module and Raspberry Pi Zero W.
@@ -99,16 +97,6 @@ The control of the SX1308 by the host system (PC, MCU) is made using a Hardware 
 
 It is highly
 recommended to utilize the latest HAL as provided by Semtech on [https://github.com/Lora-net](https://github.com/Lora-net)
-
-###### Block Diagram
-
-<rk-img
-  src="/assets/images/datasheet/rak7246g/interfaces/block-diagram.png"
-  width="100%"
-  caption="Block Diagram"
-/>
-
-The SX1308 digital baseband chip contains 10 programmable reception paths. Those paths have differentiated levels of programmability and allow for different use cases. It is important to understand the differences between those demodulation paths to make the best possible use of the system.
 
 ###### IF8 LoRa channel
 
@@ -228,15 +216,7 @@ There are two digital IO PINs, which give the user an interface to reset the GPS
 
 #### RF Characteristics
 
-##### Wi-Fi Radio Specifications
-
-| **Feature**             | **Specifications**           |
-| ----------------------- | ---------------------------- |
-| **Wireless Standard**   | • IEEE 802.11b/g/n           |
-| **Operating Frequency** | • ISM band: 2.412~2.472(GHz) |
-| **Operation Channels**  | • 2.4GHz: 1-13               |
-
-##### LoRa Radio Specifications
+##### LoRa
 
 | **Feature**              | **Specifications**                                      |
 | ------------------------ | ------------------------------------------------------- |
@@ -244,13 +224,78 @@ There are two digital IO PINs, which give the user an interface to reset the GPS
 | **Transmit Power**       | • 20 dBm (Max)                                          |
 | **Receiver Sensitivity** | • -139 dBm (Min)                                        |
 
-### Software (Firmware)
+##### Wi-Fi
 
+| **Feature**             | **Specifications**           |
+| ----------------------- | ---------------------------- |
+| **Wireless Standard**   | • IEEE 802.11b/g/n           |
+| **Operating Frequency** | • ISM band: 2.412~2.472(GHz) |
+| **Operation Channels**  | • 2.4GHz: 1-13               |
+
+### Software
 #### Firmware
 
 | Model   | Raspberry Pi Board  | Firmware Version | Source                                                                                                        |
 | ------- | ------------------- | ---------------- | ------------------------------------------------------------------------------------------------------------- |
 | RAK7246 | Raspberry Pi Zero W | 4.2.0R           | [Download](https://downloads.rakwireless.com/LoRa/NeoPi-Gateway-RAK7246/Firmware/RAK7246_Latest_Firmware.zip) |
+
+#### Software Specifications
+
+##### LoRa
+- Class A, C
+- LoRa package forwarder
+- Country code setup
+- TX power setup
+- Location setup
+- Supports server address & port setup
+
+##### Network
+- Wi-Fi AP/Client mode
+- DHCP Client
+
+##### Management
+- SSH2
+
+#### LoRaWAN Systems, Network Approach
+
+The use of LoRaWAN® technology can be distinguished in “Public” and “Private” networks. In both cases the usage of a concentrator module is a must if a multichannel performance is sought after. Public networks are operator (e.g. telecom) managed networks whereas private networks are individually managed networks.
+
+LoRaWAN® networks are typically star or multiple star networks where a Gateway relays the packets between the end-nodes and a central network server. For private network approaches the server can also be implemented on the Gateway host.
+
+Due to the long range LoRa provides the connection between the end-nodes and the Gateway (RAK2246) is always a direct link. Repeaters are not common in a LoRaWAN® network.
+
+Depending on the used spreading factor and signal bandwidth different data rates (0.3 kbps to ~22 kbps) and sensitivities down to -142.5 dBm are possible. Spreading factor and signal bandwidth are a trade-off between data rate and communication range.
+
+##### Overview
+
+The RAK2246 is able to receive on different frequency channels at the same time and is able to demodulate the LoRa signal without knowledge of the used spreading factor of the sending node. Thus, any Gateway using it as its concentrator module has these inherent benefits as well.
+
+<rk-img
+  src="/assets/images/datasheet/rak7246g/systems-network-approach/f333yrqj2l328fhmkpaf.png"
+  width="70%"
+  figure-number="10"
+  caption="System Architecture"
+/>
+
+Due to the fact that the combination of spreading factors and signal bandwidths results in different data rates the use of “Dynamic Data-Rate Adaption” becomes possible. That means that LoRa nodes a large distance away from the Gateway can use higher spreading factors and therefore have a lower data rate. LoRa nodes which are closer to the concentrator can use lower spreading factors and therefore can increase their data rate.
+
+Due to the fact that spreading factors are orthogonal and the RAK2246 Concentrator can demodulate on 8 channels at the same time, channel capacity of a LoRaWAN Gateway is increased compared to traditional cellular networks.
+
+##### Firwmare
+
+The LoRa MAC specification is currently driven by the companies Semtech, IBM and Actility. Currently all available software, firmware and documentation can be found and downloaded from the open source project LoRa-net hosted on [https://github.com/Lora-net](https://github.com/Lora-net)
+
+This project considers all parts that are needed to run a network based on LoRa technology. It includes the node firmware (several hardware platforms are supported), the Gateway host software (HAL driver for SX1308, packet forwarder) and a server implementation.
+
+It is highly recommended to utilize the latest HAL as provided by Semtech.
+
+##### Configuring the Gateway
+
+You can login to the Gateway using an SSH client like PuTTY. For more
+details on the configuration and management of the Gateway please visit the
+link below:
+
+[RAK7246G LPWAN Developer Gateway User Manual](/en-us/quick-start-guide/rak7246g)
 
 ## Models / Bundles
 

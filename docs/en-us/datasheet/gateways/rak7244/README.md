@@ -3,15 +3,13 @@ tags:
   - datasheet
 ---
 
-# RAK7244 LPWAN Developer Gateway
+# RAK7244 Pilot Gateway
 
 <rk-img
   src="/assets/images/datasheet/rak7244/emefrtsevzyv5dulz1hs.png"
   width="75%"
   caption="RAK7244C Fully Assembled"
 />
-
-## Overview
 
 ### Product Description
 
@@ -68,9 +66,9 @@ The outer dimensions of Casing are 92 x 68.3 x 53.5 mm as shown below. They are 
   caption=" RAK7244C Casing Outer Dimensions"
 />
 
-#### Block Diagram (System Structure)
+#### Block Diagram
 
-##### RAK7244 Structure
+##### RAK7244
 
 The figure below summarizes the basic building blocks of RAK7244. The RAK2245 is an essential part of any of the RAK7244 models as it provides all LoRaWAN® connectivity. It receives and transmits LoRa® Frames and takes care of modulating/demodulating the signals among others. The processing of the LoRa® Frames as well as higher level protocol related tasks is done by the embedded host system (Raspberry Pi). Received and processed LoRa® Frames are being sent to a LoRaWAN® Server. The segmentation of protocol related tasks is outside the scope of this document.
 
@@ -80,7 +78,7 @@ The figure below summarizes the basic building blocks of RAK7244. The RAK2245 is
   caption="RAK7244 System Structure"
 />
 
-##### RAK7244P Structure
+##### RAK7244P
 
 The figure below summarizes the basic building blocks of RAK7244P. It has the same functionality as far as LoRaWAN® goes as RAK7244. In addition, there is the possibility to power the Gateway using a PoE 802.3 af compatible source (42-57VDC). This is made possible by the RAK9003 PoE HAT
 <rk-img
@@ -89,7 +87,7 @@ The figure below summarizes the basic building blocks of RAK7244P. It has the sa
   caption="RAK7244P System Structure"
 />
 
-##### RAK7244C Structure
+##### RAK7244C
 
 The figure below summarizes the basic building blocks of RAK7244C. It has the same functionality as far as LoRaWAN® goes as RAK7244. Its backhaul capabilities, however are enhanced, with the additional of the RAK2013 Cellular HAT. This allows the Gateway to use its LTE modem to forward data to the Cloud.
 
@@ -103,7 +101,7 @@ The figure below summarizes the basic building blocks of RAK7244C. It has the sa
 
 #### Interfaces
 
-##### RAK7244 / RAK7244P Interfaces
+##### RAK7244 / RAK7244P
 
 <rk-img
   src="/assets/images/datasheet/rak7244/interfaces/interfaces.png"
@@ -111,7 +109,7 @@ The figure below summarizes the basic building blocks of RAK7244C. It has the sa
   caption="RAK7244/RAK7244P Interfaces"
 />
 
-##### RAK7244C Interfaces
+##### RAK7244C
 
 <rk-img
   src="/assets/images/datasheet/rak7244/interfaces/upvzcrs6wk7nvrbct78z.jpg"
@@ -131,7 +129,7 @@ The figure below summarizes the basic building blocks of RAK7244C. It has the sa
   caption="Back interface"
 />
 
-#### Pin Definition (Hardware Structure)
+#### Pin Definition
 
 There are 3 available configuration options for the RAK7244x:
 
@@ -192,9 +190,9 @@ All models of the Developer Gateway support all LoRaWAN® bands.
 | Korea         | KR920               |
 | Asia          | AS923               |
 
-##### LoRa® RF Characteristics
+##### LoRa
 
-###### Transmitter RF Characteristics
+###### Transmitter RF
 
 The RAK2245 has an excellent transmitter performance. It is highly recommended to use an optimized configuration for the power level configuration, which is part of the HAL. This results are in a mean RF output power level and current consumption.
 
@@ -228,7 +226,7 @@ T = 25℃ at VDD = 5V (Typ.) as default if nothing else stated.
 | **TX Power Variation vs. Temperature**     | Power Level Setting : 20 | -5 dBm   |          | +5 dBm   |
 | **TX Power Variation**                     |                          | -1.5 dBm |          | +1.5 dBm |
 
-###### Receiver RF Characteristics
+###### Receiver RF
 
 It is highly recommended, to use optimized RSSI calibration values, which is part of the HAL v3.1. For both, Radio 1 and 2, the RSSI-Offset should be set to -169.0. The following table gives typically sensitivity level of the RAK2245.
 
@@ -241,7 +239,7 @@ It is highly recommended, to use optimized RSSI calibration values, which is par
 | 500                         | 12                   | -134                  |
 | 500                         | 7                    | -120                  |
 
-##### Cellular Frequency Bands
+##### Cellular
 
 The Quectel EG95 is part of the LTE CAT4 module series that are specially optimized for Machine to Machine (M2M) and Internet of Things (IoT) applications. Adopted from 3GPP Rel. 11 LTE technology, which delivers a data rates of 150Mbps downlink and 50Mbps uplink.
 
@@ -254,7 +252,7 @@ The Quectel EG95 is part of the LTE CAT4 module series that are specially optimi
 
 #### Antenna Specifications
 
-##### LoRa® Antenna
+##### LoRa
 
 The LoRa® Antenna with RP-SMA female connector is shown in the image below:
 
@@ -283,7 +281,7 @@ The figure below shows the antenna's mechanical dimension.
 | Working Temperature &amp; Humidity | T:-35 ºC ~ +80 ºC, H: 0% ~ 95% |
 | Storage Temperature &amp; Humidity | T:-40 ºC ~ +85 ºC, H: 0% ~ 95% |
 
-##### LTE Antenna
+##### LTE
 
 The LTE antenna for the Developer Gateway covers working frequency band from 824MHz to 2690MHz. The antenna is shown in Figure 17.
 
@@ -311,7 +309,7 @@ The LTE antenna for the Developer Gateway covers working frequency band from 824
 | Working Temperature &amp; Humidity | T:-35 ºC ~ +80 ºC, H: 0% ~ 95%                 |
 | Storage Temperature &amp; Humidity | T:-40 ºC ~ +85 ºC, H: 0% ~ 95%                 |
 
-##### GPS Antenna
+##### GPS
 
 The GPS antenna for Pilot Gateway is shown below
 
@@ -398,7 +396,8 @@ The table below lists the operation and storage temperature requirements for RAK
 | **Extended Temperature Range**  | -40 ˚C   |             | +75 ˚C  |
 | **Storage Temperature Range**   | -40 ˚C   |             | +80 ˚C  |
 
-### Software (Firmware)
+### Software
+#### Firmware
 
 | Model                | Raspberry Pi Board | Firmware Version | Source                                                                                                                               |
 | -------------------- | ------------------ | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
