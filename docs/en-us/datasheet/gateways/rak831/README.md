@@ -1,6 +1,5 @@
 ---
-tags:
-  - datasheet
+tags: + datasheet
 ---
 
 # RAK831 LPWAN Gateway Concentrator
@@ -17,7 +16,7 @@ tags:
 
 The concentrator module **RAK831** is designed for a wide variety of applications like **Smart Metering**, **IoT** (Internet of Things) and **M2M** (Machine-to-machine) applications. It is a multi- channel high performance Transceiver module designed to receive several LoRa® packets simultaneously using different spreading factors on multiple channels. The concentrator module RAK831 can be integrated into a gateway as a complete RF front-end of this gateway. It provides the possibility to enable robust communication between a gateway and a huge amount of LoRa® end-nodes spread over a wide range of distance. The RAK831 needs a host system for proper operation.
 
-This is an ideal modular product to help you realize the whole Lora® system development. With the USB-SPI converter module FT2232, you can quickly make the software development in your PC. Also, you can integrate the concentrator module to your production product to realize the gateway function.This is very economic way to address for a huge variety of applications like Smart Grid, Intelligent Farm,intelligent Farm and Other IoT applications.
+This is an ideal modular product to help you realize the whole Lora® system development. With the USB-SPI converter module FT2232, you can quickly make the software development in your PC. Also, you can integrate the concentrator module to your production product to realize the gateway function. This is very economic way to address for a huge variety of applications like Smart Grid, Intelligent Farm, intelligent Farm and Other IoT applications.
 
 The RAK831 needs a host system like Raspberry Pi or WisAP (OpenWRT based) or WisCam for proper operation . The host processor can be a PC or MCU that will be connected to RAK831 via USB or SPI.
 
@@ -25,13 +24,13 @@ RAK831 is able to receive up to 8 LoRa® packets simultaneously sent with differ
 
 End-point nodes (e.g. sensor nodes) can change frequency with each transmission in a random pattern. This provides vast improvement of the system robustness in terms of interference immunity and radio channel diversity.
 
-Applications possible with the RAK831 include Smart Metering ,Wireless Star Networks, Home,Building,Industrial automation, Remote Control, Wireless Sensors Network, M2M, IoT and Wireless Alarm and Security Systems.
+Applications possible with the RAK831 include Smart Metering , Wireless Star Networks, Home, Building, Industrial automation, Remote Control, Wireless Sensors Network, M2M, IoT and Wireless Alarm and Security Systems.
 
 ### Product Features
 
 - **Compact size** 80 mm 50 mm x 5 mm
 - LoRaWAN® modulation technology
-- **Frequency bands**: 433 MHz,470 MHz, 868 MHz,915 MHz
+- **Frequency bands**: 433 MHz, 470 MHz, 868 MHz, 915 MHz
 - Orthogonal spreading factors
 - **Minimum Sensitivity**: -142.5 dBm
 - **Maximum Link Allotment**: 162 dB
@@ -152,7 +151,7 @@ The unique multi data-rate multi-channel demodulation capacity SF7 to SF12 and o
 
 The connector on the bottom side provides an SPI connection, which allows direct access to the Sx1301 SPI interface. This gives the target system the possibility to use existing SPI interfaces to communicate.
 
-After powering up RAK831 ,it is required to **reset** SX1301 via **PIN 19.** If the HAL driver from Github is used this functionality is already implemented.
+After powering up RAK831 , it is required to **reset** SX1301 via **PIN 19.** If the HAL driver from Github is used this functionality is already implemented.
 
 ###### GPS PPS
 
@@ -187,7 +186,7 @@ The RAK831 provides headers at the bottom side, which have a pitch of **2.54 mm*
 |  2  |    +5V     | POWER |     +5V Supply Voltage      |
 |  3  |    GND     |  GND  |           Ground            |
 |  4  |  LNA_EN_A  | Input | SX1301 Radio C Sample Valid |
-|  5  |    GND     |  GND  |  GPS Module LDO:Enable Pin  |
+|  5  |    GND     |  GND  | GPS Module LDO: Enable Pin  |
 |  6  |    GND     |  GND  |           Ground            |
 |  7  | RADIO_EN_A | Input |         SX1257_A_EN         |
 |  8  |   PA_G8    | Input |          PA GAIN 0          |
@@ -233,10 +232,10 @@ The RAK831 has an excellent transmitter performance . It is highly recommended t
 |     2      |      3      |     13      |    0     |               19               |
 |     2      |      3      |     14      |    0     |               20               |
 
-At **T=25℃,VDD=5V(Typ.)** if nothing else stated:
+At **T=25℃, VDD=5V(Typ.)** if nothing else stated:
 
 :::tip 📝 NOTE
-The table below is for 868 MHz RAK831 LPWAN gateway. Other frequencies are also supported such as 433 MHz,470 MHz, and 915 MHz Frequency Range.
+The table below is for 868 MHz RAK831 LPWAN gateway. Other frequencies are also supported such as 433 MHz, 470 MHz, and 915 MHz Frequency Range.
 :::
 
 | Parameter                              | Condition              | Min  | Typ. | Max  | Unit |
@@ -264,7 +263,193 @@ The following table gives typically sensitivity level of the RAK831 :
 
 ##### RF Key Components
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum, sem vel sollicitudin lacinia, nulla purus vehicula nisi, in sodales eros est sed elit. Phasellus luctus pharetra velit eu hendrerit. Sed tincidunt blandit pellentesque. Donec ac risus nec velit finibus interdum at vitae sapien. Ut nec venenatis diam. Praesent lacinia fringilla scelerisque. Proin in faucibus arcu. Donec tincidunt pellentesque tortor consequat commodo. Curabitur vestibulum, justo congue luctus viverra, elit ex egestas diam, ut aliquam erat odio congue metus. Quisque dapibus ligula vel quam accumsan, eget pretium risus malesuada. Curabitur rhoncus mi cursus porta rhoncus. Aliquam finibus justo eget enim consectetur laoreet. Maecenas elementum sed purus eget mattis.
+This section introduces the key components in RAK831 and help the developer to utilize the system to realize own system level design.
+
+**1. LDO**
+
+The system power supply is provided by the external 5V DC power supply. SX1 301 and related clock crystal is powered by Dual output LDO transformer outputs 1 .8V and 3.3V in order to meet the normal working condition of SX1 301 . Other key components are powered by LDO transformer output 3.3V. To be aware of the system design of LDO's power supply enable is provided by the output GPIO of SX1 301 as default. The connection method of pin enable should be kept same as Semtech official code. At the same time, System design also need to keep flexibility and all LDO enable should be connect to pin DB24. For this case, user can run the official reference code in this board, and also can change all external enable clock as they need for achieve the flexibility debugging.
+
+**2. Power amplifier**
+
+The Power amplifier chooses RFMD LF Power Amplifier and built in two steps gain. It realize the Max. 0.5w output power. The frequency range can cover from 380MHZ~960MHz. The two steps gain control table as:
+
+<table style="text-align: center">
+<thead>
+  <tr>
+    <th rowspan="2">Parameter</th>
+    <th colspan="3">Specification</th>
+    <th rowspan="2">Unit</th>
+    <th rowspan="2">Condition</th>
+  </tr>
+  <tr>
+    <th>Min.</th>
+    <th>Typ.</th>
+    <th>Max.</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td><b>Overall</b></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>T=25<sup>o</sup>C, V<sub>CC</sub>=3.6V, V<sub>PD</sub>=V<sub>BAS</sub>=3.0V, P<sub>IN</sub>=0dBm, Freq=9125MHHz</td>
+  </tr>
+  <tr>
+    <td>CW Output Power</td>
+    <td></td>
+    <td>27.5</td>
+    <td></td>
+    <td>dBm</td>
+    <td>VCC=3.6V</td>
+  </tr>
+  <tr>
+    <td>CW Output Power</td>
+    <td></td>
+    <td>30</td>
+    <td></td>
+    <td>dBm</td>
+    <td>VCC=5V</td>
+  </tr>
+  <tr>
+    <td>Small Signal Gain</td>
+    <td></td>
+    <td>32</td>
+    <td></td>
+    <td>dB</td>
+    <td>PIN=-10dBm</td>
+  </tr>
+  <tr>
+    <td>Second Harmonic</td>
+    <td></td>
+    <td>23</td>
+    <td></td>
+    <td>dBc</td>
+    <td>Without external second harmonic trap</td>
+  </tr>
+  <tr>
+    <td>Third Harmonic</td>
+    <td></td>
+    <td>45</td>
+    <td></td>
+    <td>dBc</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>CW Efficiency</td>
+    <td>55</td>
+    <td>63</td>
+    <td></td>
+    <td>%</td>
+    <td>G16="high", G8="high", PIN=0dBm</td>
+  </tr>
+  <tr>
+    <td>Power Down "ON"</td>
+    <td></td>
+    <td>3.0</td>
+    <td></td>
+    <td>V</td>
+    <td>Voltage supplied to the input</td>
+  </tr>
+  <tr>
+    <td>Power Down "OFF"</td>
+    <td>0</td>
+    <td>0.5</td>
+    <td>0.8</td>
+    <td>V</td>
+    <td>Voltage supplied to the input</td>
+  </tr>
+  <tr>
+    <td>VPD Input Current</td>
+    <td></td>
+    <td>6</td>
+    <td></td>
+    <td>mA</td>
+    <td>Only in "ON" state</td>
+  </tr>
+  <tr>
+    <td>G16, G8 "ON"</td>
+    <td>1.7</td>
+    <td></td>
+    <td>3.0</td>
+    <td>V</td>
+    <td>Voltage supplied to the input</td>
+  </tr>
+  <tr>
+    <td>G16, G8 "OFF"</td>
+    <td>0</td>
+    <td></td>
+    <td>0.7</td>
+    <td>V</td>
+    <td>Voltage supplied to the input</td>
+  </tr>
+  <tr>
+    <td>G16, G8 Input Current</td>
+    <td></td>
+    <td>1.0</td>
+    <td></td>
+    <td>mA</td>
+    <td>Only in "ON" state</td>
+  </tr>
+  <tr>
+    <td>Output Power</td>
+    <td>26.5</td>
+    <td>27.5</td>
+    <td>29</td>
+    <td>dBm</td>
+    <td>G16="high", G8="high", PIN=0dBm</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>21</td>
+    <td>23</td>
+    <td>25</td>
+    <td>dBm</td>
+    <td>G16="high", G8="low", PIN=0dBm</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>14</td>
+    <td>16</td>
+    <td>18</td>
+    <td>dBm</td>
+    <td>G16="low", G8="high", PIN=0dBm</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>3</td>
+    <td>5</td>
+    <td>8</td>
+    <td>dBm</td>
+    <td>G16="low", G8="low", PIN=0dBm</td>
+  </tr>
+  <tr>
+    <td>Turn On/Off Time</td>
+    <td></td>
+    <td>200</td>
+    <td></td>
+    <td>ns</td>
+    <td></td>
+  </tr>
+</tbody>
+</table>
+
+**3. RF switch**
+
+The RF switch choose RFSW1 01 2 which has advantage of high Isolation and low insertion loss. This chip handling the switch between Tx and Rx. The Control logic as below image.Specially need highlight that the pin of CTRL was controlled by SX1 301 ’s GPIO through output signal of LNA_EN_A, the Pin of EN was controlled by SX1 301 ’s GPIO through output signal of RADIO_EN_A. Simultaneously,it also can be controlled by external input signal through DB24.
+
+| State    | VDD          | CTRL       | EN    | RF Path  |
+| -------- | ------------ | ---------- | ----- | -------- |
+| 1        | 2.7V to 4.6V | VHIGH      | VHIGH | ANT-RF2  |
+| 2        | 2.7V to 4.6V | VLOW       | VHIGH | ANT-RF1  |
+| Shutdown | 2.7V to 4.6V | Dont' Care | VLOW  | Shutdown |
+
+<rk-img
+  src="/assets/images/datasheet/rak831/rf-switch-schematic.png"
+  width="100%"
+  caption="RF Switch Schematic Diagram"
+/>
 
 #### Electrical Characteristics
 
@@ -294,7 +479,7 @@ With RF output power level above +15 dBm, a minimum distance to a transmitter sh
 | Current Consumption  | RX Current |     | 100  |     | mA   |
 |                      | TX Current |     | 80   |     | mA   |
 
-At **T=25℃,VDD=5V(Typ.)** if nothing else stated
+At **T=25℃, VDD=5V(Typ.)** if nothing else stated
 
 | Parameter                        | Condition                    | Min | Typ. | Max | Unit |
 | -------------------------------- | ---------------------------- | --- | ---- | --- | ---- |
@@ -305,9 +490,21 @@ At **T=25℃,VDD=5V(Typ.)** if nothing else stated
 
 #### Schematic Diagram
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum, sem vel sollicitudin lacinia, nulla purus vehicula nisi, in sodales eros est sed elit. Phasellus luctus pharetra velit eu hendrerit. Sed tincidunt blandit pellentesque. Donec ac risus nec velit finibus interdum at vitae sapien. Ut nec venenatis diam. Praesent lacinia fringilla scelerisque. Proin in faucibus arcu. Donec tincidunt pellentesque tortor consequat commodo. Curabitur vestibulum, justo congue luctus viverra, elit ex egestas diam, ut aliquam erat odio congue metus. Quisque dapibus ligula vel quam accumsan, eget pretium risus malesuada. Curabitur rhoncus mi cursus porta rhoncus. Aliquam finibus justo eget enim consectetur laoreet. Maecenas elementum sed purus eget mattis.
+<rk-img
+  src="/assets/images/datasheet/rak831/schematic-diagram1.png"
+  width="100%"
+  caption="Schematic Diagram - 1"
+/>
 
-### Software (Firmware)
+<rk-img
+  src="/assets/images/datasheet/rak831/schematic-diagram2.png"
+  width="100%"
+  caption="Schematic Diagram - 2"
+/>
+
+### Software
+
+#### Firmware
 
 | Model  | Raspberry Pi Board | Firmware Version | Source                                                                                                                                              |
 | ------ | ------------------ | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
