@@ -3,15 +3,13 @@ tags:
   - datasheet
 ---
 
-# RAK2247 LPWAN Gateway Concentrator Module
+# RAK2247
 
 <rk-img
   src="/assets/images/datasheet/rak2247/rak2247-overview.png"
   width="50%"
   caption="RAK2247 LPWAN Gateway Concentrator Module"
 />
-
-## Overview
 
 ### Product Description
 
@@ -56,17 +54,7 @@ RAK2247 LPWAN Gateway Concentrator Module integrates one SX1301 chip and two SX1
 
 ### Hardware
 
-#### Interfaces
-
-##### Block Diagram
-
-<rk-img
-  src="/assets/images/datasheet/rak2247/block-diagram.png"
-  width="100%"
-  caption="RAK2247 LPWAN Gateway Concentrator Module Block Diagram"
-/>
-
-RAK2247 LPWAN Gateway Concentrator Module integrates one SX1301 chip and two SX1255/7. The other chip is for RF signal, which represents the core of the device. This provides the related LoRa® modem and processing functionalities. Additional signal conditioning circuitry is implemented for PCI Express Mini Card compliance, and one uFL connectors are available for external antennas integration.
+#### Interface
 
 ##### Power Supply
 
@@ -183,7 +171,7 @@ The board supports the following LoRaWAN® frequency channels, allowing easy con
 | Korea         | KR920           |
 | Indian        | IN865           |
 
-##### Receiver RF Characteristics
+##### RF Characteristics
 
 The following table gives typically sensitivity level of the RAK2247 LPWAN Gateway Concentrator Module.
 
@@ -218,7 +206,7 @@ Limiting values given below are in accordance with the Absolute Maximum Rating S
 The product is not protected against over voltage or reversed voltages. If necessary, voltage spikes exceeding the power supply voltage specification, given in table above, must be limited to values within the specified boundaries by using appropriate protection devices
 :::
 
-##### Maximum Electrostatic Discharge (ESD)
+##### Maximum ESD
 
 The table below lists the maximum ESD.
 
@@ -233,17 +221,13 @@ The table below lists the maximum ESD.
 RAK2247 LPWAN Gateway Concentrator Module is an Electrostatic Sensitive Device and require special precautions when handling.
 :::
 
-##### Operating Temperature
+##### Power Consumption
 
-The table below lists the operation temperature range
-
-| Parameter                    | Min.  | Typical | Max.  | Remarks                                                                            |
-| ---------------------------- | ----- | ------- | ----- | ---------------------------------------------------------------------------------- |
-| Normal operating temperature | -40°C | +25°C   | +85°C | Normal operating temperature range (fully functional and meet 3GPP specifications) |
-
-:::tip 📝 NOTE
-Unless otherwise indicated, all operating condition specifications are at an ambient temperature of 25°C. Operation beyond the operating conditions is not recommended and extended exposure beyond them may affect device reliability.
-:::
+| Mode             | Condition                                                 | Min. | Typical | Max. |
+| ---------------- | --------------------------------------------------------- | ---- | ------- | ---- |
+| Idle-Mode        | All of the chip on the board enter idle mode or shutdown. |      | 68 uA   |      |
+| Active-Mode(TX)  | The power of TX channel is 25dBm and 3.3V supply.         |      | 440 mA  |      |
+| Active-Mode(RX ) | TX disabled and RX enabled.                               |      | 470 mA  |      |
 
 ##### Power Supply Range
 
@@ -255,23 +239,37 @@ Input voltage at **3.3Vaux** must be above the normal operating range minimum li
 | ------- | --------------------------------------- | ---- | ------- | ----- |
 | 3.3Vaux | Module supply operating input voltage14 | 3 V  | 3.3 V   | 3.6 V |
 
-##### Power Consumption
-
-| Mode             | Condition                                                 | Min. | Typical | Max. |
-| ---------------- | --------------------------------------------------------- | ---- | ------- | ---- |
-| Idle-Mode        | All of the chip on the board enter idle mode or shutdown. |      | 68 uA   |      |
-| Active-Mode(TX)  | The power of TX channel is 25dBm and 3.3V supply.         |      | 440 mA  |      |
-| Active-Mode(RX ) | TX disabled and RX enabled.                               |      | 470 mA  |      |
-
 #### Environmental Requirements
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum, sem vel sollicitudin lacinia, nulla purus vehicula nisi, in sodales eros est sed elit. Phasellus luctus pharetra velit eu hendrerit. Sed tincidunt blandit pellentesque. Donec ac risus nec velit finibus interdum at vitae sapien. Ut nec venenatis diam. Praesent lacinia fringilla scelerisque. Proin in faucibus arcu. Donec tincidunt pellentesque tortor consequat commodo. Curabitur vestibulum, justo congue luctus viverra, elit ex egestas diam, ut aliquam erat odio congue metus. Quisque dapibus ligula vel quam accumsan, eget pretium risus malesuada. Curabitur rhoncus mi cursus porta rhoncus. Aliquam finibus justo eget enim consectetur laoreet. Maecenas elementum sed purus eget mattis.
+##### Operating Conditions
+
+The table below lists the operation temperature range
+
+| Parameter                    | Min.  | Typical | Max.  | Remarks                                                                            |
+| ---------------------------- | ----- | ------- | ----- | ---------------------------------------------------------------------------------- |
+| Normal operating temperature | -40°C | +25°C   | +85°C | Normal operating temperature range (fully functional and meet 3GPP specifications) |
+
+:::tip 📝 NOTE
+Unless otherwise indicated, all operating condition specifications are at an ambient temperature of 25°C. Operation beyond the operating conditions is not recommended and extended exposure beyond them may affect device reliability.
+:::
 
 #### Schematic Diagram
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum, sem vel sollicitudin lacinia, nulla purus vehicula nisi, in sodales eros est sed elit. Phasellus luctus pharetra velit eu hendrerit. Sed tincidunt blandit pellentesque. Donec ac risus nec velit finibus interdum at vitae sapien. Ut nec venenatis diam. Praesent lacinia fringilla scelerisque. Proin in faucibus arcu. Donec tincidunt pellentesque tortor consequat commodo. Curabitur vestibulum, justo congue luctus viverra, elit ex egestas diam, ut aliquam erat odio congue metus. Quisque dapibus ligula vel quam accumsan, eget pretium risus malesuada. Curabitur rhoncus mi cursus porta rhoncus. Aliquam finibus justo eget enim consectetur laoreet. Maecenas elementum sed purus eget mattis.
+<rk-img
+  src="/assets/images/datasheet/rak2247/schematic-1.png"
+  width="100%"
+  caption="Schematic Diagram Reference"
+/>
 
-### Software (Firmware)
+<rk-img
+  src="/assets/images/datasheet/rak2247/schematic-2.png"
+  width="100%"
+  caption="RAK2247 Card Minimum Schematic Reference"
+/>
+
+### Software
+
+#### Firmware
 
 | Model         | Raspberry Pi Board  | Firmware Version | Source                                                                                                            |
 | ------------- | ------------------- | ---------------- | ----------------------------------------------------------------------------------------------------------------- |

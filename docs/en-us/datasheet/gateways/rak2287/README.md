@@ -3,15 +3,13 @@ tags:
   - datasheet
 ---
 
-# RAK2287 WisLink- LPWAN Gateway Module
+# RAK2287
 
 <rk-img
   :src="`${$frontmatter.static_root}/aprgtyyf6arxkxu7rjyl.jpg`"
   width="50%"
   caption="RAK2287 WisLink- LPWAN Gateway Module"
 />
-
-## Overview
 
 ### Product Description
 
@@ -59,17 +57,7 @@ RAK2287 card is equipped with one SX1302 chip and two SX1250. The first chip is 
 
 ### Hardware
 
-#### Interfaces
-
-##### Block Diagram
-
-RAK2287 card is equipped with one SX1302 chip and two SX1250. The first chip is utilized for RF signal and the core of the device. While the latter, provides the related LoRa® modem and processing functionalities. Additional signal conditioning circuitry is implemented for PCI Express Mini Card compliance, and one UFL connectors are available for external antennas integration.
-
-<rk-img
-  src="/assets/images/datasheet/rak2287/interfaces/block-diagram.png"
-  width="100%"
-  caption="RAK2287 Block Diagram"
-/>
+#### Interface
 
 ##### Power Supply
 
@@ -189,7 +177,7 @@ The board supports the following LoRaWAN® frequency channels, allowing easy con
 | Korea         | KR920                 |
 | Indian        | IN865                 |
 
-##### Receiver RF Characteristics
+##### RF Characteristics
 
 The following table gives typically sensitivity level of the RAK2287 card.
 
@@ -238,17 +226,12 @@ The table below lists the maximum ESD.
 Although this module is designed to be as robust as possible, electrostatic discharge (ESD) can damage this module. This module must be protected at all times from ESD when handling or transporting. Static charges may easily produce potentials of several kilovolts on the human body or equipment, which can discharge without detection. Industry-standard ESD handling precautions should be used at all times.
 :::
 
-##### Operating Temperature
+##### Power Consumption
 
-The table below lists the operation temperature range
-
-| **Parameter**                | **Min**. | **Typical** | **Max**. | **Remarks**                                                                        |
-| ---------------------------- | -------- | ----------- | -------- | ---------------------------------------------------------------------------------- |
-| Normal operating temperature | -40°C    | +25°C       | +85°C    | Normal operating temperature range (fully functional and meet 3GPP specifications) |
-
-::: tip 📝 NOTE
-Unless otherwise indicated, all operating condition specifications are at an ambient temperature of 25°C. Operation beyond the operating conditions is not recommended and extended exposure beyond them may affect device reliability.
-:::
+| **Mode**         | **Condition**                                     | **Min.** | **Typical** | **Max.** |
+| ---------------- | ------------------------------------------------- | -------- | ----------- | -------- |
+| Active-Mode(TX)  | The power of TX channel is 27dBm and 3.3V supply. | 511 mA   | 512 mA      | 513 mA   |
+| Active-Mode(RX ) | TX disabled and RX enabled.                       | 70 mA    | 81.6 mA     | 101 mA   |
 
 ##### Power Supply Range
 
@@ -259,13 +242,6 @@ Input voltage at **3.3Vaux** must be above the normal operating range minimum li
 | **Symbol** | **Parameter**                           | **Min**. | **Typical** | **Max**. |
 | ---------- | --------------------------------------- | -------- | ----------- | -------- |
 | 3.3Vaux    | Module supply operating input voltage14 | 3 V      | 3.3 V       | 3.6 V    |
-
-##### Power Consumption
-
-| **Mode**         | **Condition**                                     | **Min.** | **Typical** | **Max.** |
-| ---------------- | ------------------------------------------------- | -------- | ----------- | -------- |
-| Active-Mode(TX)  | The power of TX channel is 27dBm and 3.3V supply. | 511 mA   | 512 mA      | 513 mA   |
-| Active-Mode(RX ) | TX disabled and RX enabled.                       | 70 mA    | 81.6 mA     | 101 mA   |
 
 #### Mechanical Characteristics
 
@@ -279,7 +255,17 @@ The board weighs 16.3 gram, it is 30 mm wide and 50.96 mm tall. The dimensions o
 
 #### Environmental Requirements
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum rutrum, sem vel sollicitudin lacinia, nulla purus vehicula nisi, in sodales eros est sed elit. Phasellus luctus pharetra velit eu hendrerit. Sed tincidunt blandit pellentesque. Donec ac risus nec velit finibus interdum at vitae sapien. Ut nec venenatis diam. Praesent lacinia fringilla scelerisque. Proin in faucibus arcu. Donec tincidunt pellentesque tortor consequat commodo. Curabitur vestibulum, justo congue luctus viverra, elit ex egestas diam, ut aliquam erat odio congue metus. Quisque dapibus ligula vel quam accumsan, eget pretium risus malesuada. Curabitur rhoncus mi cursus porta rhoncus. Aliquam finibus justo eget enim consectetur laoreet. Maecenas elementum sed purus eget mattis.
+##### Operating Conditions
+
+The table below lists the operation temperature range
+
+| **Parameter**                | **Min**. | **Typical** | **Max**. | **Remarks**                                                                        |
+| ---------------------------- | -------- | ----------- | -------- | ---------------------------------------------------------------------------------- |
+| Normal operating temperature | -40°C    | +25°C       | +85°C    | Normal operating temperature range (fully functional and meet 3GPP specifications) |
+
+::: tip 📝 NOTE
+Unless otherwise indicated, all operating condition specifications are at an ambient temperature of 25°C. Operation beyond the operating conditions is not recommended and extended exposure beyond them may affect device reliability.
+:::
 
 #### Schematic Diagram
 
@@ -291,7 +277,9 @@ RAK2287 card refers to Semtech's reference design of SX1302. The SPI interface c
   caption="Schematic Diagram of RAK2287"
 />
 
-### Software (Firmware)
+### Software
+
+#### Firmware
 
 | Model   | Raspberry Pi Board  | Firmware Version | Source                                                                                                          |
 | ------- | ------------------- | ---------------- | --------------------------------------------------------------------------------------------------------------- |
