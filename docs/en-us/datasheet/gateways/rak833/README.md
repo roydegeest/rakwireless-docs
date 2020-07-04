@@ -3,15 +3,13 @@ tags:
   - datasheet
 ---
 
-# RAK833 LPWAN Gateway Concentrator Module
+# RAK833
 
 <rk-img
   src="/assets/images/datasheet/rak833/rak833.png"
   width="60%"
   caption="RAK833 LPWAN Gateway Concentrator Module"
 />
-
-## Overview
 
 ### Product Description
 
@@ -55,16 +53,6 @@ The RAK833 LPWAN Gateway Concentrator Module integrates one SX1301 chip, two SX1
 ### Hardware
 
 #### Interfaces
-
-##### Block Diagram
-
-<rk-img
-  src="/assets/images/datasheet/rak833/block-diagram.png"
-  width="100%"
-  caption="RAK833 LPWAN Gateway Block Diagram"
-/>
-
-The RAK833 LPWAN Gateway Concentrator Module integrates one SX1301 chip, two SX1255/7 and other chip for RF signal, which represents the core of the device, providing the related LoRa® modem and processing functionalities. Additional signal conditioning circuitry is implemented for PCI Express Mini Card compliance, and one u.FL connectors are available for external antennas integration.
 
 ##### Module supply input
 
@@ -315,7 +303,9 @@ RAK833 LPWAN Gateway Concentrator Module refer Semtech’s reference design of S
   caption="RF Part-4 Schematic Diagram"
 />
 
-### Software (Firmware)
+### Software
+
+#### Firmware
 
 | Model        | Raspberry Pi Board  | Firmware Version | Source                                                                                                                                                     |
 | ------------ | ------------------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -324,7 +314,7 @@ RAK833 LPWAN Gateway Concentrator Module refer Semtech’s reference design of S
 
 ## Models / Bundles
 
-Order Information
+Ordering Information
 
 |    Part Number     |         Description         |
 | :----------------: | :-------------------------: |
