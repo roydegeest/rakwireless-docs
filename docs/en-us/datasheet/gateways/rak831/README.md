@@ -2,15 +2,13 @@
 tags: + datasheet
 ---
 
-# RAK831 LPWAN Gateway Concentrator
+# RAK831
 
 <rk-img
   src="/assets/images/datasheet/rak831/rak831-overview.png"
   width="50%"
   caption="RAK831 LPWAN Gateway"
 />
-
-## Overview
 
 ### Product Description
 
