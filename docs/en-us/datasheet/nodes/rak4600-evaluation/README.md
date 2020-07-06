@@ -1,7 +1,5 @@
 ---
-static_root: /assets/images/datasheet/rak4600/overview
-tags:
-- datasheet
+tags: + datasheet
 ---
 
 # RAK4600 LPWAN Module
@@ -9,7 +7,6 @@ tags:
 <rk-img
   :src="`${$frontmatter.static_root}/yb23mhfij8dwh5muoavk.png`"
   width="45%"
-  figure-number="1"
   caption="RAK4600 LPWAN Module"
 />
 
@@ -33,10 +30,207 @@ The module complies with LoRaWAN® 1.0.2 protocols. It also supports LoRa® Poin
 - LoRa® Boost mode with 20dBm output power
 - BLE 5.0 (Tx power -20 to +4 dBm in 4dB steps)
 
-!!!include(en-us/datasheet/nodes/rak4600-evaluation/board-overview.md)!!!
-!!!include(en-us/datasheet/nodes/rak4600-evaluation/block-diagram.md)!!!
-!!!include(en-us/datasheet/nodes/rak4600-evaluation/operating-frequencies.md)!!!
-!!!include(en-us/datasheet/nodes/rak4600-evaluation/pin-definition.md)!!!
-!!!include(en-us/datasheet/nodes/rak4600-evaluation/electrical-characteristics.md)!!!
-!!!include(en-us/datasheet/nodes/rak4600-evaluation/mechanical-characteristics.md)!!!
-!!!include(en-us/datasheet/nodes/rak4600-evaluation/recommended-reflow-profile.md)!!!
+## Specifications
+
+### Overview
+
+#### Board Overview
+
+<rk-img
+  src="/assets/images/datasheet/rak4600/board-overview/vnje0doldhjv9gszuu8o.jpg"
+  width="50%"
+  caption="RAK4600 LPWAN Module"
+/>
+
+The figure above shows the top view of the RAK4600 LPWAN Module. The dimensions of the Module are 15 x 23 x 2.5 mm.
+
+#### Block Diagram
+
+The Block diagram below shows the external interfaces of the RAK4600 LPWAN Module.
+
+<rk-img
+  src="/assets/images/datasheet/rak4600/block-diagram/xkxaew5skkeofmgfrzie.png"
+  width="100%"
+  caption="RAK4600 Block Diagram"
+/>
+
+### Hardware
+
+#### Pin Definition
+
+Provided in this section is the Pinout of the RAK4600 LPWAN Module.
+
+<rk-img
+  src="/assets/images/datasheet/rak4600/pin-definition/tbnfkqxtk0arvvmlddsf.jpg"
+  width="100%"
+  caption="RAK4600 Board Pinout"
+/>
+
+| **Pin** | **Name**   | **I/O** | **Description**                                |
+| ------- | ---------- | ------- | ---------------------------------------------- |
+| 1       | GND        |         | Ground                                         |
+| 2       | NC         |         | No Connection                                  |
+| 3       | NC         |         | No Connection                                  |
+| 4       | I2C1_SDA   | I/O     | I2C, General purpose I/O (p0.13)               |
+| 5       | I2C1_SDL   | I/O     | I2C, General purpose I/O (p0.12)               |
+| 6       | NFC1       | I/O     | General<br>purpose I/O、NFC antenna connection |
+| 7       | NFC2       | I/O     | General<br>purpose I/O、NFC antenna connection |
+| 8       | GND        |         | Ground                                         |
+| 9       | USART2_RX  | I/O     | USART2_RX<br>(General purpose I/O p0.18)       |
+| 10      | USART2_TX  | I/O     | USART2_TX<br>(General purpose I/O p0.19)       |
+| 11      | NC         |         | No Connection                                  |
+| 12      | GND        |         | Ground                                         |
+| 13      | GND        |         | Ground                                         |
+| 14      | GND        |         | Ground                                         |
+| 15      | RF_BT      | I/O     | BLE<br>RF OUT                                  |
+| 16      | GND        |         | Ground                                         |
+| 17      | RF_L       | I/O     | LoRa®<br>RF OUT                                |
+| 18      | GND        |         | Ground                                         |
+| 19      | GND        |         | Ground                                         |
+| 20      | GND        |         | Ground                                         |
+| 21      | Reserved   | I/O     | General<br>purpose I/O (p0.14)                 |
+| 22      | USART1_RX  | I/O     | USART1_RX<br>(General purpose I/O p0.22)       |
+| 23      | USART1_TX  | I/O     | USART1_TX<br>(General purpose I/O p0.23)       |
+| 24      | Reserved   | I/O     | General<br>purpose I/O p0.17                   |
+| 25      | NC         |         | No Connection                                  |
+| 26      | NC         |         | No Connection                                  |
+| 27      | NC         |         | No Connection                                  |
+| 28      | NC         |         | No Connection                                  |
+| 29      | NC         |         | No Connection                                  |
+| 30      | NC         |         | No Connection                                  |
+| 31      | GND        |         | Ground                                         |
+| 32      | NC         |         | No Connection                                  |
+| 33      | NC         |         | No Connection                                  |
+| 34      | NC         |         | No Connection                                  |
+| 34      | NC         |         | No Connection                                  |
+| 35      | NC         |         | No Connection                                  |
+| 36      | MCU_NRST   | I/O     | MCU<br>reset                                   |
+| 37      | SYS_SWDIO  | I/O     | SYS_SWDIO                                      |
+| 38      | SYS_SWDCLK | I/O     | SYS_SWDCLK                                     |
+| 39      | GND        |         | Ground                                         |
+| 40      | 3V3_IN     |         | Input<br>power                                 |
+| 41      | 3V3_IN     |         | Input<br>power                                 |
+| 42      | GND        |         | Ground                                         |
+
+#### RF Characteristics
+
+##### Operating Frequencies
+
+The board supports the following LoRaWAN® frequency channels shown in the table below. The frequency parameter is easy to configure as you go through the device configuration setup.
+
+| **Region**    | **Frequency (MHz)** |
+| ------------- | ------------------- |
+| Russia        | RU864               |
+| India         | IN865               |
+| Europe        | EU868               |
+| North America | US915               |
+| Australia     | AU915               |
+| Korea         | KR920               |
+| Asia          | AS923               |
+
+#### Electrical Characteristics
+
+Several current consumption ratings are provided below for detailed RAK4600 LPWAN Module usage. Please refer to the values below for your preferred values for specific simulations and calculations.
+
+##### Typical Current Consumption
+
+Shown in the table provided below is the typical current consumption of the RAK4600 LPWAN Module.
+
+| **Item**               | **Current Consumption** | **Condition**                    |
+| ---------------------- | ----------------------- | -------------------------------- |
+| **LoRa® TX** @20dBm    | 125mA                   | LoRa® @ PA_BOOST & BT sleep      |
+| **LoRa® TX** @17dBm    | 92mA                    | LoRa® @ PA_BOOST & BT sleep      |
+| **BT TX** @4dBm        | 9mA                     | BT Tx mode & LoRa® sleep         |
+| **LoRa® RX** @37.5Kbps | 17mA                    |                                  |
+| **BT RX** @2Mbps       | 11.5mA                  |                                  |
+| **Node Sleep**         | 2.0μA                   | The whole board is in sleep mode |
+
+##### Laboratory Testing
+
+The figures below are the average current consumption based on the different test cases.
+
+**Equipments**:
+
+- Oscilloscope
+- RAK4600 LPWAN Module
+
+**LoRa® Packet Sending**
+
+The RAK4600 LPWAN Module takes **92.291 ms** to send a LoRa® packet which consumes **119 mA** of current.
+
+- **Sending Time**: 92.291 ms
+- **Current consumption**: 119 mA
+
+<rk-img
+  src="/assets/images/datasheet/rak4600/electrical-characteristics/awyqt4s9r3469vtgai1p.jpg"
+  width="100%"
+  caption="Oscilloscope Screen Capture of LoRa® Packet Sending"
+/>
+
+**LoRa® Packet Receiving**
+
+The RAK4600 LPWAN Module takes **30.052 ms** to receive a LoRa® packet which consumes **13.8 mA** of current.
+
+- **Receiving Time**: 30.052 ms
+- **Current consumption**: 13.8 mA
+
+<rk-img
+  src="/assets/images/datasheet/rak4600/electrical-characteristics/ufgf8mxmibztzhezvr6l.jpg"
+  width="100%"
+  caption="Oscilloscope Screen Capture of LoRa® Packet Receiving"
+/>
+
+**Sleep Mode**
+
+The RAK4600 LPWAN Module when in sleep mode consumes **11.2 μA** of current.
+
+- **Current consumption**: 11.2 μA
+
+<rk-img
+  src="/assets/images/datasheet/rak4600/electrical-characteristics/bpm1nbybf4exvnop89yo.jpg"
+  width="100%"
+  caption="Oscilloscope Screen Capture of RAK4600 LPWAN Module in sleep mode"
+/>
+
+#### Mechanical Characteristics
+
+The mechanical dimensions of the RAK4600 LPWAN Module is shown in the figures provided in this section.
+
+<rk-img
+  src="/assets/images/datasheet/rak4600/mechanical-characteristics/jmglqkzpggdkglecgcau.jpg"
+  width="100%"
+  caption="Dimensions in Top and Side View"
+/>
+
+<rk-img
+  src="/assets/images/datasheet/rak4600/mechanical-characteristics/fkjol3dbzdjx6jdqpqtj.png"
+  width="100%"
+  caption="Dimensions Detailed"
+/>
+
+#### Recommended Reflow Profile
+
+In this section, the recommended Reflow profile for RAK4600 LPWAN Module is described with the image below:
+
+<rk-img
+  src="/assets/images/datasheet/rak4600/recommended-reflow-profile/jrhzrgsko4nmfcwpirix.jpg"
+  width="100%"
+  caption="Recommended Reflow Profile"
+/>
+
+**Standard Conditions for Reflow Soldering**:
+
+- Pre-heating Ramp (A) (Initial temperature: 150℃): 1~2.5℃/sec.
+- Soaking Time (T2) (150℃~180℃): 60sec-100sec;
+- Peak Temperature (G): 230~250℃
+- Reflow Time (T3) (>220℃): 30~60 sec
+- Ramp-up Rate (B): 0~2.5℃/ sec
+- Ramp-down Rate (C): 1~3℃/ sec.
+
+### Software
+
+#### Firmware
+
+| Model   | Version  | Source                                                                                   |
+| ------- | -------- | ---------------------------------------------------------------------------------------- |
+| RAK4600 | V3.0.0.8 | [Download](https://downloads.rakwireless.com/LoRa/RAK4600/Firmware/RAK4600_V3.0.0.8.rar) |
