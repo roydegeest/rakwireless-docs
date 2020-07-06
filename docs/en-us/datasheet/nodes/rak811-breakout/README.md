@@ -1,28 +1,28 @@
 ---
-tags:
-- datasheet
+tags: + datasheet
 ---
 
-# RAK811 LPWAN Breakout Module
+# RAK811 Breakout Module
 
 <rk-img
   src="/assets/images/datasheet/rak811-breakout-module/rak811-breakout.png"
   width="50%"
-  figure-number="1"
   caption="RAK811 LPWAN Breakout Module"
 />
 
-### Product Description
+## Overview
 
-**RAK811 LPWAN Breakout Module** is an easy to use, compact and  low power long range LoRa® technology with wireless transceiver capabilities. A combination of RAK811 chipset and RAK811 Breakout Board with Semtech SX1276 at its core which takes advantage of all LoRa® features. 
+### Description
+
+**RAK811 LPWAN Breakout Module** is an easy to use, compact and low power long range LoRa® technology with wireless transceiver capabilities. A combination of RAK811 chipset and RAK811 Breakout Board with Semtech SX1276 at its core which takes advantage of all LoRa® features.
 
 The RAK811 module complies with the latest LoRaWAN® Class A & C protocol specifications with fully supported LoRaWAN® 1.0.2 stack in its firmware. It has a simple and straightforward setup and can quickly access LWPA IOT platforms. Additionally, it supports LoRa® Point to Point (P2P) communications which helps customers in implementing their own private LoRa® network.
 
-The node can work in a number of modes, with different data rates and read data from the attached sensors with the help of its serial AT commands. 
+The node can work in a number of modes, with different data rates and read data from the attached sensors with the help of its serial AT commands.
 
-This module is a complete solution in developing your LoRaWAN® protocol techniques. A few of its application includes: Automated Meters Reading, Home and Building Automation, Wireless Alarm and Security Systems, Industrial Monitoring and Control and Long Range Irrigation Systems. 
+This module is a complete solution in developing your LoRaWAN® protocol techniques. A few of its application includes: Automated Meters Reading, Home and Building Automation, Wireless Alarm and Security Systems, Industrial Monitoring and Control and Long Range Irrigation Systems.
 
-### Product Features
+### Features
 
 - Based on **Semtech SX1276**
 - Full **LoRaWAN® 1.0.2** stack support
@@ -39,35 +39,49 @@ This module is a complete solution in developing your LoRaWAN® protocol techniq
 - **Long battery life** - over 10 years
 - Low power consumption with 500nA on standby and in-air wake-up capability.
 
-## Board Overview
+## Specifications
+
+### Overview
+
+#### Module Overview
 
 The **RAK811 LPWAN Breakout Module** has a board dimension of **42mm x 25mm** and weighs at about **0.2kg**.
 
 <rk-img
   src="/assets/images/datasheet/rak811-breakout-module/dimensions.png"
   width="70%"
-  figure-number="2"
   caption="RAK811 Breakout Board Dimensions"
 />
 
-## Pin Definition
+#### Block Diagram
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus dolor at arcu pulvinar, vitae accumsan risus viverra. Mauris feugiat congue gravida. Curabitur ornare vulputate neque, vitae euismod urna varius tempor. Duis facilisis nulla purus, sed pharetra felis interdum a. In lacus arcu, commodo ut viverra eu, mollis eget massa. Pellentesque suscipit mi ac justo luctus viverra vitae ut ligula. Sed feugiat vitae est non convallis. Praesent quis laoreet sapien, sit amet mattis nisl.
+
+### Hardware
+
+#### Interfaces
+
+| Module                 | Interfaces   |
+| ---------------------- | ------------ |
+| RAK811 Breakout Module | UART1, GPIOs |
+
+#### Pin Definition
 
 The RAK811 supports two different frequency variation: **Low Radio Frequency** and **High Radio frequency**.
 
-### 1. Low Radio Frequency
+##### 1. Low Radio Frequency
 
-The Low radio frequency is applicable to bandwidth of regions **EU433** and **CN470**. 
+The Low radio frequency is applicable to bandwidth of regions **EU433** and **CN470**.
 
-### Low RF Pin Outline
+###### Low RF Pin Outline
 
 <rk-img
   src="/assets/images/datasheet/rak811-breakout-module/board-pinout-for-rak811-low-rf.jpg"
   width="75%"
-  figure-number="3"
   caption="Board Pinout for RAK811 Low RF"
 />
 
-### Low RF Pin Definition
+###### Low RF Pin Definition
 
 | Pin No. | Name          | Type | Description                           |
 | ------- | ------------- | ---- | ------------------------------------- |
@@ -106,21 +120,19 @@ The Low radio frequency is applicable to bandwidth of regions **EU433** and **CN
 | 33      | RF_OUT        | I/O  | RF I/O port                           |
 | 34      | GND           | -    | Ground connections                    |
 
-
-### 2. High Radio Frequency
+##### 2. High Radio Frequency
 
 High radio frequency hardware support the regions of **EU868, US915, AU915, KR920, AS923, IN865**.
 
-### High RF Pin Outline
+###### High RF Pin Outline
 
 <rk-img
   src="/assets/images/datasheet/rak811-breakout-module/board-pinout-for-rak811-high-rf.jpg"
   width="75%"
-  figure-number="4"
   caption="Board Pinout for RAK811 High RF"
 />
 
-### High RF Pin Definition
+###### High RF Pin Definition
 
 | Pin No. | Name          | Type | Description                           |
 | ------- | ------------- | ---- | ------------------------------------- |
@@ -159,92 +171,119 @@ High radio frequency hardware support the regions of **EU868, US915, AU915, KR92
 | 33      | RF_OUT        | I/O  | RF I/O port                           |
 | 34      | GND           | -    | Ground connections                    |
 
+#### RF Characteristics
 
-## Board Layout
+##### Operating Frequencies
 
-### Board Physical Dimension
+| Module    | Region        | Frequency |
+| --------- | ------------- | --------- |
+| RAK811-LF | Europe        | EU433     |
+|           | China         | CN470     |
+| RAK811-HF | Europe        | EU868     |
+|           | North America | US915     |
+|           | Australia     | AU915     |
+|           | Korea         | KR920     |
+|           | Asia          | AS923     |
+|           | India         | IN865     |
 
+| Feature        | Condition | Minimum | Typical | Maximum | Unit |
+| -------------- | --------- | ------- | ------- | ------- | ---- |
+| Transmit       | TX Power  |         | 14      | 20      | dBm  |
+| RX Sensitivity | RSSI      | -130    |         |         | dBm  |
+|                | SNR       | -15     |         |         | dB   |
 
-<rk-img
-  src="/assets/images/datasheet/rak811-breakout-module/rak811-physical-dimension.jpg"
-  width="75%"
-  figure-number="5"
-  caption="RAK811 Physical Dimension"
-/>
+#### Electrical Characteristics
 
-### Layout Recommendation
-
-<rk-img
-  src="/assets/images/datasheet/rak811-breakout-module/rak811-layout.jpg"
-  width="75%"
-  figure-number="6"
-  caption="RAK811 Layout"
-/>
-
-## Schematic Diagram
+##### Schematic Diagram
 
 <rk-img
   src="/assets/images/datasheet/rak811-breakout-module/schematic-diagram-for-rak811.jpg"
   width="100%"
-  figure-number="7"
   caption="RAK811 Schematic Diagram"
 />
 
 <rk-img
   src="/assets/images/datasheet/rak811-breakout-module/reference-design.jpg"
   width="100%"
-  figure-number="8"
   caption="Reference Design"
 />
 
-## Device Specifications
+##### Operating Voltage
 
-### General Specification
+| Feature | Minimum | Typical | Maximum | Unit      |
+| ------- | ------- | ------- | ------- | --------- |
+| VCC     | 3.15    | 3.3     | 3.45    | Volts (V) |
 
-| Model Name            | RAK811                      |
-| --------------------- | --------------------------- |
-| Dimension             | L x W x H: 22 x 14 x 1.7 mm |
-| Interface             | UART1, GPIOs                |
-| Operating Temperature | -40°C to 85°C               |
-| Storage Temperature   | -40°C to 85°C               |
+##### Current Consumption
 
+| Feature             | Condition  | Minimum     | Typical | Maximum | Unit |
+| ------------------- | ---------- | ----------- | ------- | ------- | ---- |
+| Current Consumption | TX Power   | 30 (14 dBm) |         |         | mA   |
+|                     | RX Mode    | 5.5         |         |         | mA   |
+|                     | Sleep Mode | 7.2         |         |         | uA   |
 
-### Recommended Operating Rating
+#### Mechanical Characteristics
 
-| Feature               | Min  | Typ | Max  | Unit |
-| --------------------- | ---- | --- | ---- | ---- |
-| Operating Temperature | -40  | 25  | 85   | °C   |
-| VCC                   | 3.15 | 3.3 | 3.45 | V    |
+##### Module Dimensions
 
+<rk-img
+  src="/assets/images/datasheet/rak811-breakout-module/rak811-physical-dimension.jpg"
+  width="75%"
+  caption="RAK811 Physical Dimension"
+/>
 
-### Specification
+##### Layout Recommendation
 
-| Feature        | Description                                                                              |
-| -------------- | ---------------------------------------------------------------------------------------- |
-| Frequency Band | **RAK811-LF**: EU433, CN470 <br> **RAK811-HF**: EU868, US915, AU915, KR920, AS923, IN865 |
-| Host Interface | UART                                                                                     |
+<rk-img
+  src="/assets/images/datasheet/rak811-breakout-module/rak811-layout.jpg"
+  width="75%"
+  caption="RAK811 Layout"
+/>
 
+#### Environmental Characteristics
 
-| Characteristics     | Condition  | Min         | Typ. | Max | Unit |
-| ------------------- | ---------- | ----------- | ---- | --- | ---- |
-| Transmit            | TX Power   | -           | 14   | 20  | dBm  |
-| RX Sensitivity      | RSSI       | -130        | -    | -   | dBm  |
-|                     | SNR        | -15         | -    | -   | dB   |
-| Current Consumption | TX mode    | 30 (14 dBm) | -    | -   | mA   |
-|                     | RX mode    | 5.5         | -    | -   | mA   |
-|                     | Sleep mode | 7.2         | -    | -   | uA   |
+##### Operating Temperature
 
+| Feature               | Minimum | Typical | Maximum | Unit |
+| --------------------- | ------- | ------- | ------- | ---- |
+| Operating Temperature | -40     | 25      | 85      | °C   |
 
-## Reflow Profile
+##### Storage Temperature
+
+| Feature             | Minimum | Typical | Maximum | Unit |
+| ------------------- | ------- | ------- | ------- | ---- |
+| Storage Temperature | -40     |         | 85      | °C   |
+
+##### Reflow Profile
 
 Referred to IPC/JEDEC standard:
 
-* **Peak Temperature** : < 250 °C
-* **Number of Times** : ≤ 2 times
+- **Peak Temperature** : < 250 °C
+- **Number of Times** : ≤ 2 times
 
 <rk-img
   src="/assets/images/datasheet/rak811-breakout-module/reflow-profile-for-rak811.jpg"
   width="75%"
-  figure-number="9"
   caption="Reflow Profile for RAK811"
 />
+
+### Software
+
+#### Firmware / OS
+
+| Model     | Version      | Source                                                                                                        |
+| --------- | ------------ | ------------------------------------------------------------------------------------------------------------- |
+| RAK811-LF | V3.0.0.13.T3 | [Download](https://downloads.rakwireless.com/LoRa/RAK811-BreakoutBoard/Firmware/RAK811_L_Latest_Firmware.zip) |
+| RAK811-HF | V3.0.0.13.T3 | [Download](https://downloads.rakwireless.com/LoRa/RAK811-BreakoutBoard/Firmware/RAK811_H_Latest_Firmware.zip) |
+
+## Models / Bundles
+
+**NO ORDERING INFORMATION**
+
+## CertificationS
+
+- [FCC](https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811%C2%A0FCC%20Certification.rar)
+- [CE](https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811%20CE%20Certification.rar)
+- [ROSH](https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811%C2%A0ROSH%20Certification.rar)
+- [MIC](https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811%C2%A0MIC%20Certification.rar)
+- [KCC](https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811_KCC%C2%A0%28Certificate%29.pdf)
