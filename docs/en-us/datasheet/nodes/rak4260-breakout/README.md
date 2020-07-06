@@ -1,16 +1,12 @@
 ---
-tags:
-- datasheet
+tags: + datasheet
 ---
 
-
-# RAK4260 WisDuo LPWAN Breakout Module
-
+# RAK4260 Breakout Module
 
 <rk-img
   src="/assets/images/datasheet/rak4260-breakout/rak4260-breakout.jpg"
   width="50%"
-  figure-number="1"
   caption="RAK4260 WisDuo LPWAN Breakout Module"
 />
 
@@ -42,9 +38,157 @@ The low power, long range LoRa® communication capabilities of the module make i
 - Supply voltage: 2.0V ~ 3.6V
 - Temperature range: -40°C to +85°C
 
-!!!include(en-us/datasheet/nodes/rak4260-breakout/board-overview.md)!!!
-!!!include(en-us/datasheet/nodes/rak4260-breakout/operating-frequencies.md)!!!
-!!!include(en-us/datasheet/nodes/rak4260-breakout/pin-definition.md)!!!
-!!!include(en-us/datasheet/nodes/rak4260-breakout/interfaces.md)!!!
-!!!include(en-us/datasheet/nodes/rak4260-breakout/electrical-characteristics.md)!!!
-!!!include(en-us/datasheet/nodes/rak4260-breakout/schematic-diagram.md)!!!
+## Specifications
+
+### Overview
+
+#### Board Overview
+
+The figure below shows the top and bottom view of the RAK4260 Breakout Module:
+
+<rk-img
+  src="/assets/images/datasheet/rak4260-breakout/rak4260b-top-view.jpg"
+  width="25%"
+  caption="RAK4260 LPWAN Breakout Module Top View"
+/>
+
+<rk-img
+  src="/assets/images/datasheet/rak4260-breakout/rak4260b-bottom-view.jpg"
+  width="25%"
+  caption="RAK4260 LPWAN Breakout Module Bottom View"
+/>
+
+### Hardware
+
+#### Interfaces
+
+##### SWD Programming Interface
+
+When programming via a JLINK tool, it is required to have all of the following 5 pins connected to your JLINK tool:
+
+1. **3V3**
+2. **SWDIO**
+3. **SWCLK**
+4. **GND**
+5. **RST**
+
+::: tip Note:
+:pencil: For the aforementioned reason, it is best you leave these exposed for programming purposes and not to remap them as GPIOs.
+:::
+
+##### UART Port
+
+There are two UART interfaces on RAK4200 module:
+
+- **UART1** – default interface
+- **UART3** – reserved, can also act as GPIOs.
+
+##### I2C Interface
+
+**I2C_SCL** and **I2C_SDA** are connected to the ATECC608A crypto chip for the purpose of developing cryptographic applications: network end-point key management and exchange small message and PII data encryption, secure boot and protected download, ecosystem control and anti-cloning.
+
+##### RF Interface
+
+**J4** is soldered to the antenna connector. Depending on your choice it can come with either SMA or IPEX style connector. Make sure to select the one you need when ordering.
+
+#### Pin Definition
+
+<rk-img
+  src="/assets/images/datasheet/rak4260-breakout/pinout.jpg"
+  width="75%"
+  caption="RAK4260 LPWAN Breakout Module Pinout"
+/>
+
+The tables below show the pin definition of the RAK4260 LPWAN Breakout Module:
+
+##### J5 Pin Definitions
+
+| Pin | Name     | I/O | Description                     | Alternate Functions                   |
+| --- | -------- | --- | ------------------------------- | ------------------------------------- |
+| 1   | UART3_RX | I   | UART3_RX (ATSAMR34J18B PA18)    | EIC/PTC/TC/AC/CCL/SERCOM1/SERCOM3     |
+| 2   | UART3_TX | O   | UART3_TX (ATSAMR34J18B PA19)    | EIC/PTC/TC/AC/CCL/SERCOM1/SERCOM3     |
+| 3   | GPIO     | I/O | GPIO (ATSAMR34J18B PA06)        | EIC/RSTC/ADC/PTC/OPAMP/TC/CCL/SERCOM0 |
+| 4   | GPIO     | I/O | GPIO (ATSAMR34J18B PA07)        | EIC/RSTC/ADC/OPAMP/TC/CCL/SERCOM0     |
+| 5   | GPIO     | I/O | GPIO (ATSAMR34J18B PA08)        | ADC/PTC/TC/CCL/SERCOM0/SERCOM2        |
+| 6   | GPIO     | I/O | GPIO (ATSAMR34J18B PA09)        | EIC/ADC/PTC/TC/CCL/SERCOM0/SERCOM2    |
+| 7   | SWDIO    | I/O | Programming (ATSAMR34J18B PA30) | -                                     |
+| 8   | SWCLK    | I/O | Programming (ATSAMR34J18B PA31) | -                                     |
+
+##### J6 Pin Definitions
+
+| Pin | Name     | I/O | Description                       | Alternate Functions                        |
+| --- | -------- | --- | --------------------------------- | ------------------------------------------ |
+| 1   | UART1_TX | O   | UART1_RX (ATSAMR34J18B PA04)      | EIC/RSTC/VREFB/ADC/AC/OPAMP/TC/CCL/SERCOM0 |
+| 2   | UART1_RX | I   | UART1_RX (ATSAMR34J18B PA05)      | EIC/RSTC/ADC/AC/OPAMP/TC/CCL/SERCOM0       |
+| 3   | GPIO     | I/O | GPIO (ATSAMR34J18B PA14)          | EIC/TC/GCLK/SERCOM2/SERCOM4                |
+| 4   | RST      | -   | MCU RESET                         | -                                          |
+| 5   | SPI_MISO | I/O | SPI Interface (ATSAMR34J18B PB02) | EIC/ADC/SERCOM5/TC/SUPC/CCL                |
+| 6   | SPI_CLK  | I/O | SPI Interface (ATSAMR34J18B PB23) | EIC/SERCOM5/TC/GCLK/CCL                    |
+| 7   | SPI_CS   | I/O | SPI Interface (ATSAMR34J18B PA22) | EIC/PTC/TC/AC/CCL/SERCOM3/SERCOM5          |
+| 8   | SPI_MOSI | I/O | SPI Interface (ATSAMR34J18B PA23) | EIC/PTC/TC/AC/CCL/GCLK/SERCOM3/SERCOM5     |
+
+##### J11 Pin Definitions
+
+| Pin | Name  | I/O | Description                       | Alternate Functions               |
+| --- | ----- | --- | --------------------------------- | --------------------------------- |
+| 1   | USB_N | I/O | USB Interface (ATSAMR34J18B PA24) | EIC/SERCOM3/SERCOM5/TC/USB_DM/CCL |
+| 2   | USB_P | I/O | USB Interface (ATSAMR34J18B PA24) | EIC/SERCOM3/SERCOM5/TC/USB_DP/CCL |
+
+##### J12 Pin Definitions
+
+| Pin | Name    | I/O | Description                       | Alternate Functions                 |
+| --- | ------- | --- | --------------------------------- | ----------------------------------- |
+| 1   | I2C_SDA | I/O | I2C Interface (ATSAMR34J18B PA16) | EIC/PTC/TC/GCLK/CCL/SERCOM1/SERCOM3 |
+| 2   | I2C_SCL | I/O | I2C Interface (ATSAMR34J18B PA17) | EIC/PTC/TC/GCLK/CCL/SERCOM1/SERCOM3 |
+
+##### J13 Pin Definitions
+
+| Pin | Name | I/O | Description | Alternate Functions          |
+| --- | ---- | --- | ----------- | ---------------------------- |
+| 1   | GND  |     | Ground      | GND                          |
+| 2   | VDD  |     | DC3V3       | Supply voltage 2.0 V ~ 3.3 V |
+
+##### J14 Pin Definitions
+
+| Pin | Name | I/O | Description | Alternate Functions          |
+| --- | ---- | --- | ----------- | ---------------------------- |
+| 1   | GND  |     | Ground      | GND                          |
+| 2   | VDD  |     | DC3V3       | Supply voltage 2.0 V ~ 3.3 V |
+
+#### RF Characteristics
+
+##### Operating Frequencies
+
+The RAK4260 LPWAN Breakout Module supports the following LoRa® bands:
+
+| Module         | Region                                                                               | Frequency (MHz)                                                         |
+| -------------- | ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------- |
+| **RAK4260(H)** | Russia <br> India <br> Europe <br> North America <br> Australia <br> Korea <br> Asia | RU864 <br> IN865 <br> EU868 <br> US915 <br> AU915 <br> KR920 <br> AS923 |
+
+#### Electrical Characteristics
+
+##### Power Consumption
+
+| Item                    | Power Consumption | Condition            |
+| ----------------------- | ----------------- | -------------------- |
+| Tx mode LoRa® @20dBm    | 126.3 mA          | PA_BOOST V=3.3V      |
+| Tx mode LoRa® @17dBm    | 95.6 mA           | PA_BOOST V=3.3V      |
+| Tx mode LoRa® @14dBm    | 33.1 mA (typical) | RFO_HF V=3.3V        |
+| Rx mode LoRa® @37.5Kbps | 13.6 mA           | -                    |
+| Sleep mode              | 860 nA            | Backup Mode V = 3.3V |
+
+#### Schematic Diagram
+
+<rk-img
+  src="/assets/images/datasheet/rak4260-breakout/schematic-diagram.png"
+  width="100%"
+  caption="RAK4260 Breakout Module Schematic Diagram"
+/>
+
+### Software
+
+#### Firmware
+
+| Model   | Source                                                                          |
+| ------- | ------------------------------------------------------------------------------- |
+| RAK4260 | [Download](https://downloads.rakwireless.com/LoRa/RAK4260/Firmware/RAK4260.rar) |
