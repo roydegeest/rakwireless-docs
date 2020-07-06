@@ -67,109 +67,81 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus dol
 
 #### Pin Definition
 
-The RAK811 supports two different frequency variation: **Low Radio Frequency** and **High Radio frequency**.
+The RAK811 supports two different frequency variation: **High Radio Frequency** and **Low Radio frequency**.
 
-##### 1. Low Radio Frequency
+## High Radio Frequency
 
-The Low radio frequency is applicable to bandwidth of regions **EU433** and **CN470**.
+The high radio frequency hardware support the regions of EU868, US915, AU915, KR920, AS923, IN865.
 
-###### Low RF Pin Outline
-
-<rk-img
-  src="/assets/images/datasheet/rak811-breakout-module/board-pinout-for-rak811-low-rf.jpg"
-  width="75%"
-  caption="Board Pinout for RAK811 Low RF"
-/>
-
-###### Low RF Pin Definition
-
-| Pin No. | Name          | Type | Description                           |
-| ------- | ------------- | ---- | ------------------------------------- |
-| 1       | GND           | -    | Ground connections                    |
-| 2       | PB12/ADC      | I/O  | ADC_IN18                              |
-| 3       | PB14/ADC      | I/O  | ADC_IN20                              |
-| 4       | PB15/ADC      | I/O  | ADC_IN21                              |
-| 5       | PB13          | I/O  | B part for GPIO port                  |
-| 6       | PA9/UART1_TX  | O    | UART1 Interface                       |
-| 7       | PA10/UART1_RX | I    | UART1 Interface                       |
-| 8       | PA12          | O    | A part for GPIO port                  |
-| 9       | PA11          | I    | A part for GPIO port                  |
-| 10      | PA13          | I/O  | A part for GPIO port                  |
-| 11      | VCC           | P    | Main power voltage source input       |
-| 12      | GND           | -    | Ground connections                    |
-| 13      | PA14          | I/O  | A part for GPIO port                  |
-| 14      | PA15          | I/O  | A part for GPIO port                  |
-| 15      | PA3           | I/O  | A part for GPIO port                  |
-| 16      | PB5           | I/O  | B part for GPIO port                  |
-| 17      | BOOT0         | I    | Boot mode GPIO enable pin,high active |
-| 18      | PB6/I2C_SCL   | I/O  | I2C1_SCL                              |
-| 19      | PB7/I2C_SDA   | I/O  | I2C1_SDA                              |
-| 20      | PA2/ADC       | I/O  | ADC_IN2                               |
-| 21      | GND           | -    | Ground connections                    |
-| 22      | PA1/ADC       | I    | ADC_IN1                               |
-| 23      | PA0/ADC       | O    | ADC_IN0                               |
-| 24      | RST           | I    | Reset trigger input,low active        |
-| 25      | PB10          | I/O  | B part for GPIO port                  |
-| 26      | PB11          | I/O  | B part for GPIO port                  |
-| 27      | PB2           | I/O  | B part for GPIO port                  |
-| 28      | GND           | -    | Ground connections                    |
-| 29      | GND           | -    | Ground connections                    |
-| 30      | GND           | -    | Ground connections                    |
-| 31      | GND           | -    | Ground connections                    |
-| 32      | GND           | -    | Ground connections                    |
-| 33      | RF_OUT        | I/O  | RF I/O port                           |
-| 34      | GND           | -    | Ground connections                    |
-
-##### 2. High Radio Frequency
-
-High radio frequency hardware support the regions of **EU868, US915, AU915, KR920, AS923, IN865**.
-
-###### High RF Pin Outline
+### High RF Pin Outline
 
 <rk-img
-  src="/assets/images/datasheet/rak811-breakout-module/board-pinout-for-rak811-high-rf.jpg"
+  src="/assets/images/datasheet/rak811-breakout-module/board-pinout-for-rak811-low-rf.png"
   width="75%"
-  caption="Board Pinout for RAK811 High RF"
+  caption="Board Pinout for RAK811 Breakout High RF"
 />
 
-###### High RF Pin Definition
+### High RF Pin Definition
 
-| Pin No. | Name          | Type | Description                           |
-| ------- | ------------- | ---- | ------------------------------------- |
-| 1       | GND           | -    | Ground connections                    |
-| 2       | PB12/ADC      | I/O  | ADC_IN18                              |
-| 3       | PB14/ADC      | I/O  | ADC_IN20                              |
-| 4       | PB15/ADC      | I/O  | ADC_IN21                              |
-| 5       | PA8           | I/O  | A part for GPIO port                  |
-| 6       | PA9/UART1_TX  | O    | UART1 Interface                       |
-| 7       | PA10/UART1_RX | I    | UART1 Interface                       |
-| 8       | PA12          | O    | A part for GPIO port                  |
-| 9       | PB4           | I    | B part for GPIO port                  |
-| 10      | PA13          | I/O  | A part for GPIO port                  |
-| 11      | VCC           | P    | Main power voltage source input       |
-| 12      | GND           | -    | Ground connections                    |
-| 13      | PA14          | I/O  | A part for GPIO port                  |
-| 14      | PA15          | I/O  | A part for GPIO port                  |
-| 15      | PB3           | I/O  | B part for GPIO port                  |
-| 16      | PB5           | I/O  | B part for GPIO port                  |
-| 17      | BOOT0         | I    | Boot mode GPIO enable pin,high active |
-| 18      | PB8/I2C_SCL   | I/O  | I2C1_SCL                              |
-| 19      | PB9/I2C_SDA   | I/O  | I2C1_SDA                              |
-| 20      | PA2/ADC       | I/O  | ADC_IN2                               |
-| 21      | GND           | -    | Ground connections                    |
-| 22      | PA1/ADC       | I    | ADC_IN1                               |
-| 23      | PA0/ADC       | O    | ADC_IN0                               |
-| 24      | RST           | I    | Reset trigger input,low active        |
-| 25      | PB10          | I/O  | B part for GPIO port                  |
-| 26      | PB11          | I/O  | B part for GPIO port                  |
-| 27      | PB2           | I/O  | B part for GPIO port                  |
-| 28      | GND           | -    | Ground connections                    |
-| 29      | GND           | -    | Ground connections                    |
-| 30      | GND           | -    | Ground connections                    |
-| 31      | GND           | -    | Ground connections                    |
-| 32      | GND           | -    | Ground connections                    |
-| 33      | RF_OUT        | I/O  | RF I/O port                           |
-| 34      | GND           | -    | Ground connections                    |
+| **Pin No.** | **Name** | **Type** | **Description** | 
+| ---- | ---- | ---- | ---- | 
+| 1 | LoRa 3.3V | P | Main Power Voltage Source Input | 
+| 2 | UART1_TXD | O | UART1 Interface | 
+| 3 | UART1_RXD | I | UART1 Interface | 
+| 4 | PB12 | I/O | ADC_IN18 | 
+| 5 | RST | I | Reset Trigger Input, Low Active | 
+| 6 | PB3 | I/O | B part for GPIO port | 
+| 7 | PB5 | I/O | B part for GPIO port | 
+| 8 | PA15 | I/O | A part for GPIO port | 
+| 9 | BOOT0 |  | Boot mode GPIO enable pin,high active | 
+| 10 | GND |  | Ground connections | 
+| 11 | PA0 | O | ADC_IN0 | 
+| 12 | PA1 | I | ADC_IN1 | 
+| 13 | SWCLK |  | Serial Wire Debug Pin | 
+| 14 | SWDIO |  | Serial Wire Debug Pin | 
+| 15 | PB4 | I | B part for GPIO port | 
+| 16 | PB15 | I/O | ADC_IN21 | 
+| 17 | PA2 | I/O | ADC_IN2 | 
+| 18 | PA8 | I/O | A part for GPIO port | 
+| 19 | PA12 | O | A part for GPIO port | 
+| 20 | PB14 | I/O | ADC_IN20 | 
+
+## Low Radio Frequency
+
+The Low radio frequency is applicable to bandwidth of regions EU433 and CN470.
+
+### Low RF Pin Outline
+
+<rk-img
+  src="/assets/images/datasheet/rak811-breakout-module/board-pinout-for-rak811-high-rf.png"
+  width="75%"
+  caption="Board Pinout for RAK811 Breakout Low RF"
+/>
+
+### Low RF Pin Definition
+
+| **Pin No.** | **Name** | **Type** | **Description** | 
+| ---- | ---- | ---- | ---- | 
+| 1 | LoRa 3.3V | P | Main Power Voltage Source Input | 
+| 2 | UART1_TXD | O | UART1 Interface | 
+| 3 | UART1_RXD | I | UART1 Interface | 
+| 4 | PB12 | I/O | ADC_IN18 | 
+| 5 | RST | I | Reset Trigger Input, Low Active | 
+| 6 | PA3 | I/O | A part for GPIO port | 
+| 7 | PB5 | I/O | B part for GPIO port | 
+| 8 | PA12 | I/O | A part for GPIO port | 
+| 9 | PB4 |  | Boot mode GPIO enable pin,high active | 
+| 10 | GND |  | Ground connections | 
+| 11 | PA0 | O | ADC_IN0 | 
+| 12 | PA1 | I | ADC_IN1 | 
+| 13 | SWCLK |  | Serial Wire Debug Pin | 
+| 14 | SWDIO |  | Serial Wire Debug Pin | 
+| 15 | PA11 | I | A part for GPIO port | 
+| 16 | PB15 | I/O | ADC_IN21 | 
+| 17 | PA2 | I/O | ADC_IN2 | 
+| 18 | PB13 | I/O | A part for GPIO port | 
+| 19 | PA12 | O | A part for GPIO port | 
+| 20 | PB14 | I/O | ADC_IN20 | 
 
 #### RF Characteristics
 
