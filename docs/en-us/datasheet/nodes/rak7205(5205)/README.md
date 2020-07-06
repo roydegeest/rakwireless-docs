@@ -211,7 +211,7 @@ The board supports all LoRaWAN® frequency channels as stated in the table below
 | Korea         | KR920           |
 | Indian        | IN865           |
 
-#### Antenna
+#### Antennas
 
 ##### LoRa® Antenna
 
