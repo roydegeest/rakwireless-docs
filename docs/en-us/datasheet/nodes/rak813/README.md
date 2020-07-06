@@ -1,15 +1,12 @@
 ---
-static_root: /assets/images/datasheet/rak813/overview
-tags:
-- datasheet
+tags: + datasheet
 ---
 
-# RAK813 BLE+LoRa®
+# RAK813 BLE + LoRa
 
 <rk-img
-  :src="`${$frontmatter.static_root}/RAK813.jpg`"
+  src="/assets/images/datasheet/rak813/overview/RAK813.jpg"
   width="30%"
-  figure-number="1"
   caption="RAK813 Module"
 />
 
@@ -47,8 +44,140 @@ RAK813 supports various protocols, including the newest BLE and LoRaWAN®, where
 - llP3 = -11dBm
 - Up to 15 km coverage at suburban and up to 5 km coverage at urban area.
 
-!!!include(en-us/datasheet/nodes/rak813/board-overview.md)!!!
-!!!include(en-us/datasheet/nodes/rak813/operating-frequencies.md)!!!
-!!!include(en-us/datasheet/nodes/rak813/interfaces.md)!!!
-!!!include(en-us/datasheet/nodes/rak813/pin-definition.md)!!!
-!!!include(en-us/datasheet/nodes/rak813/mechanical-dimension.md)!!!
+## Overview
+
+### Board Overview
+
+**RAK813 BLE+ LoRa®** has outer dimensions of 27.2 mm x 23 mm x 1.7 mm.
+
+<rk-img
+  src="/assets/images/datasheet/rak813/board-overview/rak813-board-dimension.png"
+  width="60%"
+  caption="RAK813 Board Dimensions"
+/>
+
+### Block Diagram
+
+The block diagram of the module is depicted in the figure below.
+
+<rk-img
+  src="/assets/images/datasheet/rak813/interfaces/block-diagram.png"
+  width="100%"
+  caption="RAK813 Block Diagram"
+/>
+
+### System Diagram
+
+<rk-img
+  src="/assets/images/datasheet/rak813/interfaces/system-diagram.png"
+  width="100%"
+  caption="System Diagram"
+/>
+
+## Specifications
+
+### Pin Definition
+
+<rk-img
+  src="/assets/images/datasheet/rak813/pin-definition/rak813-pinout.png"
+  width="80%"
+  caption="Pin Out Diagram for RAK813"
+/>
+
+| Pin Number | Name           | Type | Description                      |
+| ---------- | -------------- | ---- | -------------------------------- |
+| 1          | GND            |      | Ground connection                |
+| 2          | P0.24_IO       | I/O  | GPIO port                        |
+| 3          | P0.25_LED2     | I/O  | GPIO port /LED                   |
+| 4          | P0.26_LED1     | I/O  | GPIO port /LED                   |
+| 5          | P0.27_KEY1     | I/O  | GPIO port /KEY                   |
+| 6          | P0.28_UART_RXD | O    | UART Interface                   |
+| 7          | P0.29_UART_TXD | I    | UART Interface                   |
+| 8          | P0.30_UART_CTS | O    | UART Interface                   |
+| 9          | P0.31_UART_RTS | I    | UART Interface                   |
+| 10         | GND            |      | Ground connection                |
+| 11         | VDD_nRF        | P    | BLE power voltage source input   |
+| 12         | VDD_LoRa       | P    | LoRa® power voltage source input |
+| 13         | GND            | I/O  | Ground connections               |
+| 14         | GND            | I/O  | Ground connections               |
+| 15         | P0.02_AIN0     | I/O  | GPIO port/ADC input              |
+| 16         | P0.03_AIN1     | I/O  | GPIO port/ADC input              |
+| 17         | P0.04_AIN2     | I/O  | GPIO port/ADC input              |
+| 18         | P0.21_nRESET   | I    | Reset trigger input              |
+| 19         | GND            |      | Ground connection                |
+| 20         | P0.15_I2C_SDA  | I/O  | GPIO port/I2C                    |
+| 21         | P0.16_I2C_SCL  | I/O  | GPIO port/I2C                    |
+| 22         | P0.17_SPI_CS   | I/O  | GPIO port/SPI                    |
+| 23         | P0.18SPI_MISO  | I/O  | GPIO port/SPI                    |
+| 24         | P0.19_SPI_MOSI | I/O  | GPIO port/SPI                    |
+| 25         | P0.20_SPI_CLK  | I/O  | GPIO port/SPI                    |
+| 26         | SWDCLK         | I/O  | Debug port                       |
+| 27         | SWDIO          | I/O  | Debug port                       |
+| 28         | GND            |      | Ground connection                |
+| 29         | GND            |      | Ground connection                |
+| 30         | LORA_ANT       |      | RF I/O port                      |
+| 31         | GND            |      | Ground connection                |
+| 32         | GND            |      | Ground connection                |
+| 33         | BLE_ANT        | I/O  | RF I/O port                      |
+
+### RF Characteristics
+
+#### Operating Frequencies
+
+##### LoRa
+
+| Characteristics         | Condition | Minimum | Typical | Maximum | Unit |
+| ----------------------- | --------- | ------- | ------- | ------- | ---- |
+| **LoRa Transmit**       | TX Power  |         | 14      | 20      | dBm  |
+| **LoRa RX Sensitivity** | RSSI      | -130    |         |         | dBm  |
+|                         | SNR       | -15     |         |         | dB   |
+
+##### BLE
+
+| Characteristics        | Condition   | Minimum | Typical | Maximum | Unit |
+| ---------------------- | ----------- | ------- | ------- | ------- | ---- |
+| **BLE Transmit**       | TX Power    |         | 0       | 4       | dBm  |
+| **BLE RX Sensitivity** | Sensitivity | -97     |         |         | dBm  |
+
+#### Electrical Characteristics
+
+##### Recommended Operation Rating
+
+|     | Minimum | Typical | Maximum | Unit |
+| --- | ------- | ------- | ------- | ---- |
+| VCC | 3.15    | 3.3     | 3.45    | V    |
+
+##### Current Consumption
+
+| Condition  | Minimum     | Typical | Maximum | Unit |
+| ---------- | ----------- | ------- | ------- | ---- |
+| TX Mode    | 30 (14 dBm) |         |         | mA   |
+| RX Mode    | 5.5         |         |         | mA   |
+| Sleep Mode | 7.2         |         |         | uA   |
+
+#### Mechanical Characteristics
+
+This section provides the mechanical Dimension of RAK813 as shown below.
+
+<rk-img
+  src="/assets/images/datasheet/rak813/mechanical-dimension/veq8asjwdqh1rpm9fape.png"
+  width="100%"
+  caption="Mechanical Dimensions of RAK813"
+/>
+
+#### Recommended Reflow Profile
+
+<rk-img
+  src="/assets/images/datasheet/rak813/reflow-profile/reflow-profile.png"
+  width="100%"
+  caption="Reflow Profile for RAK813"
+/>
+
+## Models / Bundles
+
+### Ordering Information
+
+| Model Name | Operation Frequency       | Output Power |
+| ---------- | ------------------------- | ------------ |
+| RAK813-HF  | 865-870 MHz / 920~928 MHz | 5-20 dBm     |
+| RAK813-LF  | 433-435 MHz / 470~510 MHz | 5-20 dBm     |
