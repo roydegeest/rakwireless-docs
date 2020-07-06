@@ -9,11 +9,12 @@ tags: + datasheet
 <rk-img
   :src="`${$frontmatter.static_root}/nwgqobrzwanalynildkc.jpg`"
   width="50%"
-  figure-number="1"
   caption="RAK811 LPWAN Module"
 />
 
-### Product Description
+## Overview
+
+### Description
 
 RAK811 Low-Power Long Range LoRa® Technology Transceiver module provides an easy to
 use, small size, low-power solution for long range wireless data transmission.
@@ -24,7 +25,7 @@ private long range LoRa® network fast.
 
 The RAK811 Module is integrated with Semtech's SX1276 and STM32L which offers user a way communicating with AT Commands through UART Interface. Users will also be able to make their projects turn into reality such as Long Range Sensor data applications, RAK811 also offers a low power feature that is suitable for battery powered applications.
 
-### Product Features
+### Features
 
 - LoRaWAN® protocol supported, support global license-free ISM band, full
   certification by region.
@@ -58,7 +59,6 @@ The block diagram of module is depicted in the figure below.
 <rk-img
   src="/assets/images/datasheet/rak811/interfaces/block-diagram.png"
   width="100%"
-  figure-number="2"
   caption="RAK811 System Block Diagram"
 />
 
@@ -83,7 +83,6 @@ The Low radio frequency is applicable to bandwidth of regions EU433 and CN470.
 <rk-img
   src="/assets/images/datasheet/rak811/pin-definition/abscqo1rdux6ao13hdvu.jpg"
   width="100%"
-  figure-number="3"
   caption="Board Pinout for RAK811 Low RF"
 />
 
@@ -135,7 +134,6 @@ High radio frequency hardware support the regions of EU868, US915, AU915, KR920,
 <rk-img
   src="/assets/images/datasheet/rak811/pin-definition/ajjxkmp1ydxopp6naaoc.jpg"
   width="100%"
-  figure-number="4"
   caption="Board Pinout for RAK811 High RF"
 />
 
@@ -206,7 +204,6 @@ High radio frequency hardware support the regions of EU868, US915, AU915, KR920,
 <rk-img
   src="/assets/images/datasheet/rak811/schematic-diagram/ghs8zbyhzisoqxezofnz.jpg"
   width="100%"
-  figure-number="7"
   caption="Reference Design"
 />
 
@@ -231,7 +228,6 @@ High radio frequency hardware support the regions of EU868, US915, AU915, KR920,
 <rk-img
   src="/assets/images/datasheet/rak811/board-layout/ksglqsrthvgpykwcugzy.jpg"
   width="60%"
-  figure-number="5"
   caption="RAK811 Physical Dimension"
 />
 
@@ -240,7 +236,6 @@ High radio frequency hardware support the regions of EU868, US915, AU915, KR920,
 <rk-img
   src="/assets/images/datasheet/rak811/board-layout/u4axv5szljjuw195olgx.jpg"
   width="60%"
-  figure-number="6"
   caption="RAK811 Layout"
 />
 
@@ -268,7 +263,6 @@ Referred to IPC/JEDEC standard.
 <rk-img
   src="/assets/images/datasheet/rak811/reflow-profile/tpe7u1eaanobuih9gq7x.jpg"
   width="100%"
-  figure-number="8"
   caption="Reflow Profile for RAK811"
 />
 
