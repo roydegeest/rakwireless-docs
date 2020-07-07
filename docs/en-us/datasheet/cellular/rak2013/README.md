@@ -146,13 +146,13 @@ The modules have two RF interfaces for LTE antenna and GPS/LTE DIV antenna over 
 
 RAK2013 board is composed of four connectors: **J3**, **J15**, **J16** and **J17**.
 
-### J3 - Boot Jumper
+##### J3 - Boot Jumper
 
 - Jumper for BG96/EG91/EG95 USB boot
 - J3 open: boot normally.
 - J3 shorted: Force the module to boot from USB port.
 
-### J15 - Raspberry Connector
+##### J15 - Raspberry Connector
 
 <rk-img
   src="/assets/images/datasheet/rak2013/rak2013-raspberry-connector.jpg"
@@ -205,7 +205,7 @@ The table below shows the pin connections of the raspberry connector.
 | 39         | GND                 | GND                  |
 | 40         | BG96_STATUS         | GPIO21               |
 
-### J16 and J17 – MikroBus Interface
+##### J16 and J17 – MikroBus Interface
 
 <rk-img
   src="/assets/images/datasheet/rak2013/mikroBUS_Pinout.png"
