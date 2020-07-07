@@ -12,9 +12,9 @@ This document walks through the details on the steps on how to configure the fre
 
 To enjoy the free cloud services of Amazon, make an account through their [Amazon Web Service](http://aws.amazon.com/) page.
 
-    * Considerations:
-        * Limited to 750 hours per month for a period of 12 months
-        * A debit card must be linked to verify your identity in order to use the service.
+    Considerations:
+        1. Limited to 750 hours per month for a period of 12 months
+        2. A debit card must be linked to verify your identity in order to use the service.
 
 ### Configuring the Instance
 
