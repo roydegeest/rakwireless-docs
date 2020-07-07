@@ -22,7 +22,7 @@ RAK7431 together with RAK gateway and LoRa® Server products, can easily and qui
 
 ### Product Features
 
-- **LoRaWAN® 1.0.2** protocol stack, supports Class A & C
+- **LoRaWAN® 1.0.3** protocol stack, supports Class A, Class B & C
 - **Working modes**: Polling mode, transparent mode and packet mode
 - Remote cloud management of RS485 devices
 - Can address up to **16 RS485**, a que with up to **32 instruction sets**
@@ -123,9 +123,9 @@ The table below shows the full specification of RAK7431.
 
 | Parameter               | Value                                                                                                   | Remarks                                            |
 | ----------------------- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| LoRaWAN® Protocol       | LoRaWAN® 1.0.2                                                                                          |                                                    |
+| LoRaWAN® Protocol       | LoRaWAN® 1.0.3                                                                                          |                                                    |
 | LoRa Frequency          | RU864, IN865, EU868, US915, AU915, KR920, KR923                                                         | Different models support different frequency bands |
-| LoRaWAN® Mode           | Class A / Class C                                                                                       |                                                    |
+| LoRaWAN® Mode           | Class A / Class B/ Class C                                                                                       |                                                    |
 | LoRa® Tx Power          | 20dBm                                                                                                   |                                                    |
 | LoRa® Antenna interface | SMA MALE, External omnidirectional Antenna                                                              |                                                    |
 | RS485 Data Rate         | Configurable 9600 -115200bps                                                                            |                                                    |
