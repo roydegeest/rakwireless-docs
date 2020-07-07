@@ -2,7 +2,7 @@
 tags: + datasheet
 ---
 
-# RAK815
+# RAK815 Hybrid Location Tracker
 
 <rk-img
   src="/assets/images/datasheet/rak815/rak815-board.png"

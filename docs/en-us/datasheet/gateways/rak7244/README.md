@@ -3,7 +3,7 @@ tags:
   - datasheet
 ---
 
-# RAK7244 Pilot Gateway
+# RAK7244 LPWAN Developer Gateway
 
 <rk-img
   src="/assets/images/datasheet/rak7244/emefrtsevzyv5dulz1hs.png"

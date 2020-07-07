@@ -2,7 +2,7 @@
 tags: + datasheet
 ---
 
-# RAK5205
+# RAK5205 WisTrio LPWAN Tracker
 
 <rk-img
   src="/assets/images/datasheet/rak5205/rak5205-wistrio-lpwan-tracker.png"

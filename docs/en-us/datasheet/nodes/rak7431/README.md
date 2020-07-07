@@ -2,7 +2,7 @@
 tags: + datasheet
 ---
 
-# RAK7431
+# RAK7431 - RS485 to LoRaWAN® Converter
 
 <rk-img
   src="/assets/images/datasheet/rak7431/rak7431-overview.jpg"

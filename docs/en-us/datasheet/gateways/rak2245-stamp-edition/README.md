@@ -3,7 +3,7 @@ tags:
   - datasheet
 ---
 
-# RAK2245 Stamp Edition
+# RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module
 
 <rk-img
   :src="`${$frontmatter.static_root}/r8b1kuz7nsyovmac80kq.png`"

@@ -3,7 +3,7 @@ tags:
   - datasheet
 ---
 
-# RAK833
+# RAK833 LPWAN Gateway Concentrator Module
 
 <rk-img
   src="/assets/images/datasheet/rak833/rak833.png"

@@ -2,7 +2,7 @@
 tags: + datasheet
 ---
 
-# RAK811 Breakout Module
+# RAK811 LPWAN Breakout Module
 
 <rk-img
   src="/assets/images/datasheet/rak811-breakout-module/rak811-breakout.png"

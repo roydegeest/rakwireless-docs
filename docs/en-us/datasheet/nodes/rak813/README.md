@@ -2,7 +2,7 @@
 tags: + datasheet
 ---
 
-# RAK813 BLE + LoRa
+# RAK813 BLE+LoRa®
 
 <rk-img
   src="/assets/images/datasheet/rak813/overview/RAK813.jpg"

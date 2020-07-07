@@ -3,7 +3,7 @@ tags:
   - datasheet
 ---
 
-# RAK2247
+# RAK2247 LPWAN Gateway Concentrator Module
 
 <rk-img
   src="/assets/images/datasheet/rak2247/rak2247-overview.png"

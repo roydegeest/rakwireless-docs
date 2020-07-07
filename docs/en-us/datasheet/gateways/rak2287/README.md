@@ -3,7 +3,7 @@ tags:
   - datasheet
 ---
 
-# RAK2287
+# RAK2287 WisLink- LPWAN Gateway Module
 
 <rk-img
   :src="`${$frontmatter.static_root}/aprgtyyf6arxkxu7rjyl.jpg`"

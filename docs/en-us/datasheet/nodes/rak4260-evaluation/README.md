@@ -2,7 +2,7 @@
 tags: + datasheet
 ---
 
-# RAK4260 LPWAN Module
+# RAK4260 WisDuo LPWAN Module
 
 <rk-img
   src="/assets/images/datasheet/rak4260/rak4260.png"

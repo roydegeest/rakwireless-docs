@@ -2,7 +2,7 @@
 tags: + datasheet
 ---
 
-# RAK7200
+# RAK7200 LPWAN Tracker
 
 <rk-img
   src="/assets/images/datasheet/rak7200/overview.jpg"

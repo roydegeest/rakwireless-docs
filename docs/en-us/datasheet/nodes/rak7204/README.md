@@ -2,7 +2,7 @@
 tags: + datasheet
 ---
 
-# RAK7204
+# RAK7204 LPWAN Environmental Sensor
 
 <rk-img
   src="/assets/images/datasheet/rak7204/rak7204-overview.png"
