@@ -26,7 +26,7 @@ module.exports = {
       title: 'LPWAN Nodes',
       path: '',
       collapsable: false,
-      sidebarDepth: 3,
+      sidebarDepth: 4,
       children: [
         '/en-us/datasheet/nodes/rak811-breakout/',
         '/en-us/datasheet/nodes/rak811-evaluation/',
@@ -48,7 +48,7 @@ module.exports = {
       title: 'Cellular',
       path: '',
       collapsable: false,
-      sidebarDepth: 3,
+      sidebarDepth: 4,
       children: [
         '/en-us/datasheet/cellular/rak2013/'
       ]
@@ -57,7 +57,7 @@ module.exports = {
       title: 'NB-IoT',
       path: '',
       collapsable: false,
-      sidebarDepth: 3,
+      sidebarDepth: 4,
       children: [
         '/en-us/datasheet/nb-iot/rak5010/',
         '/en-us/datasheet/nb-iot/rak8212/',
@@ -69,7 +69,7 @@ module.exports = {
       title: 'Others',
       path: '',
       collapsable: false,
-      sidebarDepth: 3,
+      sidebarDepth: 4,
       children: [
         '/en-us/datasheet/others/rak9003-poe-hat/'
       ]
