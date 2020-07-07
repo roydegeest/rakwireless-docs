@@ -4,13 +4,13 @@ next: aws-install-chirpstack
 
 # Amazon Web Service
 
-This section walks through the details on the steps on how to configure the free cloud services of **[Amazon](http://aws.amazon.com/)**. Follow each and every step discussed in this document to have a fully functional system. If you encounter errors, kindly contact us through the email provided in the Product Overview.
 
-## Amazon Web Service Configurations 
+This document walks through the details on the steps on how to configure the free cloud services of [Amazon](http://aws.amazon.com/) to work with your **RAK7249 Macro Outdoor Gateway**. Follow each and every step discussed in this document to have a fully functional system. If you encounter errors, kindly contact us through the email provided in the Product Overview.
+
 
 ### Creating an Account
 
-1. For you to enjoy the free cloud services of Amazon, kindly make an account through their [Amazon Web Service](http://aws.amazon.com/) page.
+To enjoy the free cloud services of Amazon, make an account through their [Amazon Web Service](http://aws.amazon.com/) page.
 
     * Considerations:
         * Limited to 750 hours per month for a period of 12 months
@@ -21,11 +21,11 @@ This section walks through the details on the steps on how to configure the free
 1. After you have logged into your account, you need to select what instance you are going to be running.
 
 :::tip 📝 NOTE
- For the purpose of this tutorial we are going to be using "**EC2**". Select it in the **AWS Management Console**.
+ For the purpose of this tutorial, we are going to be using "**EC2**". Select it in the **AWS Management Console**.
 :::
 
 <rk-img
-  src="/assets/images/deployment-guide/amazon-web-service/aws-console.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/1.aws-console.png"
   width="100%"
   figure-number="1"
   caption="AWS Management Console"
@@ -34,34 +34,34 @@ This section walks through the details on the steps on how to configure the free
 2. In the following screen you can see your running instances, key pairs, security groups, etc. Press the blue “**Launch instance**” button.
 
 <rk-img
-  src="/assets/images/deployment-guide/amazon-web-service/launch-instance.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/2.launch-instance.png"
   width="100%"
   figure-number="2"
   caption="Launching an Instance"
 />
 
-3. There is a ton of choices for the operating system, however we will be using **Ubuntu**. Scroll down and choose **Ubuntu Server 18.04 LTS** (latest at the time of this document). Click the “**Select**” button.
+3. There is a ton of choices for the operating system, however **Ubuntu** will be used for tutorial. Scroll down and choose **Ubuntu Server 18.04 LTS** (latest at the time of this document). Click the “**Select**” button.
 
 <rk-img
-  src="/assets/images/deployment-guide/amazon-web-service/selecting-os.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/3.selecting-os.png"
   width="100%"
   figure-number="3"
   caption="Selecting the Operating System"
 />
 
-4. In the next window, you can configure your Instance. However, we will leave it as it is. Just select the _**t2.Micro**_ for the **instance type** as in figure shown below and click “**Review and Launch**”.
+4. In the next window, you can configure your Instance. However, leave it as it is. Just select the _**t2.Micro**_ for the **instance type** as in figure 4 shown below and click “**Review and Launch**”.
 
 <rk-img
-  src="/assets/images/deployment-guide/amazon-web-service/select-instance-type.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/4.select-instance-type.png"
   width="100%"
   figure-number="4"
   caption="Selecting the Instance Type"
 />
 
-5. Confirm your choice and Launch. Security groups will be edited in the next section so you can go ahead and confirm your choice by pressing the “**Launch**” button as shown in Figure 5:
+5. Confirm your choice and Launch. Security groups will be edited in the next section so you can go ahead and confirm your choice by pressing the “**Launch**” button as shown in figure 5 below.
 
 <rk-img
-  src="/assets/images/deployment-guide/amazon-web-service/launch-instance-f.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/5.launch-instance-f.png"
   width="100%"
   figure-number="5"
   caption="Launching the Instance"
@@ -69,10 +69,10 @@ This section walks through the details on the steps on how to configure the free
 
 ### Accessing Instance via SSH
 
-In order to have an SSH session to the Instance, we need to create the appropriate access keys. Thus, after Launching you will see the window in Figure 6:
+To have an SSH session to the Instance, you nee to create the appropriate access keys. Thus, after Launching, you will see window the same as figure 6 below.
 
 <rk-img
-  src="/assets/images/deployment-guide/amazon-web-service/key-pair.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/6.key-pair.png"
   width="75%"
   figure-number="6"
   caption="Key pair creation"
@@ -81,7 +81,7 @@ In order to have an SSH session to the Instance, we need to create the appropria
 1. We will choose to "**Create a new key pair**" from the drop-down menu and give it an appropriate name. Finally, click the “**Download Key Pair**” button shown in Figure 7.
 
 <rk-img
-  src="/assets/images/deployment-guide/amazon-web-service/new-key-pair.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/7.new-key-pair.png"
   width="75%"
   figure-number="7"
   caption="Creating a new key pair"
@@ -96,7 +96,7 @@ In order to have an SSH session to the Instance, we need to create the appropria
 :::
 
 <rk-img
-  src="/assets/images/deployment-guide/amazon-web-service/instance-param.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/8.instance-param.png"
   width="100%"
   figure-number="8"
   caption="Instance Parameters"
@@ -104,10 +104,10 @@ In order to have an SSH session to the Instance, we need to create the appropria
 
 4. In order to have SSH access to the Instance we will use [**PuTTY**](https://www.putty.org/). Download and install it.
 
-5. In the **AWS Instance** page, mark your instance and click “**Connect**”. This will bring the instructions page out. We will follow the procedure as well.
+5. In the **AWS Instance** page, mark your instance and click “**Connect**”. This will bring the instructions page out. Follow the procedure as well.
 
 :::tip 📝 NOTE
- We first need to convert the keys from `.pem` format to `.ppk` format as this is what PuTTY is used for. This is done with PuTTYgen, which comes standard with the PuTTY package.
+Convert first the keys from `.pem` format to `.ppk` format as this is what PuTTY is used for. This is done with PuTTYgen, which comes standard with the PuTTY package.
 :::
 
 6. Run **PuTTYgen** (if you are using Windows, just type it in the start menu after installing PuTTY and you will find it).
@@ -115,7 +115,7 @@ In order to have an SSH session to the Instance, we need to create the appropria
 7. In the main window, select the **Type of key to generate** as **RSA** (should be the default choice). In older versions, it is named **SSH-2 RSA**.
 
 <rk-img
-  src="/assets/images/deployment-guide/amazon-web-service/puttygen.png"
+  src="/assets/images/deployment-guide/amazon-web-service/9.puttygen.png"
   width="75%"
   figure-number="9"
   caption="PuTTYgen main window"
@@ -123,29 +123,29 @@ In order to have an SSH session to the Instance, we need to create the appropria
 
 8. Press “**Load**” in order to select the key files generated by AWS (make sure to select **All Files (_._)** from the drop down menu as by default only **.ppk** files are shown
 
-9. After successfully loading the keys, you can save them in **.ppk** with the “**Save private key**” button. Use the same name as the original **.pem** file. The **ppk** extension will be added automatically. PuTTYgen displays a warning about saving the keys without a passphrase. Ignore it an choose **Yes.**
+9. After successfully loading the keys, you can save them in **.ppk** with the “**Save private key**” button. Use the same name as the original **.pem** file. The **ppk** extension will be added automatically. PuTTYgen displays a warning about saving the keys without a passphrase. Ignore it an choose **Yes**.
 
 :::tip 📝 NOTE
  A passphrase on a private key is an extra layer of protection. Even if your private key is discovered, it cannot be used without the passphrase. The downside to using a passphrase is that it makes automation harder because human intervention is needed to log on to an instance, or to copy files to an instance.
 :::
 
 <rk-img
-  src="/assets/images/deployment-guide/amazon-web-service/puttygen-public-key.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/10.puttygen-public-key.png"
   width="75%"
   figure-number="10"
   caption="PuTTYgen Saving the public key"
 />
 
-10. As your Private Key is now in the correct format, now you can create an SSH session with PuTTY. Open the client and select SSH
+10. As your Private Key is now in the correct format, now you can create an SSH session with PuTTY. Open the client and select SSH.
 
 <rk-img
-  src="/assets/images/deployment-guide/amazon-web-service/putty-main.png"
+  src="/assets/images/deployment-guide/amazon-web-service/11.putty-main.png"
   width="75%"
   figure-number="11"
   caption="PuTTY main window"
 />
 
-11. You need the correct **Host Name**. Take note of the Host  Name syntax provided below together with an example for a better understanding:
+11. You need the correct **Host Name**. Take note of the Host Name syntax provided below together with an example for a better understanding:
 
 ```
 user_name@public_dns_name
@@ -155,41 +155,43 @@ user_name@public_dns_name
     * **user_name**: ubuntu
     * **public_dns_name**: ec2-3-120-237-38.eu-central-1.compute.amazonaws.com
     * **Host name**: [ubuntu@ec2-3-120-237-38.eu-central-1.compute.amazonaws.com](mailto:ubuntu@ec2-3-120-237-38.eu-central-1.compute.amazonaws.com)
+    * To know more about "**public_dns___name**" , follow the instructions shown in figure 12.
+
 
 <rk-img
-  src="/assets/images/deployment-guide/amazon-web-service/putty-hostname.png"
+  src="/assets/images/deployment-guide/amazon-web-service/12.public-dns-name.jpg"
   width="75%"
   figure-number="12"
+  caption="Knowing your Public DNS Name"
+/>
+
+* Afterwhich, fill-in the corresponding Host Name as shown in Figure 13 below.
+
+<rk-img
+  src="/assets/images/deployment-guide/amazon-web-service/13.putty-hostname.png"
+  width="75%"
+  figure-number="13"
   caption="PuTTY main window with Host Name"
 />
 
-12. Now we need to tell PuTTY to use our keys. In the **Category panel** expand **Connections>SSH>Auth**. Click the “**Browse**” button and look for you **.ppk** file
+12. Now, you need to tell PuTTY to use the keys. In the **Category panel**, expand **Connections>SSH>Auth**. Click the “**Browse**” button and look for you **.ppk** file
 
 :::tip 📝 NOTE
- If you want to save this configuration for future use go back to the **Session** tab and enter a name in the **Saved Session** text box and click **Save**.
+ If you want to save this configuration for future use, go back to the **Session** tab and enter a name in the **Saved Session** text box and click **Save**.
 :::
 
 <rk-img
-  src="/assets/images/deployment-guide/amazon-web-service/putty-ssh-auth.png"
+  src="/assets/images/deployment-guide/amazon-web-service/14.putty-ssh-auth.png"
   width="75%"
-  figure-number="13"
+  figure-number="14"
   caption="PuTTY SSH Authentication"
 />
 
 13. Click the “**Open**” button to initiate the session. If this is your first time connecting, PuTTY will ask for confirmation (click **Yes**). You should see the command line window to your instance now.
 
 <rk-img
-  src="/assets/images/deployment-guide/amazon-web-service/putty-ssh-command.jpg"
+  src="/assets/images/deployment-guide/amazon-web-service/15.putty-ssh-command.png"
   width="75%"
-  figure-number="14"
+  figure-number="15"
   caption="PuTTY SSH Command line"
 />
-
-14. As a last step execute the commands in the text box below in order. This will make sure your Ubuntu is up to date:
-
-```
-sudo apt-get update
-```
-```
-sudo apt-get upgrade
-```
