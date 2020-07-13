@@ -41,7 +41,7 @@ The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and an
 
 ### Overview
 
-#### Circuit Board (Main Electronic Circuit Board)
+#### Circuit Board
 
 <rk-img
   src="/assets/images/datasheet/rak7258/board_overview.png"
@@ -59,7 +59,7 @@ The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and an
 
 ### Hardware
 
-#### Interfaces (Hardware Interfaces)
+#### Interfaces
 
 The hardware interfaces of RAK7258 Micro Gateway include DC 12V, ETH interface, Console interface, Reset key, USB port, Nano SIM slot, TF Card slot, six (6) Status indicator LEDs, LoRa® Antenna connector etc. as shown in the following figure.
 
@@ -70,6 +70,7 @@ The hardware interfaces of RAK7258 Micro Gateway include DC 12V, ETH interface, 
 />
 
 ##### Reset Key Functions
+
 The function of the **Reset** key is as follows:
 
 1. **Short press**: Restarts the Gateway
@@ -87,6 +88,8 @@ The status of the LEDs is described as below:
 | WLAN | AP Mode : <br>**ON**: WLAN is working<br>**Flash**: Data Transmitting and Receiving <br><br>STA Mode : <br>**Slow Flash (1Hz)**: Connection Disconnected <br>**ON**: Connection Successful <br>**Flash**: Data Receiving and Sending |
 
 #### Main Specifications
+
+The following table shows the available features and its corresponding specification of RAK7258 Micro Gateway:
 
 | Feature             | Specifications                                                                                                                                                                                                                                                                                                                         |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -109,7 +112,7 @@ The status of the LEDs is described as below:
 
 #### RF Specifications
 
-##### LoRa® Radio Specifications
+##### LoRa
 
 | Feature              | Specifications                                               |
 | -------------------- | ------------------------------------------------------------ |
@@ -117,7 +120,7 @@ The status of the LEDs is described as below:
 | Transmit Power       | 27 dBm (Max)                                                 |
 | Receiver Sensitivity | -142 dBm (Min)                                               |
 
-##### Wi-Fi Radio Specifications
+##### Wi-Fi
 
 | Feature                                                    | Specifications                                                                                                                                                                                                                                      |
 | ---------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -128,6 +131,12 @@ The status of the LEDs is described as below:
 | Receiver Sensitivity (Typical)                             | **802.11b** <br> • 1Mbps: 95dBm <br> • 11Mbps: 88dBm <br><br>**802.11g** <br> • 6Mbps: 90dBm <br> • 54Mbps: 75dBm <br><br>**802.11n(2.4G)** <br> • MCS0 (HT20): 89dBm <br> • MCS7(HT20): 72dBm <br> • MCS0(HT40): 86dBm <br> • MCS7(HT40): 68dBm    |
 
 ### Software
+
+#### Firmware
+
+| Model                  | Version                | Source                                                                                                             |
+| ---------------------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| RAK7258 Indoor Gateway | V1.1.0062_Release_r202 | **[Download](https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/Firmware/RAK7258_Latest_Firmware.zip)** |
 
 #### Software Features
 
