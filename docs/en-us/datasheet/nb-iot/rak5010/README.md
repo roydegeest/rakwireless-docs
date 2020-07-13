@@ -503,28 +503,6 @@ In order to support low power and long battery life, the active GPS antenna’s 
 
 #### Electrical Characteristics
 
-##### Schematic Diagram
-
-The component schematic diagram of the RAK5010 are shown below:
-
-<rk-img
-  src="/assets/images/datasheet/rak5010/schematic-diagram-part-1.png"
-  width="100%"
-  caption="Schematic Diagram Part 1"
-/>
-
-<rk-img
-  src="/assets/images/datasheet/rak5010/schematic-diagram-part-2.png"
-  width="100%"
-  caption="Schematic Diagram Part 2"
-/>
-
-<rk-img
-  src="/assets/images/datasheet/rak5010/schematic-diagram-part-3.png"
-  width="100%"
-  caption="Schematic Diagram Part 3"
-/>
-
 ##### Absolute Maximum Ratings
 
 Stresses above those listed as “**absolute maximum ratings**” may cause permanent damage to the device. This is a stress rating, functional operation of the device under these conditions is not advised. Exposure to maximum rating conditions may affect device reliability.
@@ -652,6 +630,28 @@ The table below lists the operation and storage temperature requirements:
 |  Extended Temp. Range   | -40 ˚C | +25 ºC  | +80 ˚C |
 |   Storage Temp. Range   | -40 ˚C | +25 ºC  | +80 ˚C |
 
+#### Schematic Diagram
+
+The component schematic diagram of the RAK5010 are shown below:
+
+<rk-img
+  src="/assets/images/datasheet/rak5010/schematic-diagram-part-1.png"
+  width="100%"
+  caption="Schematic Diagram Part 1"
+/>
+
+<rk-img
+  src="/assets/images/datasheet/rak5010/schematic-diagram-part-2.png"
+  width="100%"
+  caption="Schematic Diagram Part 2"
+/>
+
+<rk-img
+  src="/assets/images/datasheet/rak5010/schematic-diagram-part-3.png"
+  width="100%"
+  caption="Schematic Diagram Part 3"
+/>
+
 ### Software
 
 | Model     | Version  | Source                                                                                       |
@@ -667,7 +667,3 @@ The table below lists the operation and storage temperature requirements:
 | --------------- | ---------------------------- | ------------------------ | -------------------------------------------- | --------------------------------- | ---------------------------- | ------------------------- |
 | RAK5010         | ✓                            | ✓                        | ✓                                            | ✓                                 | ✓                            | ✓                         |
 | RAK5010-M       | ✓                            | ✓                        | ✓                                            | ✓                                 |                              |                           |
-
-## Certifications
-
-**No Certifications provided**
