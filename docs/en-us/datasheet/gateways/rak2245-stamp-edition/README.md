@@ -37,14 +37,13 @@ Overall, this gateway module is the most economical way to create different solu
 
 #### Board Overview
 
+The **RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module**, as shown in figure 1 below, has outer dimensions of **30.00 x 60.00 x 14.90 mm** (nominal value) which includes the 9.50 mm heat sink.
+
 <rk-img
   src="/assets/images/datasheet/rak2245-stamp/board-overview/roohsofgitzlzhbea2vz.jpg"
   width="60%"
   caption="RAK2245 Stamp Edition Board Dimension"
 />
-
-The outer dimension of the RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module is **30.00 x 60.00 x 14.90 mm** (nominal value) which includes the
-9.50 mm heat sink.
 
 #### Block Diagram
 
@@ -54,14 +53,14 @@ The outer dimension of the RAK2245 Stamp Edition - LPWAN Gateway Concentrator Mo
   caption="RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module Block Diagram"
 />
 
+### Hardware
+
+#### Interfaces
+
 The SX1301 digital baseband chip contains 10 programmable reception paths. These
 paths have different levels of programmability and has a variety of cases. It is
 important to understand the differences between those demodulation paths to make the
 best possible use from the system.
-
-### Hardware
-
-#### Interfaces
 
 ##### Power Supply
 
