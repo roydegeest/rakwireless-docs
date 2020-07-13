@@ -48,8 +48,6 @@ RAK833 LPWAN Gateway Concentrator Module is a complete and cost efficient gatewa
   caption="RAK833 LPWAN Gateway Block Diagram"
 />
 
-The RAK833 LPWAN Gateway Concentrator Module integrates one SX1301 chip, two SX1255/7 and other chip for RF signal, which represents the core of the device, providing the related LoRa® modem and processing functionalities. Additional signal conditioning circuitry is implemented for PCI Express Mini Card compliance, and one u.FL connectors are available for external antennas integration.
-
 ### Hardware
 
 #### Interfaces
