@@ -39,13 +39,13 @@ The RAK2245 Pi HAT is a complete and cost efficient gateway solution that can he
 
 #### Board Overview
 
+**RAK2245 Pi HAT Module** with Raspberry Pi connector is shown above, it has outer dimensions of **56.00 x 65.00 x 22.00 mm** (±2mm).
+
 <rk-img
   src="/assets/images/datasheet/rak2245-pihat/rak2245-dimensions.png"
   width="100%"
   caption="RAK2245 Pi Hat Dimensions"
 />
-
-**RAK2245 Pi HAT Module** with Raspberry Pi connector is shown above, it has outer dimensions of **56.00 x 65.00 x 22.00 mm** (±2mm).
 
 #### Block Diagram
 
@@ -55,16 +55,18 @@ The RAK2245 Pi HAT is a complete and cost efficient gateway solution that can he
   caption="RAK2245 Pi Hat Block Diagram"
 />
 
-The SX1301 digital baseband chip contains 10 programmable reception paths. Those
-paths have differentiated levels of programmability and allow different use cases. It is important to understand the differences between those demodulation paths to make the best possible use from the system.
-
 ### Hardware
 
 #### Interface
 
+The SX1301 digital baseband chip contains **ten (10) programmable reception paths**. Those
+paths have differentiated levels of programmability and allow different use cases. It is
+important to understand the differences between those demodulation paths to make the
+best possible use from the system.
+
 ##### Power Supply
 
-RAK2245 Pi HAT module is powered through 5V or 3.3V power pins.
+RAK2245 Pi HAT module is powered through **5V or 3.3V power pins**.
 
 ##### SPI Interface
 
@@ -86,7 +88,7 @@ There are two digital IO PINs, which give the user an interface to reset the GPS
 
 ##### LEDs
 
-3 x Green LED for indicating the status of PWR, TX, RX.
+There are **three (3) Green LED** that indicates the status of PWR, TX, RX.
 
 ##### Antenna RF Interface
 
