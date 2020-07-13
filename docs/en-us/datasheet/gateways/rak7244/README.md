@@ -276,7 +276,7 @@ The figure below shows the antenna's mechanical dimension.
 
 | Items                              | Specifications                 |
 | ---------------------------------- | ------------------------------ |
-| Voltage Standard Wave Radio (VSWR) | 1:1.5                          |
+| Voltage Standard Wave Radio (VSWR) | 1.5:1                          |
 | Gain                               | -2.0 dBi                       |
 | Working Temperature &amp; Humidity | T:-35 ºC ~ +80 ºC, H: 0% ~ 95% |
 | Storage Temperature &amp; Humidity | T:-40 ºC ~ +85 ºC, H: 0% ~ 95% |
