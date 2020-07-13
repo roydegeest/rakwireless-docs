@@ -73,18 +73,6 @@ The outer dimensions of the RAK831 are given by **80 mm x 50mm** with ± 0.2 mm 
 
 #### Block Diagram
 
-<rk-img
-  src="/assets/images/datasheet/rak831/block-diagram.png"
-  width="100%"
-  caption="RAK831 LPWAN Gateway Block Diagram"
-/>
-
-The SX1301 digital baseband chip contains ten (10) programmable reception paths. These paths have differentiated levels of programmability and allow different use cases. It is important to understand the differences between these demodulation paths to make the best possible use from the system.
-
-### Hardware
-
-#### Interfaces
-
 ##### SX1301
 
 The RAK831 includes Semtech’s SX1301 which is a digital baseband chip which includes a massive digital signal processing engine specifically designed to offer breakthrough gateway capabilities in the ISM bands worldwide. SX1301 integrates the LoRa® concentrator IP.
@@ -142,6 +130,10 @@ The unique multi data-rate multi-channel demodulation capacity SF7 to SF12 and o
   width="100%"
   caption="IF0 to IF7 LoRa® Channels"
 />
+
+### Hardware
+
+#### Interfaces
 
 ##### External Module Connector
 
@@ -488,16 +480,18 @@ At **T=25℃, VDD=5V(Typ.)** if nothing else stated
 
 #### Schematic Diagram
 
+The following images are the schematic diagram of the RAK831 LPWAN Gateway Concentrator:
+
 <rk-img
   src="/assets/images/datasheet/rak831/schematic-diagram1.png"
   width="100%"
-  caption="Schematic Diagram - 1"
+  caption="RAK831 Schematic Diagram"
 />
 
 <rk-img
   src="/assets/images/datasheet/rak831/schematic-diagram2.png"
   width="100%"
-  caption="Schematic Diagram - 2"
+  caption="RAK831 Schematic Diagram"
 />
 
 ### Software
