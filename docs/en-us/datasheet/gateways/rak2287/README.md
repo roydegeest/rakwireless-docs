@@ -6,7 +6,7 @@ tags:
 # RAK2287 WisLink- LPWAN Gateway Module
 
 <rk-img
-  :src="`${$frontmatter.static_root}/aprgtyyf6arxkxu7rjyl.jpg`"
+  src="/assets/images/datasheet/rak2287/overview/aprgtyyf6arxkxu7rjyl.jpg"
   width="50%"
   caption="RAK2287 WisLink- LPWAN Gateway Module"
 />
