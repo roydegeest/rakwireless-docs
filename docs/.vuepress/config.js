@@ -1,16 +1,4 @@
 module.exports = {
-  locales: {
-    '/en-us/': {
-      lang: 'en-US',
-      title: 'RAKwireless Document Center',
-      description: 'RAKwireless Knowledge Hub'
-    },
-    '/zh-cn/': {
-      lang: 'zh-CN',
-      title: 'RAKwireless Document Center',
-      description: 'RAKwireless Knowledge Hub'
-    }
-  },
   head: [
     ['link', {
       rel: 'icon',
@@ -25,24 +13,12 @@ module.exports = {
     docsBranch: 'master',
     editLinks: true,
     smoothScroll: true,
-    locales: {
-      '/en-us/': {
-        selectText: 'Languages',
-        label: 'English',
-        editLinkText: 'Edit this page in GitHub',
-        lastUpdated: 'Last Updated',
-        sidebar: require('./includes/sidebar/en-us'),
-        nav: require('./includes/nav/en-us')
-      },
-      '/zh-cn/': {
-        selectText: '选择语言',
-        label: '简体中文',
-        editLinkText: '在 GitHub 上编辑此页',
-        lastUpdated: '上次更新',
-        sidebar: require('./includes/sidebar/zh-cn'),
-        nav: require('./includes/nav/zh-cn')
-      }
-    },
+    selectText: 'Languages',
+    label: 'English',
+    editLinkText: 'Edit this page in GitHub',
+    lastUpdated: 'Last Updated',
+    sidebar: require('./includes/sidebar.js'),
+    nav: require('./includes/nav.js'),
     pageFooter: [
       '© 2014-2020 Shenzhen RAKwireless Technology Co., Ltd.',
       'All rights reserved. 粤ICP备16112976号'
