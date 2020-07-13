@@ -241,8 +241,22 @@ The dimensions of the RAK4260 WisDuo LPWAN Module is shown in the figures below.
 
 #### Recommended Reflow Profile
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus dolor at arcu pulvinar, vitae accumsan risus viverra. Mauris feugiat congue gravida. Curabitur ornare vulputate neque, vitae euismod urna varius tempor. Duis facilisis nulla purus, sed pharetra felis interdum a. In lacus arcu, commodo ut viverra eu, mollis eget massa. Pellentesque suscipit mi ac justo luctus viverra vitae ut ligula. Sed feugiat vitae est non convallis. Praesent quis laoreet sapien, sit amet mattis nisl.
+In this section, the recommended reflow profile for RAK4200 LPWAN Module is described in the image below:
 
+<rk-img
+  src="/assets/images/datasheet/rak4260/aiw6evgmx16cg83ry5oi.jpg"
+  width="75%"
+  caption="Recommended Reflow Profile"
+/>
+
+**Standard Conditions for Reflow Soldering**:
+
+- **Pre-heating Ramp** (A) (Initial temperature: 150℃): 1-2.5℃/sec; 
+- **Soaking Time** (T2) (150℃~180℃): 60sec-100sec;
+- **Peak Temperature** (G): 230~250℃;
+- **Reflow Time** (T3) (>220℃): 30~60 sec;
+- **Ramp-up Rate** (B): 0~2.5℃/ sec;
+- **Ramp-down Rate** (C): 1~3℃/ sec.
 #### Schematic Diagram
 
 <rk-img
