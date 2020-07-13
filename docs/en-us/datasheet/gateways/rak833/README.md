@@ -54,6 +54,10 @@ The RAK833 LPWAN Gateway Concentrator Module integrates one SX1301 chip, two SX1
 
 #### Interfaces
 
+##### GPS_PPS
+
+The RAK833 LPWAN Gateway Concentrator Module includes the GPS_PPS input for received packets time-stamped. It integrates **one (1) SX1301** chip, **two (2) SX1255/7**, and other chip for RF signal, which represents the core of the device, providing the related LoRa® modem and processing functionalities. Additional signal conditioning circuitry is implemented for PCI Express Mini Card compliance, and one u.FL connectors are available for external antennas integration.
+
 ##### Module supply input
 
 RAK833 LPWAN Gateway Concentrator Module must be supplied through the **3.3Vaux** pins by a DC power supply. The voltage must be stable, because during this operation the current drawn from 3.3Vaux can vary significantly based on the power consumption profile of the SX1301 chip (see [**SX1301 DS**](https://www.semtech.com/uploads/documents/sx1301.pdf) datasheet).
@@ -85,11 +89,9 @@ RAK833 LPWAN Gateway Concentrator Module includes the SPDT_SEL input for selecti
 - SPDT_SEL="H", USB Port Enable,
 - SPDT_SEL="L", SPI Port Enable.
 
-##### GPS_PPS
-
-RAK833 LPWAN Gateway Concentrator Module includes the GPS_PPS input for received packets time-stamped.
-
 #### Pin Definition
+
+The following table lists the pin numbers of RAK833 LPWAN Gateway Concentrator Module and its corresponding names and description. Refer to figure below for a pinout diagram.
 
 <rk-img
   src="/assets/images/datasheet/rak833/pinout.png"
@@ -154,17 +156,17 @@ RAK833 LPWAN Gateway Concentrator Module includes the GPS_PPS input for received
 
 #### RF Characteristics
 
-The following table gives typically sensitivity
+The following table shows the typical sensitivity
 level of the RAK833 LPWAN Gateway Concentrator Module:
 
 | Signal Bandwidth (kHz) | Spreading Factor | Sensitivity (dBm) |
-| :--------------------: | :--------------: | :---------------: |
-|          125           |        12        |      -136.5       |
-|          125           |        7         |       -124        |
-|          250           |        12        |       -136        |
-|          250           |        7         |       -123        |
-|          500           |        12        |       -134        |
-|          500           |        7         |       -120        |
+| ---------------------- | ---------------- | ----------------- |
+| 125                    | 12               | -136.5            |
+| 125                    | 7                | -124              |
+| 250                    | 12               | -136              |
+| 250                    | 7                | -123              |
+| 500                    | 12               | -134              |
+| 500                    | 7                | -120              |
 
 #### Electrical Characteristics
 
@@ -301,6 +303,16 @@ RAK833 LPWAN Gateway Concentrator Module refer Semtech’s reference design of S
   src="/assets/images/datasheet/rak833/rf-part-4-schematic-diagram.jpg"
   width="100%"
   caption="RF Part-4 Schematic Diagram"
+/>
+
+#### Reference Applications
+
+The figure below shows the minimum application schematic of the RAK833 LPWAN Gateway Concentrator Module which uses at least **3.3V/1A DC power source**. It can either connect through the SPI interface or USB interface to the main processor. If the SPI interface is chosen, **SPDT_SEL** should be connected to the ground (GND) otherwise, leave the pin open.
+
+<rk-img
+  src="/assets/images/datasheet/rak833/wtmebjc8oldgbqvdkyfb.png"
+  width="100%"
+  caption="Reference Minimum Schematic"
 />
 
 ### Software
