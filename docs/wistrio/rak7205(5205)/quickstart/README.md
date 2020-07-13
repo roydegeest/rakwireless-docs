@@ -1,5 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5205-7205/quick-start-guide
+rak_grp: quickstart
 ---
 
 # Prerequisites
@@ -19,12 +20,6 @@ Before going through each and every step in the installation guide of the RAK520
 2. Micro USB Cable
 3. Gateway in Range for Testing
 4. Windows PC
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak5205-lora-tracker"
-  label="Buy a RAK5205 / RAK7205 WisTrio LPWAN Tracker"
-  _blank
-/>
 
 ::: tip 📝 NOTE
 This device released by RAKWireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware burned or upgraded, please refer to the documentations below:

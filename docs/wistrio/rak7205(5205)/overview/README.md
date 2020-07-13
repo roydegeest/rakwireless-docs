@@ -1,29 +1,21 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5205-7205/overview
 rak_img: RAK5205.svg
-rak_grp: lora-node
+rak_grp: overview
 params:
   qlinks:
     learnMore:
-      - name: Projects
-        href: https://www.hackster.io/search?i=projects&q=RAK5205
       - name: Community
         href: https://forum.rakwireless.com/
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
       - name: Datasheet
-        href: /en-us/datasheet/rak5205/#rak5205-wistrio-lpwan-tracker
-      - name: Schematic Diagram
-        href: /en-us/datasheet/rak5205/#schematics
-      - name: RAK5205 3D Model (SMA Version)
-        href: https://downloads.rakwireless.com/LoRa/WisTrio-LoRa-RAK5205/Hardware_Specification/
-      - name : RAK5205 3D Model (iPEX Version)
-        href: https://downloads.rakwireless.com/LoRa/WisTrio-LoRa-RAK5205/Hardware_Specification/RAK5205-IPEX-3D-File.zip
-      - name: RAK5205 with Enclosure 3D Model
-        href: https://downloads.rakwireless.com/LoRa/WisTrio-LoRa-RAK5205/Hardware_Specification/RAK5205_with_Enclosure_3D-File.zip
-      - name: Downloads
-        href: https://downloads.rakwireless.com/LoRa/WisTrio-LoRa-RAK5205/
+        href: /wistrio/rak7205(5205)/datasheet/
+      - name: User Manual
+        href: /en-us/user-manual/
+      - name: Deployment Guide
+        href: /en-us/deployment-guide/
 ---
 
 # RAK7205/RAK5205 WisTrio LPWAN Tracker
@@ -42,8 +34,8 @@ The **RAK5205 LPWAN Tracker Board** is built on the Semtech SX1276 chip, with th
 This node module is ideal as a quick prototyping tool for LoRaWAN® applications. It is perfect for use case scenarios such as asset tracking, smart vehicle management and location-based services.
 
 <rk-btn
-  src="prerequisites.html"
-  label="Set up Your RAK5205 RAK5205 WisTrio LPWAN Tracker"
+  src="/wistrio/rak7205(5205)/quickstart/"
+  label="Get Started with RAK5205 WisTrio LPWAN Tracker"
 />
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />
@@ -59,3 +51,9 @@ This node module is ideal as a quick prototyping tool for LoRaWAN® applications
 - Rechargeable battery and solar panel connection ports
 - **Global LoRaWAN® bands supported** (EU433, CN470, IN865, EU868, US915, AU915, AS920, KR920, and AS923)
 - I2C, ADC, built-in UART converter
+
+<rk-btn
+  src="https://store.rakwireless.com/products/rak5205-lora-tracker"
+  label="Buy a RAK5205 / RAK7205 WisTrio LPWAN Tracker"
+  _blank
+/>

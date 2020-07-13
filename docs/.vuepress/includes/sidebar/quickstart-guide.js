@@ -336,14 +336,13 @@ module.exports = {
     }
 
   ],
-  '/en-us/quick-start-guide/nodes/rak811-evaluation/': [
+  '/wisduino/rak811-evaluation-board/quickstart/': [
     {
       title: 'Product Overview',
       collapsable: false,
       sidebarDepth: 2,
       children: [
-        '',
-        'prerequisites'
+        ''
       ]
     },
     {
@@ -356,7 +355,7 @@ module.exports = {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start-guide/nodes/rak811-evaluation/connecting-to-ttn/',
+          path: '/wisduino/rak811-evaluation-board/quickstart/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa-mode',
             'connecting-to-ttn/ttn-abp-mode'
@@ -366,7 +365,7 @@ module.exports = {
           title: "Connecting to ChirpStack",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start-guide/nodes/rak811-evaluation/connecting-to-chirpstack/',
+          path: '/wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/',
           children: [
             'connecting-to-chirpstack/chirpstack-otaa-mode',
             'connecting-to-chirpstack/chirpstack-abp-mode'
@@ -387,7 +386,7 @@ module.exports = {
           title: "Interfacing your RAK811 LPWAN Evaluation Board with Arduino Boards",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/nodes/rak811-evaluation/interfacing-with-arduino/',
+          path: '/wisduino/rak811-evaluation-board/quickstart/interfacing-with-arduino/',
           children: [
             'interfacing-with-arduino/hardware-interfacing',
             'interfacing-with-arduino/firmware-flashing',
@@ -679,14 +678,13 @@ module.exports = {
 
 
 
-  '/en-us/quick-start-guide/nodes/rak7204/': [
+  '/wisnode/rak7204/quickstart/': [
     {
       title: 'Product Overview',
       collapsable: false,
       sidebarDepth: 2,
       children: [
-        '',
-        'prerequisites'
+        ''
       ]
     },
     {
@@ -699,7 +697,7 @@ module.exports = {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start-guide/nodes/rak7204/connecting-to-ttn/',
+          path: '/wisnode/rak7204/quickstart/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa',
             'connecting-to-ttn/ttn-abp'
@@ -709,7 +707,7 @@ module.exports = {
           title: "Connecting to Chirpstack",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start-guide/nodes/rak7204/connecting-to-chirpstack/',
+          path: '/wisnode/rak7204/quickstart/connecting-to-chirpstack/',
           children: [
             'connecting-to-chirpstack/chirpstack-otaa',
             'connecting-to-chirpstack/chirpstack-abp'
@@ -782,14 +780,13 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/nodes/rak7205(5205)/': [
+  '/wistrio/rak7205(5205)/quickstart/': [
     {
       title: 'Product Overview',
       collapsable: false,
       sidebarDepth: 2,
       children: [
-        '',
-        'prerequisites'
+        ''
       ]
     },
     {
@@ -802,7 +799,7 @@ module.exports = {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start-guide/nodes/rak7205(5205)/connecting-to-ttn/',
+          path: '/wistrio/rak7205(5205)/quickstart/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa-mode',
             'connecting-to-ttn/ttn-abp-mode'
@@ -812,7 +809,7 @@ module.exports = {
           title: "Connecting to ChirpStack",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start-guide/nodes/rak7205(5205)/connecting-to-chirpstack/',
+          path: '/wistrio/rak7205(5205)/quickstart/connecting-to-chirpstack/',
           children: [
             'connecting-to-chirpstack/chirpstack-otaa-mode',
             'connecting-to-chirpstack/chirpstack-abp-mode'
@@ -835,14 +832,13 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/nodes/rak612/': [
+  '/wisnode/rak612/quickstart/': [
     {
       title: 'Product Overview',
       collapsable: false,
       sidebarDepth: 2,
       children: [
         '',
-        'prerequisites'
       ]
     },
     {
@@ -855,7 +851,7 @@ module.exports = {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start-guide/nodes/rak612/connecting-to-ttn/',
+          path: '/wisnode/rak612/quickstart/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa',
             'connecting-to-ttn/ttn-abp'
@@ -874,14 +870,13 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/nb-iot/rak5010/': [
+  '/wistrio/rak5010/quickstart/': [
     {
       title: 'Product Overview',
       collapsable: false,
       sidebarDepth: 2,
       children: [
-        '',
-        'prerequisites'
+        ''
       ]
     },
     {
