@@ -30,6 +30,37 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
 - **Operation temperature** -40°C to +85°C
 - Power supply 3.3 Volts to 5 Volts (power at solar panel connector P2).
 
+### Bluetooth
+
+- **Bluetooth 5.0**
+- Single chip,highly flexible, 2.4 GHz multi-protocol
+- **32-bit ARM Cortex-M4F Processor**
+- **512 kB flash + 64 kB RAM**
+- Supports concurrent Bluetooth low energy/ANT protocol operation
+- Up to +4 dBm output power
+- -96 dBm sensitivity, Bluetooth low energy
+- 2 data rates (2 Mbps/1 Mbps)
+- PPI-maximum flexibility for power-efficient applications and code simplification
+- Automated power management system with automatic power management of each peripheral
+- Configurable I/O mapping for analog and digital I/O  3 x Master/Slave SPI
+- 2 x Two-wire interface (I²C)
+- UART (RTS/CTS)
+- 3 x PWM
+- AES HW encryption
+- 12-bit ADC
+- Real Time Counter (RTC)
+- Digital microphone interface (PDM)
+- On-chip balun
+- (OTA) Over-the-Air firmware update
+
+### Applications
+
+- Vehicle location / fleet transportation management
+- Safety monitoring of old / young children
+- Animal protection and animal husbandry management
+- Loss of assets / personnel positioning
+- Other remote, battery powered applications
+
 ## Specifications
 
 ### Overview
@@ -87,6 +118,67 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
 | P5  | VCC33        | P        | VCC33                                     |
 | P5  | GND          |          | Ground                                    |
 
+#### General Specifications
+
+##### Overall Specification
+
+| **Model Name**            | RAK8212                                                                                                         |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| **Dimension**             | **L x W x H**: 43 mm x 38 mm x 18 mm                                                                            |
+| **Interface**             | Digital I/O, Analog input                                                                                       |
+| **Frequency Band**        | **Cat.M1/Cat.NB1:**<br>LTE FDD: B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B26/B28<br>LTE TDD: B39 (for Cat.M1 only) |
+|                           | **EGPRS:** 850/900/1800/1900MHz                                                                                 |
+| **Antenna Type**          | External antenna                                                                                                |
+| **Operating Temperature** | -40°C to +85°C                                                                                                  |
+| **Storage Temperature**   | -40°C to +85°C                                                                                                  |
+| **Power Supply**          | 3.5 Volts ~ 18 Volts                                                                                            |
+
+##### GPS Specification
+
+| **Feature**          | **Description**                                |
+| -------------------- | ---------------------------------------------- |
+| Navigation Satellite | GPS, GLONASS, BeiDou/Compass, Galileo and QZSS |
+| Protocols            | NMEA 0183                                      |
+
+##### GPRS Specification
+
+| **Feature**        | **Description**                                                                                                 |
+| ------------------ | --------------------------------------------------------------------------------------------------------------- |
+| Frequency Band     | **Cat.M1/Cat.NB1**:<br>LTE FDD: B1/B2/B3/B4/B5/B8/B12/B13/B18/B19/B20/B26/B28<br>LTE TDD: B39 (for Cat.M1 only) |
+|                    | **EGPRS**:<br>850/900/1800/1900MHz                                                                              |
+| Data rate          | **Cat.M1**:<br>Max. 375Kbps (DL), Max. 375Kbps (UL)                                                             |
+|                    | **Cat.NB1**:<br>Max. 32Kbps (DL), Max. 70Kbps (UL)                                                              |
+|                    | **GPRS**:<br>Max. 85.6Kbps (DL), Max. 85.6Kbps (UL                                                              |
+|                    | **EDGE**:<br>Max. 236.8Kbps (DL), Max. 236.8Kbps (UL)                                                           |
+| Message            | Send and receive point to point SMS                                                                             |
+|                    | Text and PDU mode                                                                                               |
+| Transmitting Power | Class 3 (23dBm±2.7dB) for LTE-FDD bands                                                                         |
+|                    | Class 3 (23dBm±2.7dB) for LTE-TDD bands                                                                         |
+|                    | Class 4 (33dBm±2dB) for GSM850                                                                                  |
+|                    | Class 4 (33dBm±2dB) for GSM900                                                                                  |
+|                    | Class 1 (30dBm±2dB) for DCS1800                                                                                 |
+|                    | Class 1 (30dBm±2dB) for PCS1900                                                                                 |
+|                    | Class E2 (27dBm±3dB) for GSM850 8-PSK                                                                           |
+|                    | Class E2 (27dBm±3dB) for GSM900 8-PSK                                                                           |
+|                    | Class E2 (26dBm±3dB) for DCS1800 8-PSK                                                                          |
+|                    | Class E2 (26dBm±3dB) for PCS1900 8-PSK                                                                          |
+| Sensitivity        | -103dBm @ LTE-TDD B39 3GPP                                                                                      |
+| Power              | Power Consumption under LTE Cat.M1 Network:                                                                     |
+|                    | **OFF State**                                                                                                   |
+|                    | Power down Leakage Current 8 µA                                                                                 |
+|                    | **Power Saving Mode**                                                                                           |
+|                    | PSM @Real Network 10.4 µA                                                                                       |
+|                    | **Standby State**                                                                                               |
+|                    | DRX=1.28s @Real Network 1.99 mA                                                                                 |
+|                    | **Active State**                                                                                                |
+|                    | 23dBm @Instrument 190 mA                                                                                        |
+|                    | 18dBm @Instrument 155 mA                                                                                        |
+|                    | 12dBm @Instrument 136 mA                                                                                        |
+|                    | 0dBm @Instrument 124 mA                                                                                         |
+|                    | Data Transfer @Real Network 99 mA                                                                               |
+|                    | Voice @Real Network 108 mA                                                                                      |
+| Protocol           | TCP/UDP/PPP                                                                                                     |
+
 #### RF Characteristics
 
 |                |                                                                                                       |
@@ -143,11 +235,3 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
 | --------- | -------- | ---------------------------------------------------------------------------------------------- |
 | RAK8212   | V3.0.0.8 | [Download](https://downloads.rakwireless.com/Cellular/RAK8212/Firmware/RAK8212_V3.0.0.8.rar)   |
 | RAK8212-M |          | [Download](https://downloads.rakwireless.com/Cellular/RAK8212/Firmware/RAK8212-M_V3.0.0.8.rar) |
-
-## Models / Bundles
-
-**No Order Information provided**
-
-## Certifications
-
-**No Certifications provided**
