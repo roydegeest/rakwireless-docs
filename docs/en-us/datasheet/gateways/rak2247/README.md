@@ -34,23 +34,23 @@ Despite its small size this is an 8 channel concentrator module. By integrating 
 
 #### Board Overview
 
+The outer dimension of the RAK2247 LPWAN Gateway Concentrator Module is **50.95 millimeters x 30.0 millimeters x 10.4 millimeters**. The board with top-side and bottom-side keep-out areas, and all other dimension is defined by PCI Express Mini Card Electromechanical Specification except for the card thickness. And the thickness 10.4 millimeters which includes the 8 millimeter heat sink.
+
 <rk-img
   src="/assets/images/datasheet/rak2247/board-overview-rak2247.jpg"
   width="100%"
   caption="RAK2247 LPWAN Gateway Concentrator Module Overview"
 />
 
-The outer dimension of the RAK2247 LPWAN Gateway Concentrator Module is **50.95 millimeters x 30.0 millimeters x 10.4 millimeters**. The board with top-side and bottom-side keep-out areas, and all other dimension is defined by PCI Express Mini Card Electromechanical Specification except for the card thickness. And the thickness 10.4 millimeters which includes the 8 millimeter heat sink.
-
 #### Block Diagram
+
+RAK2247 LPWAN Gateway Concentrator Module integrates one SX1301 chip and two SX1255/7. The other chip is for RF signal, which represents the core of the device. This provides the related LoRa® modem and processing functionalities. Additional signal conditioning circuitry is implemented for PCI Express Mini Card compliance, and one uFL connectors are available for external antennas integration.
 
 <rk-img
   src="/assets/images/datasheet/rak2247/block-diagram.png"
   width="100%"
   caption="RAK2247 LPWAN Gateway Concentrator Module Block Diagram"
 />
-
-RAK2247 LPWAN Gateway Concentrator Module integrates one SX1301 chip and two SX1255/7. The other chip is for RF signal, which represents the core of the device. This provides the related LoRa® modem and processing functionalities. Additional signal conditioning circuitry is implemented for PCI Express Mini Card compliance, and one uFL connectors are available for external antennas integration.
 
 ### Hardware
 
@@ -186,7 +186,9 @@ The following table gives typically sensitivity level of the RAK2247 LPWAN Gatew
 
 #### Electrical Requirements
 
-Exceeding the device's rating on one or more listed in the Absolute Maximum Rating section may cause permanent damage. These are stress ratings only. Operating the module at these or at any conditions other than those specified in the Operating Conditions sections of the specification should be avoided. Exposure to Absolute Maximum Rating conditions for extended periods may affect device reliability. The operating condition range define those limit within which the functionality of the device is guaranteed. Where application information is given, it is advisory only and does not form part of the specification.
+Exceeding the device's rating on one or more listed in the Absolute Maximum Rating section may cause permanent damage. These are stress ratings only.
+Operating the module at these or at any conditions other than those specified in the Operating Conditions sections of the specification should be avoided. Exposure to Absolute Maximum Rating conditions for extended periods may affect device reliability.
+The operating condition range define those limit within which the functionality of the device is guaranteed. Where application information is given, it is advisory only and does not form part of the specification.
 
 ##### Absolute Maximum Rating
 
@@ -255,14 +257,18 @@ Unless otherwise indicated, all operating condition specifications are at an amb
 
 #### Schematic Diagram
 
-<rk-img
-  src="/assets/images/datasheet/rak2247/schematic-1.png"
-  width="100%"
-  caption="Schematic Diagram Reference"
-/>
+RAK2247 card refers to Semtech's reference design of SX1301. The SPI interface or USB interface converts SPI to USB2.0 by FT2232H and can be used on PCIE connector.
 
 <rk-img
   src="/assets/images/datasheet/rak2247/schematic-2.png"
+  width="100%"
+  caption="RAK2247 Schematic Diagram"
+/>
+
+The figure below shows the minimum application schematic of the RAK2247 card. You should use it at least 3.3V / 1A DC power, connect the SPI interface or USB interface to the main processor.
+
+<rk-img
+  src="/assets/images/datasheet/rak2247/schematic-1.png"
   width="100%"
   caption="RAK2247 Card Minimum Schematic Reference"
 />
