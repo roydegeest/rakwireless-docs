@@ -73,6 +73,10 @@ The diagram below shows the internal architecture and external interfaces of RAK
   caption="RAK2013 Cellular Board"
 />
 
+### Hardware
+
+#### Interfaces
+
 It is built with **Quectel BG96/EG91/EG95 module** and compatible with **Raspberry Pi HAT**. It provides the following interfaces, headers, jumpers, button and connectors:
 
 - 40-pins Raspberry connector
@@ -92,10 +96,6 @@ It is built with **Quectel BG96/EG91/EG95 module** and compatible with **Raspber
 
 - LTE antenna
 - GPS/LTE DIV antenna
-
-### Hardware
-
-#### Interfaces
 
 ##### Micro-B USB Interface
 
@@ -394,32 +394,6 @@ The environmental test performance specifications are listed below:
 
 #### Electrical Characteristics
 
-##### Schematic Diagram
-
-The schematic diagram shows the power and MikroBus interface of RAK2013.
-
-<rk-img
-  src="/assets/images/datasheet/rak2013/power-and-mikrobus-interface.jpg"
-  width="100%"
-  caption="Power and MikroBus Interface"
-/>
-
-Here is the BG96 and Raspberry Interface of RAK2013:
-
-<rk-img
-  src="/assets/images/datasheet/rak2013/bg96-and-raspberry-interface.jpg"
-  width="100%"
-  caption="BG96 and Raspberry Interface"
-/>
-
-Below is the audio codec and amplifier schematics of RAK2013:
-
-<rk-img
-  src="/assets/images/datasheet/rak2013/audio-codec-and-amplifier.jpg"
-  width="100%"
-  caption="Audio Codec and Amplifier"
-/>
-
 ##### Power Requirements
 
 The RAK2013 board operates at 5 volts. It can be powered by micro USB with 5V or powered by the Raspberry Pi board though 40-pin connector. Be cautious because the current of RAK2013 is about 300mA for average when working in CAT- M1 mode, it can be reach to 2A for peak when working in GSM900 mode. So you must carefully evaluate your power adapter’s rating.
@@ -471,10 +445,28 @@ The table below lists the operation and storage temperature requirements:
 | Extended Temp. Range  | -40 ˚C |    -    | +80 ˚C |
 |  Storage Temp. Range  | -40 ˚C |    -    | +80 ˚C |
 
-## Models / Bundles
+#### Schematic Diagram
 
-**Not mentioned**
+The schematic diagram shows the power and MikroBus interface of RAK2013.
 
-## Certifications
+<rk-img
+  src="/assets/images/datasheet/rak2013/power-and-mikrobus-interface.jpg"
+  width="100%"
+  caption="Power and MikroBus Interface"
+/>
 
-**Not mentioned**
+Here is the BG96 and Raspberry Interface of RAK2013:
+
+<rk-img
+  src="/assets/images/datasheet/rak2013/bg96-and-raspberry-interface.jpg"
+  width="100%"
+  caption="BG96 and Raspberry Interface"
+/>
+
+Below is the audio codec and amplifier schematics of RAK2013:
+
+<rk-img
+  src="/assets/images/datasheet/rak2013/audio-codec-and-amplifier.jpg"
+  width="100%"
+  caption="Audio Codec and Amplifier"
+/>
