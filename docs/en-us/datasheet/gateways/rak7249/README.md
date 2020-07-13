@@ -209,6 +209,12 @@ on the mainboard.
 
 ### Software
 
+#### Firmware
+
+| Model   | Version                | Source                                                                                                          |
+| ------- | ---------------------- | --------------------------------------------------------------------------------------------------------------- |
+| RAK7249 | V1.1.0062_Release_r202 | **[Download](https://downloads.rakwireless.com/LoRa/DIY-Gateway-RAK7249/Firmware/RAK7249_Latest_Firmware.zip)** |
+
 #### Supported Software
 
 | LoRa                          | Network            | Management                                   |
