@@ -46,7 +46,7 @@ Thus, the **RAK7240 Outdoor LPWAN Gateway**, is suited for any use case scenario
 
 ### Overview
 
-#### Circuit Board (Board Overview)
+#### Circuit Board
 
 <rk-img
   src="/assets/images/datasheet/rak7240/circuit-board.png"
@@ -64,7 +64,7 @@ Thus, the **RAK7240 Outdoor LPWAN Gateway**, is suited for any use case scenario
 
 ### Hardware
 
-#### Interfaces (Hardware Interfaces)
+#### Interfaces
 
 The hardware interfaces of **RAK7240 Outdoor LPWAN Gateway** include five (5) antenna ports (LoRa®, LTE-DIV/LoRa2, LTE-MAIN, WiFi, and GPS), six (6) status indicator LEDs, TF Card and nano-SIM sockets, a console port, an Ethernet Port (PoE), and a ground pad, as shown in the following figure:
 
