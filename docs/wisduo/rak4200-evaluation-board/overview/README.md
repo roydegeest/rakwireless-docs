@@ -1,6 +1,6 @@
 ---
-rak_img: RAK4200-evaluation-board.svg
-rak_grp: lora-node
+rak_img: /assets/images/wisduo/rak4200-evaluation-board/overview/ebqbxdsu3iazrm9y4jp3.png
+rak_grp: wisnode
 params:
   qlinks1:
     learnMore:

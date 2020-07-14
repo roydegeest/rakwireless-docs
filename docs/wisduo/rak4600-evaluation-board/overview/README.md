@@ -1,7 +1,7 @@
 ---
-static_root: /assets/images/quick-start-guide/rak4600/1.overview
+static_root: /assets/images/wisduo/rak4600-evaluation-board/overview
 rak_img: RAK4600-evaluation-board.svg
-rak_grp: lora-node
+rak_grp: wisduo
 params:
   qlinks1:
     learnMore:

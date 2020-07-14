@@ -1,7 +1,8 @@
 ---
 sidebar: auto
-sidebarDepth: 4
+sidebarDepth: 3
 tags: + datasheet
+prev: ../overview
 ---
 
 # RAK4600 LPWAN Module Datasheet

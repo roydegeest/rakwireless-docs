@@ -2,6 +2,7 @@
 tags:
 - datasheet
 - wisduo
+prev: ../overview/
 ---
 # RAK4200 LPWAN Module Datasheet
 

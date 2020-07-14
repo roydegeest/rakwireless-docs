@@ -6,7 +6,6 @@ params:
     figureNumber: 1
     caption: RAK4200 LPWAN Evaluation Board
 prev: ../overview/
-tags: wisduo
 ---
 
 # Prerequisites

@@ -8,7 +8,8 @@ params:
         href: https://forum.rakwireless.com
       - name: Support
         href: mailto:fomi@rakwireless.com
-tags: wisduo
+rak_img: /assets/images/wisduo/rak4200-module/datasheet/overview.png
+rak_grp: wisnode
 ---
 # RAK4200 LPWAN Module
 
