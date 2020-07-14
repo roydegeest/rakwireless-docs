@@ -1,0 +1,1 @@
+<rk-redirect to="/wislink-lora/rak2245-stamp-edition/overview" />

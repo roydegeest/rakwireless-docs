@@ -1,6 +1,8 @@
 ---
 tags:
   - datasheet
+sidebar: auto
+sidebarDepth: 4
 ---
 
 # RAK2245 Pi Hat - LPWAN Gateway Concentrator Module

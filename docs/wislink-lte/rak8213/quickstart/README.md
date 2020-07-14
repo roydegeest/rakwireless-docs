@@ -1,0 +1,1 @@
+<rk-redirect to="/wislink-lte/rak8213/quickstart/prerequisites/" />

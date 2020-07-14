@@ -1,5 +1,7 @@
 ---
 tags: + datasheet
+sidebar: auto
+sidebarDepth: 4
 ---
 
 # RAK8213 WisLink NB-IoT Module

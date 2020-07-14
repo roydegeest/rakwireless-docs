@@ -1,6 +1,8 @@
 ---
 tags:
   - datasheet
+sidebar: auto
+sidebarDepth: 4
 ---
 
 # RAK2247 LPWAN Gateway Concentrator Module

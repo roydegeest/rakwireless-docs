@@ -639,20 +639,19 @@ module.exports = {
     }
   ],
 
-  
-  '/en-us/quick-start-guide/nb-iot/rak8213/': [
+
+  '/wislink-lte/rak8213/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
       collapsable: false,
-      sidebarDepth: 2,
+      sidebarDepth: 4,
       children: [
-        '',
         {
           title: "Prerequisites",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/nb-iot/rak8213/prerequisites/',
+          path: '/wislink-lte/rak8213/quickstart/prerequisites/',
           children: [
             'prerequisites/device-firmware-setup',
             'prerequisites/assembly-guide',
@@ -664,7 +663,7 @@ module.exports = {
     {
       title: 'Product Configuration',
       collapsable: false,
-      sidebarDepth: 2,
+      sidebarDepth: 4,
       children: [
         'connecting-to-network',
       ]

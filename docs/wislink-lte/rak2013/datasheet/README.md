@@ -1,5 +1,7 @@
 ---
 tags: + datasheet
+sidebar: auto
+sidebarDepth: 4
 ---
 
 # RAK2013 Cellular
