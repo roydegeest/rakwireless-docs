@@ -1,6 +1,6 @@
 ---
-next: /en-us/quick-start-guide/nodes/rak612/connecting-to-ttn/ttn-otaa
-prev: /en-us/quick-start-guide/nodes/rak612/interfacing-with-rak612
+next: /wisnode/rak612/quickstart/connecting-to-ttn/ttn-otaa.html
+prev: /wisnode/rak612/quickstart/interfacing-with-rak612.html
 ---
 
 # Connecting to The Things Network (TTN)

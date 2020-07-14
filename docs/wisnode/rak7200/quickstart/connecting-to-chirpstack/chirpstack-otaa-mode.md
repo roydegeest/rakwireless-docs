@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7200/chirpstack-otaa-mode
-prev: /en-us/quick-start-guide/nodes/rak7200/connecting-to-chirpstack/
+prev: /wisnode/rak7200/quickstart/connecting-to-chirpstack/
+next: /wisnode/rak7200/quickstart/connecting-to-chirpstack/chirpstack-abp-mode.html
 ---
 
 # OTAA Mode

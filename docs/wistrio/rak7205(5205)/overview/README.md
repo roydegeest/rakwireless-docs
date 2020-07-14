@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5205-7205/overview
 rak_img: RAK5205.svg
-rak_grp: overview
+rak_grp: wistrio
 params:
   qlinks:
     learnMore:
@@ -13,9 +13,9 @@ params:
       - name: Datasheet
         href: /wistrio/rak7205(5205)/datasheet/
       - name: User Manual
-        href: /en-us/user-manual/
+        href: /user-manual/
       - name: Deployment Guide
-        href: /en-us/deployment-guide/
+        href: /deployment-guide/
 ---
 
 # RAK7205/RAK5205 WisTrio LPWAN Tracker

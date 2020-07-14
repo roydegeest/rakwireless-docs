@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/interfacing-with-arduino
-prev: /en-us/quick-start-guide/nodes/rak811-evaluation/rui-online-compiler
-next: hardware-interfacing
+prev: /wisduino/rak811-evaluation-board/quickstart/rui-online-compiler.html
+next: /wisduino/rak811-evaluation-board/quickstart/interfacing-with-arduino/hardware-interfacing.html
 ---
 
 # Interfacing with Arduino Boards

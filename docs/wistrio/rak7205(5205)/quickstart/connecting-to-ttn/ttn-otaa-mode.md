@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5205-7205/ttn-otaa-mode
-prev: /en-us/quick-start-guide/nodes/rak7205(5205)/connecting-to-ttn/
-next: ttn-abp-mode
+prev: /wistrio/rak7205(5205)/quickstart/connecting-to-ttn/
+next: /wistrio/rak7205(5205)/quickstart/connecting-to-ttn/ttn-abp-mode.html
 ---
 
 # OTAA Mode

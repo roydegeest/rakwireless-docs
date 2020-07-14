@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/arduino-connection-guide
+prev: /wisduino/rak811-evaluation-board/quickstart/interfacing-with-arduino/firmware-flashing.html
+next: false
 ---
 
 # Arduino Connection Guides

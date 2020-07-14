@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7200/interfacing-with-rak7200
-next: /en-us/quick-start-guide/nodes/rak7200/connecting-to-ttn/
+prev: /wisnode/rak7200/quickstart/
+next: /wisnode/rak7200/quickstart/connecting-to-ttn/
 ---
 
 # Interfacing with RAK7200 LPWAN Tracker

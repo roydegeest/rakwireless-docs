@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/3.interfacing
-next: /en-us/quick-start-guide/nodes/rak7204/connecting-to-ttn/
+prev: /wisnode/rak7204/quickstart/
+next: /wisnode/rak7204/quickstart/connecting-to-ttn/
 ---
 
 # Interfacing with the RAK7204

@@ -1,5 +1,6 @@
 ---
-tags: + datasheet
+prev: /wistrio/rak5010/overview/
+next: false
 ---
 
 # RAK5010 WisTrio NB-IoT Tracker

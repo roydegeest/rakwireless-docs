@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak612/main
 rak_img: RAK612.svg
-rak_grp: overview
+rak_grp: wisnode
 params:
   qlinks1:
     learnMore:
@@ -13,9 +13,9 @@ params:
       - name: Datasheet
         href: http://docs.rakwireless.com/en/LoRa/RAK612-LoRaButton/Hardware-Specification/RAK_LB801%C2%A0LoRaButton%C2%A0Datasheet%C2%A0V1.0.pdf
       - name: User Manual
-        href: /en-us/user-manual/
+        href: /user-manual/
       - name: Deployment Guide
-        href: /en-us/deployment-guide/
+        href: /deployment-guide/
 ---
 # RAK612 LPWAN Button
 

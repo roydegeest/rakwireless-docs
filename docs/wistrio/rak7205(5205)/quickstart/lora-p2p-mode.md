@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5205-7205/lora-p2p-mode
+prev: /wistrio/rak7205(5205)/quickstart/cayenne-integration.html
+next: /wistrio/rak7205(5205)/quickstart/at-commands.html
 ---
 
 # LoRa® P2P Mode

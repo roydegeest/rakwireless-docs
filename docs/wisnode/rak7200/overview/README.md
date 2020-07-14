@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7200/overview
 rak_img: RAK7200.svg
-rak_grp: overview
+rak_grp: wisnode
 params:
   qlinks:
     learnMore:
@@ -13,9 +13,9 @@ params:
       - name: Datasheet
         href: /wisnode/rak7200/datasheet/#rak7200-lpwan-tracker
       - name: User Manual
-        href: /en-us/user-manual/
+        href: /user-manual/
       - name: Deployment Guide
-        href: /en-us/deployment-guide/
+        href: /deployment-guide/
 ---
 
 # RAK7200 LPWAN Tracker

@@ -1,6 +1,6 @@
 ---
-prev: /en-us/quick-start-guide/nodes/rak612/connecting-to-ttn/
-next: ttn-abp
+prev: /wisnode/rak612/quickstart/connecting-to-ttn/
+next: /wisnode/rak612/quickstart/connecting-to-ttn/ttn-abp.html
 ---
 
 # OTAA Mode

@@ -1,4 +1,15 @@
 module.exports = {
+  '/wisnode/rak7200/datasheet/': [
+    {
+      //title: 'RAK7200 LPWAN Tracker',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 4,
+      children: [
+        ''
+      ]
+    }
+  ],
   '/en-us/datasheet/': [
     {
       title: 'LPWAN Gateways',
@@ -39,7 +50,6 @@ module.exports = {
         '/en-us/datasheet/nodes/rak4600-breakout/',
         '/en-us/datasheet/nodes/rak4600-evaluation/',
         '/en-us/datasheet/nodes/rak7205(5205)/',
-        '/en-us/datasheet/nodes/rak7200/',
         '/en-us/datasheet/nodes/rak7204/',
         '/en-us/datasheet/nodes/rak7431/'
       ]

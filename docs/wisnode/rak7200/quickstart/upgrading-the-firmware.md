@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7200/upgrading-the-firmware
+prev: /wisnode/rak7200/quickstart/burning-the-bootloader.html
+next: false
 ---
 
 # Upgrading the Firmware

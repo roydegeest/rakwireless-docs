@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5010/2.quick-start-guide
-rak_grp: quickstart
+prev: /wistrio/rak5010/overview/
+next: /wistrio/rak5010/quickstart/checking-device-logs.html
 ---
 # Quick Start Guide
 

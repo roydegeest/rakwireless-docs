@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5205-7205/upgrading-the-firmware
+prev: /wistrio/rak7205(5205)/quickstart/burning-the-bootloader.html
+next: /wistrio/rak7205(5205)/quickstart/assembly-guide.html
 ---
 
 # Upgrading the Firmware

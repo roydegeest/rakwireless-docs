@@ -1,3 +1,8 @@
+---
+prev: /wisnode/rak612/quickstart/at-commands.html
+next: false
+---
+
 # Upgrading the Firmware
 
 Please use the the latest firmware for the RAK612 LPWAN Button in order to avoid potential problems. Installing the firmware for is done as follows:

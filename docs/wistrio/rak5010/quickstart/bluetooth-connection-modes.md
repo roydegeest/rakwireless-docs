@@ -1,3 +1,8 @@
+---
+prev: /wistrio/rak5010/quickstart/connecting-cellular-network.html
+next: /wistrio/rak5010/quickstart/burning-the-firmware.html
+---
+
 # Bluetooth Connection Modes
 
 There are three BLE modes in RAK5010 from the firmware V3.0.0.6 on, the **Peripheral Mode**, the **Central Mode** and the **Beacon Scan Mode**. You can change the work mode of RAK5010’s BLE using this command provided below which is defined [here](at-commands)

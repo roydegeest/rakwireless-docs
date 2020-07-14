@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/interfacing-with-rak811
-next: /en-us/quick-start-guide/nodes/rak811-evaluation/connecting-to-ttn/
+next: /wisduino/rak811-evaluation-board/quickstart/connecting-to-ttn/#connecting-to-the-things-network-ttn
 ---
 
 # Interfacing with RAK811 LPWAN Evaluation Board

@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/upgrading-the-firmware
+prev: /wisduino/rak811-evaluation-board/quickstart/at-commands.html
+next: /wisduino/rak811-evaluation-board/quickstart/rui-online-compiler.html
 ---
 
 # Upgrading the Firmware

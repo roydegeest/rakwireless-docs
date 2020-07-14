@@ -1,3 +1,8 @@
+---
+prev: /wisnode/rak612/quickstart/key-function-customizing.html
+next: /wisnode/rak612/quickstart/upgrading-the-firmware.html
+---
+
 # AT Commands for RAK612 LPWAN Button
 
 The purpose of this document is to demonstrate on how to configure the LPWAN Button thru the use of AT Commands via a Serial Port Tool running in your Windows PC. The list below shows the AT Commands available for use:

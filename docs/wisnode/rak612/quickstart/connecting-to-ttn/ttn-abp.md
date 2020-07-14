@@ -1,5 +1,6 @@
 ---
-next: /en-us/quick-start-guide/nodes/rak612/key-function-customizing.html
+prev: /wisnode/rak612/quickstart/connecting-to-ttn/ttn-otaa.html
+next: /wisnode/rak612/quickstart/key-function-customizing.html
 ---
 
 # ABP Mode

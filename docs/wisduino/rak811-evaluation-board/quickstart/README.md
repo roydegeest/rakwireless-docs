@@ -1,13 +1,14 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/quick-start-guide
-rak_grp: quickstart
+prev: /wisduino/rak811-evaluation-board/overview/
+next: /wisduino/rak811-evaluation-board/quickstart/interfacing-with-rak811.html
 ---
 
-# Prerequisites
+# Quick Start Guide
 
 <rk-img
   :src="`${$frontmatter.static_root}/bv4v5828qbdlkrann1xt.jpg`"
-  width="70%"
+  width="50%"
   figure-number="1"
   caption="RAK811 LPWAN Evaluation Board"
 />
@@ -24,7 +25,7 @@ Before going through each and every step in the installation guide of the RAK811
 ::: tip 📝 NOTE
 The bootloader of the RAK811 LPWAN Evaluation Board is already pre-installed upon manufacturing so flashing the bootloader is not necessary for you to perform. If you find that the bootloader of your RAK811 LPWAN Evaluation Board damaged, kindly contact our support though our [RAKwireless forum](https://forum.rakwireless.com/). However, if you want to upgrade the firmware of the device, please refer to the documentation below:
 
-1. [Firmware Upgrading](/en-us/quick-start-guide/nodes/rak811-evaluation/upgrading-the-firmware.html)
+1. [Firmware Upgrading](/wisduino/rak811-evaluation-board/quickstart/upgrading-the-firmware.html)
    :::
 
 ### What's included in the package?

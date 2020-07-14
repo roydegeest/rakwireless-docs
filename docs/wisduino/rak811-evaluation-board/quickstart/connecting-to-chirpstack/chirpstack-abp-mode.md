@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/chirpstack-abp-mode
+prev: /wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/chirpstack-otaa-mode.html
+next: /wisduino/rak811-evaluation-board/quickstart/lora-p2p-mode.html
 ---
 
 # ABP Mode

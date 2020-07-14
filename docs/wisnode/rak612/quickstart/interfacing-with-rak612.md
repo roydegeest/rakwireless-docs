@@ -1,5 +1,6 @@
 ---
-next: /en-us/quick-start-guide/nodes/rak612/connecting-to-ttn/
+prev: /wisnode/rak612/quickstart/
+next: /wisnode/rak612/quickstart/connecting-to-ttn/
 ---
 
 # Interfacing with RAK612 LPWAN Button

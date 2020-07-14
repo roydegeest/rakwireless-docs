@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/lora-p2p-mode
+prev: /wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/chirpstack-abp-mode.html
+next: /wisduino/rak811-evaluation-board/quickstart/at-commands.html
 ---
 
 # LoRa® P2P Mode

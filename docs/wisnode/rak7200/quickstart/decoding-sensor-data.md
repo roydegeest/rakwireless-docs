@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7200/decoding-sensor-data
+prev: /wisnode/rak7200/quickstart/connecting-to-chirpstack/chirpstack-abp-mode.html
+next: /wisnode/rak7200/quickstart/at-commands.html
 ---
 
 # Decoding Sensor Data on ChirpStack and TTN

@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/8.lorap2p-mode/
+prev: /wisnode/rak7204/quickstart/decoding-ttn.html
+next: /wisnode/rak7204/quickstart/at-commands.html
 ---
 # Lora® P2P Mode
 

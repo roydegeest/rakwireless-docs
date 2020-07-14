@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/configuring-your-rak811
+prev: /wisduino/rak811-evaluation-board/quickstart/lora-p2p-mode.html
+next: /wisduino/rak811-evaluation-board/quickstart/upgrading-the-firmware.html
 ---
 
 # AT Commands for RAK811 LPWAN Evaluation Board

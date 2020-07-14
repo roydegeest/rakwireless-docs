@@ -1,9 +1,10 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5205-7205/quick-start-guide
-rak_grp: quickstart
+prev: /wistrio/rak7205(5205)/overview/
+next: /wistrio/rak7205(5205)/quickstart/interfacing-with.html
 ---
 
-# Prerequisites
+# Quick Start Guide
 
 <rk-img
   :src="`${$frontmatter.static_root}/lzqkvgwzjeol3o5no5ej.jpg`"

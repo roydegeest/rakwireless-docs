@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5010/1.overview
 rak_img: RAK5010.svg
-rak_grp: overview
+rak_grp: wistrio
 params:
   qlinks:
     learnMore:
@@ -13,9 +13,9 @@ params:
       - name: Datasheet
         href: /wistrio/rak5010/datasheet/
       - name: User Manual
-        href: /en-us/user-manual/
+        href: /user-manual/
       - name: Deployment Guide
-        href: /en-us/deployment-guide/
+        href: /deployment-guide/
 ---
 
 # RAK5010 WisTrio NB-IoT Tracker

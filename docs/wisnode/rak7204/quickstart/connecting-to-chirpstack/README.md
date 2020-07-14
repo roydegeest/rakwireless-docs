@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/6.connecting-to-chirpstack/
-prev: /en-us/quick-start-guide/nodes/rak7204/connecting-to-ttn/ttn-abp
-next: chirpstack-otaa
+prev: /wisnode/rak7204/quickstart/connecting-to-ttn/ttn-abp.html
+next: /wisnode/rak7204/quickstart/connecting-to-chirpstack/chirpstack-otaa.html
 ---
 
 ### Connecting to ChirpStack

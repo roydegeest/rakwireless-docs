@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7200/burning-the-bootloader
+prev: /wisnode/rak7200/quickstart/at-commands.html
+next: /wisnode/rak7200/quickstart/upgrading-the-firmware.html
 ---
 
 # Burning the Bootloader

@@ -714,10 +714,8 @@ module.exports = {
           ]
         },
         'decoding-ttn',
-        'lora-p2p-mode',
-
+        'lora-p2p-mode'
       ],
-
     },
     {
       title: 'Miscellaneous',

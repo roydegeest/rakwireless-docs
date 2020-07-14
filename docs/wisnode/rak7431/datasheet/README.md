@@ -1,5 +1,6 @@
 ---
-rak_grp: datasheet
+prev: /wisnode/rak7431/overview/
+next: false
 ---
 
 # RAK7431 - RS485 to LoRaWAN® Converter

@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/overview
-rak_img: RAK811-wisnode.svg
-rak_grp: overview
+rak_img: /assets/images/quick-start-guide/rak811/overview/RAK811-wisnode.svg
+rak_grp: wisduino
 params:
   qlinks:
     learnMore:
@@ -15,16 +15,16 @@ params:
       - name: Certification Reports
         href: /wisduino/rak811-evaluation-board/datasheet/#certifications
       - name: User Manual
-        href: /en-us/user-manual/
+        href: /user-manual/
       - name: Deployment Guide
-        href: /en-us/deployment-guide/
+        href: /deployment-guide/
 ---
 
 # RAK811 LPWAN Evaluation Board
 
 <rk-img
   :src="`${$frontmatter.static_root}/o5qqux3jaeyiiuosw0qi.jpg`"
-  width="75%"
+  width="60%"
   figure-number="1"
   caption="RAK811 LPWAN Evaluation Board"
 />
@@ -36,7 +36,7 @@ The **RAK811 LPWAN Evaluation Board** is a development board which comes in an A
 The module integrates the **Semtech SX1276** and a **STM32 Chip** that comes along with a firmware which comes with AT command support. It is easy to configure via the Micro USB and connects with LoRaWAN® Network Server in just a couple of minutes. Now, Rapid testing is made easy.
 
 <rk-btn
-  src="/wisduino/rak811-evaluation-board/quickstart/"
+  src="/wisduino/rak811-evaluation-board/quickstart/#quick-start-guide"
   label="Get Started with RAK811 LPWAN Evaluation Board"
 />
 

@@ -1,5 +1,6 @@
 ---
-rak_grp: datasheet
+prev: /wisduino/rak811-evaluation-board/overview/
+next: false
 ---
 
 # RAK811 LPWAN Module

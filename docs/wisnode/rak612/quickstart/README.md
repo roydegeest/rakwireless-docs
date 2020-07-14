@@ -1,5 +1,6 @@
 ---
-rak_grp: quickstart
+prev: /wisnode/rak612/overview/
+next: /wisnode/rak612/quickstart/interfacing-with-rak612.html
 ---
 
 # Quick Start Guide

@@ -1,5 +1,6 @@
 ---
-rak_grp: datasheet
+prev: /wistrio/rak7205(5205)/overview/
+next: false
 ---
 
 # RAK5205 WisTrio LPWAN Tracker

@@ -1,3 +1,8 @@
+---
+prev: /wisnode/rak612/quickstart/connecting-to-ttn/ttn-abp.html
+next: /wisnode/rak612/quickstart/at-commands.html
+---
+
 # Key Functions Customizing
 
 This document walks through the step-by-step discussion on how to customize each key functions of the RAK612 LPWAN Button. For you to enable the message customization, you must at least have the 2.0.2.1.2 firmware version. 

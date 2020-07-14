@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/rui-online-compiler
-next: interfacing-with-arduino/
+prev: /wisduino/rak811-evaluation-board/quickstart/upgrading-the-firmware.html
+next: /wisduino/rak811-evaluation-board/quickstart/interfacing-with-arduino/
 ---
 
 # RUI Online Compiler

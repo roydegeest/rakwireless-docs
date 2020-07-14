@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5205-7205/decoding-sensor-data
+prev: /wistrio/rak7205(5205)/quickstart/connecting-to-chirpstack/chirpstack-abp-mode.html
+next: /wistrio/rak7205(5205)/quickstart/cayenne-integration.html
 ---
 
 # Decoding Sensor Data on ChirpStack and TTN

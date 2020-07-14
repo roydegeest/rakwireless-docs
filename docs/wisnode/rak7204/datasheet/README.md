@@ -1,5 +1,6 @@
 ---
-rak_grp: datasheet
+prev: /wisnode/rak7204/overview/
+next: false
 ---
 
 # RAK7204 LPWAN Environmental Sensor

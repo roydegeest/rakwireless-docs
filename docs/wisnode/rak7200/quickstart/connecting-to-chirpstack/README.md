@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7200/connecting-to-chirpstack
-prev: /en-us/quick-start-guide/nodes/rak7200/connecting-to-ttn/ttn-abp-mode
-next: chirpstack-otaa-mode
+prev: /wisnode/rak7200/quickstart/connecting-to-ttn/ttn-abp-mode.html
+next: /wisnode/rak7200/quickstart/connecting-to-chirpstack/chirpstack-otaa-mode.html
 ---
 
 ### Connecting to ChirpStack

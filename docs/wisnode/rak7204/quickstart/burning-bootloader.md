@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/9.burning-bootloader/
+prev: /wisnode/rak7204/quickstart/at-commands.html
+next: /wisnode/rak7204/quickstart/burning-firmware.html
 ---
 #  Burning the Bootloader
 :::tip 📝 NOTE:

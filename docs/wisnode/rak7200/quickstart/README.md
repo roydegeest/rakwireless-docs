@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7200/quick-start-guide
-rak_grp: quickstart
+prev: /wisnode/rak7200/overview/
+next: /wisnode/rak7200/quickstart/interfacing-with-rak7200.html
 ---
 
 # Quick Start Guide

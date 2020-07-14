@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5205-7205/cayenne-integration
+prev: /wistrio/rak7205(5205)/quickstart/decoding-sensor-data.html
+next: /wistrio/rak7205(5205)/quickstart/lora-p2p-mode.html
 ---
 
 # Cayenne Integration

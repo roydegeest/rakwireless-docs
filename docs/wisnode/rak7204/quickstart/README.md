@@ -1,9 +1,11 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/2.quick-start-guide
-rak_grp: quickstart
+prev: /wisnode/rak7204/overview/
+next: /wisnode/rak7204/quickstart/interfacing.html
 ---
 
-# Prerequisites
+# Quick Start Guide
+
 <rk-img
   :src="`${$frontmatter.static_root}/s9kfxgy3q8qiuydxxkrk.jpg`"
   width="70%"

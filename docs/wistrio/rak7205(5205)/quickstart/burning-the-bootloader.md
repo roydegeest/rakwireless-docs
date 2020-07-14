@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak5205-7205/burning-the-bootloader
+prev: /wistrio/rak7205(5205)/quickstart/at-commands.html
+next: /wistrio/rak7205(5205)/quickstart/upgrading-the-firmware.html
 ---
 
 # Burning Bootloader into the Device

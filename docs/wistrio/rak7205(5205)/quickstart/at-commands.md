@@ -1,3 +1,8 @@
+---
+prev: /wistrio/rak7205(5205)/quickstart/lora-p2p-mode.html
+next: /wistrio/rak7205(5205)/quickstart/burning-the-bootloader.html
+---
+
 # AT Commands for RAK5205 WisTrio LPWAN Tracker
 
 The purpose of this document is to demonstrate on how to configure the RAK5205 LPWAN Tracker thru the use of AT Commands via a Serial Port Tool running in your Windows PC. The list below shows the AT Commands available for use:

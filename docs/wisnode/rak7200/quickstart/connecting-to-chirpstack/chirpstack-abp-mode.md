@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7200/chirpstack-abp-mode
+prev: /wisnode/rak7200/quickstart/connecting-to-chirpstack/chirpstack-otaa-mode.html
+next: /wisnode/rak7200/quickstart/decoding-sensor-data.html
 ---
 
 # ABP Mode

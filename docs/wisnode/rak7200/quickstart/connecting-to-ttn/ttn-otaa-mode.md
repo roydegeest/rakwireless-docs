@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7200/ttn-otaa-mode
-prev: /en-us/quick-start-guide/nodes/rak7200/connecting-to-ttn/
+prev: /wisnode/rak7200/quickstart/connecting-to-ttn/
+next: /wisnode/rak7200/quickstart/connecting-to-ttn/ttn-abp-mode.html
 ---
 
 # OTAA Mode

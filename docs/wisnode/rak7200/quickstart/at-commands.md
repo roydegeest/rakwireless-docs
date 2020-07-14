@@ -1,4 +1,7 @@
-
+---
+prev: /wisnode/rak7200/quickstart/decoding-sensor-data.html
+next: /wisnode/rak7200/quickstart/burning-the-bootloader.html
+---
 
 # AT Commands for RAK7200 LPWAN Tracker
 

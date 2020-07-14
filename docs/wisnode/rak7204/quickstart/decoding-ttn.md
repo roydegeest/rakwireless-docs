@@ -1,5 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7204/7.decoding-ttn/
+previous: /wisnode/rak7204/quickstart/connecting-to-chirpstack/chirpstack-abp.html
+next: /wisnode/rak7204/quickstart/lora-p2p-mode.html
 ---
 # Decoding Sensor Data on ChirpStack and TTN
 

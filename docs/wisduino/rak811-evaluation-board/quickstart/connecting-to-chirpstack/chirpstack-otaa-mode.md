@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/chirpstack-otaa-mode
-prev: /en-us/quick-start-guide/nodes/rak811-evaluation/connecting-to-chirpstack/
+prev: /wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/
+next: /wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/chirpstack-abp-mode.html
 ---
 
 # OTAA Mode

@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7200/connecting-to-ttn
-next: /en-us/quick-start-guide/nodes/rak7200/connecting-to-ttn/ttn-otaa-mode
-prev: /en-us/quick-start-guide/nodes/rak7200/interfacing-with-rak7200
+next: /wisnode/rak7200/quickstart/connecting-to-ttn/ttn-otaa-mode.html
+prev: /wisnode/rak7200/quickstart/interfacing-with-rak7200.html
 ---
 
 # Connecting to The Things Network

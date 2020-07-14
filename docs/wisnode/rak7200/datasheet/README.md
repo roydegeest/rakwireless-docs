@@ -1,5 +1,6 @@
 ---
-rak_grp: datasheet
+prev: /wisnode/rak7200/overview/
+next: false
 ---
 
 # RAK7200 LPWAN Tracker
@@ -65,7 +66,7 @@ The RAK7200 device provides three external interfaces, as shown in the following
 
 - **Micro USB** - 5V DC power supply and UART communication.
 - **Reset Button** - Used to reset the RAK7200 LPWAN Tracker. Press the Reset Button for more than 1 second, then the device will be reset.
-- **BOOT0 Button -** When upgrading the firmware, you need to hold the BOOT0 Button, and then press the reset button to enter the boot mode. More information can be found here in the [RAK7200 LPWAN Tracker](/en-us/quick-start-guide/nodes/rak7200/#rak7200-lpwan-tracker) documentation.
+- **BOOT0 Button -** When upgrading the firmware, you need to hold the BOOT0 Button, and then press the reset button to enter the boot mode. More information can be found here in the [RAK7200 LPWAN Tracker](wisnode/rak7200/quickstart/) documentation.
 
 ##### LEDs
 

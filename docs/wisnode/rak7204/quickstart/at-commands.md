@@ -1,3 +1,8 @@
+---
+prev: /wisnode/rak7204/quickstart/lora-p2p-mode.html
+next: /wisnode/rak7204/quickstart/burning-bootloader.html
+---
+
 # AT Commands for RAK7204 LPWAN Environmental Sensor
 
 You can configure your RAK7204 Environmental Sensor by sending AT Commands via a Serial port tool running on your PC. The following list shows the AT Commands that you can use:

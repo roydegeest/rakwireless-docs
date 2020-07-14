@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/ttn-abp-mode
-next: /en-us/quick-start-guide/nodes/rak811-evaluation/connecting-to-chirpstack/
+prev: /wisduino/rak811-evaluation-board/quickstart/connecting-to-ttn/ttn-otaa-mode.html
+next: /wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/
 ---
 
 # ABP Mode

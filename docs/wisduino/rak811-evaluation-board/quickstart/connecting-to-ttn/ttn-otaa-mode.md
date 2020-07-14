@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/quick-start-guide/rak811/ttn-otaa-mode
-prev: /en-us/quick-start-guide/nodes/rak811-evaluation/connecting-to-ttn/
+prev: /wisduino/rak811-evaluation-board/quickstart/connecting-to-ttn/
+next: /wisduino/rak811-evaluation-board/quickstart/connecting-to-ttn/ttn-abp-mode.html
 ---
 
 # OTAA Mode
