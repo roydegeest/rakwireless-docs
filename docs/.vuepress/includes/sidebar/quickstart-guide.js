@@ -189,19 +189,17 @@ module.exports = {
     }
   ],
 
-  '/en-us/quick-start-guide/gateways/rak2287/': [
+  '/wislink-lora/rak2287/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
       collapsable: false,
-      sidebarDepth: 2,
+      sidebarDepth: 4,
       children: [
-        '',
         {
           title: "Prerequisites",
-          nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak2287/prerequisites/',
+          path: '/wislink-lora/rak2287/quickstart/prerequisites/',
           children: [
             'prerequisites/device-firmware',
             'prerequisites/assembly-guide',
@@ -223,15 +221,14 @@ module.exports = {
     }
   ],
 
-  '/en-us/quick-start-guide/gateways/rak2247/': [
+  '/wislink-lora/rak2247/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
       collapsable: false,
-      sidebarDepth: 1,
+      sidebarDepth: 4,
       children: [
-        '',
-        'quick-start-guide'
+        ''
       ]
     },
     {
@@ -244,15 +241,14 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/gateways/rak2245-pi-hat-edition/': [
+  '/wislink-lora/rak2245-pi-hat-edition/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
       collapsable: false,
-      sidebarDepth: 2,
+      sidebarDepth: 4,
       children: [
-        '',
-        'quick-start-guide'
+        ''
       ]
     },
     {
@@ -264,7 +260,7 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak2245-pi-hat-edition/accessing-your-gateway/',
+          path: '/wislink-lora/rak2245-pi-hat-edition/quickstart/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]
@@ -275,14 +271,13 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/gateways/rak2245-stamp-edition/': [
+  '/wislink-lora/rak2245-stamp-edition/quickstart/': [
     {
       title: 'Product Overview',
       collapsable: false,
-      sidebarDepth: 2,
+      sidebarDepth: 4,
       children: [
-        '',
-        'quick-start-guide'
+        ''
       ]
     },
     {
@@ -294,7 +289,7 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak2245-stamp-edition/accessing-your-gateway/',
+          path: '/wislink-lora/rak2245-stamp-edition/quickstart/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]

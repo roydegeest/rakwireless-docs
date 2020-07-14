@@ -6,7 +6,7 @@ tags:
 # RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module
 
 <rk-img
-  :src="`${$frontmatter.static_root}/r8b1kuz7nsyovmac80kq.png`"
+  src="/assets/images/datasheet/rak2245-stamp/r8b1kuz7nsyovmac80kq.png"
   width="60%"
   caption="RAK2245 Stamp Edition"
 />
