@@ -298,7 +298,7 @@ The specifications and parameter of the antenna are shown below:
             <td>2170</td>
         </tr>
         <tr>
-            <td>Voltage Standard Wave Radio (VSWR)</td>
+            <td>Voltage Standard Wave Ratio (VSWR)</td>
             <td>9.3</td>
             <td>4.6</td>
             <td>3.6</td>

@@ -276,7 +276,7 @@ The figure below shows the antenna's mechanical dimension.
 
 | Items                              | Specifications                 |
 | ---------------------------------- | ------------------------------ |
-| Voltage Standard Wave Radio (VSWR) | 1.5:1                          |
+| Voltage Standard Wave Ratio (VSWR) | 1.5:1                          |
 | Gain                               | -2.0 dBi                       |
 | Working Temperature &amp; Humidity | T:-35 ºC ~ +80 ºC, H: 0% ~ 95% |
 | Storage Temperature &amp; Humidity | T:-40 ºC ~ +85 ºC, H: 0% ~ 95% |
@@ -304,7 +304,7 @@ The LTE antenna for the Developer Gateway covers working frequency band from 824
 | Items                              | Specifications                                 |
 | ---------------------------------- | ---------------------------------------------- |
 | Frequency (MHz)                    | 700 / 800 / 880 / 960 / 1710 / 1880 / 2170     |
-| Voltage Standard Wave Radio (VSWR) | 9.3 / 4.6 / 3.6 / 4.9 / 9.3 / 4.4 / 15         |
+| Voltage Standard Wave Ratio (VSWR) | 9.3 / 4.6 / 3.6 / 4.9 / 9.3 / 4.4 / 15         |
 | Gain (dBi)                         | 1.63 / 1.84 / 1.96 / 2.23 / 0.03 / 0.01 / 1.97 |
 | Working Temperature &amp; Humidity | T:-35 ºC ~ +80 ºC, H: 0% ~ 95%                 |
 | Storage Temperature &amp; Humidity | T:-40 ºC ~ +85 ºC, H: 0% ~ 95%                 |

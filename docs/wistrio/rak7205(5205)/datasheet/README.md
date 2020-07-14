@@ -245,7 +245,7 @@ Here is the iPEX LoRa® Antenna Interface:
 
 | Items                              | Specifications                 |
 | ---------------------------------- | ------------------------------ |
-| VSWR (Voltage Standard Wave Radio) | 1.5:1                          |
+| VSWR (Voltage Standard Wave Ratio) | 1.5:1                          |
 | Gain                               | 2.0 dBm                        |
 | Working Temperature &amp; Humidity | T:-35 °C ~ +80 °C, H: 0% ~ 95% |
 | Storage Temperature &amp; Humidity | T:-40 °C ~ +85 °C, H: 0% ~ 95% |
