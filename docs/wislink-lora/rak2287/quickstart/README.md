@@ -1,0 +1,1 @@
+<rk-redirect to="/wislink-lora/rak2287/quickstart/prerequisites/" />

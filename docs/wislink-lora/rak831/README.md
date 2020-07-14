@@ -1,0 +1,1 @@
+<rk-redirect to="/wislink-lora/rak831/overview" />

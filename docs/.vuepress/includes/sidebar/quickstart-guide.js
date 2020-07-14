@@ -1,5 +1,5 @@
 module.exports = {
-  '/en-us/quick-start-guide/gateways/rak7246g/': [
+  '/wisgate/rak7246g/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
@@ -7,7 +7,6 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
       ]
     },
     {
@@ -19,7 +18,111 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7246g/accessing-your-gateway/',
+          path: '/wisgate/rak7246g/quickstart/accessing-your-gateway/',
+          children: [
+            'accessing-your-gateway/accessing-the-internet'
+          ]
+        },
+        'configuring-the-gateway',
+        'connecting-to-the-ttn',
+        'connecting-with-chirpstack',
+        'connecting-to-resiot'
+      ]
+    }
+  ],
+  '/wisgate/rak7240/quickstart/': [
+    {
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
+      children: [
+        '',
+        {
+          title: "Quick Start Guide",
+          nested: true,
+          collapsable: false,
+          path: '/wisgate/rak7240/quickstart/',
+          children: [
+            'power-on-the-gateway',
+            'access-the-gateway',
+            'access-the-internet',
+            'connecting-to-ttn'
+          ]
+        }
+      ]
+    }
+  ],
+  '/wisgate/rak7249/quickstart/': [
+    {
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
+      children: [
+        '',
+        {
+          title: "Quick Start Guide",
+          nested: true,
+          collapsable: false,
+          path: '/wisgate/rak7249/quickstart/',
+          children: [
+            'gateway-installation-guide',
+            'solar-panel-and-battery-kit-installation',
+            'lightning-protection',
+            'power-on-the-gateway',
+            'access-the-gateway',
+            'access-the-internet',
+            'connecting-to-ttn'
+          ]
+        }
+      ]
+    }
+  ],
+  '/wisgate/rak7258/quickstart/': [
+    {
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
+      children: [
+        '',
+        {
+          title: "Quick Start Guide",
+          nested: true,
+          collapsable: false,
+          path: '/wisgate/rak7258/quickstart/',
+          children: [
+            'wall-mounting-guide',
+            'power-on-the-gateway',
+            'access-the-gateway',
+            'access-the-internet',
+            'connecting-to-ttn'
+          ]
+        }
+      ]
+    }
+  ],
+  '/wisgate/rak7244/quickstart/': [
+    {
+      title: 'Product Overview',
+      path: '',
+      collapsable: false,
+      sidebarDepth: 1,
+      children: [
+        '',
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        {
+          title: "Accessing your Gateway",
+          nested: true,
+          collapsable: false,
+          path: '/wisgate/rak7244/quickstart/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]
@@ -30,7 +133,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/gateways/rak7240/': [
+  '/wisgate/rak7243/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
@@ -42,76 +145,25 @@ module.exports = {
           title: "Quick Start Guide",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7240/quick-start-guide/',
+          path: '/wisgate/rak7243/quickstart/',
           children: [
-            'quick-start-guide/power-on-the-gateway',
-            'quick-start-guide/access-the-gateway',
-            'quick-start-guide/access-the-internet',
-            'quick-start-guide/connecting-to-ttn'
+            'access-the-gateway',
+            'access-the-internet',
+            'configure-the-gateway',
+            'connecting-to-ttn',
+            'connecting-to-chirpstack'
           ]
         }
       ]
     }
   ],
-  '/en-us/quick-start-guide/gateways/rak7249/': [
+  '/wisgate/rak7243c/quickstart/': [
     {
       title: 'Product Overview',
-      path: '',
       collapsable: false,
-      sidebarDepth: 1,
+      sidebarDepth: 2,
       children: [
         '',
-        {
-          title: "Quick Start Guide",
-          nested: true,
-          collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7249/quick-start-guide/',
-          children: [
-            'quick-start-guide/gateway-installation-guide',
-            'quick-start-guide/solar-panel-and-battery-kit-installation',
-            'quick-start-guide/lightning-protection',
-            'quick-start-guide/power-on-the-gateway',
-            'quick-start-guide/access-the-gateway',
-            'quick-start-guide/access-the-internet',
-            'quick-start-guide/connecting-to-ttn'
-          ]
-        }
-      ]
-    }
-  ],
-  '/en-us/quick-start-guide/gateways/rak7258/': [
-    {
-      title: 'Product Overview',
-      path: '',
-      collapsable: false,
-      sidebarDepth: 1,
-      children: [
-        '',
-        {
-          title: "Quick Start Guide",
-          nested: true,
-          collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7258/quick-start-guide/',
-          children: [
-            'quick-start-guide/wall-mounting-guide',
-            'quick-start-guide/power-on-the-gateway',
-            'quick-start-guide/access-the-gateway',
-            'quick-start-guide/access-the-internet',
-            'quick-start-guide/connecting-to-ttn'
-          ]
-        }
-      ]
-    }
-  ],
-  '/en-us/quick-start-guide/gateways/rak7244/': [
-    {
-      title: 'Product Overview',
-      path: '',
-      collapsable: false,
-      sidebarDepth: 1,
-      children: [
-        '',
-        'quick-start-guide'
       ]
     },
     {
@@ -123,61 +175,7 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7244/accessing-your-gateway/',
-          children: [
-            'accessing-your-gateway/accessing-the-internet'
-          ]
-        },
-        'configuring-the-gateway',
-        'connecting-to-the-ttn',
-        'connecting-with-chirpstack'
-      ]
-    }
-  ],
-  '/en-us/quick-start-guide/gateways/rak7243/': [
-    {
-      title: 'Product Overview',
-      path: '',
-      collapsable: false,
-      sidebarDepth: 1,
-      children: [
-        '',
-        {
-          title: "Quick Start Guide",
-          nested: true,
-          collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7243/quick-start-guide/',
-          children: [
-            'quick-start-guide/access-the-gateway',
-            'quick-start-guide/access-the-internet',
-            'quick-start-guide/configure-the-gateway',
-            'quick-start-guide/connecting-to-ttn',
-            'quick-start-guide/connecting-to-chirpstack'
-          ]
-        }
-      ]
-    }
-  ],
-  '/en-us/quick-start-guide/gateways/rak7243c/': [
-    {
-      title: 'Product Overview',
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        '',
-        'quick-start-guide'
-      ]
-    },
-    {
-      title: 'Product Configuration',
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        {
-          title: "Accessing your Gateway",
-          nested: true,
-          collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7243c/accessing-your-gateway/',
+          path: '/wisgate/rak7243c/quickstart/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]
@@ -189,19 +187,17 @@ module.exports = {
     }
   ],
 
-  '/en-us/quick-start-guide/gateways/rak2287/': [
+  '/wislink-lora/rak2287/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
       collapsable: false,
-      sidebarDepth: 2,
+      sidebarDepth: 4,
       children: [
-        '',
         {
           title: "Prerequisites",
-          nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak2287/prerequisites/',
+          path: '/wislink-lora/rak2287/quickstart/prerequisites/',
           children: [
             'prerequisites/device-firmware',
             'prerequisites/assembly-guide',
@@ -223,15 +219,14 @@ module.exports = {
     }
   ],
 
-  '/en-us/quick-start-guide/gateways/rak2247/': [
+  '/wislink-lora/rak2247/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
       collapsable: false,
-      sidebarDepth: 1,
+      sidebarDepth: 4,
       children: [
-        '',
-        'quick-start-guide'
+        ''
       ]
     },
     {
@@ -244,15 +239,14 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/gateways/rak2245-pi-hat-edition/': [
+  '/wislink-lora/rak2245-pi-hat-edition/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
       collapsable: false,
-      sidebarDepth: 2,
+      sidebarDepth: 4,
       children: [
-        '',
-        'quick-start-guide'
+        ''
       ]
     },
     {
@@ -264,7 +258,7 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak2245-pi-hat-edition/accessing-your-gateway/',
+          path: '/wislink-lora/rak2245-pi-hat-edition/quickstart/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]
@@ -275,14 +269,13 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/gateways/rak2245-stamp-edition/': [
+  '/wislink-lora/rak2245-stamp-edition/quickstart/': [
     {
       title: 'Product Overview',
       collapsable: false,
-      sidebarDepth: 2,
+      sidebarDepth: 4,
       children: [
-        '',
-        'quick-start-guide'
+        ''
       ]
     },
     {
@@ -294,7 +287,7 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak2245-stamp-edition/accessing-your-gateway/',
+          path: '/wislink-lora/rak2245-stamp-edition/quickstart/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]
@@ -305,14 +298,13 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/gateways/rak7244c/': [
+  '/wisgate/rak7244/quickstart/': [
     {
       title: 'Product Overview',
       collapsable: false,
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
       ]
     },
     {
@@ -324,7 +316,7 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7244c/accessing-your-gateway/',
+          path: '/wisgate/rak7244/quickstart/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]
@@ -334,7 +326,35 @@ module.exports = {
         'connecting-with-chirpstack'
       ]
     }
-
+  ],
+  '/wisgate/rak7244c/quickstart/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        {
+          title: "Accessing your Gateway",
+          nested: true,
+          collapsable: false,
+          path: '/wisgate/rak7244c/quickstart/accessing-your-gateway/',
+          children: [
+            'accessing-your-gateway/accessing-the-internet'
+          ]
+        },
+        'configuring-the-gateway',
+        'connecting-to-the-ttn',
+        'connecting-with-chirpstack'
+      ]
+    }
   ],
   '/wisduino/rak811-evaluation-board/quickstart/': [
     {
@@ -644,20 +664,19 @@ module.exports = {
     }
   ],
 
-  
-  '/en-us/quick-start-guide/nb-iot/rak8213/': [
+
+  '/wislink-lte/rak8213/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
       collapsable: false,
-      sidebarDepth: 2,
+      sidebarDepth: 4,
       children: [
-        '',
         {
           title: "Prerequisites",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/nb-iot/rak8213/prerequisites/',
+          path: '/wislink-lte/rak8213/quickstart/prerequisites/',
           children: [
             'prerequisites/device-firmware-setup',
             'prerequisites/assembly-guide',
@@ -669,7 +688,7 @@ module.exports = {
     {
       title: 'Product Configuration',
       collapsable: false,
-      sidebarDepth: 2,
+      sidebarDepth: 4,
       children: [
         'connecting-to-network',
       ]
@@ -988,7 +1007,143 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/': [
-    ''
-  ]
+  '/wisduo/rak4200-evaluation-board/quickstart/': [
+    {
+      title: 'Quick Start Guide',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'interfacing',
+        {
+          title: "Connecting to The Things Network",
+          nested: true,
+          collapsable: false,
+          path: '/wisduo/rak4200-evaluation-board/quickstart/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa',
+            'connecting-to-ttn/ttn-abp',
+          ]
+        },
+        {
+          title: "Connecting to Chirpstack",
+          nested: true,
+          collapsable: false,
+          path: '/wisduo/rak4200-evaluation-board/quickstart/connecting-to-chirpstack/',
+          children: [
+            'connecting-to-chirpstack/chirpstack-otaa',
+            'connecting-to-chirpstack/chirpstack-abp',
+          ]
+        },
+        'lora-p2p-mode'
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'at-commands',
+        'burning-the-firmware',
+        'upgrading-the-firmware'
+      ]
+
+    }
+  ], 
+  '/wisduo/rak4260-evaluation-board/quickstart/': [
+    {
+      title: 'Quick Start Guide',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'burning-the-firmware',
+        'interfacing-with-rak4260',
+        {
+          title: "Connecting to The Things Network (TTN)",
+          nested: true,
+          collapsable: false,
+          path: '/wisduo/rak4260-evaluation-board/quickstart/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa'
+          ]
+        }
+      ]
+    }
+  ],
+  '/wisduo/rak4600-evaluation-board/quickstart/': [
+    {
+      title: 'Quick Start Guide',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        {
+          title: "Interfacing with RAK4600",
+          collapsable: false,
+          nested: true,
+          path: '/wisduo/rak4600-evaluation-board/quickstart/interfacing/',
+          children: [
+            'interfacing/checking-device-logs',
+          ]
+        },
+        'configuring-rak4600',
+        {
+          title: "Connecting to The Things Network",
+          nested: true,
+          collapsable: false,
+          path: '/wisduo/rak4600-evaluation-board/quickstart/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa',
+            'connecting-to-ttn/ttn-abp',
+          ]
+        },
+        {
+          title: "Connecting to Chirpstack",
+          nested: true,
+          collapsable: false,
+          path: '/wisduo/rak4600-evaluation-board/quickstart/connecting-to-chirpstack/',
+          children: [
+            'connecting-to-chirpstack/chirpstack-otaa',
+            'connecting-to-chirpstack/chirpstack-abp',
+          ]
+        },
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'at-commands',
+        'bluetooth-connection-modes',
+        'burning-the-firmware',
+        'upgrading-firmware',
+        'rui-online-compiler'
+      ]
+    }
+  ],
+ 
+  
 }

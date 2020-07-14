@@ -1,0 +1,1 @@
+<rk-redirect to="/wisduo/rak4600-evaluation-board/overview" />

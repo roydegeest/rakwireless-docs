@@ -13,9 +13,9 @@ params:
       - name: Datasheet
         href: /wisnode/rak7431/datasheet/
       - name: User Manual
-        href: /en-us/user-manual/
+        href: /user-manual/
       - name: Deployment Guide
-        href: /en-us/deployment-guide/
+        href: /deployment-guide/
 ---
 
 # RAK7431 - RS485 to LoRaWAN® Converter
@@ -37,7 +37,7 @@ This RS485 compatible devices can address up to 16 client terminal nodes. The co
 RAK7431 together with RAK gateway and LoRa® Server products, can easily and quickly build a wireless industrial field control system. It adopts industrial protection design, supports wide range voltage supply, supports wall mounting and DIN rail installation, facilitates field installation and use.
 
 <rk-btn
-  src="/wisnode/rak7431/quickstart/"
+  src="/wisnode/rak7431/datasheet/"
   label="Get Started with RAK7431 - RS485 to LoRaWAN® Converter"
 />
 
