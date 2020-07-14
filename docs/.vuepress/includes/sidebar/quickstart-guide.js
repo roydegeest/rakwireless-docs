@@ -30,7 +30,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/gateways/rak7240/': [
+  '/wisgate/rak7240/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
@@ -42,12 +42,12 @@ module.exports = {
           title: "Quick Start Guide",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7240/quick-start-guide/',
+          path: '/wisgate/rak7240/quickstart/',
           children: [
-            'quick-start-guide/power-on-the-gateway',
-            'quick-start-guide/access-the-gateway',
-            'quick-start-guide/access-the-internet',
-            'quick-start-guide/connecting-to-ttn'
+            'power-on-the-gateway',
+            'access-the-gateway',
+            'access-the-internet',
+            'connecting-to-ttn'
           ]
         }
       ]
@@ -103,7 +103,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/gateways/rak7244/': [
+  '/wisgate/rak7244/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
@@ -111,7 +111,6 @@ module.exports = {
       sidebarDepth: 1,
       children: [
         '',
-        'quick-start-guide'
       ]
     },
     {
@@ -134,7 +133,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/gateways/rak7243/': [
+  '/wisgate/rak7243/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
@@ -146,13 +145,13 @@ module.exports = {
           title: "Quick Start Guide",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7243/quick-start-guide/',
+          path: '/wisgate/rak7243/quickstart/',
           children: [
-            'quick-start-guide/access-the-gateway',
-            'quick-start-guide/access-the-internet',
-            'quick-start-guide/configure-the-gateway',
-            'quick-start-guide/connecting-to-ttn',
-            'quick-start-guide/connecting-to-chirpstack'
+            'access-the-gateway',
+            'access-the-internet',
+            'configure-the-gateway',
+            'connecting-to-ttn',
+            'connecting-to-chirpstack'
           ]
         }
       ]
