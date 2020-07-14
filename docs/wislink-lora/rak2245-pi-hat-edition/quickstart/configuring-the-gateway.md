@@ -4,67 +4,67 @@ next: connecting-to-the-ttn
 params:
 
   img1:
-    src: /assets/images/quick-start-guide/rak2245/6.configure the gateway/gateway_id.png 
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/6.configure the gateway/gateway_id.png 
     width: 100%
     figureNumber: 1
     caption: Config Options for the Gateway
   img2:
-    src: /assets/images/quick-start-guide/rak2245/6.configure the gateway/gateway_id_cmd.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/6.configure the gateway/gateway_id_cmd.png
     width: 70%
     figureNumber: 2
     caption: Gateway ID using the command line
   img3:
-    src: /assets/images/quick-start-guide/rak2245/6.configure the gateway/set_pi_pwd.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/6.configure the gateway/set_pi_pwd.png
     width: 100%
     figureNumber: 3
     caption: Set Pi Password
   img4:
-    src: /assets/images/quick-start-guide/rak2245/6.configure the gateway/confirm_pwd.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/6.configure the gateway/confirm_pwd.png
     width: 100%
     figureNumber: 4
     caption: Confirm Password Change
   img5:
-    src: /assets/images/quick-start-guide/rak2245/6.configure the gateway/success_pwd_change.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/6.configure the gateway/success_pwd_change.png
     width: 100%
     figureNumber: 5
     caption: Successful Password Change
   img6:
-    src: /assets/images/quick-start-guide/rak2245/6.configure the gateway/setup_rak_gateway.jpg
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/6.configure the gateway/setup_rak_gateway.jpg
     width: 100%
     figureNumber: 6
     caption: Choosing Setup RAK Gateway LoRa® concentrator
   img7:
-    src: /assets/images/quick-start-guide/rak2245/6.configure the gateway/server_ttn.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/6.configure the gateway/server_ttn.png
     width: 100%
     figureNumber: 7
     caption: Server is TTN
   img8:
-    src: /assets/images/quick-start-guide/rak2245/6.configure the gateway/ttn_channel_plan.jpg
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/6.configure the gateway/ttn_channel_plan.jpg
     width: 100%
     figureNumber: 8
     caption: Selecting the TTN Channel Plan
   img9:
-    src: /assets/images/quick-start-guide/rak2245/6.configure the gateway/success_freq_change.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/6.configure the gateway/success_freq_change.png
     width: 100%
     figureNumber: 9
     caption: Successfully Changed the Frequency
   img10:
-    src: /assets/images/quick-start-guide/rak2245/6.configure the gateway/chirpstack.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/6.configure the gateway/chirpstack.png
     width: 100%
     figureNumber: 10
     caption: Server Is Chirpstack
   img11:
-    src: /assets/images/quick-start-guide/rak2245/6.configure the gateway/chirpstack_channel.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/6.configure the gateway/chirpstack_channel.png
     width: 100%
     figureNumber: 11
     caption: Regional Frequency Band Option
   img12:
-    src: /assets/images/quick-start-guide/rak2245/6.configure the gateway/loraserver_ip.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/6.configure the gateway/loraserver_ip.png
     width: 100%
     figureNumber: 12
     caption: Default LoRaServer IP Address
   img13:
-    src: /assets/images/quick-start-guide/rak2245/6.configure the gateway/adr_settings.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/6.configure the gateway/adr_settings.png
     width: 100%
     figureNumber: 13
     caption: Chirpstack ADR Enable/Disable

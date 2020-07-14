@@ -1,7 +1,7 @@
 # Prerequisites
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2245-stamp/quick-start-guide/ce6miwo22k2n1zqhptaq.png"
+  src="/assets/images/wislink-lora/rak2245-stamp-edition/quickstart/quick-start-guide/ce6miwo22k2n1zqhptaq.png"
   width="60%"
   caption="RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module"
 />

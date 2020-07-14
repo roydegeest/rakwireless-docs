@@ -1,5 +1,5 @@
 ---
-rak_img: /assets/images/quick-start-guide/rak8213/overview/rak8213.png
+rak_img: /assets/images/wislink-lte/rak8213/quickstart/overview/rak8213.png
 rak_grp: nb-iot
 qlinks:
   learnMore:
@@ -25,7 +25,7 @@ qlinks:
 # RAK8213 WisLink NB-IoT Module
 
 <rk-img
-  src="/assets/images/datasheet/rak8213/wgohpslr9gz7vggih3uh.png"
+  src="/assets/images/wislink-lte/rak8213/datasheet/wgohpslr9gz7vggih3uh.png"
   width="30%"
   caption="RAK8213 WisLink NB-IoT Module"
 />

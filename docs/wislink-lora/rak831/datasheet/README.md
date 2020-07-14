@@ -7,7 +7,7 @@ sidebarDepth: 4
 # RAK831 LPWAN Gateway Concentrator
 
 <rk-img
-  src="/assets/images/datasheet/rak831/rak831-overview.png"
+  src="/assets/images/wislink-lora/rak831/datasheet/rak831-overview.png"
   width="50%"
   caption="RAK831 LPWAN Gateway"
 />
@@ -58,7 +58,7 @@ Applications possible with the RAK831 include Smart Metering , Wireless Star Net
 The Concentrator Module currently available is in SPI version with its board shown below.
 
 <rk-img
-  src="/assets/images/datasheet/rak831/board-overview.png"
+  src="/assets/images/wislink-lora/rak831/datasheet/board-overview.png"
   width="100%"
   caption="RAK831 LPWAN Gateway Board Overview"
 />
@@ -68,7 +68,7 @@ The Concentrator Module currently available is in SPI version with its board sho
 The outer dimensions of the RAK831 are given by **80 mm x 50mm** with ± 0.2 mm tolerance. The RAK831 provide four drills for screwing the PCB to another unit each with a drill diameter of 3 mm.
 
 <rk-img
-  src="/assets/images/datasheet/rak831/rak831-dimensions.png"
+  src="/assets/images/wislink-lora/rak831/datasheet/rak831-dimensions.png"
   width="80%"
   caption="RAK831 LPWAN Gateway Board Dimension"
 />
@@ -80,7 +80,7 @@ The outer dimensions of the RAK831 are given by **80 mm x 50mm** with ± 0.2 mm 
 The RAK831 includes Semtech’s SX1301 which is a digital baseband chip which includes a massive digital signal processing engine specifically designed to offer breakthrough gateway capabilities in the ISM bands worldwide. SX1301 integrates the LoRa® concentrator IP.
 
 <rk-img
-  src="/assets/images/datasheet/rak831/block-diagram-sx1301.png"
+  src="/assets/images/wislink-lora/rak831/datasheet/block-diagram-sx1301.png"
   width="100%"
   caption="SX1301 Chip Block Diagram"
 />
@@ -96,7 +96,7 @@ It is highly recommended to fully re-use the latest HAL as provided by Semtech o
 ###### Block Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak831/block-diagram.png"
+  src="/assets/images/wislink-lora/rak831/datasheet/block-diagram.png"
   width="100%"
   caption="RAK831 LPWAN Gateway Block Diagram"
 />
@@ -128,7 +128,7 @@ The SX1301 can detect simultaneously preambles corresponding to all data rates o
 The unique multi data-rate multi-channel demodulation capacity SF7 to SF12 and of channels IF0 to IF7 allows innovative network architectures to be implemented.
 
 <rk-img
-  src="/assets/images/datasheet/rak831/lora_channels.png"
+  src="/assets/images/wislink-lora/rak831/datasheet/lora_channels.png"
   width="100%"
   caption="IF0 to IF7 LoRa® Channels"
 />
@@ -167,7 +167,7 @@ As default setting the LEDs
 The RAK831 provides headers at the bottom side, which have a pitch of **2.54 mm**. The description of the pins is given by the table below.
 
 <rk-img
-  src="/assets/images/datasheet/rak831/pin-assignment.png"
+  src="/assets/images/wislink-lora/rak831/datasheet/pin-assignment.png"
   width="100%"
   caption="RAK831 LPWAN Gateway Module Pinout Diagram"
 />
@@ -438,7 +438,7 @@ The RF switch choose RFSW1 01 2 which has advantage of high Isolation and low in
 | Shutdown | 2.7V to 4.6V | Dont' Care | VLOW  | Shutdown |
 
 <rk-img
-  src="/assets/images/datasheet/rak831/rf-switch-schematic.png"
+  src="/assets/images/wislink-lora/rak831/datasheet/rf-switch-schematic.png"
   width="100%"
   caption="RF Switch Schematic Diagram"
 />
@@ -485,13 +485,13 @@ At **T=25℃, VDD=5V(Typ.)** if nothing else stated
 The following images are the schematic diagram of the RAK831 LPWAN Gateway Concentrator:
 
 <rk-img
-  src="/assets/images/datasheet/rak831/schematic-diagram1.png"
+  src="/assets/images/wislink-lora/rak831/datasheet/schematic-diagram1.png"
   width="100%"
   caption="RAK831 Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak831/schematic-diagram2.png"
+  src="/assets/images/wislink-lora/rak831/datasheet/schematic-diagram2.png"
   width="100%"
   caption="RAK831 Schematic Diagram"
 />

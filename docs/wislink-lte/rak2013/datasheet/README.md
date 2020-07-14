@@ -7,7 +7,7 @@ sidebarDepth: 4
 # RAK2013 Cellular
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/rak2013.jpg"
+  src="/assets/images/wislink-lte/rak2013/datasheet/rak2013.jpg"
   width="50%"
   caption="RAK2013 Cellular Board"
 />
@@ -46,13 +46,13 @@ The RAK2013 is compatible with RAK2245 Pi Hat Concentrator module via the onboar
 Here is the top view and external interfaces of RAK2013 cellular add-on board.
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/components-of-rak2013-cellular.jpg"
+  src="/assets/images/wislink-lte/rak2013/datasheet/components-of-rak2013-cellular.jpg"
   width="75%"
   caption="Components of RAK2013 Cellular"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/nano-sim-card-slot-and-esim-chip-in-rak2013.jpg"
+  src="/assets/images/wislink-lte/rak2013/datasheet/nano-sim-card-slot-and-esim-chip-in-rak2013.jpg"
   width="75%"
   caption="Nano Sim Card Slot and ESIM Chip in RAK2013"
 />
@@ -60,7 +60,7 @@ Here is the top view and external interfaces of RAK2013 cellular add-on board.
 The outer dimension of the RAK2013 measures 65.0 x 56.0 mm as shown below.
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/rak2013-board-dimension.jpg"
+  src="/assets/images/wislink-lte/rak2013/datasheet/rak2013-board-dimension.jpg"
   width="60%"
   caption="RAK2013 Board Dimension"
 />
@@ -70,7 +70,7 @@ The outer dimension of the RAK2013 measures 65.0 x 56.0 mm as shown below.
 The diagram below shows the internal architecture and external interfaces of RAK2013.
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/block-diagram-rak2013.png"
+  src="/assets/images/wislink-lte/rak2013/datasheet/block-diagram-rak2013.png"
   width="100%"
   caption="RAK2013 Cellular Board"
 />
@@ -104,7 +104,7 @@ It is built with **Quectel BG96/EG91/EG95 module** and compatible with **Raspber
 A Standard Micro-B USB compliant with USB 2.0 standard specification is used to provide an interface to connect our device to Raspberry Pi or a PC for control of the board and firmware upgrade. The Micro-B USB pin connection and definition is shown below:
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/micro-b-usb-connection.jpg"
+  src="/assets/images/wislink-lte/rak2013/datasheet/micro-b-usb-connection.jpg"
   width="20%"
   figure-number="8"
   caption="Micro-B USB Connection"
@@ -157,7 +157,7 @@ RAK2013 board is composed of four connectors: **J3**, **J15**, **J16** and **J17
 ##### J15 - Raspberry Connector
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/rak2013-raspberry-connector.jpg"
+  src="/assets/images/wislink-lte/rak2013/datasheet/rak2013-raspberry-connector.jpg"
   width="85%"
   caption="RAK2013 Raspberry Connector"
 />
@@ -210,7 +210,7 @@ The table below shows the pin connections of the raspberry connector.
 ##### J16 and J17 – MikroBus Interface
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/mikroBUS_Pinout.png"
+  src="/assets/images/wislink-lte/rak2013/datasheet/mikroBUS_Pinout.png"
   width="100%"
   caption="MikroBus Interface"
 />
@@ -262,7 +262,7 @@ For module built-in BG96, there is one LTE antenna and one GPS antenna. For modu
 ###### Overview
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/lte-antenna.jpg"
+  src="/assets/images/wislink-lte/rak2013/datasheet/lte-antenna.jpg"
   width="50%"
   caption="LTE Antenna"
 />
@@ -272,7 +272,7 @@ For module built-in BG96, there is one LTE antenna and one GPS antenna. For modu
 The LTE antenna for the RAK2013 covers working frequency band from **824 MHz to 2690 MHz**.
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/lte-antenna-dimension.jpg"
+  src="/assets/images/wislink-lte/rak2013/datasheet/lte-antenna-dimension.jpg"
   width="75%"
   caption="LTE Antenna Dimension"
 />
@@ -337,7 +337,7 @@ The specifications and parameter of the antenna are shown below:
 The GPS antenna for RAK2013 is shown below. Only the RAK2013 with BG96 supports the GPS function.
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/gps-antenna.jpg"
+  src="/assets/images/wislink-lte/rak2013/datasheet/gps-antenna.jpg"
   width="50%"
   caption="GPS Antenna"
 />
@@ -345,7 +345,7 @@ The GPS antenna for RAK2013 is shown below. Only the RAK2013 with BG96 supports 
 ###### GPS Antenna Dimensions
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/gps-antenna-dimensions.jpg"
+  src="/assets/images/wislink-lte/rak2013/datasheet/gps-antenna-dimensions.jpg"
   width="75%"
   caption="GPS Antenna Dimensions"
 />
@@ -430,7 +430,7 @@ It is recommended to provide slots or cutouts for camera and display flexes so c
 :::
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/mechanical-dimensions.jpg"
+  src="/assets/images/wislink-lte/rak2013/datasheet/mechanical-dimensions.jpg"
   width="75%"
   caption="Mechanical Dimensions"
 />
@@ -452,7 +452,7 @@ The table below lists the operation and storage temperature requirements:
 The schematic diagram shows the power and MikroBus interface of RAK2013.
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/power-and-mikrobus-interface.jpg"
+  src="/assets/images/wislink-lte/rak2013/datasheet/power-and-mikrobus-interface.jpg"
   width="100%"
   caption="Power and MikroBus Interface"
 />
@@ -460,7 +460,7 @@ The schematic diagram shows the power and MikroBus interface of RAK2013.
 Here is the BG96 and Raspberry Interface of RAK2013:
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/bg96-and-raspberry-interface.jpg"
+  src="/assets/images/wislink-lte/rak2013/datasheet/bg96-and-raspberry-interface.jpg"
   width="100%"
   caption="BG96 and Raspberry Interface"
 />
@@ -468,7 +468,7 @@ Here is the BG96 and Raspberry Interface of RAK2013:
 Below is the audio codec and amplifier schematics of RAK2013:
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/audio-codec-and-amplifier.jpg"
+  src="/assets/images/wislink-lte/rak2013/datasheet/audio-codec-and-amplifier.jpg"
   width="100%"
   caption="Audio Codec and Amplifier"
 />

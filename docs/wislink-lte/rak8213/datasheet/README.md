@@ -7,7 +7,7 @@ sidebarDepth: 4
 # RAK8213 WisLink NB-IoT Module
 
 <rk-img
-  src="/assets/images/datasheet/rak8213/wgohpslr9gz7vggih3uh.png"
+  src="/assets/images/wislink-lte/rak8213/datasheet/wgohpslr9gz7vggih3uh.png"
   width="30%"
   caption="RAK8213 WisLink NB-IoT Module"
 />
@@ -42,7 +42,7 @@ Rich Internet protocol, industry-standard interfaces (USB/UART/I2C/Status indica
 The boards is of standard mPCIe size. The top of the board is populated by the **Cellular and GNSS antenna connectors** (both **IPEX**) and the keys (Power and Reset), together with the **BG96 module** itself. The bottom contains the **Micro Sim Slot** and the **ESIM** pad (optional, not provided)
 
 <rk-img
-  src="/assets/images/datasheet/rak8213/kocsckltisyzgecsg2ta.png"
+  src="/assets/images/wislink-lte/rak8213/datasheet/kocsckltisyzgecsg2ta.png"
   width="80%"
   caption="RAK8213 Board Overview"
 />
@@ -52,7 +52,7 @@ The boards is of standard mPCIe size. The top of the board is populated by the *
 The RAK8213 card integrates **one BG96 module** which represent the core of the device. This provides the related NB-IoT modem and processing functionalities. Additional signal conditioning circuitry is implemented for PCI Express Mini Card compliance, and two UFL connectors are available for external antennas integration.
 
 <rk-img
-  src="/assets/images/datasheet/rak8213/fiw7l6fsapdalh4oizrn.png"
+  src="/assets/images/wislink-lte/rak8213/datasheet/fiw7l6fsapdalh4oizrn.png"
   width="100%"
   caption="RAK8213 Block Diagram"
 />
@@ -62,7 +62,7 @@ The RAK8213 card integrates **one BG96 module** which represent the core of the 
 #### Pin Definition
 
 <rk-img
-  src="/assets/images/datasheet/rak8213/irruft8ngircsmenz5qr.png"
+  src="/assets/images/wislink-lte/rak8213/datasheet/irruft8ngircsmenz5qr.png"
   width="100%"
   caption="RAK8213 Pin Definition"
 />
@@ -410,7 +410,7 @@ The following table shows the electrostatic discharge characteristics of RAK8213
 The board only weighs 128.6 grams, its length is 51 mm while its width is 30 mm. The dimensions of the module fall completely within the **PCI Express Mini Card Electromechanical Specification**, with except of the card's thickness (nominal value of 4.9 mm).
 
 <rk-img
-  src="/assets/images/datasheet/rak8213/RAK8213_Dimensions.png"
+  src="/assets/images/wislink-lte/rak8213/datasheet/RAK8213_Dimensions.png"
   width="80%"
   caption="RAK8213 Board Overview"
 />
@@ -420,7 +420,7 @@ The board only weighs 128.6 grams, its length is 51 mm while its width is 30 mm.
 The following graph shows RAK8213’s PCIe interface schematic:
 
 <rk-img
-  src="/assets/images/datasheet/rak8213/sjmmlwoo7ehwdaj0ulr3.jpg"
+  src="/assets/images/wislink-lte/rak8213/datasheet/sjmmlwoo7ehwdaj0ulr3.jpg"
   width="100%"
   caption="RAK8213 Schematic Diagram"
 />

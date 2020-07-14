@@ -1,7 +1,7 @@
 # Prerequisites
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak8213/prerequisites/rak8213.png"
+  src="/assets/images/wislink-lte/rak8213/quickstart/prerequisites/rak8213.png"
   width="25%"
   caption="RAK8213 NB-IoT Module"
 />

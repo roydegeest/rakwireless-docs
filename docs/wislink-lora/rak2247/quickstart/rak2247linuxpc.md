@@ -16,7 +16,7 @@ This section explains the basic steps on how to interface the RAK2247 LPWAN Gate
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2247/3.rak2247+linuxpc/rak2247pcie.jpg"
+  src="/assets/images/wislink-lora/rak2247/quickstart/3.rak2247+linuxpc/rak2247pcie.jpg"
   width="75%"
   figure-number="1"
   caption="RAK2247 LPWAN Gateway Concentrator Module to a PCIe-to-USB board"
@@ -37,7 +37,7 @@ ifconfig
 An example in Figure 2 shows the name of the wireless interface “**wlx6045bdf0cf64**”.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2247/3.rak2247+linuxpc/networkname.jpg"
+  src="/assets/images/wislink-lora/rak2247/quickstart/3.rak2247+linuxpc/networkname.jpg"
   width="75%"
   figure-number="2"
   caption="Network Interface Name"

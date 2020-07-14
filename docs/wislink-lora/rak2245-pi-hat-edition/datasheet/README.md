@@ -8,7 +8,7 @@ sidebarDepth: 4
 # RAK2245 Pi Hat - LPWAN Gateway Concentrator Module
 
 <rk-img
-  src="/assets/images/datasheet/rak2245-pihat/rak2245-pihat-overview.png"
+  src="/assets/images/wislink-lora/rak2245-pi-hat-edition/datasheet/rak2245-pihat-overview.png"
   width="50%"
   caption="RAK2245 Pi Hat"
 />
@@ -44,7 +44,7 @@ The RAK2245 Pi HAT is a complete and cost efficient gateway solution that can he
 **RAK2245 Pi HAT Module** with Raspberry Pi connector is shown above, it has outer dimensions of **56.00 x 65.00 x 22.00 mm** (±2mm).
 
 <rk-img
-  src="/assets/images/datasheet/rak2245-pihat/rak2245-dimensions.png"
+  src="/assets/images/wislink-lora/rak2245-pi-hat-edition/datasheet/rak2245-dimensions.png"
   width="100%"
   caption="RAK2245 Pi Hat Dimensions"
 />
@@ -52,7 +52,7 @@ The RAK2245 Pi HAT is a complete and cost efficient gateway solution that can he
 #### Block Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak2245-pihat/rak2245-pihat-block-diagram.png"
+  src="/assets/images/wislink-lora/rak2245-pi-hat-edition/datasheet/rak2245-pihat-block-diagram.png"
   width="100%"
   caption="RAK2245 Pi Hat Block Diagram"
 />
@@ -101,7 +101,7 @@ The modules have two RF interfaces for LoRa® and GPS antennas over the standard
 The pin connector of RAK2245 Pi HAT is located at the bottom side. Refer to the diagram and table below for the description and numbering of each pins.
 
 <rk-img
-  src="/assets/images/datasheet/rak2245-pihat/rak2245-pihat-pin-definition.jpg"
+  src="/assets/images/wislink-lora/rak2245-pi-hat-edition/datasheet/rak2245-pihat-pin-definition.jpg"
   width="100%"
   caption="Pinout Diagram"
 />

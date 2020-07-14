@@ -1,5 +1,5 @@
 ---
-rak_img: /assets/images/quick-start-guide/rak2247/1.main/RAK2247.svg
+rak_img: /assets/images/wislink-lora/rak2247/quickstart/1.main/RAK2247.svg
 rak_grp: lora-gateway
 qlinks:
   learnMore:
@@ -29,7 +29,7 @@ qlinks:
 # RAK2247 LPWAN Gateway Concentrator Module
 
 <rk-img
-  src="/assets/images/datasheet/rak2247/rak2247-overview.png"
+  src="/assets/images/wislink-lora/rak2247/datasheet/rak2247-overview.png"
   width="50%"
   caption="RAK2247 LPWAN Gateway Concentrator Module"
 />

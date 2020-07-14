@@ -1,5 +1,5 @@
 ---
-rak_img: /assets/images/quick-start-guide/rak2245/1.product-overview/1.index/RAK2245-pi-hat.svg
+rak_img: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/1.product-overview/1.index/RAK2245-pi-hat.svg
 rak_grp: lora-gateway
 next: quick-start-guide
 params:
@@ -27,7 +27,7 @@ params:
 # RAK2245 Pi Hat - LPWAN Gateway Concentrator Module
 
 <rk-img
-  src="/assets/images/datasheet/rak2245-pihat/rak2245-pihat-overview.png"
+  src="/assets/images/wislink-lora/rak2245-pi-hat-edition/datasheet/rak2245-pihat-overview.png"
   width="50%"
   caption="RAK2245 Pi Hat"
 />

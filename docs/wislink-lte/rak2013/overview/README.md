@@ -11,19 +11,19 @@ qlinks:
       href: mailto:fomi@rakwireless.com
   resources:
     - name: Datasheet
-      href: /wislink-lora/rak2013/datasheet
+      href: /wislink-lte/rak2013/datasheet
     - name: Certification Report
-      href: /wislink-lora/rak2013/datasheet/#certification
+      href: /wislink-lte/rak2013/datasheet/#certification
     - name: User Manual
-      href: /wislink-lora/rak831/datasheet
+      href: /wislink-lte/rak831/datasheet
     - name: Deployment Guide
-      href: /wislink-lora/rak831/datasheet
+      href: /wislink-lte/rak831/datasheet
 ---
 
 # RAK2013 Cellular
 
 <rk-img
-  src="/assets/images/datasheet/rak2013/rak2013.jpg"
+  src="/assets/images/wislink-lte/rak2013/datasheet/rak2013.jpg"
   width="50%"
   caption="RAK2013 Cellular Board"
 />

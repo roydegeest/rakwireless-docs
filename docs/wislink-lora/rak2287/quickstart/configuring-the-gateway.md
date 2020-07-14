@@ -9,7 +9,7 @@ sudo gateway-config
 Then, you will see a page the same as figure 1.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/3configuring-the-gateway/1.configuring-options.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/3configuring-the-gateway/1.configuring-options.png"
   width="100%"
   figure-number="1"
   caption="Configuration Options for the Gateway"
@@ -33,7 +33,7 @@ sudo gateway-version
 ```
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/3configuring-the-gateway/2.command-line.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/3configuring-the-gateway/2.command-line.png"
   width="100%"
   figure-number="2"
   caption="Gateway ID using the command line"
@@ -46,7 +46,7 @@ It is a good security practice to change the default password "**raspberry**" wh
 - First, choose "1 Set pi password" option referred on figure 3 below.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/3configuring-the-gateway/3.set-pi-password.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/3configuring-the-gateway/3.set-pi-password.png"
   width="100%"
   figure-number="3"
   caption="Set Pi Password"
@@ -55,7 +55,7 @@ It is a good security practice to change the default password "**raspberry**" wh
 - Next, press "Yes" and you will be asked to enter your new password twice then press "Enter".
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/3configuring-the-gateway/4.password-change.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/3configuring-the-gateway/4.password-change.png"
   width="100%"
   figure-number="4"
   caption="Confirm Password Change"
@@ -64,7 +64,7 @@ It is a good security practice to change the default password "**raspberry**" wh
 - Alright, the success message for changing password will then pop up.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/3configuring-the-gateway/5.successful-password-change.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/3configuring-the-gateway/5.successful-password-change.png"
   width="100%"
   figure-number="5"
   caption="Successful Password Change"
@@ -76,7 +76,7 @@ It is a good security practice to change the default password "**raspberry**" wh
 This menu allows you to select your LoRa® frequency band and one of the two available Networks Server options by choosing option **2 Setup RAK Gateway LoRa® concentrator**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/3configuring-the-gateway/6.choosing-setup-rak-gateway.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/3configuring-the-gateway/6.choosing-setup-rak-gateway.png"
   width="100%"
   figure-number="6"
   caption="Choosing Setup RAK Gateway LoRa® concentrator"
@@ -88,7 +88,7 @@ You can choose one of two supported LoRa® Servers here: **TTN** or
 ### Server is TTN
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/3configuring-the-gateway/7.server-is-ttn.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/3configuring-the-gateway/7.server-is-ttn.png"
   width="100%"
   figure-number="7"
   caption="Server Is TTN"
@@ -97,7 +97,7 @@ You can choose one of two supported LoRa® Servers here: **TTN** or
 - **The Things Network (TTN)**: If you choose TTN as the LoRa® Server, you will see the following page. Visit this [article](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country.html) for more information on your local TTN frequency plan. This will allow you to choose the correct plan.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/3configuring-the-gateway/8.ttn-channel.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/3configuring-the-gateway/8.ttn-channel.png"
   width="100%"
   figure-number="8"
   caption="Selecting the TTN Channel Plan"
@@ -106,7 +106,7 @@ You can choose one of two supported LoRa® Servers here: **TTN** or
 After choosing the correct frequency, the success message will appear as shown in figure 9 below.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/3configuring-the-gateway/9.frequency-changed.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/3configuring-the-gateway/9.frequency-changed.png"
   width="100%"
   figure-number="9"
   caption="Successfully Changed the Frequency"
@@ -116,7 +116,7 @@ After choosing the correct frequency, the success message will appear as shown i
 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/3configuring-the-gateway/10.server-is-chirpstack.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/3configuring-the-gateway/10.server-is-chirpstack.png"
   width="100%"
   figure-number="10"
   caption="Server Is Chirpstack"
@@ -132,7 +132,7 @@ First, select option 1 for configuring your Regional Frequency Band
 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/3configuring-the-gateway/11.regional-freqband-option.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/3configuring-the-gateway/11.regional-freqband-option.png"
   width="100%"
   figure-number="11"
   caption="Regional Frequency Band Option"
@@ -142,7 +142,7 @@ Then, set the IP address of the ChirpStack which you want your gateway to work w
 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/3configuring-the-gateway/12.default-lora-ip.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/3configuring-the-gateway/12.default-lora-ip.png"
   width="100%"
   figure-number="12"
   caption="Default LoRaServer IP Address"
@@ -155,7 +155,7 @@ The default IP Address is **127.0.0.1**, which means you will be using the Built
 - If you have instead selected "**Chirpstack ADR Configure**", you can enable/disable the Adaptive Data Rate (ADR) functionality:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/3configuring-the-gateway/13.chirpstack-adr.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/3configuring-the-gateway/13.chirpstack-adr.png"
   width="100%"
   figure-number="13"
   caption="Chirpstack ADR Enable/Disable"

@@ -4,32 +4,32 @@ next: connecting-with-chirpstack
 params:
 
   img1:
-    src: /assets/images/quick-start-guide/rak2245/7.connecting to ttn/ttn_home_page.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/7.connecting to ttn/ttn_home_page.png
     width: 100%
     figureNumber: 1
     caption: The Things Network Home Page
   img2:
-    src: /assets/images/quick-start-guide/rak2245/7.connecting to ttn/ttn_console.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/7.connecting to ttn/ttn_console.png
     width: 100%
     figureNumber: 2
     caption: The Things Network Console Page
   img3:
-    src: /assets/images/quick-start-guide/rak2245/7.connecting to ttn/adding_gateway.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/7.connecting to ttn/adding_gateway.png
     width: 100%
     figureNumber: 3
     caption: Adding a Gateway to TTN
   img4:
-    src: /assets/images/quick-start-guide/rak2245/7.connecting to ttn/register_gateway.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/7.connecting to ttn/register_gateway.png
     width: 100%
     figureNumber: 4
     caption: Registering your Gateway
   img5:
-    src: /assets/images/quick-start-guide/rak2245/7.connecting to ttn/gateway_id.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/7.connecting to ttn/gateway_id.png
     width: 100%
     figureNumber: 5
     caption: RAK2245 Pi Hat Gateway ID in SSH
   img6:
-    src: /assets/images/quick-start-guide/rak2245/7.connecting to ttn/connection_success.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/7.connecting to ttn/connection_success.png
     width: 100%
     figureNumber: 6
     caption: RAK2245 Pi Hat TTN Connection Success

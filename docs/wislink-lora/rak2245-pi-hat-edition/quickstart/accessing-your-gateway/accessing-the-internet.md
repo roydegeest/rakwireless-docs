@@ -4,47 +4,47 @@ prev: /en-us/quick-start-guide/gateways/rak2245-pi-hat-edition/accessing-your-ga
 next: /en-us/quick-start-guide/gateways/rak2245-pi-hat-edition/configuring-the-gateway.html
 params:
   img1:
-    src: /assets/images/quick-start-guide/rak2245/5.accessing the internet/config-options.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/5.accessing the internet/config-options.png
     width: 100%
     figureNumber: 1
     caption: Configuration Options for the Gateway
   img2:
-    src: /assets/images/quick-start-guide/rak2245/5.accessing the internet/wifi-config.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/5.accessing the internet/wifi-config.png
     width: 100%
     figureNumber: 2
     caption: Configuration options for WIFI
   img3:
-    src: /assets/images/quick-start-guide/rak2245/5.accessing the internet/wifi-ssid.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/5.accessing the internet/wifi-ssid.png
     width: 100%
     figureNumber: 3
     caption: Add a new SSID
   img4:
-    src: /assets/images/quick-start-guide/rak2245/5.accessing the internet/region.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/5.accessing the internet/region.png
     width: 100%
     figureNumber: 4
     caption: Selecting Country of Residence
   img5:
-    src: /assets/images/quick-start-guide/rak2245/5.accessing the internet/set-wifi.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/5.accessing the internet/set-wifi.png
     width: 100%
     figureNumber: 5
     caption: SSID of the Network you want to connect to
   img6:
-    src: /assets/images/quick-start-guide/rak2245/5.accessing the internet/set-password.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/5.accessing the internet/set-password.png
     width: 100%
     figureNumber: 6
     caption: Password of the Wi-Fi
   img7:
-    src: /assets/images/quick-start-guide/rak2245/5.accessing the internet/gateway-eth-ip.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/5.accessing the internet/gateway-eth-ip.png
     width: 100%
     figureNumber: 7
     caption: Default Gateway Ethernet IP Address
   img8:
-    src: /assets/images/quick-start-guide/rak2245/5.accessing the internet/router-eth-ip.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/5.accessing the internet/router-eth-ip.png
     width: 100%
     figureNumber: 8
     caption: LAN Interface IP Address of the Router
   img9:
-    src: /assets/images/quick-start-guide/rak2245/5.accessing the internet/rak-ap-file.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/5.accessing the internet/rak-ap-file.png
     width: 50%
     figureNumber: 9
     caption: Creating rak_ap file to your SD Card

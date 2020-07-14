@@ -14,7 +14,7 @@ There is a built-in ChirpStack in every RAK Developer gateway if you use the lat
 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/6connect-with-chirpstack/1.ip-scanner.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/6connect-with-chirpstack/1.ip-scanner.png"
   width="100%"
   figure-number="1"
   caption="IP address of your LPWAN Gateway using IP Scanner"
@@ -31,7 +31,7 @@ It is advisable to change your password to tighten the security of your account.
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/6connect-with-chirpstack/2.log-in.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/6connect-with-chirpstack/2.log-in.png"
   width="100%"
   figure-number="2"
   caption="ChirpStack Web-based UI"
@@ -40,7 +40,7 @@ It is advisable to change your password to tighten the security of your account.
 - Everything should be pre-configured: Device profiles have been created, the gateway has been registered with the server, etc. If you go to the Gateways tab and click on rak_gateway, you should see the gateway details page.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/6connect-with-chirpstack/3.available-gateways.jpg"
+  src="/assets/images/wislink-lora/rak2287/quickstart/6connect-with-chirpstack/3.available-gateways.jpg"
   width="100%"
   figure-number="3"
   caption="Available Gateways in Chirpstack"
@@ -50,7 +50,7 @@ It is advisable to change your password to tighten the security of your account.
 - Go to the rak_gateway and see the "Last seen" status. It must be a few seconds ago which signifies that the gateway is visible in the ChirpStack server.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/6connect-with-chirpstack/4.last-seen.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/6connect-with-chirpstack/4.last-seen.png"
   width="100%"
   figure-number="4"
   caption="Last Seen Status"

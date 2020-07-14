@@ -1,5 +1,5 @@
 ---
-rak_img: /assets/images/quick-start-guide/rak2287/1main/RAK2287.jpg
+rak_img: /assets/images/wislink-lora/rak2287/quickstart/1main/RAK2287.jpg
 rak_grp: lora-gateway
 qlinks:
   learnMore:
@@ -21,7 +21,7 @@ qlinks:
 # RAK2287 WisLink- LPWAN Gateway Module
 
 <rk-img
-  src="/assets/images/datasheet/rak2287/overview/aprgtyyf6arxkxu7rjyl.jpg"
+  src="/assets/images/wislink-lora/rak2287/datasheet/overview/aprgtyyf6arxkxu7rjyl.jpg"
   width="50%"
   caption="RAK2287 WisLink- LPWAN Gateway Module"
 />

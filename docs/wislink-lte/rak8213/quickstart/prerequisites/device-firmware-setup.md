@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak8213/prerequisites
+static_root: /assets/images/wislink-lte/rak8213/quickstart/prerequisites
 prev: /en-us/quick-start-guide/nb-iot/rak8213/prerequisites/#what-do-you-need
 ---
 

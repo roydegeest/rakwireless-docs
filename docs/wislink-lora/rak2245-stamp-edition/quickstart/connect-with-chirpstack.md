@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak2245-stamp/connect-with-chirpstack
+static_root: /assets/images/wislink-lora/rak2245-stamp-edition/quickstart/connect-with-chirpstack
 ---
 
 # Connect the Gateway with ChirpStack

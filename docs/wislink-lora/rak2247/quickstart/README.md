@@ -1,7 +1,7 @@
 # Prerequisites
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2247/2.quickstart/rak2247_1.png"
+  src="/assets/images/wislink-lora/rak2247/quickstart/2.quickstart/rak2247_1.png"
   width="100%"
   caption="RAK2247 LPWAN Gateway Concentrator Module Components"
 />
@@ -20,7 +20,7 @@ Before going through each and every step in the installation and guide of the RA
 ## What's included in the Package?
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2247/2.quickstart/package.jpg"
+  src="/assets/images/wislink-lora/rak2247/quickstart/2.quickstart/package.jpg"
   width="100%"
   caption="Package Contents"
 />

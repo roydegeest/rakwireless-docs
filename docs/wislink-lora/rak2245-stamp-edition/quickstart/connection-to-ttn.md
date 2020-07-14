@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak2245-stamp/connection-to-ttn
+static_root: /assets/images/wislink-lora/rak2245-stamp-edition/quickstart/connection-to-ttn
 ---
 
 # Connecting to The Things Network (TTN)

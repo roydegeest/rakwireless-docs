@@ -12,7 +12,7 @@ To create a functioning RAK2287 Concentrator Module WisLink Series, you need to 
 Insert your **RAK2287 mPCIe card** into the mPCIe slot on the **RAK2003 Pi HAT**. Make sure the card fits snugly into the connector, it should end up sticking out in a **45-degree angle**. Gently press it down and fasten with 2 screws. If you have positioned the card right, the screw holes on the RAK2287 will match the ones on the RAK2003. Use **Figure 1** as reference.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/2prerequisites/3.assembly-of-the-concentrator-and-hat.jpg"
+  src="/assets/images/wislink-lora/rak2287/quickstart/2prerequisites/3.assembly-of-the-concentrator-and-hat.jpg"
   width="50%"
   figure-number="1"
   caption="Assembly of the Concentrator and the HAT"

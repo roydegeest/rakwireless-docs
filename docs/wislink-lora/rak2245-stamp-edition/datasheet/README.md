@@ -8,7 +8,7 @@ sidebarDepth: 4
 # RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module
 
 <rk-img
-  src="/assets/images/datasheet/rak2245-stamp/r8b1kuz7nsyovmac80kq.png"
+  src="/assets/images/wislink-lora/rak2245-stamp-edition/datasheet/overview/r8b1kuz7nsyovmac80kq.png"
   width="60%"
   caption="RAK2245 Stamp Edition"
 />
@@ -42,7 +42,7 @@ Overall, this gateway module is the most economical way to create different solu
 The **RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module**, as shown in figure 1 below, has outer dimensions of **30.00 x 60.00 x 14.90 mm** (nominal value) which includes the 9.50 mm heat sink.
 
 <rk-img
-  src="/assets/images/datasheet/rak2245-stamp/board-overview/roohsofgitzlzhbea2vz.jpg"
+  src="/assets/images/wislink-lora/rak2245-stamp-edition/datasheet/board-overview/roohsofgitzlzhbea2vz.jpg"
   width="60%"
   caption="RAK2245 Stamp Edition Board Dimension"
 />
@@ -50,7 +50,7 @@ The **RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module**, as shown in f
 #### Block Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak2245-stamp/interfaces/block-diagram.png"
+  src="/assets/images/wislink-lora/rak2245-stamp-edition/datasheet/interfaces/block-diagram.png"
   width="100%"
   caption="RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module Block Diagram"
 />
@@ -99,7 +99,7 @@ The modules have two RF interfaces for LoRa® and GPS antennas over the standard
 The pinout diagram for the RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module is shown by the figure below.
 
 <rk-img
-  src="/assets/images/datasheet/rak2245-stamp/pin-definition/fahimiuydovhvpxrmcl9.jpg"
+  src="/assets/images/wislink-lora/rak2245-stamp-edition/datasheet/pin-definition/fahimiuydovhvpxrmcl9.jpg"
   width="50%"
   caption="Pinout Diagram of RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module"
 />

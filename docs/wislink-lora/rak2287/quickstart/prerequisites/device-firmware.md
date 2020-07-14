@@ -21,7 +21,7 @@ Your SD Card should be automatically detected by the Etcher software in the Labe
 Click Flash and wait for a couple of minutes until it displays "**Flash Complete.**"
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/2prerequisites/2.balena-etcher-software.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/2prerequisites/2.balena-etcher-software.png"
   width="100%"
   figure-number="1"
   caption="Balena Etcher Software"

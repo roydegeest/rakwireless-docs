@@ -1,7 +1,7 @@
 # Prerequisites
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2245/1.product-overview/2.quick-start/kyvjuiay9xyyvzkxjphu.jpg"
+  src="/assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/1.product-overview/2.quick-start/kyvjuiay9xyyvzkxjphu.jpg"
   width="70%"
   figure-number="1"
   caption="RAK2245 Stacked on top of Raspberry Pi 3B+"
@@ -26,7 +26,7 @@
 ## What's included in the Package?
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2245/1.product-overview/2.quick-start/kscc95awtmatlcj3hiof.jpg"
+  src="/assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/1.product-overview/2.quick-start/kscc95awtmatlcj3hiof.jpg"
   width="100%"
   figure-number="2"
   caption="Package Contents"

@@ -8,7 +8,7 @@ sidebarDepth: 4
 # RAK833 LPWAN Gateway Concentrator Module
 
 <rk-img
-  src="/assets/images/datasheet/rak833/rak833.png"
+  src="/assets/images/wislink-lora/rak833/datasheet/rak833.png"
   width="60%"
   caption="RAK833 LPWAN Gateway Concentrator Module"
 />
@@ -37,7 +37,7 @@ RAK833 LPWAN Gateway Concentrator Module is a complete and cost efficient gatewa
 #### Board Overview
 
 <rk-img
-  src="/assets/images/datasheet/rak833/board_overview.png"
+  src="/assets/images/wislink-lora/rak833/datasheet/board_overview.png"
   width="100%"
   caption="RAK833 LPWAN Gateway Concentrator Module Dimension"
 />
@@ -45,7 +45,7 @@ RAK833 LPWAN Gateway Concentrator Module is a complete and cost efficient gatewa
 #### Block Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak833/block-diagram.png"
+  src="/assets/images/wislink-lora/rak833/datasheet/block-diagram.png"
   width="100%"
   caption="RAK833 LPWAN Gateway Block Diagram"
 />
@@ -94,7 +94,7 @@ RAK833 LPWAN Gateway Concentrator Module includes the SPDT_SEL input for selecti
 The following table lists the pin numbers of RAK833 LPWAN Gateway Concentrator Module and its corresponding names and description. Refer to figure below for a pinout diagram.
 
 <rk-img
-  src="/assets/images/datasheet/rak833/pinout.png"
+  src="/assets/images/wislink-lora/rak833/datasheet/pinout.png"
   width="100%"
   caption="RAK833 LPWAN Gateway Concentrator Module Pinout Diagram"
 />
@@ -242,7 +242,7 @@ Input voltage at **3.3Vaux** must be above the normal operating range minimum li
 RAK833 LPWAN Gateway Concentrator Module is fully compliant to the **52-pin PCI Express Full-Mini Card Type F2** form factor, with top-side and bottom-side keep-out areas, with 50.95 millimeter nominal length, 30 millimeter nominal width and all the other dimensions as defined by the PCI Express Mini Card Electromechanical Specification except for the card thickness with a nominal value of 3.7 millimeter. The weight of the RAK833 LPWAN Gateway Concentrator Module is about 9.7 grams.
 
 <rk-img
-  src="/assets/images/datasheet/rak833/rak833-lpwan-gateway-concentrator-module-mechanical-characteristics.png"
+  src="/assets/images/wislink-lora/rak833/datasheet/rak833-lpwan-gateway-concentrator-module-mechanical-characteristics.png"
   width="100%"
   caption="RAK833 LPWAN Gateway Concentrator Module Mechanical Characteristics"
 />
@@ -252,55 +252,55 @@ RAK833 LPWAN Gateway Concentrator Module is fully compliant to the **52-pin PCI 
 RAK833 LPWAN Gateway Concentrator Module refer Semtech’s reference design of SX1301, and a 4 chancel SPDT to switch SPI of SX1301 to PCI edge connector or FT2232H which converts SPI to USB2.0 interface.
 
 <rk-img
-  src="/assets/images/datasheet/rak833/interface-schematic-diagram.jpg"
+  src="/assets/images/wislink-lora/rak833/datasheet/interface-schematic-diagram.jpg"
   width="100%"
   caption="RAK833 LPWAN Gateway Concentrator Module Mechanical Characteristics"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak833/power-source-schematic-diagram.jpg"
+  src="/assets/images/wislink-lora/rak833/datasheet/power-source-schematic-diagram.jpg"
   width="100%"
   caption="Power Source Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak833/ft22323-ic-schematic-diagram.jpg"
+  src="/assets/images/wislink-lora/rak833/datasheet/ft22323-ic-schematic-diagram.jpg"
   width="100%"
   caption="FT22323 IC Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak833/semtech-sx1301-schematic-diagram.jpg"
+  src="/assets/images/wislink-lora/rak833/datasheet/semtech-sx1301-schematic-diagram.jpg"
   width="100%"
   caption="Semtech - SX1301 Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak833/stm32f401cdu6-schematic-diagram.jpg"
+  src="/assets/images/wislink-lora/rak833/datasheet/stm32f401cdu6-schematic-diagram.jpg"
   width="100%"
   caption="STM32F401CDU6 Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak833/rf-part-1-schematic-diagram.jpg"
+  src="/assets/images/wislink-lora/rak833/datasheet/rf-part-1-schematic-diagram.jpg"
   width="100%"
   caption="RF Part-1 Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak833/rf-part-2-schematic-diagram.jpg"
+  src="/assets/images/wislink-lora/rak833/datasheet/rf-part-2-schematic-diagram.jpg"
   width="100%"
   caption="RF Part-2 Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak833/rf-part-3-schematic-diagram.jpg"
+  src="/assets/images/wislink-lora/rak833/datasheet/rf-part-3-schematic-diagram.jpg"
   width="100%"
   caption="RF Part-3 Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak833/rf-part-4-schematic-diagram.jpg"
+  src="/assets/images/wislink-lora/rak833/datasheet/rf-part-4-schematic-diagram.jpg"
   width="100%"
   caption="RF Part-4 Schematic Diagram"
 />
@@ -310,7 +310,7 @@ RAK833 LPWAN Gateway Concentrator Module refer Semtech’s reference design of S
 The figure below shows the minimum application schematic of the RAK833 LPWAN Gateway Concentrator Module which uses at least **3.3V/1A DC power source**. It can either connect through the SPI interface or USB interface to the main processor. If the SPI interface is chosen, **SPDT_SEL** should be connected to the ground (GND) otherwise, leave the pin open.
 
 <rk-img
-  src="/assets/images/datasheet/rak833/wtmebjc8oldgbqvdkyfb.png"
+  src="/assets/images/wislink-lora/rak833/datasheet/wtmebjc8oldgbqvdkyfb.png"
   width="100%"
   caption="Reference Minimum Schematic"
 />

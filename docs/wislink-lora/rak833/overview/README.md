@@ -1,5 +1,5 @@
 ---
-rak_img: /assets/images/datasheet/rak833/rak833.png
+rak_img: /assets/images/wislink-lora/rak833/datasheet/rak833.png
 rak_grp: lora-gateway
 params:
   qlinks:
@@ -24,7 +24,7 @@ params:
 # RAK833 LPWAN Gateway Concentrator Module
 
 <rk-img
-  src="/assets/images/datasheet/rak833/rak833.png"
+  src="/assets/images/wislink-lora/rak833/datasheet/rak833.png"
   width="60%"
   caption="RAK833 LPWAN Gateway Concentrator Module"
 />

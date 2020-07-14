@@ -3,47 +3,47 @@ title: Accessing Your Gateway
 
 params:
   img1:
-    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/wifi.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/4.accessing your gateway/wifi.png
     width: 100%
     figureNumber: 1
     caption: RAKwireless Access Point
   img2:
-    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/networ&sharing.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/4.accessing your gateway/networ&sharing.png
     width: 100%
     figureNumber: 2
     caption: Network and Sharing Center
   img3:
-    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/ethernetproperties.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/4.accessing your gateway/ethernetproperties.png
     width: 100%
     figureNumber: 3
     caption: Ethernet Properties
   img4:
-    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/tcpipv4.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/4.accessing your gateway/tcpipv4.png
     width: 100%
     figureNumber: 4
     caption: TCP/IPv4 Properties
   img5:
-    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/puttywindows.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/4.accessing your gateway/puttywindows.png
     width: 75%
     figureNumber: 5
     caption: Putty Software for SSH in Windows
   img6:
-    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/commandline.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/4.accessing your gateway/commandline.png
     width: 100%
     figureNumber: 6
     caption: Command line after log in
   img7:
-    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/mac_terminal.png
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/4.accessing your gateway/mac_terminal.png
     width: 100%
     figureNumber: 7
     caption: Opening Terminal in Mac OS
   img8:
-    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/sshmac.jpg
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/4.accessing your gateway/sshmac.jpg
     width: 100%
     figureNumber: 8
     caption: SSH in Mac OS
   img9:
-    src: /assets/images/quick-start-guide/rak2245/4.accessing your gateway/loginsuccess.jpg
+    src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/4.accessing your gateway/loginsuccess.jpg
     width: 100%
     figureNumber: 9
     caption: Log-in Successful Notification

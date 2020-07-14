@@ -8,7 +8,7 @@ sidebarDepth: 4
 # RAK2287 WisLink- LPWAN Gateway Module
 
 <rk-img
-  src="/assets/images/datasheet/rak2287/overview/aprgtyyf6arxkxu7rjyl.jpg"
+  src="/assets/images/wislink-lora/rak2287/datasheet/overview/aprgtyyf6arxkxu7rjyl.jpg"
   width="50%"
   caption="RAK2287 WisLink- LPWAN Gateway Module"
 />
@@ -42,7 +42,7 @@ RAK2287 is a compact LPWAN Gateway Module, making it suitable for integration in
 The board has two UFL interfaces for the LoRa® and GNSS antennas and a standard 52 pin connector (mPCIe).
 
 <rk-img
-  src="/assets/images/datasheet/rak2287/board-overview/yujozcseyi0lmakv0gtz.jpg"
+  src="/assets/images/wislink-lora/rak2287/datasheet/board-overview/yujozcseyi0lmakv0gtz.jpg"
   width="100%"
   caption="RAK2247 Board Overview"
 />
@@ -52,7 +52,7 @@ The board has two UFL interfaces for the LoRa® and GNSS antennas and a standard
 RAK2287 card is equipped with one SX1302 chip and two SX1250. The first chip is utilized for RF signal and the core of the device. While the latter, provides the related LoRa® modem and processing functionalities. Additional signal conditioning circuitry is implemented for PCI Express Mini Card compliance, and one UFL connectors are available for external antennas integration.
 
 <rk-img
-  src="/assets/images/datasheet/rak2287/interfaces/block-diagram.png"
+  src="/assets/images/wislink-lora/rak2287/datasheet/interfaces/block-diagram.png"
   width="100%"
   caption="RAK2287 Block Diagram"
 />
@@ -91,7 +91,7 @@ The modules have one RF interfaces over a standard UFL connectors (Hirose U. FL-
 ##### Pinout Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak2287/pin-definition/vxzsalj5pmn34nysz34q.png"
+  src="/assets/images/wislink-lora/rak2287/datasheet/pin-definition/vxzsalj5pmn34nysz34q.png"
   width="100%"
   caption="RAK2287 Pinout Diagram"
 />
@@ -250,7 +250,7 @@ Input voltage at **3.3Vaux** must be above the normal operating range minimum li
 The board weighs 16.3 gram, it is 30 mm wide and 50.96 mm tall. The dimensions of the module fall completely within the **PCI Express Mini Card Electromechanical Specification**, with except of the card's thickness (10.5 mm at its thickest).
 
 <rk-img
-  src="/assets/images/datasheet/rak2287/mechanical/dimension.png"
+  src="/assets/images/wislink-lora/rak2287/datasheet/mechanical/dimension.png"
   width="100%"
   caption="RAK2287 Board Dimensions"
 />
@@ -274,7 +274,7 @@ Unless otherwise indicated, all operating condition specifications are at an amb
 RAK2287 card refers to Semtech's reference design of SX1302. The SPI interface can be used on PCIE connector.The next figure shows the minimum application schematic of RAK2287 card. You should use it at least 3.3V/1A DC power, connect SPI interface interface to the main processor.
 
 <rk-img
-  src="/assets/images/datasheet/rak2287/schematic-diagram/gpvh8ltdwzxkureac6jq.jpg"
+  src="/assets/images/wislink-lora/rak2287/datasheet/schematic-diagram/gpvh8ltdwzxkureac6jq.jpg"
   width="100%"
   caption="Schematic Diagram of RAK2287"
 />

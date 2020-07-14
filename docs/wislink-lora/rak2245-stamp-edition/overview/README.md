@@ -1,5 +1,5 @@
 ---
-rak_img: /assets/images/quick-start-guide/rak2245-stamp/overview/RAK2245-stamp-edition.svg
+rak_img: /assets/images/wislink-lora/rak2245-stamp-edition/quickstart/overview/RAK2245-stamp-edition.svg
 rak_grp: lora-gateway
 qlinks:
   learnMore:
@@ -19,7 +19,7 @@ qlinks:
 # RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module
 
 <rk-img
-  src="/assets/images/datasheet/rak2245-stamp/r8b1kuz7nsyovmac80kq.png"
+  src="/assets/images/wislink-lora/rak2245-stamp-edition/datasheet/overview/r8b1kuz7nsyovmac80kq.png"
   width="60%"
   caption="RAK2245 Stamp Edition"
 />

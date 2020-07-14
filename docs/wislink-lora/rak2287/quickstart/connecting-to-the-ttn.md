@@ -7,7 +7,7 @@ The Things Network is about enabling low power devices to use long range gateway
 - Now go to the TTN Website: [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/5connecting-to-the-ttn/1.ttn_home_page.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/5connecting-to-the-ttn/1.ttn_home_page.png"
   width="100%"
   figure-number="1"
   caption="The Things Network Home Page"
@@ -16,7 +16,7 @@ The Things Network is about enabling low power devices to use long range gateway
 - Choose Console then Click Gateways.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/5connecting-to-the-ttn/2.console-page.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/5connecting-to-the-ttn/2.console-page.png"
   width="100%"
   figure-number="2"
   caption="The Things Network Console Page"
@@ -25,14 +25,14 @@ The Things Network is about enabling low power devices to use long range gateway
 - All of your Registered Gateways will be displayed here in this page. Click "**register gateway**"
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/5connecting-to-the-ttn/3.add-gateway.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/5connecting-to-the-ttn/3.add-gateway.png"
   width="100%"
   figure-number="3"
   caption="Adding a Gateway to TTN"
 />
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/5connecting-to-the-ttn/4.register-gateway.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/5connecting-to-the-ttn/4.register-gateway.png"
   width="100%"
   figure-number="4"
   caption="Registering your Gateway"
@@ -52,7 +52,7 @@ Make sure to select the "**I'm using the legacy packet forwarder**" check box.
 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak2287/5connecting-to-the-ttn/5.gateway-connected.png"
+  src="/assets/images/wislink-lora/rak2287/quickstart/5connecting-to-the-ttn/5.gateway-connected.png"
   width="100%"
   figure-number="5"
   caption="Gateway overview"
