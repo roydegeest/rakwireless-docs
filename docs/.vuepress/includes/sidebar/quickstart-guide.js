@@ -984,7 +984,143 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/': [
-    ''
-  ]
+  '/wisduo/rak4200-evaluation-board/quickstart/': [
+    {
+      title: 'Quick Start Guide',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'interfacing',
+        {
+          title: "Connecting to The Things Network",
+          nested: true,
+          collapsable: false,
+          path: '/wisduo/rak4200-evaluation-board/quickstart/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa',
+            'connecting-to-ttn/ttn-abp',
+          ]
+        },
+        {
+          title: "Connecting to Chirpstack",
+          nested: true,
+          collapsable: false,
+          path: '/wisduo/rak4200-evaluation-board/quickstart/connecting-to-chirpstack/',
+          children: [
+            'connecting-to-chirpstack/chirpstack-otaa',
+            'connecting-to-chirpstack/chirpstack-abp',
+          ]
+        },
+        'lora-p2p-mode'
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'at-commands',
+        'burning-the-firmware',
+        'upgrading-the-firmware'
+      ]
+
+    }
+  ], 
+  '/wisduo/rak4260-evaluation-board/quickstart/': [
+    {
+      title: 'Quick Start Guide',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'burning-the-firmware',
+        'interfacing-with-rak4260',
+        {
+          title: "Connecting to The Things Network (TTN)",
+          nested: true,
+          collapsable: false,
+          path: '/wisduo/rak4260-evaluation-board/quickstart/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa'
+          ]
+        }
+      ]
+    }
+  ],
+  '/wisduo/rak4600-evaluation-board/quickstart/': [
+    {
+      title: 'Quick Start Guide',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        {
+          title: "Interfacing with RAK4600",
+          collapsable: false,
+          nested: true,
+          path: '/wisduo/rak4600-evaluation-board/quickstart/interfacing/',
+          children: [
+            'interfacing/checking-device-logs',
+          ]
+        },
+        'configuring-rak4600',
+        {
+          title: "Connecting to The Things Network",
+          nested: true,
+          collapsable: false,
+          path: '/wisduo/rak4600-evaluation-board/quickstart/connecting-to-ttn/',
+          children: [
+            'connecting-to-ttn/ttn-otaa',
+            'connecting-to-ttn/ttn-abp',
+          ]
+        },
+        {
+          title: "Connecting to Chirpstack",
+          nested: true,
+          collapsable: false,
+          path: '/wisduo/rak4600-evaluation-board/quickstart/connecting-to-chirpstack/',
+          children: [
+            'connecting-to-chirpstack/chirpstack-otaa',
+            'connecting-to-chirpstack/chirpstack-abp',
+          ]
+        },
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'at-commands',
+        'bluetooth-connection-modes',
+        'burning-the-firmware',
+        'upgrading-firmware',
+        'rui-online-compiler'
+      ]
+    }
+  ],
+ 
+  
 }
