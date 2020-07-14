@@ -1,6 +1,8 @@
 ---
-tags:
-  - datasheet
+tags: + datasheet
+sidebar: auto
+sidebarDepth: 4
+prev: /wisgate/rak7240/overview/
 ---
 
 # RAK7240 Outdoor LPWAN Gateway

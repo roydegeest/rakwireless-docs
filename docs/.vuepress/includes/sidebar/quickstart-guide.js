@@ -79,7 +79,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/gateways/rak7258/': [
+  '/wisgate/rak7258/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
@@ -91,13 +91,13 @@ module.exports = {
           title: "Quick Start Guide",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7258/quick-start-guide/',
+          path: '/wisgate/rak7258/quickstart/',
           children: [
-            'quick-start-guide/wall-mounting-guide',
-            'quick-start-guide/power-on-the-gateway',
-            'quick-start-guide/access-the-gateway',
-            'quick-start-guide/access-the-internet',
-            'quick-start-guide/connecting-to-ttn'
+            'wall-mounting-guide',
+            'power-on-the-gateway',
+            'access-the-gateway',
+            'access-the-internet',
+            'connecting-to-ttn'
           ]
         }
       ]
@@ -122,7 +122,7 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7244/accessing-your-gateway/',
+          path: '/wisgate/rak7244/quickstart/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]
@@ -157,14 +157,13 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/gateways/rak7243c/': [
+  '/wisgate/rak7243c/quickstart/': [
     {
       title: 'Product Overview',
       collapsable: false,
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
       ]
     },
     {
@@ -176,7 +175,7 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7243c/accessing-your-gateway/',
+          path: '/wisgate/rak7243c/quickstart/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]

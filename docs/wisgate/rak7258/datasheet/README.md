@@ -1,6 +1,9 @@
 ---
-tags:
-  - datasheet
+tags: + datasheet
+sidebar: auto
+sidebarDepth: 4
+prev: /wisgate/rak7258/overview/
+next: false 
 ---
 
 # RAK7258 Micro Gateway

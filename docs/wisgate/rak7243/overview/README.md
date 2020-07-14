@@ -1,7 +1,8 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7243/1.main
 rak_img: RAK7243.svg
-rak_grp: overview
+rak_grp: wisgate
+tags: overview
 params:
   qlinks1:
     learnMore:

@@ -1,3 +1,6 @@
+---
+next: false
+---
 # Connecting to The Things Network (TTN)
 
 The Things Network is about enabling low power devices to use long range gateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about The Things Network [here](https://www.thethingsnetwork.org/docs/).

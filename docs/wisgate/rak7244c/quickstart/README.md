@@ -1,5 +1,6 @@
 ---
 title: RAK7244C LPWAN Developer Gateway
+prev: /wisgate/rak7244c/overview/
 next: /wisgate/rak7244c/quickstart/accessing-your-gateway/#accessing-your-gateway
 ---
 

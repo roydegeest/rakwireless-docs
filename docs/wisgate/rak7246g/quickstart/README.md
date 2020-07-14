@@ -1,5 +1,6 @@
 ---
 title: RAK7246G LPWAN Developer Gateway
+prev: /wisgate/rak7246g/overview/
 next: /wisgate/rak7246g/quickstart/accessing-your-gateway/
 params:
   {

@@ -1,6 +1,8 @@
 ---
-tags:
-  - datasheet
+tags: + datasheet
+sidebar: auto
+sidebarDepth: 4
+prev: /wisgate/rak7249/overview/
 ---
 
 # RAK7249 Macro Outdoor Gateway

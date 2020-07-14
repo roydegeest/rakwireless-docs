@@ -1,6 +1,8 @@
 ---
-tags:
-  - datasheet
+tags: + datasheet
+sidebar: auto
+sidebarDepth: 4
+prev: /wisgate/rak7244/overview/
 ---
 
 # RAK7244 LPWAN Developer Gateway

@@ -1,9 +1,9 @@
 ---
-title: RAK7249 Macro Outdoor Gateway
+prev: /wisgate/rak7249/overview/
 next: gateway-installation-guide
 ---
 
-# Quick Start Guide
+# RAK7249 Macro Outdoor Gateway
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7249/2.quickstart/antennas_installed.png"

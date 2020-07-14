@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7244c/5.connect-chirpstack
+static_root: /assets/images/quick-start-guide/rak7243c/2.product-configuration/5.connect-chirpstack
 next: false
 ---
 
@@ -7,22 +7,21 @@ next: false
 
 The ChirpStack or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [**here**](https://www.chirpstack.io/)
 
-For the RAK7244C LPWAN Developer Gateway, there are 2 ways to use the ChirpStack:
+For the RAK7243C LPWAN Developer Gateway, there are 2 ways to use the ChirpStack:
 
-
-### 1. Using the built-in ChirpStack
+## 1. Using the built-in ChirpStack
 
 There is a built-in ChirpStack in every RAK Developer gateway if you use the latest firmware.
 
-- When you use it for the first time after burning the latest firmware, the Gateway will work in the EU868 Band and use the built-in ChirpStack as its default LoRa® Server. If you don't want to change the frequency or LoRa® Server, you don't have to do anything as this will be configured automatically when the Gateway boots.
-- However if it is not the first time and you want to use the built-in ChirpStack as the LoRa® Server, follow the steps discussed in [Configuring the Gateway](/wisgate/rak7244c/quickstart/configuring-the-gateway.html) section.
+- When you use it for the first time after burning the latest firmware, the gateway will work in the EU868 Band and use the built-in ChirpStack as its default LoRa® Server. If you don't want to change the frequency or LoRa® Server, you don't have to do anything as this will be configured automatically when the gateway boots.
+- However if it is not the first time and you want to use the built-in ChirpStack as the LoRa® Server, follow the steps discussed in [Configuring the Gateway](/en-us/quick-start-guide/gateways/rak7243c/configuring-the-gateway.html) section.
 - **Optional:** If ever you disabled the AP Mode and you have connected it to your own Wifi network (Client Mode). You can search for your gateway’s IP Address via [**Advanced IP Scanner**](https://www.advanced-ip-scanner.com/). Copy the IP Address of your Gateway, it should have a Manufacturer name of **Raspberry Pi Foundation**:
 
 <rk-img
   :src="`${$frontmatter.static_root}/01.mtfxbfnu0pxildkxayzt.png`"
   width="100%"
   figure-number="1"
-  caption="IP address of your RAK7244C using IP Scanner"
+  caption="IP address of your RAK7243C using IP Scanner"
 />
 
 There is a Web-based UI that comes with the ChirpStack instance. Simply open a browser and enter the following credentials:
@@ -60,14 +59,14 @@ It is advisable to change your password to tighten the security of your account.
   caption="Last Seen Status"
 />
 
-### 2. Using an Independent ChirpStack
+## 2. Using an Independent ChirpStack
 
 There are 2 ways that you can get an independent ChirpStack:
 
 1. Use RAK's Cloud TestingChirpStack - If you want to use RAK's Cloud Testing ChirpStack, contact RAK's Technical Support in the Forum: [https://forum.rakwireless.com/](https://forum.rakwireless.com/)
 2. Setup an Independent ChirpStack by yourself.
 
-This is a lot more complicated having to deploy a remote ChirpStack by yourself but Chirpstack provided a detailed guide on how to do it **[here](https://www.chirpstack.io/guides/debian-ubuntu/)[:](https://www.chirpstack.io/gateway-bridge/overview/)**
+This is a lot more complicated having to deploy a remote ChirpStack by yourself but Chirpstack provided a detailed guide on how to do it **[here](https://www.chirpstack.io/guides/debian-ubuntu/)**
 
 <rk-img
   :src="`${$frontmatter.static_root}/05.vn6fioh16k6zjdplr0it.png`"
@@ -80,7 +79,7 @@ This is a lot more complicated having to deploy a remote ChirpStack by yourself 
 Remember to run the \"`sudo gateway-config`\" command in the CLI and point the Gateway to the IP address of the machine you just installed Chirpstack on. This can be done in item 2 in the menu \"**Setup RAK Gateway LoRa® concentrator**\"!
 :::
 
-- Assuming you have set it up correctly, Login to your ChirpStack to register your Gateway by opening the ChirpStack's web page in a browser by entering "IP Address of ChirpStack:8080".
+- Assuming you have set it up correctly, Login to your ChirpStack to register your gateway by opening the ChirpStack's web page in a browser by entering "IP Address of ChirpStack:8080".
 
 <rk-img
   :src="`${$frontmatter.static_root}/06.rmibul5ouzluictf9zpq.png`"
@@ -107,7 +106,7 @@ Remember to run the \"`sudo gateway-config`\" command in the CLI and point the G
   caption="ChirpStack Registered Gateways"
 />
 
-- Click "Create" to register your Gateway and fill up the necessary information.
+- Click "Create" to register your gateway and fill up the necessary information.
 
 <rk-img
   :src="`${$frontmatter.static_root}/09.ku6wofqafkogdpndggwu.png`"
@@ -116,8 +115,8 @@ Remember to run the \"`sudo gateway-config`\" command in the CLI and point the G
   caption="Registering your own Gateway"
 />
 
-- Fill in the Gateway ID that we got from the last section ([Configuring the Gateway](/wisgate/rak7244/quickstart/configuring-the-gateway.html), also called Gateway EUI.
-- If you have properly configured your Gateway and there is a network connection between the external ChirpStack and your Gateway, you should see the following page and status:
+- Fill in the Gateway ID that we got from the last section ([Configuring the Gateway](/en-us/quick-start-guide/gateways/rak7243c/configuring-the-gateway.html)), also called Gateway EUI.
+- If you have properly configured your gateway and there is a network connection between the external ChirpStack and your gateway, you should see the following page and status:
 
 <rk-img
   :src="`${$frontmatter.static_root}/10.p9wtubhkjdsatrhkwvfu.png`"
@@ -126,4 +125,4 @@ Remember to run the \"`sudo gateway-config`\" command in the CLI and point the G
   caption="Successfully Registered the Gateway"
 />
 
-- Congratulations! :tada: You have connected your Gateway to an external ChirpStack Successfully!
+**Congratulations!** :tada: You have connected your gateway to an external ChirpStack Successfully!

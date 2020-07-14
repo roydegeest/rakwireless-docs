@@ -1,5 +1,5 @@
 ---
-title: Connect the Gateway with Chirpstack
+next: false
 ---
 
 # Connect the Gateway with Chirpstack

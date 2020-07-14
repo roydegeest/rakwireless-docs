@@ -1,5 +1,5 @@
 ---
-title: Connecting to ResIOT
+next: false
 ---
 
 # Connecting to ResIOT

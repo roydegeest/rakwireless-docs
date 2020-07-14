@@ -1,7 +1,9 @@
 ---
 static_root: /assets/images/datasheet/rak7246g/overview
-tags:
-  - datasheet
+tags: + datasheet
+sidebar: auto
+sidebarDepth: 4
+prev: /wisgate/rak7246g/overview/
 ---
 
 # RAK7246G LPWAN Developer Gateway

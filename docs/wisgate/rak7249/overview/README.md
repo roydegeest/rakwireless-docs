@@ -1,8 +1,8 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7249/1.main
 rak_img: RAK7249.svg
-next: /en-us/quick-start-guide/gateways/rak7249/quick-start-guide/#quick-start-guide
-rak_grp: overview
+rak_grp: wisgate
+tags: overview
 params:
   qlinks1:
     learnMore:
@@ -16,7 +16,7 @@ params:
       - name: Datasheet
         href: /wisgate/rak7249/datasheet/
       - name: Certification Reports
-        href: /wisgate/rak7249/datasheet/certification-reports/
+        href: /wisgate/rak7249/datasheet/#certification-reports
       - name: User Manual
         href: /user-manual/
       - name: Deployment Guide
@@ -41,7 +41,7 @@ The Gateway provides for a solid out of the box experience for quick deployment.
 Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or customization with regards to UI and functionality.
 
 <rk-btn
-  src="quick-start-guide/#quick-start-guide"
+  src="/wisgate/rak7249/quickstart/"
   label="Get Started with RAK7249 Macro Outdoor Gateway"
 />
 

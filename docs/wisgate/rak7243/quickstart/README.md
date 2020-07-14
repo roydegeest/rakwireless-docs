@@ -1,5 +1,6 @@
 ---
 title: RAK7243 LPWAN Developer Gateway
+prev: /wisgate/rak7243/overview/
 next: access-the-gateway
 ---
 
