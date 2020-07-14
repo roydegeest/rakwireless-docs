@@ -1,5 +1,7 @@
 ---
 tags: + datasheet
+sidebar: auto
+sidebarDepth: 4
 ---
 
 # RAK831 LPWAN Gateway Concentrator
