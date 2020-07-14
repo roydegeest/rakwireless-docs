@@ -1,6 +1,6 @@
 ---
 title: Accessing the Internet
-prev: /en-us/quick-start-guide/gateways/rak7246g/accessing-your-gateway/#accessing-your-gateway
+prev: /wisgate/rak7246g/quickstart/accessing-your-gateway/#accessing-your-gateway
 ---
 
 # Accessing the Internet

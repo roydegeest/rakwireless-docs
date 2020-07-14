@@ -1,8 +1,9 @@
 ---
+title: RAK7240 Outdoor LPWAN Gateway
 next: /wisgate/rak7240/quickstart/power-on-the-gateway.html
 ---
 
-# RAK7240 Outdoor LPWAN Gateway
+# Quick Start Guide
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7240/rak7240-overview.jpg"

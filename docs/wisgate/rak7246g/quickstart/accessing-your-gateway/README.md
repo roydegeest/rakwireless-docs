@@ -1,6 +1,6 @@
 ---
 title: Accessing Your Gateway
-prev: /en-us/quick-start-guide/gateways/rak7246g/quick-start-guide.html#quick-start-guide
+prev: /wisgate/rak7246g/quickstart/
 next: accessing-the-internet
 ---
 

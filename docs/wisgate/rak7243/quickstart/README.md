@@ -1,8 +1,9 @@
 ---
+title: RAK7243 LPWAN Developer Gateway
 next: access-the-gateway
 ---
 
-# RAK7243 LPWAN Developer Gateway
+# Quick Start Guide
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7243/2.quickstart/rak7243_overview2.jpg"

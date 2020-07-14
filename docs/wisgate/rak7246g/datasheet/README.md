@@ -63,18 +63,6 @@ Both the RAK2246 and Raspberry Pi have the same board dimensions: **30 x 65 mm**
 
 #### Block Diagram
 
-<rk-img
-  src="/assets/images/datasheet/rak7246g/interfaces/block-diagram.png"
-  width="100%"
-  caption="Block Diagram"
-/>
-
-The SX1308 digital baseband chip contains 10 programmable reception paths. Those paths have differentiated levels of programmability and allow for different use cases. It is important to understand the differences between those demodulation paths to make the best possible use of the system.
-
-### Hardware
-
-#### Interfaces
-
 ##### RAK2246 Concentrator
 
 The concentrator is available with an SPI interface:
@@ -85,7 +73,7 @@ The concentrator is available with an SPI interface:
   caption="RAK2246 Bottom View"
 />
 
-###### SX1308
+##### SX1308
 
 The RAK2246 includes Semtech’s SX1308, which is a digital baseband chip including a massive digital signal processing engine specifically designed to offer breakthrough gateway capabilities in the worldwide ISM band.
 
@@ -98,15 +86,25 @@ The control of the SX1308 by the host system (PC, MCU) is made using a Hardware 
 It is highly
 recommended to utilize the latest HAL as provided by Semtech on [https://github.com/Lora-net](https://github.com/Lora-net)
 
-###### IF8 LoRa channel
+##### Block Diagram
+
+<rk-img
+  src="/assets/images/datasheet/rak7246g/interfaces/block-diagram.png"
+  width="100%"
+  caption="Block Diagram"
+/>
+
+The SX1308 digital baseband chip contains 10 programmable reception paths. Those paths have differentiated levels of programmability and allow for different use cases. It is important to understand the differences between those demodulation paths to make the best possible use of the system.
+
+##### IF8 LoRa channel
 
 This channel is connected to one SX1257 using any arbitrary intermediate frequency within the allowed range. This channel is LoRa only. The demodulation bandwidth can be configured to be 125, 250 or 500 kHz. The data rate can be configured to any of the LoRa available data rates (SF7 to SF12), but as opposed to the IF0 to IF7 channels, only the configured data rate will be demodulated. This channel is intended to serve as a high speed backhaul link to other gateways or infrastructure equipment. This demodulation path is compatible with the signal transmitted by the SX1272 and SX1276 chip family.
 
-###### IF9 (G)FSK channel
+##### IF9 (G)FSK channel
 
 The IF9 channel is connected to a (G)FSK demodulator. The channel bandwidth and bit rate can be adjusted. This demodulator offers a very high level of configurability, going well beyond the scope of this document. The demodulator characteristics are essentially the same as the (G)FSK demodulator implemented in the SX1232 and SX1272 Semtech chips. This demodulation path can demodulate any legacy FSK or GFSK formatted signal.
 
-###### IF0 to IF7 LoRa channels
+##### IF0 to IF7 LoRa channels
 
 These channels are connected to one SX1257. The channel bandwidth is 125 kHz and cannot be modified or configured. Each channel’s IF frequency can be individually configured. On each of these channels any data rate can be received without prior configuration.
 
@@ -127,6 +125,10 @@ The unique multi data-rate multi-channel demodulation capacity SF7 to SF12 and o
   width="100%"
   caption="LoRa Channel"
 />
+
+### Hardware
+
+#### Interfaces
 
 ##### External Module Interfaces
 
@@ -199,6 +201,8 @@ There are two digital IO PINs, which give the user an interface to reset the GPS
 
 #### Main Specifications
 
+The following table shows the available features of the RAK7246G LPWAN Developer Gateway and its corresponding specifications:
+
 | **Feature**           | **Specifications**                                                                                                                                                                                                                                                          |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Computing             | • Raspberry Pi Zero Wireless (BCM2835, ARMv7) <br>• **Memory:** 512MB <br>• Storage: SD card slot                                                                                                                                                                           |
@@ -218,21 +222,86 @@ There are two digital IO PINs, which give the user an interface to reset the GPS
 
 ##### LoRa
 
-| **Feature**              | **Specifications**                                      |
-| ------------------------ | ------------------------------------------------------- |
-| **Operating Frequency**  | • RU864 / IN865 / EU868 / US915 / AU915 / KR920 / AS923 |
-| **Transmit Power**       | • 20 dBm (Max)                                          |
-| **Receiver Sensitivity** | • -139 dBm (Min)                                        |
+| **Feature**              | **Specifications**                                                      |
+| ------------------------ | ----------------------------------------------------------------------- |
+| **Operating Frequency**  | • EU433, CN470, EU868, US915<br><br>• AS920, AS923, AU915, KR920, IN865 |
+| **Transmit Power**       | 27dBm (Max)                                                             |
+| **Receiver Sensitivity** | -142dBm (Min)                                                           |
+
+##### Transmitter RF
+
+The RAK2246 has an excellent transmitter performance. It is highly recommended, to use an optimized configuration for the power level configuration, which is part of the HAL. This results in a mean RF output power level and current consumption:
+
+| **MIX Control** | **DIG Gain** | **Nominal RF Power Level [dBm]** |
+| --------------- | ------------ | -------------------------------- |
+| 8               | 0            | 10                               |
+| 9               | 0            | 12                               |
+| 10              | 0            | 14                               |
+| 11              | 0            | 16                               |
+| 12              | 0            | 18                               |
+| 13              | 0            | 19                               |
+| 14              | 0            | 20                               |
+| 15              | 0            | 21                               |
+
+**T=25°C, VDD=5V (Typ.) if nothing else stated**
+
+| **Parameter**                                                | **Condition**              | **Min** | **Typ.** | **Max** | **Unit** |
+| ------------------------------------------------------------ | -------------------------- | ------- | -------- | ------- | -------- |
+| Frequency Range                                              |                            | 863     |          | 870     | MHz      |
+| Modulation Techniques                                        | FSK/LoRa®                  |         |          |         |          |
+| TX Frequency Variation vs. Temperature                       | Power Level Setting: 20dBm | -3      |          | +3      | KHz      |
+| [TX Power Variation](TX Power Variation)<br> vs. Temperature |                            | -5      |          | +5      | dB       |
+| TX Power Variation                                           |                            | -1.5    |          | +1.5    | dB       |
+
+::: tip 📝 NOTE
+Also supports 915 Frequency Range.
+:::
+
+##### Receiver RF
+
+It is highly recommended, to use optimized RSSI calibration values, which is part of the HAL v3.1. For both, Radio 1 and Radio 2, the RSSI-Offset should be set to -169.0. (It is highly recommended, to use optimized RSSI calibration values, which is part of the HAL v3.1. For both, Radio 1 and Radio 2, the RSSI-Offset should be set to -169.0. )
+
+The following table gives typically sensitivity level of the RAK2246:
+
+| **Signal Bandwidth [KHz]** | **Spreading Factor** | **Sensitivity [dBm]** |
+| -------------------------- | -------------------- | --------------------- |
+| 125                        | 12                   | -141                  |
+| 125                        | 7                    | -128                  |
+| 250                        | 12                   | -137                  |
+| 250                        | 7                    | -124                  |
+| 500                        | 12                   | -135                  |
+| 500                        | 7                    | -121                  |
+
+##### RF Key Components
+
+This section introduces the key components in the RAK2246 in order to help developers to utilize the system at its fullest in their designs.
+
+**1. DC-DC regulator**
+
+The system power supply is provided by an external 5V DC power supply. All the key components and related clock crystals are powered by two DC-DC regulators (MP1496) which output 1.8V and 3.3V in order to meet the normal working conditions. The MP1496 is a high-frequency, synchronous, rectified, step-down, switch-mode converter with built-in power MOSFETs. It offers a very compact solution to achieve a 2A continuous output current with excellent load and line regulation over a wide input supply range.
+
+**2. FEM**
+
+The FEM chosen is a SKYWORKS SKY66422, which integrates a PA, LNA and a Switch. It can achieve a 20 dBm max output power in order to deliver sufficient RX performance. The frequency range it can cover from is 860MHZ~930MHz.
+
+<rk-img
+  src="/assets/images/datasheet/rak7246g/qbxfrqry28q2p8ozhicz.jpg"
+  width="80%"
+  caption="System Architecture"
+/>
 
 ##### Wi-Fi
 
-| **Feature**             | **Specifications**           |
-| ----------------------- | ---------------------------- |
-| **Wireless Standard**   | • IEEE 802.11b/g/n           |
-| **Operating Frequency** | • ISM band: 2.412~2.472(GHz) |
-| **Operation Channels**  | • 2.4GHz: 1-13               |
+| **Features**                                                                                   | **Specifications**                                                                                                                                                                                                                                      |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Wireless Standard**                                                                          | IEEE 802.11b/g/n                                                                                                                                                                                                                                        |
+| **Operating Frequency**                                                                        | **ISM band**: 2.412~2.472(GHz)                                                                                                                                                                                                                          |
+| **Operation Channels**                                                                         | 2.4GHz: 1-13                                                                                                                                                                                                                                            |
+| **Transmit Power** (The max. power may be different depending on local regulations) -per chain | - **802.11b** - **@1Mbps** : 19dBm, **@11Mbps** : 19dBm<br>- **802.11g** - **@6Mbps** : 18dBm, **@54Mbps** : 16dBm<br>- **802.11n (2.4G)** - **@MCS0 (HT20)** : 18dBm, **@MCS7 (HT20)** : 16dBm,**@MCS0 (HT40)** : 17dBm, **@MCS7 (HT40)** :15dBm       |
+| **Receiver Sensitivity** (Typical)                                                             | - **802.11b** - **@1Mbps** : -95dBm, **@11Mbps** : -88dBm<br>- **802.11g** - **@6Mbps** : -90dBm, **@54Mbps** : -75dBm<br>- **802.11n (2.4G)** - **@MCS0 (HT20)** : -89dBm, **@MCS7(HT20)** : -72dBm,**@MCS0(HT40)** : -86dBm, **@MCS7(HT40)** : -68dBm |
 
 ### Software
+
 #### Firmware
 
 | Model   | Raspberry Pi Board  | Firmware Version | Source                                                                                                        |
@@ -242,6 +311,7 @@ There are two digital IO PINs, which give the user an interface to reset the GPS
 #### Software Specifications
 
 ##### LoRa
+
 - Class A, C
 - LoRa package forwarder
 - Country code setup
@@ -250,10 +320,12 @@ There are two digital IO PINs, which give the user an interface to reset the GPS
 - Supports server address & port setup
 
 ##### Network
+
 - Wi-Fi AP/Client mode
 - DHCP Client
 
 ##### Management
+
 - SSH2
 
 #### LoRaWAN Systems, Network Approach
@@ -281,7 +353,7 @@ Due to the fact that the combination of spreading factors and signal bandwidths 
 
 Due to the fact that spreading factors are orthogonal and the RAK2246 Concentrator can demodulate on 8 channels at the same time, channel capacity of a LoRaWAN Gateway is increased compared to traditional cellular networks.
 
-##### Firwmare
+##### Firmware
 
 The LoRa MAC specification is currently driven by the companies Semtech, IBM and Actility. Currently all available software, firmware and documentation can be found and downloaded from the open source project LoRa-net hosted on [https://github.com/Lora-net](https://github.com/Lora-net)
 
@@ -295,7 +367,7 @@ You can login to the Gateway using an SSH client like PuTTY. For more
 details on the configuration and management of the Gateway please visit the
 link below:
 
-[RAK7246G LPWAN Developer Gateway User Manual](/en-us/quick-start-guide/rak7246g)
+[RAK7246G LPWAN Developer Gateway User Manual](/wisgate/rak7246g/quickstart/)
 
 ## Models / Bundles
 

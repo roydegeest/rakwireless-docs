@@ -9,7 +9,7 @@ Assuming you have successfully logged into your Gateway using SSH, enter the fol
 sudo gateway-config
 ```
 
-You will now then see a page like the following picture below
+You will see a page like the following picture below:
 
 <rk-img src="/assets/images/quick-start-guide/rak7246/gateway_id.png" width="100%" figure-number  = "1" caption="Config Options for the Gateway"/>
 

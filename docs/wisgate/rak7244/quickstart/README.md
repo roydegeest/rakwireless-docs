@@ -1,8 +1,9 @@
 ---
+title: RAK7244 LPWAN Developer Gateway
 next: /wisgate/rak7244/quickstart/accessing-your-gateway/#accessing-your-gateway
 ---
 
-# RAK7244 LPWAN Developer Gateway
+# Quick Start Guide
 
 <rk-img
   src="/assets/images/quick-start-guide/rak7244/2.quickstart/rak7244_overview2.jpg"
@@ -18,11 +19,6 @@ next: /wisgate/rak7244/quickstart/accessing-your-gateway/#accessing-your-gateway
 3. 5V at least 2.5A Micro USB Power Supply (not included)
 4. A Windows/Mac OS/Linux Computer
 
-<rk-btn
-  src="https://store.rakwireless.com/products/rak7244-developer-lorawan-gateway"
-  label="Buy a RAK7244 LPWAN Developer Gateway"
-  _blank
-/>
 
 ## What's included in the Package?
 

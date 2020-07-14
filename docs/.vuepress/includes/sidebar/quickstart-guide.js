@@ -1,5 +1,5 @@
 module.exports = {
-  '/en-us/quick-start-guide/gateways/rak7246g/': [
+  '/wisgate/rak7246g/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
@@ -7,7 +7,6 @@ module.exports = {
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
       ]
     },
     {
@@ -19,14 +18,15 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7246g/accessing-your-gateway/',
+          path: '/wisgate/rak7246g/quickstart/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]
         },
         'configuring-the-gateway',
         'connecting-to-the-ttn',
-        'connecting-with-chirpstack'
+        'connecting-with-chirpstack',
+        'connecting-to-resiot'
       ]
     }
   ],
@@ -53,7 +53,7 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/gateways/rak7249/': [
+  '/wisgate/rak7249/quickstart/': [
     {
       title: 'Product Overview',
       path: '',
@@ -65,15 +65,15 @@ module.exports = {
           title: "Quick Start Guide",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7249/quick-start-guide/',
+          path: '/wisgate/rak7249/quickstart/',
           children: [
-            'quick-start-guide/gateway-installation-guide',
-            'quick-start-guide/solar-panel-and-battery-kit-installation',
-            'quick-start-guide/lightning-protection',
-            'quick-start-guide/power-on-the-gateway',
-            'quick-start-guide/access-the-gateway',
-            'quick-start-guide/access-the-internet',
-            'quick-start-guide/connecting-to-ttn'
+            'gateway-installation-guide',
+            'solar-panel-and-battery-kit-installation',
+            'lightning-protection',
+            'power-on-the-gateway',
+            'access-the-gateway',
+            'access-the-internet',
+            'connecting-to-ttn'
           ]
         }
       ]
@@ -299,14 +299,13 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/gateways/rak7244c/': [
+  '/wisgate/rak7244/quickstart/': [
     {
       title: 'Product Overview',
       collapsable: false,
       sidebarDepth: 2,
       children: [
         '',
-        'quick-start-guide'
       ]
     },
     {
@@ -318,7 +317,7 @@ module.exports = {
           title: "Accessing your Gateway",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/gateways/rak7244c/accessing-your-gateway/',
+          path: '/wisgate/rak7244/quickstart/accessing-your-gateway/',
           children: [
             'accessing-your-gateway/accessing-the-internet'
           ]
@@ -328,7 +327,35 @@ module.exports = {
         'connecting-with-chirpstack'
       ]
     }
-
+  ],
+  '/wisgate/rak7244c/quickstart/': [
+    {
+      title: 'Product Overview',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        '',
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        {
+          title: "Accessing your Gateway",
+          nested: true,
+          collapsable: false,
+          path: '/wisgate/rak7244c/quickstart/accessing-your-gateway/',
+          children: [
+            'accessing-your-gateway/accessing-the-internet'
+          ]
+        },
+        'configuring-the-gateway',
+        'connecting-to-the-ttn',
+        'connecting-with-chirpstack'
+      ]
+    }
   ],
   '/wisduino/rak811-evaluation-board/quickstart/': [
     {

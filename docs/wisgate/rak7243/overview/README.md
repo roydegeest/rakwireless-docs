@@ -17,9 +17,9 @@ params:
       - name: Certification Report
         href: /wisgate/rak7243c/datasheet/#certification
       - name: User Manual
-        href: /en-us/user-manual/
+        href: /user-manual/
       - name: Deployment Guide
-        href: /en-us/deployment-guide/
+        href: /deployment-guide/
 ---
 
 # RAK7243 LPWAN Developer Gateway

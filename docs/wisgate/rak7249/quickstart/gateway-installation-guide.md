@@ -1,5 +1,5 @@
 ---
-prev: /en-us/quick-start-guide/gateways/rak7249/quick-start-guide/#quick-start-guide
+prev: /wisgate/rak7249/quickstart/
 next: solar-panel-and-battery-kit-installation
 ---
 

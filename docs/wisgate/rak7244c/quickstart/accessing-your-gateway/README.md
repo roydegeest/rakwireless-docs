@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/quick-start-guide/rak7244c/2.accessing-gateway
-prev: /en-us/quick-start-guide/gateways/rak7244c/quick-start-guide.html#quick-start-guide
+prev: /wisgate/rak7244c/quickstart/
 next: accessing-the-internet
 ---
 
