@@ -8,7 +8,7 @@ This document shows the step-by-step guide on how to set-up the Solar Panel and 
 ## Package List
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/Outdoor Deployment/Solar Panel and Battery Kit Installation/package-list.jpg"
+  src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Solar Panel and Battery Kit Installation/package-list.jpg"
   width="100%"
   figure-number="1"
   caption="RAK7249 Macro Outdoor Gateway Main Board Installation"
@@ -22,7 +22,7 @@ This document shows the step-by-step guide on how to set-up the Solar Panel and 
 The dimension of the Solar Panel included in the kit is **665 x 815 millimeter**. Provided in the image below is the detailed dimensions of the solar panel for extended functions. 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/Outdoor Deployment/Solar Panel and Battery Kit Installation/sp-dimensions.jpg"
+  src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Solar Panel and Battery Kit Installation/sp-dimensions.jpg"
   width="75%"
   figure-number="2"
   caption="Solar Panel Dimensions"
@@ -67,7 +67,7 @@ The operational temperature of the Lithium Battery is **-20˚C ~ 60˚C**. It is 
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/Outdoor Deployment/Solar Panel and Battery Kit Installation/bolts-placement.jpg"
+  src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Solar Panel and Battery Kit Installation/bolts-placement.jpg"
   width="75%"
   figure-number="3"
   caption="H-Shaped Nuts and Bolts Placement for the Bracket"
@@ -80,7 +80,7 @@ Tighten the bolts as possible as the battery is quite heavy.
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/Outdoor Deployment/Solar Panel and Battery Kit Installation/battery-bracket.jpg"
+  src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Solar Panel and Battery Kit Installation/battery-bracket.jpg"
   width="75%"
   figure-number="4"
   caption="Mounting the Battery to the Bracket"
@@ -93,7 +93,7 @@ Make sure to follow the connection in the image below as interchanging the wires
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/Outdoor Deployment/Solar Panel and Battery Kit Installation/battery-spanel.jpg"
+  src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Solar Panel and Battery Kit Installation/battery-spanel.jpg"
   width="80%"
   figure-number="5"
   caption="Lithium Battery Input Cord to Solar Panel Connection"
@@ -102,7 +102,7 @@ Make sure to follow the connection in the image below as interchanging the wires
 1. The following image then shows where the cable connection between the solar panel entering the input terminal on the battery performed in **Step 3**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/Outdoor Deployment/Solar Panel and Battery Kit Installation/battery-spanel-outside.jpg"
+  src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Solar Panel and Battery Kit Installation/battery-spanel-outside.jpg"
   width="80%"
   figure-number="6"
   caption="Lithium Battery to Solar Panel Outside Connection"
@@ -111,7 +111,7 @@ Make sure to follow the connection in the image below as interchanging the wires
 5. Connect the Lithium Battery output terminal cable to the input power cable of the RAK7249 - Macro Outdoor Gateway as shown in the following figure.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/Outdoor Deployment/Solar Panel and Battery Kit Installation/connection.jpg"
+  src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Solar Panel and Battery Kit Installation/connection.jpg"
   width="80%"
   figure-number="7"
   caption="Lithium Battery Output Cord to RAK7249 - Marco Outdoor Gateway Connection"
@@ -128,7 +128,7 @@ Make sure to follow the connection in the image below as interchanging the wires
 6. Mount the whole installation you have assembled on top of a circular pole. Put the panel facing up and insert the pole in the pipe opening on the bottom of the construction. Make sure the pole is of a sufficiently small diameter to fit with a recommended value of **65 millimeters**. Use **6 pieces of M8-bolts** to fix the bottom to the construction as shown in the image below. 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/Outdoor Deployment/Solar Panel and Battery Kit Installation/bolts-vertical-pole.jpg"
+  src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Solar Panel and Battery Kit Installation/bolts-vertical-pole.jpg"
   width="60%"
   figure-number="8"
   caption="Installing Bolts in the Kit into the Vertical Circular Pole"

@@ -6,7 +6,7 @@ next: power-on-the-gateway
 In this document, we will be discussing on how to setup your lightning surge protection system whether be your RAK7249 Macro Outdoor Gateway situated outdoor or indoor. Such protection system must be taken into consideration to ensure a fully functional Gateway without interruption or damage from the lightings.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/Outdoor Deployment/Lighting Protection/Diagram.jpg"
+  src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Lighting Protection/Diagram.jpg"
   width="100%"
   figure-number="1"
   caption="Full Lighting Protection Set-up Diagram"
@@ -43,7 +43,7 @@ For the purpose of protecting the indoor equipment and circuitry connected to th
 ### Lightning Arrestor for the LoRa®, LTE, and Wi-Fi antennas
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/Outdoor Deployment/Lighting Protection/lora-lightning-arrestor.png"
+  src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Lighting Protection/lora-lightning-arrestor.png"
   width="40%"
   figure-number="2"
   caption="Lightning Arrestor for LoRa® , LTE and Wi-Fi Antennas"
@@ -60,7 +60,7 @@ This is a surge protective device for securing transceivers against over-voltage
 ### Lightning Arrestor for the GPS Antenna
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/Outdoor Deployment/Lighting Protection/gps-lightning-arrestor.png"
+  src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Lighting Protection/gps-lightning-arrestor.png"
   width="60%"
   figure-number="3"
   caption="Lightning Arrestor for GPS"
@@ -81,7 +81,7 @@ By adopting a high pass filter, this product can effectively suppress the low-fr
 ### Antenna Feeder Line
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/Outdoor Deployment/Lighting Protection/antenna-feeder-line.png"
+  src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Lighting Protection/antenna-feeder-line.png"
   width="75%"
   figure-number="4"
   caption="Antenna Feeder Line"
@@ -98,7 +98,7 @@ Antenna Feeder Line for RAK7249 Lightning Protection. This antenna feeder line i
 ### Signal Surge Protective
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/Outdoor Deployment/Lighting Protection/surge-protective.png"
+  src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Lighting Protection/surge-protective.png"
   width="100%"
   figure-number="5"
   caption="Signal Surge Protective Device"
@@ -119,7 +119,7 @@ Multiple stage protection structure provides good protection of lightning effect
 ### Ethernet Cabling
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/Outdoor Deployment/Lighting Protection/ethernet-cable.png"
+  src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Lighting Protection/ethernet-cable.png"
   width="75%"
   figure-number="6"
   caption="Ethernet Cabling"

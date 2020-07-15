@@ -18,7 +18,7 @@ Using your preferred Web browser, input the aforementioned IP Address and you sh
 - **Password**: root
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7240/access-through-apmode.jpg"
+  src="/assets/images/wisgate/rak7240/quickstart/4.access-through-apmode.jpg"
   width="100%"
   figure-number="1"
   caption="Accessing the Gateway via Wi-Fi AP Mode"
@@ -31,7 +31,7 @@ Connect the Ethernet cable to the port marked “ETH” on the Gateway and the o
 The default IP is **169.254.X.X**. The last two segments(X.X) are mapped from the last four bits of the MAC address of your gateway. For example, the last four bits of the MAC address are 0F:01, and the IP address is 169.254.15.1. Make sure to manually set the address of your PC to one in the same network (for example 169.254.15.100). Use the same credentials for the Web UI as for AP mode.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7240/access-through-ethernet.jpg"
+  src="/assets/images/wisgate/rak7240/quickstart/5.access-through-ethernet.jpg"
   width="100%"
   figure-number="2"
   caption="Accessing the Gateway via WAN Port (Ethernet)"

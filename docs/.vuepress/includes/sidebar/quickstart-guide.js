@@ -38,8 +38,10 @@ module.exports = {
       sidebarDepth: 1,
       children: [
         '',
-        {
-          title: "Quick Start Guide",
+      ]
+    },
+    {
+          title: "Product Configuration",
           nested: true,
           collapsable: false,
           path: '/wisgate/rak7240/quickstart/',
@@ -49,9 +51,7 @@ module.exports = {
             'access-the-internet',
             'connecting-to-ttn'
           ]
-        }
-      ]
-    }
+     }
   ],
   '/wisgate/rak7249/quickstart/': [
     {
@@ -61,8 +61,10 @@ module.exports = {
       sidebarDepth: 1,
       children: [
         '',
+      ]
+    },
         {
-          title: "Quick Start Guide",
+          title: "Product Configuration",
           nested: true,
           collapsable: false,
           path: '/wisgate/rak7249/quickstart/',
@@ -76,8 +78,6 @@ module.exports = {
             'connecting-to-ttn'
           ]
         }
-      ]
-    }
   ],
   '/wisgate/rak7258/quickstart/': [
     {
@@ -87,8 +87,10 @@ module.exports = {
       sidebarDepth: 1,
       children: [
         '',
+      ]
+    },
         {
-          title: "Quick Start Guide",
+          title: "Product Configuration",
           nested: true,
           collapsable: false,
           path: '/wisgate/rak7258/quickstart/',
@@ -100,8 +102,6 @@ module.exports = {
             'connecting-to-ttn'
           ]
         }
-      ]
-    }
   ],
   '/wisgate/rak7244/quickstart/': [
     {
@@ -141,8 +141,10 @@ module.exports = {
       sidebarDepth: 1,
       children: [
         '',
-        {
-          title: "Quick Start Guide",
+      ]
+    },
+    {
+          title: "Product Configuration",
           nested: true,
           collapsable: false,
           path: '/wisgate/rak7243/quickstart/',
@@ -154,8 +156,6 @@ module.exports = {
             'connecting-to-chirpstack'
           ]
         }
-      ]
-    }
   ],
   '/wisgate/rak7243c/quickstart/': [
     {

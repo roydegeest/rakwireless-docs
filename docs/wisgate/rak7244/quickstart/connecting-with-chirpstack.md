@@ -1,5 +1,4 @@
 ---
-title: Connect the Gateway with Chirpstack
 next: false
 ---
 
@@ -13,11 +12,11 @@ For the RAK7244 LPWAN Developer Gateway there are 2 ways to use the ChirpStack:
 There is a built-in ChirpStack in every RAK Developer gateway if you use the latest firmware.
 
 * When you use it for the first time after burning the latest firmware, the Gateway will work in the EU868 Band and use the built-in ChirpStack as its default LoRa® Server. If you don't want to change the frequency or LoRa® Server, you don't have to do anything as this will be configured automatically when the Gateway boots.
-* However if it is not the first time and you want to use the built-in ChirpStack as the LoRa® Server, follow the steps discussed in [Configuring the Gateway](configuring-the-gateway.md) the Gateway section.
+* However if it is not the first time and you want to use the built-in ChirpStack as the LoRa® Server, follow the steps discussed in [Configuring the Gateway](/wisgate/rak7244/quickstart/configuring-the-gateway.html) the Gateway section.
 * **Optional**: If ever you disabled the AP Mode and you have connected it to your own Wifi network (Client Mode). You can search for your gateway’s IP Address via [**Advanced IP Scanner**](https://www.advanced-ip-scanner.com/). Copy the IP Address of your Gateway, it should have a Manufacturer name of **Raspberry Pi Foundation**:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/advanced-ip-scanner.png"
+  src="/assets/images/wisgate/rak7244/quickstart/8.connecting to chirpstack/advanced-ip-scanner.png"
   width="100%"
   figure-number="1"
   caption="IP address of your RAK7244 using IP Scanner"
@@ -33,7 +32,7 @@ There is a built-in ChirpStack in every RAK Developer gateway if you use the lat
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/chirpstack-ui.png"
+  src="/assets/images/wisgate/rak7244/quickstart/8.connecting to chirpstack/chirpstack-ui.png"
   width="100%"
   figure-number="2"
   caption="ChirpStack Web-based UI"
@@ -42,7 +41,7 @@ There is a built-in ChirpStack in every RAK Developer gateway if you use the lat
 * Everything should be pre-configured: Device profiles have been created, the Gateway has been registered with the server, etc. If you go to the Gateways tab and click on rak_gateway, you should see the Gateway details page.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/gateways-in-chirpstack.png"
+  src="/assets/images/wisgate/rak7244/quickstart/8.connecting to chirpstack/gateways-in-chirpstack.png"
   width="100%"
   figure-number="3"
   caption="Available Gateways in Chirpstack"
@@ -51,7 +50,7 @@ There is a built-in ChirpStack in every RAK Developer gateway if you use the lat
 * Go to the rak_gateway and see the "**Last seen**" status. It must be a few seconds ago which signifies that the Gateway is visible in the ChirpStack server.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/chirpstack-last-seen.png"
+  src="/assets/images/wisgate/rak7244/quickstart/8.connecting to chirpstack/chirpstack-last-seen.png"
   width="100%"
   figure-number="4"
   caption="Last Seen Status"
@@ -65,7 +64,7 @@ There are 2 ways that you can get an independent ChirpStack:
 This is a lot more complicated having to deploy a remote ChirpStack by yourself but Chirpstack provided a detailed guide on how to do it [here](https://www.chirpstack.io/guides/debian-ubuntu/):
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/chirpstack-guide-ubuntu.png"
+  src="/assets/images/wisgate/rak7244/quickstart/8.connecting to chirpstack/chirpstack-guide-ubuntu.png"
   width="100%"
   figure-number="5"
   caption="Chirpstack Getting Started Guide on Ubuntu"
@@ -81,7 +80,7 @@ This is a lot more complicated having to deploy a remote ChirpStack by yourself 
     * **Password**: admin
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/chirpstack-login.png"
+  src="/assets/images/wisgate/rak7244/quickstart/8.connecting to chirpstack/chirpstack-login.png"
   width="100%"
   figure-number="6"
   caption="ChirpStack Login Page"
@@ -90,7 +89,7 @@ This is a lot more complicated having to deploy a remote ChirpStack by yourself 
 * Click "**Gateways**" and Press "+ **CREATE**" to register your Gateway
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/chirpstack-reg-gateway.png"
+  src="/assets/images/wisgate/rak7244/quickstart/8.connecting to chirpstack/chirpstack-reg-gateway.png"
   width="100%"
   figure-number="7"
   caption="ChirpStack Registered Gateways"
@@ -99,7 +98,7 @@ This is a lot more complicated having to deploy a remote ChirpStack by yourself 
 * Click "**Create**" to register your Gateway and fill up the necessary information.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/reg-own-gateway.png"
+  src="/assets/images/wisgate/rak7244/quickstart/8.connecting to chirpstack/reg-own-gateway.png"
   width="100%"
   figure-number="8"
   caption="Registering your own Gateway"
@@ -110,7 +109,7 @@ This is a lot more complicated having to deploy a remote ChirpStack by yourself 
 * If you have properly configured your Gateway and there is a network connection between the external ChirpStack and your Gateway, you should see the following page and status:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/8.connecting to chirpstack/chirsptack-successful-register.png"
+  src="/assets/images/wisgate/rak7244/quickstart/8.connecting to chirpstack/chirsptack-successful-register.png"
   width="100%"
   figure-number="9"
   caption="Successfully Registered the Gateway"

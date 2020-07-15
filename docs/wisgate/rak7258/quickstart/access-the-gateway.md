@@ -24,7 +24,7 @@ By default, the Gateway will work in Wi-Fi AP Mode which means that you can find
     * **Password**: root
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7258/2.quickstart/web-ui-home.jpg"
+  src="/assets/images/wisgate/rak7258/quickstart/2.quickstart/web-ui-home.jpg"
   width="100%"
   figure-number="1"
   caption="Web User Interface Log-in"

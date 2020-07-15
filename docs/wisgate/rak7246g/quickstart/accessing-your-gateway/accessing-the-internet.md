@@ -1,5 +1,4 @@
 ---
-title: Accessing the Internet
 prev: /wisgate/rak7246g/quickstart/accessing-your-gateway/#accessing-your-gateway
 ---
 
@@ -13,7 +12,7 @@ sudo gateway-config
 
 You will now then see a page like the following picture below
 
-<rk-img src="/assets/images/quick-start-guide/rak7246/config-options.png" width="100%" figure-number  = "1" caption="Configuration Options for the Gateway"/>
+<rk-img src="/assets/images/wisgate/rak7246g/quickstart/config-options.png" width="100%" figure-number  = "1" caption="Configuration Options for the Gateway"/>
 
 1. **Set pi password** - used to set/change the password of the gateway.
 2. **Set up RAK Gateway LoRa® Concentrator** - used to configure the frequency, which the gateway will operate on, and the LoRaWAN® Server which the gateway will work with.
@@ -25,7 +24,7 @@ You will now then see a page like the following picture below
 
 If you want to connect through Wi-Fi, it can easily be done with the Wireless capabilities of the Raspberry Pi Zero W by choosing "**5 Configure WIFI**". By default, the RAK7246G LPWAN Developer Gateway works in Wi-Fi AP Mode. In order for the Gateway to connect to the router, it must work in Wi-Fi Client Mode.
 
-<rk-img src="/assets/images/quick-start-guide/rak7246/config-wifi.png" width="100%" figure-number  = "2" caption="Configuration options for WIFI"/>
+<rk-img src="/assets/images/wisgate/rak7246g/quickstart/config-wifi.png" width="100%" figure-number  = "2" caption="Configuration options for WIFI"/>
 
 There are 5 options to choose from in the Wi-Fi configuration menu:
 
@@ -41,11 +40,11 @@ In order to enable Wi-Fi Client Mode, you have to disable first the Wi-Fi AP Mod
 
 Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable AP Mode**", you can now then connect to a new Wi-Fi Network by choosing "**4 Add New SSID for Client**":
 
-<rk-img src="/assets/images/quick-start-guide/rak7246/add_ssid.png" width="100%" figure-number  = "3" caption="Add a New SSID"/>
+<rk-img src="/assets/images/wisgate/rak7246g/quickstart/add_ssid.png" width="100%" figure-number  = "3" caption="Add a New SSID"/>
 
 - Start by selecting your country of residence:
 
-<rk-img src="/assets/images/quick-start-guide/rak7246/country_residence.png" width="100%" figure-number  = "4" caption="Selecting Country of Residence"/>
+<rk-img src="/assets/images/wisgate/rak7246g/quickstart/country_residence.png" width="100%" figure-number  = "4" caption="Selecting Country of Residence"/>
 
 - Enter the SSID of the network you want to connect:
 
@@ -53,11 +52,11 @@ Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable
 Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK7246G again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow [this](#optional-configurations) procedure listed in the Accessing the Internet document which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
 :::
 
-<rk-img src="/assets/images/quick-start-guide/rak7246/ssid_new.png" width="100%" figure-number  = "5" caption="SSID of the Network you want to connect to."/>
+<rk-img src="/assets/images/wisgate/rak7246g/quickstart/ssid_new.png" width="100%" figure-number  = "5" caption="SSID of the Network you want to connect to."/>
 
 - Enter also the password. Just leave it empty if None.
 
-<rk-img src="/assets/images/quick-start-guide/rak7246/password.png" width="100%" figure-number  = "6" caption="Password of the Wi-Fi"/>
+<rk-img src="/assets/images/wisgate/rak7246g/quickstart/password.png" width="100%" figure-number  = "6" caption="Password of the Wi-Fi"/>
 
 - Lastly, reboot the gateway using the command `sudo reboot` in the command line and it will connect to the router successfully.
 
@@ -75,7 +74,7 @@ In the event that you have entered either or both incorrect Wi-Fi SSID and Passw
 
 - Remove the SD Card from your RAK7246G LPWAN Developer Gateway and insert it into your PC. Your PC should be able to detect it same with the image below:
 
-<rk-img src="/assets/images/quick-start-guide/rak7246/rak_ap.png" width="50%" figure-number  = "7" caption="Creating rak_ap file to your SD Card"/>
+<rk-img src="/assets/images/wisgate/rak7246g/quickstart/rak_ap.png" width="50%" figure-number  = "7" caption="Creating rak_ap file to your SD Card"/>
 
 - Using your "Command Prompt" or "Terminal", navigate to your SD Card and type this command to generate the "rak_ap" file.
 

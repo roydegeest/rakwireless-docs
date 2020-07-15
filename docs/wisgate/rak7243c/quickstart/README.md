@@ -1,8 +1,7 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7243c/1.product-overview/2.quick-start
+static_root: /assets/images/wisgate/rak7243c/quickstart/1.product-overview/2.quick-start
 prev: /wisgate/rak7243c/overview/
 next: /wisgate/rak7243c/quickstart/accessing-your-gateway/#accessing-your-gateway
-title: RAK7243C Pilot Gateway
 ---
 
 # Quick Start Guide

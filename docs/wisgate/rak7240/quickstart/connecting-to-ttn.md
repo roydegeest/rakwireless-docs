@@ -6,11 +6,11 @@ next: false
 
 The Things Network is about enabling low power devices to use long range gateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about The Things Network [here](https://www.thethingsnetwork.org/docs/).
 
-- First, you should have connected your RAK7240 Outdoor LPWAN Gateway to the router in order to access the internet according to the method which has been introduced in the [Access the Internet](access-the-internet.html) section of this document.
+- First, you should have connected your RAK7240 Outdoor LPWAN Gateway to the router in order to access the internet according to the method which has been introduced in the [Access the Internet](/wisgate/rak7240/quickstart/access-the-internet.html#access-the-internet) section of this document.
 - Now go to the TTN Website: [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7240/ttn-homepage.png"
+  src="/assets/images/wisgate/rak7240/quickstart/10.ttn-homepage.png"
   width="100%"
   figure-number="1"
   caption="The Things Network Home Page"
@@ -20,7 +20,7 @@ The Things Network is about enabling low power devices to use long range gateway
 1. In the **Register Gateway** menu, select the “**I’m using the legacy packet forwarder**” option, and fill-in the Gateway EUI.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7240/register-gateway.png"
+  src="/assets/images/wisgate/rak7240/quickstart/11.register-gateway.png"
   width="100%"
   figure-number="2"
   caption="Registering your Gateway"
@@ -35,14 +35,14 @@ The Things Network is about enabling low power devices to use long range gateway
 3. Upon successful registration you should see the following screen:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7240/ttn-successful.png"
+  src="/assets/images/wisgate/rak7240/quickstart/12.ttn-successful.png"
   width="100%"
   figure-number="3"
   caption="Gateway successfully connected to The Things Network (TTN)"
 />
 
 :::tip 📝 NOTE
- By default, the Gateway is set to connect to TTN. For detailed information about advanced configuration options refer to the [LoRaWAN® Gateway Configuration](/en-us/user-manual/web-management-platform/lorawan-gateway-configuration.html#_1-lora®-packet-forwarder) section.
+ By default, the Gateway is set to connect to TTN. For detailed information about advanced configuration options refer to the [LoRaWAN® Gateway Configuration](/user-manual/web-management-platform/lorawan-gateway-configuration.html#_1-lora®-packet-forwarder) section.
 :::
 
 <!---

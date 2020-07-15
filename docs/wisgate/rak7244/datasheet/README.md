@@ -8,7 +8,7 @@ prev: /wisgate/rak7244/overview/
 # RAK7244 LPWAN Developer Gateway
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/emefrtsevzyv5dulz1hs.png"
+  src="/assets/images/wisgate/rak7244/datasheet/emefrtsevzyv5dulz1hs.png"
   width="75%"
   caption="RAK7244C Fully Assembled"
 />
@@ -43,13 +43,13 @@ The RAK7244 LoRaWAN® Developer Gateway is ideal for prototyping, proof-of-conce
 ### Package Contents
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/qvm2wkloiwhw5vw5lspq.jpg"
+  src="/assets/images/wisgate/rak7244/datasheet/qvm2wkloiwhw5vw5lspq.jpg"
   width="100%"
   caption="RAK7244/RAK7244P Package Contents"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/s7k4l3t9y7uwyzj6aoi1.jpg"
+  src="/assets/images/wisgate/rak7244/datasheet/s7k4l3t9y7uwyzj6aoi1.jpg"
   width="100%"
   caption="RAK7244C Package Contents"
 />
@@ -63,7 +63,7 @@ The RAK7244 LoRaWAN® Developer Gateway is ideal for prototyping, proof-of-conce
 The outer dimensions of Casing are 92 x 68.3 x 53.5 mm as shown below. They are the same for all 3 models: RAK7244/7244C/7244P. The example in Figure 4 is RAK7244C
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/board-overview/ah9xztuuwaroshxlrebn.jpg"
+  src="/assets/images/wisgate/rak7244/datasheet/board-overview/ah9xztuuwaroshxlrebn.jpg"
   width="80%"
   caption=" RAK7244C Casing Outer Dimensions"
 />
@@ -75,7 +75,7 @@ The outer dimensions of Casing are 92 x 68.3 x 53.5 mm as shown below. They are 
 The figure below summarizes the basic building blocks of RAK7244. The RAK2245 is an essential part of any of the RAK7244 models as it provides all LoRaWAN® connectivity. It receives and transmits LoRa® Frames and takes care of modulating/demodulating the signals among others. The processing of the LoRa® Frames as well as higher level protocol related tasks is done by the embedded host system (Raspberry Pi). Received and processed LoRa® Frames are being sent to a LoRaWAN® Server. The segmentation of protocol related tasks is outside the scope of this document.
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/system-structure/h7nold55ednaywcpmhuv.png"
+  src="/assets/images/wisgate/rak7244/datasheet/system-structure/h7nold55ednaywcpmhuv.png"
   width="100%"
   caption="RAK7244 System Structure"
 />
@@ -84,7 +84,7 @@ The figure below summarizes the basic building blocks of RAK7244. The RAK2245 is
 
 The figure below summarizes the basic building blocks of RAK7244P. It has the same functionality as far as LoRaWAN® goes as RAK7244. In addition, there is the possibility to power the Gateway using a PoE 802.3 af compatible source (42-57VDC). This is made possible by the RAK9003 PoE HAT
 <rk-img
-  src="/assets/images/datasheet/rak7244/system-structure/f4m73eapflxbk31bjash.png"
+  src="/assets/images/wisgate/rak7244/datasheet/system-structure/f4m73eapflxbk31bjash.png"
   width="100%"
   caption="RAK7244P System Structure"
 />
@@ -94,7 +94,7 @@ The figure below summarizes the basic building blocks of RAK7244P. It has the sa
 The figure below summarizes the basic building blocks of RAK7244C. It has the same functionality as far as LoRaWAN® goes as RAK7244. Its backhaul capabilities, however are enhanced, with the additional of the RAK2013 Cellular HAT. This allows the Gateway to use its LTE modem to forward data to the Cloud.
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/system-structure/wmishmfyonwnd31mgbph.png"
+  src="/assets/images/wisgate/rak7244/datasheet/system-structure/wmishmfyonwnd31mgbph.png"
   width="100%"
   caption="RAK7244C Gateway System Structure"
 />
@@ -106,7 +106,7 @@ The figure below summarizes the basic building blocks of RAK7244C. It has the sa
 ##### RAK7244 / RAK7244P
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/interfaces/interfaces.png"
+  src="/assets/images/wisgate/rak7244/datasheet/interfaces/interfaces.png"
   width="100%"
   caption="RAK7244/RAK7244P Interfaces"
 />
@@ -114,19 +114,19 @@ The figure below summarizes the basic building blocks of RAK7244C. It has the sa
 ##### RAK7244C
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/interfaces/upvzcrs6wk7nvrbct78z.jpg"
+  src="/assets/images/wisgate/rak7244/datasheet/interfaces/upvzcrs6wk7nvrbct78z.jpg"
   width="100%"
   caption="Side Interface I"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/interfaces/hjssww9t6sskpydh6t1z.jpg"
+  src="/assets/images/wisgate/rak7244/datasheet/interfaces/hjssww9t6sskpydh6t1z.jpg"
   width="100%"
   caption="Side Interface II"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/interfaces/vfswy5hirl21cyc3bftt.png"
+  src="/assets/images/wisgate/rak7244/datasheet/interfaces/vfswy5hirl21cyc3bftt.png"
   width="100%"
   caption="Back interface"
 />
@@ -144,36 +144,36 @@ There are 3 available configuration options for the RAK7244x:
 The RAK9003 Pi HAT is a PoE (802.3 af) board, that is designed to be mounted on top of the 40-pin connector on a Raspberry Pi 3/4.
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/hardware-structure/cwywdzteeclf0dj4taux.png"
+  src="/assets/images/wisgate/rak7244/datasheet/hardware-structure/cwywdzteeclf0dj4taux.png"
   width="100%"
   caption="RAK7244P Hardware Structure"
 />
 
-For detailed information about the RAK9003 Pi Hat, Go to the [RAK9003 Pi Hat Datasheet](#).
+For detailed information about the RAK9003 Pi Hat, go to the [RAK9003 Pi Hat Datasheet](/wishat/rak9003-poe-hat/datasheet/).
 
 ##### RAK2245 Pi Hat
 
 The **RAK2245 Pi HAT** is an LPWAN Gateway Concentrator Module based on the Pi HAT standard, and can be mounted to Pi board with 40-pin connector. The image below shows the hardware structure of the LoRa® portion which describes the integration between RAK2245 and Raspberry Pi 4.
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/hardware-structure/rotyeaxfbqr7ngh9xfxm.jpg"
+  src="/assets/images/wisgate/rak7244/datasheet/hardware-structure/rotyeaxfbqr7ngh9xfxm.jpg"
   width="100%"
   caption="RAK7244C LPWAN Developer Gateway Hardware Structure"
 />
 
-For detailed information about the RAK2245 Pi Hat, Go to the [RAK2245 Pi Hat Datasheet](/en-us/datasheet/gateways/rak2245-pi-hat-edition/).
+For detailed information about the RAK2245 Pi Hat, Go to the [RAK2245 Pi Hat Datasheet](/wislink-lora/rak2245-pi-hat-edition/datasheet/).
 
 ##### RAK2013 Pi HAT
 
 The RAK2013 is an add-on board based on the Raspberry Pi HAT standard that can transmit UART data from Raspberry Pi to the Cellular network. It supports several cellular protocol, such as NB-IOT, CAT-M, CAT1 or CAT 4, by choosing different modular on the board. The device is capable of integrating audio codec and audio amplifier along with the carrier operator's network, plus it supports Voice Over LTE (VoLTE) function. It is easy to use with the earphone connector, MIC connector and speaker connector having audio amplifier.
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/hardware-structure/wkdg3qk1cnrg3sqhaqsc.png"
+  src="/assets/images/wisgate/rak7244/datasheet/hardware-structure/wkdg3qk1cnrg3sqhaqsc.png"
   width="100%"
   caption="Cellular Hardware Structure"
 />
 
-For detailed information about the RAK2013 Pi HAT, Go to the [RAK2013 Pi HAT Datasheet](#).
+For detailed information about the RAK2013 Pi HAT, Go to the [RAK2013 Pi HAT Datasheet](/wislink-lte/rak2013/datasheet/).
 
 #### RF Characteristics
 
@@ -259,7 +259,7 @@ The Quectel EG95 is part of the LTE CAT4 module series that are specially optimi
 The LoRa® Antenna with RP-SMA female connector is shown in the image below:
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/antenna-specifications/ve8scbrbhdlcdaxa8x43.png"
+  src="/assets/images/wisgate/rak7244/datasheet/antenna-specifications/ve8scbrbhdlcdaxa8x43.png"
   width="75%"
   caption="LoRa® Antenna Overview"
 />
@@ -269,7 +269,7 @@ The LoRa® Antenna with RP-SMA female connector is shown in the image below:
 The figure below shows the antenna's mechanical dimension.
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/antenna-specifications/fggmm4b6rk79c5jj9xot.png"
+  src="/assets/images/wisgate/rak7244/datasheet/antenna-specifications/fggmm4b6rk79c5jj9xot.png"
   width="75%"
   caption="LoRa® Antenna Dimension"
 />
@@ -288,7 +288,7 @@ The figure below shows the antenna's mechanical dimension.
 The LTE antenna for the Developer Gateway covers working frequency band from 824MHz to 2690MHz. The antenna is shown in Figure 17.
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/antenna-specifications/rhh9xrj0pfazqtaegxiv.jpg"
+  src="/assets/images/wisgate/rak7244/datasheet/antenna-specifications/rhh9xrj0pfazqtaegxiv.jpg"
   width="75%"
   caption="LTE Antenna"
 />
@@ -296,7 +296,7 @@ The LTE antenna for the Developer Gateway covers working frequency band from 824
 ###### Antenna Dimension
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/antenna-specifications/hmqp4xvybryisixcoq86.jpg"
+  src="/assets/images/wisgate/rak7244/datasheet/antenna-specifications/hmqp4xvybryisixcoq86.jpg"
   width="75%"
   caption="LTE Antenna Dimension"
 />
@@ -316,7 +316,7 @@ The LTE antenna for the Developer Gateway covers working frequency band from 824
 The GPS antenna for Pilot Gateway is shown below
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/antenna-specifications/ftzgxoaywuiq7xmy8shj.jpg"
+  src="/assets/images/wisgate/rak7244/datasheet/antenna-specifications/ftzgxoaywuiq7xmy8shj.jpg"
   width="40%"
   caption="GPS Antenna"
 />
@@ -324,7 +324,7 @@ The GPS antenna for Pilot Gateway is shown below
 ###### GPS Antenna Dimension
 
 <rk-img
-  src="/assets/images/datasheet/rak7244/antenna-specifications/boh9fwujcictm8er5yug.jpg"
+  src="/assets/images/wisgate/rak7244/datasheet/antenna-specifications/boh9fwujcictm8er5yug.jpg"
   width="75%"
   caption="GPS Antenna Dimensions"
 />

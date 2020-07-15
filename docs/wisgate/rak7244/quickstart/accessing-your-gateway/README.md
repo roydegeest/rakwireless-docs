@@ -17,7 +17,7 @@ Before powering the Raspberry Pi 4 you should install the LoRa® and GPS antenna
 By default, the gateway will work in Wi-Fi AP Mode which means that you can find an SSID named like "**Rakwireless_XXXX**" on your PC Wi-Fi Network List.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/4.accessing your gateway/wifi.png"
+  src="/assets/images/wisgate/rak7244/quickstart/4.accessing your gateway/wifi.png"
   width="100%"
   figure-number="1"
   caption="RAKwireless Access Point"
@@ -37,7 +37,7 @@ You can also connect your PC with the gateway through an Ethernet cable. By defa
 - To do this in Windows, go to Control Panel -> Network and Internet -> Network and Sharing Center and Click **Ethernet**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/4.accessing your gateway/network&sharing.png"
+  src="/assets/images/wisgate/rak7244/quickstart/4.accessing your gateway/network&sharing.png"
   width="100%"
   figure-number="2"
   caption="Network and Sharing Center"
@@ -46,7 +46,7 @@ You can also connect your PC with the gateway through an Ethernet cable. By defa
 - Click **Properties** then Choose **Internet Protocol Version 4 (TCP/IPv4)**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/4.accessing your gateway/ethernetproperties.png"
+  src="/assets/images/wisgate/rak7244/quickstart/4.accessing your gateway/ethernetproperties.png"
   width="100%"
   figure-number="3"
   caption="Ethernet Properties"
@@ -55,7 +55,7 @@ You can also connect your PC with the gateway through an Ethernet cable. By defa
 - By default, it will obtain an IP Address automatically. Click the Option "Use the following IP Address" and enter the IP Address: `192.168.10.20` and press OK.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/4.accessing your gateway/tcpipv4.png"
+  src="/assets/images/wisgate/rak7244/quickstart/4.accessing your gateway/tcpipv4.png"
   width="100%"
   figure-number="4"
   caption="TCP/IPv4 Properties"
@@ -70,7 +70,7 @@ Now , you should be able to access your gateway from your PC successfully using 
 SSH (Secure Shell) is typically used to log in to a remote machine and execute commands. There are a lot of free and good SSH Clients out there namely [**Putty**](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), [**BitVise SSH Client**](https://www.bitvise.com/ssh-client-download), [**MobaXterm**](https://mobaxterm.mobatek.net/) and many more. Feel free to choose one that fits your needs, you will be using Putty for this guide.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/4.accessing your gateway/puttywindows.png"
+  src="/assets/images/wisgate/rak7244/quickstart/4.accessing your gateway/puttywindows.png"
   width="75%"
   figure-number="5"
   caption="Putty Software for SSH in Windows"
@@ -83,7 +83,7 @@ SSH (Secure Shell) is typically used to log in to a remote machine and execute c
   - **Password**: raspberry
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/4.accessing your gateway/commandline.png"
+  src="/assets/images/wisgate/rak7244/quickstart/4.accessing your gateway/commandline.png"
   width="100%"
   figure-number="6"
   caption="Command line after log in"
@@ -94,7 +94,7 @@ SSH (Secure Shell) is typically used to log in to a remote machine and execute c
 Open the Terminal of Mac OS. Launch the **Terminal** application, which is found in "/Applications/Utilities/" directory but you can also launch it from Spotlight by hitting **Command + Spacebar** and typing “**Terminal**” and then return:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/4.accessing your gateway/mac_terminal.png"
+  src="/assets/images/wisgate/rak7244/quickstart/4.accessing your gateway/mac_terminal.png"
   width="100%"
   figure-number="7"
   caption="Opening Terminal in Mac OS"
@@ -103,7 +103,7 @@ Open the Terminal of Mac OS. Launch the **Terminal** application, which is found
 Open the terminal of Mac OS. Enter **root mode** by typing the following command: "`sudo -i`"
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/4.accessing your gateway/sshmac.jpg"
+  src="/assets/images/wisgate/rak7244/quickstart/4.accessing your gateway/sshmac.jpg"
   width="100%"
   figure-number="8"
   caption="SSH in Mac OS"
@@ -113,7 +113,7 @@ Open the terminal of Mac OS. Enter **root mode** by typing the following command
 - If you connect your PC with the gateway through Ethernet Cable, you should enter "`ssh pi@192.168.10.10`", the default password is "**raspberry**".
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/4.accessing your gateway/loginsuccess.jpg"
+  src="/assets/images/wisgate/rak7244/quickstart/4.accessing your gateway/loginsuccess.jpg"
   width="100%"
   figure-number="9"
   caption="Log-in Successful Notification"

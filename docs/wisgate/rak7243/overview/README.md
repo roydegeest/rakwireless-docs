@@ -1,8 +1,7 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7243/1.main
-rak_img: RAK7243.svg
-rak_grp: wisgate
-tags: overview
+static_root: /assets/images/wisgate/rak7243/quickstart/1.main/
+rak_img: /assets/images/wisgate/rak7243/quickstart/rak7243.svg
+rak_grp: [wisgate, developer]
 params:
   qlinks1:
     learnMore:

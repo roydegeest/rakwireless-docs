@@ -13,7 +13,7 @@ sudo gateway-config
 You will see a page like the following picture below:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/6.configure the gateway/gateway_id.png"
+  src="/assets/images/wisgate/rak7243/quickstart/6.configure the gateway/gateway_id.png"
   width="100%"
   figure-number="1"
   caption="Config Options for the Gateway"
@@ -36,7 +36,7 @@ There is also another way to get your "Gateway ID", just enter the command below
 sudo gateway-version
 ```
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/6.configure the gateway/gateway_id_cmd.png"
+  src="/assets/images/wisgate/rak7243/quickstart/6.configure the gateway/gateway_id_cmd.png"
   width="70%"
   figure-number="2"
   caption="Gateway ID using the command line"
@@ -48,7 +48,7 @@ It is a good security practice to change the default password "**raspberry**" wh
 1. First, choose "**1 Set pi password**" option referred on the image below.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/6.configure the gateway/set_pi_pwd.png"
+  src="/assets/images/wisgate/rak7243/quickstart/6.configure the gateway/set_pi_pwd.png"
   width="100%"
   figure-number="3"
   caption="Set Pi Password"
@@ -57,7 +57,7 @@ It is a good security practice to change the default password "**raspberry**" wh
 2. Next, press "**Yes**" and you will be asked to enter your new password twice then press "**Enter**".
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/6.configure the gateway/confirm_pwd.png"
+  src="/assets/images/wisgate/rak7243/quickstart/6.configure the gateway/confirm_pwd.png"
   width="100%"
   figure-number="4"
   caption="Confirm Password Change"
@@ -66,7 +66,7 @@ It is a good security practice to change the default password "**raspberry**" wh
 3. Alright, the success message for changing password will then pops up.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/6.configure the gateway/success_pwd_change.png"
+  src="/assets/images/wisgate/rak7243/quickstart/6.configure the gateway/success_pwd_change.png"
   width="100%"
   figure-number="5"
   caption="Successful Password Change"
@@ -77,7 +77,7 @@ It is a good security practice to change the default password "**raspberry**" wh
 This menu allows you to select your LoRa® frequency band and one of the two available Networks Server options by choosing "**2 Setup RAK Gateway LoRa® concentrator**"
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/6.configure the gateway/setup_rak_gateway.jpg"
+  src="/assets/images/wisgate/rak7243/quickstart/6.configure the gateway/setup_rak_gateway.jpg"
   width="100%"
   figure-number="6"
   caption="Choosing Setup RAK Gateway LoRa® concentrator"
@@ -88,7 +88,7 @@ You can choose one of two supported LoRa® Servers here: **TTN** or **ChirpStack
 ### Server is TTN
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/6.configure the gateway/server_ttn.png"
+  src="/assets/images/wisgate/rak7243/quickstart/6.configure the gateway/server_ttn.png"
   width="100%"
   figure-number="7"
   caption="Server is TTN"
@@ -97,7 +97,7 @@ You can choose one of two supported LoRa® Servers here: **TTN** or **ChirpStack
 * **TTN (The Things Network)** - If you choose TTN as the LoRa® Server, you will see the following page. Visit this [article](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country.html) for more information on your local TTN frequency plan. This will allow you to choose the correct plan.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/6.configure the gateway/ttn_channel_plan.jpg"
+  src="/assets/images/wisgate/rak7243/quickstart/6.configure the gateway/ttn_channel_plan.jpg"
   width="100%"
   figure-number="8"
   caption="Selecting the TTN Channel Plan"
@@ -106,7 +106,7 @@ You can choose one of two supported LoRa® Servers here: **TTN** or **ChirpStack
 After choosing the correct frequency, the success message will appear as shown below.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/6.configure the gateway/success_freq_change.png"
+  src="/assets/images/wisgate/rak7243/quickstart/6.configure the gateway/success_freq_change.png"
   width="100%"
   figure-number="9"
   caption="Successfully Changed the Frequency"
@@ -115,7 +115,7 @@ After choosing the correct frequency, the success message will appear as shown b
 ### Server is Chirpstack
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/6.configure the gateway/chirpstack.png"
+  src="/assets/images/wisgate/rak7243/quickstart/6.configure the gateway/chirpstack.png"
   width="100%"
   figure-number="10"
   caption="Server Is Chirpstack"
@@ -129,14 +129,14 @@ After choosing the correct frequency, the success message will appear as shown b
 First, select "**1 ChirpStack Channel-plan configuration**" for configuring your frequency channel. Then, set the IP address of the ChripStack.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/6.configure the gateway/chirpstack_channel.png"
+  src="/assets/images/wisgate/rak7243/quickstart/6.configure the gateway/chirpstack_channel.png"
   width="100%"
   figure-number="11"
   caption="Regional Frequency Band Option"
 />
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/6.configure the gateway/loraserver_ip.png"
+  src="/assets/images/wisgate/rak7243/quickstart/6.configure the gateway/loraserver_ip.png"
   width="100%"
   figure-number="12"
   caption="Default LoRaServer IP Address"
@@ -149,7 +149,7 @@ First, select "**1 ChirpStack Channel-plan configuration**" for configuring your
 * If you have instead selected "**Chirpstack ADR Configure**" you can enable/disable the Adaptive Data Rate (ADR) functionality:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/6.configure the gateway/adr_settings.png"
+  src="/assets/images/wisgate/rak7243/quickstart/6.configure the gateway/adr_settings.png"
   width="100%"
   figure-number="13"
   caption="Chirpstack ADR Enable/Disable"

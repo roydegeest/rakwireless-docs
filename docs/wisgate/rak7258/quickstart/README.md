@@ -3,10 +3,10 @@ prev: /wisgate/rak7258/overview/
 next: wall-mounting-guide
 ---
 
-# RAK7258 Micro Gateway
+# Quick Start Guide
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7258/2.quickstart/rak7258-overview2.jpg"
+  src="/assets/images/wisgate/rak7258/quickstart/2.quickstart/rak7258-overview2.jpg"
   width="75%"
   figure-number="1"
   caption="RAK7258 Micro Gateway Internal Board"
@@ -22,7 +22,7 @@ next: wall-mounting-guide
 ### What's included in the Package?
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7258/2.quickstart/package_contents.jpg"
+  src="/assets/images/wisgate/rak7258/quickstart/2.quickstart/package_contents.jpg"
   width="100%"
   figure-number="2"
   caption="RAK7258 Package Contents"

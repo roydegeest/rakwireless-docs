@@ -1,6 +1,7 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7243c/2.product-configuration/2.accessing-gateway/1.accessing-internet
-prev: /en-us/quick-start-guide/gateways/rak7243c/accessing-your-gateway/#accessing-your-gateway
+static_root: /assets/images/wisgate/rak7243c/quickstart/2.product-configuration/2.accessing-gateway/1.accessing-internet
+prev: /wisgate/rak7243c/quickstart/accessing-your-gateway/#accessing-your-gateway
+next: /wisgate/rak7243c/quickstart/configuring-the-gateway/
 ---
 
 # Accessing the Internet
@@ -73,7 +74,7 @@ Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable
 - Enter the SSID of the network you want to connect:
 
 ::: warning
-Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK7243C again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow this procedure listed in the [Accessing the Internet](#reverting-to-wi-fi-ap-mode) document which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
+Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK7243C again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow this procedure listed in the [Accessing the Internet](/wisgate/rak7243c/quickstart/accessing-your-gateway/accessing-the-internet.html#reverting-to-wi-fi-ap-mode) document which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
 :::
 
 <rk-img

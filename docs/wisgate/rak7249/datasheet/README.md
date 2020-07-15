@@ -8,7 +8,7 @@ prev: /wisgate/rak7249/overview/
 # RAK7249 Macro Outdoor Gateway
 
 <rk-img
-  src="/assets/images/datasheet/rak7249/rak7249-macro-outdoor-gateway.png"
+  src="/assets/images/wisgate/rak7249/datasheet/rak7249-macro-outdoor-gateway.png"
   width="75%"
   caption="RAK7249 Macro Outdoor Gateway"
 />
@@ -49,7 +49,7 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 #### Circuit Board
 
 <rk-img
-  src="/assets/images/datasheet/rak7249/circuit-board-interface.png"
+  src="/assets/images/wisgate/rak7249/datasheet/circuit-board-interface.png"
   width="100%"
   caption="Circuit Board Interface"
 />
@@ -64,7 +64,7 @@ Create your own RAK7249 Macro Outdoor Gateway using the supplied building Blocks
 - Accessories
 
 <rk-img
-  src="/assets/images/datasheet/rak7249/diy-enterprise-gateway-components-and-accessories.jpg"
+  src="/assets/images/wisgate/rak7249/datasheet/diy-enterprise-gateway-components-and-accessories.jpg"
   width="75%"
   caption="DIY Enterprise Gateway Components and Accessories"
 />
@@ -116,7 +116,7 @@ Actual Devices for RAK7249 Macro Outdoor Gateway and accessories may differ from
 The image below shows the block diagram for RAK7249 Macro Outdoor Gateway with MT7628 chip as the core.
 
 <rk-img
-  src="/assets/images/datasheet/rak7249/block-diagram.png"
+  src="/assets/images/wisgate/rak7249/datasheet/block-diagram.png"
   width="100%"
   caption="RAK7249 Block Diagram"
 />
@@ -130,13 +130,13 @@ The image below shows the block diagram for RAK7249 Macro Outdoor Gateway with M
 The images below shows the hardware interfaces at the front and rear of RAK7249 Macro Outdoor Gateway.
 
 <rk-img
-  src="/assets/images/datasheet/rak7249/hardware-interfaces-front.jpg"
+  src="/assets/images/wisgate/rak7249/datasheet/hardware-interfaces-front.jpg"
   width="75%"
   caption="Hardware Interfaces - Front"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak7249/hardware-interfaces-rear.jpg"
+  src="/assets/images/wisgate/rak7249/datasheet/hardware-interfaces-rear.jpg"
   width="75%"
   caption="Hardware Interfaces - Rear"
 />
@@ -144,7 +144,7 @@ The images below shows the hardware interfaces at the front and rear of RAK7249 
 ##### Board Interface
 
 <rk-img
-  src="/assets/images/datasheet/rak7249/circuit-board-interface.png"
+  src="/assets/images/wisgate/rak7249/datasheet/circuit-board-interface.png"
   width="100%"
   caption="Circuit Board Interface"
 />

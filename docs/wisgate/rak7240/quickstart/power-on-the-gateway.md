@@ -18,7 +18,7 @@ Do not power the device if any antenna port has been left open. In case you do n
 It is recommended to use a **CAT5 Cable** to provide power to the Gateway. Attach one end to the provided **PoE injector** and the other to the **Ethernet Port** (ETH) on the bottom of the casing.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7240/power-through-poe.jpg"
+  src="/assets/images/wisgate/rak7240/quickstart/3.power-through-poe.jpg"
   width="100%"
   figure-number="1"
   caption="Powering the Gateway using PoE"

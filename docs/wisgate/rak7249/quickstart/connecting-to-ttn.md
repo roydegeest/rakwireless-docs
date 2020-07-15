@@ -5,11 +5,11 @@ next: false
 
 The Things Network is about enabling low power devices to use long range gateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about The Things Network [here](https://www.thethingsnetwork.org/docs/).
 
-- First, you should have connected your RAK7249 Macro Outdoor Gateway to the router in order to access the internet according to the method which has been introduced in the [Access the Internet](access-the-internet.html) section of this document.
+- First, you should have connected your RAK7249 Macro Outdoor Gateway to the router in order to access the internet according to the method which has been introduced in the [Access the Internet](/wisgate/rak7249/quickstart/access-the-internet.html) section of this document.
 - Now go to the TTN Website: [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/2.quickstart/ttn-homepage.png"
+  src="/assets/images/wisgate/rak7249/quickstart/2.quickstart/ttn-homepage.png"
   width="100%"
   figure-number="1"
   caption="The Things Network Home Page"
@@ -19,7 +19,7 @@ The Things Network is about enabling low power devices to use long range gateway
 1. In the **Register Gateway** menu, select the “**I’m using the legacy packet forwarder**” option, and fill-in the Gateway EUI.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/2.quickstart/register-gateway.png"
+  src="/assets/images/wisgate/rak7249/quickstart/2.quickstart/register-gateway.png"
   width="100%"
   figure-number="2"
   caption="Registering your Gateway"
@@ -34,7 +34,7 @@ The Gateway EUI can be found either on the sticker on the casing or via the LoRa
 3. Upon successful registration you should see the following screen:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/2.quickstart/ttn-successful.png"
+  src="/assets/images/wisgate/rak7249/quickstart/2.quickstart/ttn-successful.png"
   width="100%"
   figure-number="3"
   caption="Gateway successfully connected to The Things Network (TTN)"

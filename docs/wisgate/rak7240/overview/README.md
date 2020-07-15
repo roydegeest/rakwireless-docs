@@ -1,8 +1,6 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7240
-rak_img: RAK7240.png
+rak_img: /assets/images/wisgate/rak7240/quickstart/rak7240.png
 rak_grp: [wisgate, edge]
-tags: overview
 params:
   qlinks1:
     learnMore:
@@ -26,11 +24,12 @@ params:
 # RAK7240 Outdoor LPWAN Gateway
 
 <rk-img
-  :src="`${$frontmatter.static_root}/rak7240-overview.jpg`"
+  src="/assets/images/wisgate/rak7240/quickstart/1.rak7240-overview.jpg"
   width="100%"
   figure-number="1"
-  caption="RAK7240 Outdoor LPWAN Gateway"
+  caption="RAK7240 Outdoor LPWAN Gateway""
 />
+
 
 ## Product Background
 

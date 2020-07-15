@@ -22,7 +22,7 @@ Using your preferred Web browser, input the aforementioned IP Address and you sh
   * **Password**: root
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/2.quickstart/okvqxiyqxijphxovxdtu.jpg"
+  src="/assets/images/wisgate/rak7249/quickstart/2.quickstart/okvqxiyqxijphxovxdtu.jpg"
   width="100%"
   figure-number="1"
   caption="Accessing the Gateway via Wi-Fi AP Mode"
@@ -36,7 +36,7 @@ The default IP is **169.254.X.X.** The last two segments(X.X) are mapped from th
 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7249/2.quickstart/egarkihseojsvnt6dzgx.jpg"
+  src="/assets/images/wisgate/rak7249/quickstart/2.quickstart/egarkihseojsvnt6dzgx.jpg"
   width="100%"
   figure-number="2"
   caption="Accessing the Gateway via WAN Port (Ethernet)"

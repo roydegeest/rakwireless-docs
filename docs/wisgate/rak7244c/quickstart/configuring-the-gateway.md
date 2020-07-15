@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7244c/3.configure-gateway
+static_root: /assets/images/wisgate/rak7244c/quickstart/3.configure-gateway
 ---
 
 # Configuring the Gateway

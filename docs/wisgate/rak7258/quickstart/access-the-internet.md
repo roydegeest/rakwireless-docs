@@ -9,7 +9,7 @@ next: connecting-to-ttn
 Go into the **Network>Wi-Fi Menu** and make sure to enable the **Wireless Client** as it is disabled initially. Enter or click "**Scan**" to choose your **ESSSID**, select the right **Encryption** method and enter the correct **Key**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7258/2.quickstart/wifi-credentials.png"
+  src="/assets/images/wisgate/rak7258/quickstart/2.quickstart/wifi-credentials.png"
   width="75%"
   figure-number="1"
   caption="Connect through Wi-Fi Credentials"
@@ -24,7 +24,7 @@ Go into the **Network>Wi-Fi Menu** and make sure to enable the **Wireless Client
 Connect the **Ethernet Port (ETH)** of the RAK7258 Micro Gateway via an Ethernet cable to your **Router**. The router’s DHCP server should assign an IP Address to the Gateway. You can change the default settings below if you wish (details in the User Manual).
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7258/2.quickstart/ethernet-settings.png"
+  src="/assets/images/wisgate/rak7258/quickstart/2.quickstart/ethernet-settings.png"
   width="75%"
   figure-number="2"
   caption="Connect through Ethernet Settings"

@@ -6,12 +6,12 @@ next: connecting-to-chirpstack
 
 The Things Network is about enabling low power devices to use long range gateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about the Things Network [here](https://www.thethingsnetwork.org/docs/).
 
-* First, you should have connected your gateway to the router in order to access the internet according to the method which has been introduced in the [Accessing the Internet](accessing-the-internet.html#accessing-the-internet) section.
-* Second, config your gateway and choose TTN as the LoRa® Server and choose a correct frequency according to the method which has been introduced in the [Configuring the Gateway](configuring-the-gateway.html#server-is-ttn) section.
+* First, you should have connected your gateway to the router in order to access the internet according to the method which has been introduced in the [Accessing the Internet](/wisgate/rak7243/quickstart/access-the-internet.html#accessing-the-internet) section.
+* Second, config your gateway and choose TTN as the LoRa® Server and choose a correct frequency according to the method which has been introduced in the [Configuring the Gateway](/wisgate/rak7243/quickstart/configure-the-gateway.html#configure-the-gateway) section.
 * Now go to the [TTN Website](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/7.connecting to ttn/ttn_home_page.png"
+  src="/assets/images/wisgate/rak7243/quickstart/7.connecting to ttn/ttn_home_page.png"
   width="100%"
   figure-number="1"
   caption="The Things Network Home Page"
@@ -20,7 +20,7 @@ The Things Network is about enabling low power devices to use long range gateway
 * Choose Console then Click Gateways.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/7.connecting to ttn/ttn_console.png"
+  src="/assets/images/wisgate/rak7243/quickstart/7.connecting to ttn/ttn_console.png"
   width="100%"
   figure-number="2"
   caption="The Things Network Console Page"
@@ -29,14 +29,14 @@ The Things Network is about enabling low power devices to use long range gateway
 * All of your Registered Gateways will be displayed here in this page. Click "**register gateway**"
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/7.connecting to ttn/adding_gateway.png"
+  src="/assets/images/wisgate/rak7243/quickstart/7.connecting to ttn/adding_gateway.png"
   width="100%"
   figure-number="3"
   caption="Adding a Gateway to TTN"
 />
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/7.connecting to ttn/register_gateway.png"
+  src="/assets/images/wisgate/rak7243/quickstart/7.connecting to ttn/register_gateway.png"
   width="100%"
   figure-number="4"
   caption="Registering your Gateway"
@@ -45,7 +45,7 @@ The Things Network is about enabling low power devices to use long range gateway
 * **Gateway EUI** - refers to the Gatway ID you obtained from the previous steps. In case you forgot, just type `gateway-version` in the command line. This must be the same with the gateway's True Gateway ID otherwise you will fail to register your gateway on TTN.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/7.connecting to ttn/gateway_id.png"
+  src="/assets/images/wisgate/rak7243/quickstart/7.connecting to ttn/gateway_id.png"
   width="100%"
   figure-number="5"
   caption="RAK7243 - LPWAN Developer Gateway Gateway ID in SSH"
@@ -64,7 +64,7 @@ The Things Network is about enabling low power devices to use long range gateway
 Click Register Gateway and wait for a couple of minutes . If the status of your gateway is **Connected**, Congratulations! :tada: Your gateway is now connected to the The Things Network (TTN).
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7243/7.connecting to ttn/connection_success.png"
+  src="/assets/images/wisgate/rak7243/quickstart/7.connecting to ttn/connection_success.png"
   width="100%"
   figure-number="6"
   caption="RAK7243 - LPWAN Developer Gateway TTN Connection Success"

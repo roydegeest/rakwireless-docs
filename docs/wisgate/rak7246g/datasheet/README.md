@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/datasheet/rak7246g/overview
+static_root: /assets/images/wisgate/rak7246g/datasheet/overview
 tags: + datasheet
 sidebar: auto
 sidebarDepth: 4
@@ -40,7 +40,7 @@ The RAK7246G is an ideal choice for prototype design, concept verification and d
 ##### Module Overview
 
 <rk-img
-  src="/assets/images/datasheet/rak7246g/board-overview/dqtuzznrpsuevoizzgvc.png"
+  src="/assets/images/wisgate/rak7246g/datasheet/board-overview/dqtuzznrpsuevoizzgvc.png"
   width="100%"
   caption="uFL Connectors for LoRa and GPS"
 />
@@ -48,7 +48,7 @@ The RAK7246G is an ideal choice for prototype design, concept verification and d
 The Interfaces of the RAK7246G are as shown in Figure 2. The TF card slot is used for the SD card that houses the Firmware (based on Raspbian OS). You have two SMA connectors for the LoRa and GPS antennas. There are 3 ports on the side, which are part of the Raspberry Pi Zero W board, which from left to right are: mini HDMI, USB MicroB, and another USB MicroB/Power (please only use this to power the device with the included adapter or an equivalent one).
 
 <rk-img
-  src="/assets/images/datasheet/rak7246g/board-overview/dimensions.png"
+  src="/assets/images/wisgate/rak7246g/datasheet/board-overview/dimensions.png"
   width="100%"
   caption="Hardware Interfaces"
 />
@@ -58,7 +58,7 @@ The Interfaces of the RAK7246G are as shown in Figure 2. The TF card slot is use
 Both the RAK2246 and Raspberry Pi have the same board dimensions: **30 x 65 mm**. As for the size of the Gateway with the casing refer to the Figure below.
 
 <rk-img
-  src="/assets/images/datasheet/rak7246g/board-overview/ifljf8dbokouw7ppnudi.jpg"
+  src="/assets/images/wisgate/rak7246g/datasheet/board-overview/ifljf8dbokouw7ppnudi.jpg"
   width="80%"
   caption="Casing Dimension"
 />
@@ -70,7 +70,7 @@ Both the RAK2246 and Raspberry Pi have the same board dimensions: **30 x 65 mm**
 The concentrator is available with an SPI interface:
 
 <rk-img
-  src="/assets/images/datasheet/rak7246g/interfaces/qdr3oj29xkjdfu0a3bys.jpg"
+  src="/assets/images/wisgate/rak7246g/datasheet/interfaces/qdr3oj29xkjdfu0a3bys.jpg"
   width="80%"
   caption="RAK2246 Bottom View"
 />
@@ -91,7 +91,7 @@ recommended to utilize the latest HAL as provided by Semtech on [https://github.
 ##### Block Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak7246g/interfaces/block-diagram.png"
+  src="/assets/images/wisgate/rak7246g/datasheet/interfaces/block-diagram.png"
   width="100%"
   caption="Block Diagram"
 />
@@ -123,7 +123,7 @@ The SX1308 can detect simultaneously preambles corresponding to all data rates o
 The unique multi data-rate multi-channel demodulation capacity SF7 to SF12 and of channels IF0 to IF7 allows innovative network architectures to be implemented.
 
 <rk-img
-  src="/assets/images/datasheet/rak7246g/interfaces/jlyqgowwfeidn4k49cy3.png"
+  src="/assets/images/wisgate/rak7246g/datasheet/interfaces/jlyqgowwfeidn4k49cy3.png"
   width="100%"
   caption="LoRa Channel"
 />
@@ -153,7 +153,7 @@ There are two digital IO PINs, which give the user an interface to reset the GPS
 #### Pin Definition
 
 <rk-img
-  src="/assets/images/datasheet/rak7246g/pin-definition/e7ik5kliydnba3jh6ogy.png"
+  src="/assets/images/wisgate/rak7246g/datasheet/pin-definition/e7ik5kliydnba3jh6ogy.png"
   width="80%"
   caption="RAK7246G Pinout Diagram"
 />
@@ -287,7 +287,7 @@ The system power supply is provided by an external 5V DC power supply. All the k
 The FEM chosen is a SKYWORKS SKY66422, which integrates a PA, LNA and a Switch. It can achieve a 20 dBm max output power in order to deliver sufficient RX performance. The frequency range it can cover from is 860MHZ~930MHz.
 
 <rk-img
-  src="/assets/images/datasheet/rak7246g/qbxfrqry28q2p8ozhicz.jpg"
+  src="/assets/images/wisgate/rak7246g/datasheet/qbxfrqry28q2p8ozhicz.jpg"
   width="80%"
   caption="System Architecture"
 />
@@ -345,7 +345,7 @@ Depending on the used spreading factor and signal bandwidth different data rates
 The RAK2246 is able to receive on different frequency channels at the same time and is able to demodulate the LoRa signal without knowledge of the used spreading factor of the sending node. Thus, any Gateway using it as its concentrator module has these inherent benefits as well.
 
 <rk-img
-  src="/assets/images/datasheet/rak7246g/systems-network-approach/f333yrqj2l328fhmkpaf.png"
+  src="/assets/images/wisgate/rak7246g/datasheet/systems-network-approach/f333yrqj2l328fhmkpaf.png"
   width="70%"
   figure-number="10"
   caption="System Architecture"

@@ -8,7 +8,7 @@ prev: /wisgate/rak7243c/overview/
 # RAK7243C Pilot Gateway
 
 <rk-img
-  src="/assets/images/datasheet/rak7243c/rak7243c-overview.png"
+  src="/assets/images/wisgate/rak7243c/datasheet/1.rak7243c-overview.png"
   width="50%"
   caption="RAK7243C Pilot Gateway"
 />
@@ -44,7 +44,7 @@ Pilot Gateway Pro is ideal for prototyping, proof-of-concept demonstration or fo
 The outer dimension of Pilot Gateway is **92 x 68.3 x 53.5 mm** as shown below
 
 <rk-img
-  src="/assets/images/datasheet/rak7243c/rak7243-dimensions.png"
+  src="/assets/images/wisgate/rak7243c/datasheet/2.rak7243-dimensions.png"
   width="75%"
   caption="RAK7243C Outer Dimensions"
 />
@@ -54,7 +54,7 @@ The outer dimension of Pilot Gateway is **92 x 68.3 x 53.5 mm** as shown below
 The following figure shows the basic concept for LoRaWAN® system. RAK7243 Pilot Gateway is the central hardware solution for all LoRa® based radio communication. It receives and transmits radio messages. The processing of radio messages as well as the protocol related tasks is done by embedded host system (Raspberry Pi). Received and processed radio messages are being sent to a LoRaWAN® server. The concrete segmentation of the protocol related tasks is outside the scope of this document
 
 <rk-img
-  src="/assets/images/datasheet/rak7243c/rak7243-system-structure.png"
+  src="/assets/images/wisgate/rak7243c/datasheet/3.rak7243-system-structure.png"
   width="100%"
   caption="RAK7243C Pilot Gateway System Structure"
 />
@@ -64,7 +64,7 @@ The following figure shows the basic concept for LoRaWAN® system. RAK7243 Pilot
 #### Interfaces
 
 <rk-img
-  src="/assets/images/datasheet/rak7243c/rak7243c-interfaces.png"
+  src="/assets/images/wisgate/rak7243c/datasheet/4.rak7243c-interfaces.png"
   width="100%"
   caption="RAK7243C Interfaces"
 />
@@ -80,17 +80,17 @@ The RAK7243C Pilot Gateway is composed of the LPWAN Concentrator RAK2245 Pi Hat 
 ##### RAK2245 Pi Hat
 
 <rk-img
-  src="/assets/images/datasheet/rak7243c/rak2245.png"
+  src="/assets/images/wisgate/rak7243c/datasheet/5.rak2245.png"
   width="50%"
   caption="RAK2245 Pi Hat"
 />
 
 RAK2245 Pi HAT(Model Name is: RAK2243) is an LPWAN Concentrator board which follows the Pi HAT standard, and can be mounted to Pi board with 40-pin connector.
 
-- For detailed information about the RAK2245, Go to the [RAK2245 Pi Hat Datasheet](/en-us/datasheet/gateways/rak2245-pi-hat-edition/).
+- For detailed information about the RAK2245, Go to the [RAK2245 Pi Hat Datasheet](/wislink-lora/rak2245-pi-hat-edition/datasheet/).
 
 <rk-img
-  src="/assets/images/datasheet/rak7243c/lora-hardware-structure.jpg"
+  src="/assets/images/wisgate/rak7243c/datasheet/6.lora-hardware-structure.jpg"
   width="80%"
   caption="LoRa® Hardware Structure"
 />
@@ -98,7 +98,7 @@ RAK2245 Pi HAT(Model Name is: RAK2243) is an LPWAN Concentrator board which foll
 ##### RAK2013 Cellular
 
 <rk-img
-  src="/assets/images/datasheet/rak7243c/rak2013.jpg"
+  src="/assets/images/wisgate/rak7243c/datasheet/7.rak2013.jpg"
   width="50%"
   caption="RAK2013 Cellular Pi Hat"
 />
@@ -107,10 +107,10 @@ RAK2013 is an add-on board following Raspberry Pi HAT standard. It can transmit 
 
 The RAK2013 integrates audio codec and audio amplifier on it, with carrier operator's network, it can support VoLTE function. For easy use, there are earphone connector, MIC connector and speaker connector with audio amplifier
 
-- For detailed information about the RAK2013, go to [RAK2013 Cellular Datasheet](#).
+- For detailed information about the RAK2013, go to [RAK2013 Cellular Datasheet](/wislink-lte/rak2013/datasheet/).
 
 <rk-img
-  src="/assets/images/datasheet/rak7243c/cellular-hardware-structure.png"
+  src="/assets/images/wisgate/rak7243c/datasheet/8.cellular-hardware-structure.png"
   width="75%"
   caption="Cellular Hardware Structure"
 />
@@ -223,7 +223,7 @@ Quectel EG95 is a series of LTE category 4 module optimized specially for M2M an
 The LoRa® Antenna with RP-SMA female connector shown in the figure below:
 
 <rk-img
-  src="/assets/images/datasheet/rak7243c/lora-antenna-overview.png"
+  src="/assets/images/wisgate/rak7243c/datasheet/9.lora-antenna-overview.png"
   width="50%"
   caption="LoRa® Antenna Overview"
 />
@@ -233,7 +233,7 @@ The LoRa® Antenna with RP-SMA female connector shown in the figure below:
 The antenna's mechanical dimension is shown below:
 
 <rk-img
-  src="/assets/images/datasheet/rak7243c/lora-antenna-dimensions.png"
+  src=/assets/images/wisgate/rak7243c/datasheet/10.lora-antenna-dimensions.png"
   width="50%"
   caption="LoRa® Antenna Dimension in mm"
 />
@@ -256,7 +256,7 @@ The LTE antenna for the Pilot Gateway Pro covers working frequency band
 from 824MHz to 2690MHz. The antenna is shown as below.
 
 <rk-img
-  src="/assets/images/datasheet/rak7243c/lte-antenna.jpg"
+  src="/assets/images/wisgate/rak7243c/datasheet/11.lte-antenna.jpg"
   width="50%"
   caption="LTE Antenna"
 />
@@ -264,7 +264,7 @@ from 824MHz to 2690MHz. The antenna is shown as below.
 ###### Antenna Dimension
 
 <rk-img
-  src="/assets/images/datasheet/rak7243c/lte-antenna-dimensions.jpg"
+  src="/assets/images/wisgate/rak7243c/datasheet/12.lte-antenna-dimensions.jpg"
   width="50%"
   caption="LTE Antenna Dimension"
 />
@@ -284,7 +284,7 @@ from 824MHz to 2690MHz. The antenna is shown as below.
 The GPS antenna for Pilot Gateway is shown below
 
 <rk-img
-  src="/assets/images/datasheet/rak7243c/gps-antenna.jpg"
+  src="/assets/images/wisgate/rak7243c/datasheet/13.gps-antenna.jpg"
   width="50%"
   caption="GPS Antenna"
 />
@@ -292,7 +292,7 @@ The GPS antenna for Pilot Gateway is shown below
 ###### GPS Antenna Dimension
 
 <rk-img
-  src="/assets/images/datasheet/rak7243c/gps-antenna-dimensions.jpg"
+  src="/assets/images/wisgate/rak7243c/datasheet/14.gps-antenna-dimensions.jpg"
   width="75%"
   caption="GPS Antenna Dimensions"
 />

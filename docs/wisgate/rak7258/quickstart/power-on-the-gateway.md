@@ -19,7 +19,7 @@ It is recommended to use the **12V DC adapter** that comes with the RAK7258 Micr
 ## Casing and Ports 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7258/2.quickstart/rak7258-back-panel.png"
+  src="/assets/images/wisgate/rak7258/quickstart/2.quickstart/rak7258-back-panel.png"
   width="75%"
   figure-number="1"
   caption="RAK7258 Micro Gateway Back Panel"

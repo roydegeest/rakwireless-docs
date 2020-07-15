@@ -12,7 +12,7 @@ Since the RAK7246G LPWAN Developer Gateway does not include a built-in Chirpstac
 
 This is a lot more complicated having to deploy a remote ChirpStack by yourself but Chirpstack provided a detailed guide on how to do it [here](https://www.chirpstack.io/guides/debian-ubuntu/):
 
-<rk-img src="/assets/images/quick-start-guide/rak7246/chirpstack_ubuntu.png" width="100%" figure-number = "1" caption="Chirpstack Getting Started Guide on Ubuntu"/>
+<rk-img src="/assets/images/wisgate/rak7246g/quickstart/chirpstack_ubuntu.png" width="100%" figure-number = "1" caption="Chirpstack Getting Started Guide on Ubuntu"/>
 
 :::warning ⚠️WARNING
   Remember to run the `sudo gateway-config` command in the CLI and point the Gateway to the IP address of the machine you just installed Chirpstack on. This can be done in item 2 in the menu "**Setup RAK Gateway LoRa® concentrator**"!
@@ -23,7 +23,7 @@ Assuming you have set it up correctly, Login to your ChirpStack to register your
 * If you are using an Independent Chirpstack, use the IP Address you have set in the Configuring the Gateway document. 
 * If you are using the RAK Free Cloud Server Chirpstack `209.250.251.9`
 
-<rk-img src="/assets/images/quick-start-guide/rak7246/chirpstack_login.png" width="100%" figure-number = "2" caption="ChirpStack Login Page"/>
+<rk-img src="/assets/images/wisgate/rak7246g/quickstart/chirpstack_login.png" width="100%" figure-number = "2" caption="ChirpStack Login Page"/>
 
 * The default username is "**admin**" and the password is also "**admin**"
 
@@ -31,22 +31,22 @@ Assuming you have set it up correctly, Login to your ChirpStack to register your
  If you are using the RAK Cloud Testing ChirpStack, input the account and password you have asked in the forum provided beforehand.
 :::
 
-<rk-img src="/assets/images/quick-start-guide/rak7246/chirpstack_home.png" width="100%" figure-number = "3" caption="ChirpStack Home Page"/>
+<rk-img src="/assets/images/wisgate/rak7246g/quickstart/chirpstack_home.png" width="100%" figure-number = "3" caption="ChirpStack Home Page"/>
 
 * Click "**Gateways**" in the left menu and Press "**+ CREATE**" to register your Gateway
 
-<rk-img src="/assets/images/quick-start-guide/rak7246/chirpstack_gateway.png" width="100%" figure-number = "4" caption="ChirpStack Registered Gateways"/>
+<rk-img src="/assets/images/wisgate/rak7246g/quickstart/chirpstack_gateway.png" width="100%" figure-number = "4" caption="ChirpStack Registered Gateways"/>
 
 * Click "Create" to register your Gateway and fill up the necessary information.
 
-<rk-img src="/assets/images/quick-start-guide/rak7246/chirpstack_register_gateway.png" width="100%" figure-number = "5" caption="Registering your own Gateway"/>
+<rk-img src="/assets/images/wisgate/rak7246g/quickstart/chirpstack_register_gateway.png" width="100%" figure-number = "5" caption="Registering your own Gateway"/>
 
-* Fill in the Gateway ID that we got from the last section ([Configuring the Gateway](./configuring-the-gateway.md)), also called Gateway EUI.
-<rk-img src="/assets/images/quick-start-guide/rak7246/gateway_id.png" width="100%" figure-number = "6" caption="Gateway ID"/>
+* Fill in the Gateway ID that we got from the last section ([Configuring the Gateway](/wisgate/rak7246g/quickstart/configuring-the-gateway.html)), also called Gateway EUI.
+<rk-img src="/assets/images/wisgate/rak7246g/quickstart/gateway_id.png" width="100%" figure-number = "6" caption="Gateway ID"/>
 
 * If you have properly configured your Gateway and there is a network connection between the external ChirpStack and your Gateway, you should see the following page and status:
 
-<rk-img src="/assets/images/quick-start-guide/rak7246/chirpstack_success.png" width="100%" figure-number = "7" caption=" Successfully Registered the Gateway"/>
+<rk-img src="/assets/images/wisgate/rak7246g/quickstart/chirpstack_success.png" width="100%" figure-number = "7" caption=" Successfully Registered the Gateway"/>
 
 * By clicking the Live LORAWAN® FRAMES tab, you can check the LoRa® packets sent by the nodes into your RAK7246G LPWAN Developer Gateway
 

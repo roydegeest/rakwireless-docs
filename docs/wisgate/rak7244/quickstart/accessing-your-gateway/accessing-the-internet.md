@@ -1,6 +1,6 @@
 ---
-title: Accessing the Internet
 prev: /wisgate/rak7244/quickstart/accessing-your-gateway/#accessing-your-gateway
+next: /wisgate/rak7244/quickstart/configuring-the-gateway.html
 ---
 
 # Accessing the Internet
@@ -14,7 +14,7 @@ sudo gateway-config
 You will now then see a page like the following picture below:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/config-options.png"
+  src="/assets/images/wisgate/rak7244/quickstart/5.accessing the internet/config-options.png"
   width="100%"
   figure-number="1"
   caption="Configuration Options for the Gateway"
@@ -32,7 +32,7 @@ You will now then see a page like the following picture below:
 If you want to connect through Wi-Fi, it can easily be done with the Wireless capabilities of the Raspberry Pi 4 by choosing "**5 Configure WIFI**". By default, the RAK7244 LPWAN Developer Gateway works in Wi-Fi AP Mode. In order for the Gateway to connect to the router, it must work in Wi-Fi Client Mode.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/wifi-config.png"
+  src="/assets/images/wisgate/rak7244/quickstart/5.accessing the internet/wifi-config.png"
   width="100%"
   figure-number="2"
   caption="Configuration options for WIFI"
@@ -53,7 +53,7 @@ In order to enable Wi-Fi Client Mode, you have to disable first the AP Mode.
 Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable AP Mode**", you can now then connect to a new Wi-Fi Network by choosing "**4 Add New SSID for Client**":
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/wifi-ssid.png"
+  src="/assets/images/wisgate/rak7244/quickstart/5.accessing the internet/wifi-ssid.png"
   width="100%"
   figure-number="3"
   caption="Add a new SSID"
@@ -62,7 +62,7 @@ Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable
 - Start by selecting your country of residence:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/region.png"
+  src="/assets/images/wisgate/rak7244/quickstart/5.accessing the internet/region.png"
   width="100%"
   figure-number="4"
   caption="Selecting Country of Residence"
@@ -71,11 +71,11 @@ Once Wi-Fi AP Mode has been disabled by choosing "**2 Enable Client Mode/Disable
 - Enter the SSID of the network you want to connect:
 
 :::warning ⚠️WARNING
-Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK7244 again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow this procedure listed in the [Reverting to Wi-Fi AP Mode](#reverting-to-wi-fi-ap-mode) section which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
+Please ensure to input the correct Wi-Fi SSID and Password or you will not be able to connect to the RAK7244 again via SSH in Wi-Fi AP Mode. If stuck in this situation, please follow this procedure listed in the [Reverting to Wi-Fi AP Mode](/wisgate/rak7244/quickstart/accessing-your-gateway/accessing-the-internet.html#reverting-to-wi-fi-ap-mode) section which is applicable for all Raspberry Pi based gateways to work again in Wi-Fi AP mode.
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/set-wifi.png"
+  src="/assets/images/wisgate/rak7244/quickstart/5.accessing the internet/set-wifi.png"
   width="100%"
   figure-number="5"
   caption="SSID of the Network you want to connect to"
@@ -84,7 +84,7 @@ Please ensure to input the correct Wi-Fi SSID and Password or you will not be ab
 - Enter also the password. Just leave it empty if None.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/set-password.png"
+  src="/assets/images/wisgate/rak7244/quickstart/5.accessing the internet/set-password.png"
   width="100%"
   figure-number="6"
   caption="Password of the Wi-Fi"
@@ -99,7 +99,7 @@ If you want to connect to router through Ethernet Cable, do the following steps:
 - By default, the IP Address of the gateway's Ethernet is `192.168.10.10`
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/gateway-eth-ip.png"
+  src="/assets/images/wisgate/rak7244/quickstart/5.accessing the internet/gateway-eth-ip.png"
   width="100%"
   figure-number="7"
   caption="Default Gateway Ethernet IP Address"
@@ -108,7 +108,7 @@ If you want to connect to router through Ethernet Cable, do the following steps:
 - Then configure the IP address of the Router. This is the LAN Interface IP address of the router.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/router-eth-ip.png"
+  src="/assets/images/wisgate/rak7244/quickstart/5.accessing the internet/router-eth-ip.png"
   width="100%"
   figure-number="8"
   caption="LAN Interface IP Address of the Router"
@@ -132,7 +132,7 @@ In the event that you have entered either or both icorrect Wi-Fi SSID and Passwo
 - Remove the SD Card from your RAK7244 LPWAN Developer Gateway and insert it into your PC. Your PC should be able to detect it same with the image below:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak7244/5.accessing the internet/rak-ap-file.png"
+  src="/assets/images/wisgate/rak7244/quickstart/5.accessing the internet/rak-ap-file.png"
   width="50%"
   figure-number="9"
   caption="Creating rak_ap file to your SD Card"

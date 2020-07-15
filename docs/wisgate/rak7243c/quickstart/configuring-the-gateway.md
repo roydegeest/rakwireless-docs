@@ -1,5 +1,6 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7243c/2.product-configuration/3.configure-gateway
+static_root: /assets/images/wisgate/rak7243c/quickstart/2.product-configuration/2.accessing-gateway/3.configure-gateway
+prev: /wisgate/rak7243c/quickstart/accessing-your-gateway/accessing-the-internet.html
 ---
 
 # Configuring the Gateway
