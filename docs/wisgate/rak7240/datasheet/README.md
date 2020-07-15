@@ -8,7 +8,7 @@ prev: /wisgate/rak7240/overview/
 # RAK7240 Outdoor LPWAN Gateway
 
 <rk-img
-  src="/assets/images/datasheet/rak7240/rak7240-overview.jpg"
+  src="/assets/images/wisgate/rak7240/datasheet/1.rak7240-overview.jpg"
   width="100%"
   caption="RAK7240 Outdoor LPWAN Gateway"
 />
@@ -51,7 +51,7 @@ Thus, the **RAK7240 Outdoor LPWAN Gateway**, is suited for any use case scenario
 #### Circuit Board (Board Overview)
 
 <rk-img
-  src="/assets/images/datasheet/rak7240/circuit-board.png"
+  src="/assets/images/wisgate/rak7240/datasheet/2.circuit-board.png"
   width="100%"
   caption="RAK7240 Outdoor LPWAN Gateway Circuit Board"
 />
@@ -59,7 +59,7 @@ Thus, the **RAK7240 Outdoor LPWAN Gateway**, is suited for any use case scenario
 #### Block Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak7240/block-diagram.png"
+  src="/assets/images/wisgate/rak7240/datasheet/3.block-diagram.png"
   width="100%"
   caption="RAK7240 Outdoor LPWAN Gateway Block Diagram"
 />
@@ -71,7 +71,7 @@ Thus, the **RAK7240 Outdoor LPWAN Gateway**, is suited for any use case scenario
 The hardware interfaces of **RAK7240 Outdoor LPWAN Gateway** include five (5) antenna ports (LoRa®, LTE-DIV/LoRa2, LTE-MAIN, WiFi, and GPS), six (6) status indicator LEDs, TF Card and nano-SIM sockets, a console port, an Ethernet Port (PoE), and a ground pad, as shown in the following figure:
 
 <rk-img
-  src="/assets/images/datasheet/rak7240/hardware-interfaces.jpg"
+  src="/assets/images/wisgate/rak7240/datasheet/4.hardware-interfaces.jpg"
   width="100%"
   caption="RAK7240 Outdoor LPWAN Gateway Hardware Interfaces" 
 />
