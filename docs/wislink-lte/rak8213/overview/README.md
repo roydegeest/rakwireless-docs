@@ -1,6 +1,6 @@
 ---
 rak_img: /assets/images/wislink-lte/rak8213/quickstart/overview/rak8213.png
-rak_grp: nb-iot
+rak_grp: wislink-lte
 qlinks:
   learnMore:
     - name: Projects

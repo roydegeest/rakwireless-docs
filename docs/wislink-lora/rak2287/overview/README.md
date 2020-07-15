@@ -1,6 +1,6 @@
 ---
 rak_img: /assets/images/wislink-lora/rak2287/quickstart/1main/RAK2287.jpg
-rak_grp: lora-gateway
+rak_grp: wislink-lora
 qlinks:
   learnMore:
     - name: Projects

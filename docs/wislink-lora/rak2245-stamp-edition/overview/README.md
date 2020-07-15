@@ -1,6 +1,6 @@
 ---
 rak_img: /assets/images/wislink-lora/rak2245-stamp-edition/quickstart/overview/RAK2245-stamp-edition.svg
-rak_grp: lora-gateway
+rak_grp: wislink-lora
 qlinks:
   learnMore:
     - name: Projects
