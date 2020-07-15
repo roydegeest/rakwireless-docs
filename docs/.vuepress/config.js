@@ -1,4 +1,5 @@
 module.exports = {
+  title: 'RAK Documentation Center',
   head: [
     ['link', {
       rel: 'icon',
