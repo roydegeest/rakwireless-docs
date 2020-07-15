@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7200/connecting-to-ttn
+static_root: /assets/images/wisnode/rak7200/quickstart/connecting-to-ttn
 next: /wisnode/rak7200/quickstart/connecting-to-ttn/ttn-otaa-mode.html
 prev: /wisnode/rak7200/quickstart/interfacing-with-rak7200.html
 ---

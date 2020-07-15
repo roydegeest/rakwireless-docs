@@ -1,7 +1,7 @@
 ---
-static_root: /assets/images/quick-start-guide/rak5205-7205/connecting-to-ttn
-prev: /wistrio/rak7205(5205)/quickstart/interfacing-with.html
-next: /wistrio/rak7205(5205)/quickstart/connecting-to-ttn/ttn-otaa-mode.html
+static_root: /assets/images/wistrio/rak7205-5205/quickstart/connecting-to-ttn
+prev: /wistrio/rak7205-5205/quickstart/interfacing-with.html
+next: /wistrio/rak7205-5205/quickstart/connecting-to-ttn/ttn-otaa-mode.html
 
 ---
 

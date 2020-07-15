@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak811/connecting-to-chirpstack
+static_root: /assets/images/wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/
 prev: /wisduino/rak811-evaluation-board/quickstart/connecting-to-ttn/ttn-abp-mode.html
 next: /wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/chirpstack-otaa-mode.html
 ---
@@ -19,7 +19,7 @@ In this section, it is an assumption that you have already connected your Gatewa
 2. By default, there is already one or more items in this page, you can use it or create a new item. Now, let’s create a new item by clicking the “**CREATE**” button, then filling them in.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/rmyjmnipu8avuwmpje4m.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/rmyjmnipu8avuwmpje4m.png"
   width="100%"
   figure-number="1"
   caption="ChirpStack Applications"
@@ -28,7 +28,7 @@ In this section, it is an assumption that you have already connected your Gatewa
 3. Fill up the necessary information then Click "**CREATE APPLICATION**”.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/lfckimcgh5dlghvhggro.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/lfckimcgh5dlghvhggro.png"
   width="100%"
   figure-number="2"
   caption="Creating the Application"
@@ -37,14 +37,14 @@ In this section, it is an assumption that you have already connected your Gatewa
 4. Click the new item name “RAKwireless_Test_Application”:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/fapk1hsahx06blqi7smh.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/fapk1hsahx06blqi7smh.png"
   width="100%"
   figure-number="3"
   caption="Applications page in ChirpStack"
 />
 
 <rk-img
-  :src="`${$frontmatter.static_root}/pjl7qdbeh1nnkw7su8s3.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/pjl7qdbeh1nnkw7su8s3.png"
   width="100%"
   figure-number="4"
   caption="RAK811 Application"
@@ -53,7 +53,7 @@ In this section, it is an assumption that you have already connected your Gatewa
 5. **Add** a node device into ChirpStack by clicking the “**CREATE**” button:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/pjl7qdbeh1nnkw7su8s3.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/pjl7qdbeh1nnkw7su8s3.png"
   width="100%"
   figure-number="5"
   caption="Adding a Node Device"
@@ -62,7 +62,7 @@ In this section, it is an assumption that you have already connected your Gatewa
 6. Fill them in. You can generate a **Device EUI** automatically by clicking the Device EUI icon, or you can write the correct Device EUI in the edit box.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/pjl7qdbeh1nnkw7su8s3.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/pjl7qdbeh1nnkw7su8s3.png"
   width="100%"
   figure-number="6"
   caption="Filling the Device Parameters"

@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7204/2.quick-start-guide
+static_root: /assets/images/wisnode/rak7204/quickstart/2.quick-start-guide
 prev: /wisnode/rak7204/overview/
 next: /wisnode/rak7204/quickstart/interfacing.html
 ---

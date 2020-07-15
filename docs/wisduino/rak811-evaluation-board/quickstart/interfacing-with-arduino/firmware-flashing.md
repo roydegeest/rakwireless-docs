@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak811/firmware-flashing
+static_root: /assets/images/wisduino/rak811-evaluation-board/quickstart/firmware-flashing/
 prev: /wisduino/rak811-evaluation-board/quickstart/interfacing-with-arduino/hardware-interfacing.html
 next: /wisduino/rak811-evaluation-board/quickstart/interfacing-with-arduino/arduino-connection-guide.html
 ---
@@ -26,7 +26,7 @@ Make sure to disconnect the connection between the Rx and Tx connection between 
 :::
 
 <rk-img
-  :src="`${$frontmatter.static_root}/jzx86mrtckrokxrumb8w.jpg`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/firmware-flashing/jzx86mrtckrokxrumb8w.jpg"
   width="100%"
   figure-number="1"
   caption="Arduino Mega 2560 Board and Port settings prior to Sketch Uploading."
@@ -41,7 +41,7 @@ Using the "JoinNetworkOTAA.ino" sketch in the previous section, it should automa
 1. Setup and open the two Serial Ports, Arduino USB Port and the SoftwareSerial Port using the USB-UART TTL converter. Kindly reset the RAK811 LPWAN Evaluation Board and Serial logs must be shown same with the image below:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/sxu06fbgafxyxhz3wcum.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/firmware-flashing/sxu06fbgafxyxhz3wcum.png"
   width="100%"
   figure-number="2"
   caption="Serial Port View using USB-UART TTL SoftwareSerial Port (left) and Arduino USB Port (right)"
@@ -52,7 +52,7 @@ In this section, you might be wondering why we are using two serial ports. As a 
 2. With the successful Serial Logs shown in the image above, we shall then check the logs in the Application Data tab in TheThingsNetwork (TTN). If the connection is successful, received logs must be shown same with the image below:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/a9dpjl7pfck2ho628eux.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/firmware-flashing/a9dpjl7pfck2ho628eux.png"
   width="100%"
   figure-number="3"
   caption="TTN logs in the Connection Attempt using Arduino Mega 2560"

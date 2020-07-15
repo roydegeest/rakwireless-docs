@@ -1,9 +1,11 @@
 ---
 prev: /wistrio/rak5010/overview/
 next: false
+sidebar: auto
+sidebarDepth: 3
 ---
 
-# RAK5010 WisTrio NB-IoT Tracker
+# RAK5010 WisTrio NB-IoT Tracker Datasheet
 
 <rk-img
   src="/assets/images/datasheet/rak5010/rak5010-wis-trio-nb-iot-tracker.jpg"

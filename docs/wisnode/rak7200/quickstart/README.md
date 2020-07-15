@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7200/quick-start-guide
+static_root: /assets/images/wisnode/rak7200/quickstart/quick-start-guide
 prev: /wisnode/rak7200/overview/
 next: /wisnode/rak7200/quickstart/interfacing-with-rak7200.html
 ---
@@ -8,7 +8,7 @@ next: /wisnode/rak7200/quickstart/interfacing-with-rak7200.html
 
 <rk-img
   :src="`${$frontmatter.static_root}/ldehq53t7ujcp5awqlgj.jpg`"
-  width="80%"
+  width="50%"
   figure-number="1"
   caption="RAK7200 Front View"
 />

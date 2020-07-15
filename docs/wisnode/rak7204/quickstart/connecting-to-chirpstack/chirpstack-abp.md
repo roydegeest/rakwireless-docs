@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7204/6.connecting-to-chirpstack/abp/
+static_root: /assets/images/wisnode/rak7204/quickstart/6.connecting-to-chirpstack/abp/
 prev: /wisnode/rak7204/quickstart/connecting-to-chirpstack/chirpstack-otaa.html
 next: /wisnode/rak7204/quickstart/decoding-ttn.html
 ---

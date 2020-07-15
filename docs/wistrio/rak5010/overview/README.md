@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak5010/1.overview
+static_root: /assets/images/wistrio/rak5010/quickstart/1.overview
 rak_img: RAK5010.svg
 rak_grp: wistrio
 params:

@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7200/ttn-abp-mode
+static_root: /assets/images/wisnode/rak7200/quickstart/ttn-abp-mode
 prev: /wisnode/rak7200/quickstart/connecting-to-ttn/ttn-otaa-mode.html
 next: /wisnode/rak7200/quickstart/connecting-to-chirpstack/
 ---

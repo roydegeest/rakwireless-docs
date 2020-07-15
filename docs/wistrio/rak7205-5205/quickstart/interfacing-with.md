@@ -1,7 +1,7 @@
 ---
-static_root: /assets/images/quick-start-guide/rak5205-7205/interfacing-with
-prev: /wistrio/rak7205(5205)/quickstart/interfacing-with.html
-next: /wistrio/rak7205(5205)/quickstart/connecting-to-ttn/
+static_root: /assets/images/wistrio/rak7205-5205/quickstart/interfacing-with
+prev: /wistrio/rak7205-5205/quickstart/interfacing-with.html
+next: /wistrio/rak7205-5205/quickstart/connecting-to-ttn/
 ---
 
 

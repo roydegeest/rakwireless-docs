@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7200/interfacing-with-rak7200
+static_root: /assets/images/wisnode/rak7200/quickstart/interfacing-with-rak7200
 prev: /wisnode/rak7200/quickstart/
 next: /wisnode/rak7200/quickstart/connecting-to-ttn/
 ---

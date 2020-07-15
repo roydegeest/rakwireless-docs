@@ -1,12 +1,14 @@
 ---
 prev: /wisnode/rak7431/overview/
 next: false
+sidebar: auto
+sidebarDepth: 3
 ---
 
-# RAK7431 - RS485 to LoRaWAN® Converter
+# RAK7431 - RS485 to LoRaWAN® Converter Datasheet
 
 <rk-img
-  src="/assets/images/datasheet/rak7431/rak7431-overview.jpg"
+  src="/assets/images/wisnode/rak7431/datasheet/rak7431-overview.jpg"
   width="50%"
   caption="RAK7431 - RS485 to LoRaWAN® Converter"
 />
@@ -44,7 +46,7 @@ RAK7431 can convert the data of RS485 devices into LoRaWAN® that can be sent to
 An example would be using the RAK7249 LoRaWAN® Gateway coupled with the RAK WisDM cloud management platform, in order to realize an end-to-end industrial field data acquisition and control system. Using the built-in LoRa® Server, that comes standard with any RAK LoRaWAN® Gateway, one could seamlessly achieve transmission of the end device data to any application server. Furthermore, the MQTT integration allows for a high level of security and efficiency.
 
 <rk-img
-  src="/assets/images/datasheet/rak7431/RAK7431-1.png"
+  src="/assets/images/wisnode/rak7431/datasheet/RAK7431-1.png"
   width="100%"
   caption="RAK7431 - RS485 to LoRaWAN® network structure"
 />
@@ -54,7 +56,7 @@ An example would be using the RAK7249 LoRaWAN® Gateway coupled with the RAK Wis
 RAK7431 can work in polling mode in order to send query instructions to RS485 nodes, and convert the data returned into LoRa® frames to be relayed to the application server via Gateway.
 
 <rk-img
-  src="/assets/images/datasheet/rak7431/RAK7431-2.png"
+  src="/assets/images/wisnode/rak7431/datasheet/RAK7431-2.png"
   width="100%"
   caption="RAK7431 polling mode"
 />
@@ -69,7 +71,7 @@ RAK7431 converts the data returned by RS485 nodes into LoRa® packets that can b
 No matter whether polling mode is enabled or not, the server can actively send commands to query the RS485 nodes through the Gateway via the RAK7431. The commands issued and the returned data can also be transmitted in transparent mode or in packet mode.
 
 <rk-img
-  src="/assets/images/datasheet/rak7431/RAK7431-3.png"
+  src="/assets/images/wisnode/rak7431/datasheet/RAK7431-3.png"
   width="100%"
   caption="RAK7431 transparent mode"
 />
@@ -79,7 +81,7 @@ No matter whether polling mode is enabled or not, the server can actively send c
 #### Interfaces
 
 <rk-img
-  src="/assets/images/datasheet/rak7431/RAK7431-4.png"
+  src="/assets/images/wisnode/rak7431/datasheet/RAK7431-4.png"
   width="100%"
   caption="RAK7431 bottom panel"
 />
@@ -106,7 +108,7 @@ Only valid when using the DC input interface power supply, USB power supply is i
 Also, the Vout output voltage is the same as DC input voltage Vin.
 
 <rk-img
-  src="/assets/images/datasheet/rak7431/RAK7431-5.png"
+  src="/assets/images/wisnode/rak7431/datasheet/RAK7431-5.png"
   width="100%"
   caption="RAK7431 ModBus connection diagram"
 />
@@ -149,7 +151,7 @@ The table below shows the full specification of RAK7431.
 RAK7431 allows for three installation methods: wall mounting, DIN rail installation and magnetic mounting. The wall installation and DIN rail installation is the standard installation mode (screw holes). The accessories required for magnetic mounting are optional.
 
 <rk-img
-  src="/assets/images/datasheet/rak7431/mounting.jpg"
+  src="/assets/images/wisnode/rak7431/datasheet/mounting.jpg"
   width="100%"
   caption="Different Types of Mounting"
 />

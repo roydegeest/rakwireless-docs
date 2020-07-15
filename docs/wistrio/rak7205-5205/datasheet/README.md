@@ -1,12 +1,14 @@
 ---
-prev: /wistrio/rak7205(5205)/overview/
+prev: /wistrio/rak7205-5205/overview/
 next: false
+sidebar: auto
+sidebarDepth: 3
 ---
 
-# RAK5205 WisTrio LPWAN Tracker
+# RAK5205 WisTrio LPWAN Tracker Datasheet
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-wistrio-lpwan-tracker.png"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-wistrio-lpwan-tracker.png"
   width="25%"
   caption="RAK5205 WisTrio LPWAN Tracker"
 />
@@ -44,7 +46,7 @@ This is the best sensor board available in the market, ideal as a quick prototyp
 The picture below shows the top view and external interfaces of the RAK5205 LPWAN tracker board.
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-lpwan-tracker-interfaces.png"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-lpwan-tracker-interfaces.png"
   width="75%"
   caption="RAK5205 LPWAN Tracker Interfaces"
 />
@@ -52,7 +54,7 @@ The picture below shows the top view and external interfaces of the RAK5205 LPWA
 The dimension and the bottom view of the board is shown below. Sensor ICs are also labeled for your reference.
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-dimension-and-sensors-available.png"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-dimension-and-sensors-available.png"
   width="75%"
   caption="RAK5205 Dimension and Sensors Available"
 />
@@ -62,7 +64,7 @@ The dimension and the bottom view of the board is shown below. Sensor ICs are al
 In figure 4, it shows the block diagram of the external interfaces of RAK4200 LPWAN Module.
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/block-diagram.png"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/block-diagram.png"
   width="100%"
   caption="RAK5205 Functional Diagram"
 />
@@ -74,7 +76,7 @@ In figure 4, it shows the block diagram of the external interfaces of RAK4200 LP
 ##### Functional Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-functional-diagram.png"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-functional-diagram.png"
   width="100%"
   caption="RAK5205 Functional Diagram"
 />
@@ -101,7 +103,7 @@ following interfaces, headers, jumpers, button and connectors:
 A Standard Micro-B USB compliant with USB 2.0 standard specification is used to provide an interface to connect to a PC for control of the board and firmware upgrade.The Micro-B USB pin definition is shown below:
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/micro-usb-pinout.png"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/micro-usb-pinout.png"
   width="25%"
   figure-number="6"
   caption="Micro USB Pinout"
@@ -154,7 +156,7 @@ Pin1 is connected to BOOT0. Pin2 is connected to VDD. Enter flash mode through j
 30pins, follow the 96Board’s pin definition.
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-pinout-diagram.png"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-pinout-diagram.png"
   width="75%"
   caption="RAK5205 Pinout Diagram"
 />
@@ -221,7 +223,7 @@ The board supports all LoRaWAN® frequency channels as stated in the table below
 The LoRa® Antenna and Interfaces are shown in the figure below:
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rp-sma-male-connector-of-lora®-antenna.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rp-sma-male-connector-of-lora®-antenna.jpg"
   width="50%"
   caption="RP-SMA Male Connector of LoRa® Antenna"
 />
@@ -229,7 +231,7 @@ The LoRa® Antenna and Interfaces are shown in the figure below:
 Here is the iPEX LoRa® Antenna Interface:
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/ipex-antenna-interface-for-lora®-antenna.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/ipex-antenna-interface-for-lora®-antenna.jpg"
   width="75%"
   caption="iPex Antenna Interface for LoRa® Antenna"
 />
@@ -237,7 +239,7 @@ Here is the iPEX LoRa® Antenna Interface:
 ###### LoRa® Antenna Dimension
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/lora®-antenna-dimension.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/lora®-antenna-dimension.jpg"
   width="50%"
   caption="LoRa® Antenna Dimension"
 />
@@ -256,7 +258,7 @@ Here is the iPEX LoRa® Antenna Interface:
 The GPS antenna and interfaces for RAK5205 tracker board is shown below:
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/sma-female-interface-for-gps.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/sma-female-interface-for-gps.jpg"
   width="75%"
   caption="SMA Female Interface for GPS"
 />
@@ -264,7 +266,7 @@ The GPS antenna and interfaces for RAK5205 tracker board is shown below:
 Here is the iPEX GPS Antenna interface:
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/ipex-interface-for-gps-antenna.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/ipex-interface-for-gps-antenna.jpg"
   width="75%"
   caption="iPex Interface for GPS Antenna"
 />
@@ -272,7 +274,7 @@ Here is the iPEX GPS Antenna interface:
 ###### GPS Antenna Dimensions
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/gps-antenna-dimension.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/gps-antenna-dimension.jpg"
   width="50%"
   caption="GPS Antenna Dimension"
 />
@@ -341,7 +343,7 @@ The board supports to enable the GPS low power mode, it has a 3-axis MEMS Sensor
 The RAK5205 LoRa® Tracker Board has an operating voltage of 3.7V. It can be powered by micro USB with 5V Max.
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/powered-by-micro-usb.png"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/powered-by-micro-usb.png"
   width="75%"
   caption="Powered by Micro USB"
 />
@@ -349,7 +351,7 @@ The RAK5205 LoRa® Tracker Board has an operating voltage of 3.7V. It can be pow
 The board can also be powered by a 3.7V Li-Ion battery. You can connect a 5V solar panel charger to recharge the Li-Ion battery.
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-with-5v-solar-panel-plastic-enclosure-and-li-ion-battery.png"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-with-5v-solar-panel-plastic-enclosure-and-li-ion-battery.png"
   width="50%"
   caption="RAK5205 With 5V Solar Panel, Plastic Enclosure and Li-ion Battery"
 />
@@ -367,7 +369,7 @@ The table below lists the operation and storage temperature requirements:
 #### Mechanical Characteristics
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-detailed-dimensions.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-detailed-dimensions.jpg"
   width="100%"
   caption="RAK5205 Detailed Dimensions"
 />
@@ -375,73 +377,73 @@ The table below lists the operation and storage temperature requirements:
 #### Schematic Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-schematic-diagram-with-bq21040-chip.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-schematic-diagram-with-bq21040-chip.jpg"
   width="100%"
   caption="RAK5205 Schematic Diagram with BQ21040 chip"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-schematic-diagram-with-rp104n331-chip.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-schematic-diagram-with-rp104n331-chip.jpg"
   width="100%"
   caption="RAK5205 Schematic Diagram with RP104N331 chip"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-schematic-diagram-with-cp2102-chip.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-schematic-diagram-with-cp2102-chip.jpg"
   width="100%"
   caption="RAK5205 Schematic Diagram with CP2102 chip"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-schematic-diagram.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-schematic-diagram.jpg"
   width="100%"
   caption="RAK5205 Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-schematic-diagram-2.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-schematic-diagram-2.jpg"
   width="60%"
   caption="RAK5205 Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-schematic-diagram-3.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-schematic-diagram-3.jpg"
   width="60%"
   caption="RAK5205 Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-schematic-diagram-4.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-schematic-diagram-4.jpg"
   width="60%"
   caption="RAK5205 Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-schematic-diagram-5.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-schematic-diagram-5.jpg"
   width="60%"
   caption="RAK5205 Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-schematic-diagram-6.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-schematic-diagram-6.jpg"
   width="80%"
   caption="RAK5205 Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-schematic-diagram-7.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-schematic-diagram-7.jpg"
   width="80%"
   caption="RAK5205 Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-schematic-diagram-8.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-schematic-diagram-8.jpg"
   width="70%"
   caption="RAK5205 Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5205/rak5205-schematic-diagram-9.jpg"
+  src="/assets/images/wistrio/rak7205-5205/datasheet/rak5205-schematic-diagram-9.jpg"
   width="100%"
   caption="RAK5205 Schematic Diagram"
 />

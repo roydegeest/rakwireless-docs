@@ -1,14 +1,16 @@
 ---
 prev: /wisduino/rak811-evaluation-board/overview/
 next: false
+sidebar: auto
+sidebarDepth: 3
 ---
 
-# RAK811 LPWAN Module
+# RAK811 LPWAN Module Datasheet
 
 <rk-download filename="Datasheet - RAK811 LPWAN Board" />
 
 <rk-img
-  :src="`${$frontmatter.static_root}/nwgqobrzwanalynildkc.jpg`"
+  src="/assets/images/wisduino/rak811-evaluation-board/datasheet/overview/nwgqobrzwanalynildkc.jpg"
   width="50%"
   caption="RAK811 LPWAN Module"
 />
@@ -58,7 +60,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus dol
 The block diagram of module is depicted in the figure below.
 
 <rk-img
-  src="/assets/images/datasheet/rak811/interfaces/block-diagram.png"
+  src="/assets/images/wisduino/rak811-evaluation-board/datasheet/interfaces/block-diagram.png"
   width="100%"
   caption="RAK811 System Block Diagram"
 />
@@ -82,7 +84,7 @@ The Low radio frequency is applicable to bandwidth of regions EU433 and CN470.
 ###### Low RF Pin Outline
 
 <rk-img
-  src="/assets/images/datasheet/rak811/pin-definition/abscqo1rdux6ao13hdvu.jpg"
+  src="/assets/images/wisduino/rak811-evaluation-board/datasheet/pin-definition/abscqo1rdux6ao13hdvu.jpg"
   width="100%"
   caption="Board Pinout for RAK811 Low RF"
 />
@@ -133,7 +135,7 @@ High radio frequency hardware support the regions of EU868, US915, AU915, KR920,
 ###### High RF Pin Outline
 
 <rk-img
-  src="/assets/images/datasheet/rak811/pin-definition/ajjxkmp1ydxopp6naaoc.jpg"
+  src="/assets/images/wisduino/rak811-evaluation-board/datasheet/pin-definition/ajjxkmp1ydxopp6naaoc.jpg"
   width="100%"
   caption="Board Pinout for RAK811 High RF"
 />
@@ -203,7 +205,7 @@ High radio frequency hardware support the regions of EU868, US915, AU915, KR920,
 ##### Schematic Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak811/schematic-diagram/ghs8zbyhzisoqxezofnz.jpg"
+  src="/assets/images/wisduino/rak811-evaluation-board/datasheet/schematic-diagram/ghs8zbyhzisoqxezofnz.jpg"
   width="100%"
   caption="Reference Design"
 />
@@ -227,7 +229,7 @@ High radio frequency hardware support the regions of EU868, US915, AU915, KR920,
 ##### Module Dimensions
 
 <rk-img
-  src="/assets/images/datasheet/rak811/board-layout/ksglqsrthvgpykwcugzy.jpg"
+  src="/assets/images/wisduino/rak811-evaluation-board/datasheet/board-layout/ksglqsrthvgpykwcugzy.jpg"
   width="60%"
   caption="RAK811 Physical Dimension"
 />
@@ -235,7 +237,7 @@ High radio frequency hardware support the regions of EU868, US915, AU915, KR920,
 ##### Layout Recommendation
 
 <rk-img
-  src="/assets/images/datasheet/rak811/board-layout/u4axv5szljjuw195olgx.jpg"
+  src="/assets/images/wisduino/rak811-evaluation-board/datasheet/board-layout/u4axv5szljjuw195olgx.jpg"
   width="60%"
   caption="RAK811 Layout"
 />
@@ -262,7 +264,7 @@ Referred to IPC/JEDEC standard.
 - Number of Times : ≤ 2 times
 
 <rk-img
-  src="/assets/images/datasheet/rak811/reflow-profile/tpe7u1eaanobuih9gq7x.jpg"
+  src="/assets/images/wisduino/rak811-evaluation-board/datasheet/reflow-profile/tpe7u1eaanobuih9gq7x.jpg"
   width="100%"
   caption="Reflow Profile for RAK811"
 />

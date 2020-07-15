@@ -797,7 +797,7 @@ module.exports = {
       ]
     }
   ],
-  '/wistrio/rak7205(5205)/quickstart/': [
+  '/wistrio/rak7205-5205/quickstart/': [
     {
       title: 'Product Overview',
       collapsable: false,
@@ -816,7 +816,7 @@ module.exports = {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
           nested: true,
-          path: '/wistrio/rak7205(5205)/quickstart/connecting-to-ttn/',
+          path: '/wistrio/rak7205-5205/quickstart/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa-mode',
             'connecting-to-ttn/ttn-abp-mode'
@@ -826,7 +826,7 @@ module.exports = {
           title: "Connecting to ChirpStack",
           collapsable: false,
           nested: true,
-          path: '/wistrio/rak7205(5205)/quickstart/connecting-to-chirpstack/',
+          path: '/wistrio/rak7205-5205/quickstart/connecting-to-chirpstack/',
           children: [
             'connecting-to-chirpstack/chirpstack-otaa-mode',
             'connecting-to-chirpstack/chirpstack-abp-mode'

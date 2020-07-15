@@ -1,7 +1,7 @@
 ---
-static_root: /assets/images/quick-start-guide/rak5205-7205/quick-start-guide
-prev: /wistrio/rak7205(5205)/overview/
-next: /wistrio/rak7205(5205)/quickstart/interfacing-with.html
+static_root: /assets/images/wistrio/rak7205-5205/quickstart/quick-start-guide
+prev: /wistrio/rak7205-5205/overview/
+next: /wistrio/rak7205-5205/quickstart/interfacing-with.html
 ---
 
 # Quick Start Guide

@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7204/5.connecting-to-ttn/
+static_root: /assets/images/wisnode/rak7204/quickstart/5.connecting-to-ttn/
 next: /wisnode/rak7204/quickstart/connecting-to-ttn/ttn-otaa.html
 prev: /wisnode/rak7204/quickstart/interfacing.html
 ---

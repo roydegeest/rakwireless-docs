@@ -21,7 +21,7 @@ params:
 # RAK7431 - RS485 to LoRaWAN® Converter
 
 <rk-img
-  src="/assets/images/datasheet/rak7431/rak7431-overview.jpg"
+  src="/assets/images/wisnode/rak7431/datasheet/rak7431-overview.jpg"
   width="50%"
   caption="RAK7431 - RS485 to LoRaWAN® Converter"
 />

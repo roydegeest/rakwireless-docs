@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak5205-7205/overview
+static_root: /assets/images/wistrio/rak7205-5205/quickstart/overview
 rak_img: RAK5205.svg
 rak_grp: wistrio
 params:
@@ -11,7 +11,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: Datasheet
-        href: /wistrio/rak7205(5205)/datasheet/
+        href: /wistrio/rak7205-5205/datasheet/
       - name: User Manual
         href: /user-manual/
       - name: Deployment Guide
@@ -34,7 +34,7 @@ The **RAK5205 LPWAN Tracker Board** is built on the Semtech SX1276 chip, with th
 This node module is ideal as a quick prototyping tool for LoRaWAN® applications. It is perfect for use case scenarios such as asset tracking, smart vehicle management and location-based services.
 
 <rk-btn
-  src="/wistrio/rak7205(5205)/quickstart/"
+  src="/wistrio/rak7205-5205/quickstart/"
   label="Get Started with RAK5205 WisTrio LPWAN Tracker"
 />
 

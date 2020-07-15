@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak811/upgrading-the-firmware
+static_root: /assets/images/wisduino/rak811-evaluation-board/quickstart/upgrading-the-firmware/
 prev: /wisduino/rak811-evaluation-board/quickstart/at-commands.html
 next: /wisduino/rak811-evaluation-board/quickstart/rui-online-compiler.html
 ---
@@ -19,7 +19,7 @@ at+set_config=device:boot
 ```
 
 <rk-img
-  :src="`${$frontmatter.static_root}/vbshextj0q190mzk6hhf.jpg`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/upgrading-the-firmware/vbshextj0q190mzk6hhf.jpg"
   width="60%"
   figure-number="1"
   caption="Entering Boot Mode"
@@ -28,7 +28,7 @@ at+set_config=device:boot
 2. Download the **RAK Upgrade Tool** from the RAKwireless website **[here](https://downloads.rakwireless.com/en/LoRa/RAK612-LoRaButton/Tools/RAK%20LoRaButton%20Upgrade%20Tool%20V1.0.zip)**. Then, open the tool. Again don't forget to choose the correct port!
 
 <rk-img
-  :src="`${$frontmatter.static_root}/e9ratal5kgle1mwh4ufu.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/upgrading-the-firmware/e9ratal5kgle1mwh4ufu.png"
   width="100%"
   figure-number="2"
   caption="RAK Upgrade Tool"
@@ -37,7 +37,7 @@ at+set_config=device:boot
 3. Click “**Choose File**” and choose the firmware you have downloaded for your desired frequency band.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/nguqg8huem2urdte26ub.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/upgrading-the-firmware/nguqg8huem2urdte26ub.png"
   width="100%"
   figure-number="3"
   caption="Choosing the Correct Upgrade file"
@@ -46,7 +46,7 @@ at+set_config=device:boot
 4. Click “**Start**” to upgrade, this may take a minute:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/wjdxnmvu2bwkjfj2rgmd.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/upgrading-the-firmware/wjdxnmvu2bwkjfj2rgmd.png"
   width="100%"
   figure-number="4"
   caption="Firmware Upgrading in Process"
@@ -55,7 +55,7 @@ at+set_config=device:boot
 5. You should see something like the image in **Figure 5**, if everything went well.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/e7dcwivj7lv7zupcekok.jpg`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/upgrading-the-firmware/e7dcwivj7lv7zupcekok.jpg"
   width="100%"
   figure-number="5"
   caption="Successfully Upgraded Firmware"
@@ -70,7 +70,7 @@ at+set_config=device:restart
 ```
 
 <rk-img
-  :src="`${$frontmatter.static_root}/x0fsjpi4xc4hmatdcmyk.jpg`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/upgrading-the-firmware/x0fsjpi4xc4hmatdcmyk.jpg"
   width="60%"
   figure-number="6"
   caption="Restarting your Device"

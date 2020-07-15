@@ -1,6 +1,6 @@
 ---
-prev: /wistrio/rak7205(5205)/quickstart/lora-p2p-mode.html
-next: /wistrio/rak7205(5205)/quickstart/burning-the-bootloader.html
+prev: /wistrio/rak7205-5205/quickstart/lora-p2p-mode.html
+next: /wistrio/rak7205-5205/quickstart/burning-the-bootloader.html
 ---
 
 # AT Commands for RAK5205 WisTrio LPWAN Tracker

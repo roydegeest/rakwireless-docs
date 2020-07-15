@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak5010/5.connecting-cellular-network
+static_root: /assets/images/wistrio/rak5010/quickstart/5.connecting-cellular-network
 prev: /wistrio/rak5010/quickstart/configuring-rak5010.html
 next: /wistrio/rak5010/quickstart/bluetooth-connection-modes.html
 ---

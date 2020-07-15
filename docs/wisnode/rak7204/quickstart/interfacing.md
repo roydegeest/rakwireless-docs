@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7204/3.interfacing
+static_root: /assets/images/wisnode/rak7204/quickstart/3.interfacing
 prev: /wisnode/rak7204/quickstart/
 next: /wisnode/rak7204/quickstart/connecting-to-ttn/
 ---

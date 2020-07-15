@@ -1,6 +1,6 @@
 ---
-static_root: /assets/images/quick-start-guide/rak5205-7205/assembly-guide
-prev: /wistrio/rak7205(5205)/quickstart/upgrading-the-firmware.html
+static_root: /assets/images/wistrio/rak7205-5205/quickstart/assembly-guide
+prev: /wistrio/rak7205-5205/quickstart/upgrading-the-firmware.html
 next: false
 ---
 

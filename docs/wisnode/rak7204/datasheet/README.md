@@ -1,12 +1,14 @@
 ---
 prev: /wisnode/rak7204/overview/
 next: false
+sidebar: auto
+sidebarDepth: 3
 ---
 
-# RAK7204 LPWAN Environmental Sensor
+# RAK7204 LPWAN Environmental Sensor Datasheet
 
 <rk-img
-  src="/assets/images/datasheet/rak7204/rak7204-overview.png"
+  src="/assets/images/wisnode/rak7204/datasheet/rak7204-overview.png"
   width="40%"
   caption="RAK7204  LPWAN Environmental Sensor"
 />
@@ -50,19 +52,9 @@ Thus, the solution is both incredibly quick an easy to deploy initially, and als
 The aforementioned combination of RAK7204 and RAK7258 is visualized in Figure below.
 
 <rk-img
-  src="/assets/images/datasheet/rak7204/typical-application.png"
+  src="/assets/images/wisnode/rak7204/datasheet/typical-application.png"
   width="100%"
   caption="Typical deployment scenario"
-/>
-
-#### Block Diagram
-
-The block diagram below shows the internal architecture and external interfaces of the RAK7200 LPWAN Tracker.
-
-<rk-img
-  src="/assets/images/datasheet/rak7200/block-diagram.png"
-  width="100%"
-  caption="RAK7200 LPWAN Tracker Block Diagram"
 />
 
 ### Hardware

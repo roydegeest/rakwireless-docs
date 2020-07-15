@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak811/lora-p2p-mode
+static_root: /assets/images/wisduino/rak811-evaluation-board/quickstart/lora-p2p-mode/
 prev: /wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/chirpstack-abp-mode.html
 next: /wisduino/rak811-evaluation-board/quickstart/at-commands.html
 ---
@@ -15,7 +15,7 @@ This document show how to communicate **two (2) RAK811 LPWAN Evaluation Boards**
 3. Now, configure them to both work in LoRa® P2P mode as follow:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/wiyvchxtiv4tgr3izuff.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/lora-p2p-mode/wiyvchxtiv4tgr3izuff.png"
   width="100%"
   figure-number="1"
   caption="P2P Initialization"
@@ -24,7 +24,7 @@ This document show how to communicate **two (2) RAK811 LPWAN Evaluation Boards**
 4. Then configure LoRa® P2P parameters for both of them as follow for example:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/vctdlxrvu3lx48qfgxi9.jpg`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/lora-p2p-mode/vctdlxrvu3lx48qfgxi9.jpg"
   width="100%"
   figure-number="2"
   caption="Configuring P2P in both RAK811 Nodes"
@@ -33,7 +33,7 @@ This document show how to communicate **two (2) RAK811 LPWAN Evaluation Boards**
 5. OK! Try to send a message from WisNode 1 to WisNode 2:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/og3igkq8zhfftiaunbt6.jpg`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/lora-p2p-mode/og3igkq8zhfftiaunbt6.jpg"
   width="100%"
   figure-number="3"
   caption="Message sent and received status in the two Nodes"
@@ -42,7 +42,7 @@ This document show how to communicate **two (2) RAK811 LPWAN Evaluation Boards**
 6. Successfully! Now, send more messages.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/jsqpvwg7m8cwl7zr4zf5.jpg`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/lora-p2p-mode/jsqpvwg7m8cwl7zr4zf5.jpg"
   width="100%"
   figure-number="4"
   caption="Succeeding Messages sent to the other Node"

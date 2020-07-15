@@ -44,7 +44,7 @@ at+key_config=2,37,Hello Mark Angelo!
 ```
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak612/key-function-customizing/at-command.png"
+  src="/assets/images/wisnode/rak612/quickstart/key-function-customizing/at-command.png"
   width="60%"
   figure-number="1"
   caption="Configuring Each button"

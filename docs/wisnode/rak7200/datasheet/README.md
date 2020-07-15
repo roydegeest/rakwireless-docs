@@ -1,13 +1,15 @@
 ---
 prev: /wisnode/rak7200/overview/
 next: false
+sidebar: auto
+sidebarDepth: 3
 ---
 
-# RAK7200 LPWAN Tracker
+# RAK7200 LPWAN Tracker Datasheet
 
 <rk-img
-  src="/assets/images/datasheet/rak7200/overview.jpg"
-  width="50%"
+  src="/assets/images/wisnode/rak7200/datasheet/overview.jpg"
+  width="40%"
   caption="RAK7200 LPWAN Tracker Overview"
 />
 
@@ -37,7 +39,7 @@ It is a feature-packed tracker device for featured applications development. Thi
 The detailed dimensions of the **RAK7200 LPWAN Tracker** with the protective case is shown in the figure below:
 
 <rk-img
-  src="/assets/images/datasheet/rak7200/rak7200-dimensions.jpg"
+  src="/assets/images/wisnode/rak7200/datasheet/rak7200-dimensions.jpg"
   width="50%"
   caption="RAK7200 LPWAN Tracker Dimensions"
 />
@@ -47,7 +49,7 @@ The detailed dimensions of the **RAK7200 LPWAN Tracker** with the protective cas
 The block diagram below shows the internal architecture and external interfaces of the RAK7200 LPWAN Tracker.
 
 <rk-img
-  src="/assets/images/datasheet/rak7200/block-diagram.png"
+  src="/assets/images/wisnode/rak7200/datasheet/block-diagram.png"
   width="100%"
   caption="RAK7200 LPWAN Tracker Block Diagram"
 />
@@ -59,7 +61,7 @@ The block diagram below shows the internal architecture and external interfaces 
 The RAK7200 device provides three external interfaces, as shown in the following figure.
 
 <rk-img
-  src="/assets/images/datasheet/rak7200/rak7200-interfaces.jpg"
+  src="/assets/images/wisnode/rak7200/datasheet/rak7200-interfaces.jpg"
   width="50%"
   caption="RAK7200 LPWAN Tracker Interfaces"
 />
@@ -73,7 +75,7 @@ The RAK7200 device provides three external interfaces, as shown in the following
 The RAK7200 LPWAN Tracker provides three LEDs for indicating the operating status, here are their functions:
 
 <rk-img
-  src="/assets/images/datasheet/rak7200/leds.jpg"
+  src="/assets/images/wisnode/rak7200/datasheet/leds.jpg"
   width="50%"
   caption="RAK7200 LPWAN Tracker LEDs"
 />
@@ -85,7 +87,7 @@ The RAK7200 LPWAN Tracker provides three LEDs for indicating the operating statu
 #### Pin Definition
 
 <rk-img
-  src="/assets/images/datasheet/rak7200/pinout-diagram.png"
+  src="/assets/images/wisnode/rak7200/datasheet/pinout-diagram.png"
   width="100%"
   caption="RAK7200 Pinout Diagram"
 />
@@ -137,7 +139,7 @@ The RAK7200 LPWAN Tracker has a built-in passive GPS Antenan and an iPex LoRa® 
 The GPS Antenna is shown in the following figure:
 
 <rk-img
-  src="/assets/images/datasheet/rak7200/gps-antenna.jpg"
+  src="/assets/images/wisnode/rak7200/datasheet/gps-antenna.jpg"
   width="25%"
   caption="GPS Antenna"
 />
@@ -155,7 +157,7 @@ The table below lists the parameters of the built-in GPS Antenna.
 S- Parameter of the GPS Antenna as pictured in the figure below:
 
 <rk-img
-  src="/assets/images/datasheet/rak7200/s-parameter.jpg"
+  src="/assets/images/wisnode/rak7200/datasheet/s-parameter.jpg"
   width="100%"
   caption="S-parameter of the GPS Antenna"
 />
@@ -165,7 +167,7 @@ S- Parameter of the GPS Antenna as pictured in the figure below:
 The LoRa® Antenna is shown in the following Figure:
 
 <rk-img
-  src="/assets/images/datasheet/rak7200/lora-antenna.jpg"
+  src="/assets/images/wisnode/rak7200/datasheet/lora-antenna.jpg"
   width="50%"
   caption="LoRa® Antenna"
 />
@@ -180,7 +182,7 @@ The table below lists the Efficiency / Gain of the built in LoRa® Antenna
 LoRa® Antenna return loss is also shown in the figure below:
 
 <rk-img
-  src="/assets/images/datasheet/rak7200/loss-lora-antenna.jpg"
+  src="/assets/images/wisnode/rak7200/datasheet/loss-lora-antenna.jpg"
   width="100%"
   caption="Return Loss of the LoRa® Antenna"
 />
@@ -204,7 +206,7 @@ LoRa® Antenna return loss is also shown in the figure below:
 The RAK7200 LPWAN Tracker has built-in rechargeable 3.7V Li-ion battery which can be charged via Micro USB, the built-in battery is shown in the following figure.
 
 <rk-img
-  src="/assets/images/datasheet/rak7200/built-in-battery.jpg"
+  src="/assets/images/wisnode/rak7200/datasheet/built-in-battery.jpg"
   width="50%"
   caption="Built-in Battery in RAK7200 LPWAN Tracker"
 />

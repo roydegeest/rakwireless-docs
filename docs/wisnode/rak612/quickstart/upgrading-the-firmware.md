@@ -16,7 +16,7 @@ Please use the the latest firmware for the RAK612 LPWAN Button in order to avoid
 4. Open the RAK LPWAN Button Upgrade tool.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak612/firmware-upgrade/upgrade-tool.png"
+  src="/assets/images/wisnode/rak612/quickstart/firmware-upgrade/upgrade-tool.png"
   width="100%"
   figure-number="1"
   caption="RAK LPWAN Button Upgrade Tool"
@@ -25,7 +25,7 @@ Please use the the latest firmware for the RAK612 LPWAN Button in order to avoid
 5. Choose the appropriate port number in the **COM Port** field. Open [Interfacing with RAK612 LPWAN Button](interfacing-with-rak612.html) section to learn on how to choose the appropriate COM Port used. For this demonstration, the COM Port is "**COM3**".
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak612/firmware-upgrade/select-com-port.png"
+  src="/assets/images/wisnode/rak612/quickstart/firmware-upgrade/select-com-port.png"
   width="100%"
   figure-number="2"
   caption="Select the Appropriate COM Port"
@@ -34,7 +34,7 @@ Please use the the latest firmware for the RAK612 LPWAN Button in order to avoid
 6. Click **Choose File** and navigate to the directory where you have saved the firmware, that you have just downloaded.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak612/firmware-upgrade/choosing-the-firmware.png"
+  src="/assets/images/wisnode/rak612/quickstart/firmware-upgrade/choosing-the-firmware.png"
   width="100%"
   figure-number="3"
   caption="Choosing the Firmware"
@@ -43,14 +43,14 @@ Please use the the latest firmware for the RAK612 LPWAN Button in order to avoid
 7. Click the **Start** Button and wait for a couple of minutes.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak612/firmware-upgrade/start-flashing.png"
+  src="/assets/images/wisnode/rak612/quickstart/firmware-upgrade/start-flashing.png"
   width="100%"
   figure-number="4"
   caption="Start Flashing the Firmware"
 />
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak612/firmware-upgrade/upgrade-success.png"
+  src="/assets/images/wisnode/rak612/quickstart/firmware-upgrade/upgrade-success.png"
   width="100%"
   figure-number="5"
   caption="Upgrade Firmware Success"
@@ -61,7 +61,7 @@ Please use the the latest firmware for the RAK612 LPWAN Button in order to avoid
 1. In order for you to check if you have successfully installed the firmware on your RAK612 LPWAN Button, open the RAK Serial Port tool on your PC. 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak612/firmware-upgrade/serial-port.png"
+  src="/assets/images/wisnode/rak612/quickstart/firmware-upgrade/serial-port.png"
   width="100%"
   figure-number="6"
   caption="RAK Serial Port Tool"
@@ -77,7 +77,7 @@ Please use the the latest firmware for the RAK612 LPWAN Button in order to avoid
 3. Hold any key of the RAK612 LPWAN Button for more than 5 seconds and then you will be able to see the following information:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak612/firmware-upgrade/lpwan-upgrade-success.jpg"
+  src="/assets/images/wisnode/rak612/quickstart/firmware-upgrade/lpwan-upgrade-success.jpg"
   width="50%"
   figure-number="7"
   caption="RAK612 LPWAN Button Upgraded Firmware"

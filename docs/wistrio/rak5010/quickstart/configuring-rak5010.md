@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak5010/4.configuring-rak5010
+static_root: /assets/images/wistrio/rak5010/quickstart/4.configuring-rak5010
 prev: /wistrio/rak5010/quickstart/at-commands.html
 next: /wistrio/rak5010/quickstart/connecting-cellular-network.html
 ---

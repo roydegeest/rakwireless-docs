@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak811/hardware-interfacing
+static_root: /assets/images/wisduino/rak811-evaluation-board/quickstart/hardware-interfacing/
 prev: /wisduino/rak811-evaluation-board/quickstart/interfacing-with-arduino/
 next: /wisduino/rak811-evaluation-board/quickstart/interfacing-with-arduino/firmware-flashing.html
 ---
@@ -15,7 +15,7 @@ As of now, our RAK811 LPWAN Evaluation Board only works with Arduino Mega 2560. 
 1. To start with, we are going to differentiate the existing RAK811 LPWAN Evaluation Boards or as named in the boards as WisNode-LoRa®.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/zsznmbkn2pnfmpuido2s.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/hardware-interfacing/zsznmbkn2pnfmpuido2s.png"
   width="100%"
   figure-number="1"
   caption="Jumper Connection for both RAK811 LPWAN Evaluation Board v1.1 and v1.2"
@@ -24,7 +24,7 @@ As of now, our RAK811 LPWAN Evaluation Board only works with Arduino Mega 2560. 
 2. Follow the connections below:
 
 <rk-img
-  :src="`${$frontmatter.static_root}/oeathvi6iddqykyzihqu.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/hardware-interfacing/oeathvi6iddqykyzihqu.png"
   width="100%"
   figure-number="2"
   caption="RAK811 LPWAN Evaluation Board to Arduino Mega 2560 connection."

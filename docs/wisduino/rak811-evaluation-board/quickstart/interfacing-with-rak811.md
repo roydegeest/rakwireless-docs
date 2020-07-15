@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak811/interfacing-with-rak811
+static_root: /assets/images/wisduino/rak811-evaluation-board/quickstart/interfacing-with-rak811/
 next: /wisduino/rak811-evaluation-board/quickstart/connecting-to-ttn/#connecting-to-the-things-network-ttn
 ---
 
@@ -20,7 +20,7 @@ If this is your first time to connect your RAK811 LPWAN Evaluation Board to your
 - Go to your **Device Manager** by pressing : **Windows + R** and type `devmgmt.msc` or **search in Start Menu** or right click "**My Computer**" or "**This PC**" and click **Manage**. Look for **Other Devices.**
 
 <rk-img
-  :src="`${$frontmatter.static_root}/ojnphsuvfgrvwzd4dvu8.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/interfacing-with-rak811/ojnphsuvfgrvwzd4dvu8.png"
   width="100%"
   figure-number="1"
   caption="Missing Driver for the RAK811 LPWAN Evaluation Board"
@@ -29,7 +29,7 @@ If this is your first time to connect your RAK811 LPWAN Evaluation Board to your
 - Under "**Other devices**" drop down list, an unknown **USB2.0-Serial** driver must appear. Right click into it and choose "**Search automaticaly for updated driver software**". Again, before doing so, make sure to have an internet access or it will fail.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/ejfeqklgjwmjjky5ewag.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/interfacing-with-rak811/ejfeqklgjwmjjky5ewag.png"
   width="100%"
   figure-number="2"
   caption="Automatic Driver Installation via Internet"
@@ -38,7 +38,7 @@ If this is your first time to connect your RAK811 LPWAN Evaluation Board to your
 - Wait for it to automatically download and install the missing driver. Once installation is done, "**USB-SERIAL CH340**" must appear in the **Ports (COM & LPT)** drop down list. Take note of the COM Port associated with the driver as it will be used in the succeeding steps. For this sample process, the COM Port used by the USB-SERIAL CH340 driver is **COM4**.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/tfl6jmjcsapgpmagthvj.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/interfacing-with-rak811/tfl6jmjcsapgpmagthvj.png"
   width="100%"
   figure-number="3"
   caption="USB-SERIAL CH340 Driver Successfully Installed"
@@ -54,7 +54,7 @@ In case the driver is still not installed upon doing the previous steps, kindly 
 2. **Baud Rate**: **115200** bps
 
 <rk-img
-  :src="`${$frontmatter.static_root}/q5ubbty2twyeocvnmttc.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/interfacing-with-rak811/q5ubbty2twyeocvnmttc.png"
   width="100%"
   figure-number="4"
   caption="Connecting to the RAK Serial Port Tool"
@@ -67,7 +67,7 @@ at+version
 ```
 
 <rk-img
-  :src="`${$frontmatter.static_root}/px93o4onb4kxmiwvsumf.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/interfacing-with-rak811/px93o4onb4kxmiwvsumf.png"
   width="100%"
   figure-number="5"
   caption="AT+Command Sample Serial Communication Test"

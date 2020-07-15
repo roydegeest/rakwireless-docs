@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak811/ttn-otaa-mode
+static_root: /assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-otaa-mode/
 prev: /wisduino/rak811-evaluation-board/quickstart/connecting-to-ttn/
 next: /wisduino/rak811-evaluation-board/quickstart/connecting-to-ttn/ttn-abp-mode.html
 ---
@@ -9,7 +9,7 @@ next: /wisduino/rak811-evaluation-board/quickstart/connecting-to-ttn/ttn-abp-mod
 When setting up a new device in TTN it defaults to OTAA mode. For configuring it, you need the following three parameters: **Device EUI, Application EUI** and **App Key**. You can get them all from the **Overview page**.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/eqx6w4refhlqbklpj4cc.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-otaa-mode/eqx6w4refhlqbklpj4cc.png"
   width="100%"
   figure-number="1"
   caption="Device OTAA Parameters"
@@ -36,7 +36,7 @@ at+set_config=lora:region:EU868
 ```
 
 <rk-img
-  :src="`${$frontmatter.static_root}/okwyucipaed3fnrarkso.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-otaa-mode/okwyucipaed3fnrarkso.png"
   width="100%"
   figure-number="2"
   caption="Setting up the RAK811 Operation Mode"
@@ -57,7 +57,7 @@ at+set_config=lora:app_key:XXXX
 ```
 
 <rk-img
-  :src="`${$frontmatter.static_root}/jttmbmkhm0ac0duvap94.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-otaa-mode/jttmbmkhm0ac0duvap94.png"
   width="100%"
   figure-number="3"
   caption="Setting up the RAK811 OTAA Parameters"
@@ -72,7 +72,7 @@ at+join
 ```
 
 <rk-img
-  :src="`${$frontmatter.static_root}/eevf8jgjt1p48i17vugw.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-otaa-mode/eevf8jgjt1p48i17vugw.png"
   width="100%"
   figure-number="4"
   caption="Join Command"
@@ -85,7 +85,7 @@ at+send=lora:1:12345678
 ```
 
 <rk-img
-  :src="`${$frontmatter.static_root}/tsyls5mfkzctes7lh1jg.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-otaa-mode/tsyls5mfkzctes7lh1jg.png"
   width="100%"
   figure-number="5"
   caption="Sending an uplink frame"
@@ -98,7 +98,7 @@ Be sure to have this window opened prior to sending data through the RAK Serial 
 :::
 
 <rk-img
-  :src="`${$frontmatter.static_root}/gpkpni2w18kuvv0lqhi8.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-otaa-mode/gpkpni2w18kuvv0lqhi8.png"
   width="100%"
   figure-number="6"
   caption="Sending Data to TTN from RAK811"

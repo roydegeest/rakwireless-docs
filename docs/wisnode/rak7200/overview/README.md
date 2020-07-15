@@ -1,7 +1,7 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7200/overview
+static_root: /assets/images/wisnode/rak7200/quickstart/overview
 rak_img: RAK7200.svg
-rak_grp: wisnode
+rak_grp: [wisnode, track]
 params:
   qlinks:
     learnMore:

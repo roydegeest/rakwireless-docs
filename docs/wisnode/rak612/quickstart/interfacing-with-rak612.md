@@ -16,7 +16,7 @@ If this is your first time to connect your RAK612 LPWAN Button to your computer,
 2. Go to your **Device Manager** by pressing : **Windows + R** and type `devmgmt.msc` or **search in Start Menu** or right click "**My Computer**" or "**This PC**" and click **Manage**. Look for **Other Devices.**
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak612/interfacing-with-rak612/missing-driver.png"
+  src="/assets/images/wisnode/rak612/quickstart/interfacing-with-rak612/missing-driver.png"
   width="100%"
   figure-number="1"
   caption="Missing Driver for theRAK612 LPWAN Button"
@@ -25,7 +25,7 @@ If this is your first time to connect your RAK612 LPWAN Button to your computer,
 3. Under "**Other devices**" drop down list, an unknown **USB2.0-Serial** driver must appear. Right click into it and choose "**Search automaticaly for updated driver software**". Again, before doing so, make sure to have an internet access or it will fail.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak612/interfacing-with-rak612/automatic-install.png"
+  src="/assets/images/wisnode/rak612/quickstart/interfacing-with-rak612/automatic-install.png"
   width="100%"
   figure-number="2"
   caption="Automatic Driver Installation via Internet"
@@ -34,7 +34,7 @@ If this is your first time to connect your RAK612 LPWAN Button to your computer,
 4. Wait for it to automatically download and install the missing driver. Once installation is done, "**USB-SERIAL CH340**" must appear in the **Ports (COM & LPT)** drop down list. Take note of the COM Port associated with the driver as it will be used in the succeeding steps. For this sample process, the COM Port used by the USB-SERIAL CH340 driver is **COM4**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak612/interfacing-with-rak612/usb-ch340.png"
+  src="/assets/images/wisnode/rak612/quickstart/interfacing-with-rak612/usb-ch340.png"
   width="100%"
   figure-number="3"
   caption="USB-SERIAL CH340 Driver Successfully Installed"
@@ -50,7 +50,7 @@ In case the driver is still not installed upon doing the previous steps, kindly 
    - **Baud Rate**: **115200** bps
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak612/interfacing-with-rak612/rak-serial.png"
+  src="/assets/images/wisnode/rak612/quickstart/interfacing-with-rak612/rak-serial.png"
   width="100%"
   figure-number="4"
   caption="Connecting to the RAK Serial Port Tool"
@@ -63,7 +63,7 @@ at+version
 ```
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak612/interfacing-with-rak612/at-comm.png"
+  src="/assets/images/wisnode/rak612/quickstart/interfacing-with-rak612/at-comm.png"
   width="100%"
   figure-number="5"
   caption="AT+Command Sample Serial Communication Test"

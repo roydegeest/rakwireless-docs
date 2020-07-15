@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak811/ttn-abp-mode
+static_root: /assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-abp-mode/
 prev: /wisduino/rak811-evaluation-board/quickstart/connecting-to-ttn/ttn-otaa-mode.html
 next: /wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/
 ---
@@ -10,7 +10,7 @@ next: /wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/
 
 2. The **Device Address**, **Network Session Key** and **App Session Key** will be generated automatically by default.
    <rk-img
-     :src="`${$frontmatter.static_root}/ghtjt9jvmsfgkbqyrbkz.png`"
+     src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-abp-mode/ghtjt9jvmsfgkbqyrbkz.png"
      width="100%"
      figure-number="1"
      caption="Switching to ABP Mode"
@@ -19,7 +19,7 @@ next: /wisduino/rak811-evaluation-board/quickstart/connecting-to-chirpstack/
 3. Save the mode change and return to the **Device Overview page**. You can copy the keys by pressing the button after the value fields marked in red in **Figure 2**.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/pexuiehqh0dkh1hjpymk.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-abp-mode/pexuiehqh0dkh1hjpymk.png"
   width="100%"
   figure-number="2"
   caption="ABP Parameters Window"
@@ -34,7 +34,7 @@ at+set_config=lora:region:EU868
 As you can see in **Figure 3**, as we were in the same region (EU868), there was no change.
 
 <rk-img
-  :src="`${$frontmatter.static_root}/gkaye44gsjjuxhtptjmv.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-abp-mode/gkaye44gsjjuxhtptjmv.png"
   width="100%"
   figure-number="3"
   caption="Region Setup"
@@ -47,7 +47,7 @@ at+set_config=lora:join_mode:1
 ```
 
 <rk-img
-  :src="`${$frontmatter.static_root}/xxgmfyq9dkgzu7hcfq4g.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-abp-mode/xxgmfyq9dkgzu7hcfq4g.png"
   width="100%"
   figure-number="4"
   caption="Join Mode Setup"
@@ -68,7 +68,7 @@ at+set_config=lora:apps_key:X
 ```
 
 <rk-img
-  :src="`${$frontmatter.static_root}/yjupd0dh7ytr1rzqe118.png`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-abp-mode/yjupd0dh7ytr1rzqe118.png"
   width="100%"
   figure-number="5"
   caption="Setting up the RAK811 ABP Parameters"
@@ -83,7 +83,7 @@ at+join
 ```
 
 <rk-img
-:src="`${$frontmatter.static_root}/y81mijqfbzfvhxlvt8qm.png`"
+src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-abp-mode/y81mijqfbzfvhxlvt8qm.png"
 width="100%"
 figure-number="6"
 caption="Join Command""
@@ -96,7 +96,7 @@ at+send=lora:1:12345678
 ```
 
 <rk-img
-:src="`${$frontmatter.static_root}/tfs0ngbmzluoex9gl3kn.png`"
+src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-abp-mode/tfs0ngbmzluoex9gl3kn.png"
 width="100%"
 figure-number="7"
 caption="Sending an uplink frame""
@@ -109,7 +109,7 @@ Be sure to have this window opened prior to sending data through the RAK Serial 
 :::
 
 <rk-img
-:src="`${$frontmatter.static_root}/zf2brgmub8kkthb87j8y.png`"
+src="/assets/images/wisduino/rak811-evaluation-board/quickstart/ttn-abp-mode/zf2brgmub8kkthb87j8y.png"
 width="100%"
 figure-number="8"
 caption="Sending Data to TTN from RAK811""

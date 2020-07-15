@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak811/quick-start-guide
+static_root: /assets/images/wisduino/rak811-evaluation-board/quickstart/quick-start-guide/
 prev: /wisduino/rak811-evaluation-board/overview/
 next: /wisduino/rak811-evaluation-board/quickstart/interfacing-with-rak811.html
 ---
@@ -7,7 +7,7 @@ next: /wisduino/rak811-evaluation-board/quickstart/interfacing-with-rak811.html
 # Quick Start Guide
 
 <rk-img
-  :src="`${$frontmatter.static_root}/bv4v5828qbdlkrann1xt.jpg`"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/quick-start-guide/bv4v5828qbdlkrann1xt.jpg"
   width="50%"
   figure-number="1"
   caption="RAK811 LPWAN Evaluation Board"

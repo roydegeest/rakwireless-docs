@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak5010/2.quick-start-guide
+static_root: /assets/images/wistrio/rak5010/quickstart/2.quick-start-guide
 prev: /wistrio/rak5010/overview/
 next: /wistrio/rak5010/quickstart/checking-device-logs.html
 ---

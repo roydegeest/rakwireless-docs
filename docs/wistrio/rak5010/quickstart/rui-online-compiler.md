@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak5010/9.rui-online-compiler
+static_root: /assets/images/wistrio/rak5010/quickstart/9.rui-online-compiler
 prev: /wistrio/rak5010/quickstart/upgrading-firmware.html
 next: false
 ---

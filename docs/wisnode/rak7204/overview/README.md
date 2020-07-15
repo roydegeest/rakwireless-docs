@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7204/1.overview
+static_root: /assets/images/wisnode/rak7204/quickstart/1.overview
 rak_img: RAK7204.svg
 rak_grp: wisnode
 params:

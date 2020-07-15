@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak612/main
+static_root: /assets/images/wisnode/rak612/quickstart/main
 rak_img: RAK612.svg
 rak_grp: wisnode
 params:

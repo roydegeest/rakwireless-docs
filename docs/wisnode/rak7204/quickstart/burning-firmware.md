@@ -1,5 +1,5 @@
 ---
-static_root: /assets/images/quick-start-guide/rak7204/10.burning-firmware/
+static_root: /assets/images/wisnode/rak7204/quickstart/10.burning-firmware/
 prev: /wisnode/rak7204/quickstart/burning-bootloader.html
 next: false
 ---
