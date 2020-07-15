@@ -1,4 +1,6 @@
 ---
+sidebar: auto
+sidebarDepth: 4
 tags:
 - datasheet
 - wisduo

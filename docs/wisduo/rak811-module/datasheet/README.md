@@ -3,6 +3,8 @@ prev: ../overview/
 tags: 
   - datasheet 
   - wisduo
+sidebar: auto
+sidebarDepth: 4
 ---
 
 # RAK811 LPWAN Module Datasheet

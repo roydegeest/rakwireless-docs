@@ -28,7 +28,7 @@ The bootloader of the RAK811 LPWAN Evaluation Board is already pre-installed upo
 1. [Firmware Upgrading](/wisduino/rak811-evaluation-board/quickstart/upgrading-the-firmware.html)
    :::
 
-### What's included in the package?
+## What's included in the package?
 
 - 1pc - RAK811 LPWAN Evaluation Board
 - 1pc - Micro - USB Cable
