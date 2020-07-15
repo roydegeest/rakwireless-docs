@@ -17,27 +17,28 @@
             class="column q-mt-md"
             :id="key"
           >
-            <div class="text-h6 q-py-md">{{ rakGrp(key) }}</div>
+            <div class="row items-center text-h6 q-py-md">
+              <span>{{ rakGrp(key) }}</span>
+              <div class="col bg-grey-3 q-mx-xl" style="padding: 0.06rem"></div>
+            </div>
             <div class="row justify-start items-center">
-              <div v-for="qs in groups[key]" :key="qs.path" class="q-pa-sm">
-                <q-item
-                  :to="qs.path"
-                  class="grow text-center q-pa-none shadow-2"
-                  style="height: 15rem; width: 13rem"
-                >
-                  <q-item-section>
-                    <div class="col q-pa-none flex flex-center">
-                      <img :src="rakImg(qs.frontmatter)" class="fit" />
-                    </div>
-                    <div class="col-2 flex flex-center q-ma-sm">
-                      <div
-                        ref="test"
-                        class="text-weight-medium ellipsis-2-lines"
-                        style="font-size: 0.75rem; line-height: 0.95rem"
-                      >{{ qs.title }}</div>
-                    </div>
-                  </q-item-section>
-                </q-item>
+              <div
+                v-for="key2 in Object.keys(groups[key])"
+                :key="`subgrp-${key2}`"
+                :class="{'q-ml-xl column col-12': Array.isArray(groups[key][key2]) }"
+              >
+                <div v-if="Array.isArray(groups[key][key2])">
+                  <div
+                    class="q-py-md text-weight-medium text-capitalize"
+                    style="font-size: 1.05rem"
+                  >: {{ key2 }}</div>
+                  <div class="row">
+                    <rk-grid-item v-for="qs2 in groups[key][key2]" :key="qs2.path" :value="qs2" />
+                  </div>
+                </div>
+                <div v-else-if="typeof groups[key][key2] === 'object'" class="q-ml-md">
+                  <rk-grid-item :value="groups[key][key2]" />
+                </div>
               </div>
             </div>
           </div>
@@ -132,10 +133,31 @@ export default {
     console.log('pages: ', this.overviews)
     for (const qs of this.overviews) {
       const { rak_grp } = qs.frontmatter
-      const index = rak_grp || 'others'
+      let index, index2
+
+      switch (typeof rak_grp) {
+        case 'string':
+          index = rak_grp || 'others'
+          break
+        case 'object':
+          if (Array.isArray(rak_grp)) {
+            index = rak_grp[0] || 'others'
+            index2 = rak_grp[1] || null
+            break
+          }
+        default:
+          console.error(
+            `[RkHomeGrid] Invalid rak_grp of type ${typeof rak_grp}: `,
+            rak_grp
+          )
+      }
+      console.log('indexes: ', index, index2)
       if (!this.groups) this.groups = {}
       if (!this.groups[index]) this.groups[index] = []
-      this.groups[index] = [...this.groups[index], qs]
+      if (index2) {
+        if (!this.groups[index][index2]) this.groups[index][index2] = []
+        this.groups[index][index2] = [...this.groups[index][index2], qs]
+      } else this.groups[index] = [...this.groups[index], qs]
     }
     // sort keys
     const ordered = {}
