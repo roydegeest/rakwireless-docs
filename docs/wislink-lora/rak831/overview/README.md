@@ -1,6 +1,6 @@
 ---
 rak_img: /assets/images/wislink-lora/rak831/datasheet/rak831-overview.png
-rak_grp: lora-gateway
+rak_grp: wislink-lora
 params:
   qlinks:
     learnMore:

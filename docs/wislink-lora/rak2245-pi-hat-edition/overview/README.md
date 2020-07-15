@@ -1,6 +1,6 @@
 ---
 rak_img: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/1.product-overview/1.index/RAK2245-pi-hat.svg
-rak_grp: lora-gateway
+rak_grp: wislink-lora
 next: quick-start-guide
 params:
   qlinks:

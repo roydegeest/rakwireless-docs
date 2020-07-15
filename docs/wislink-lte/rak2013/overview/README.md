@@ -1,6 +1,6 @@
 ---
 rak_img: /assets/images/datasheet/rak831/rak831-overview.png
-rak_grp: cellular
+rak_grp: wislink-lte
 qlinks:
   learnMore:
     - name: Projects
