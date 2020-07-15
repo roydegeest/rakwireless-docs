@@ -1,7 +1,6 @@
 ---
-static_root: /assets/images/wisnode/rak7204/quickstart/1.overview
-rak_img: RAK7204.svg
-rak_grp: wisnode
+rak_img: /assets/images/wisnode/rak7204/quickstart/1.overview/RAK7204.svg
+rak_grp: [wisnode,sense]
 params:
   qlinks:
     learnMore:
@@ -21,7 +20,7 @@ params:
 # RAK7204 LPWAN Environmental Sensor
 
 <rk-img
-  :src="`${$frontmatter.static_root}/nwvusdulqxqcp5blomrd.jpg`"
+  src="/assets/images/wisnode/rak7204/quickstart/1.overview/nwvusdulqxqcp5blomrd.jpg"
   width="50%"
   figure-number="1"
   caption="RAK7204 Product Overview"

@@ -1,7 +1,6 @@
 ---
-static_root: /assets/images/wisnode/rak612/quickstart/main
-rak_img: RAK612.svg
-rak_grp: wisnode
+rak_img: /assets/images/wisnode/rak612/quickstart/main/RAK612.svg
+rak_grp: [wisnode,button]
 params:
   qlinks1:
     learnMore:
@@ -20,7 +19,7 @@ params:
 # RAK612 LPWAN Button
 
 <rk-img
-  :src="`${$frontmatter.static_root}/RAK612.svg`"
+  src="/assets/images/wisnode/rak612/quickstart/main/RAK612.svg"
   width="60%"
   figure-number="1"
   caption="RAK612 LPWAN Button"

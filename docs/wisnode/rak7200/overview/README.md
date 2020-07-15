@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/wisnode/rak7200/quickstart/overview
-rak_img: RAK7200.svg
-rak_grp: [wisnode, track]
+rak_img: /assets/images/wisnode/rak7200/quickstart/overview/RAK7200.svg
+rak_grp: [wisnode,track]
 params:
   qlinks:
     learnMore:
@@ -21,7 +21,7 @@ params:
 # RAK7200 LPWAN Tracker
 
 <rk-img
-  :src="`${$frontmatter.static_root}/tnbyyv90jncokqtn9xiy.jpg`"
+  src="/assets/images/wisnode/rak7200/quickstart/overview/tnbyyv90jncokqtn9xiy.jpg"
   width="50%"
   figure-number="1"
   caption="RAK7200 Product View"

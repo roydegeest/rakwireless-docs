@@ -1,5 +1,5 @@
 ---
-rak_img: /assets/images/quick-start-guide/rak811/overview/RAK811-wisnode.svg
+rak_img: /assets/images/wisduino/rak811-evaluation-board/quickstart/overview/RAK811-wisnode.svg
 rak_grp: wisduino
 params:
   qlinks:

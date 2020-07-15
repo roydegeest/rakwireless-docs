@@ -1,0 +1,1 @@
+<rk-redirect to="/wisduino/rak811-evaluation-board/overview" />

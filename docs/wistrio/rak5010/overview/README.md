@@ -1,6 +1,5 @@
----
-static_root: /assets/images/wistrio/rak5010/quickstart/1.overview
-rak_img: RAK5010.svg
+--- 
+rak_img: /assets/images/wistrio/rak5010/quickstart/1.overview/RAK5010.svg
 rak_grp: wistrio
 params:
   qlinks:
@@ -21,7 +20,7 @@ params:
 # RAK5010 WisTrio NB-IoT Tracker
 
 <rk-img
-  :src="`${$frontmatter.static_root}/sezihji5wsoxeb4ikcfk.jpg`"
+  src="/assets/images/wistrio/rak5010/quickstart/1.overview/sezihji5wsoxeb4ikcfk.jpg"
   width="50%"
   figure-number="1"
   caption="RAK5010 WisTrio NB-IoT Tracker Product View"

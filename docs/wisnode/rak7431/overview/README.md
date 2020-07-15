@@ -1,7 +1,6 @@
 ---
-static_root: /assets/images/datasheet/rak7431/
-rak_img: rak7431-overview.jpg
-rak_grp: wisnode
+rak_img: /assets/images/wisnode/rak7431/datasheet/rak7431-overview.jpg
+rak_grp: [wisnode,bridge]
 params:
   qlinks:
     learnMore:

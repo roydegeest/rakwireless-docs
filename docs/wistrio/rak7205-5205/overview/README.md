@@ -1,6 +1,5 @@
 ---
-static_root: /assets/images/wistrio/rak7205-5205/quickstart/overview
-rak_img: RAK5205.svg
+rak_img: /assets/images/wistrio/rak7205-5205/quickstart/overview/RAK5205.svg
 rak_grp: wistrio
 params:
   qlinks:
@@ -21,7 +20,7 @@ params:
 # RAK7205/RAK5205 WisTrio LPWAN Tracker
 
 <rk-img
-  :src="`${$frontmatter.static_root}/exlexmejfxoowom4gmuf.jpg`"
+  src="/assets/images/wistrio/rak7205-5205/quickstart/overview/exlexmejfxoowom4gmuf.jpg"
   width="70%"
   figure-number="1"
   caption="RAK7205/RAK5205 WisTrio LPWAN Tracker Product View"
