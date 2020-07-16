@@ -12,14 +12,14 @@ next: gateway-installation-guide
   caption="RAK7249 Macro Outdoor Gateway with the antennas installed"
 />
 
-### What do you need?
+## What do you need?
 
 1. **RAK7249 Macro Outdoor Gateway**
 2. A Windows/Mac OS/Linux Computer
 
 <!-- <rk-btn :params="$page.frontmatter.params.btn1" /> -->
 
-### What's included in the Package?
+## What's included in the Package?
 
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/2.quickstart/package_contents.png"

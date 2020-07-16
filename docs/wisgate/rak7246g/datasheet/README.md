@@ -6,7 +6,7 @@ sidebarDepth: 4
 prev: /wisgate/rak7246g/overview/
 ---
 
-# RAK7246G LPWAN Developer Gateway
+# RAK7246G LPWAN Developer Gateway Datasheet
 
 <rk-img
   :src="`${$frontmatter.static_root}/jtv6vtbowwxsrbeupcac.png`"

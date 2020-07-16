@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/wisgate/rak7249/quickstart/1.main
-rak_img: /assets/images/wisgate/rak7249/datasheet/1.main/RAK7249.svg
+rak_img: /assets/images/wisgate/rak7249/quickstart/1.main/RAK7249.svg
 rak_grp: [wisgate, edge]
 params:
   qlinks1:
@@ -31,7 +31,7 @@ params:
   caption="RAK7249 Macro Outdoor Gateway with Support Plate Attached"
 />
 
-### Product Background
+## Product Background
 
 **RAK7249 Macro Outdoor Gateway** is an ideal product for IoT commercial deployment. Its modularity and customization options allow for flexibility when deploying a solution. With its industrial-grade components, it achieves a high standard of reliability.
 
@@ -46,9 +46,9 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
-### Key Features
+## Key Features
 
-###### Hardware
+### Hardware
 
 - **IP67/NEMA-6** industrial grade enclosure with cable glands
 - **PoE (802.3 af)** + Surge Protection
@@ -57,7 +57,7 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 - GPS **L70 GPS Module**
 - Powered by **PoE**, optional for battery, solar or AC power supply.
 
-###### Software
+### Software
 
 - Built-in LoRa® Server (**up to 128 nodes license included, higher tiers require a fee**)
 - OpenVPN

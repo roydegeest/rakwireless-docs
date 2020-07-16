@@ -1,6 +1,3 @@
----
-title: Connecting to The Things Network (TTN)
----
 
 # Connecting to the Things Network (TTN)
 

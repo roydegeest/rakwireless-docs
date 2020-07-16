@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/wisgate/rak7246g/quickstart/
-rak_img: /assets/images/wisgate/rak7246g/datasheet/RAK7246.png
+rak_img: /assets/images/wisgate/rak7246g/quickstart/RAK7246.png
 rak_grp: [wisgate, developer]
 params:
   qlinks1:

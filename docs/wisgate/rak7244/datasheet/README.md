@@ -5,7 +5,7 @@ sidebarDepth: 4
 prev: /wisgate/rak7244/overview/
 ---
 
-# RAK7244 LPWAN Developer Gateway
+# RAK7244 LPWAN Developer Gateway Datasheet
 
 <rk-img
   src="/assets/images/wisgate/rak7244/datasheet/emefrtsevzyv5dulz1hs.png"

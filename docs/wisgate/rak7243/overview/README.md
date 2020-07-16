@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/wisgate/rak7243/quickstart/1.main/
-rak_img: /assets/images/wisgate/rak7243/quickstart/rak7243.svg
+rak_img: /assets/images/wisgate/rak7243/quickstart/1.main/rak7243.svg
 rak_grp: [wisgate, developer]
 params:
   qlinks1:
@@ -31,7 +31,7 @@ params:
   caption="RAK7243 LPWAN Developer Gateway"
 />
 
-### Product Background
+## Product Background
 
 The **RAK7243 LPWAN Developer Gateway** is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. The RAK7243 LPWAN Developer Gateway is just a RAK2245 Pi Hat which can be easily stacked on top of a cheap Single Board Computer (SBC) such as the **Raspberry Pi 3B+** which is enclosed in a Pilot Gateway Casing. You can also use its sister model [RAK7243C LPWAN Developer Gateway](https://store.rakwireless.com/products/rak7243c-pilot-gateway) if you want to have Cellular functions added into it.
 
@@ -44,7 +44,7 @@ The **RAK7243 LPWAN Developer Gateway** is a complete and cost efficient Gateway
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
-### Product Features
+## Product Features
 
 - Compatible with **Raspberry Pi 3 Model B+ edition**
 - Large Heatsink for Heat Dissipation

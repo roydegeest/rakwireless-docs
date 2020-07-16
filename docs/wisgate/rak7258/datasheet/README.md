@@ -6,7 +6,7 @@ prev: /wisgate/rak7258/overview/
 next: false 
 ---
 
-# RAK7258 Micro Gateway
+# RAK7258 Micro Gateway Datasheet
 
 <rk-img
   src="/assets/images/wisgate/rak7258/datasheet/rak7258-overview.png"

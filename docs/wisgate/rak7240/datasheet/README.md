@@ -5,7 +5,7 @@ sidebarDepth: 4
 prev: /wisgate/rak7240/overview/
 ---
 
-# RAK7240 Outdoor LPWAN Gateway
+# RAK7240 Outdoor LPWAN Gateway Datasheet
 
 <rk-img
   src="/assets/images/wisgate/rak7240/datasheet/1.rak7240-overview.jpg"

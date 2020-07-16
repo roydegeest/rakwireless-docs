@@ -5,7 +5,7 @@ sidebarDepth: 4
 prev: /wisgate/rak7249/overview/
 ---
 
-# RAK7249 Macro Outdoor Gateway
+# RAK7249 Macro Outdoor Gateway Datasheet
 
 <rk-img
   src="/assets/images/wisgate/rak7249/datasheet/rak7249-macro-outdoor-gateway.png"
