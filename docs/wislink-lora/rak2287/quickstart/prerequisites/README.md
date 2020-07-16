@@ -1,6 +1,6 @@
 ---
-prev: /en-us/quick-start-guide/gateways/rak2287/#rak2287-concentrator-module-wislink-series
-next: /en-us/quick-start-guide/gateways/rak2287/prerequisites/device-firmware.html
+prev: ../../overview/
+next: device-firmware
 ---
 
 # Prerequisites

@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/wislink-lte/rak8213/quickstart/connecting-to-network
-prev: /en-us/quick-start-guide/nb-iot/rak8213/prerequisites/access-the-gateway.html#access-the-gateway
+prev: ./prerequisites/access-the-gateway
 ---
 
 # Connecting to a Network

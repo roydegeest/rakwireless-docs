@@ -3,9 +3,11 @@ tags:
   - datasheet
 sidebar: auto
 sidebarDepth: 4
+prev: ../overview/
+next: false
 ---
 
-# RAK2245 Pi Hat - LPWAN Gateway Concentrator Module
+# RAK2245 Pi Hat - LPWAN Gateway Concentrator Module Datasheet
 
 <rk-img
   src="/assets/images/wislink-lora/rak2245-pi-hat-edition/datasheet/rak2245-pihat-overview.png"

@@ -1,8 +1,6 @@
 ---
-prev: /en-us/quick-start-guide/gateways/rak2287/prerequisites/#prerequisites
-next: /en-us/quick-start-guide/gateways/rak2287/prerequisites/assembly-guide.html
+prev: ./
 ---
-
 # Device Firmware Setup
 
 For an easy and quick way of having a fully functional gateway, a Precompiled Firmware Image is provided. With that, this section gives you step-by-step instructions on how to install the Image into your SD Card used for the gateway.

@@ -1,3 +1,6 @@
+---
+prev: ./prerequisites/access-the-gateway
+---
 # Configuring the Gateway
 
 Assuming you have successfully logged into your gateway using SSH. Enter the following command in the command line:

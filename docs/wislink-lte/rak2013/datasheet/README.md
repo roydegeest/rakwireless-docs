@@ -2,9 +2,11 @@
 tags: + datasheet
 sidebar: auto
 sidebarDepth: 4
+prev: ../overview/
+next: false
 ---
 
-# RAK2013 Cellular
+# RAK2013 Cellular Datasheet
 
 <rk-img
   src="/assets/images/wislink-lte/rak2013/datasheet/rak2013.jpg"

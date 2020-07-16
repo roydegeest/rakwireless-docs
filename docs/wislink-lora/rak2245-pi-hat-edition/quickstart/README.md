@@ -1,3 +1,8 @@
+---
+prev: ../overview/
+next: ./accessing-your-gateway/
+---
+
 # Prerequisites
 
 <rk-img

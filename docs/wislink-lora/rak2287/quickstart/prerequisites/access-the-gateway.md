@@ -1,6 +1,5 @@
 ---
-prev: /en-us/quick-start-guide/gateways/rak2287/prerequisites/assembly-guide.html#assembly-guide
-next: /en-us/quick-start-guide/gateways/rak2287/configuring-the-gateway
+next: ../configuring-the-gateway
 ---
 
 # Access the Gateway

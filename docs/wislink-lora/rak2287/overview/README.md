@@ -1,5 +1,5 @@
 ---
-rak_img: /assets/images/wislink-lora/rak2287/quickstart/1main/RAK2287.jpg
+rak_img: /assets/images/wislink-lora/rak2287/quickstart/1main/rak2287.jpg
 rak_grp: wislink-lora
 qlinks:
   learnMore:
@@ -11,11 +11,14 @@ qlinks:
       href: mailto:fomi@rakwireless.com
   resources:
     - name: Datasheet
-      href: /en-us/datasheet/gateways/rak2287/
+      href: /wislink-lora/rak2287/datasheet
     - name: Schematic Diagram
-      href: /en-us/datasheet/gateways/rak2287/#schematic-diagram
+      href: /wislink-lora/rak2287/datasheet/#schematic-diagram
     - name: Firmware
       href: https://downloads.rakwireless.com/LoRa/RAK2287-Mini-PCIe/Firmware/
+
+prev: false
+next: false
 ---
 
 # RAK2287 WisLink- LPWAN Gateway Module

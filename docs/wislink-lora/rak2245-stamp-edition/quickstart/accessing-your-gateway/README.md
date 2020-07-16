@@ -1,7 +1,7 @@
 ---
 static_root: /assets/images/wislink-lora/rak2245-stamp-edition/quickstart/accessing-your-gateway
-prev: /en-us/quick-start-guide/gateways/rak2245-stamp-edition/quick-start-guide.html#quick-start-guide
-next: accessing-the-internet
+prev: ../
+next: ./accessing-the-internet
 ---
 
 # Accessing your Gateway

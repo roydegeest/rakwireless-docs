@@ -1,7 +1,7 @@
 ---
 title: Accessing the Internet
-prev: /en-us/quick-start-guide/gateways/rak2245-pi-hat-edition/accessing-your-gateway/
-next: /en-us/quick-start-guide/gateways/rak2245-pi-hat-edition/configuring-the-gateway.html
+prev: ./
+next: ../configuring-the-gateway
 params:
   img1:
     src: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/5.accessing the internet/config-options.png

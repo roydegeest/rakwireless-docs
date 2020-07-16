@@ -11,7 +11,7 @@ qlinks:
       href: mailto:fomi@rakwireless.com
   resources:
     - name: Datasheet
-      href: http://localhost:8080/en-us/datasheet/nb-iot/rak8213/#rak8213-wislink-nb-iot-module
+      href: /wislink-lte/rak8213/datasheet
     - name: Schematic Diagram
       href: https://downloads.rakwireless.com/Cellular/RAK8213/Hardware%20Specification/RAK8213%20Schematics_20180516.pdf
     - name: 3D Model
@@ -20,6 +20,9 @@ qlinks:
       href: https://downloads.rakwireless.com/Cellular/RAK8213/Firmware/
     - name: Downloads
       href: https://downloads.rakwireless.com/en/Cellular/RAK8213/
+
+prev: false
+next: false
 ---
 
 # RAK8213 WisLink NB-IoT Module
