@@ -3,9 +3,11 @@ tags:
   - datasheet
 sidebar: auto
 sidebarDepth: 4
+prev: ../overview/
+next: false
 ---
 
-# RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module
+# RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module Datasheet
 
 <rk-img
   src="/assets/images/wislink-lora/rak2245-stamp-edition/datasheet/overview/r8b1kuz7nsyovmac80kq.png"

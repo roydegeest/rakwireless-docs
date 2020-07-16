@@ -16,9 +16,12 @@ params:
       - name: Certification Report
         href: /wislink-lora/rak833/datasheet/#certification
       - name: User Manual
-        href: /wislink-lora/rak833/datasheet
+        href: /user-manual/
       - name: Deployment Guide
-        href: /wislink-lora/rak833/datasheet
+        href: /deployment-guide/
+
+prev: false
+next: false
 ---
 
 # RAK833 LPWAN Gateway Concentrator Module

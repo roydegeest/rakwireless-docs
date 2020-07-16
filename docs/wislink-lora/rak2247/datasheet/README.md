@@ -3,9 +3,11 @@ tags:
   - datasheet
 sidebar: auto
 sidebarDepth: 4
+prev: ../overview/
+next: false
 ---
 
-# RAK2247 LPWAN Gateway Concentrator Module
+# RAK2247 LPWAN Gateway Concentrator Module Datasheet
 
 <rk-img
   src="/assets/images/wislink-lora/rak2247/datasheet/rak2247-overview.png"

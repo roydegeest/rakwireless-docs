@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/wislink-lte/rak8213/quickstart/prerequisites
-prev: /en-us/quick-start-guide/nb-iot/rak8213/prerequisites/#what-do-you-need
+prev: ./
 ---
 
 # Device Firmware Setup

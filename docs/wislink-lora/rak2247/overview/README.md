@@ -11,7 +11,7 @@ qlinks:
       href: mailto:fomi@rakwireless.com
   resources:
     - name: Datasheet
-      href: /en-us/datasheet/rak2247/#rak2247-lpwan-gateway-concentrator-module
+      href: /wislink-lora/rak2247/datasheet
     - name: 868Mhz RF Performance
       href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Hardware-Specification/RAK2247-Gateway_868MHz_RF_Performance.pdf
     - name: RCM Declaration of Conformity
@@ -24,6 +24,9 @@ qlinks:
       href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247_FCC_Certificate.zip
     - name: 3D Model
       href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Hardware-Specification/RAK2247-3D-Model.rar
+
+prev: false
+next: false
 ---
 
 # RAK2247 LPWAN Gateway Concentrator Module

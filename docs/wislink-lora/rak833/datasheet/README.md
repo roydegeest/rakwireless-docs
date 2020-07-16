@@ -3,9 +3,11 @@ tags:
   - datasheet
 sidebar: auto
 sidebarDepth: 4
+prev: ../overview/
+next: false
 ---
 
-# RAK833 LPWAN Gateway Concentrator Module
+# RAK833 LPWAN Gateway Concentrator Module Datasheet
 
 <rk-img
   src="/assets/images/wislink-lora/rak833/datasheet/rak833.png"

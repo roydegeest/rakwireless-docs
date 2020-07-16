@@ -1,7 +1,6 @@
 ---
 rak_img: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/1.product-overview/1.index/RAK2245-pi-hat.svg
 rak_grp: wislink-lora
-next: quick-start-guide
 params:
   qlinks:
     learnMore:
@@ -13,15 +12,18 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: Datasheet
-        href: /en-us/datasheet/rak2245-pihat/#rak2245-pi-hat-lpwan-gateway-concentrator-module
+        href: /wislink-lora/rak2245-pi-hat-edition/datasheet
       - name: Comparison Between RAK831
         href: http://docs.rakwireless.com/en/LoRa/RAK2245-Pi-HAT/Hardware-Specification/RAK2245_RAK831_Design_Guide_Comparison.pdf
       - name: CE and FCC Certification Report
-        href: https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Certification-Report/
+        href: /wislink-lora/rak2245-pi-hat-edition/datasheet/#certification
       - name: 3D Model
         href: https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Hardware-Specification/RAK2245_Pi_HAT-3D-File.zip
       - name: Downloads
         href: https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/
+
+prev: false
+next: false
 ---
 
 # RAK2245 Pi Hat - LPWAN Gateway Concentrator Module

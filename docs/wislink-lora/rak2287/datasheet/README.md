@@ -3,9 +3,11 @@ tags:
   - datasheet
 sidebar: auto
 sidebarDepth: 4
+prev: ../overview/
+next: false
 ---
 
-# RAK2287 WisLink- LPWAN Gateway Module
+# RAK2287 WisLink- LPWAN Gateway Module Datasheet
 
 <rk-img
   src="/assets/images/wislink-lora/rak2287/datasheet/overview/aprgtyyf6arxkxu7rjyl.jpg"
