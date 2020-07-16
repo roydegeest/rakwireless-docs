@@ -1,6 +1,4 @@
----
-title: Connect the Gateway with Chirpstack
----
+
 # Connect the Gateway with Chirpstack
 
 The ChirpStack or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [here](https://www.chirpstack.io/).

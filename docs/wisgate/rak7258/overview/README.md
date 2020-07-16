@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/wisgate/rak7258/quickstart/1.main
-rak_img: /assets/images/wisgate/rak7258/quickstart/RAK7258.svg
+rak_img: /assets/images/wisgate/rak7258/quickstart/1.main/RAK7258.svg
 rak_grp: [wisgate, edge]
 params:
   qlinks1:
@@ -31,7 +31,7 @@ params:
   caption="RAK7258 Micro Gateway"
 />
 
-### Product Background
+## Product Background
 
 The **RAK7258 Micro Gateway** is a full 8-channel Gateway with built-in Ethernet connectivity for a straightforward setup. Additionally, there is an on-board Wi-Fi setup that allows it to be easily configured via the default Wi-Fi AP mode.
 
@@ -52,7 +52,7 @@ The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and an
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
 
-### Product Features
+## Product Features
 
 - Full LoRaWAN® 1.0.2 Stack support
 - 100M base-T Ethernet with PoE (802.3 af)

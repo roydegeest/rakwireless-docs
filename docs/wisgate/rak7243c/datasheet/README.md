@@ -5,7 +5,7 @@ sidebarDepth: 4
 prev: /wisgate/rak7243c/overview/
 ---
 
-# RAK7243C Pilot Gateway
+# RAK7243C Pilot Gateway Datasheet
 
 <rk-img
   src="/assets/images/wisgate/rak7243c/datasheet/1.rak7243c-overview.png"
