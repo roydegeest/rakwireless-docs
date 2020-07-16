@@ -2,6 +2,8 @@
 static_root: /assets/images/wisduo/rak4600-evaluation-board/overview
 rak_img: RAK4600-evaluation-board.svg
 rak_grp: wisduo
+prev: false
+next: false
 params:
   qlinks1:
     learnMore:

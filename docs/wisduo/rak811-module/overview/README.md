@@ -9,7 +9,7 @@ params:
       - name: Support
         href: mailto:fomi@rakwireless.com
 rak_img: /assets/images/wisduo/rak811-module/overview/nwgqobrzwanalynildkc.jpg
-rak_grp: wisnode
+rak_grp: wisduo
 ---
 
 # RAK811 LPWAN Module

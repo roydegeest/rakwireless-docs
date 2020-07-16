@@ -1,7 +1,9 @@
 ---
 static_root: /assets/images/wisduo/rak4260-evaluation-board/overview
 rak_img: 
-rak_grp: wisnode
+rak_grp: wisduo
+prev: false
+next: false
 params:
   qlinks1:
     learnMore:
