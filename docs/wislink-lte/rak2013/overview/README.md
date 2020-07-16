@@ -1,5 +1,5 @@
 ---
-rak_img: /assets/images/datasheet/rak831/rak831-overview.png
+rak_img: /assets/images/wislink-lte/rak2013/datasheet/rak2013.jpg
 rak_grp: wislink-lte
 qlinks:
   learnMore:
@@ -15,9 +15,9 @@ qlinks:
     - name: Certification Report
       href: /wislink-lte/rak2013/datasheet/#certification
     - name: User Manual
-      href: /wislink-lte/rak831/datasheet
+      href: /user-manual/
     - name: Deployment Guide
-      href: /wislink-lte/rak831/datasheet
+      href: /deployment-guide/
 ---
 
 # RAK2013 Cellular

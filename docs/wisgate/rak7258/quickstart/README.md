@@ -12,14 +12,14 @@ next: wall-mounting-guide
   caption="RAK7258 Micro Gateway Internal Board"
 />
 
-### What do you need?
+## What do you need?
 
 1. **RAK7258 Micro Gateway**
 2. Ethernet Cable (RJ-45 Port)
 3. A Windows/Mac OS/Linux Computer
 
 
-### What's included in the Package?
+## What's included in the Package?
 
 <rk-img
   src="/assets/images/wisgate/rak7258/quickstart/2.quickstart/package_contents.jpg"

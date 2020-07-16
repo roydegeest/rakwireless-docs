@@ -2,9 +2,11 @@
 tags: + datasheet
 sidebar: auto
 sidebarDepth: 4
+prev: ../overview/
+next: false
 ---
 
-# RAK831 LPWAN Gateway Concentrator
+# RAK831 LPWAN Gateway Concentrator Datasheet
 
 <rk-img
   src="/assets/images/wislink-lora/rak831/datasheet/rak831-overview.png"

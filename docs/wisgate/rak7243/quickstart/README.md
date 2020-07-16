@@ -12,7 +12,7 @@ next: access-the-gateway
   caption="RAK7243 Product Overview"
 />
 
-### What do you need?
+## What do you need?
 
 1. RAK7243 LPWAN Developer Gateway
 2. 16GB SD Card (included) + Card Reader
@@ -20,7 +20,7 @@ next: access-the-gateway
 4. A Windows/Mac OS/Linux Computer
 
 
-### What's included in the Package?
+## What's included in the Package?
 
 <rk-img
   src="/assets/images/wisgate/rak7243/quickstart/2.quickstart/package.png"

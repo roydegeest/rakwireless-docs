@@ -28,19 +28,19 @@ module.exports = {
       collapsable: false,
       sidebarDepth: 4,
       children: [
-        '/en-us/datasheet/nodes/rak811-breakout/',
-        '/en-us/datasheet/nodes/rak811-evaluation/',
-        '/en-us/datasheet/nodes/rak813/',
-        '/en-us/datasheet/nodes/rak815/',
-        '/en-us/datasheet/nodes/rak4200-breakout/',
-        '/en-us/datasheet/nodes/rak4200-evaluation/',
-        '/en-us/datasheet/nodes/rak4260-breakout/',
-        '/en-us/datasheet/nodes/rak4260-evaluation/',
-        '/en-us/datasheet/nodes/rak4600-breakout/',
-        '/en-us/datasheet/nodes/rak4600-evaluation/',
-        '/en-us/datasheet/nodes/rak7205-5205/',
-        '/en-us/datasheet/nodes/rak7204/',
-        '/en-us/datasheet/nodes/rak7431/'
+        // '/en-us/datasheet/nodes/rak811-breakout/',
+        // '/en-us/datasheet/nodes/rak811-evaluation/',
+        // '/en-us/datasheet/nodes/rak813/',
+        // '/en-us/datasheet/nodes/rak815/',
+        // '/en-us/datasheet/nodes/rak4200-breakout/',
+        // // '/en-us/datasheet/nodes/rak4200-evaluation/',
+        // '/en-us/datasheet/nodes/rak4260-breakout/',
+        // '/en-us/datasheet/nodes/rak4260-evaluation/',
+        // '/en-us/datasheet/nodes/rak4600-breakout/',
+        // '/en-us/datasheet/nodes/rak4600-evaluation/',
+        // '/en-us/datasheet/nodes/rak7205-5205/',
+        // '/en-us/datasheet/nodes/rak7204/',
+        // '/en-us/datasheet/nodes/rak7431/'
       ]
     },
     {

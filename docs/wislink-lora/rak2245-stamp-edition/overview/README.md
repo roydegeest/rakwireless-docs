@@ -11,9 +11,12 @@ qlinks:
       href: mailto:fomi@rakwireless.com
   resources:
     - name: Datasheet
-      href: /en-us/datasheet/rak2245-stamp/#rak2245-stamp-edition-lpwan-gateway-concentrator-module
+      href: /wislink-lora/rak2245-stamp-edition/datasheet
     - name: 3D Model
       href: https://downloads.rakwireless.com/LoRa/RAK2245-96Boards/Hardware-Specification/RAK2245_96Boards-3D-File.zip
+
+prev: false
+next: false
 ---
 
 # RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module

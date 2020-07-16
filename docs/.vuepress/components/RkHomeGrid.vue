@@ -57,7 +57,7 @@ export default {
   data: () => ({
     ignoreScroll: false,
     groups: null,
-    defaultActive: '',
+    defaultActive: 'wisduino',
     pageSections: []
   }),
   computed: {

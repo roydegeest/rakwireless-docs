@@ -47,8 +47,8 @@ params:
     width: 100%
     figureNumber: 9
     caption: Log-in Successful Notification
-prev: /en-us/quick-start-guide/gateways/rak2245-pi-hat-edition/quick-start-guide.html#quick-start-guide
-next: accessing-the-internet
+prev: ../
+next: ./accessing-the-internet
 ---
 
 # Accessing your Gateway

@@ -10,6 +10,8 @@ params:
         href: mailto:fomi@rakwireless.com
 rak_grp: wisduo
 rak_img: 
+prev: false
+next: false
 ---
 
 # RAK4600 LPWAN Module

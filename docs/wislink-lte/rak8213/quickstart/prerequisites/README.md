@@ -1,3 +1,8 @@
+---
+prev: ../../overview/
+next: device-firmware-setup
+---
+
 # Prerequisites
 
 <rk-img

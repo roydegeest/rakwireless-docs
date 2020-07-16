@@ -9,7 +9,7 @@ params:
       - name: Support
         href: mailto:fomi@rakwireless.com
 rak_img: /assets/images/wisduo/rak4200-module/datasheet/overview.png
-rak_grp: wisnode
+rak_grp: wisduo
 ---
 # RAK4200 LPWAN Module
 

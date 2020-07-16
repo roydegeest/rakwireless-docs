@@ -446,14 +446,13 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/nodes/rak4260-breakout/': [
+  '/wisbee/rak4260-breakout-board/quickstart/': [
     {
       title: 'Product Overview',
       collapsable: false,
       sidebarDepth: 2,
       children: [
         '',
-        'prerequisites'
       ]
     },
     {
@@ -466,7 +465,7 @@ module.exports = {
           title: "Connecting to The Things Network (TTN)",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/nodes/rak4260-breakout/connecting-to-ttn/',
+          path: '/wisbee/rak4260-breakout-board/quickstart/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/otaa-mode'
           ]
@@ -503,14 +502,13 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/nodes/rak4200-breakout/': [
+  '/wisbee/rak4200-breakout-board/quickstart/': [
     {
       title: 'Product Overview',
       collapsable: false,
       sidebarDepth: 2,
       children: [
         '',
-        'prerequisites'
       ]
     },
     {
@@ -523,7 +521,7 @@ module.exports = {
           title: "Connecting to The Things Network",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/nodes/rak4200-breakout/connecting-to-ttn/',
+          path: '/wisbee/rak4200-breakout-board/quickstart/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa'
           ]
@@ -747,14 +745,13 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/nodes/rak811-breakout/': [
+  '/wisbee/rak811-breakout-board/quickstart/': [
     {
       title: 'Product Overview',
       collapsable: false,
       sidebarDepth: 2,
       children: [
         '',
-        'prerequisites'
       ]
     },
     {
@@ -768,7 +765,7 @@ module.exports = {
           title: "Connecting to the Things Network (TTN)",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start-guide/nodes/rak811-breakout/connecting-to-ttn/',
+          path: '/wisbee/rak811-breakout-board/quickstart/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa-mode',
             'connecting-to-ttn/ttn-abp-mode'
@@ -778,7 +775,7 @@ module.exports = {
           title: "Connecting to ChirpStack",
           collapsable: false,
           nested: true,
-          path: '/en-us/quick-start-guide/nodes/rak811-breakout/connecting-to-chirpstack/',
+          path: '/wisbee/rak811-breakout-board/quickstart/connecting-to-chirpstack/',
           children: [
             'connecting-to-chirpstack/chirpstack-otaa-mode',
             'connecting-to-chirpstack/chirpstack-abp-mode'
@@ -919,14 +916,13 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/nodes/rak4600-breakout/': [
+  '/wisbee/rak4600-breakout-board/quickstart/': [
     {
       title: 'Product Overview',
       collapsable: false,
       sidebarDepth: 2,
       children: [
         '',
-        'prerequisites'
       ]
     },
     {
@@ -939,7 +935,7 @@ module.exports = {
           title: "Connecting to The Things Network",
           nested: true,
           collapsable: false,
-          path: '/en-us/quick-start-guide/nodes/rak4600-breakout/connecting-to-ttn/',
+          path: '/wisbee/rak4600-breakout-board/quickstart/connecting-to-ttn/',
           children: [
             'connecting-to-ttn/ttn-otaa'
           ]

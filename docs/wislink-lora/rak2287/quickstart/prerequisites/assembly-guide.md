@@ -1,8 +1,3 @@
----
-prev: /en-us/quick-start-guide/gateways/rak2287/prerequisites/device-firmware.html#device-firmware-setup
-next: /en-us/quick-start-guide/gateways/rak2287/prerequisites/access-the-gateway.html
----
-
 # Assembly Guide
 
 To create a functioning RAK2287 Concentrator Module WisLink Series, you need to put several components together:

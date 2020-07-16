@@ -2,9 +2,11 @@
 tags: + datasheet
 sidebar: auto
 sidebarDepth: 4
+prev: ../overview/
+next: false
 ---
 
-# RAK8213 WisLink NB-IoT Module
+# RAK8213 WisLink NB-IoT Module Datasheet
 
 <rk-img
   src="/assets/images/wislink-lte/rak8213/datasheet/wgohpslr9gz7vggih3uh.png"
