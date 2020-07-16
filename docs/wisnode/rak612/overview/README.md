@@ -1,6 +1,8 @@
 ---
 rak_img: /assets/images/wisnode/rak612/quickstart/main/RAK612.svg
 rak_grp: [wisnode,button]
+prev: false
+next: false
 params:
   qlinks1:
     learnMore:

@@ -1,6 +1,8 @@
 ---
 rak_img: /assets/images/wisnode/rak7431/datasheet/rak7431-overview.jpg
 rak_grp: [wisnode,bridge]
+prev: false
+next: false
 params:
   qlinks:
     learnMore:

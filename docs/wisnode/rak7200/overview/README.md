@@ -2,6 +2,8 @@
 static_root: /assets/images/wisnode/rak7200/quickstart/overview
 rak_img: /assets/images/wisnode/rak7200/quickstart/overview/RAK7200.svg
 rak_grp: [wisnode,track]
+prev: false
+next: false
 params:
   qlinks:
     learnMore:

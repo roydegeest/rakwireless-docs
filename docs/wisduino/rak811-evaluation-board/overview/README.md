@@ -1,6 +1,8 @@
 ---
 rak_img: /assets/images/wisduino/rak811-evaluation-board/quickstart/overview/RAK811-wisnode.svg
 rak_grp: wisduino
+prev: false
+next: false
 params:
   qlinks:
     learnMore:

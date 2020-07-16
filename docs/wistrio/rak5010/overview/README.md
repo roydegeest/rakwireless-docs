@@ -1,6 +1,8 @@
 --- 
 rak_img: /assets/images/wistrio/rak5010/quickstart/1.overview/RAK5010.svg
 rak_grp: wistrio
+prev: false
+next: false
 params:
   qlinks:
     learnMore:
