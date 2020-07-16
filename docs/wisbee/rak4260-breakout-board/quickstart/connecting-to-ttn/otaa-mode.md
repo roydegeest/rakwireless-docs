@@ -1,5 +1,5 @@
 ---
-prev: /en-us/quick-start-guide/nodes/rak4260-breakout/connecting-to-ttn/
+prev: /wisbee/rak4260-breakout-board/quickstart/connecting-to-ttn/
 ---
 
 # OTAA Mode
@@ -9,7 +9,7 @@ prev: /en-us/quick-start-guide/nodes/rak4260-breakout/connecting-to-ttn/
 These can be obtained from the Device Overview page, where they are grouped one after the other for convenience (Figure 1).
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/device-overview-parameters.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/device-overview-parameters.png"
   width="100%"
   figure-number="1"
   caption="Device Overview Parameters"
@@ -28,7 +28,7 @@ We need to execute these steps in order for our device to connect with TTN, basi
 - Open your Atmel Studio and navigate to the demo firmware you downloaded from the [RAKwireless GitHub repository](https://github.com/RAKWireless/RAK4260-LoRaNode-demo).
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/atmel-studio-main-page.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/atmel-studio-main-page.png"
   width="100%"
   figure-number="2"
   caption="Atmel Studio main page"
@@ -37,7 +37,7 @@ We need to execute these steps in order for our device to connect with TTN, basi
 - Go to `File → Open → Project/Solution:`
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/open-the-sample-project.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/open-the-sample-project.png"
   width="100%"
   figure-number="3"
   caption="Open the sample project"
@@ -46,7 +46,7 @@ We need to execute these steps in order for our device to connect with TTN, basi
 - Go to the folder where you downloaded the GitHub repository and select the "**APPS_ENDDEVICE\_\_\_DEMO1**" project file (it is in the directory with the same name as the file). Click Open.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/demo-firmware-project-file.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/demo-firmware-project-file.png"
   width="100%"
   figure-number="4"
   caption="Demo firmware project file"
@@ -55,7 +55,7 @@ We need to execute these steps in order for our device to connect with TTN, basi
 - Once your project has loaded up you will be presented with a file structure that contains folders and files that you can edit. You need to copy the values of the 3 parameters in figure 1 (**Device and Application EUI plus the Application Key**) into the corresponding fields in the “**conf_app.h**” file. It is contained in the scr config folder that you can access via the tree. You can use figure 15 as reference if you have trouble finding the file.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/device-configuration-file.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/device-configuration-file.png"
   width="100%"
   figure-number="5"
   caption="Device configuration file (OTAA parameters)"
@@ -68,7 +68,7 @@ We need to execute these steps in order for our device to connect with TTN, basi
 - Compile the code by going to the `Build → Build Solution` (Figure 6).
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/compiling-code.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/compiling-code.png"
   width="100%"
   figure-number="6"
   caption="Compiling the code"
@@ -77,7 +77,7 @@ We need to execute these steps in order for our device to connect with TTN, basi
 - The Output should have no errors same as shown in figure 7.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/successful-compiling-of-the-code.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/successful-compiling-of-the-code.png"
   width="100%"
   figure-number="7"
   caption="Compiling the code"
@@ -88,21 +88,21 @@ We need to execute these steps in order for our device to connect with TTN, basi
 - Once compiled you can find the output file in the “**Debug**” folder of the directory where you downloaded the firmware (see figure 5):
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/firmware-hex-file.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/firmware-hex-file.png"
   width="100%"
   figure-number="8"
   caption="Firmware .hex file"
 />
 
 - As the firmware is ready now you are going to proceed to flashing it. In order to do this, you need to utilize your J-link hardware tool and the J-link Flasher software tool.
-- Connect the J-link tool in accordance with the diagram shown the [Interfacing with RAK4260 LPWAN Breakout Module](/quick-start/rak4260-lpwan-breakout-module/interfacing-with-rak4260-lpwan-breakout-module#j-link-connection) in section.
+- Connect the J-link tool in accordance with the diagram shown the [Interfacing with RAK4260 LPWAN Breakout Module](/wisbee/rak4260-breakout-board/quickstart/interfacing.html#j-link-connection) in section.
 
 Once you are done connecting the board, you need to open the J-Flash tool and configure it to work with this particular chip model.
 
 - Start by creating a new project.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/jflash-new-project-window.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/jflash-new-project-window.png"
   width="100%"
   figure-number="9"
   caption="J-Flash new project window"
@@ -111,7 +111,7 @@ Once you are done connecting the board, you need to open the J-Flash tool and co
 - The next step is to select the right “**Target Device**”, to match the chip at the core of the RAK4260 LPWAN Breakout Module. Press the button with the dots on it in figure 10 and you will be redirected to the selection screen.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/new-project-settings.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/new-project-settings.png"
   width="100%"
   figure-number="10"
   caption="New project settings"
@@ -120,7 +120,7 @@ Once you are done connecting the board, you need to open the J-Flash tool and co
 - Select “**Atmel**” as the manufacturer via the drop-down menu and navigate to the **ATSAMR34J18** list entry. This is the chip at the core of the RAK4260 LPWAN Breakout Module, so we need to instruct the J-Flash tool that we are going to be working with it as shown in figure 11.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/device-selection.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/device-selection.png"
   width="100%"
   figure-number="11"
   caption="Device selection"
@@ -129,7 +129,7 @@ Once you are done connecting the board, you need to open the J-Flash tool and co
 - You will be redirected to the main project window where the newly selected device will be shown. Leave the rest of the parameters with their default values. If for some reason they diverge from what is shown in figure 12, adjust them.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/project-settings.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/project-settings.png"
   width="100%"
   figure-number="12"
   caption="Project settings"
@@ -138,7 +138,7 @@ Once you are done connecting the board, you need to open the J-Flash tool and co
 - Now the new project will initialize and you need to instruct the tool to connect to the device. Do this by going to `Target → Connect` in the menu list on the top.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/device-connection.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/device-connection.png"
   width="100%"
   figure-number="13"
   caption="Device connection"
@@ -147,7 +147,7 @@ Once you are done connecting the board, you need to open the J-Flash tool and co
 - The “**LOG**” window should reflect the connection process log and end up with a “Connection successful” message if everything went smoothly (See figure 14).
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/device-log-successful-connection.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/device-log-successful-connection.png"
   width="100%"
   figure-number="14"
   caption="Device log (connection successful)"
@@ -156,7 +156,7 @@ Once you are done connecting the board, you need to open the J-Flash tool and co
 - At this point you have access to the device and now can burn the firmware file into it. Navigate to it via the `File → Open data file…` menu and browse for the _.hex_ file. Figure 8 shows the location of our example.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/loading-the-firmware-file.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/loading-the-firmware-file.png"
   width="100%"
   figure-number="15"
   caption="Loading the firmware file into the tool."
@@ -165,7 +165,7 @@ Once you are done connecting the board, you need to open the J-Flash tool and co
 - If you have managed to load the correct file the data in it will be visualized in a new window in HEX values. The only thing left to do now is tell the tool to flash it. Navigate to `Target → Production` Programming, or press **F7** to start the process.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/flashing-the-firmware.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/flashing-the-firmware.png"
   width="100%"
   figure-number="16"
   caption="Flashing the firmware."
@@ -174,7 +174,7 @@ Once you are done connecting the board, you need to open the J-Flash tool and co
 - The firmware flashing process will initiate and there will be a blue bar that starts filling, reflecting the progress of the operation. Once the process completes successfully you will be shown a message window stating this, together with the time it took for the operation to finish (See figure 17).
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/loading-the-firmware-file.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/loading-the-firmware-file.png"
   width="100%"
   figure-number="17"
   caption="Loading the firmware file into the tool"
@@ -184,7 +184,7 @@ You are now done with flashing the modified firmware and can close the J-Flash t
 
 ## Connecting to TTN
 
-- Connect your USB to UART converter to the pin header on the RAK4260 via a set of 4 dupont lines. Refer to the [Interfacing with RAK4260 LPWAN Breakout Module](/quick-start/rak4260-breakout/interfacing.html#usb-to-uart) section for more details.
+- Connect your USB to UART converter to the pin header on the RAK4260 via a set of 4 dupont lines. Refer to the [Interfacing with RAK4260 LPWAN Breakout Module](/wisbee/rak4260-breakout-board/quickstart/interfacing.html) section for more details.
 
 ### Regional Band and Join Network Setup
 
@@ -195,7 +195,7 @@ In our example this would be the EU868 for the region. We are going to show how 
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/startup-default-output.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/startup-default-output.png"
   width="50%"
   figure-number="18"
   caption="Start up default output"
@@ -210,7 +210,7 @@ These settings are not adjustable at this stage and if you want to change them y
 - If you use Figure 19 as reference, you will see there is a list of 4 options to choose from. Go to the “**Main Menu**” by sending a 4.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/configuration-menu.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/configuration-menu.png"
   width="50%"
   figure-number="19"
   caption="Configuration menu"
@@ -219,7 +219,7 @@ These settings are not adjustable at this stage and if you want to change them y
 - Afterwhich, send 1 in order to select EU868 Regional Band. You may also choose a different number as selection depending on your case.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/band-selection-menu.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/band-selection-menu.png"
   width="50%"
   figure-number="20"
   caption="Band selection menu"
@@ -228,7 +228,7 @@ These settings are not adjustable at this stage and if you want to change them y
 - After you have selected the band, the device will automatically try to connect to the network using the **Device EUI, Application EUI and Application Key** set in the firmware configuration file. These are also reported in the window in figure 21.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/network-join-parameters-set.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/network-join-parameters-set.png"
   width="50%"
   figure-number="21"
   caption="Network join parameters set"
@@ -237,7 +237,7 @@ These settings are not adjustable at this stage and if you want to change them y
 - If the device was successful at joining the network, this will be reported with the Device Address it has been assigned and the parameters will be reported again (Class A, OTAA, etc.) You will be presented with the Configuration menu (Figure 19) again in case you want to execute another selection. We will do this in the next section, where we will send some uplink data to the network.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/successful-network-join.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/successful-network-join.png"
   width="50%"
   figure-number="22"
   caption="Successful network join"
@@ -248,7 +248,7 @@ These settings are not adjustable at this stage and if you want to change them y
 - You should now be in the Main menu (see figure 23) and have 4 options. This time **select Option 2** to send an uplink LoRa® Frame.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/sending-data-to-the-server.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/sending-data-to-the-server.png"
   width="50%"
   figure-number="23"
   caption="Sending data to the server"
@@ -259,7 +259,7 @@ The firmware uploaded into the RAK4260 LPWAN Breakout Module is just an example.
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4260-breakout/ttn/sending-data-successful.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/quickstart/ttn/sending-data-successful.png"
   width="50%"
   figure-number="24"
   caption="Sending data to the server (successful)"

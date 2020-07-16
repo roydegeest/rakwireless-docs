@@ -1,6 +1,8 @@
 ---
 rak_img: /assets/images/wisgate/rak7240/quickstart/rak7240.png
 rak_grp: [wisgate, edge]
+prev: false
+next: false
 params:
   qlinks1:
     learnMore:

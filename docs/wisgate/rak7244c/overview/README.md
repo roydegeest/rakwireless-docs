@@ -2,6 +2,8 @@
 static_root: /assets/images/wisgate/rak7244c/quickstart/overview
 rak_img: /assets/images/wisgate/rak7244c/quickstart/overview/RAK7244C.svg
 rak_grp: [wisgate, developer]
+prev: false
+next: false
 params:
   qlinks1:
     learnMore:

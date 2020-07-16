@@ -1,11 +1,14 @@
 ---
 tags: + datasheet
+sidebar: auto
+sidebarDepth: 4
+prev: /wisbee/rak4260-breakout-board/overview/
 ---
 
-# RAK4260 Breakout Module
+# RAK4260 Breakout Module Datasheet
 
 <rk-img
-  src="/assets/images/datasheet/rak4260-breakout/rak4260-breakout.jpg"
+  src="/assets/images/wisbee/rak4260-breakout-board/datasheet/rak4260-breakout.jpg"
   width="50%"
   caption="RAK4260 WisDuo LPWAN Breakout Module"
 />
@@ -47,13 +50,13 @@ The low power, long range LoRa® communication capabilities of the module make i
 The figure below shows the top and bottom view of the RAK4260 Breakout Module:
 
 <rk-img
-  src="/assets/images/datasheet/rak4260-breakout/rak4260b-top-view.jpg"
+  src="/assets/images/wisbee/rak4260-breakout-board/datasheet/rak4260b-top-view.jpg"
   width="25%"
   caption="RAK4260 LPWAN Breakout Module Top View"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak4260-breakout/rak4260b-bottom-view.jpg"
+  src="/assets/images/wisbee/rak4260-breakout-board/datasheet/rak4260b-bottom-view.jpg"
   width="25%"
   caption="RAK4260 LPWAN Breakout Module Bottom View"
 />
@@ -94,7 +97,7 @@ There are two UART interfaces on RAK4200 module:
 #### Pin Definition
 
 <rk-img
-  src="/assets/images/datasheet/rak4260-breakout/pinout.jpg"
+  src="/assets/images/wisbee/rak4260-breakout-board/datasheet/pinout.jpg"
   width="75%"
   caption="RAK4260 LPWAN Breakout Module Pinout"
 />
@@ -180,7 +183,7 @@ The RAK4260 LPWAN Breakout Module supports the following LoRa® bands:
 #### Schematic Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak4260-breakout/schematic-diagram.png"
+  src="/assets/images/wisbee/rak4260-breakout-board/datasheet/schematic-diagram.png"
   width="100%"
   caption="RAK4260 Breakout Module Schematic Diagram"
 />

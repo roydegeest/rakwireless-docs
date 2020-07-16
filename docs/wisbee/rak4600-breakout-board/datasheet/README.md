@@ -1,14 +1,18 @@
 ---
 tags: + datasheet
+sidebar: auto
+sidebarDepth: 4
+prev: /wisbee/rak4600-breakout-board/overview/
 ---
 
-# RAK4600 Breakout Module
+# RAK4600 Breakout Module Datasheet
 
 <rk-img
-  :src="`${$frontmatter.static_root}/xfnxl2vaseqi9anuveom.jpg`"
+  src="/assets/images/wisbee/rak4600-breakout-board/datasheet/overview/xfnxl2vaseqi9anuveom.jpg"
   width="60%"
   caption="RAK4600 Breakout Module"
 />
+
 
 ### Product Description
 
@@ -42,7 +46,7 @@ The RF communication capabilities of the module (LoRa® + BLE) make it suitable 
 The figure below shows the top view of the RAK4600 Breakout Module.
 
 <rk-img
-  src="/assets/images/datasheet/rak4600-breakout/board-overview/cwr7pftlffhyogeuzahz.jpg"
+  src="/assets/images/wisbee/rak4600-breakout-board/datasheet/board-overview/cwr7pftlffhyogeuzahz.jpg"
   width="40%"
   caption="RAK4600 Breakout Board Illustration"
 />
@@ -92,7 +96,7 @@ Two physical pins can be configured either as NFC antenna pins (factory default)
 The figure below shows the pinout of the RAK4600 Breakout Module:
 
 <rk-img
-  src="/assets/images/datasheet/rak4600-breakout/pin-definition/bqiem8snfmmzg4hl3mk3.jpg"
+  src="/assets/images/wisbee/rak4600-breakout-board/datasheet/pin-definition/bqiem8snfmmzg4hl3mk3.jpg"
   width="100%"
   caption="RAK4600 Breakout Module Pinout"
 />
@@ -169,7 +173,7 @@ The table below shows the power consumption of RAK4600 Breakout Module:
 The RAK4600 Breakout Board circuit is shown below:
 
 <rk-img
-  src="/assets/images/datasheet/rak4600-breakout/schematic-diagram/tyd3goloywnp7wbiflva.jpg"
+  src="/assets/images/wisbee/rak4600-breakout-board/datasheet/schematic-diagram/tyd3goloywnp7wbiflva.jpg"
   width="100%"
   caption="RAK4600 Breakout Module Schematic"
 />

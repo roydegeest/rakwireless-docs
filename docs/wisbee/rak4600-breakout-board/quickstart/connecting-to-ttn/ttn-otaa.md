@@ -1,5 +1,5 @@
 ---
-prev: /en-us/quick-start-guide/nodes/rak4600-breakout/connecting-to-ttn/
+prev:/wisbee/rak4600-breakout-board/quickstart/connecting-to-ttn/
 ---
 
 # OTAA Mode
@@ -7,7 +7,7 @@ prev: /en-us/quick-start-guide/nodes/rak4600-breakout/connecting-to-ttn/
 When setting up a new device in TTN its default is to join in OTAA mode. For configuration, you need the following three parameters: **Device EUI, Application EUI** and **App Key**. You can get them all from the **Overview page**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/otaa-device-overview.png"
+  src="/assets/images/wisbee/rak4600-breakout-board/quickstart/connecting-ttn/otaa-device-overview.png"
   width="100%"
   figure-number="1"
   caption="Device Overview Parameters"
@@ -41,7 +41,7 @@ at+set_config=lora:region:EU868
 ```
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/at-command-join.png"
+  src="/assets/images/wisbee/rak4600-breakout-board/quickstart/connecting-ttn/at-command-join.png"
   width="50%"
   figure-number="2"
   caption="AT Command for OTAA Join Mode, Class and Region"
@@ -70,7 +70,7 @@ at+set_config=lora:app_key:XXXX
 ```
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/at-command-otaa-device-eui.png"
+  src="/assets/images/wisbee/rak4600-breakout-board/quickstart/connecting-ttn/at-command-otaa-device-eui.png"
   width="50%"
   figure-number="3"
   caption="AT Command for OTAA Device EUI, Application EUI and Application Key"
@@ -89,7 +89,7 @@ at+join
 ```
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/at-command-otaa-serial-port.png"
+  src="/assets/images/wisbee/rak4600-breakout-board/quickstart/connecting-ttn/at-command-otaa-serial-port.png"
   width="50%"
   figure-number="4"
   caption="AT Command for OTAA LoRa® Join via RAK Serial Port Tool"
@@ -102,7 +102,7 @@ at+send=lora:2:0123456789
 ```
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/otaa-test-sample-data.png"
+  src="/assets/images/wisbee/rak4600-breakout-board/quickstart/connecting-ttn/otaa-test-sample-data.png"
   width="50%"
   figure-number="5"
   caption="OTAA Test Sample Data Sent via RAK Serial Port Tool"
@@ -111,7 +111,7 @@ at+send=lora:2:0123456789
 You can then see the data sent from RAK4600 LPWAN Breakout Module on TTN website as follows:
 
 <rk-img
-src="/assets/images/quick-start-guide/rak4600-breakout/connecting-ttn/otaa-test-sample-sent.png""
+src="/assets/images/wisbee/rak4600-breakout-board/quickstart/connecting-ttn/otaa-test-sample-sent.png""
 width="100%"
 figure-number="6"
 caption="OTAA Test Sample Data Sent Viewed in The Things Network"

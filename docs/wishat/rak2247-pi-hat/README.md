@@ -1,0 +1,1 @@
+<rk-redirect to="/wishat/rak2247-pi-hat/overview" />

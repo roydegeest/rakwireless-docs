@@ -1,11 +1,14 @@
 ---
 tags: + datasheet
+sidebar: auto
+sidebarDepth: 4
+prev: /wishat/rak9003-poe-hat/overview/
 ---
 
-# RAK9003 PoE Hat
+# RAK9003 PoE Hat Datasheet
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/rak9003-poe-hat.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/rak9003-poe-hat.png"
   width="75%"
   caption="RAK9003 PoE Hat"
 />
@@ -18,7 +21,7 @@ The PoE HAT is an add-on board with Raspberry PI form factor which can be plugge
 
 The PoE HAT is designed to be compatible with the IEEE 802.3af/at Power-over-Ethernet (PoE), it is compatible with both PoE Mode A and Mode B. The PoE HAT signature and control circuit provides the PoE AT compatibility signature and power classification required by the Power Sourcing Equipment (PSE) before applying up to 30W power to the port. The PoE HAT is compatible with Class 0 to Class 4 equipment. The high efficiency DC/DC converter operates over a wide input voltage range and provides a regulated low ripple and low noise output. The DC/DC converter also has built-in overload and short-circuit output protection.
 
-### Features
+### Key Features
 
 - Raspberry Pi form factor with a 40pin compatible header (**Pi3 B, Pi4** compatible)
 - Conforming to the IEEE 802.3af/at (mode A & mode B), **25W Max Load**.
@@ -39,7 +42,7 @@ The PoE HAT is designed to be compatible with the IEEE 802.3af/at Power-over-Eth
 #### Block Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/poe-hat-block-diagram.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/poe-hat-block-diagram.png"
   width="100%"
   caption="PoE HAT Block Diagram"
 />
@@ -49,7 +52,7 @@ The PoE HAT is designed to be compatible with the IEEE 802.3af/at Power-over-Eth
 #### Pin Definition
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/raspberry-pi-connector-overview.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/raspberry-pi-connector-overview.png"
   width="100%"
   figure-number="3"
   caption="Raspberry Pi Connector Overview"
@@ -103,97 +106,97 @@ The PoE HAT is designed to be compatible with the IEEE 802.3af/at Power-over-Eth
 ##### Typical Characteristics
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/noise-fig-1.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/noise-fig-1.png"
   width="75%"
   caption="Noise VIN = 42V, IO = 5A, 5~20MHz Bandwidth"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/transient-response-fig-2.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/transient-response-fig-2.png"
   width="75%"
   caption="Transient Response, VIN = 42V IO = 50% ~ 100% ~ 50%"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/noise-fig-3.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/noise-fig-3.png"
   width="75%"
   caption="Noise VIN = 48V, IO = 5A, 5~20MHz Bandwidth"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/transient-response-fig-4.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/transient-response-fig-4.png"
   width="75%"
   caption="Transient Response, VIN = 48V, IO = 50% ~ 100% ~ 50%"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/noise-fig-5.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/noise-fig-5.png"
   width="75%"
   caption="Noise VIN = 57V, IO = 5A, 5~20MHz Bandwidth"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/transient-response-fig-6.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/transient-response-fig-6.png"
   width="75%"
   caption="Transient Response VIN = 57V, IO = 50% ~ 100% ~ 50%"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/power-down-fig-7.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/power-down-fig-7.png"
   width="75%"
   caption="Power Down VIN = 42V, C1: Output Voltage, C2: PSE Out, C3: Input Current, ILoad = 100% IO max"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/short-circuit-output-fig-8.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/short-circuit-output-fig-8.png"
   width="75%"
   caption="Short-Circuit Output, VIN = 42V"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/power-down-fig-9.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/power-down-fig-9.png"
   width="75%"
   caption="Power Down VIN = 48V, C1: Output Voltage, C2: PSE Out, C3: Input Current, ILoad = 100% IO max"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/short-circuit-output-fig-10.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/short-circuit-output-fig-10.png"
   width="75%"
   caption="Short-Circuit Output, VIN = 48V"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/power-down-fig-11.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/power-down-fig-11.png"
   width="75%"
   caption="Power Down, VIN = 57V, C1: Output Voltage, C2: PSE Out, C3: Input Current, ILoad = 100% IO max"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/short-circuit-output-fig-12.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/short-circuit-output-fig-12.png"
   width="75%"
   caption="Short-Circuit Output VIN = 57V"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/efficiency.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/efficiency.png"
   width="75%"
   caption="Efficiency"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/power-dissipation.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/power-dissipation.png"
   width="75%"
   caption="Power Dissipation"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/startup-form-fig-15.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/startup-form-fig-15.png"
   width="75%"
   caption="Startup form 56V 802.3at PSE, C1: Output Voltage, C2: PSE Out, C3: Input Current, ILoad = 100% IO max"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak9003-poe-hat/derating-curve.png"
+  src="/assets/images/wishat/rak9003-poe-hat/datasheet/derating-curve.png"
   width="75%"
   caption="Derating Curve"
 />
