@@ -14,7 +14,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: Datasheet
-        href: /wisgate/rak7240/datasheet
+        href: /wisgate/rak7240/datasheet/
       - name: Certification Report
         href: /wisgate/rak7240/datasheet/#certification
       - name: User Manual
