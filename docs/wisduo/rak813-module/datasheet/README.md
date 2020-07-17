@@ -1,11 +1,16 @@
 ---
-tags: + datasheet
+sidebar: auto
+sidebarDepth: 4
+tags:
+- datasheet
+- wisduo
+prev: ../overview/
 ---
 
-# RAK813 BLE+LoRa®
+# RAK813 BLE+LoRa® Datasheet
 
 <rk-img
-  src="/assets/images/datasheet/rak813/overview/RAK813.jpg"
+  src="/assets/images/wisduo/rak813-module/datasheet/overview/RAK813.jpg"
   width="30%"
   caption="RAK813 Module"
 />
@@ -51,7 +56,7 @@ RAK813 supports various protocols, including the newest BLE and LoRaWAN®, where
 **RAK813 BLE+ LoRa®** has outer dimensions of 27.2 mm x 23 mm x 1.7 mm.
 
 <rk-img
-  src="/assets/images/datasheet/rak813/board-overview/rak813-board-dimension.png"
+  src="/assets/images/wisduo/rak813-module/datasheet/board-overview/rak813-board-dimension.png"
   width="60%"
   caption="RAK813 Board Dimensions"
 />
@@ -61,7 +66,7 @@ RAK813 supports various protocols, including the newest BLE and LoRaWAN®, where
 The block diagram of the module is depicted in the figure below.
 
 <rk-img
-  src="/assets/images/datasheet/rak813/interfaces/block-diagram.png"
+  src="/assets/images/wisduo/rak813-module/datasheet/interfaces/block-diagram.png"
   width="100%"
   caption="RAK813 Block Diagram"
 />
@@ -69,7 +74,7 @@ The block diagram of the module is depicted in the figure below.
 ### System Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak813/interfaces/system-diagram.png"
+  src="/assets/images/wisduo/rak813-module/datasheet/interfaces/system-diagram.png"
   width="100%"
   caption="System Diagram"
 />
@@ -79,7 +84,7 @@ The block diagram of the module is depicted in the figure below.
 ### Pin Definition
 
 <rk-img
-  src="/assets/images/datasheet/rak813/pin-definition/rak813-pinout.png"
+  src="/assets/images/wisduo/rak813-module/datasheet/pin-definition/rak813-pinout.png"
   width="80%"
   caption="Pin Out Diagram for RAK813"
 />
@@ -160,7 +165,7 @@ The block diagram of the module is depicted in the figure below.
 This section provides the mechanical Dimension of RAK813 as shown below.
 
 <rk-img
-  src="/assets/images/datasheet/rak813/mechanical-dimension/veq8asjwdqh1rpm9fape.png"
+  src="/assets/images/wisduo/rak813-module/datasheet/mechanical-dimension/veq8asjwdqh1rpm9fape.png"
   width="100%"
   caption="Mechanical Dimensions of RAK813"
 />
@@ -168,7 +173,7 @@ This section provides the mechanical Dimension of RAK813 as shown below.
 #### Recommended Reflow Profile
 
 <rk-img
-  src="/assets/images/datasheet/rak813/reflow-profile/reflow-profile.png"
+  src="/assets/images/wisduo/rak813-module/datasheet/reflow-profile/reflow-profile.png"
   width="100%"
   caption="Reflow Profile for RAK813"
 />
