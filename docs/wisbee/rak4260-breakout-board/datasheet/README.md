@@ -194,4 +194,4 @@ The RAK4260 LPWAN Breakout Module supports the following LoRa® bands:
 
 | Model   | Source                                                                          |
 | ------- | ------------------------------------------------------------------------------- |
-| RAK4260 | [Download](https://downloads.rakwireless.com/LoRa/RAK4260/Firmware/RAK4260.rar) |
+| **RAK4260** | [Download](https://downloads.rakwireless.com/LoRa/RAK4260/Firmware/RAK4260.rar) |

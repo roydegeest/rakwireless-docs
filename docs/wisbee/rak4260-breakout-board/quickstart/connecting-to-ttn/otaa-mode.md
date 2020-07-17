@@ -4,7 +4,7 @@ prev: /wisbee/rak4260-breakout-board/quickstart/connecting-to-ttn/
 
 # OTAA Mode
 
-**OTAA** stands for **Over The Air Activation**. We will not delve into details, however the most important thing from practical perspective is that a device needs to have the 3 parameters (Device EUI, Application EUI, and App Key) we already explained in brief in the previous section, set correctly in order for the LoRa® Server to allow it to access the network.
+**OTAA** stands for **Over The Air Activation**. We will not delve into details, however the most important thing from practical perspective is that a device needs to have the 3 parameters (**Device EUI**, **Application EUI**, and **App Key**) we already explained in brief in the previous section, set correctly in order for the LoRa® Server to allow it to access the network.
 
 These can be obtained from the Device Overview page, where they are grouped one after the other for convenience (Figure 1).
 

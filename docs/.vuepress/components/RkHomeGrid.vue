@@ -1,5 +1,5 @@
 <template>
-  <div class="row full-width no-wrap">
+  <div class="row full-width no-wrap" style="height: 90vh">
     <div class="q-pr-lg">
       <rk-page-sections
         :default-active="defaultActive"
@@ -49,6 +49,9 @@
       </q-scroll-area>
     </div>
   </div>
+  <!-- <div v-else>
+    <q-spinner-dots size="2.5rem" color="blue-10" />
+  </div>-->
 </template>
 
 <script>
@@ -57,7 +60,7 @@ export default {
   data: () => ({
     ignoreScroll: false,
     groups: null,
-    defaultActive: 'wisduino',
+    defaultActive: 'wisbee',
     pageSections: []
   }),
   computed: {
@@ -110,16 +113,20 @@ export default {
     rakGrp(rak_grp) {
       if (!rak_grp) return 'Others'
       switch (rak_grp) {
+        case 'wisbee':
+          return 'WisBee'
         case 'wisduino':
           return 'WisDuino'
         case 'wisduo':
           return 'WisDuo'
         case 'wisgate':
           return 'WisGate'
+        case 'wishat':
+          return 'WisHat'
         case 'wislink-lora':
-          return 'WislinkLora'
+          return 'WisLink-Lora'
         case 'wislink-lte':
-          return 'WislinkLTE'
+          return 'WisLink-LTE'
         case 'wisnode':
           return 'WisNode'
         case 'wistrio':

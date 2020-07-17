@@ -39,10 +39,6 @@ Last but not least, the RAK7204 adopts a highly integrated design. The environme
 
 ### Overview
 
-#### Board Overview
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus dolor at arcu pulvinar, vitae accumsan risus viverra. Mauris feugiat congue gravida. Curabitur ornare vulputate neque, vitae euismod urna varius tempor. Duis facilisis nulla purus, sed pharetra felis interdum a. In lacus arcu, commodo ut viverra eu, mollis eget massa. Pellentesque suscipit mi ac justo luctus viverra vitae ut ligula. Sed feugiat vitae est non convallis. Praesent quis laoreet sapien, sit amet mattis nisl.
-
 #### Typical Application
 
 The combination of the BME680 environmental unit and the LoRa radio make this device especially suite for deploying sensor networks of large size in tall buildings or warehouses, for example.
@@ -151,10 +147,6 @@ Listed below are the individual specifications of sensors attached within the RA
 | IAQ Range         | 0    |         | 500  |
 | Accuracy          |      | 15      |      |
 | Output Resolution |      | 1       |      |
-
-#### Schematic Diagram
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus dolor at arcu pulvinar, vitae accumsan risus viverra. Mauris feugiat congue gravida. Curabitur ornare vulputate neque, vitae euismod urna varius tempor. Duis facilisis nulla purus, sed pharetra felis interdum a. In lacus arcu, commodo ut viverra eu, mollis eget massa. Pellentesque suscipit mi ac justo luctus viverra vitae ut ligula. Sed feugiat vitae est non convallis. Praesent quis laoreet sapien, sit amet mattis nisl.
 
 ### Software
 

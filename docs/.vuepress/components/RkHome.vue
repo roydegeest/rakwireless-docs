@@ -11,7 +11,7 @@
         class="text-h6 text-weight-regular"
       >The RAKwireless Docs is a great place to explore our hardware, software and developer tools, and find all the information you need to get started in your LoRa® project!</div>
     </div>
-    <rk-home-grid id="rk-home-grid" style="height: 90vh; margin-top: 2rem" />
+    <rk-home-grid id="rk-home-grid" style="margin-top: 2rem" />
   </div>
   <!-- <div class="flex flex-center bg-primary q-pa-sm text-white">
     <div
