@@ -137,7 +137,7 @@ export default {
     }
   },
   mounted() {
-    console.log('pages: ', this.overviews)
+    // console.log('pages: ', this.overviews)
     for (const qs of this.overviews) {
       const { rak_grp } = qs.frontmatter
       let index, index2
@@ -158,7 +158,7 @@ export default {
             rak_grp
           )
       }
-      console.log('indexes: ', index, index2)
+      // console.log('indexes: ', index, index2)
       if (!this.groups) this.groups = {}
       if (!this.groups[index]) this.groups[index] = []
       if (index2) {
@@ -175,7 +175,7 @@ export default {
         ordered[key] = unordered[key]
       })
     this.groups = ordered
-    console.log('pages: ', this.groups)
+    // console.log('pages: ', this.groups)
 
     // set page sections
     Object.keys(this.groups).map(g => {
