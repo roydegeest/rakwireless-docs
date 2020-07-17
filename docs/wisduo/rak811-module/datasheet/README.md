@@ -1,7 +1,7 @@
 ---
 prev: ../overview/
-tags: 
-  - datasheet 
+tags:
+  - datasheet
   - wisduo
 sidebar: auto
 sidebarDepth: 4
@@ -50,10 +50,6 @@ The RAK811 Module is integrated with Semtech's SX1276 and STM32L which offers us
 ## Specifications
 
 ### Overview
-
-#### Module Overview
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus dolor at arcu pulvinar, vitae accumsan risus viverra. Mauris feugiat congue gravida. Curabitur ornare vulputate neque, vitae euismod urna varius tempor. Duis facilisis nulla purus, sed pharetra felis interdum a. In lacus arcu, commodo ut viverra eu, mollis eget massa. Pellentesque suscipit mi ac justo luctus viverra vitae ut ligula. Sed feugiat vitae est non convallis. Praesent quis laoreet sapien, sit amet mattis nisl.
 
 #### Block Diagram
 

@@ -242,10 +242,6 @@ The dimensions of the RAK4260 WisDuo LPWAN Module is shown in the figures below.
   caption="RAK4260 Side View Dimensions"
 />
 
-#### Recommended Reflow Profile
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus dolor at arcu pulvinar, vitae accumsan risus viverra. Mauris feugiat congue gravida. Curabitur ornare vulputate neque, vitae euismod urna varius tempor. Duis facilisis nulla purus, sed pharetra felis interdum a. In lacus arcu, commodo ut viverra eu, mollis eget massa. Pellentesque suscipit mi ac justo luctus viverra vitae ut ligula. Sed feugiat vitae est non convallis. Praesent quis laoreet sapien, sit amet mattis nisl.
-
 #### Schematic Diagram
 
 <rk-img

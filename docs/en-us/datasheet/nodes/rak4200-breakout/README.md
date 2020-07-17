@@ -54,10 +54,6 @@ The figure below shows the top view of the RAK4200 Breakout Module:
   caption="RAK4200 Breakout Board Illustration"
 />
 
-#### Block Diagram
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse rhoncus dolor at arcu pulvinar, vitae accumsan risus viverra. Mauris feugiat congue gravida. Curabitur ornare vulputate neque, vitae euismod urna varius tempor. Duis facilisis nulla purus, sed pharetra felis interdum a. In lacus arcu, commodo ut viverra eu, mollis eget massa. Pellentesque suscipit mi ac justo luctus viverra vitae ut ligula. Sed feugiat vitae est non convallis. Praesent quis laoreet sapien, sit amet mattis nisl.
-
 ### Hardware
 
 #### Interfaces
