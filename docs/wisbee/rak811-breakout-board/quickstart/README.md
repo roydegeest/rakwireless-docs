@@ -3,7 +3,7 @@ static_root: /assets/images/wisbee/rak811-breakout-board/quickstart/quick-start-
 prev: /wisbee/rak811-breakout-board/overview/
 ---
 
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   :src="`${$frontmatter.static_root}/dzsrvm2eaasyt3shktdh.png`"

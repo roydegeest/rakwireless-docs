@@ -4,7 +4,7 @@ prev: /wisgate/rak7243c/overview/
 next: /wisgate/rak7243c/quickstart/accessing-your-gateway/#accessing-your-gateway
 ---
 
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   :src="`${$frontmatter.static_root}/1.s9bghtz7l7a7ivpbkwce.jpg`"

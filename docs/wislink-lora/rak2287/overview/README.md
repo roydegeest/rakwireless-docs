@@ -8,7 +8,7 @@ qlinks:
     - name: Community
       href: https://forum.rakwireless.com
     - name: Support
-      href: mailto:fomi@rakwireless.com
+      href: mailto:support@rakwireless.com
   resources:
     - name: Datasheet
       href: /wislink-lora/rak2287/datasheet

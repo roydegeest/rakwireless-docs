@@ -20,7 +20,7 @@ params:
   }
 ---
 
-# Quick Start Quide
+# Prerequisites
 
 <rk-img :params="$page.frontmatter.params.img1" />
 

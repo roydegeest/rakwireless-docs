@@ -3,7 +3,7 @@ prev: /wisgate/rak7258/overview/
 next: wall-mounting-guide
 ---
 
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   src="/assets/images/wisgate/rak7258/quickstart/2.quickstart/rak7258-overview2.jpg"

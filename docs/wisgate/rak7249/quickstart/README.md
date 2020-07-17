@@ -3,7 +3,7 @@ prev: /wisgate/rak7249/overview/
 next: gateway-installation-guide
 ---
 
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/2.quickstart/antennas_installed.png"

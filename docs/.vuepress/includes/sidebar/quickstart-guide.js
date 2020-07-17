@@ -1,7 +1,7 @@
 module.exports = {
   '/wisgate/rak7246g/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       path: '',
       collapsable: false,
       sidebarDepth: 2,
@@ -32,7 +32,7 @@ module.exports = {
   ],
   '/wisgate/rak7240/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       path: '',
       collapsable: false,
       sidebarDepth: 1,
@@ -55,7 +55,7 @@ module.exports = {
   ],
   '/wisgate/rak7249/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       path: '',
       collapsable: false,
       sidebarDepth: 1,
@@ -81,7 +81,7 @@ module.exports = {
   ],
   '/wisgate/rak7258/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       path: '',
       collapsable: false,
       sidebarDepth: 1,
@@ -105,7 +105,7 @@ module.exports = {
   ],
   '/wisgate/rak7244/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       path: '',
       collapsable: false,
       sidebarDepth: 1,
@@ -135,7 +135,7 @@ module.exports = {
   ],
   '/wisgate/rak7243/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       path: '',
       collapsable: false,
       sidebarDepth: 1,
@@ -159,7 +159,7 @@ module.exports = {
   ],
   '/wisgate/rak7243c/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 2,
       children: [
@@ -189,7 +189,7 @@ module.exports = {
 
   '/wislink-lora/rak2287/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       path: '',
       collapsable: false,
       sidebarDepth: 4,
@@ -221,7 +221,7 @@ module.exports = {
 
   '/wislink-lora/rak2247/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       path: '',
       collapsable: false,
       sidebarDepth: 4,
@@ -241,7 +241,7 @@ module.exports = {
   ],
   '/wislink-lora/rak2245-pi-hat-edition/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       path: '',
       collapsable: false,
       sidebarDepth: 4,
@@ -271,7 +271,7 @@ module.exports = {
   ],
   '/wislink-lora/rak2245-stamp-edition/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 4,
       children: [
@@ -300,7 +300,7 @@ module.exports = {
   ],
   '/wisgate/rak7244/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 2,
       children: [
@@ -329,7 +329,7 @@ module.exports = {
   ],
   '/wisgate/rak7244c/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 2,
       children: [
@@ -447,7 +447,7 @@ module.exports = {
   ],
   '/wisbee/rak4260-breakout-board/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 2,
       children: [
@@ -472,38 +472,10 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/nodes/rak4260-evaluation/': [
-    {
-      title: 'Product Overview',
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        '',
-        'prerequisites'
-      ]
-    },
-    {
-      title: 'Product Configuration',
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        'burning-the-firmware',
-        'interfacing-with-rak4260',
-        {
-          title: "Connecting to The Things Network (TTN)",
-          nested: true,
-          collapsable: false,
-          path: '/en-us/quick-start-guide/nodes/rak4260-evaluation/connecting-to-ttn/',
-          children: [
-            'connecting-to-ttn/ttn-otaa'
-          ]
-        }
-      ]
-    }
-  ],
+
   '/wisbee/rak4200-breakout-board/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 2,
       children: [
@@ -527,58 +499,6 @@ module.exports = {
         }
       ]
     },
-  ],
-  '/en-us/quick-start-guide/nodes/rak4200-evaluation/': [
-    {
-      title: 'Product Overview',
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        '',
-        'prerequisites'
-      ]
-    },
-    {
-      title: 'Product Configuration',
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        'interfacing',
-        {
-          title: "Connecting to The Things Network",
-          nested: true,
-          collapsable: false,
-          path: '/en-us/quick-start-guide/nodes/rak4200-evaluation/connecting-to-ttn/',
-          children: [
-            'connecting-to-ttn/ttn-otaa',
-            'connecting-to-ttn/ttn-abp',
-          ]
-        },
-        {
-          title: "Connecting to Chirpstack",
-          nested: true,
-          collapsable: false,
-          path: '/en-us/quick-start-guide/nodes/rak4200-evaluation/connecting-to-chirpstack/',
-          children: [
-            'connecting-to-chirpstack/chirpstack-otaa',
-            'connecting-to-chirpstack/chirpstack-abp',
-          ]
-        },
-        'lora-p2p-mode'
-      ]
-    },
-    {
-      title: 'Miscellaneous',
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        'at-commands',
-        'burning-the-firmware',
-        'upgrading-the-firmware'
-      ]
-
-    }
-
   ],
   '/wisnode/rak7200/quickstart/': [
     {
@@ -663,7 +583,7 @@ module.exports = {
 
   '/wislink-lte/rak8213/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       path: '',
       collapsable: false,
       sidebarDepth: 4,
@@ -745,7 +665,7 @@ module.exports = {
   ],
   '/wisbee/rak811-breakout-board/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 2,
       children: [
@@ -916,7 +836,7 @@ module.exports = {
   ],
   '/wisbee/rak4600-breakout-board/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 2,
       children: [
@@ -940,66 +860,6 @@ module.exports = {
         }
       ]
     },
-  ],
-  '/en-us/quick-start-guide/nodes/rak4600-evaluation/': [
-    {
-      title: 'Product Overview',
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        '',
-        'prerequisites'
-      ]
-    },
-    {
-      title: 'Product Configuration',
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        {
-          title: "Interfacing with RAK4600",
-          collapsable: false,
-          nested: true,
-          path: '/en-us/quick-start-guide/nodes/rak4600-evaluation/interfacing/',
-          children: [
-            'interfacing/checking-device-logs',
-          ]
-        },
-        'configuring-rak4600',
-        {
-          title: "Connecting to The Things Network",
-          nested: true,
-          collapsable: false,
-          path: '/en-us/quick-start-guide/nodes/rak4600-evaluation/connecting-to-ttn/',
-          children: [
-            'connecting-to-ttn/ttn-otaa',
-            'connecting-to-ttn/ttn-abp',
-          ]
-        },
-        {
-          title: "Connecting to Chirpstack",
-          nested: true,
-          collapsable: false,
-          path: '/en-us/quick-start-guide/nodes/rak4600-evaluation/connecting-to-chirpstack/',
-          children: [
-            'connecting-to-chirpstack/chirpstack-otaa',
-            'connecting-to-chirpstack/chirpstack-abp',
-          ]
-        },
-      ]
-    },
-    {
-      title: 'Miscellaneous',
-      collapsable: false,
-      sidebarDepth: 2,
-      children: [
-        'at-commands',
-        'bluetooth-connection-modes',
-        'burning-the-firmware',
-        'upgrading-firmware',
-        'rui-online-compiler'
-      ]
-    }
   ],
   '/wisduo/rak4200-evaluation-board/quickstart/': [
     {

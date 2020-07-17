@@ -9,7 +9,7 @@ params:
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
-        href: mailto:fomi@rakwireless.com
+        href: mailto:support@rakwireless.com
     resources:
       - name: Datasheet
         href: http://docs.rakwireless.com/en/LoRa/RAK612-LoRaButton/Hardware-Specification/RAK_LB801%C2%A0LoRaButton%C2%A0Datasheet%C2%A0V1.0.pdf

@@ -3,11 +3,11 @@ params:
   qlinks1:
     learnMore:
       - name: Projects
-        href: https://www.hackster.io/search?q=rak4200&i=projects
+        href: https://www.hackster.io/search?q=rak813&i=projects
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
-        href: mailto:fomi@rakwireless.com
+        href: mailto:support@rakwireless.com
 rak_img: /assets/images/wisduo/rak813-module/datasheet/overview/RAK813.jpg
 rak_grp: wisduo
 ---
