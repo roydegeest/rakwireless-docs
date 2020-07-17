@@ -1,34 +1,27 @@
 ---
-static_root: /assets/images/quick-start-guide/rak8212/overview
-rak_img: RAK8212.svg
-rak_grp: nb-iot
+rak_img: /assets/images/wistrio/rak8212/quickstart/overview/RAK8212.svg
+rak_grp: wistrio
 params:
   qlinks:
     learnMore:
-      - name: Projects 
-        href: https://www.hackster.io/search?q=rak8212&i=projects
       - name: Community
         href: https://forum.rakwireless.com/
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
       - name: Datasheet
-        href: /en-us/datasheet/rak8212/#rak8212-itracker-pro
-      - name: Schematic Diagram
-        href: https://downloads.rakwireless.com/Cellular/RAK8212/Hardware-Specification/RAK8212_iTRACKER_Schematic_20180322.pdf
-      - name: 3D Model
-        href: https://downloads.rakwireless.com/Cellular/RAK8212/Hardware-Specification/RAK8212_iTracker_BG96_V30-3D.STEP
-      - name: Firmware
-        href: https://downloads.rakwireless.com/Cellular/RAK8212/Firmware/
-      - name: Downloads
-        href: https://downloads.rakwireless.com/en/Cellular/RAK8212/
+        href: /wistrio/rak8212/datasheet/
+      - name: User Manual
+        href: /user-manual/
+      - name: Deployment Guide
+        href: /deployment-guide/
 ---
 
 # RAK8212 iTracker Pro
 
 <rk-img
-  :src="`${$frontmatter.static_root}/mbu3h7u9ykxyd0yfzkln.jpg`"
-  width="50%"
+  src="/assets/images/wistrio/rak8212/quickstart/overview/mbu3h7u9ykxyd0yfzkln.jpg"
+  width="40%"
   figure-number="1"
   caption="RAK8212 iTracker Pro"
 />
@@ -45,8 +38,8 @@ live tracking and environment sensing.
 Applications can be made with the RAK8212 like Vehicle location/fleet transportation management, Safety monitoring of old/young children, Animal protection and animal husbandry management, Loss of assets / personnel positioning and Other remote, battery powered applications.
 
 <rk-btn
-  src="prerequisites.html"
-  label="Set up Your RAK8212 iTracker Pro"
+  src="/wistrio/rak8212/quickstart/"
+  label="Get Started with RAK8212 iTracker Pro"
 />
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />
@@ -62,3 +55,9 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
 - Size: **43 mm x 38 mm x 18 mm**
 - **Operation temperature:** -40°C to +85°C
 - **Power supply**: 3.3 Volts to 5 Volts (power at solar panel connector P2).
+
+<rk-btn
+  src="https://store.rakwireless.com/products/rak8212-itracker-pro"
+  label="Buy a RAK8212 iTracker Pro"
+  _blank
+/>

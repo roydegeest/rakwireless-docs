@@ -1,5 +1,7 @@
 ---
-static_root: /assets/images/quick-start-guide/rak8212/device-firmware-setup
+static_root: /assets/images/wistrio/rak8212/quickstart/device-firmware-setup
+prev: /wistrio/rak8212/quickstart/connecting-to-cellular-network.html
+next: /wistrio/rak8212/quickstart/rui-online-compiler.html
 ---
 
 # Device Firmware Setup

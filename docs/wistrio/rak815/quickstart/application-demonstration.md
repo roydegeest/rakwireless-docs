@@ -1,3 +1,9 @@
+---
+static_root: /assets/images/wistrio/rak815/quickstart/5application-demonstration/
+prev: /wistrio/rak815/quickstart/configuring-the-lorawan.html
+next: /wistrio/rak815/quickstart/device-firmware-setup.html
+---
+
 # Application Demonstration
 
 In this section, you will learn the three different open source application demo of the RAK815 Hybrid Location Tracker. 
@@ -17,7 +23,7 @@ USB connector. Then reset (reset Button is defined as SW3) device will see the f
 log information in the serial port.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/commuart-assistant-serial-terminal.jpg"
+  :src="`${$frontmatter.static_root}/commuart-assistant-serial-terminal.jpg`"
   width="100%"
   figure-number="1"
   caption="CommUart Assistant Serial Terminal"
@@ -29,7 +35,7 @@ log information in the serial port.
 * Navigate to the Bluetooth settings of your mobile phone and check for "RAK815 LPWAN Demo". 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/bluetooth-radio-status.jpg"
+  :src="`${$frontmatter.static_root}/bluetooth-radio-status.jpg`"
   width="50%"
   figure-number="2"
   caption="Bluetooth Radio Status in Mobile Phone"
@@ -38,7 +44,7 @@ log information in the serial port.
 * Using your mobile devices, search for "**nordic**" in Apple Store or Google Play Store and install the nRF Connect App.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/nrf-connect-app.jpg"
+  :src="`${$frontmatter.static_root}/nrf-connect-app.jpg`"
   width="100%"
   figure-number="3"
   caption="nRF Connect App"
@@ -49,7 +55,7 @@ LPWAN Demo**". Then, click RX Characteristic to
 send data.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/connect-to-nrf.jpg"
+  :src="`${$frontmatter.static_root}/connect-to-nrf.jpg`"
   width="100%"
   figure-number="4"
   caption="Connecting to RAK815 Bluetooth through nRF Connect"
@@ -58,7 +64,7 @@ send data.
 * Type the value `123456` as a sample message and click "**send**".
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/send-to-nrf.jpg"
+  :src="`${$frontmatter.static_root}/send-to-nrf.jpg`"
   width="100%"
   figure-number="5"
   caption="Sending Message through nRF Connect"
@@ -67,7 +73,7 @@ send data.
 * After sending, you can see the message in the serial port's Log information.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/message-in-serial-port.jpg"
+  :src="`${$frontmatter.static_root}/message-in-serial-port.jpg`"
   width="100%"
   figure-number="6"
   caption="Message shown in the Serial Port log Information"
@@ -93,7 +99,7 @@ Because the information is too long, the serial port won't show the details of t
 * Then, **Reset** the device. If your gateway device is ready, RAK815 will send a join request to LoRaWAN® network server. You can see the successful information in the terminal. 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/lorawan-status.jpg"
+  :src="`${$frontmatter.static_root}/lorawan-status.jpg`"
   width="100%"
   figure-number="7"
   caption="LoRaWAN® Parameters Configuration Status"
@@ -102,7 +108,7 @@ Because the information is too long, the serial port won't show the details of t
 * You can also see the data sent by the device on the TTN:
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/ttn-param-lorawan.jpg"
+  :src="`${$frontmatter.static_root}/ttn-param-lorawan.jpg`"
   width="100%"
   figure-number="8"
   caption="LoRaWAN® Parameter Settings in TTN"
@@ -116,7 +122,7 @@ Because the information is too long, the serial port won't show the details of t
 seconds.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/dev-info-status.jpg"
+  :src="`${$frontmatter.static_root}/dev-info-status.jpg`"
   width="100%"
   figure-number="9"
   caption="Device Information Status"
@@ -125,7 +131,7 @@ seconds.
 * Similarly with the LoRaWAN® Demo, you can also send message through the nRF Connect app you installed. The message can be viewed to our serial terminal as shown in the image below.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/message-in-serial-port2.jpg"
+  :src="`${$frontmatter.static_root}/message-in-serial-port2.jpg`"
   width="100%"
   figure-number="10"
   caption="Message Received shown in Serial Port"
@@ -135,7 +141,7 @@ seconds.
 for each sensor on the LCD display.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/message-in-lcd.jpg"
+  :src="`${$frontmatter.static_root}/message-in-lcd.jpg`"
   width="50%"
   figure-number="11"
   caption="Message Status shown in LCD"
@@ -148,7 +154,7 @@ for each sensor on the LCD display.
 * Same with the previous application, open the nRF Connect app and connect to the Bluetooth named "RAK815 Scan Demo"; configure the device by sending the LoRaWAN® parameters. The configuration status can be seen in the serial port as shown in the figure below. 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/lorawan-status2.jpg"
+  :src="`${$frontmatter.static_root}/lorawan-status2.jpg`"
   width="100%"
   figure-number="12"
   caption="LoRaWAN® Parameters Configuration Status"
@@ -157,7 +163,7 @@ for each sensor on the LCD display.
 * After successfully configuring the parameters, check if your gateway has been set in advance. Reset the device and a message will be sent to your terminal that the device has successfully joined in OTAA. 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/otaa-activation.jpg"
+  :src="`${$frontmatter.static_root}/otaa-activation.jpg`"
   width="100%"
   figure-number="13"
   caption="OTAA Activation Message"
@@ -171,7 +177,7 @@ This device can only scan Bluetooth BLE devices.
 :::
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/button-press-ble.jpg"
+  :src="`${$frontmatter.static_root}/button-press-ble.jpg`"
   width="50%"
   figure-number="14"
   caption="Pressing the Button to Scan BLE"
@@ -181,7 +187,7 @@ This device can only scan Bluetooth BLE devices.
 out from the log information serial port.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/scanned-ble-status.jpg"
+  :src="`${$frontmatter.static_root}/scanned-ble-status.jpg`"
   width="100%"
   figure-number="15"
   caption="Scanned BLE Information Status"
@@ -191,7 +197,7 @@ out from the log information serial port.
 the Bluetooth BLE device information you scanned to the LoRaWAN® server.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/scanned-ble-ttn-stat.jpg"
+  :src="`${$frontmatter.static_root}/scanned-ble-ttn-stat.jpg`"
   width="100%"
   figure-number="16"
   caption="Scanned BLE Device Information shown in TTN"
@@ -201,7 +207,7 @@ the Bluetooth BLE device information you scanned to the LoRaWAN® server.
 view the real-time status of the device on the LCD
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/5application-demonstration/status-in-lcd.jpg"
+  :src="`${$frontmatter.static_root}/status-in-lcd.jpg`"
   width="50%"
   figure-number="17"
   caption="Status Update shown in LCD"

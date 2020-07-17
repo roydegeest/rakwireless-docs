@@ -4,7 +4,7 @@ prev: /wisduino/rak811-evaluation-board/overview/
 next: /wisduino/rak811-evaluation-board/quickstart/interfacing-with-rak811.html
 ---
 
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   src="/assets/images/wisduino/rak811-evaluation-board/quickstart/quick-start-guide/bv4v5828qbdlkrann1xt.jpg"

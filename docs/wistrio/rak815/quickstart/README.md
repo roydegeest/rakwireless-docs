@@ -1,7 +1,13 @@
-# Prerequisites
+---
+static_root: /assets/images/wistrio/rak815/quickstart/2quick-start-guide/
+prev: /wistrio/rak815/overview/
+next: /wistrio/rak815/quickstart/interfacing-with-rak815.html
+---
+
+# Prerequisite
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/2quick-start-guide/rak815-overview.jpg"
+  :src="`${$frontmatter.static_root}/rak815-overview.jpg`"
   width="50%"
   figure-number="1"
   caption="RAK815 Hybrid Location Tracker"
@@ -17,12 +23,6 @@
 6. A Windows/Mac OS/Linux Computer
 7. Android phone/ Iphone
 
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak815-hybrid-location-tracker"
-  label="Buy a RAK815 Hybrid Location Tracker"
-  _blank
-/>
 
 :::tip 📝 NOTE
 This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware burned or upgraded, please refer to the documentations below:

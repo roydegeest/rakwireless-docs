@@ -4,7 +4,7 @@ prev: /wisnode/rak7204/overview/
 next: /wisnode/rak7204/quickstart/interfacing.html
 ---
 
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   :src="`${$frontmatter.static_root}/s9kfxgy3q8qiuydxxkrk.jpg`"

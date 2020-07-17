@@ -1,11 +1,14 @@
 ---
-tags: + datasheet
+prev: /wistrio/rak815/overview/
+next: false
+sidebar: auto
+sidebarDepth: 3
 ---
 
-# RAK815 Hybrid Location Tracker
+# RAK815 Hybrid Location Tracker Datasheet
 
 <rk-img
-  src="/assets/images/datasheet/rak815/rak815-board.png"
+  src="/assets/images/wistrio/rak815/datasheet/rak815-board.png"
   width="40%"
   caption="RAK815 Breakout Board"
 />
@@ -40,7 +43,7 @@ Overall, this LoRa® device has various functionalities designed in a single boa
 **RAK815 Hybrid Location Tracker** has outer dimensions of **74mm x 43mm 17mm** including the Antenna interface.
 
 <rk-img
-  src="/assets/images/datasheet/rak815/rak815-breakout-board-dimensions.png"
+  src="/assets/images/wistrio/rak815/datasheet/rak815-breakout-board-dimensions.png"
   width="75%"
   figure-number="2"
   caption="RAK815 Breakout Board Dimensions"
@@ -51,7 +54,7 @@ Overall, this LoRa® device has various functionalities designed in a single boa
 Shown below is the System Diagram of RAK815 Breakout Board.
 
 <rk-img
-  src="/assets/images/datasheet/rak815/block-diagram.png"
+  src="/assets/images/wistrio/rak815/datasheet/block-diagram.png"
   width="100%"
   caption="RAK815 System Diagram"
 />
@@ -61,7 +64,7 @@ Shown below is the System Diagram of RAK815 Breakout Board.
 #### Pin Definition
 
 <rk-img
-  src="/assets/images/datasheet/rak815/rak815-interface.png"
+  src="/assets/images/wistrio/rak815/datasheet/rak815-interface.png"
   width="100%"
   caption="RAK815 Interface"
 />
@@ -73,7 +76,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 ##### SWD Debug Interface
 
 <rk-img
-  src="/assets/images/datasheet/rak815/rak815-swd-debug-interface.jpg"
+  src="/assets/images/wistrio/rak815/datasheet/rak815-swd-debug-interface.jpg"
   width="40%"
   caption="RAK815 SWD Debug Interface"
 />
@@ -89,7 +92,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 ##### UART Switch Interface
 
 <rk-img
-  src="/assets/images/datasheet/rak815/rak815-uart-switch-interface.jpg"
+  src="/assets/images/wistrio/rak815/datasheet/rak815-uart-switch-interface.jpg"
   width="65%"
   caption="RAK815 UART Switch Interface"
 />
@@ -106,7 +109,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 ##### GPS Module Expansion
 
 <rk-img
-  src="/assets/images/datasheet/rak815/rak815-gps-module-expansion.jpg"
+  src="/assets/images/wistrio/rak815/datasheet/rak815-gps-module-expansion.jpg"
   width="40%"
   caption="RAK815 GPS Module Expansion"
 />
@@ -122,7 +125,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 ##### Reserved I2C Interface of the LCD
 
 <rk-img
-  src="/assets/images/datasheet/rak815/rak815-reserved-i2c-interface.jpg"
+  src="/assets/images/wistrio/rak815/datasheet/rak815-reserved-i2c-interface.jpg"
   width="65%"
   caption="RAK815 Reserved I2C Interface"
 />
@@ -137,7 +140,7 @@ The pin numbers in the succeeding tables are sorted from top to bottom as shown 
 ##### P1 and P3 Interface PINOUT
 
 <rk-img
-  src="/assets/images/datasheet/rak815/rak815-p1-and-p3-pinout.png"
+  src="/assets/images/wistrio/rak815/datasheet/rak815-p1-and-p3-pinout.png"
   width="75%"
   caption="RAK815 P1 and P3 Pinout"
 />
@@ -198,25 +201,25 @@ The board supports the following LoRaWAN® frequency channels shown in the table
 #### Schematic Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak815/gps-max-7q-schematic-diagram.png"
+  src="/assets/images/wistrio/rak815/datasheet/gps-max-7q-schematic-diagram.png"
   width="100%"
   caption="GPS-MAX 7Q Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak815/usb-uart-i2c-with-gps-module-schematic-diagram.jpg"
+  src="/assets/images/wistrio/rak815/datasheet/usb-uart-i2c-with-gps-module-schematic-diagram.jpg"
   width="100%"
   caption="USB & UART and I2C with the GPS Module Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak815/lora-ble-schematic-diagram.jpg"
+  src="/assets/images/wistrio/rak815/datasheet/lora-ble-schematic-diagram.jpg"
   width="100%"
   caption="LoRa® BLE Schematic Diagram"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak815/u4-u8-u6-schematic-interface.jpg"
+  src="/assets/images/wistrio/rak815/datasheet/u4-u8-u6-schematic-interface.jpg"
   width="100%"
   caption="U4, U8 and U6 Schematic Interface"
 />

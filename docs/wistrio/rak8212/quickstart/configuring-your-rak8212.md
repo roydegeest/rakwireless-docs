@@ -1,5 +1,7 @@
 ---
-static_root: /assets/images/quick-start-guide/rak8212/configuring-your-rak8212
+static_root: /assets/images/wistrio/rak8212/quickstart/configuring-your-rak8212
+prev: /wistrio/rak8212/quickstart/at-commands-for-rak8212.html
+next: /wistrio/rak8212/quickstart/connecting-to-cellular-network.html
 ---
 
 # Configuring your RAK8212 iTracker Pro

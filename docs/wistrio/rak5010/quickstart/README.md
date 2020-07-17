@@ -3,7 +3,7 @@ static_root: /assets/images/wistrio/rak5010/quickstart/2.quick-start-guide
 prev: /wistrio/rak5010/overview/
 next: /wistrio/rak5010/quickstart/checking-device-logs.html
 ---
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   :src="`${$frontmatter.static_root}/fqyo41hvkupnrljccsam.jpg`"

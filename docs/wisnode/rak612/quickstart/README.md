@@ -3,7 +3,7 @@ prev: /wisnode/rak612/overview/
 next: /wisnode/rak612/quickstart/interfacing-with-rak612.html
 ---
 
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   src="/assets/images/wisnode/rak612/quickstart/quick-start-guide/rak612-overview.jpg"

@@ -358,7 +358,7 @@ module.exports = {
   ],
   '/wisduino/rak811-evaluation-board/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 2,
       children: [
@@ -416,14 +416,13 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/nodes/rak815/': [
+  '/wistrio/rak815/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 2,
       children: [
-        '',
-        'prerequisites'
+        ''
       ]
     },
     {
@@ -583,7 +582,7 @@ module.exports = {
   ],
   '/wisnode/rak7200/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 2,
       children: [
@@ -630,14 +629,13 @@ module.exports = {
       ]
     }
   ],
-  '/en-us/quick-start-guide/nb-iot/rak8212/': [
+  '/wistrio/rak8212/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 2,
       children: [
-        '',
-        'prerequisites'
+        ''
       ]
     },
     {
@@ -697,7 +695,7 @@ module.exports = {
 
   '/wisnode/rak7204/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 2,
       children: [
@@ -796,7 +794,7 @@ module.exports = {
   ],
   '/wistrio/rak7205-5205/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 2,
       children: [
@@ -848,7 +846,7 @@ module.exports = {
   ],
   '/wisnode/rak612/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 2,
       children: [
@@ -886,7 +884,7 @@ module.exports = {
   ],
   '/wistrio/rak5010/quickstart/': [
     {
-      title: 'Product Overview',
+      title: 'Quick Start Guide',
       collapsable: false,
       sidebarDepth: 2,
       children: [

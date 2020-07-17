@@ -1,3 +1,9 @@
+---
+static_root: /assets/images/wistrio/rak815/quickstart/3interfacing/
+prev: /wistrio/rak815/quickstart/
+next: /wistrio/rak815/quickstart/configuring-the-lorawan.html
+---
+
 # Interfacing with RAK815 Hybrid Location Tracker
 
 In order for you to interface with the RAK815 Hybrid Location Tracker with your Windows Machine, you need to download the [**RAK Serial Port Tool**](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).
@@ -15,7 +21,7 @@ If this is your first time to connect your RAK815 Hybrid Location Tracker to you
 2. Go to your **Device Manager** by pressing : **Windows + R** and type `devmgmt.msc` or **search in Start Menu** or right click "**My Computer**" or "**This PC**" and click **Manage**. Look for Other Devices.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/3interfacing/serial-driver.png"
+  :src="`${$frontmatter.static_root}/serial-driver.png`"
   width="100%"
   figure-number="1"
   caption="Missing Driver for the RAK815 Hybrid Location Tracker"
@@ -24,7 +30,7 @@ If this is your first time to connect your RAK815 Hybrid Location Tracker to you
 3. Under "**Other devices**" drop down list, an unknown **USB2.0-Serial** driver must appear. Right click into it and choose "**Search automaticaly for updated driver software**". Again, before doing so, make sure to have an internet access or it will fail.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/3interfacing/automatic-install.png"
+  :src="`${$frontmatter.static_root}/automatic-install.png`"
   width="100%"
   figure-number="2"
   caption="Automatic Driver Installation via Internet"
@@ -33,7 +39,7 @@ If this is your first time to connect your RAK815 Hybrid Location Tracker to you
 4. Wait for it to automatically download and install the missing driver. Once installation is done, "**Silicon Labs CP210x USB to UART Bridge**" must appear in the **Ports (COM & LPT)** drop down list. Take note of the COM Port associated with the driver as it will be used in the succeeding steps. For this sample process, the COM Port used by the USB - Serial Port Chip CP2102 driver is **COM41**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/3interfacing/cp210x-driver.jpg"
+  :src="`${$frontmatter.static_root}/cp210x-driver.jpg`"
   width="75%"
   figure-number="3"
   caption="USB - Serial Port Chip CP2102 Driver Successfully Installed"

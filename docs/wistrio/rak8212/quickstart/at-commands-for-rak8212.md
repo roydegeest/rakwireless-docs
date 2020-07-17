@@ -1,3 +1,8 @@
+---
+prev: /wistrio/rak8212/quickstart/checking-device-logs.html
+next: /wistrio/rak8212/quickstart/configuring-your-rak8212.html
+---
+
 # AT Commands for RAK8212 iTracker Pro
 
 The purpose of this document is to demonstrate on how to configure the RAK8212 iTracker Pro thru the use of AT Commands via Bluetooth. The list below shows the AT Commands available for use:

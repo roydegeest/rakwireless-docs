@@ -1,5 +1,7 @@
 ---
-static_root: /assets/images/quick-start-guide/rak8212/checking-device-logs
+static_root: /assets/images/wistrio/rak8212/quickstart/checking-device-logs
+prev: /wistrio/rak8212/quickstart/
+next: /wistrio/rak8212/quickstart/at-commands-for-rak8212.html
 ---
 
 # Checking Device Logs

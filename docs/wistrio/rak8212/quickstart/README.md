@@ -1,8 +1,10 @@
 ---
-static_root: /assets/images/quick-start-guide/rak8212/quick-start-guide
+static_root: /assets/images/wistrio/rak8212/quickstart/quick-start-guide
+prev: /wistrio/rak8212/overview/
+next: /wistrio/rak8212/quickstart/checking-device-logs.html
 ---
 
-# Prerequisites
+# Prerequisite
 
 <rk-img
   :src="`${$frontmatter.static_root}/fwpbygibxrjxoyn6cvje.jpg`"
@@ -21,12 +23,6 @@ Before going through each and every step in the installation guide of the RAK821
 4. 3.3V Battery Power Supply
 5. Windows PC
 6. Android/IOS Mobile Device
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak8212-itracker-pro"
-  label="Buy a RAK8212 iTracker Pro"
-  _blank
-/>
 
 ::: tip 📝 NOTE
 This device released by RAKwireless is already pre-loaded with its latest firmware upon manufacturing. If you want to have your device's firmware burned or upgraded, please refer to the documentations below:

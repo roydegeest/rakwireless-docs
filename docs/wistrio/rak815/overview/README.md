@@ -1,34 +1,30 @@
 ---
-static_root: /assets/images/quick-start-guide/rak815/1main
-rak_img: RAK815.svg
-rak_grp: lora-node
+rak_img: /assets/images/wistrio/rak815/quickstart/1main/RAK815.svg
+rak_grp: wistrio
+prev: false
+next: false
+
 params:
   qlinks1:
     learnMore:
-      - name: Projects 
-        href: https://www.hackster.io/search?q=RAK815&i=projects
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
         href: mailto:fomi@rakwireless.com
     resources:
       - name: Datasheet
-        href: /en-us/datasheet/rak815/#rak815-hybrid-location-tracker
-      - name: Schematic Diagram
-        href: /en-us/datasheet/rak815/#schematic-diagram
-      - name: Open Source Codes
-        href: https://github.com/RAKWireless/RAK813-BreakBoard
-      - name: nRF52832 Product Specifications
-        href: https://downloads.rakwireless.com/LoRa/RAK815/Hardware%20Specification/nRF52832_Product%20_Specification_v1.3.pdf
-      - name: Downloads
-        href: https://downloads.rakwireless.com/LoRa/RAK815/
+        href: /wistrio/rak815/datasheet/
+      - name: User Manual
+        href: /user-manual/
+      - name: Deployment Guide
+        href: /deployment-guide/
 ---
 
 # RAK815 Hybrid Location Tracker
 
 <rk-img
-  :src="`${$frontmatter.static_root}/rak815-overview.jpg`"
-  width="75%"
+  src="/assets/images/wistrio/rak815/quickstart/1main/rak815-overview.jpg"
+  width="60%"
   figure-number="1"
   caption="RAK815 Hybrid Location Tracker"
 />
@@ -42,8 +38,8 @@ The board is equipped with 3 customizable buttons and 2 customizable LEDs, allow
 Overall, this LoRa® device has various functionalities designed in a single board that could help you develop your own LoRa® projects.
 
 <rk-btn
-  src="prerequisites.html"
-  label="Setup your RAK815 Hybrid Location Tracker"
+  src="../quickstart/"
+  label="Get Started with RAK815 Hybrid Location Tracker"
 />
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
@@ -58,3 +54,9 @@ Overall, this LoRa® device has various functionalities designed in a single boa
 - **Interface**: Micro USB for charging and configuration
 - Equipped with MEMS and HT sensors + I2C LCD expansion
 - **Operation Temperature**: -20ºC ~ 60ºC
+
+<rk-btn
+  src="https://store.rakwireless.com/products/rak815-hybrid-location-tracker"
+  label="Buy a RAK815 Hybrid Location Tracker"
+  _blank
+/>

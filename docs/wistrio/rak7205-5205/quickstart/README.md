@@ -4,7 +4,7 @@ prev: /wistrio/rak7205-5205/overview/
 next: /wistrio/rak7205-5205/quickstart/interfacing-with.html
 ---
 
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   :src="`${$frontmatter.static_root}/lzqkvgwzjeol3o5no5ej.jpg`"

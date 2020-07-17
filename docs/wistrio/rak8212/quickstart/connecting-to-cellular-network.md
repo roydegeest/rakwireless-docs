@@ -1,5 +1,7 @@
 ---
-static_root: /assets/images/quick-start-guide/rak8212/connecting-to-cellular-network
+static_root: /assets/images/wistrio/rak8212/quickstart/connecting-to-cellular-network
+prev: /wistrio/rak8212/quickstart/configuring-your-rak8212.html
+next: /wistrio/rak8212/quickstart/device-firmware-setup.html
 ---
 
 # Connecting to Cellular Network

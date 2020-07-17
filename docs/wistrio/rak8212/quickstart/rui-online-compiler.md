@@ -1,5 +1,7 @@
 ---
-static_root: /assets/images/quick-start-guide/rak8212/rui-online-compiler
+static_root: /assets/images/wistrio/rak8212/quickstart/rui-online-compiler
+prev: /wistrio/rak8212/quickstart/device-firmware-setup.html
+next: false
 ---
 
 # RUI Online Compiler

@@ -4,7 +4,7 @@ prev: /wisnode/rak7200/overview/
 next: /wisnode/rak7200/quickstart/interfacing-with-rak7200.html
 ---
 
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   :src="`${$frontmatter.static_root}/ldehq53t7ujcp5awqlgj.jpg`"

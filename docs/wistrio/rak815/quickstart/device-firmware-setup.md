@@ -1,3 +1,9 @@
+---
+static_root: /assets/images/wistrio/rak815/quickstart/6device-firmware-setup/
+prev: /wistrio/rak815/quickstart/application-demonstration.html
+next: /wistrio/rak815/quickstart/upgrading-the-firmware.html
+---
+
 # Device Firmware Setup
 
 ## Open Source Directory 
@@ -10,7 +16,7 @@ nRF5 SDK 14.0.0, modified to support IAR8.11 and Keil5 Compiler.
 * To start with, download the files in this open source **[directory](https://github.com/RAKWireless/RAK813-BreakBoard).**
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/github.jpg"
+  :src="`${$frontmatter.static_root}/github.jpg`"
   width="100%"
   figure-number="1"
   caption="Open Source Directory for RAK815"
@@ -23,7 +29,7 @@ To enable the Bluetooth functionality of our device, you must first write the Bl
 * Download and Install the nRFgo Studio Tool through the **[Nordic Official Site](http://www.nordicsemi.com/Products/Low-power-short-range-wireless/nRF52832)** or through this **[link](https://downloads.rakwireless.com/en/LoRa/RAK815/Tools/)**.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/nrfgo-studio-tool-installer.jpg"
+  :src="`${$frontmatter.static_root}/nrfgo-studio-tool-installer.jpg`"
   width="100%"
   figure-number="2"
   caption="RFgo Studio tool Installer"
@@ -36,7 +42,7 @@ To enable the Bluetooth functionality of our device, you must first write the Bl
 2. Click  the “**Click for downloads**” under “**J-Link Software and Documentation Pack**”.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/download-jlink.jpg"
+  :src="`${$frontmatter.static_root}/download-jlink.jpg`"
   width="100%"
   figure-number="3"
   caption="Downloading J-Link Software"
@@ -53,7 +59,7 @@ To enable the Bluetooth functionality of our device, you must first write the Bl
 1. Connect the RAK815 SWD interface (refer to the [**datasheet**](https://downloads.rakwireless.com/en/LoRa/RAK815/Hardware%20Specification/RAK815%28RAK813%20BreakBoard%29%20Datasheet%20V1.1.pdf)) with the J-Link device SWD interface. Then, connect the J-Link device to the PC through the USB port.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/rak815-jlink.jpg"
+  :src="`${$frontmatter.static_root}/rak815-jlink.jpg`"
   width="75%"
   figure-number="4"
   caption="RAK815 Breakout Board connected to J-TAG Debugger"
@@ -62,7 +68,7 @@ To enable the Bluetooth functionality of our device, you must first write the Bl
 2. Open the nRFgo Studio Tool, then select "**nRF5X Programming**" under the Device Manager.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/nrf5x-studio-tool.jpg"
+  :src="`${$frontmatter.static_root}/nrf5x-studio-tool.jpg`"
   width="100%"
   figure-number="5"
   caption="nRF5x Programming in nRFgo Studio Tool"
@@ -71,7 +77,7 @@ To enable the Bluetooth functionality of our device, you must first write the Bl
 3. Click "**Erase all**" and select the "**Program SoftDevice**".
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/erase-program-softdev.jpg"
+  :src="`${$frontmatter.static_root}/erase-program-softdev.jpg`"
   width="100%"
   figure-number="6"
   caption="Erasing all and Program SoftDevice Function"
@@ -80,7 +86,7 @@ To enable the Bluetooth functionality of our device, you must first write the Bl
 4. Browse the Bluetooth protocol stack file from the open source code through this directory: `RAK813-Breakboard-master>>nRFLib>>components>>softdevice>>s132>>hex`
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/bluetooth-protocol-dir.jpg"
+  :src="`${$frontmatter.static_root}/bluetooth-protocol-dir.jpg`"
   width="100%"
   figure-number="7"
   caption="Bluetooth Protocol Stack Directory"
@@ -89,7 +95,7 @@ To enable the Bluetooth functionality of our device, you must first write the Bl
 5. And click "**Program**" to complete the download.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/browse-stack-file.jpg"
+  :src="`${$frontmatter.static_root}/browse-stack-file.jpg`"
   width="100%"
   figure-number="8"
   caption="Browsing Stack File and Clicking Program"
@@ -104,7 +110,7 @@ There are three ways to download your application code into your device: **nRFgo
 * After completing the Bluetooth protocol station, click the "**Program Application**".
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/download-program-app.jpg"
+  :src="`${$frontmatter.static_root}/download-program-app.jpg`"
   width="100%"
   figure-number="9"
   caption="Downloading Program Application"
@@ -113,14 +119,14 @@ There are three ways to download your application code into your device: **nRFgo
 * Browse for the application code and click "**Program**". Sample programs are made available in the open source code, follow this directory: `RAK813-BreakBoard-master>>Doc>>hex`
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/app-demo-loc.jpg"
+  :src="`${$frontmatter.static_root}/app-demo-loc.jpg`"
   width="100%"
   figure-number="10"
   caption="Application Demo Location"
 />
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/browse-app-click.jpg"
+  :src="`${$frontmatter.static_root}/browse-app-click.jpg`"
   width="100%"
   figure-number="11"
   caption="Browsing Application and Click"
@@ -131,7 +137,7 @@ There are three ways to download your application code into your device: **nRFgo
 * Download and Install the latest version of Keil Compiler through the [Keil Website](http://www.keil.com/).
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/arm-keil-homepage.jpg"
+  :src="`${$frontmatter.static_root}/arm-keil-homepage.jpg`"
   width="100%"
   figure-number="12"
   caption="ARM KEIL Homepage"
@@ -144,7 +150,7 @@ The best version of Keil Compiler is version 5.5 or above. If your installed Kei
 * Install the nRF52832 compiler environment for Keil5 from our repository:  `RAK813-Breakboard-master>>Keil5`
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/keil5-directory.jpg"
+  :src="`${$frontmatter.static_root}/keil5-directory.jpg`"
   width="100%"
   figure-number="13"
   caption="Compiler Environment for Keil5 Directory"
@@ -153,7 +159,7 @@ The best version of Keil Compiler is version 5.5 or above. If your installed Kei
 * After installing it, you can see the Nordic chip information from `Options -> Device`.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/select-nordic-chip.jpg"
+  :src="`${$frontmatter.static_root}/select-nordic-chip.jpg`"
   width="75%"
   figure-number="14"
   caption="Selecting the Nordic Chip Information"
@@ -162,7 +168,7 @@ The best version of Keil Compiler is version 5.5 or above. If your installed Kei
 * Use the J-Link device to connect your RAK815 and PC, then write your project. You can open sample projects available in this directory: `RAK813-BreakBoard-master>>Keil5`
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/project-sample-location.jpg"
+  :src="`${$frontmatter.static_root}/project-sample-location.jpg`"
   width="100%"
   figure-number="15"
   caption="Project Sample Location"
@@ -171,7 +177,7 @@ The best version of Keil Compiler is version 5.5 or above. If your installed Kei
 * Click "Build", then "Download" to download your application code. 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/build-download-app.jpg"
+  :src="`${$frontmatter.static_root}/build-download-app.jpg`"
   width="100%"
   figure-number="16"
   caption="Building and Downloading the Application Code"
@@ -181,14 +187,14 @@ If you choose to “**Create HEX file**” in the Keil tool's options then you c
 file in Keil's output directory. This file can also be used by nRFgo Stdio Tool.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/hex-files-keil5.jpg"
+  :src="`${$frontmatter.static_root}/hex-files-keil5.jpg`"
   width="75%"
   figure-number="17"
   caption="Allowing HEX Files in KEIL5"
 />
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/sample-hex-file-loc.jpg"
+  :src="`${$frontmatter.static_root}/sample-hex-file-loc.jpg`"
   width="100%"
   figure-number="18"
   caption="Sample Hex File Location"
@@ -202,7 +208,7 @@ The writing of programs using IAR Compiler has the same steps with the Keil Comp
 * Open the IAR project and click "Make" menu. 
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/make-tool-iar.png"
+  :src="`${$frontmatter.static_root}/make-tool-iar.png`"
   width="100%"
   figure-number="19"
   caption="Make Tool in IAR Compiler"
@@ -211,7 +217,7 @@ The writing of programs using IAR Compiler has the same steps with the Keil Comp
 * Then, click the "**Project**" menu and select the download directory in the "**Download Activities Application**" option to complete the download.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/download-app-code.png"
+  :src="`${$frontmatter.static_root}/download-app-code.png`"
   width="100%"
   figure-number="20"
   caption="Downloading Application Code to the Device"
@@ -220,14 +226,14 @@ The writing of programs using IAR Compiler has the same steps with the Keil Comp
 * If you choose to export the HEX file in the IAR options menu, you can also see the HEX file in the IAR output folder. This file can also be used by nRFgo Stdio Tool.
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/allow-hex-file-iar.jpg"
+  :src="`${$frontmatter.static_root}/allow-hex-file-iar.jpg`"
   width="75%"
   figure-number="21"
   caption="Allowing HEX File Exports in IAR"
 />
 
 <rk-img
-  src="/assets/images/quick-start-guide/rak815/6device-firmware-setup/sample-hex-file-loc2.jpg"
+  :src="`${$frontmatter.static_root}/sample-hex-file-loc2.jpg`"
   width="100%"
   figure-number="22"
   caption="Sample Hex File Directory"

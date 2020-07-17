@@ -1,11 +1,15 @@
 ---
-tags: + datasheet
+static_root: /assets/images/wistrio/rak8212/datasheet/
+prev: /wistrio/rak8212/overview/
+next: false
+sidebar: auto
+sidebarDepth: 3
 ---
 
 # RAK8212 iTracker Pro
 
 <rk-img
-  src="/assets/images/datasheet/rak8212/rak8212-overview.png"
+  :src="`${$frontmatter.static_root}/rak8212-overview.png`"
   width="30%"
   caption="RAK8212 iTracker Pro"
 />
@@ -68,13 +72,13 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
 #### Module Overview
 
 <rk-img
-  src="/assets/images/datasheet/rak8212/top-view.jpg"
+  :src="`${$frontmatter.static_root}/top-view.jpg`"
   width="45%"
   caption="RAK8212 iTracker Pro Top View"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak8212/bottom-view.jpg"
+  :src="`${$frontmatter.static_root}/bottom-view.jpg`"
   width="45%"
   caption="RAK8212 iTracker Pro Bottom View"
 />
@@ -82,7 +86,7 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
 #### Block Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak8212/block-diagram.png"
+  :src="`${$frontmatter.static_root}/block-diagram.png`"
   width="100%"
   caption="System Block Diagram"
 />
@@ -92,7 +96,7 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
 #### Pin Definition
 
 <rk-img
-  src="/assets/images/datasheet/rak8212/pin-definition.png"
+  :src="`${$frontmatter.static_root}/pin-definition.png`"
   width="100%"
   figure-number="4"
   caption="RAK8212 Pin Definition"
@@ -204,27 +208,27 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
 #### Schematic Diagram
 
 <rk-img
-  src="/assets/images/datasheet/rak8212/schematic-1.png"
+  :src="`${$frontmatter.static_root}/schematic-1.png`"
   width="100%"
   caption="Schematic Diagram #1"
 />
 <rk-img
-  src="/assets/images/datasheet/rak8212/schematic-2.png"
+  :src="`${$frontmatter.static_root}/schematic-2.png`"
   width="100%"
   caption="Schematic Diagram #2"
 />
 <rk-img
-  src="/assets/images/datasheet/rak8212/schematic-3.png"
+  :src="`${$frontmatter.static_root}/schematic-3.png`"
   width="100%"
   caption="Schematic Diagram #3"
 />
 <rk-img
-  src="/assets/images/datasheet/rak8212/schematic-4.png"
+  :src="`${$frontmatter.static_root}/schematic-4.png`"
   width="100%"
   caption="Schematic Diagram #4"
 />
 <rk-img
-  src="/assets/images/datasheet/rak8212/schematic-5.png"
+  :src="`${$frontmatter.static_root}/schematic-5.png`"
   width="100%"
   caption="Schematic Diagram #5"
 />
