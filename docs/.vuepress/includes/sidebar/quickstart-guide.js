@@ -834,6 +834,34 @@ module.exports = {
       ]
     }
   ],
+  '/wistrio/rak5010-m/quickstart/': [
+    {
+      title: 'Quick Start Guide',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        ''
+      ]
+    },
+    {
+      title: 'Product Configuration',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'at-commands',
+        'configuring-rak5010-m',
+        'connecting-cellular-network'
+      ]
+    },
+    {
+      title: 'Miscellaneous',
+      collapsable: false,
+      sidebarDepth: 2,
+      children: [
+        'upgrading-firmware'
+      ]
+    }
+  ],
   '/wisbee/rak4600-breakout-board/quickstart/': [
     {
       title: 'Quick Start Guide',
