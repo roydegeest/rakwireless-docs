@@ -41,7 +41,7 @@ To avoid electromagnetic interference and heating interference, the sensor conne
 
 <rk-btn
   src="/wisbase/rak5005-o/datasheet/"
-  label="Get Started with RAK5005-O WisBase Board Datasheet"
+  label="Get Started with RAK5005-O WisBase Board"
 />
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />

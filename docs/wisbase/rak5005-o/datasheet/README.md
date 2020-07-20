@@ -76,7 +76,7 @@ WisBlock is designed for modularity, in the Figure 3, the whole ecosystem is dep
 <rk-img
   src="/assets/images/wisbase/rak5005-o/datasheet/3.wisblock-architecture.png"
   width="100%"
-  caption="WisBlock Architecture"
+  caption="WisBlock Architecture"s
 />
 
 
@@ -122,7 +122,7 @@ For example, it is recommended to attach a temperature sensor outside of the bas
 
 ### Block Diagram
 
-The block diagram is shown in Figure 5 that shows the internal architecture and external interfaces of the RAK5005-O board.
+The block diagram is shown in Figure 8 that shows the internal architecture and external interfaces of the RAK5005-O board.
 
 
 <rk-img
@@ -425,7 +425,7 @@ As for the following table, it shows the pin name and description of each pin in
 
 #### Connector for WisIO
 
-The WisIO module connector, as shown in figure 11, is a **40-pin board to board connector**.
+The WisIO module connector, as shown in figure 14, is a **40-pin board to board connector**.
 
 
 <rk-img
@@ -582,7 +582,7 @@ A 5V Solar panel can be connected to the board via the P2 connector to also serv
 
 ### Mechanical Characteristics
 
-Figure 12 shows the detailed mechanical dimensions of RAK5005-O.
+Figure 15 shows the detailed mechanical dimensions of RAK5005-O.
 
 <rk-img
   src="/assets/images/wisbase/rak5005-o/datasheet/15.mechanical-dimensions.png"
@@ -600,10 +600,30 @@ The table below lists the operation and storage temperature requirements of RAK5
 | Extended Temperature Range | –40º C | +25º C | +80º C | 
 | Storage Temperature Range | –40º C | +25º C | +80º C | 
 
-In this chapter, there is a brief introduction about WisBlock module. It can help you to understand and choose the module you want. About the detail of each module, please refer the reference manual of the respective module.
 
-### Module Supported
-#### WisBlock Module in Production
+### Schematic Diagram
+
+The component schematics diagram of the RAK5005-Oare shown in figures 16 and 17 below:
+
+
+<rk-img
+  src="/assets/images/wisbase/rak5005-o/datasheet/16.schematic1.png"
+  width="100%"
+  caption="RAK5005-O Schematic Diagram"
+/>
+
+
+<rk-img
+  src="/assets/images/wisbase/rak5005-o/datasheet/17.schematic2.png"
+  width="100%"
+  caption="RAK5005-O Schematic Diagram"
+/>
+
+## Module Supported
+
+This section discusses the brief introduction about WisBlock module. It helps you to understand and choose the module you want. About the detail of each module, refer the reference manual of the respective module.
+
+### WisBlock Module in Production
 
 RAK5005-O supports different kind of modules, according to the function and its the position on the RAK5005-O. These modules are classified into three categories:
 
@@ -650,9 +670,9 @@ The table shows the WisIO modules:
 | RAK5804 | IO extension board |  | 
 
 
-#### WisBlock: Function and Data Bus Supported
+### WisBlock: Function and Data Bus Supported
 
-##### WisDuo Function and Data Bus
+#### WisDuo Function and Data Bus
 
 | RAK4202 Pin Definition | RAK4601 Pin Definition | RAK4261 Pin Definition | RAK4231 Pin Definition | RAK4201 Pin Definition | Function Name of WisBase | Pin Number | Pin Number | Function Name of WisBase | RAK4201 Pin Definition | RAK4231 Pin Definition | RAK4261 Pin Definition | RAK46011 Pin Definition | RAK4202 Pin Definition | 
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
@@ -679,7 +699,7 @@ The table shows the WisIO modules:
 
 <br>
 
-##### WisSensor Funtion and Data Bus
+#### WisSensor Funtion and Data Bus
 
 | Type 4 | Type 3 | Type 2 | Type 1 | D | C | B | A | Pin Number | Pin Number | A | B | C | D | Type 1 | Type 2 | Type 3 | Type 4 | 
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
@@ -695,6 +715,14 @@ The table shows the WisIO modules:
 | NC | NC | NC | NC | NC | NC | NC | NC | 19 | 20 | NC | NC | NC | NC | NC | NC | NC | NC | 
 | NC | NC | NC | NC | NC | NC | NC | NC | 21 | 22 | NC | NC | NC | NC | NC | NC | NC | NC | 
 | GND | GND | GND | GND | GND | GND | GND | GND | 23 | 24 | RXD1 | NC | NC | NC | NC | NC | NC | TXD | 
+
+:::tip 📝 NOTE
+Sensor Module Pinout Definition
+- Type 1
+- Type 2
+- Type 3
+- Type 4
+::: 
 
 <br>
 
@@ -712,7 +740,7 @@ The WisSensor data bus is divided into four type. The relationship is shown in t
 
 <br>
 
-##### WisIO Function and Data Bus
+#### WisIO Function and Data Bus
 
 | RAK2305 | RAK2705 | RAK5802 | RAK5801 | Function Name of WisBase | Pin Number | Pin Number | Function Name of WisBase | RAK5801 | RAK5802 | RAK2705 | RAK2305 | 
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
@@ -741,25 +769,4 @@ The WisSensor data bus is divided into four type. The relationship is shown in t
 :::tip 📝 NOTE
 *Can be supported by rework hardware.
 ::: 
-
-### Schematic Diagram
-
-The component schematics diagram of the RAK5005-Oare shown in figures 13 and 14 below:
-
-
-<rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/16.schematic1.png"
-  width="100%"
-  caption="RAK5005-O Schematic Diagram"
-/>
-
-
-<rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/17.schematic2.png"
-  width="100%"
-  caption="RAK5005-O Schematic Diagram"
-/>
-
-
-
 
