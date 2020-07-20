@@ -75,7 +75,7 @@ See the supported range in the table below:
 
 #### Electrical Characteristics
 
-The following are the electrical characteristics of RAK7204 Pi LPWAN Environmental Sensor. Please [contact us](mailto:fomi@rakwireless.com) if you need other details for your project.
+The following are the electrical characteristics of RAK7204 Pi LPWAN Environmental Sensor. Please [contact us](mailto:support@rakwireless.com) if you need other details for your project.
 
 ##### Power Consumption
 

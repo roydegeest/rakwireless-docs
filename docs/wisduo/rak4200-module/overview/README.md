@@ -7,7 +7,7 @@ params:
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
-        href: mailto:fomi@rakwireless.com
+        href: mailto:support@rakwireless.com
 rak_img: /assets/images/wisduo/rak4200-module/datasheet/overview.png
 rak_grp: wisduo
 ---

@@ -12,10 +12,10 @@ params:
       - name: Community
         href: https://forum.rakwireless.com
       - name: Support
-        href: mailto:fomi@rakwireless.com
+        href: mailto:support@rakwireless.com
     resources:
       - name: Datasheet
-        href: /en-us/datasheet/rak4260/#rak4260-wisduo-lpwan-module
+        href: /wisduo/rak4260-module/datasheet/
       - name: Schematic Diagram
         href: https://downloads.rakwireless.com/en/LoRa/RAK4260/Hardware-Specification/RAK4260_EVB_Schematic.pdf
       - name: Reference Design

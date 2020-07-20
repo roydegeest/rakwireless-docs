@@ -206,7 +206,7 @@ We recommended you to use optimized RSSI calibration values which is part of HAL
 
 #### Electrical Requirements
 
-The following are the electrical characteristics of RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module. Please [contact us ](mailto:fomi@rakwireless.com)if you need other details for your project.
+The following are the electrical characteristics of RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module. Please [contact us ](mailto:support@rakwireless.com)if you need other details for your project.
 
 ##### Absolute Maximum Rating
 

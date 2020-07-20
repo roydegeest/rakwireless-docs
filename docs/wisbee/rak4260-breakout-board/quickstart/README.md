@@ -2,7 +2,7 @@
 prev: /wisbee/rak4260-breakout-board/overview/
 
 ---
-# Quick Start Guide
+# Prerequisites
 
 The following two sections provide a list of the components and tools you need in order to get started with the development board. Some of the components are included in the package, others you need to provide yourself.
 

@@ -3,7 +3,7 @@ prev: /wisgate/rak7243/overview/
 next: access-the-gateway
 ---
 
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   src="/assets/images/wisgate/rak7243/quickstart/2.quickstart/rak7243_overview2.jpg"

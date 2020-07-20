@@ -12,7 +12,7 @@ params:
       - name: Community
         href: https://forum.rakwireless.com/
       - name: Support
-        href: mailto:fomi@rakwireless.com
+        href: mailto:support@rakwireless.com
     resources:
       - name: Datasheet
         href: /wisbee/rak811-breakout-board/datasheet/

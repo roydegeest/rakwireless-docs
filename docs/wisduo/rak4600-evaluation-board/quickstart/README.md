@@ -35,7 +35,7 @@ This device released by RAKWireless is already pre-loaded with its latest firmwa
 2. [Device Firmware Upgrading](upgrading-firmware)
    :::
 
-### What's Included in the Package?
+## What's Included in the Package?
 
 - 1pc - RAK4600 LPWAN Evaluation Board
 - 1pc - Micro USB Cable

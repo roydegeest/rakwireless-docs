@@ -1,0 +1,1 @@
+<rk-redirect to="/wisbase/rak5005-o/overview" />

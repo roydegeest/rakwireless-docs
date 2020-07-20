@@ -4,7 +4,7 @@ prev: /wisgate/rak7240/overview/
 next: /wisgate/rak7240/quickstart/power-on-the-gateway.html
 ---
 
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   src="/assets/images/wisgate/rak7240/quickstart/1.rak7240-overview.jpg"

@@ -9,7 +9,7 @@ params:
       - name: Community
         href: https://forum.rakwireless.com/
       - name: Support
-        href: mailto:fomi@rakwireless.com
+        href: mailto:support@rakwireless.com
     resources:
       - name: RAK811 LPWAN Module Datasheet
         href: /wisduino/rak811-evaluation-board/datasheet/
