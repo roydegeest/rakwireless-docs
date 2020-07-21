@@ -5,6 +5,10 @@ module.exports = {
       rel: 'icon',
       href: `/favicon.ico`
     }],
+    ['link', {
+      rel: 'stylesheet',
+      href: 'https://cdn.jsdelivr.net/npm/animate.css@^4.0.0/animate.min.css'
+    }],
     ['script', { src: '/js/livechat.js' }]
   ],
   themeConfig: {
