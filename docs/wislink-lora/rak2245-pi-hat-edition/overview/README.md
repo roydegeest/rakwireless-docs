@@ -13,14 +13,12 @@ params:
     resources:
       - name: Datasheet
         href: /wislink-lora/rak2245-pi-hat-edition/datasheet
-      - name: Comparison Between RAK831
-        href: http://docs.rakwireless.com/en/LoRa/RAK2245-Pi-HAT/Hardware-Specification/RAK2245_RAK831_Design_Guide_Comparison.pdf
-      - name: CE and FCC Certification Report
+      - name: Certification Report
         href: /wislink-lora/rak2245-pi-hat-edition/datasheet/#certification
-      - name: 3D Model
-        href: https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Hardware-Specification/RAK2245_Pi_HAT-3D-File.zip
-      - name: Downloads
-        href: https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/
+      - name: User Manual
+        href: /user-manual/
+      - name: Deployment Guide
+        href: /deployment-guide/
 
 prev: false
 next: false

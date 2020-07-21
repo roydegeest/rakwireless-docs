@@ -11,7 +11,7 @@ params:
       - name: Support
         href: mailto:support@rakwireless.com
     resources:
-      - name: RAK4631 WisCore Module Datasheet
+      - name: Datasheet
         href: /wisblock/rak4631/datasheet/
       - name: User Manual
         href: /user-manual/

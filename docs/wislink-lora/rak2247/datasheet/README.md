@@ -296,3 +296,11 @@ Order Information
 | RAK2247-0X-R01 | 10-piece board and Antenna carton package | RAK2247-SPI, 433 / 470 / 868 / 915 / 923 / 920 / 865 MHz |
 | RAK2247-0X-R01 | 1x board and 1x Antenna retail package    | RAK2247-USB, 433 / 470 / 868 / 915 / 923 / 920 / 865 MHz |
 | RAK2247-0X-R01 | 10-piece board and Antenna carton package | RAK2247-USB, 433 / 470 / 868 / 915 / 923 / 920 / 865 MHz |
+
+
+## Certifications
+
+| Certification     | Source                                    |
+| --------------    | ----------------------------------------- |
+| CE Certification  | [Download](https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247_CE_Certificate.zip)    |
+| FCC Certification | [Download](https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247_FCC_Certificate.zip)    |
