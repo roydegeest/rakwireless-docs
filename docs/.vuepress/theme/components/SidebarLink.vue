@@ -106,11 +106,18 @@ function renderLink (h, isParent, to, text, active, level, open) {
 }
 
 function renderChildren (h, children, path, route, maxDepth, theme, depth = 1) {
-  if (!children || depth > maxDepth) return null
+  if (!children || depth >= maxDepth) return null
   return h('ul', { class: 'sidebar-sub-headers' }, children.map(c => {
     const active = isActive(route, path + '#' + c.slug)
+    const childrenHasActive = children => {
+      if (!children) return false
+      return children.filter(child => {
+        return route.fullPath === path + '#' + child.slug ||
+          childrenHasActive(child.children)
+      }).length > 0
+    }
     let open = route.fullPath === path + '#' + c.slug
-      || (c.children && c.children.some(cc => route.fullPath === path + '#' + cc.slug))
+      || childrenHasActive(c.children)
       || false
     const { $themeConfig, $themeLocaleConfig } = theme
     const displayAllHeaders = $themeLocaleConfig.displayAllHeaders
@@ -119,7 +126,7 @@ function renderChildren (h, children, path, route, maxDepth, theme, depth = 1) {
 
     const el = [renderLink(
       h,
-      depth + 1 <= maxDepth && c.children,
+      depth + 1 < maxDepth && c.children,
       path + '#' + c.slug,
       c.title,
       active,
@@ -155,7 +162,7 @@ function renderExternal (h, to, text) {
 }
 
 a.sidebar-link {
-  font-size: 1em;
+  font-size: 0.95rem;
   font-weight: 400;
   display: inline-block;
   color: $textColor;

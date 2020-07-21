@@ -1,20 +1,13 @@
 module.exports = {
-  locales: {
-    '/en-us/': {
-      lang: 'en-US',
-      title: 'RAKwireless Document Center',
-      description: 'RAKwireless Knowledge Hub'
-    },
-    '/zh-cn/': {
-      lang: 'zh-CN',
-      title: 'RAKwireless Document Center',
-      description: 'RAKwireless Knowledge Hub'
-    }
-  },
+  title: 'RAK Documentation Center',
   head: [
     ['link', {
       rel: 'icon',
       href: `/favicon.ico`
+    }],
+    ['link', {
+      rel: 'stylesheet',
+      href: 'https://cdn.jsdelivr.net/npm/animate.css@^4.0.0/animate.min.css'
     }],
     ['script', { src: '/js/livechat.js' }]
   ],
@@ -25,24 +18,12 @@ module.exports = {
     docsBranch: 'master',
     editLinks: true,
     smoothScroll: true,
-    locales: {
-      '/en-us/': {
-        selectText: 'Languages',
-        label: 'English',
-        editLinkText: 'Edit this page in GitHub',
-        lastUpdated: 'Last Updated',
-        sidebar: require('./includes/sidebar/en-us'),
-        nav: require('./includes/nav/en-us')
-      },
-      '/zh-cn/': {
-        selectText: '选择语言',
-        label: '简体中文',
-        editLinkText: '在 GitHub 上编辑此页',
-        lastUpdated: '上次更新',
-        sidebar: require('./includes/sidebar/zh-cn'),
-        nav: require('./includes/nav/zh-cn')
-      }
-    },
+    selectText: 'Languages',
+    label: 'English',
+    editLinkText: 'Edit this page in GitHub',
+    lastUpdated: 'Last Updated',
+    sidebar: require('./includes/sidebar.js'),
+    nav: require('./includes/nav.js'),
     pageFooter: [
       '© 2014-2020 Shenzhen RAKwireless Technology Co., Ltd.',
       'All rights reserved. 粤ICP备16112976号'
@@ -74,7 +55,14 @@ module.exports = {
       options: {},
     },
     // '@vuepress/back-to-top': {},
-    'vuepress-plugin-code-copy': true,
+    'vuepress-plugin-code-copy': {
+      selector: 'div[class*="language-"] pre',
+      align: 'top',
+      color: '#ffffff',
+      backgroundTransition: true,
+      backgroundColor: '#ffffff',
+      successText: 'Copied!'
+    },
   },
   markdown: {
     extendMarkdown: md => {
