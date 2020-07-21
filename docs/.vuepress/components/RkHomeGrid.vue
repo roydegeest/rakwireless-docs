@@ -113,8 +113,12 @@ export default {
     rakGrp(rak_grp) {
       if (!rak_grp) return 'Others'
       switch (rak_grp) {
+        case 'wisbase':
+          return 'WisBase'
         case 'wisbee':
           return 'WisBee'
+        case 'wisblock':
+          return 'WisBlock'
         case 'wisduino':
           return 'WisDuino'
         case 'wisduo':
