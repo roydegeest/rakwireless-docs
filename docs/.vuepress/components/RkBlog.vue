@@ -92,11 +92,10 @@ export default {
       return page.path.split('/')[2] || 'Unknown'
     }
   },
-  mounted () {
+  mounted() {
     const x = document.getElementsByClassName('theme-default-content')
     for (const sub of x) {
       sub.classList.add('rk-content')
-    console.log(sub)
     }
   }
 }

@@ -1,14 +1,16 @@
 <template>
-  <div class="row full-width no-wrap" style="height: 90vh">
+  <div class="row full-width no-wrap fit">
     <div class="q-pr-lg">
       <rk-page-sections
         :default-active="defaultActive"
         :page-sections="pageSections"
+        :vertical-pos="verticalPos"
+        scroll-ref="scrollArea"
         style="max-width: 10rem; margin-left: auto"
-        @scrollTo="scrollTo"
       />
     </div>
-    <div class="col">
+    <div class="col relative-position">
+      <!-- <div  class="full-width bg-red" style="height: 5rem; position: absolute" /> -->
       <q-scroll-area ref="scrollArea" class="fit" @scroll="onScrollAreaScroll">
         <div v-if="groups">
           <div
@@ -60,8 +62,10 @@ export default {
   data: () => ({
     ignoreScroll: false,
     groups: null,
-    defaultActive: 'wisbee',
-    pageSections: []
+    defaultActive: null,
+    pageSections: {},
+    showHead: true,
+    verticalPos: 0
   }),
   computed: {
     overviews() {
@@ -76,34 +80,16 @@ export default {
       window.scroll({ top: el.offsetTop, behavior: 'smooth' })
     },
     onScrollAreaScroll({ verticalPosition }) {
-      if (this.ignoreScroll) return
-      const section = this.pageSections.find(t => {
-        if (!t.position) return false
-        return t.position - verticalPosition >= 0
-      })
-      if (!section) return
-      this.defaultActive = section.linkId
-      // this.ensureFocus()
-    },
-    scrollTo(id) {
-      const element = document.getElementById(id)
-      // console.log('scrollTo: ', element)
-      // element.scrollIntoView()
-      if (!element) return
+      if (verticalPosition > 0 && this.showHead) {
+        this.showHead = false
+        this.$emit('showHead', false)
+      }
+      if (verticalPosition === 0 && !this.showHead) {
+        this.showHead = true
+        this.$emit('showHead', true)
+      }
 
-      const section = this.pageSections.find(t => t.linkId === id)
-      if (!section) return
-
-      section.position = element.offsetTop
-      // console.log('pos: ', section)
-      this.ignoreScroll = true
-      this.$refs.scrollArea.setScrollPosition(section.position, 500)
-      const self = this
-      setTimeout(() => {
-        self.ignoreScroll = false
-        self.defaultActive = section.linkId
-      }, 500)
-      this.ensureFocus()
+      this.verticalPos = verticalPosition
     },
     rakImg(frontmatter) {
       const { rak_img } = frontmatter
@@ -179,14 +165,24 @@ export default {
         ordered[key] = unordered[key]
       })
     this.groups = ordered
+    this.defaultActive = Object.keys(this.groups)[0] || null
     // console.log('pages: ', this.groups)
 
     // set page sections
+    this.pageSections = {}
     Object.keys(this.groups).map(g => {
-      this.pageSections.push({
-        linkId: g,
-        name: this.rakGrp(g)
-      })
+      this.pageSections = {
+        ...this.pageSections,
+        [g]: {
+          name: this.rakGrp(g),
+          ratio: 0
+        }
+      }
+      // this.pageSections.push({
+      //   linkId: g,
+      //   name: this.rakGrp(g),
+      //   ratio: 0
+      // })
     })
   }
 }
