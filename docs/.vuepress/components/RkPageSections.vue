@@ -38,6 +38,10 @@ export default {
       this.$parent.$refs[this.scrollRef].setScrollPosition(element.offsetTop, 500)
     }
   },
+  mounted () {
+    this.active = this.defaultActive
+    this.sections = Object.assign({}, this.pageSections)
+  },
   watch: {
     defaultActive: function (val) {
       this.active = val
