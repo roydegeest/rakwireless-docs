@@ -2,7 +2,7 @@
 prev: /wisbee/rak4200-breakout-board/overview/
 ---
 
-# Quick Start Guide
+# Prerequisites
 
 <rk-img
   src="/assets/images/wisbee/rak4200-breakout-board/quickstart/main/peojuzuyfj5wzl51igyk.jpg"
