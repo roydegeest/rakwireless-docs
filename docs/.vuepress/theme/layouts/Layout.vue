@@ -38,6 +38,7 @@ import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 import { resolveSidebarItems } from '../util'
+import { Screen } from 'quasar'
 
 export default {
   name: 'Layout',
@@ -110,9 +111,9 @@ export default {
     this.mounted = true
     // console.log('pages: ', this.$site.pages)
     // console.log('page: ', this.$page)
-
+    // console.log('screen: ', Screen)
     const min = Math.min(window.innerHeight, window.innerWidth)
-    document.documentElement.style.fontSize = `${0.015 * min}px`
+    if (Screen.gt.sm) document.documentElement.style.fontSize = `${0.015 * min}px`
     // console.log('mounted: ', window.innerHeight, window.innerWidth, min, document.documentElement.style)
   },
   updated() {
