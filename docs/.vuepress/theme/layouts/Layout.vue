@@ -33,14 +33,14 @@
 </template>
 
 <script>
-import Home from "@theme/components/Home.vue"
-import Navbar from "@theme/components/Navbar.vue"
-import Page from "@theme/components/Page.vue"
-import Sidebar from "@theme/components/Sidebar.vue"
-import { resolveSidebarItems } from "../util"
+import Home from '@theme/components/Home.vue'
+import Navbar from '@theme/components/Navbar.vue'
+import Page from '@theme/components/Page.vue'
+import Sidebar from '@theme/components/Sidebar.vue'
+import { resolveSidebarItems } from '../util'
 
 export default {
-  name: "Layout",
+  name: 'Layout',
 
   components: {
     Home,
@@ -94,9 +94,9 @@ export default {
       const userPageClass = this.$page.frontmatter.pageClass
       return [
         {
-          "no-navbar": !this.shouldShowNavbar,
-          "sidebar-open": this.isSidebarOpen,
-          "no-sidebar": !this.shouldShowSidebar
+          'no-navbar': !this.shouldShowNavbar,
+          'sidebar-open': this.isSidebarOpen,
+          'no-sidebar': !this.shouldShowSidebar
         },
         userPageClass
       ]
@@ -110,35 +110,43 @@ export default {
     this.mounted = true
     // console.log('pages: ', this.$site.pages)
     // console.log('page: ', this.$page)
+
+    const min = Math.min(window.innerHeight, window.innerWidth)
+    document.documentElement.style.fontSize = `${0.015 * min}px`
+    // console.log('mounted: ', window.innerHeight, window.innerWidth, min, document.documentElement.style)
   },
-  updated () {
+  updated() {
     // replace all table with q-table instances
-    const tables = document.getElementsByTagName("table")
+    const tables = document.getElementsByTagName('table')
     for (const tbl of tables) {
       // skip processed
-      if (tbl.parentNode && Array.from(tbl.parentNode.classList).includes('q-markup-table')) continue
+      if (
+        tbl.parentNode &&
+        Array.from(tbl.parentNode.classList).includes('q-markup-table')
+      )
+        continue
 
       const tbl_ = tbl
       const parent = tbl.parentNode
 
-      const qtable = document.createElement("div")
+      const qtable = document.createElement('div')
       qtable.classList.add(
-        "q-markup-table",
-        "q-table__container",
-        "q-table__card",
-        "q-table--horizontal-separator"
+        'q-markup-table',
+        'q-table__container',
+        'q-table__card',
+        'q-table--horizontal-separator'
       )
 
-      parent.replaceChild(qtable, tbl)  
-      tbl_.classList.add("q-table")
+      parent.replaceChild(qtable, tbl)
+      tbl_.classList.add('q-table')
       qtable.appendChild(tbl_)
     }
   },
 
   methods: {
     toggleSidebar(to) {
-      this.isSidebarOpen = typeof to === "boolean" ? to : !this.isSidebarOpen
-      this.$emit("toggle-sidebar", this.isSidebarOpen)
+      this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
+      this.$emit('toggle-sidebar', this.isSidebarOpen)
     },
 
     // side swipe

@@ -286,5 +286,7 @@ Order Information
 
 ## Certification
 
-- [FCC Certificate](https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Certification-Report/RAK2245_Pi_HAT_FCC_Certificate.zip)
-- [CE Certificate](https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Certification-Report/RAK2245_Pi_HAT_CE_Certificate.zip)
+| Certification     | Source         |
+|     ----------    | -------------- |
+| FCC Certification | [Download](https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Certification-Report/RAK2245_Pi_HAT_FCC_Certificate.zip)         |
+| CE Certification  | [Download](https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Certification-Report/RAK2245_Pi_HAT_CE_Certificate.zip)         |

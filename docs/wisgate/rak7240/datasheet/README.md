@@ -150,8 +150,6 @@ Supported Software
 
 ## Models / Bundles
 
-Order Information
-
 | Part Number    | Package Content                                                                                                                                          |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | RAK7240-0X-14X | 1x 8 channel device with LTE module, 1x LoRa Antenna, 2x LTE Antenna, 1x GPS Antenna, 1x 2.4G WiFi Antenna, 1x PoE Injector, 1x Mounting Kit, 1x Manual  |
@@ -161,5 +159,9 @@ Order Information
 
 ## Certification
 
-- [FCC Certification](https://downloads.rakwireless.com/LoRa/RAK7240/Certification-Report/RAK7240_FCC_Certificate.zip)
-- [CE Certification](https://downloads.rakwireless.com/LoRa/RAK7240/Certification-Report/RAK7240_CE_Certificate.zip)
+|    Certification    |   Source   |
+|     -------------   |   ------   |
+| CE Certification    | [Download](https://downloads.rakwireless.com/LoRa/RAK7240/Certification-Report/RAK7240_CE_Certificate.zip)  |
+| FCC Certification   | [Download](https://downloads.rakwireless.com/LoRa/RAK7240/Certification-Report/RAK7240_FCC_Certificate.zip) |
+
+

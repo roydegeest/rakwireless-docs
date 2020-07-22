@@ -28,7 +28,7 @@ It is a feature-packed tracker device for featured applications development. Thi
 - Supports latest LoRaWAN® 1.0.2 protocol stack and supports Activation by Personalization (ABP) or Over the Air Activation (OTAA) working mode.
 - **On-board Antennas** for LoRa® modem and GPS.
 - Supports Micro USB or built-in battery for power supply.
-- **Supports global license-free frequency band**: EU433, CN470, EU868, US915, AS923, AU915, KR920 and IN865.
+- **Supports global license-free frequency band**: EU868, US915, AS923, AU915, KR920 and IN865.
 
 ## Specifications
 

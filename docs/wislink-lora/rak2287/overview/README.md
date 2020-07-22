@@ -12,10 +12,10 @@ qlinks:
   resources:
     - name: Datasheet
       href: /wislink-lora/rak2287/datasheet
-    - name: Schematic Diagram
-      href: /wislink-lora/rak2287/datasheet/#schematic-diagram
-    - name: Firmware
-      href: https://downloads.rakwireless.com/LoRa/RAK2287-Mini-PCIe/Firmware/
+    - name: User Manual
+      href: /user-manual/
+    - name: Deployment Guide
+      href: /deployment-guide/
 
 prev: false
 next: false

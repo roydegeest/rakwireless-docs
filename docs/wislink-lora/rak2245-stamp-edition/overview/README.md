@@ -12,8 +12,10 @@ qlinks:
   resources:
     - name: Datasheet
       href: /wislink-lora/rak2245-stamp-edition/datasheet
-    - name: 3D Model
-      href: https://downloads.rakwireless.com/LoRa/RAK2245-96Boards/Hardware-Specification/RAK2245_96Boards-3D-File.zip
+    - name: User Manual
+      href: /user-manual/
+    - name: Deployment Guide
+      href: /deployment-guide/
 
 prev: false
 next: false

@@ -520,4 +520,8 @@ Order Information
 
 ## Certification
 
-- [FCC Certification](https://downloads.rakwireless.com/LoRa/RAK831-LoRa-Gateway/Certification-Report/Shenzhen%C2%A0Rakwireless%C2%A0RAK831%20B1710171%C2%A0RED.pdf)
+| Certification     | Source         |
+|     ----------    | -------------- |
+| FCC Certification | [Download](https://downloads.rakwireless.com/LoRa/RAK831-LoRa-Gateway/Certification-Report/Shenzhen%C2%A0Rakwireless%C2%A0RAK831%20B1710171%C2%A0RED.pdf)         |
+
+

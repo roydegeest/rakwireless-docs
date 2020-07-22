@@ -8,7 +8,7 @@ sidebarDepth: 3
 # RAK5010 WisTrio NB-IoT Tracker Datasheet
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/rak5010-wis-trio-nb-iot-tracker.jpg"
+  src="/assets/images/wistrio/rak5010/datasheet/rak5010-wis-trio-nb-iot-tracker.jpg"
   width="40%"
   caption="RAK5010 WisTrio NB-IoT Tracker"
 />
@@ -49,7 +49,7 @@ Application development supports the GCC environment.
 Figure 2 shows the top view and the interfaces of the RAK5010 NB-IoT tracker board.
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/top-view-of-the-board-with-interfaces.jpg"
+  src="/assets/images/wistrio/rak5010/datasheet/top-view-of-the-board-with-interfaces.jpg"
   width="100%"
   caption="Top View of the Board with Interfaces"
 />
@@ -57,19 +57,19 @@ Figure 2 shows the top view and the interfaces of the RAK5010 NB-IoT tracker boa
 Figure 3 shows the bottom of the board, where Figure 34, the dimensions of the board, and Figure 5 shows the header pin spacing.
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/bottom-view-of-the-board-with-interfaces.jpg"
+  src="/assets/images/wistrio/rak5010/datasheet/bottom-view-of-the-board-with-interfaces.jpg"
   width="100%"
   caption="Bottom View of the Board with Interfaces"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/board-dimensions.jpg"
+  src="/assets/images/wistrio/rak5010/datasheet/board-dimensions.jpg"
   width="75%"
   caption="Board Dimensions"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/header-spacing.jpg"
+  src="/assets/images/wistrio/rak5010/datasheet/header-spacing.jpg"
   width="75%"
   caption="Header Spacing"
 />
@@ -79,7 +79,7 @@ Figure 3 shows the bottom of the board, where Figure 34, the dimensions of the b
 The block diagram below shows the internal architecture and external interfaces of the RAK5010 board.
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/block-diagram.png"
+  src="/assets/images/wistrio/rak5010/datasheet/block-diagram.png"
   width="100%"
   caption="RAK5010 Block Diagram"
 />
@@ -116,7 +116,7 @@ this USB. It is also used as charge input port for battery. The Micro-B USB pin
 definition is shown below:
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/usb-connector-pinout.png"
+  src="/assets/images/wistrio/rak5010/datasheet/usb-connector-pinout.png"
   width="25%"
   caption="USB Connector Pinout"
 />
@@ -174,7 +174,7 @@ If BG96_RESET, BG96_PWRKEY, and BG96_WDISABLE are not set correctly, the BG96 mo
 100ms width in order to turn the BG96 normally.
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/turning-on-the-bg96-via-the-pwrkey.jpg"
+  src="/assets/images/wistrio/rak5010/datasheet/turning-on-the-bg96-via-the-pwrkey.jpg"
   width="100%"
   caption="Turning on the BG96 via the PWRKEY"
 />
@@ -229,7 +229,7 @@ VDD of J9 should connect to the PIN1 of SEGGER J-LINK (See Figure Below) debugge
 Below is the definition of 20PIN segger J-LINK connector:
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/j-link-pinout.png"
+  src="/assets/images/wistrio/rak5010/datasheet/j-link-pinout.png"
   width="100%"
   caption="J-LINK Pinout"
 />
@@ -263,7 +263,7 @@ J10 and J12 are IO extension headers. Those are bridged from the nRF52840 IOs, t
 The logic level shift circuit on the RAK5010 board connects EXT_VREF to your extension board’s power and equalizes it to the logical level of the IO on your extension board.
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/typical-converter-circuitry.jpg"
+  src="/assets/images/wistrio/rak5010/datasheet/typical-converter-circuitry.jpg"
   width="100%"
   caption="Typical Converter Circuitry"
 />
@@ -394,7 +394,7 @@ The Ambient Light Sensor is an OPT3001 from TI:
 The LTE Antenna Connector is shown below:
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/ipex-onboard-connector-for-the-lte-antenna.jpg"
+  src="/assets/images/wistrio/rak5010/datasheet/ipex-onboard-connector-for-the-lte-antenna.jpg"
   width="50%"
   caption="iPEX onboard connector for the LTE antenna"
 />
@@ -402,7 +402,7 @@ The LTE Antenna Connector is shown below:
 A PCB antenna (Figure 2) is included with the board. In case you want to use another antenna keep in mind that you need to have the proper connector (iPEX) and have it tuned to the frequency band of operation in your region.
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/pcb-lte-antenna-with-pigtail.png"
+  src="/assets/images/wistrio/rak5010/datasheet/pcb-lte-antenna-with-pigtail.png"
   width="75%"
   caption="PCB LTE Antenna with Pigtail"
 />
@@ -432,7 +432,7 @@ The antenna environmental requirements are listed in the table below:
 The GPS antenna connector is shown below (same as the LTE one):
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/ipex-onboard-connector-for-the-gps-antenna.jpg"
+  src="/assets/images/wistrio/rak5010/datasheet/ipex-onboard-connector-for-the-gps-antenna.jpg"
   width="50%"
   caption="iPEX onboard connector for the GPS antenna"
 />
@@ -442,11 +442,11 @@ The GPS antenna connector is shown below (same as the LTE one):
 In order to support low power and long battery life, the active GPS antenna’s power supply should be shut down when system don’t access the data from GPS module. The GPS power supply is controlled by nRF52840 with MOSFET, The pin map of GPS_EN on Nrf52840 is P1.09, and the circuit is below:
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/circuit-diagram.png"
+  src="/assets/images/wistrio/rak5010/datasheet/circuit-diagram.png"
   width="75%"
 />
 <rk-img
-  src="/assets/images/datasheet/rak5010/circuit-diagram-2.png"
+  src="/assets/images/wistrio/rak5010/datasheet/circuit-diagram-2.png"
   width="50%"
   caption="iPEX onboard connector for the GPS antenna"
 />
@@ -457,7 +457,7 @@ In order to support low power and long battery life, the active GPS antenna’s 
 ###### Antenna Specifications
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/gps-antenna.png"
+  src="/assets/images/wistrio/rak5010/datasheet/gps-antenna.png"
   width="75%"
   caption="GPS Antenna"
 />
@@ -511,19 +511,19 @@ In order to support low power and long battery life, the active GPS antenna’s 
 The component schematic diagram of the RAK5010 are shown below:
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/schematic-diagram-part-1.png"
+  src="/assets/images/wistrio/rak5010/datasheet/schematic-diagram-part-1.png"
   width="100%"
   caption="Schematic Diagram Part 1"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/schematic-diagram-part-2.png"
+  src="/assets/images/wistrio/rak5010/datasheet/schematic-diagram-part-2.png"
   width="100%"
   caption="Schematic Diagram Part 2"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/schematic-diagram-part-3.png"
+  src="/assets/images/wistrio/rak5010/datasheet/schematic-diagram-part-3.png"
   width="100%"
   caption="Schematic Diagram Part 3"
 />
@@ -588,7 +588,7 @@ If a non-rechargeable battery is connected to the RAK5010, please never power US
 _A 5V Solar panel can be connected to the board via the P1 connector to serve for the purpose of charging the battery._
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/battery-charging-via-solar-panel.jpg"
+  src="/assets/images/wistrio/rak5010/datasheet/battery-charging-via-solar-panel.jpg"
   width="75%"
   caption="Battery Charging via Solar Panel"
 />
@@ -610,7 +610,7 @@ The RAK5010 WisTrio NB-IoT Tracker takes **489.733 ms** to send a LoRa® packet 
 - **Current consumption**: 64.9 mA
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/oscilloscope-screen-capture-of-lora®-packet-sending.jpg"
+  src="/assets/images/wistrio/rak5010/datasheet/oscilloscope-screen-capture-of-lora®-packet-sending.jpg"
   width="85%"
   caption="Oscilloscope Screen Capture of LoRa® Packet Sending"
 />
@@ -622,7 +622,7 @@ The RAK5010 WisTrio NB-IoT Tracker when in sleep mode consumes **20.5 uA** of cu
 - **Current consumption**: 20.5 uA
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/oscilloscope-screen-capture-of-rak4600-lora®-module-in-sleep-mode.jpg"
+  src="/assets/images/wistrio/rak5010/datasheet/oscilloscope-screen-capture-of-rak4600-lora®-module-in-sleep-mode.jpg"
   width="85%"
   caption="Oscilloscope Screen Capture of RAK4600 LoRa® Module in Sleep Mode"
 />
@@ -634,13 +634,13 @@ The RAK5010 WisTrio NB-IoT Tracker when in sleep mode consumes **20.5 uA** of cu
 Here are the detailed dimensions of the RAK5010 Tracker:
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/top-view-mechanical-dimension.jpg"
+  src="/assets/images/wistrio/rak5010/datasheet/top-view-mechanical-dimension.jpg"
   width="75%"
   caption="Top View"
 />
 
 <rk-img
-  src="/assets/images/datasheet/rak5010/bottom-view-mechanical-dimension.jpg"
+  src="/assets/images/wistrio/rak5010/datasheet/bottom-view-mechanical-dimension.jpg"
   width="50%"
   caption="Bottom View"
 />
