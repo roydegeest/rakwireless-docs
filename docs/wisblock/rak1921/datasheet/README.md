@@ -40,7 +40,7 @@ The RAK1921 module is compatible with the RAK5005-O WisBoard baseboard. The RAK5
 
 <rk-img
   src="/assets/images/wisblock/rak1921/datasheet/interface.png"
-  width="100%"
+  width="50%"
   caption="I2C pin header in the RAK5005-O"
 />
 
@@ -57,7 +57,7 @@ RAK1921 supports a I2C interface. Refer to figure 1 for the pins available in th
 
 <rk-img
   src="/assets/images/wisblock/rak1921/datasheet/pin-definition.png"
-  width="100%"
+  width="50%"
   caption="RAK1921 Pin Definition"
 />
 
@@ -96,8 +96,8 @@ This section shows the absolute minimum and maximum ratings of the RAK1921 OLED 
 Figure 3 below shows the RAK1921 physical dimensions.
 
 <rk-img
-  src="/assets/images/wisblock/rak1921/datasheet/mechanical-dimension.png"
-  width="100%"
+  src="/assets/images/wisblock/rak1921/datasheet/mechanical-dimensions.png"
+  width="75%"
   caption="Mechanical Dimensions"
 />
 

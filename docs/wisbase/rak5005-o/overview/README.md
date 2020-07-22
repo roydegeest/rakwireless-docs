@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/wisbase/rak5005-o/datasheet/
-rak_img: /assets/images/wisbase/rak5005-o/datasheet/1.top-view-interfaces
+rak_img: /assets/images/wisbase/rak5005-o/datasheet/4.top-view-interfaces
 rak_grp: wisbase
 prev: false
 next: false
