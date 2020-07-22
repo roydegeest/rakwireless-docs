@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[301],{671:function(t,e,r){"use strict";r.r(e);var s=r(29),n=Object(s.a)({},(function(){var t=this.$createElement,e=this._self._c||t;return e("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[e("rk-redirect",{attrs:{to:"/wishat/rak2247-pi-hat/overview"}})],1)}),[],!1,null,null,null);e.default=n.exports}}]);
