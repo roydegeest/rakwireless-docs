@@ -12,19 +12,12 @@ qlinks:
   resources:
     - name: Datasheet
       href: /wislink-lora/rak2247/datasheet
-    - name: 868Mhz RF Performance
-      href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Hardware-Specification/RAK2247-Gateway_868MHz_RF_Performance.pdf
-    - name: RCM Declaration of Conformity
-      href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247-RCM-Declaration-of-Conformity.pdf
-    - name: RCM Test Report
-      href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247-RCM_Test_Report.zip
-    - name: CE Certificate
-      href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247_CE_Certificate.zip
-    - name: FCC Certificate
-      href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247_FCC_Certificate.zip
-    - name: 3D Model
-      href: https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Hardware-Specification/RAK2247-3D-Model.rar
-
+    - name: Certification Report
+      href: /wislink-lora/rak2247/datasheet/#certifications
+    - name: User Manual
+      href: /user-manual/
+    - name: Deployment Guide
+      href: /deployment-guide/
 prev: false
 next: false
 ---

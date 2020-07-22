@@ -16,8 +16,6 @@ params:
     resources:
       - name: Datasheet
         href: /wisgate/rak7244/datasheet/
-      - name: Certification Report
-        href: /wisgate/rak7244/datasheet/#certification
       - name: User Manual
         href: /user-manual/
       - name: Deployment Guide

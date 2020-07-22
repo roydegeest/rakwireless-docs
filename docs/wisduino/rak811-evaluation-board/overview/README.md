@@ -11,7 +11,7 @@ params:
       - name: Support
         href: mailto:support@rakwireless.com
     resources:
-      - name: RAK811 LPWAN Module Datasheet
+      - name: Datasheet
         href: /wisduino/rak811-evaluation-board/datasheet/
       - name: Certification Reports
         href: /wisduino/rak811-evaluation-board/datasheet/#certifications
