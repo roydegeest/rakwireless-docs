@@ -1,6 +1,7 @@
 ---
 sidebar: auto
 sidebarDepth: 3
+displayAllHeaders: true
 tags: + datasheet
 prev: ../overview
 ---

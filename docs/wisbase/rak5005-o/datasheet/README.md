@@ -1,7 +1,8 @@
 ---
 tags: + datasheet
 sidebar: auto
-sidebarDepth: 4
+sidebarDepth: 3
+displayAllHeaders: true
 prev: /wisbase/rak5005-o/overview/
 ---
 

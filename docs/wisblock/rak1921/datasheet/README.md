@@ -1,7 +1,8 @@
 ---
 tags: + datasheet
 sidebar: auto
-sidebarDepth: 4
+sidebarDepth: 3
+displayAllHeaders: true
 prev: /wisgate/rak1921/overview/
 ---
 
