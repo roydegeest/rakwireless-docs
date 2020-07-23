@@ -1,6 +1,6 @@
 ---
 rak_img: /assets/images/wisblock/rak2305/datasheet/rak2305.png
-rak_grp: wisblock
+rak_grp: [wisblock,wisio]
 prev: false
 next: false
 params:
