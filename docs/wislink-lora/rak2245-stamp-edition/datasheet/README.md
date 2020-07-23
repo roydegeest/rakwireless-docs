@@ -2,7 +2,8 @@
 tags:
   - datasheet
 sidebar: auto
-sidebarDepth: 4
+sidebarDepth: 3
+displayAllHeaders: true
 prev: ../overview/
 next: false
 ---

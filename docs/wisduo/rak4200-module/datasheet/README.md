@@ -1,6 +1,7 @@
 ---
 sidebar: auto
-sidebarDepth: 4
+sidebarDepth: 3
+displayAllHeaders: true
 tags:
 - datasheet
 - wisduo

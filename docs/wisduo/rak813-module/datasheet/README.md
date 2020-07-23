@@ -1,6 +1,7 @@
 ---
 sidebar: auto
-sidebarDepth: 4
+sidebarDepth: 3
+displayAllHeaders: true
 tags:
 - datasheet
 - wisduo
@@ -14,6 +15,8 @@ prev: ../overview/
   width="30%"
   caption="RAK813 Module"
 />
+
+## Overview
 
 ### Product Description
 
@@ -49,9 +52,11 @@ RAK813 supports various protocols, including the newest BLE and LoRaWAN®, where
 - llP3 = -11dBm
 - Up to 15 km coverage at suburban and up to 5 km coverage at urban area.
 
-## Overview
+## Specifications
 
-### Board Overview
+### Overview
+
+#### Board Overview
 
 **RAK813 BLE+ LoRa®** has outer dimensions of 27.2 mm x 23 mm x 1.7 mm.
 
@@ -61,7 +66,7 @@ RAK813 supports various protocols, including the newest BLE and LoRaWAN®, where
   caption="RAK813 Board Dimensions"
 />
 
-### Block Diagram
+#### Block Diagram
 
 The block diagram of the module is depicted in the figure below.
 
@@ -71,7 +76,7 @@ The block diagram of the module is depicted in the figure below.
   caption="RAK813 Block Diagram"
 />
 
-### System Diagram
+#### System Diagram
 
 <rk-img
   src="/assets/images/wisduo/rak813-module/datasheet/interfaces/system-diagram.png"
@@ -79,9 +84,9 @@ The block diagram of the module is depicted in the figure below.
   caption="System Diagram"
 />
 
-## Specifications
+### Hardware
 
-### Pin Definition
+#### Pin Definition
 
 <rk-img
   src="/assets/images/wisduo/rak813-module/datasheet/pin-definition/rak813-pinout.png"
@@ -125,9 +130,7 @@ The block diagram of the module is depicted in the figure below.
 | 32         | GND            |      | Ground connection                |
 | 33         | BLE_ANT        | I/O  | RF I/O port                      |
 
-### RF Characteristics
-
-#### Operating Frequencies
+#### RF Characteristics
 
 ##### LoRa
 

@@ -4,6 +4,7 @@ prev: /wistrio/rak8212/overview/
 next: false
 sidebar: auto
 sidebarDepth: 3
+displayAllHeaders: true
 ---
 
 # RAK8212 iTracker Pro

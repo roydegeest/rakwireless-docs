@@ -3,6 +3,7 @@ prev: /wisnode/rak7431/overview/
 next: false
 sidebar: auto
 sidebarDepth: 3
+displayAllHeaders: true
 ---
 
 # RAK7431 - RS485 to LoRaWAN® Converter Datasheet

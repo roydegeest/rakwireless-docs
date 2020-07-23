@@ -3,6 +3,7 @@ prev: /wisduino/rak811-evaluation-board/overview/
 next: false
 sidebar: auto
 sidebarDepth: 3
+displayAllHeaders: true
 ---
 
 # RAK811 LPWAN Module Datasheet

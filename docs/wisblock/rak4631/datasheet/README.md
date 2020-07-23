@@ -3,6 +3,7 @@ prev: /wisblock/rak4631/overview/
 next: false
 sidebar: auto
 sidebarDepth: 3
+displayAllHeaders: true
 ---
 
 # RAK4631 WisCore Module
