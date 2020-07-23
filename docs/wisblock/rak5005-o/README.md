@@ -1,0 +1,1 @@
+<rk-redirect to="/wisblock/rak5005-o/overview" />

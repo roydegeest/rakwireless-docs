@@ -1,7 +1,7 @@
 ---
-static_root: /assets/images/wisbase/rak5005-o/datasheet/
-rak_img: /assets/images/wisbase/rak5005-o/datasheet/4.top-view-interfaces
-rak_grp: wisbase
+static_root: /assets/images/wisblock/rak5005-o/datasheet/
+rak_img: /assets/images/wisblock/rak5005-o/datasheet/4.top-view-interfaces.png
+rak_grp: [wisblock, wisbase]
 prev: false
 next: false
 params:
@@ -15,7 +15,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: Datasheet
-        href: /wisbase/rak5005-o/datasheet/
+        href: /wisblock/rak5005-o/datasheet/
       - name: User Manual
         href: /user-manual/
       - name: Deployment Guide
@@ -23,7 +23,7 @@ params:
 ---
 
 
-# RAK5005-O WisBase Board Datasheet
+# RAK5005-O WisBase Board
 
 
 
@@ -40,7 +40,7 @@ To avoid electromagnetic interference and heating interference, the sensor conne
 
 
 <rk-btn
-  src="/wisbase/rak5005-o/datasheet/"
+  src="/wisblock/rak5005-o/datasheet/"
   label="Get Started with RAK5005-O WisBase Board"
 />
 

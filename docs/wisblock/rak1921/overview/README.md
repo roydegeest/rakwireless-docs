@@ -1,6 +1,6 @@
 ---
 rak_img: /assets/images/wisblock/rak1921/datasheet/interface.png
-rak_grp: wisblock
+rak_grp: [wisblock, wisio]
 prev: false
 next: false
 params:
@@ -39,7 +39,7 @@ RAK1921 is an OLED display module with a **128×64 dot matrix**. The main charac
 - Low Power Consumption
 
 <rk-btn
-  src="../datasheet/"
+  src="/wisblock/rak1921/datasheet/"
   label="Get Started with RAK1921 OLED Display Module"
 />
 

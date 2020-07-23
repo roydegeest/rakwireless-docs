@@ -2,10 +2,10 @@
 tags: + datasheet
 sidebar: auto
 sidebarDepth: 4
-prev: /wisgate/rak1921/overview/
+prev: /wisblock/rak1921/overview/
 ---
 
-# RAK1921 OLED Display Module 
+# RAK1921 OLED Display Module Datasheet
 
 # Overview
 

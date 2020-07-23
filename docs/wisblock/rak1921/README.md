@@ -1,1 +1,1 @@
-<rk-redirect to="/wisbee/rak1921/overview" />
+<rk-redirect to="/wisblock/rak1921/overview" />

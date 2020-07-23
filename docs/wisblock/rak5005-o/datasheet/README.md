@@ -2,7 +2,7 @@
 tags: + datasheet
 sidebar: auto
 sidebarDepth: 4
-prev: /wisbase/rak5005-o/overview/
+prev: /wisblock/rak5005-o/overview/
 ---
 
 # RAK5005-O WisBase Board Datasheet
@@ -11,7 +11,7 @@ prev: /wisbase/rak5005-o/overview/
 
 **WisBlock modules** are part of a series of stackable boards built by RAKWireless for the IoT industry. WisBlock modules support dozens type of CPUs, sensors, and interface circuit boards. This concept allows customers to build their own electronic solutions very quickly, using building blocks to materialize their new ideas. Also, through high-speed connectors and easily attachable interconnections, customers will be able to composite reliable industrial products.
 
-WisBlock series modules are divided into four: **WisBase module**, **WisDuo module**, **WisSensor module**, and **WisIO module**.
+WisBlock series are divided into four modules: **WisBase**, **WisDuo**, **WisSensor**, and **WisIO** modules.
 
 **RAK5005-O** module falls in the category of WisBase module. It is the **motherboard of WisBlock** that allow to attach a CPU, sensor, and IO modules through the standardized expansion connectors. These connectors provide a data bus interconnection between the modules attached to the baseboard. Also, the WisBase module integrates the power supply circuitry for battery charging, USB ports, indicator LEDs, buttons, and extended IO interfaces.
 
@@ -54,7 +54,7 @@ WisBlock uses a compact and stackable hardware design, which integrates various 
 WisBlock module can be used for quickly building prototypes. It allows users to select and combine different functional modules, sensors to implement a customized products in a very short period of time.
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/1.wisblock-diagram.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/1.wisblock-diagram.png"
   width="100%"
   caption="WisBlock Ecosystem"
 />
@@ -63,7 +63,7 @@ WisBlock module can be used for quickly building prototypes. It allows users to 
 WisBlock series modules are not only for the rapid implementation of engineering prototypes, but it is also designed for massive production-ready applications. The modules can be used together with RAK industrial protective housing to create products ready for industrial environments. Under the unified management of WisDM, a complete end-to-end IoT solution is formed by aggregating data of wireless nodes through the RAK industrial gateways.
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/2.wisblock-applications.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/2.wisblock-applications.png"
   width="100%"
   caption="WisBlock Applications"
 />
@@ -74,7 +74,7 @@ WisBlock series modules are not only for the rapid implementation of engineering
 WisBlock is designed for modularity, in the Figure 3, the whole ecosystem is depicted. The objective of the architecture is to allow the customers to combine different modules to create their own specific solution. A roadmap about the availability of the modules is also shown.
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/3.wisblock-architecture.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/3.wisblock-architecture.png"
   width="100%"
   caption="WisBlock Architecture"s
 />
@@ -87,13 +87,13 @@ WisBlock is designed for modularity, in the Figure 3, the whole ecosystem is dep
 #### Product Description
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/4.top-view-interfaces.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/4.top-view-interfaces.png"
   width="100%"
   caption="Top view of the board with interfaces"
 />
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/5.bottom-view-interfaces.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/5.bottom-view-interfaces.png"
   width="100%"
   caption="Bottom view of the board with interfaces"
 />
@@ -107,7 +107,7 @@ For each module, a method is designed to connect and fasten the module easily. T
 To avoid electromagnetic interference and heating interference, the sensor connectors on the WisBase are designed to be installed on both sides of the PCB. As shown in figures 4 and 5, a sensor module can be attached either on the top layer or the bottom layer of the WisBase board.
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/6.bottom-view.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/6.bottom-view.png"
   width="75%"
   caption="Bottom view of the board with interfaces"
 />
@@ -115,7 +115,7 @@ To avoid electromagnetic interference and heating interference, the sensor conne
 For example, it is recommended to attach a temperature sensor outside of the base board, as shown in the Figure 7. It allows to get more accurate measurements, since temperature sensor located in the top layer of the base board could be interfered by the heating introduced by other modules.
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/7.temperature-sensor-out.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/7.temperature-sensor-out.png"
   width="75%"
   caption="Out of the board Temperature Sensor"
 />
@@ -126,7 +126,7 @@ The block diagram is shown in Figure 8 that shows the internal architecture and 
 
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/8.block-diagram.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/8.block-diagram.png"
   width="100%"
   caption="RAK5005-O WisBase Block Diagram"
 />
@@ -136,7 +136,7 @@ The block diagram is shown in Figure 8 that shows the internal architecture and 
 #### Data Bus of RAK5005-O
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/9.bus-data.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/9.bus-data.png"
   width="100%"
   caption="RAK5005-O WisBase Data Bus"
 />
@@ -149,7 +149,7 @@ Some type of MCU has fewer IO pins. In such cases, not all the pins of the data 
 #### Power Supply Diagram of RAK5005-O
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/10.power-supply.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/10.power-supply.png"
   width="100%"
   caption="Power Supply Block Diagram"
 />
@@ -183,7 +183,7 @@ RAK5005-O provides the following **interfaces**, **headers**, **jumpers**, **but
 #### Micro-B USB port
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/11.micro-usb.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/11.micro-usb.png"
   width="25%"
   caption="Micro-B USB connector's pinout"
 />
@@ -281,7 +281,7 @@ The **MCU module connector** is a 40-pin board to board connector, it is a high-
 
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/12.mcu-module connector.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/12.mcu-module connector.png"
   width="75%"
   caption="MCU module connector"
 />
@@ -364,7 +364,7 @@ As for the following table, it shows the definition of each pin of WisDuo module
 The sensor module connector is a a **24-pin board to board connector**.
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/13.wissensor-module-connector.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/13.wissensor-module-connector.png"
   width="75%"
   caption="WisSensor module connector"
 />
@@ -429,7 +429,7 @@ The WisIO module connector, as shown in figure 14, is a **40-pin board to board 
 
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/14.wisio-module-connector.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/14.wisio-module-connector.png"
   width="75%"
   caption="WisIO module connector"
 />
@@ -585,7 +585,7 @@ A 5V Solar panel can be connected to the board via the P2 connector to also serv
 Figure 15 shows the detailed mechanical dimensions of RAK5005-O.
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/15.mechanical-dimensions.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/15.mechanical-dimensions.png"
   width="100%"
   caption="Mechanical Dimensions"
 />
@@ -600,24 +600,24 @@ The table below lists the operation and storage temperature requirements of RAK5
 | Extended Temperature Range | –40º C | +25º C | +80º C | 
 | Storage Temperature Range | –40º C | +25º C | +80º C | 
 
-
 ### Schematic Diagram
 
 The component schematics diagram of the RAK5005-Oare shown in figures 16 and 17 below:
 
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/16.schematic1.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/16.schematic1.png"
   width="100%"
   caption="RAK5005-O Schematic Diagram"
 />
 
 
 <rk-img
-  src="/assets/images/wisbase/rak5005-o/datasheet/17.schematic2.png"
+  src="/assets/images/wisblock/rak5005-o/datasheet/17.schematic2.png"
   width="100%"
   caption="RAK5005-O Schematic Diagram"
 />
+
 
 ## Module Supported
 
@@ -769,4 +769,3 @@ The WisSensor data bus is divided into four type. The relationship is shown in t
 :::tip 📝 NOTE
 *Can be supported by rework hardware.
 ::: 
-
