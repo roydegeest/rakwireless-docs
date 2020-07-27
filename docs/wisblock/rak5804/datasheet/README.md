@@ -42,9 +42,9 @@ The RAK5804 module can be mounted on the WisIO slot of the WisBase board. Figure
   caption="RAK5804 Mounting Mechanism on a WisBase module"
 />
 
-## Hardware
+### Hardware
 
-### Interfaces
+#### Interfaces
 
 The RAK5804 presents an application to the IO pins and I2C and UART communication ports through the J2, J3, and J4 connectors. Users and connect through these connectors, sensors, digital I/O, analog I/O, and slave device through the I2C and UART ports to complete their final IoT solution. These pins are routed to the WisCore through the WisIO connector. 
 
@@ -54,7 +54,7 @@ The RAK5804 presents an application to the IO pins and I2C and UART communicatio
   caption="RAK5804 J2, J3 and J4 I\/O connectors"
 />
 
-#### J2 Connector
+##### J2 Connector
 
 | **Pin Number** | **Function Description** | 
 | ---- | ---- | 
@@ -71,7 +71,7 @@ The RAK5804 presents an application to the IO pins and I2C and UART communicatio
 
 <br>
 
-#### J3 Connector
+##### J3 Connector
 
 | **Pin Number** | **Function Description** | 
 | ---- | ---- | 
@@ -88,7 +88,7 @@ The RAK5804 presents an application to the IO pins and I2C and UART communicatio
 
 <br>
 
-#### J4 Connector
+##### J4 Connector
 
 | **Pin** | **Description** | 
 | ---- | ---- | 
@@ -133,11 +133,11 @@ The RAK5804 module, as one of the WisIO module, comprises a standard WisIO conne
 
 <br>
 
-### Electrical Characteristics
+#### Electrical Characteristics
 
 This sections shows the maximum and minimum ratings of the RAK5804 module and its recommended operating conditions. Refer to tables presented below. 
 
-#### Absolute Maximum Ratings
+##### Absolute Maximum Ratings
 
 | **Symbol** | **Description** | **Minimum** | **Nominal** | **Maximum** | **Unit** | 
 | ---- | ---- | ---- | ---- | ---- | ---- | 
@@ -149,7 +149,7 @@ This sections shows the maximum and minimum ratings of the RAK5804 module and it
 
 <br>
 
-#### Recommended Operating Conditions
+##### Recommended Operating Conditions
 
 | **Symbol** | **Description** | **Minimum** | **Nominal** | **Maximum** | **Unit** | 
 | ---- | ---- | ---- | ---- | ---- | ---- | 
@@ -158,7 +158,7 @@ This sections shows the maximum and minimum ratings of the RAK5804 module and it
 
 <br>
 
-### Mechanical Characteristics
+#### Mechanical Characteristics
 
 
 The mechanical dimensions of the RAK5804 module is shown in figure 4 below.
@@ -170,7 +170,7 @@ The mechanical dimensions of the RAK5804 module is shown in figure 4 below.
   caption="RAK5804 Mechanical Dimensions"
 />
 
-### Schematic Diagram
+#### Schematic Diagram
 
 Figure 5 shows the schematic diagram of RAK5804 WisIO connector, USB connector and the 10 mechanical holes.
 

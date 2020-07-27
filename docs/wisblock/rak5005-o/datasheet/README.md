@@ -86,6 +86,9 @@ WisBlock is designed for modularity, in the Figure 3, the whole ecosystem is dep
 
 #### Product Description
 
+The RAK5005-O baseboard,as shown in Figures 4 and 5, has one slot reserved for WisDuo module, four slots for WisSensor modules and one slot for WisIO module. Also, there are also **2.54 mm pitch connectors** for extension interface, such as **I2C**, **UART**, and **GPIO pins**.
+
+
 <rk-img
   src="/assets/images/wisblock/rak5005-o/datasheet/4.top-view-interfaces.png"
   width="100%"
@@ -98,11 +101,10 @@ WisBlock is designed for modularity, in the Figure 3, the whole ecosystem is dep
   caption="Bottom view of the board with interfaces"
 />
 
-As shown in Figure 4 and Figure 5, in the RAK5005-O baseboard, there is one slot reserved for WisDuo module，four slots for WisSensor modules and one slot for WisIO module. Also, there are also **2.54 mm pitch connectors** for extension interface, such as **I2C**, **UART**, and **GPIO pins**.
 
 For convenience, there is a USB connector for debugging, it is connected directly to MCU’s USB port (if supported). The customer can access the internal MCU by connecting to a computer’s USB port directly. This USB connector is also used as a battery charging port.
 
-For each module, a method is designed to connect and fasten the module easily. These connectors are **high-speed board to board connector**, they provide signal integrity for each data bus. A set of screws are used for attaching the module under the environment with vibrations.
+Each module has method designed to connect and fasten the module easily. These connectors are **high-speed board to board connector**, they provide signal integrity for each data bus. A set of screws are used for attaching the module under the environment with vibrations.
 
 To avoid electromagnetic interference and heating interference, the sensor connectors on the WisBase are designed to be installed on both sides of the PCB. As shown in figures 4 and 5, a sensor module can be attached either on the top layer or the bottom layer of the WisBase board.
 
@@ -120,7 +122,7 @@ For example, it is recommended to attach a temperature sensor outside of the bas
   caption="Out of the board Temperature Sensor"
 />
 
-### Block Diagram
+#### Block Diagram
 
 The block diagram is shown in Figure 8 that shows the internal architecture and external interfaces of the RAK5005-O board.
 
@@ -133,7 +135,7 @@ The block diagram is shown in Figure 8 that shows the internal architecture and 
 
 
 
-#### Data Bus of RAK5005-O
+##### Data Bus of RAK5005-O
 
 <rk-img
   src="/assets/images/wisblock/rak5005-o/datasheet/9.bus-data.png"
@@ -146,7 +148,7 @@ The MCU module exposes the I2C, UART, and SPI data bus to the sensor modules. Th
 Some type of MCU has fewer IO pins. In such cases, not all the pins of the data bus are connected. For example, only I2C and UART are connected. Some MCU’ IO has an alternate function. You can modify its function by software or rework the hardware to redefine the function of IO. Refer to the datasheet of WisDuo to get the detail.
 
 
-#### Power Supply Diagram of RAK5005-O
+##### Power Supply Diagram of RAK5005-O
 
 <rk-img
   src="/assets/images/wisblock/rak5005-o/datasheet/10.power-supply.png"
@@ -165,8 +167,8 @@ The 3V3_S is another 3.3V power supply. It can be controlled by the MCU in order
 - Set **IO2=1**, 3V3_S is on.
 - Set **IO2=0**, 3V3_S is off.
 
-## Hardware
-### Interfaces
+### Hardware
+#### Interfaces
 
 RAK5005-O provides the following **interfaces**, **headers**, **jumpers**, **buttons** and **connectors**:
 
@@ -180,7 +182,7 @@ RAK5005-O provides the following **interfaces**, **headers**, **jumpers**, **but
 - LEDs
 - Reset button
 
-#### Micro-B USB port
+##### Micro-B USB port
 
 <rk-img
   src="/assets/images/wisblock/rak5005-o/datasheet/11.micro-usb.png"
@@ -199,7 +201,7 @@ The Micro-B USB connector is compliant with the USB2.0 specification. This USB i
 | 5 | GND | 
 
 
-#### J10, J11, J12 headers
+##### J10, J11, J12 headers
 
 On the WisBlock, there are three pieces of **2.54 mm pitch header** for IO extension. Some data bus and signal from the MCU module are also connected to these headers, such as I2C, UART, ADC, etc.
 
@@ -233,7 +235,7 @@ On the WisBlock, there are three pieces of **2.54 mm pitch header** for IO exten
 | 4 | I2C data | 
 
 
-#### Battery Connector
+##### Battery Connector
 
 The pin definition of a Li-ion battery connector is shown in the table below.
 
@@ -247,7 +249,7 @@ The pin definition of a Li-ion battery connector is shown in the table below.
 The voltage of the battery **must not exceed 4.3V**.
 :::
 
-#### Solar Panel Connector
+##### Solar Panel Connector
 
 The pin definition of the solar panel connector is shown in the table below.
 
@@ -260,7 +262,7 @@ The pin definition of the solar panel connector is shown in the table below.
 The output of the solar panel **must not exceed 5.5V**, otherwise, it may cause permanent damage to the board.
 :::
 
-#### LEDs
+##### LEDs
 
 Three LEDs are used to indicate the operating status. Below are the functions of the LEDs:
 
@@ -268,14 +270,14 @@ Three LEDs are used to indicate the operating status. Below are the functions of
 - **Green LED** - connected to the MCU module, controlled by MCU defined by the user.
 - **Blue LED** - connected to the MCU module, controlled by MCU defined by the user.
 
-#### RESET Push Button
+##### RESET Push Button
 
 The Reset Push Button is connected to the MCU module. When pushed, it resets the MCU.
 
 
-### Pin Definition
+#### Pin Definition
 
-#### Connector for WisDuo
+##### Connector for WisDuo
 
 The **MCU module connector** is a 40-pin board to board connector, it is a high-speed and high-density connector, with an easy attaching mechanism.
 
@@ -359,7 +361,7 @@ As for the following table, it shows the definition of each pin of WisDuo module
 | 40 | GND | S | Ground | 
 
 
-#### Connectors for WisSensor
+##### Connectors for WisSensor
 
 The sensor module connector is a a **24-pin board to board connector**.
 
@@ -423,7 +425,7 @@ As for the following table, it shows the pin name and description of each pin in
 | 24 | RXD1 | NC | NC | NC | NC | - Not connected.<br>- UART RX signal on connector A | 
 
 
-#### Connector for WisIO
+##### Connector for WisIO
 
 The WisIO module connector, as shown in figure 14, is a **40-pin board to board connector**.
 
@@ -507,9 +509,9 @@ As for the following table, it shows the pin name and description of the WisIO m
 | 39 | GND | S | Ground | 
 | 40 | GND | S | Ground | 
 
-### Electrical Characteristics
+#### Electrical Characteristics
 
-#### Absolute Maximum Ratings
+##### Absolute Maximum Ratings
 
 Shown in the table below are the **Absolute Maximum Ratings** of the device. The stress ratings are the functional operation of the device. 
 
@@ -531,7 +533,7 @@ Shown in the table below are the **Absolute Maximum Ratings** of the device. The
 The RAK5005-O, as any electronic equipment, is sensitive to **electrostatic discharge (ESD)**. Improper handling can cause permanent damage to module.
 :::
 
-#### Current Consumption
+##### Current Consumption
 
 The RAK5005-O designs for **low power IoT products** and the power supply use low grounding current regulator, when there is no module on RAK5005-O, the **leakage current is lower than 2µA**. With MCU and sensor on it, the sleep current is **lower than 10µA**. When the LoRa module is transmitting, the current may reach to **130mA**.
 
@@ -542,7 +544,7 @@ The RAK5005-O designs for **low power IoT products** and the power supply use lo
 | Working current, with LoRa module is transmitting | 130 | µA | 
 
 
-#### Battery and Solar Panel Specification
+##### Battery and Solar Panel Specification
 
 The RAK5005-O WisBase board can be powered by a battery, connected to the **P1 connector**. The nominal operating voltage of the battery should be within the range showed in the following table.
 
@@ -576,11 +578,11 @@ If a non-rechargeable battery is connected to the RAK5005-O, rework the hardware
 :::
 
 
-#### Solar Panel Connector
+##### Solar Panel Connector
 
 A 5V Solar panel can be connected to the board via the P2 connector to also serves the purpose of charging the battery.
 
-### Mechanical Characteristics
+#### Mechanical Characteristics
 
 Figure 15 shows the detailed mechanical dimensions of RAK5005-O.
 
@@ -590,7 +592,7 @@ Figure 15 shows the detailed mechanical dimensions of RAK5005-O.
   caption="Mechanical Dimensions"
 />
 
-### Environmental Requirements
+#### Environmental Requirements
 
 The table below lists the operation and storage temperature requirements of RAK5005-O:
 
@@ -600,7 +602,7 @@ The table below lists the operation and storage temperature requirements of RAK5
 | Extended Temperature Range | –40º C | +25º C | +80º C | 
 | Storage Temperature Range | –40º C | +25º C | +80º C | 
 
-### Schematic Diagram
+#### Schematic Diagram
 
 The component schematics diagram of the RAK5005-Oare shown in figures 16 and 17 below:
 
