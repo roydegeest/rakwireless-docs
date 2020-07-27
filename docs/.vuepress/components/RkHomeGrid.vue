@@ -142,7 +142,7 @@ export default {
           break
         case 'object':
           if (Array.isArray(rak_grp)) {
-            console.log(qs.path, rak_grp)
+            // console.log(qs.path, rak_grp)
             index = rak_grp[0] || 'others'
             index2 = rak_grp[1] || null
             break
@@ -173,7 +173,7 @@ export default {
       })
     this.groups = ordered
     this.defaultActive = Object.keys(this.groups)[0] || null
-    console.log('pages: ', this.groups)
+    // console.log('pages: ', this.groups)
 
     // set page sections
     this.pageSections = {}
