@@ -1,12 +1,12 @@
 ---
 sidebar: auto
 sidebarDepth: auto
-rak_img: /assets/images/knowledge-hub/tutorials/the-mighty-mqtt-what-you-should-know-about-it/mqtt-overview.png
+rak_img: /assets/images/knowledge-hub/tutorials/the-mighty-mqtt-what-you-should-know-about-it/overview.jpg
 ---
 
 # The Mighty MQTT! What You Should Know About It
 
-![The Mighty MQTT!](/assets/images/knowledge-hub/tutorials/the-mighty-mqtt-what-you-should-know-about-it/mqtt-overview.png)
+![The Mighty MQTT!](/assets/images/knowledge-hub/tutorials/the-mighty-mqtt-what-you-should-know-about-it/overview.jpg)
 
 As a player in the IoT world, we know you want fast messaging with your devices. You want to be always updated. You want real-time information at the tip of your fingers. However, we also know how difficult it is to find the right technology to make your aspirations real. Fortunately, [MQTT](http://mqtt.org/) is here and it can be your next big project!
 
@@ -24,12 +24,12 @@ Ever since its standardization, the protocol has been easy to adapt for a wide v
 
 _**At present, MQTT has different variants and versions that you can explore and use for your new IoT project**_:
 
-* **MQTT v3.1.0** - This is the original MQTT that was designed in 1999 and has been in use for many years. It is created for TCP/IP networks.
-* **MQTT v3.1.1** - This is the most commonly used by developers at the moment. There is very little difference between v3.1.0 and 3.1.1.
-* **MQTT v5** - This is the latest version of the protocol (Jan 2018) and has seen limited use. As of release 1.6, the mosquito broker supports MQTT v6 in addition to MQTT v3.1.1, so you can continue to use the older version client with the latest broker.
-* **MQTT-SN** – This was specified around 2013, and designed to work over UDP, ZigBee, and other transport protocols. MQTT-SN doesn’t currently appear to be very popular and the specification hasn’t changed for several years. This may change as IoT deployments start to greatly increase.
+* <b>MQTT v3.1.0</b> - This is the original MQTT that was designed in 1999 and has been in use for many years. It is created for TCP/IP networks.
+* <b>MQTT v3.1.1</b> - This is the most commonly used by developers at the moment. There is very little difference between v3.1.0 and 3.1.1.
+* <b>MQTT v5</b> - This is the latest version of the protocol (Jan 2018) and has seen limited use. As of release 1.6, the mosquito broker supports MQTT v6 in addition to MQTT v3.1.1, so you can continue to use the older version client with the latest broker.
+* <b>MQTT-SN</b> – This was specified around 2013, and designed to work over UDP, ZigBee, and other transport protocols. MQTT-SN doesn’t currently appear to be very popular and the specification hasn’t changed for several years. This may change as IoT deployments start to greatly increase.
 
-_**Below are the definitions of some basic concepts in order to better understand how MQTT functions**_:
+_<b>Below are the definitions of some basic concepts in order to better understand how MQTT functions</b>_:
 
 The first concept is the <u><b>publish-and-subscribe</b></u> mechanic. In a publish-and-subscribe system, a device can publish a message on a topic, or it can be subscribed to a particular topic to receive messages. Messages are automatically pushed to subscribers to the corresponding topic when there is an update.
 
@@ -53,7 +53,7 @@ The MQTT client has its counterpart - the <u><b>MQTT broker</b></u>. The broker 
 
 MQTT uses the publish-and-subscribe pattern to connect interested parties with each other. It practices that by decoupling that pattern with the receive-and-subscribe pattern. The publisher sends a message to a central topic that has multiple subscribers waiting to receive the message. The publishers and subscribers are autonomous, which means that they do not need to know the presence of each other.
 
-_**However, much like other technologies, MQTT protocol has some disadvantages as well**_:
+_<b>However, much like other technologies, MQTT protocol has some disadvantages as well</b>_:
 
 * MQTT is not RESTful so, it does not take advantage of existing protocols.
 * MQTT works on flexible topic subscriptions, so it doesn't have a stable resource discovery mechanism.
@@ -61,7 +61,7 @@ _**However, much like other technologies, MQTT protocol has some disadvantages a
 
 Despite of its shortcomings MQTT is still one of the most preferred protocols in IoT projects as the benefits of using it far outweigh the negatives. For example, [RAKwireless has enhanced the capability of their LoRaWAN Gateways with the use of a built-in MQTT bridge](https://medium.com/@rakwireless/rakwireless-enhance-their-gatway-capability-with-mqtt-bridge-70aaf43ad7be) The Commercial Gateways such as [RAK7249](https://www.rakwireless.com/en-us/products/lpwan-gateways-and-concentrators/rak7249) and [RAK7258](https://www.rakwireless.com/en-us/products/lpwan-gateways-and-concentrators/rak7258) have an embedded LoRa Network and Application Server with a MQTT Bridge. This abstracts the Semtech Packet-forwarder UDP protocol into JSON over MQTT, transmitting your data to your application directly and securely. This is becoming a practice with other manufacturers and is not limited to LoRaWAN, but other IoT technologies as well.
 
-_**In summary MQTT has some unique features that can’t be easily found in other protocols, such as**_:
+_<b>In summary MQTT has some unique features that can’t be easily found in other protocols, such as</b>_:
 
 * It’s a lightweight protocol. It is ultimately efficient at fast-data transmission. Furthermore, using MQTT puts less computational burden or your system.
 * The small size of the data packets minimizes overhead and reduces traffic.

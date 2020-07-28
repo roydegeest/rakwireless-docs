@@ -1,12 +1,12 @@
 ---
 sidebar: auto
 sidebarDepth: 3
-rak_img: /assets/images/knowledge-hub/tutorials/ubidots-integration/header.png
+rak_img: /assets/images/knowledge-hub/tutorials/ubidots-integration/overview.jpg
 ---
 
 # Connect the Dots: Linking LPWAN (LoRaWAN) devices to Ubidots
 
-![Ubidots Integration](/assets/images/knowledge-hub/tutorials/ubidots-integration/header.png)
+![Ubidots Integration](/assets/images/knowledge-hub/tutorials/ubidots-integration/overview.jpg)
 
 Gateways and nodes are not the only participants in the operations of the Internet of Things (IoT). For things to connect in IoT, users must understand the environmental data gathered from [LPWAN nodes](https://store.rakwireless.com/collections/boards-nodes). Data then must be organized and analyzed. If left untouched, data will never be understood by users and devices - data becomes unusable. With the help of IoT platforms, presenting digital information from our environment in an understandable approach becomes simple. Users can even configure and monitor specific assets from anywhere in the world just by using any Internet-enabled device (e.g. computers and mobile devices).
 

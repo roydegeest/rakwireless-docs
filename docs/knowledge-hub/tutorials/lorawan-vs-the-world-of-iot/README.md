@@ -1,12 +1,12 @@
 ---
 sidebar: auto
 sidebarDepth: auto
-rak_img: /assets/images/knowledge-hub/tutorials/lorawan-vs-the-world-of-iot/lorawan-vs-iot-world-overview.png
+rak_img: /assets/images/knowledge-hub/tutorials/lorawan-vs-the-world-of-iot/overview.png
 ---
 
 # LoRaWAN™ vs. the world of IoT!
 
-![LoRaWAN™ vs. the world of IoT!](/assets/images/knowledge-hub/tutorials/lorawan-vs-the-world-of-iot/lorawan-vs-iot-world-overview.png)
+![LoRaWAN™ vs. the world of IoT!](/assets/images/knowledge-hub/tutorials/lorawan-vs-the-world-of-iot/overview.png)
 
 You know (or you will know after reading this) that there are not 1 or 2 technologies and protocols in the Internet of Things. They all have their strengths and weaknesses and today we will discuss that for the main players in the game.
 

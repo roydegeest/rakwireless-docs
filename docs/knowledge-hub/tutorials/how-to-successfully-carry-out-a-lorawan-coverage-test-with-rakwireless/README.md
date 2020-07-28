@@ -48,16 +48,49 @@ This factors may be unavoidable and that is the reason we have decided to give a
 
 ## Carrying Out the Test
 
-### Step 1: Evaluate the area you want to cover
+<b>Step 1: Evaluate the area you want to cover</b>
 
-### Step 2: Carry out the test for an extended period
+One of the best tips to getting a good result would be to carry out your test within a smaller range of area, about 400m is still good enough if you are trying it out for the first time.
 
-### Step 3: Place your gateway high enough
+<b>Step 2: Carry out the test for an extended period</b>
 
-### Step 4: Place value on each of your results
+In order to ensure that factors like weather or a truck parked close to your house is not interfering with your coverage test, it is important that this test is carried over a long period of time.
 
-### Step 5: Classify Data Collected Properly
+Extending the period for coverage tests will help one to take into consideration other things that may affect the frequencies of the wide area network. If you are looking to test the reception of your IoT device sensor to a/multiple LoRaWAN gateway(s) in a specific place, then it is important to do a coverage test over a period of time.
 
-#### Some of the classifications will include;
+<b>Step 3: Place your gateway high enough</b>
+
+This is a rather obvious one, for anyone that has dealt with radio frequencies, they would know that, the higher the altitude, the better the coverage.
+
+In order to achieve a better coverage with LoRaWAN, the height of the gateway antenna must be decent enough, especially in urban areas and cities where there is a lot of other parameters and factors that may influence your test results.
+
+Coverage improves with increased height and it will be a very good idea to place the antenna at a very good spot that's high enough.
+
+<b>Step 4: Place value on each of your results</b>
+
+The result for each test may differ and it is important that one notes the differences in these results. This is because as earlier stated, different factors and attenuations may come into place and affect the results at different times.
+
+Hence it is important that we take note of the difference in the results at certain points or places, be it a different weather condition, or the presence of new [LoRaWAN gateways](https://store.rakwireless.com/collections/lorawan-gateways-concentrators) in the area.
+
+<b>Step 5: Classify Data Collected Properly</b>
+
+If you are carrying out a big and important test, one will definitely end up with a lot of data, especially with movements around in order to evaluate coverage within that area.
+
+For this reason, it is important to properly classify each data for the LoRaWAN coverage test in a way that would be easy to understand. The network would be tested at various locations and we will definitely need to have various classifications for every of the data gotten at these various points.
+
+<rk-img
+  src="/assets/images/knowledge-hub/tutorials/how-to-successfully-carry-out-a-lorawan-coverage-test-with-rakwireless/overview.jpg"
+/>
+
+<b>Some of the classifications will include:</b>
+
+* Location
+* Altitude
+* Area
+* Weather at each point in time.
 
 ## Try it Yourself
+
+A shabby LoRaWAN gateway coverage test will do no good in helping you to establish the coverage of your wide area network, this is why it is important that the test is properly carried out and evaluated in the right way.
+
+Although a lot of factors may hinder a quality and successful coverage test, following the tips above will help to inform you more about the coverage of LoRaWAN.

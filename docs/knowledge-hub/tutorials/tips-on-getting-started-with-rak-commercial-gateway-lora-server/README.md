@@ -1,12 +1,12 @@
 ---
 sidebar: auto
 sidebarDepth: auto
-rak_img: /assets/images/knowledge-hub/tutorials/tips-on-getting-started-with-rak-commercial-gateway-lora-server/overview.png
+rak_img: /assets/images/knowledge-hub/tutorials/tips-on-getting-started-with-rak-commercial-gateway-lora-server/overview.jpg
 ---
 
 # Tips on Getting Started With RAK Commercial Gateway LoRa Server
 
-![Overview](/assets/images/knowledge-hub/tutorials/tips-on-getting-started-with-rak-commercial-gateway-lora-server/overview.png)
+![Overview](/assets/images/knowledge-hub/tutorials/tips-on-getting-started-with-rak-commercial-gateway-lora-server/overview.jpg)
 
 All RAKwireless [Commercial Gateway](https://store.rakwireless.com/products/rak7258-micro-gateway) devices come with an integrated LoRa Server. This turns what is a simple Packet Forwarder into a complete LoRaWAN Network solution.
 
@@ -49,10 +49,10 @@ The following parameters can be adjusted or left with their default values (they
   caption="Enabling the LoRa Server"
 />
 
-* **Adaptive Data Rate** (ADR): You can set you minimum and maximum data rates depending on whether you want to use (ADR) or not.
-* **Network ID**: The ID of the network to be advertised to end devices in case you want to have roaming to other networks.
-* **Downlink Tx Power**: The power in dBm the Gateway will be transmitting with (make sure you adhere to local limits).
-* **Device-status request interval**: The time in seconds, over which the Gateway sends a status request downlink. Enter 0 to disable it (default).
+* <b>Adaptive Data Rate</b> (ADR): You can set you minimum and maximum data rates depending on whether you want to use (ADR) or not.
+* <b>Network ID</b> The ID of the network to be advertised to end devices in case you want to have roaming to other networks.
+* <b>Downlink Tx Power</b> The power in dBm the Gateway will be transmitting with (make sure you adhere to local limits).
+* <b>Device-status request interval</b> The time in seconds, over which the Gateway sends a status request downlink. Enter 0 to disable it (default).
 
 ### Step 3: Adding additional Gateways (Optional)
 
@@ -68,7 +68,7 @@ You can configure the Gateway Backend Configuration in order to point the Gatewa
 
 ### Step 4: Application
 
-In order to have your nodes be authenticated and to see the decrypted data you need to have an Application created. Simply enter a name in the text field and press the “**Add**” button.
+In order to have your nodes be authenticated and to see the decrypted data you need to have an Application created. Simply enter a name in the text field and press the “<b>Add</b>” button.
 
 <rk-img
   src="/assets/images/knowledge-hub/tutorials/tips-on-getting-started-with-rak-commercial-gateway-lora-server/application-creation.jpg"
@@ -94,10 +94,10 @@ Simply input a valid Device EUI and press the “Add” button (you can also do 
 
 You will be redirected to the Device Configuration screen where you need to enter the following:
 
-* **Name**: This is up to your choice
-* **Class**: Class A and Class C are supported
-* **Join Mode**: OTAA and ABP are both supported
-* **Application Key**: Make sure you input a valid Key (this can also be generated randomly)
+* <b>Name</b> This is up to your choice
+* <b>Class</b> Class A and Class C are supported
+* <b>Join Mode</b> OTAA and ABP are both supported
+* <b>Application Key</b> Make sure you input a valid Key (this can also be generated randomly)
 
 <rk-img
   src="/assets/images/knowledge-hub/tutorials/tips-on-getting-started-with-rak-commercial-gateway-lora-server/device-param-config.jpg"
@@ -105,7 +105,7 @@ You will be redirected to the Device Configuration screen where you need to ente
   caption="Device parameter configuration"
 />
 
-For the purpose of this example we are using the parameters in Figure 7 above. Thus, upon hitting the “**Save & Apply**” button your device will request to be authenticated.
+For the purpose of this example we are using the parameters in Figure 7 above. Thus, upon hitting the “<b>Save & Apply</b>” button your device will request to be authenticated.
 
 If this is successful you should see the data in Figure 8. This would mean that your Device has successfully joined the network and its LoRa Frames will be properly handled (forwarded, decrypted, etc).
 

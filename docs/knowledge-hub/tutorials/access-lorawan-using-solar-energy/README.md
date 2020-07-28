@@ -1,12 +1,12 @@
 ---
 sidebar: auto
 sidebarDepth: auto
-rak_img: /assets/images/knowledge-hub/tutorials/access-lorawan-using-solar-energy/header.png
+rak_img: /assets/images/knowledge-hub/tutorials/access-lorawan-using-solar-energy/overview.jpg
 ---
 
 # How To Access LoRaWAN® using Solar Energy
 
-![Ubidots Integration](/assets/images/knowledge-hub/tutorials/access-lorawan-using-solar-energy/header.png)
+![Overview](/assets/images/knowledge-hub/tutorials/access-lorawan-using-solar-energy/overview.jpg)
 
 As the goal of IoT is to interconnect everything in the world, developers aim to extend the reach of LoRaWAN® access even to things in remote areas. At present, a number of IoT users from these areas have already begun their own LoRa® projects to improve their area’s agricultural and water systems. If you are one of them, difficulties in connecting are not new to you, most especially the challenge in having an intermittent power supply. With unexpected, frequent power outages, you absolutely cannot make the most of this promising new technology. Imagine this scenario: you are close to accessing a server from a faraway area but, your gateways suddenly shut down, making you start your whole data transfer from scratch. It is certainly a situation we do not want to find ourselves in.
 
