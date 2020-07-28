@@ -1,6 +1,7 @@
 ---
 sidebar: auto
 sidebarDepth: auto
+rak_img: /assets/images/knowledge-hub/tutorials/access-lorawan-using-solar-energy/header.png
 ---
 
 # How To Access LoRaWAN® using Solar Energy

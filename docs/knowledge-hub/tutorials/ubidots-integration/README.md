@@ -1,6 +1,7 @@
 ---
 sidebar: auto
 sidebarDepth: 3
+rak_img: /assets/images/knowledge-hub/tutorials/ubidots-integration/header.png
 ---
 
 # Connect the Dots: Linking LPWAN (LoRaWAN) devices to Ubidots
