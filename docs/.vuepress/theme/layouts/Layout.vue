@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="hHh LpR lfr" container style="height: 100vh">
+  <q-layout view="hHh LpR lfr">
     <q-header class="bg-primary text-white">
       <q-toolbar style="height: 70px">
         <q-btn
@@ -72,7 +72,7 @@
 
     <q-drawer
       v-model="showDrawer"
-      :width="200"
+      :width="300"
       :breakpoint="500"
       content-class="column bg-grey-1 text-grey-9 q-pa-none"
     >
@@ -88,8 +88,12 @@
       <q-scroll-area class="col">Scroll Area</q-scroll-area>
     </q-drawer>
     <q-page-container>
-      <router-view />
+      <rk-breadcrumbs :sidebar-items="sidebarItems" />
+      <rk-page :sidebar-items="sidebarItems" />
     </q-page-container>
+    <q-footer>
+      <rk-footer />
+    </q-footer>
   </q-layout>
 </template>
 
@@ -101,6 +105,9 @@ import Sidebar from '@theme/components/Sidebar.vue'
 
 import RkDropdown from '@theme/components/RkDropdown.vue'
 import RkSearchBox from '@theme/components/RkSearchBox.vue'
+import RkPage from '@theme/components/RkPage.vue'
+import RkFooter from '@theme/components/RkFooter.vue'
+import RkBreadcrumbs from '@theme/components/RkBreadcrumbs.vue'
 
 import { resolveSidebarItems } from '../util'
 
@@ -113,7 +120,10 @@ export default {
     Sidebar,
     Navbar,
     RkDropdown,
-    RkSearchBox
+    RkSearchBox,
+    RkPage,
+    RkFooter,
+    RkBreadcrumbs
   },
 
   data() {
@@ -212,7 +222,7 @@ export default {
   },
 
   methods: {
-    openLink (url) {
+    openLink(url) {
       window.open(url, '_self')
     },
     toggle() {},
