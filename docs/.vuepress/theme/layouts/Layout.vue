@@ -1,35 +1,96 @@
 <template>
-  <div
-    v-if="mounted"
-    class="theme-container"
-    :class="pageClasses"
-    @touchstart="onTouchStart"
-    @touchend="onTouchEnd"
-  >
-    <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
+  <q-layout view="hHh LpR lfr" container style="height: 100vh">
+    <q-header class="bg-primary text-white">
+      <q-toolbar style="height: 70px">
+        <q-btn
+          flat
+          @click="showDrawer = !showDrawer"
+          round
+          dense
+          :icon="showDrawer ? 'menu_open' : 'menu'"
+          class="lt-sm"
+        />
+        <div class="full-height flex flex-center">
+          <img :src="`/assets/rakwireless/rak-white.svg`" style="width: 7.5rem" />
+        </div>
+        <q-toolbar-title>{{ $siteTitle }}</q-toolbar-title>
+        <q-space />
+        <rk-dropdown label="RAK Services">
+          <q-list style="min-width: 100px">
+            <q-item class="q-py-md" :to="`/rui`">
+              <q-item-section>
+                <q-item-label>RUI</q-item-label>
+                <q-item-label caption>Rakwireless Unified Interface</q-item-label>
+              </q-item-section>
+            </q-item>
+          </q-list>
+        </rk-dropdown>
+        <rk-dropdown label="Knowledge Hub">
+          <q-list style="min-width: 100px">
+            <q-item class="q-py-md" :to="`/knowledge-hub`">
+              <q-item-section>
+                <q-item-label>Learn Section</q-item-label>
+                <q-item-label caption>Learning is never boring</q-item-label>
+              </q-item-section>
+            </q-item>
+            <q-item class="q-py-md" :to="`/faqs`">
+              <q-item-section>
+                <q-item-label>FAQs</q-item-label>
+                <q-item-label caption>Frequently Asked Questions</q-item-label>
+              </q-item-section>
+            </q-item>
+          </q-list>
+        </rk-dropdown>
+        <q-btn
+          label="Community"
+          class="full-height"
+          size="1rem"
+          @click="openLink('https://forum.rakwireless.com')"
+          flat
+          no-caps
+        />
+        <rk-search-box />
+        <rk-dropdown label="Languages">
+          <q-list style="min-width: 100px">
+            <q-item class="q-py-md" @click="openLink('https://doc.rakwireless.com')" clickable>
+              <q-item-section>
+                <q-item-label>English (US)</q-item-label>
+                <q-item-label caption>en-US</q-item-label>
+              </q-item-section>
+            </q-item>
+            <q-item class="q-py-md" @click="openLink('https://doc.rakwireless.com.cn')" clickable>
+              <q-item-section>
+                <q-item-label>Chinese</q-item-label>
+                <q-item-label caption>zh-CN</q-item-label>
+              </q-item-section>
+            </q-item>
+          </q-list>
+        </rk-dropdown>
+      </q-toolbar>
+      <q-separator class="bg-primary" style="padding: 0.1px" />
+    </q-header>
 
-    <div class="sidebar-mask" @click="toggleSidebar(false)" />
+    <q-drawer
+      v-model="showDrawer"
+      :width="200"
+      :breakpoint="500"
+      content-class="column bg-grey-1 text-grey-9 q-pa-none"
+    >
+      <div class="full-width column justify-center items-center q-pa-sm">
+        <div class="q-mt-sm text-center" style="line-height: normal">
+          <span style="font-size: 1.05rem">Testing 123</span>
+          <br />
+          <span class="text-grey-5" style="font-size: 0.85rem">Teesting Email 123</span>
+        </div>
+      </div>
+      <q-separator class="q-my-sm inset-shadow" />
 
-    <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
-      <template #top>
-        <slot name="sidebar-top" />
-      </template>
-      <template #bottom>
-        <slot name="sidebar-bottom" />
-      </template>
-    </Sidebar>
-
-    <Home v-if="$page.frontmatter.home" />
-
-    <Page v-else :sidebar-items="sidebarItems">
-      <template #top>
-        <slot name="page-top" />
-      </template>
-      <template #bottom>
-        <slot name="page-bottom" />
-      </template>
-    </Page>
-  </div>
+      <q-scroll-area class="col">Scroll Area</q-scroll-area>
+    </q-drawer>
+    <q-page-container>
+      <router-view />
+    </q-page-container>
+  </q-layout>
 </template>
 
 <script>
@@ -37,6 +98,10 @@ import Home from '@theme/components/Home.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
+
+import RkDropdown from '@theme/components/RkDropdown.vue'
+import RkSearchBox from '@theme/components/RkSearchBox.vue'
+
 import { resolveSidebarItems } from '../util'
 
 export default {
@@ -46,13 +111,16 @@ export default {
     Home,
     Page,
     Sidebar,
-    Navbar
+    Navbar,
+    RkDropdown,
+    RkSearchBox
   },
 
   data() {
     return {
       isSidebarOpen: false,
-      mounted: false
+      mounted: false,
+      showDrawer: true
     }
   },
 
@@ -144,6 +212,10 @@ export default {
   },
 
   methods: {
+    openLink (url) {
+      window.open(url, '_self')
+    },
+    toggle() {},
     toggleSidebar(to) {
       this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
       this.$emit('toggle-sidebar', this.isSidebarOpen)

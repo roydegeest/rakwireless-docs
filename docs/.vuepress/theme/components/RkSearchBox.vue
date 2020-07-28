@@ -1,5 +1,13 @@
 <template>
-  <div class="search-box">
+  <div class="q-mx-md full-height flex flex-center">
+    <q-input v-model="filter" color="white" style="width: 20rem" rounded dark dense standout="bg-white text-black">
+      <template v-slot:append>
+        <q-icon v-if="filter === ''" name="search" />
+        <q-icon v-else name="clear" class="cursor-pointer" @click="filter = ''" />
+      </template>
+    </q-input>
+  </div>
+  <!-- <div class="search-box">
     <input
       ref="input"
       aria-label="Search"
@@ -57,7 +65,7 @@
         </ul>
       </li>
     </ul>
-  </div>
+  </div>-->
 </template>
 
 <script>
@@ -110,30 +118,30 @@ const SEARCH_HOTKEYS = ['s', '/']
 export default {
   name: 'RkSearchBox',
 
-  data () {
+  data() {
     return {
       query: '',
       focused: false,
       focusIndex: 0,
       placeholder: undefined,
-      counter: 0
+      counter: 0,
+      filter: ''
     }
   },
 
   computed: {
-    showSuggestions () {
+    showSuggestions() {
       return (
-        this.focused
-        && this.suggestions
-        && Object.keys(this.suggestions).length
+        this.focused && this.suggestions && Object.keys(this.suggestions).length
       )
     },
 
-    suggestions () {
+    suggestions() {
       if (!this.query) return
       this.counter = 0
       const query = this.query.trim().toLowerCase()
-      const matchPage = p => this.$site.themeConfig.test.find(pth => p.path.match(pth))
+      const matchPage = p =>
+        this.$site.themeConfig.test.find(pth => p.path.match(pth))
       const pushPage = (res, p) => {
         const idx = matchPage(p)
         p.pk = this.counter++
@@ -142,7 +150,8 @@ export default {
       }
 
       const { pages } = this.$site
-      const max = this.$site.themeConfig.searchMaxSuggestions || SEARCH_MAX_SUGGESTIONS
+      const max =
+        this.$site.themeConfig.searchMaxSuggestions || SEARCH_MAX_SUGGESTIONS
       const localePath = this.$localePath
       const res = {}
       for (let i = 0; i < pages.length; i++) {
@@ -167,10 +176,13 @@ export default {
             if (res[mp] && res[mp].length >= max) break
             const h = p.headers[j]
             if (h.title && matchQuery(query, p, h.title)) {
-              pushPage(res, Object.assign({}, p, {
-                path: p.path + '#' + h.slug,
-                header: h
-              }))
+              pushPage(
+                res,
+                Object.assign({}, p, {
+                  path: p.path + '#' + h.slug,
+                  header: h
+                })
+              )
             }
           }
         }
@@ -179,34 +191,37 @@ export default {
       return res
     },
 
-    suggestionList () {
+    suggestionList() {
       const res = []
       for (const key in this.suggestions) res.push(...this.suggestions[key])
       return res
     },
 
     // make suggestions align right when there are not enough items
-    alignRight () {
+    alignRight() {
       const navCount = (this.$site.themeConfig.nav || []).length
       const repo = this.$site.repo ? 1 : 0
       return navCount + repo <= 2
     }
   },
 
-  mounted () {
+  mounted() {
     this.placeholder = this.$site.themeConfig.searchPlaceholder || ''
     document.addEventListener('keydown', this.onHotkey)
   },
 
-  beforeDestroy () {
+  beforeDestroy() {
     document.removeEventListener('keydown', this.onHotkey)
   },
 
   methods: {
-    clean (path) {
-      return path.split('/').find(t => t !== "").replace('-', ' ')
+    clean(path) {
+      return path
+        .split('/')
+        .find(t => t !== '')
+        .replace('-', ' ')
     },
-    getPageLocalePath (page) {
+    getPageLocalePath(page) {
       for (const localePath in this.$site.locales || {}) {
         if (localePath !== '/' && page.path.indexOf(localePath) === 0) {
           return localePath
@@ -215,34 +230,43 @@ export default {
       return '/'
     },
 
-    isSearchable (page) {
+    isSearchable(page) {
       let searchPaths = this.$site.themeConfig.test || SEARCH_PATHS
 
       // all paths searchables
-      if (searchPaths === null) { return true }
+      if (searchPaths === null) {
+        return true
+      }
 
-      searchPaths = Array.isArray(searchPaths) ? searchPaths : new Array(searchPaths)
+      searchPaths = Array.isArray(searchPaths)
+        ? searchPaths
+        : new Array(searchPaths)
 
-      return searchPaths.filter(path => {
-        return page.path.match(path)
-      }).length > 0
+      return (
+        searchPaths.filter(path => {
+          return page.path.match(path)
+        }).length > 0
+      )
     },
 
-    onHotkey (event) {
-      if (event.srcElement === document.body && SEARCH_HOTKEYS.includes(event.key)) {
+    onHotkey(event) {
+      if (
+        event.srcElement === document.body &&
+        SEARCH_HOTKEYS.includes(event.key)
+      ) {
         this.$refs.input.focus()
         event.preventDefault()
       }
     },
 
-    onEnter () {
+    onEnter() {
       this.$router.push(this.$refs[`pk-${this.focusIndex}`][0].to)
       this.query = null
       this.focusIndex = 0
       this.$refs.qinput.blur()
     },
 
-    onUp () {
+    onUp() {
       if (this.showSuggestions) {
         if (this.focusIndex > 0) {
           this.focusIndex--
@@ -252,7 +276,7 @@ export default {
       }
     },
 
-    onDown () {
+    onDown() {
       if (this.showSuggestions) {
         if (this.focusIndex < this.counter - 1) {
           this.focusIndex++
@@ -262,7 +286,7 @@ export default {
       }
     },
 
-    go (focusIndex) {
+    go(focusIndex) {
       if (!this.showSuggestions) {
         return
       }
@@ -271,11 +295,11 @@ export default {
       this.focusIndex = 0
     },
 
-    focus (i) {
+    focus(i) {
       this.focusIndex = i
     },
 
-    unfocus () {
+    unfocus() {
       this.focusIndex = -1
     }
   }
