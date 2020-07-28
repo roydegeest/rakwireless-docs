@@ -34,7 +34,9 @@ Also, this module integrates a **12V power supply**, which can be used by users 
 
 ## Specifications
 
-### Block Diagram
+### Overview
+
+#### Block Diagram
 
 The RAK5801 module was designed to convert 4-20mA current signals into voltage signals by applying a resistor. As shown in Figure 1, this voltage signal is conditioned with an operational amplifier to the level supported by an analog input of an MCU. Inside of the MCU, the analog signal is then digitalized by an ADC.
 
@@ -54,29 +56,9 @@ Where:
 - U = ADC Reading
 - Unit: mA
 
-### Device Specification
+#### Installation
 
-The following table shows the parameters and the description of the RAK5801 WisIO Module:
-
-| **Parameter** | **Description** | 
-| ---- | ---- | 
-| Analog Input Interface | 2 channels of 4-20mA | 
-| Analog Sampling Resolution | 0.005mA | 
-| Analog Sampling Accuracy | 1% | 
-| Analog Maximum Input Current | 25mA (There is a risk to burn the circuit surpassing this limit) | 
-| Analog Port ESD Protection Level | 2kV HBM | 
-| Current Sampling Resistor | 49.9 Ω | 
-| Operational Amplifier Gain | 3.0 | 
-| Input Voltage | 3.0V – 3.6V | 
-| Output Voltage | 12V | 
-| Output Current | Maximum 30mA | 
-| Operating Temperature | -30° C ~ 65° C | 
-| Storage Temperature | -40°C ~ 85°C | 
-| Module Dimensions | 35x25mm | 
-
-### Installation
-
-#### Mounting Mechanism
+##### Mounting Mechanism
 
 The RAK5801 module is part of the WisIO category, which connects to the baseboard through the _WisIO_ slot. To install the module, execute the following steps:
 
@@ -101,7 +83,7 @@ For detailed instructions, refer to the **WisBlock Installation Guide**.
   caption="WisConnector"
 />
 
-#### Sensor Connector Crimping Mechanism
+##### Sensor Connector Crimping Mechanism
 
 The RAK5801 features a fast-crimping terminal connector to simplify and ensure the wiring process on the fields. The crimping terminal can support cable with a width between **24AWG** and **20 AWG**. The usual stripping length is around 6 to 7 mm. 
 
@@ -118,7 +100,30 @@ Execute the following steps of the crimping process:
   caption="RAK5801 Sensor Connector"
 />
 
-### Pin Definition
+### Hardware
+
+#### Device Specification
+
+The following table shows the parameters and the description of the RAK5801 WisIO Module:
+
+| **Parameter** | **Description** | 
+| ---- | ---- | 
+| Analog Input Interface | 2 channels of 4-20mA | 
+| Analog Sampling Resolution | 0.005mA | 
+| Analog Sampling Accuracy | 1% | 
+| Analog Maximum Input Current | 25mA (There is a risk to burn the circuit surpassing this limit) | 
+| Analog Port ESD Protection Level | 2kV HBM | 
+| Current Sampling Resistor | 49.9 Ω | 
+| Operational Amplifier Gain | 3.0 | 
+| Input Voltage | 3.0V – 3.6V | 
+| Output Voltage | 12V | 
+| Output Current | Maximum 30mA | 
+| Operating Temperature | -30° C ~ 65° C | 
+| Storage Temperature | -40°C ~ 85°C | 
+| Module Dimensions | 35x25mm | 
+
+
+#### Pin Definition
 
 This section covers the pin number of the sensor connector, the definition, and the functionalities of each pin shown in a tabular representation.
 
@@ -177,7 +182,7 @@ The functionalities of each pins of the WisIO connector are tabulated below.
 This signal controls the dc-dc power supply on RAK5801, before capture analog signal, please set this pin to high to enable power for RAK5801.
 :::
 
-### Mechanical Characteristics
+#### Mechanical Characteristics
 
 Refer to figure 7 below for the mechanical dimensions of the RAK5801 module.
 
@@ -187,7 +192,7 @@ Refer to figure 7 below for the mechanical dimensions of the RAK5801 module.
   caption="RAK5801 Mechanical Dimensions"
 />
 
-### Schematic Diagram
+#### Schematic Diagram
 
 <rk-img
   src="/assets/images/wisblock/rak5801/datasheet/schematic-diagram.png"
