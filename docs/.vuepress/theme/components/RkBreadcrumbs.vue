@@ -8,7 +8,7 @@
       <q-breadcrumbs-el
         v-for="item in items"
         :key="item.path"
-        :label="item.label"
+        :label="item.label.replace('-', ' ')"
         :to="item.path"
       />
     </q-breadcrumbs>

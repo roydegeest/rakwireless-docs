@@ -33,8 +33,7 @@ export default {
 
     const active =
       item.type === 'auto'
-        ? selfActive ||
-          childrenActive(item.children)
+        ? selfActive || childrenActive(item.children)
         : selfActive
     // console.log('item: ', item)
     const link =
@@ -49,8 +48,10 @@ export default {
       $themeConfig.sidebarDepth,
       1
     ].find(depth => depth !== undefined)
-    // const displayAllHeaders = $page.frontmatter.displayAllHeaders || $themeLocaleConfig.displayAllHeaders
-    //   || $themeConfig.displayAllHeaders
+    const displayAllHeaders =
+      $page.frontmatter.displayAllHeaders ||
+      $themeLocaleConfig.displayAllHeaders ||
+      $themeConfig.displayAllHeaders
     // console.log('displayAllHeaders: ', displayAllHeaders)
     // console.log(item.nested, $page.path, item.path)
     if (item.type === 'auto') {
@@ -58,8 +59,12 @@ export default {
         link,
         renderChildren(h, item.children, item.basePath, $route, maxDepth, theme)
       ]
-      // } else if ((active || displayAllHeaders) && item.headers && !hashRE.test(item.path)) {
-    } else if (active && item.headers && !hashRE.test(item.path)) {
+    } else if (
+      (active || displayAllHeaders) &&
+      item.headers &&
+      !hashRE.test(item.path)
+    ) {
+      // } else if (active && item.headers && !hashRE.test(item.path)) {
       const children = groupHeaders(item.headers)
       if (item.nested) {
         return [renderChildren(h, children, item.path, $route, maxDepth, theme)]
@@ -140,6 +145,7 @@ function renderChildren(h, children, path, route, maxDepth, theme, depth = 1) {
         $page.frontmatter.displayAllHeaders ||
         $themeLocaleConfig.displayAllHeaders ||
         $themeConfig.displayAllHeaders
+      console.log('displayAllHeaders: ', displayAllHeaders)
 
       const el = [
         renderLink(
@@ -153,10 +159,10 @@ function renderChildren(h, children, path, route, maxDepth, theme, depth = 1) {
         )
       ]
 
-      if (displayAllHeaders || open)
-        el.push(
-          renderChildren(h, c.children, path, route, maxDepth, theme, depth + 1)
-        )
+      // if (displayAllHeaders || open)
+      el.push(
+        renderChildren(h, c.children, path, route, maxDepth, theme, depth + 1)
+      )
 
       return h('li', { class: 'sidebar-sub-header' }, el)
     })

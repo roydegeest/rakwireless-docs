@@ -74,18 +74,16 @@
       v-model="showDrawer"
       :width="300"
       :breakpoint="500"
-      content-class="column bg-grey-1 text-grey-9 q-pa-none"
+      content-class="bg-grey-1 text-grey-9 q-pa-none"
     >
-      <div class="full-width column justify-center items-center q-pa-sm">
-        <div class="q-mt-sm text-center" style="line-height: normal">
-          <span style="font-size: 1.05rem">Testing 123</span>
-          <br />
-          <span class="text-grey-5" style="font-size: 0.85rem">Teesting Email 123</span>
-        </div>
-      </div>
-      <q-separator class="q-my-sm inset-shadow" />
-
-      <q-scroll-area class="col">Scroll Area</q-scroll-area>
+      <rk-sidebar class="fit" :items="sidebarItems">
+        <template #top>
+          <slot name="sidebar-top" />
+        </template>
+        <template #bottom>
+          <slot name="sidebar-bottom" />
+        </template>
+      </rk-sidebar>
     </q-drawer>
     <q-page-container>
       <rk-breadcrumbs :sidebar-items="sidebarItems" />
@@ -108,6 +106,7 @@ import RkSearchBox from '@theme/components/RkSearchBox.vue'
 import RkPage from '@theme/components/RkPage.vue'
 import RkFooter from '@theme/components/RkFooter.vue'
 import RkBreadcrumbs from '@theme/components/RkBreadcrumbs.vue'
+import RkSidebar from '@theme/components/RkSidebar.vue'
 
 import { resolveSidebarItems } from '../util'
 
@@ -123,7 +122,8 @@ export default {
     RkSearchBox,
     RkPage,
     RkFooter,
-    RkBreadcrumbs
+    RkBreadcrumbs,
+    RkSidebar
   },
 
   data() {
@@ -192,6 +192,7 @@ export default {
     const min = Math.min(window.innerHeight, window.innerWidth)
     document.documentElement.style.fontSize = `${0.015 * min}px`
     // console.log('mounted: ', window.innerHeight, window.innerWidth, min, document.documentElement.style)
+    console.log('sidebaritems: ', this.sidebarItems)
   },
   updated() {
     // replace all table with q-table instances

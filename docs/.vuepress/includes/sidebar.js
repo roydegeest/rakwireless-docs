@@ -3,11 +3,13 @@ var faqs = require('./sidebar/faqs')
 var rui = require('./sidebar/rui')
 var usermanual = require('./sidebar/user-manual')
 var deploymentGuide = require('./sidebar/deployment-guide')
+var root = require('./sidebar/root')
 
 module.exports = {
   ...quickStartGuide,
   ...faqs,
   ...rui,
   ...usermanual,
-  ...deploymentGuide
+  ...deploymentGuide,
+  ...root
 }

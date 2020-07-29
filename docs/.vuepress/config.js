@@ -29,7 +29,9 @@ module.exports = {
       'All rights reserved. 粤ICP备16112976号'
     ],
     searchMaxSuggestions: 5,
-    test: ['/quick-start/', '/datasheet/']
+    test: ['/quick-start/', '/datasheet/'],
+
+    displayAllHeaders: true
   },
   plugins: {
     'sitemap': {
