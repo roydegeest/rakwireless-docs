@@ -2,6 +2,8 @@
 sidebar: auto
 sidebarDepth: auto
 rak_img: /assets/images/knowledge-hub/tutorials/access-lorawan-using-solar-energy/overview.jpg
+prev: /knowledge-hub/
+next: false
 ---
 
 # How To Access LoRaWAN® using Solar Energy
@@ -87,3 +89,7 @@ After learning about those computations, you may now proceed in assembling your 
     If you are trying to access via wifi, the WEB management platform can be used through the IP address 192.168.230.1 of the gateway LAN interface through the use of a browser. Otherwise, you may access the gateway by connecting to a WAN Port DHCP IP only when a DHCP Server is in the network. After inquiring the IP address of the gateway through that server, you can access the same management platform through that IP address. For more information about this instruction, you may access this [document](/wisgate/rak7249/overview/).
 
 With the help of a renewable source of energy like sunlight, we can make IoT happen and connect everything in the world. Users like you will now face no inconvenience in connecting from anywhere in the world with the production of solar panels from IoT solution providers like RAKwireless. Certainly, you can enjoy your connectivity with the power of the sun.
+
+
+**Author**: Sam Domingo<br>
+**Info**: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.

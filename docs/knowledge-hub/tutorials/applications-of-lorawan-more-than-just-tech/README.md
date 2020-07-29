@@ -2,6 +2,8 @@
 sidebar: auto
 sidebarDepth: auto
 rak_img: /assets/images/knowledge-hub/tutorials/applications-of-lorawan-more-than-just-tech/overview.jpg
+prev: /knowledge-hub/
+next: false
 ---
 
 # 8 Applications of LoRaWAN | More Than Just Tech
@@ -166,4 +168,5 @@ The concept of creating a smart planet sounds interesting but is it possible?
 
 Yes! It is with LoRaWAN technology.
 
-‌‌‌‌‌‌‌‌‌‌
+‌‌‌‌‌‌‌‌‌‌**Author**: Sam Domingo<br>
+**Info**: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.

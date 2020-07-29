@@ -2,6 +2,8 @@
 sidebar: auto
 sidebarDepth: auto
 rak_img: /assets/images/knowledge-hub/tutorials/wiscore-voice-enable-your-product-with-alexa/overview.jpg
+prev: /knowledge-hub/
+next: false
 ---
 
 # WisCore – Voice Enable Your Product with Alexa
@@ -45,3 +47,6 @@ Compared to Amazon Alexa demo library base on Android OS and Raspberry Pi, [RAK 
 Not only the developer, but also the product company can use WisCore to build many prototypes with AVS inside, for instance, the Home Gateway with Alexa, Robot with Alexa inside, Smart speaker with Alexa, Pet food supply with Alexa.
 
 Join us to make more innovation based on [WisCore](https://github.com/RAKWireless/WisCore).
+
+**Author**: Ken Yu<br>
+**Info**: Founder and CEO of RAKwireless. Making Things at #Rakwireless with The #RAKstars

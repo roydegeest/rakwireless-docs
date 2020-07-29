@@ -2,6 +2,8 @@
 sidebar: auto
 sidebarDepth: auto
 rak_img: /assets/images/knowledge-hub/tutorials/the-mighty-mqtt-what-you-should-know-about-it/overview.jpg
+prev: /knowledge-hub/
+next: false
 ---
 
 # The Mighty MQTT! What You Should Know About It
@@ -70,3 +72,6 @@ _<b>In summary MQTT has some unique features that can’t be easily found in oth
 * It’s open-source and free to use in addition to being easy to implement and configure. Again, setting up your MQTT bridge in the RAKwireless Commercial Gateway line is quick and easy. You can refer to this documentation to get an understanding on how to do so in case you want an example of a good implementation in a LoRaWAN™ Gateway.
 
 In the end, MQTT has a ton of advantages, thus it is here to stay. We believe that it will become even more mainstream and will naturally see a lot more adoption and improvements in the years to come.
+
+**Author**: Sam Domingo<br>
+**Info**: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.

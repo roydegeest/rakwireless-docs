@@ -2,6 +2,8 @@
 sidebar: auto
 sidebarDepth: 3
 rak_img: /assets/images/knowledge-hub/tutorials/ubidots-integration/overview.jpg
+prev: /knowledge-hub/
+next: false
 ---
 
 # Connect the Dots: Linking LPWAN (LoRaWAN) devices to Ubidots
@@ -101,6 +103,5 @@ Clicking this will create and display the widget. You can play with your visuali
 Connecting things in IoT requires the analysis of data that devices gather from the environment. Raw data becomes meaningless when nobody understands it. With the use of IoT platforms like Ubidots, users can now easily visualize and comprehend data. The dashboard of Ubidots makes information palatable to users hence, allowing them to generate informed decisions in business, research, and machinery. Innovators and industries become empowered to prototype and plan IoT projects with the graphs and charts provided by Ubidots. Certainly, efforts of making IoT easy like that of Ubidots can accelerate the arrival of a smart future.
 
 
-Article by: Sam Domingo
-
-Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.
+**Author**: Sam Domingo<br>
+**Info**: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.

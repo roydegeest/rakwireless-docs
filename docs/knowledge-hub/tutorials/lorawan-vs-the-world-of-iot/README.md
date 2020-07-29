@@ -2,6 +2,8 @@
 sidebar: auto
 sidebarDepth: auto
 rak_img: /assets/images/knowledge-hub/tutorials/lorawan-vs-the-world-of-iot/overview.png
+prev: /knowledge-hub/
+next: false
 ---
 
 # LoRaWAN™ vs. the world of IoT!
@@ -92,3 +94,6 @@ After all, it turns out that there is not much battle here. Every product is sui
 <rk-img
   src="/assets/images/knowledge-hub/tutorials/lorawan-vs-the-world-of-iot/comparison-table.png"
 />
+
+**Author**: Vladislav Yordanov<br>
+**Info**: CCO of RAKwireless, Co-founder and CEO of IoT4Green. I believe technology can be the solution to most issues human kind is facing.

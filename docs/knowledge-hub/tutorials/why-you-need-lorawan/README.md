@@ -2,6 +2,8 @@
 sidebar: auto
 sidebarDepth: auto
 rak_img: /assets/images/knowledge-hub/tutorials/why-you-need-lorawan/overview.jpg
+prev: /knowledge-hub/
+next: false
 ---
 
 # Why You Need LoRaWAN | RAK Smart Devices and Home Security
@@ -65,3 +67,6 @@ Currently, on the market, LoRaWAN offers one of the most cost effective and long
 The management and installation of LoRaWAN is cost effective and economic and at the same time, it offers optimum connectivity and range of network.
 
 LoRaWAN on an industrial scale can connect cities and enhance the formation of smarter living spaces and with deeper penetration of network, one can be able to monitor water and even gas levels in smart homes.
+
+**Author**: Sam Domingo<br>
+**Info**: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.

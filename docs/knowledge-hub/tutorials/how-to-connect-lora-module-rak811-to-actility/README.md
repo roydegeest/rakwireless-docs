@@ -2,6 +2,8 @@
 sidebar: auto
 sidebarDepth: auto
 rak_img: /assets/images/knowledge-hub/tutorials/how-to-connect-lora-module-rak811-to-actility/overview.png
+prev: /knowledge-hub/
+next: false
 ---
 
 # How To Connect LoRa Module RAK811 To Actility?
@@ -210,3 +212,7 @@ at+send=1,2,000000000000007F0000000000000000 /*APP port :2, battery level 50%, c
 at+recv=1,0,0  /*confirmed mean receive ack from gateway*/
 ```
 ![Active Devices](/assets/images/knowledge-hub/tutorials/how-to-connect-lora-module-rak811-to-actility/active-devices.png)
+
+
+**Author**: Ken Yu<br>
+**Info**: Founder and CEO of RAKwireless. Making Things at #Rakwireless with The #RAKstars

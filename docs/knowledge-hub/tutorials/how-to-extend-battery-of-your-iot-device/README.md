@@ -2,6 +2,8 @@
 sidebar: auto
 sidebarDepth: auto
 rak_img: /assets/images/knowledge-hub/tutorials/how-to-extend-battery-of-your-iot-device/overview.jpg
+prev: /knowledge-hub/
+next: false
 ---
 
 # How LoRa Can Help You Save The Battery Life of Your IoT Device
@@ -90,3 +92,6 @@ Ideally, the data transmission in IoT device is kept to the barest minimum in or
 Unlike other sensors that might be transmitting data constantly, a LoRa-based sensor will act on and determine if the input has gotten to the necessary threshold, and is just transmitting a data packet when it must.
 
 When data packet is transmitted to a gateway, the device automatically returns to sleep mode. In sleep mode, the energy use is at its lowest level.
+
+**Author**: Sam Domingo<br>
+**Info**: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.

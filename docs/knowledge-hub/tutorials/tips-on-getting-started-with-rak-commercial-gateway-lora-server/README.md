@@ -2,6 +2,8 @@
 sidebar: auto
 sidebarDepth: auto
 rak_img: /assets/images/knowledge-hub/tutorials/tips-on-getting-started-with-rak-commercial-gateway-lora-server/overview.jpg
+prev: /knowledge-hub/
+next: false
 ---
 
 # Tips on Getting Started With RAK Commercial Gateway LoRa Server
@@ -127,3 +129,7 @@ We are going to end the tutorial here. To Summarize:
 This is a great start and a solid base for understanding how a LoRaWAN network works. Furthermore, as you have a working server you can now expand its functionality, by adding payload encoders/decoders, integrations, etc.
 
 That, however, is a topic for another article. 😊
+
+
+**Author**: Ken Yu<br>
+**Info**: Founder and CEO of RAKwireless. Making Things at #Rakwireless with The #RAKstars

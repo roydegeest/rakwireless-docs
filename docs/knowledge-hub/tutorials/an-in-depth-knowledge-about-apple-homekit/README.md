@@ -2,6 +2,8 @@
 sidebar: auto
 sidebarDepth: auto
 rak_img: /assets/images/knowledge-hub/tutorials/an-in-depth-knowledge-about-apple-homekit/overview.jpg
+prev: /knowledge-hub/
+next: false
 ---
 
 # An In-Depth Knowledge about Apple HomeKit
@@ -31,3 +33,6 @@ The encryption chip is mandatory as HomeKit was designed with privacy and securi
 This all makes manufacturing HomeKit compliance devices a complicated and expensive task as only a few developers are able to regard every pre-requisite laid down by Apple.
 
 This is the mega reason why there are almost a few dozen of compatible devices available for HomeKit, as compared to few hundred for other smart-home platforms.
+
+**Author**: Ken Yu<br>
+**Info**: Founder and CEO of RAKwireless. Making Things at #Rakwireless with The #RAKstars
