@@ -4,6 +4,9 @@ next: false
 sidebar: auto
 sidebarDepth: 3
 displayAllHeaders: true
+tags:
+  - datasheet
+  - wistrio
 ---
 
 # RAK5205 WisTrio LPWAN Tracker Datasheet

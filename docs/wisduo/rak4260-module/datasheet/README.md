@@ -2,7 +2,9 @@
 sidebar: auto
 sidebarDepth: 3
 displayAllHeaders: true
-tags: + datasheet
+tags: 
+  - datasheet
+  - wisduo
 prev: ../overview
 ---
 

@@ -8,6 +8,15 @@ params:
         href: https://forum.rakwireless.com
       - name: Support
         href: mailto:support@rakwireless.com
+    resources:
+      - name: Datasheet
+        href: /wisduo/rak811-module/datasheet/
+      - name: Certification Reports
+        href: /wisduo/rak811-module/datasheet/#certification
+      - name: User Manual
+        href: /user-manual/
+      - name: Deployment Guide
+        href: /deployment-guide/
 rak_img: /assets/images/wisduo/rak811-module/overview/nwgqobrzwanalynildkc.jpg
 rak_grp: wisduo
 ---

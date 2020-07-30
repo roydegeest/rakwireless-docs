@@ -1,9 +1,14 @@
 ---
-tags: + datasheet
+tags:
+  - datasheet
+  - wisgate
 sidebar: auto
 sidebarDepth: 3
 displayAllHeaders: true
 prev: /wisgate/rak7240/overview/
+certifications:
+  - [CE, https://downloads.rakwireless.com/LoRa/RAK7240/Certification-Report/RAK7240_CE_Certificate.zip]
+  - [FCC, https://downloads.rakwireless.com/LoRa/RAK7240/Certification-Report/RAK7240_FCC_Certificate.zip]
 ---
 
 # RAK7240 Outdoor LPWAN Gateway Datasheet
@@ -160,9 +165,5 @@ Supported Software
 
 ## Certification
 
-|    Certification    |   Source   |
-|     -------------   |   ------   |
-| CE Certification    | [Download](https://downloads.rakwireless.com/LoRa/RAK7240/Certification-Report/RAK7240_CE_Certificate.zip)  |
-| FCC Certification   | [Download](https://downloads.rakwireless.com/LoRa/RAK7240/Certification-Report/RAK7240_FCC_Certificate.zip) |
-
+<rk-certifications :params="$page.frontmatter.certifications" />
 

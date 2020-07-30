@@ -1,9 +1,14 @@
 ---
-tags: + datasheet
+tags:
+  - datasheet
+  - wisgate
 sidebar: auto
 sidebarDepth: 3
 displayAllHeaders: true
 prev: /wisgate/rak7243c/overview/
+certifications:
+  - [CE, https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/Certification-Report/RAK7243_CE_Certificate.zip]
+  - [FCC, https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/Certification-Report/RAK7243_FCC_Certificate.zip]
 ---
 
 # RAK7243C Pilot Gateway Datasheet
@@ -387,9 +392,8 @@ Order Information
 | RAK7243-1x-141 | With 1x LoRa Antenna, 1x GPS Antenna, 2x LTE Antenna, 1x Power Adapter and 1x SD card | ECG95-NA version for Cat 4 Cellular, GPS and for US915 / AU915 / AS920 / AS923 / KR920 regions                               |
 | RAK7243-0x-000 | With 1x LoRa Antenna, 1x GPS Antenna, 1x LTE Antenna, 1x Power Adapter and 1x SD card | Without Cellular version for EU433 / CN470 / IN865 / EU868 / US915 / AU915 / AS920 / AS923 / KR920 regions                   |
 
-## Certification Report
+## Certification
 
-|Certification| Source |
-|-------------| ------ |
-|CE Certification|[Download](https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/Certification-Report/RAK7243_CE_Certificate.zip)|
-|FCC Certification|[Download](https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/Certification-Report/RAK7243_FCC_Certificate.zip)|
+<rk-certifications :params="$page.frontmatter.certifications" />
+
+

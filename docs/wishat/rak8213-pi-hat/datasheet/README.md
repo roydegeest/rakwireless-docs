@@ -1,6 +1,8 @@
 ---
 static_root: /assets/images/wishat/rak8213-pi-hat/datasheet/
-tags: + datasheet
+tags: 
+  - datasheet
+  - wishat
 sidebar: auto
 sidebarDepth: 3
 displayAllHeaders: true

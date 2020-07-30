@@ -5,6 +5,9 @@ next: false
 sidebar: auto
 sidebarDepth: 3
 displayAllHeaders: true
+tags:
+  - datasheet
+  - wistrio
 ---
 
 # RAK8212 iTracker Pro

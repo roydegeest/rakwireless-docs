@@ -1,11 +1,15 @@
 ---
 tags:
   - datasheet
+  - wislink-lora
 sidebar: auto
 sidebarDepth: 3
 displayAllHeaders: true
 prev: ../overview/
 next: false
+certifications:
+  - [CE, https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247_CE_Certificate.zip]
+  - [FCC, https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247_FCC_Certificate.zip]
 ---
 
 # RAK2247 LPWAN Gateway Concentrator Module Datasheet
@@ -299,9 +303,6 @@ Order Information
 | RAK2247-0X-R01 | 10-piece board and Antenna carton package | RAK2247-USB, 433 / 470 / 868 / 915 / 923 / 920 / 865 MHz |
 
 
-## Certifications
+## Certification
 
-| Certification     | Source                                    |
-| --------------    | ----------------------------------------- |
-| CE Certification  | [Download](https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247_CE_Certificate.zip)    |
-| FCC Certification | [Download](https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247_FCC_Certificate.zip)    |
+<rk-certifications :params="$page.frontmatter.certifications" />

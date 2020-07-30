@@ -4,6 +4,9 @@ next: false
 sidebar: auto
 sidebarDepth: 3
 displayAllHeaders: true
+tags:
+  - datasheet
+  - wisnode
 ---
 
 # RAK7204 LPWAN Environmental Sensor Datasheet
