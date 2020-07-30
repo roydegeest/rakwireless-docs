@@ -4,6 +4,9 @@ next: false
 sidebar: auto
 sidebarDepth: 3
 displayAllHeaders: true
+tags:
+  - datasheet
+  - wisnode
 ---
 
 # RAK7200 LPWAN Tracker Datasheet

@@ -1,6 +1,7 @@
 ---
 tags:
   - datasheet
+  - wislink-lora
 sidebar: auto
 sidebarDepth: 3
 displayAllHeaders: true

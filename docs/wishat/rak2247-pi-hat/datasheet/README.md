@@ -1,5 +1,7 @@
 ---
-tags: + datasheet
+tags:
+  - datasheet
+  - wishat
 sidebar: auto
 sidebarDepth: 3
 displayAllHeaders: true

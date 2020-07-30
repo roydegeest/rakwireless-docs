@@ -6,6 +6,13 @@ tags:
 sidebar: auto
 sidebarDepth: 3
 displayAllHeaders: true
+certifications:
+  - [CE, https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811%20CE%20Certification.rar]
+  - [FCC, https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811%C2%A0FCC%20Certification.rar]
+  - [KCC, https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811_KCC%C2%A0%28Certificate%29.pdf]
+  - [MIC, https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811%C2%A0MIC%20Certification.rar]
+  - [RoHS, https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811%C2%A0ROSH%20Certification.rar]
+
 ---
 
 # RAK811 LPWAN Module Datasheet
@@ -275,14 +282,6 @@ Referred to IPC/JEDEC standard.
 | RAK811-LF | V3.0.0.13.T3 | [Download](https://downloads.rakwireless.com/LoRa/RAK811/Firmware/RAK811_L_Latest_Firmware.zip)  |
 | RAK811-HF | V3.0.0.13.T3 | [Download](https://downloads.rakwireless.com/LoRa/RAK811/Firmware/RAK811_H_Latest_Firmware.zipr) |
 
-## Models / Bundles
+## Certification
 
-**NO ORDERING INFORMATION**
-
-## CertificationS
-
-- [FCC](https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811%C2%A0FCC%20Certification.rar)
-- [CE](https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811%20CE%20Certification.rar)
-- [ROSH](https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811%C2%A0ROSH%20Certification.rar)
-- [MIC](https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811%C2%A0MIC%20Certification.rar)
-- [KCC](https://downloads.rakwireless.com/LoRa/RAK811/Certification_Report/RAK811_KCC%C2%A0%28Certificate%29.pdf)
+<rk-certifications :params="$page.frontmatter.certifications" />

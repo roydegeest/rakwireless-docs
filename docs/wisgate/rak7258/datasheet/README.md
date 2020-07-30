@@ -1,10 +1,15 @@
 ---
-tags: + datasheet
+tags:
+  - datasheet
+  - wisgate
 sidebar: auto
 sidebarDepth: 3
 displayAllHeaders: true
 prev: /wisgate/rak7258/overview/
 next: false 
+certifications:
+  - [CE, https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/Certification-Report/RAK7258_CE_Certificate.zip]
+  - [FCC, https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/Certification-Report/RAK7258_FCC_Certificate.zip]
 ---
 
 # RAK7258 Micro Gateway Datasheet
@@ -162,5 +167,4 @@ Order Information
 
 ## Certification
 
-- [CE Certification](https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/Certification-Report/RAK7258_CE_Certificate.zip)
-- [FCC Certification](https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/Certification-Report/RAK7258_FCC_Certificate.zip)
+<rk-certifications :params="$page.frontmatter.certifications" />

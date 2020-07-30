@@ -1,6 +1,8 @@
 ---
 static_root: /assets/images/wisgate/rak7246g/datasheet/overview
-tags: + datasheet
+tags:
+  - datasheet
+  - wisgate
 sidebar: auto
 sidebarDepth: 3
 displayAllHeaders: true
