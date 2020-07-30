@@ -44,7 +44,7 @@
     <DropdownTransition>
       <SidebarLink
         v-if="item.nested && $page.path === item.path"
-        :sidebar-depth="sidebarDepth"
+        :sidebar-depth="item.sidebarDepth || sidebarDepth"
         :item="item"
       />
     </DropdownTransition>
@@ -53,7 +53,7 @@
         v-if="open || !collapsable"
         class="sidebar-group-items"
         :items="item.children"
-        :sidebar-depth="item.sidebarDepth"
+        :sidebar-depth="item.sidebarDepth || sidebarDepth"
         :depth="depth + 1"
       />
     </DropdownTransition>
@@ -84,6 +84,9 @@ export default {
   // ref: https://vuejs.org/v2/guide/components-edge-cases.html#Circular-References-Between-Components
   beforeCreate () {
     this.$options.components.SidebarLinks = require('@theme/components/SidebarLinks.vue').default
+  },
+  mounted () {
+    // console.log('item: ', this.item)
   },
 
   methods: { isActive }

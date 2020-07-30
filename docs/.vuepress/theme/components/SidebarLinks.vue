@@ -24,7 +24,7 @@
       />
       <SidebarLink
         v-else
-        :sidebar-depth="sidebarDepth"
+        :sidebar-depth="item.sidebarDepth || sidebarDepth"
         :item="item"
         :open="i === openGroupIndex"
         @toggle="toggleGroup(i)"

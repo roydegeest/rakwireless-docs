@@ -1,0 +1,58 @@
+<template>
+  <div :id="id">
+    <div class="row fit">
+      <div class="row items-center q-mr-xl" :class="{'col-12': center, 'justify-center': center}">
+        <img :src="img" :width="imgWidth" :height="imgHeight" />
+      </div>
+      <q-space />
+      <div class="col text-justify" :class="{'col-12': center}">
+        <slot />
+      </div>
+    </div>
+    <q-separator v-if="!center" />
+  </div>
+</template>
+
+<script>
+import { uid } from 'quasar'
+
+export default {
+  name: 'RkHead',
+  props: {
+    img: { type: String },
+    imgWidth: { type: String, default: '' },
+    imgHeight: { type: String, default: '50px' },
+    center: { type: Boolean, default: false }
+  },
+  data: () => ({
+    id: ''
+  }),
+  mounted() {
+    const el = document.getElementById(this.id)
+    const parent = el.parentElement
+    const children = parent.children
+    for (var i = 0; i < children.length; ++i) {
+      if (children[i].id === this.id) {
+        if (children[i - 1]) {
+          el.id = children[i - 1].id
+          el.style.cssText = ''
+          const style = window.getComputedStyle(children[i - 1]).cssText
+          const props = ['padding-top', 'margin-top', 'margin-bottom']
+          style.split(';').map(l => {
+            if (props.includes(l.split(':')[0].trim()))
+              el.style.cssText += `${l};`
+          })
+          parent.replaceChild(el, children[i - 1])
+        }
+        break
+      }
+    }
+    // console.log(el, parent, children)
+  },
+  created() {
+    this.id = `rk-head-${uid()
+      .replace('-', '')
+      .slice(0, 6)}`
+  }
+}
+</script>

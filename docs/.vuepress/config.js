@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'RAK Documentation Center',
+  title: 'Documentation Center',
   head: [
     ['link', {
       rel: 'icon',
@@ -29,7 +29,9 @@ module.exports = {
       'All rights reserved. 粤ICP备16112976号'
     ],
     searchMaxSuggestions: 5,
-    test: ['/quick-start/', '/datasheet/']
+    test: ['/quick-start/', '/datasheet/'],
+
+    displayAllHeaders: true
   },
   plugins: {
     'sitemap': {

@@ -1,35 +1,105 @@
 <template>
-  <div
-    v-if="mounted"
-    class="theme-container"
-    :class="pageClasses"
-    @touchstart="onTouchStart"
-    @touchend="onTouchEnd"
-  >
-    <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar" />
+  <q-layout view="hHh LpR lfr">
+    <q-header class="bg-primary text-white">
+      <q-toolbar style="height: 70px">
+        <q-btn
+          flat
+          @click="showDrawer = !showDrawer"
+          round
+          dense
+          :icon="showDrawer ? 'menu_open' : 'menu'"
+          class="lt-sm"
+        />
+        <div class="full-height flex flex-center">
+          <q-item :to="`/`" class="q-pa-none full-height">
+            <q-item-section>
+              <!-- <a href="/"> -->
+              <img :src="`/assets/rakwireless/rak-white.svg`" style="width: 7.5rem" />
+              <!-- </a> -->
+            </q-item-section>
+          </q-item>
+        </div>
+        <q-toolbar-title>{{ $siteTitle }}</q-toolbar-title>
+        <q-space />
+        <rk-dropdown label="RAK Services">
+          <q-list style="min-width: 100px">
+            <q-item class="q-py-md" :to="`/rui`">
+              <q-item-section>
+                <q-item-label>RUI</q-item-label>
+                <q-item-label caption>Rakwireless Unified Interface</q-item-label>
+              </q-item-section>
+            </q-item>
+          </q-list>
+        </rk-dropdown>
+        <rk-dropdown label="Knowledge Hub">
+          <q-list style="min-width: 100px">
+            <q-item class="q-py-md" :to="`/knowledge-hub`">
+              <q-item-section>
+                <q-item-label>Learn Section</q-item-label>
+                <q-item-label caption>Learning is never boring</q-item-label>
+              </q-item-section>
+            </q-item>
+            <q-item class="q-py-md" :to="`/faqs`">
+              <q-item-section>
+                <q-item-label>FAQs</q-item-label>
+                <q-item-label caption>Frequently Asked Questions</q-item-label>
+              </q-item-section>
+            </q-item>
+          </q-list>
+        </rk-dropdown>
+        <q-btn
+          label="Community"
+          class="full-height"
+          size="1rem"
+          @click="openLink('https://forum.rakwireless.com')"
+          flat
+          no-caps
+        />
+        <rk-search-box />
+        <rk-dropdown label="Languages">
+          <q-list style="min-width: 100px">
+            <q-item class="q-py-md" @click="openLink('https://doc.rakwireless.com')" clickable>
+              <q-item-section>
+                <q-item-label>English (US)</q-item-label>
+                <q-item-label caption>en-US</q-item-label>
+              </q-item-section>
+            </q-item>
+            <q-item class="q-py-md" @click="openLink('https://doc.rakwireless.com.cn')" clickable>
+              <q-item-section>
+                <q-item-label>Chinese</q-item-label>
+                <q-item-label caption>zh-CN</q-item-label>
+              </q-item-section>
+            </q-item>
+          </q-list>
+        </rk-dropdown>
+      </q-toolbar>
+      <q-separator class="bg-primary" style="padding: 0.1px" />
+    </q-header>
 
-    <div class="sidebar-mask" @click="toggleSidebar(false)" />
-
-    <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
-      <template #top>
-        <slot name="sidebar-top" />
-      </template>
-      <template #bottom>
-        <slot name="sidebar-bottom" />
-      </template>
-    </Sidebar>
-
-    <Home v-if="$page.frontmatter.home" />
-
-    <Page v-else :sidebar-items="sidebarItems">
-      <template #top>
-        <slot name="page-top" />
-      </template>
-      <template #bottom>
-        <slot name="page-bottom" />
-      </template>
-    </Page>
-  </div>
+    <q-drawer
+      v-if="shouldShowSidebar"
+      v-model="showDrawer"
+      :width="300"
+      :breakpoint="500"
+      content-class="bg-grey-1 text-grey-9 q-pa-none"
+    >
+      <rk-sidebar class="fit" :items="sidebarItems">
+        <template #top>
+          <slot name="sidebar-top" />
+        </template>
+        <template #bottom>
+          <slot name="sidebar-bottom" />
+        </template>
+      </rk-sidebar>
+    </q-drawer>
+    <q-page-container>
+      <rk-breadcrumbs :sidebar-items="sidebarItems" />
+      <rk-page :sidebar-items="sidebarItems" />
+    </q-page-container>
+    <q-footer>
+      <rk-footer />
+    </q-footer>
+  </q-layout>
 </template>
 
 <script>
@@ -37,6 +107,14 @@ import Home from '@theme/components/Home.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
+
+import RkDropdown from '@theme/components/RkDropdown.vue'
+import RkSearchBox from '@theme/components/RkSearchBox.vue'
+import RkPage from '@theme/components/RkPage.vue'
+import RkFooter from '@theme/components/RkFooter.vue'
+import RkBreadcrumbs from '@theme/components/RkBreadcrumbs.vue'
+import RkSidebar from '@theme/components/RkSidebar.vue'
+
 import { resolveSidebarItems } from '../util'
 
 export default {
@@ -46,13 +124,20 @@ export default {
     Home,
     Page,
     Sidebar,
-    Navbar
+    Navbar,
+    RkDropdown,
+    RkSearchBox,
+    RkPage,
+    RkFooter,
+    RkBreadcrumbs,
+    RkSidebar
   },
 
   data() {
     return {
       isSidebarOpen: false,
-      mounted: false
+      mounted: false,
+      showDrawer: true
     }
   },
 
@@ -114,6 +199,7 @@ export default {
     const min = Math.min(window.innerHeight, window.innerWidth)
     document.documentElement.style.fontSize = `${0.015 * min}px`
     // console.log('mounted: ', window.innerHeight, window.innerWidth, min, document.documentElement.style)
+    // console.log('sidebaritems: ', this.sidebarItems)
   },
   updated() {
     // replace all table with q-table instances
@@ -144,6 +230,10 @@ export default {
   },
 
   methods: {
+    openLink(url) {
+      window.open(url, '_self')
+    },
+    toggle() {},
     toggleSidebar(to) {
       this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
       this.$emit('toggle-sidebar', this.isSidebarOpen)
