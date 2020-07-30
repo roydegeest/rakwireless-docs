@@ -1,1 +1,1 @@
-<rk-redirect to="/introduction" />
+<rk-redirect to="/Introduction/" />

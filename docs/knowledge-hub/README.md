@@ -1,1 +1,4 @@
+---
+sidebar: false
+---
 <rk-blog />

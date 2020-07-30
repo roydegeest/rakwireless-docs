@@ -86,7 +86,7 @@ export default {
     this.$options.components.SidebarLinks = require('@theme/components/SidebarLinks.vue').default
   },
   mounted () {
-    console.log('item: ', this.item)
+    // console.log('item: ', this.item)
   },
 
   methods: { isActive }

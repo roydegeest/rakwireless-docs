@@ -145,7 +145,6 @@ function renderChildren(h, children, path, route, maxDepth, theme, depth = 1) {
         $page.frontmatter.displayAllHeaders ||
         $themeLocaleConfig.displayAllHeaders ||
         $themeConfig.displayAllHeaders
-      console.log('displayAllHeaders: ', displayAllHeaders)
 
       const el = [
         renderLink(

@@ -11,7 +11,13 @@
           class="lt-sm"
         />
         <div class="full-height flex flex-center">
-          <img :src="`/assets/rakwireless/rak-white.svg`" style="width: 7.5rem" />
+          <q-item :to="`/`" class="q-pa-none full-height">
+            <q-item-section>
+              <!-- <a href="/"> -->
+              <img :src="`/assets/rakwireless/rak-white.svg`" style="width: 7.5rem" />
+              <!-- </a> -->
+            </q-item-section>
+          </q-item>
         </div>
         <q-toolbar-title>{{ $siteTitle }}</q-toolbar-title>
         <q-space />
@@ -71,6 +77,7 @@
     </q-header>
 
     <q-drawer
+      v-if="shouldShowSidebar"
       v-model="showDrawer"
       :width="300"
       :breakpoint="500"
@@ -192,7 +199,7 @@ export default {
     const min = Math.min(window.innerHeight, window.innerWidth)
     document.documentElement.style.fontSize = `${0.015 * min}px`
     // console.log('mounted: ', window.innerHeight, window.innerWidth, min, document.documentElement.style)
-    console.log('sidebaritems: ', this.sidebarItems)
+    // console.log('sidebaritems: ', this.sidebarItems)
   },
   updated() {
     // replace all table with q-table instances
