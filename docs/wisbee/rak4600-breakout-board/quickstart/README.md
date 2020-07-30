@@ -13,7 +13,6 @@ displayAllHeaders: true
 <rk-img
   src="/assets/images/wisbee/rak4600-breakout-board/quickstart/main/rak4600-breakout-module.png"
   width="50%"
-  figure-number="1"
   caption="RAK4600 LPWAN Breakout Module"
 />
 
@@ -47,7 +46,7 @@ To interface with the RAK4600 LPWAN Evaluation Board with your Windows Machine, 
 Before powering the RAK4600 Breakout Module, make sure you have installed the included LoRa® and BLE antennas. Not doing so might damage the board.
 :::
 
-- Connect your USB to UART converter to the pin header on the RAK4600 via a set of 4 dupont lines. Use Figure 1 for reference on wiring the device properly.
+- Connect your USB to UART converter to the pin header on the RAK4600 via a set of 4 dupont lines. Use Figure 2 for reference on wiring the device properly.
 
 <rk-img
   src="/assets/images/wisbee/rak4600-breakout-board/quickstart/interfacing/powering-and-interfacing.png"

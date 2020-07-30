@@ -50,7 +50,7 @@ Before powering the RAK811 LPWAN Breakout Module , you should install the LoRa a
 :::
 
 - Connect your RAK811 LPWAN Breakout Board with the following diagram below.
-- **Figure 1** shows the Pinout Diagram of the Board and **Figure 2** shows how to connect the RAK811 LPWAN Breakout Board to the UART Module.
+- **Figure 2** shows the Pinout Diagram of the Board and **Figure 3** shows how to connect the RAK811 LPWAN Breakout Board to the UART Module.
 
 <rk-img
  src="/assets/images/wisbee/rak811-breakout-board/quickstart/interfacing-with-rak811-breakout/pinout_diagram.png"
@@ -249,7 +249,7 @@ at+set_config=lora:app_key:XXXX
   caption="Setting up the RAK811 OTAA parameters"
 />
 
-You should end up with a window as the one in **Figure 3** above with **a series of OK messages**.
+You should end up with a window as the one in **Figure 18** above with **a series of OK messages**.
 
 3. Finally execute the join command:
 
@@ -275,7 +275,7 @@ at+send=lora:1:12345678
   caption="Sending an uplink frame"
 />
 
-If you get a response in your TTN live data feed as in Figure 6, than you are all set!
+If you get a response in your TTN live data feed as in Figure 20, than you are all set!
 
 ::: tip 📝 NOTE
 Be sure to have this window opened prior to sending data through the RAK Serial Port or you will not be able to receive the packet sent. Logging out your The Things Network acccount would also clear all the data sent and not being able to receive packets sent.
@@ -301,7 +301,7 @@ Be sure to have this window opened prior to sending data through the RAK Serial 
   caption="Switching to ABP mode"
 />
 
-3. Save the mode change and return to the **Device Overview page**. You can copy the keys by pressing the button after the value fields marked in red in Figure 2.
+3. Save the mode change and return to the **Device Overview page**. You can copy the keys by pressing the button after the value fields marked in red in Figure 23.
 
 <rk-img
   src="/assets/images/wisbee/rak811-breakout-board/quickstart/ttn-abp-mode/kujly9q7b3ka0avth0hn.png"
@@ -315,7 +315,7 @@ Be sure to have this window opened prior to sending data through the RAK Serial 
 at+set_config=lora:region:EU868
 ```
 
-As you can see in Figure 3, since we are in the same region (EU868), nothing has changed.
+As you can see in Figure 24, since we are in the same region (EU868), nothing has changed.
 
 <rk-img
   src="/assets/images/wisbee/rak811-breakout-board/quickstart/ttn-abp-mode/gkaye44gsjjuxhtptjmv.png"
@@ -335,7 +335,7 @@ at+set_config=lora:join_mode:1
   caption="Join mode setup"
 />
 
-6. Now that the mode has been changed, enter the parameters: **Device Address, Network Session Key**, and **Application Session Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case (Figure 2 for reference of the parameters):
+6. Now that the mode has been changed, enter the parameters: **Device Address, Network Session Key**, and **Application Session Key**. Use the commands below. Remember to replace the **"XXXX"** with the corresponding parameter value for your particular case (See Figure 22 for reference of the parameters):
 
 ```bash
 at+set_config=lora:dev_addr:XXXX
@@ -355,7 +355,7 @@ at+set_config=lora:apps_key:XXXX
   caption="Setting up the RAK811 ABP parameters"
 />
 
-You should end up with a window as the one in **Figure 5** above with **a series of OK messages**.
+You should end up with a window as the one in **Figure 26** above with **a series of OK messages**.
 
 7. Finally execute the join command:
 
@@ -381,7 +381,7 @@ at+send=lora:1:12345678
   caption="Sending an uplink frame"
 />
 
-If you get a response in your TTN live data feed as in Figure 8, then you are all set!
+If you get a response in your TTN live data feed as in Figure 29, then you are all set!
 
 <rk-img
   src="/assets/images/wisbee/rak811-breakout-board/quickstart/ttn-abp-mode/rzwucwtfq8mue3evp2fc.png"

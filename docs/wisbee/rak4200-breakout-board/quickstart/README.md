@@ -51,7 +51,7 @@ In order for you to be able to interface with the RAK4200 LPWAN Evaluation Board
 Before powering the RAK4200 LPWAN Breakout Module, make sure you have installed the included LoRa\u00ae Antenna. Not doing so might damage the board
 :::
 
-- Connect your USB to UART converter to the pin header on the RAK4200 via a set of 4 dupont lines. Use **Figure 1** for reference on wiring the device properly.
+- Connect your USB to UART converter to the pin header on the RAK4200 via a set of 4 dupont lines. Use **Figure 2** for reference on wiring the device properly.
 
 <rk-img
   src="/assets/images/wisbee/rak4200-breakout-board/quickstart/interfacing/a6qkw8rluttf89wrzwum.jpg"
