@@ -169,7 +169,7 @@ Depending on which authentication method you want to use ,proceed to either the 
 
 
 
-### OTAA Mode
+#### OTAA Mode
 
 When setting up a new device in TTN its default is to join in OTAA mode. For configuration, you need the following three parameters: **Device EUI, Application EUI** and **App Key**. You can get them all from the **Overview page**.
 

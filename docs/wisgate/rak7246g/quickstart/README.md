@@ -417,7 +417,7 @@ Click Register Gateway and wait for a couple of minutes . If the status of your 
 
 The ChirpStack or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [here](https://www.chirpstack.io/).
 
-## Using an Independent ChirpStack
+#### Using an Independent ChirpStack
 Since the RAK7246G LPWAN Developer Gateway does not include a built-in Chirpstack, choose in the ways provided below so you can get an independent ChirpStack:
 1. Use RAK's Cloud TestingChirpStack - If you want to use RAK's Cloud Testing ChirpStack, contact RAK's Technical Support in the Forum: [RAK Free Cloud Server for Testing](https://forum.rakwireless.com/t/rak-free-cloud-loraserver-for-testing/344)
 2. Setup an Independent ChirpStack by yourself.
