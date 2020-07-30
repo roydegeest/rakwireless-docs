@@ -2,10 +2,7 @@
 tags:
   - datasheet
   - wislink-lora
-sidebar: auto
-sidebarDepth: 3
-displayAllHeaders: true
-prev: ../overview/
+prev: ../Overview/
 next: false
 certifications:
   - [FCC, https://downloads.rakwireless.com/LoRa/RAK831-LoRa-Gateway/Certification-Report/Shenzhen%C2%A0Rakwireless%C2%A0RAK831%20B1710171%C2%A0RED.pdf]

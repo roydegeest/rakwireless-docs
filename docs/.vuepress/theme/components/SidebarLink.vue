@@ -35,6 +35,7 @@ export default {
       item.type === 'auto'
         ? selfActive || childrenActive(item.children)
         : selfActive
+    // const active = selfActive || childrenActive(item.children)
     // console.log('item: ', item)
     const link =
       item.type === 'external'
@@ -74,6 +75,7 @@ export default {
           renderChildren(h, children, item.path, $route, maxDepth, theme)
         ]
     } else {
+      if (item.nested) return null
       return link
     }
   }

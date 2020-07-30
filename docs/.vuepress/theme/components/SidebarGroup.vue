@@ -43,7 +43,7 @@
 
     <DropdownTransition>
       <SidebarLink
-        v-if="item.nested && $page.path === item.path"
+        v-if="item.nested"
         :sidebar-depth="item.sidebarDepth || sidebarDepth"
         :item="item"
       />

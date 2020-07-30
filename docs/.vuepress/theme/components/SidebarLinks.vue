@@ -64,6 +64,9 @@ export default {
   created () {
     this.refreshIndex()
   },
+  // mounted () {
+  //   console.log('items: ', this.items)
+  // },
 
   methods: {
     refreshIndex () {

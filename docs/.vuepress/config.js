@@ -31,6 +31,7 @@ module.exports = {
     searchMaxSuggestions: 5,
     test: ['/quick-start/', '/datasheet/'],
 
+    sidebarDepth: 4,
     displayAllHeaders: true
   },
   plugins: {
