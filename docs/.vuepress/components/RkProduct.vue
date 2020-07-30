@@ -36,9 +36,11 @@
 </template>
 
 <script>
+import CommonMixin from './common.mixin'
 export default {
   name: 'RkProduct',
   props: ['img', 'path', 'label'],
+  mixins:[CommonMixin],
   data: () => ({
     hovered: false
   }),
@@ -48,12 +50,6 @@ export default {
     },
     model() {
       return this.label.split(' ')[0]
-    }
-  },
-  methods: {
-    nav(path) {
-      if (!path) return
-      this.$router.push(path)
     }
   }
 }

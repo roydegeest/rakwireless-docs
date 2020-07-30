@@ -3,6 +3,7 @@
     class="column my-card relative-position"
     @mouseenter="$emit('mouseenter')"
     @mouseleave="$emit('mouseleave')"
+    @click="$emit('click')"
   >
     <slot />
   </div>
