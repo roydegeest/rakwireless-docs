@@ -21,7 +21,7 @@
         </div>
       </transition>
     </div>
-    <div class="q-pa-md" style="height: 6rem">
+    <div class="q-pa-md">
       <div
         class="text-weight-medium ellipsis-2-lines"
         style="font-size: 1.15rem; line-height: normal"

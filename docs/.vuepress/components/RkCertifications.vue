@@ -46,6 +46,12 @@ export default {
           case 'RoHS':
             data.img = '/assets/images/certifications/RoHS.png'
             break
+          case 'KCC':
+            data.img = '/assets/images/certifications/KCC.png'
+            break
+          case 'MIC':
+            data.img = '/assets/images/certifications/MIC.png'
+            break
           default:
             data.img =
               'https://image.shutterstock.com/image-illustration/white-unknown-document-icon-isolated-600w-1517588975.jpg'

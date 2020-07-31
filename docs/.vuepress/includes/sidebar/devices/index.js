@@ -1,11 +1,18 @@
-var wislinkLora = require('./wislink-lora')
-var wisgate = require('./wisgate')
 var wisbee = require('./wisbee')
+var wisduino = require('./wisduino')
+var wisduo = require('./wisduo')
+var wisgate = require('./wisgate')
 var wishat = require('./wishat')
+var wislink = require('./wislink')
+var wisnode = require('./wisnode')
+
 
 module.exports = {
-  ...wislinkLora,
-  ...wisgate,
   ...wisbee,
+  ...wisduino,
+  ...wisduo,
+  ...wisgate,
   ...wishat,
+  ...wislink,
+  ...wisnode,
 }

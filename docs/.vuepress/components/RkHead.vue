@@ -5,11 +5,11 @@
         <img :src="img" :width="imgWidth" :height="imgHeight" />
       </div>
       <q-space />
-      <div class="col text-justify" :class="{'col-12': center}">
+      <div class="column col justify-center text-justify" :class="{'col-12': center}">
         <slot />
       </div>
     </div>
-    <q-separator v-if="!center" />
+    <q-separator v-if="!center" class="q-my-md" />
   </div>
 </template>
 

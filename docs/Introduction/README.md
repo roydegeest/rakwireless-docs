@@ -5,12 +5,26 @@ next: /Product-Categories/
 
 # Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. Vivamus faucibus porta tellus, eget condimentum enim commodo sit amet. Praesent sed orci semper, lacinia enim non, bibendum ipsum. Integer maximus nibh vel risus tempor, quis rhoncus justo porttitor. Praesent venenatis convallis dictum. Donec erat leo, posuere sed leo in, consectetur commodo tellus. Curabitur vehicula sagittis nisi, ac feugiat nunc vestibulum vitae. Proin aliquam quam at placerat mattis. Aenean volutpat lectus eget nulla placerat gravida. Vestibulum iaculis orci et quam volutpat cursus sit amet blandit justo. Curabitur hendrerit quam rutrum urna pulvinar venenatis. Ut nulla ipsum, pulvinar vitae dignissim quis, vulputate sed urna.
+<rk-head img="/assets/rakwireless/RAK-favicon-blue.svg" img-height="200px">
+<h1 class="q-mt-none q-mb-sm" style="font-size: 3.75rem">Welcome!</h1>
+The RAK® Documentation Center is a great place to explore our hardware, software and developer tools, and find all the information you need to get started in your LoRa® project!
 
-Suspendisse potenti. Mauris scelerisque dolor et elit finibus, at porttitor odio varius. Nam commodo nisl nulla, at mollis odio bibendum eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus sollicitudin dolor turpis, id euismod nisl vehicula ut. Nullam tristique volutpat placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris finibus sapien nec sapien mattis vestibulum. Morbi ac cursus ex. Fusce nec nibh enim. Quisque tincidunt molestie sapien ac eleifend. Etiam lacinia neque a massa tempor euismod. Aenean sed malesuada tellus, eget gravida ex.
+</rk-head>
 
-Mauris et diam non turpis euismod porttitor. Nunc euismod massa at eros lobortis viverra. Cras venenatis rutrum ex in facilisis. Mauris vulputate iaculis urna, eu efficitur augue molestie at. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aliquam sollicitudin molestie accumsan. Praesent vitae ullamcorper libero, sed ultrices elit. In quis pellentesque orci.
+What you can find in RAK Documentation Center are:
 
-Proin at consectetur elit. Sed imperdiet ante sit amet lacus ultrices, nec bibendum magna pharetra. Aenean molestie eros cursus, ultricies justo a, blandit erat. Etiam in ligula erat. Phasellus porttitor auctor eleifend. Nam et consequat lectus. Praesent lectus libero, dapibus ut tincidunt sed, venenatis ac nisi. In elit nibh, hendrerit in arcu ac, lacinia interdum est. In sit amet felis eget diam sagittis gravida at eu mi. Aliquam at ante non leo finibus faucibus sed sed justo. In ut dui lorem. Donec nec mattis mauris, sit amet tristique libero.
+- Quick Start Guide - Set of instructions on how to set up your device for the first time and deploy with only its core functionality in mind.
+- Datasheet - Detailed information about the components of the device and its functionality.
+- User Manual - A software reference cheat sheet to help you navigate the firmware and interface of our devices.
+- Deployment Guide - Practical examples and tutorials on common use cases. Contains varied documents, specifically addressing one use case.
 
-Morbi vel lorem nulla. Mauris lobortis leo nec elit accumsan efficitur. Sed nunc dui, vestibulum a tempor vel, lacinia non mi. Suspendisse at nisi metus. Mauris ut mauris lorem. Nunc neque elit, ultricies nec pulvinar ac, sollicitudin ac enim. Pellentesque posuere massa felis, id suscipit quam lacinia nec. Cras tortor mi, bibendum vitae facilisis id, mollis egestas urna. Nulla pulvinar suscipit varius. Sed eget condimentum tellus, at pellentesque nisl. Phasellus id lobortis augue. Vivamus ac nisl eget turpis lacinia tristique. Vestibulum quis vehicula dui. Proin et suscipit ante, et faucibus purus. Sed vitae orci mi. Proin non est tellus.
+## What you need to know before you start
+
+When IoT solution just seems to work, it is always the result of hard work. Home automation is fascinating and requires a considerable investment of your time. Here are some key considerations especially for new users. To be successful, you will need to:
+
+- Start slowly and one step at a time
+- Be prepared to learn
+- Remain flexible in how you want to achieve your goal
+- Celebrate all the small successes
+
+Remember, ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. Vivamus faucibus porta tellus, eget condimentum enim commodo sit amet. Praesent sed orci semper, lacinia enim non, bibendum ipsum. Integer maximus nibh vel risus tempor, quis rhoncus justo porttitor. Praesent venenatis convallis dictum. Donec erat leo, posuere sed leo in, consectetur commodo tellus. Curabitur vehicula sagittis nisi, ac feugiat nunc vestibulum vitae. Proin aliquam quam at placerat mattis. Aenean volutpat lectus eget nulla placerat gravida. Vestibulum iaculis orci et quam volutpat cursus sit amet blandit justo. Curabitur hendrerit quam rutrum urna pulvinar venenatis. Ut nulla ipsum, pulvinar vitae dignissim quis, vulputate sed urna.
