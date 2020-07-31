@@ -1,9 +1,9 @@
-var wislinkLora = require('./wislink-lora')
+var wislink = require('./wislink')
 var wisnode = require('./wisnode')
 var wisduino = require('./wisduino')
 
 module.exports = {
-  ...wislinkLora,
+  ...wislink,
   ...wisnode,
   ...wisduino
 }
