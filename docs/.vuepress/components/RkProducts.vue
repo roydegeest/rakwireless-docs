@@ -24,7 +24,7 @@ export default {
   computed: {
     overviews() {
       return this.$site.pages.filter(t => {
-        return t.path.match(/^\/[\w\d-]+\/rak[\w\d-()]+\/overview\/$/g)
+        return t.path.match(/^\/Product-Categories\/[\w\d-]+\/[\w\d-]+\/Overview\/$/g)
       })
     },
     filtered() {
