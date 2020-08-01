@@ -1,10 +1,34 @@
 <template>
-  <div class="q-gutter-y-md" style="max-width: 1000px; margin-left: auto; margin-right: auto">
-    <div class="text-h4">
-      <b>Knowledge Hub:</b> Learning is never boring
+  <div class="q-gutter-y-md" style="max-width: 80vw; margin: 0 auto;">
+    <div class="row q-gutter-xs justify-center">
+      <q-item
+        v-for="tag in tags"
+        :key="tag"
+        :class="{'bg-grey-2': !activeTags.includes(tag)}"
+        style="width: 8rem; ; border-radius: 20px"
+        :active="activeTags.includes(tag)"
+        active-class="bg-primary"
+        @click="onTagClick(tag)"
+        clickable
+        dense
+      >
+        <q-item-section>
+          <img :src="`/assets/rakwireless/product-categories/${tag}.svg`" />
+        </q-item-section>
+      </q-item>
+      <q-separator v-if="activeTags.length" class="q-mx-md" vertical />
+      <q-btn
+        v-if="activeTags.length"
+        label="Clear Tags"
+        color="primary"
+        icon="close"
+        @click="activeTags=[]"
+        no-caps
+        rounded
+      />
     </div>
-    <q-separator color="blue-10" inset />
-    <div class="row">
+    <q-separator class="q-mb-md" color="blue-10" inset />
+    <div class="row justify-center" style="margin: 0 auto;">
       <div
         class="col-12 col-xs-6 col-sm-4 cursor-pointer q-pa-sm"
         v-for="(article, id) in articles"
@@ -72,16 +96,42 @@
 export default {
   name: 'RkBlog',
   data: () => ({
-    hovered: null
+    hovered: null,
+    activeTags: []
   }),
   computed: {
     articles() {
-      return this.$site.pages.filter(t => {
-        return t.path.match(/^\/knowledge-hub\/[\w\d-._]+\/[\w\d-._]+\/$/g)
+      const fltrd = this.$site.pages.filter(t => {
+        return t.path.match(
+          /^\/Knowledge-Hub\/Learn\/[\w\d-._]+\/[\w\d-._]+\/$/g
+        )
       })
+      if (!this.activeTags.length) return fltrd
+      return fltrd.filter(
+        t =>
+          t.frontmatter.tags &&
+          t.frontmatter.tags.some(tt => this.activeTags.includes(tt))
+      )
+    },
+    tags() {
+      return [
+        'WisGate',
+        'WisNode',
+        'WisBlock',
+        'WisDuo',
+        'WisTrio',
+        'WisLink',
+        'WisHat',
+        'WisDuino'
+      ]
     }
   },
   methods: {
+    onTagClick(tag) {
+      if (this.activeTags.includes(tag))
+        this.activeTags = this.activeTags.filter(t => t != tag)
+      else this.activeTags = [...this.activeTags, tag]
+    },
     nav(path) {
       this.$router.push(path)
     },
