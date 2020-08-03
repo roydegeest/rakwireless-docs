@@ -8,7 +8,7 @@ certifications:
   - [FCC, https://downloads.rakwireless.com/LoRa/RAK831-LoRa-Gateway/Certification-Report/Shenzhen%C2%A0Rakwireless%C2%A0RAK831%20B1710171%C2%A0RED.pdf]
 ---
 
-# RAK831 LPWAN Gateway Concentrator Datasheet
+# RAK831 WisLink-LoRa Datasheet
 
 <rk-img
   src="/assets/images/wislink-lora/rak831/datasheet/rak831-overview.png"
@@ -486,7 +486,7 @@ At **T=25℃, VDD=5V(Typ.)** if nothing else stated
 
 #### Schematic Diagram
 
-The following images are the schematic diagram of the RAK831 LPWAN Gateway Concentrator:
+The following images are the schematic diagram of the RAK831 WisLink-LoRa:
 
 <rk-img
   src="/assets/images/wislink-lora/rak831/datasheet/schematic-diagram1.png"

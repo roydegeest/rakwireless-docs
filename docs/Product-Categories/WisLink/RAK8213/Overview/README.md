@@ -11,15 +11,11 @@ qlinks:
       href: mailto:support@rakwireless.com
   resources:
     - name: Datasheet
-      href: /wislink-lte/rak8213/datasheet
-    - name: Schematic Diagram
-      href: https://downloads.rakwireless.com/Cellular/RAK8213/Hardware%20Specification/RAK8213%20Schematics_20180516.pdf
-    - name: 3D Model
-      href: https://downloads.rakwireless.com/Cellular/RAK8213/Hardware%20Specification/RAK8213-3D-File.zip
-    - name: Firmware
-      href: https://downloads.rakwireless.com/Cellular/RAK8213/Firmware/
-    - name: Downloads
-      href: https://downloads.rakwireless.com/en/Cellular/RAK8213/
+      href: /Product-Categories/WisLink/RAK8213/Datasheet/
+    - name: User Manual
+      href: /user-manual/
+    - name: Deployment Guide
+      href: /deployment-guide/
 
 prev: false
 next: false
@@ -42,7 +38,7 @@ RAK8213’s built-in GNSS module can support **GPS, GLONASS, BeiDou/Compass, Gal
 Rich Internet protocol, industry-standard interfaces (USB/UART/I2C/Status indicators) and rich features (applicable to Windows XP, Windows Vista, Windows 7/8/8.1/10, Linux drivers for Linux and Android) Modules that extend applicability are suitable for a wide range of M2M applications such as wireless POS, smart metering, and tracking.
 
 <rk-btn
-  src="../quickstart/"
+  src="../Quickstart/"
   label="Get Started with RAK8213 WisLink NB-IoT Module"
 />
 

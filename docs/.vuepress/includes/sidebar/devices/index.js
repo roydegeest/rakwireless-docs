@@ -16,7 +16,6 @@ module.exports = {
   ...wishat,
   ...wislink,
   ...wisnode,
-  
   ...wisduino,
   ...wistrio
 }

@@ -1,15 +1,17 @@
 ---
-tags: + datasheet
-prev: ../overview/
+tags: 
+  - datasheet
+  - wislink
+prev: ../Overview/
 next: false
 ---
 
-# RAK2013 Cellular Datasheet
+# RAK2013 WisLink-LTE Datasheet
 
 <rk-img
   src="/assets/images/wislink-lte/rak2013/datasheet/rak2013.jpg"
   width="50%"
-  caption="RAK2013 Cellular Board"
+  caption="RAK2013 WisLink-LTE Board"
 />
 
 ## Overview
@@ -43,12 +45,12 @@ The RAK2013 is compatible with RAK2245 Pi Hat Concentrator module via the onboar
 
 #### Module Overview
 
-Here is the top view and external interfaces of RAK2013 cellular add-on board.
+Here is the top view and external interfaces of RAK2013 WisLink-LTE add-on board.
 
 <rk-img
   src="/assets/images/wislink-lte/rak2013/datasheet/components-of-rak2013-cellular.jpg"
   width="75%"
-  caption="Components of RAK2013 Cellular"
+  caption="Components of RAK2013 WisLink-LTE"
 />
 
 <rk-img
@@ -72,7 +74,7 @@ The diagram below shows the internal architecture and external interfaces of RAK
 <rk-img
   src="/assets/images/wislink-lte/rak2013/datasheet/block-diagram-rak2013.png"
   width="100%"
-  caption="RAK2013 Cellular Board"
+  caption="RAK2013 WisLink-LTE Board"
 />
 
 ### Hardware

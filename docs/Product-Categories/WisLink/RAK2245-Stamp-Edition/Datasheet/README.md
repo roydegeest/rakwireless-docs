@@ -1,22 +1,22 @@
 ---
 tags:
   - datasheet
-  - wislink-lora
-prev: ../overview/
+  - wislink
+prev: ../Overview/
 next: false
 ---
 
-# RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module Datasheet
+# RAK2245 WisLink-LoRa Stamp Edition Datasheet
 
 <rk-img
   src="/assets/images/wislink-lora/rak2245-stamp-edition/datasheet/overview/r8b1kuz7nsyovmac80kq.png"
   width="60%"
-  caption="RAK2245 Stamp Edition"
+  caption="RAK2245 WisLink-LoRa Stamp Edition"
 />
 
 ### Product Description
 
-The **RAK2245 Stamp Edition** is a complete and cost efficient gateway solution base on Semtech SX1301 fully utilizing the LoRa System. This LPWAN Concentrator module supports eight channels and is available for all LoRaWAN® international standard bands.
+The **RAK2245 WisLink-LoRa Stamp Edition** is a complete and cost efficient gateway solution base on Semtech SX1301 fully utilizing the LoRa System. This LPWAN Concentrator module supports eight channels and is available for all LoRaWAN® international standard bands.
 
 The Stamp form factor feature enables easy integration into the system's main board, providing LoRaWAN® functionality.This ultra compact module measures just 60mm x 30mm x 14.9mm, believed to be the world’s smallest gateway module which has a built-in GPS chip. It comes with a mounted heat-sink that improves the thermal heat dissipation and overall performance of the device.
 
@@ -40,12 +40,12 @@ Overall, this gateway module is the most economical way to create different solu
 
 #### Board Overview
 
-The **RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module**, as shown in figure 1 below, has outer dimensions of **30.00 x 60.00 x 14.90 mm** (nominal value) which includes the 9.50 mm heat sink.
+The **RAK2245 WisLink-LoRa Stamp Edition**, as shown in figure 1 below, has outer dimensions of **30.00 x 60.00 x 14.90 mm** (nominal value) which includes the 9.50 mm heat sink.
 
 <rk-img
   src="/assets/images/wislink-lora/rak2245-stamp-edition/datasheet/board-overview/roohsofgitzlzhbea2vz.jpg"
   width="60%"
-  caption="RAK2245 Stamp Edition Board Dimension"
+  caption="RAK2245 WisLink-LoRa Stamp Edition Board Dimension"
 />
 
 #### Block Diagram
@@ -53,7 +53,7 @@ The **RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module**, as shown in f
 <rk-img
   src="/assets/images/wislink-lora/rak2245-stamp-edition/datasheet/interfaces/block-diagram.png"
   width="100%"
-  caption="RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module Block Diagram"
+  caption="RAK2245 WisLink-LoRa Stamp Edition Block Diagram"
 />
 
 ### Hardware
@@ -67,7 +67,7 @@ best possible use from the system.
 
 ##### Power Supply
 
-RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module is powered through 5V. It integrates the IOREF for
+RAK2245 WisLink-LoRa Stamp Edition is powered through 5V. It integrates the IOREF for
 Level Translator, which can communicate with 3.3V, 1.8V and other different voltage
 interfaces.
 
@@ -76,7 +76,7 @@ interfaces.
 The pin connector provides an SPI connection which allows direct access to the Sx1301 SPI interface. This gives the target system the possibility to use existing SPI interfaces to communicate with the module.
 
 ::: tip 📝 NOTE
-Please reset SX1301 via PIN A13 after turning on your RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module
+Please reset SX1301 via PIN A13 after turning on your RAK2245 WisLink-LoRa Stamp Edition
 :::
 
 ##### UART and I²C
@@ -97,15 +97,15 @@ The modules have two RF interfaces for LoRa® and GPS antennas over the standard
 
 #### Pin Definition
 
-The pinout diagram for the RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module is shown by the figure below.
+The pinout diagram for the RAK2245 WisLink-LoRa Stamp Edition is shown by the figure below.
 
 <rk-img
   src="/assets/images/wislink-lora/rak2245-stamp-edition/datasheet/pin-definition/fahimiuydovhvpxrmcl9.jpg"
   width="50%"
-  caption="Pinout Diagram of RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module"
+  caption="Pinout Diagram of RAK2245 WisLink-LoRa Stamp Edition"
 />
 
-The pin connector of RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module is located at the bottom side. Refer to the table below for the description and numbering of each pins.
+The pin connector of RAK2245 WisLink-LoRa Stamp Edition is located at the bottom side. Refer to the table below for the description and numbering of each pins.
 
 | **Pin** | **Name**    | **Type** | **Description**                                                                                                   |
 | ------- | ----------- | -------- | ----------------------------------------------------------------------------------------------------------------- |
@@ -156,7 +156,7 @@ The board supports the following LoRaWAN® frequency channels shown in the table
 
 ##### Transmitter RF
 
-The RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module has an excellent transmitter performance . It is highly recommended to use an optimized configuration for the power level
+The RAK2245 WisLink-LoRa Stamp Edition has an excellent transmitter performance . It is highly recommended to use an optimized configuration for the power level
 configuration, which is part of the HAL. This results in a mean RF output power
 level and current consumption.
 
@@ -192,7 +192,7 @@ level and current consumption.
 
 ##### Receiver RF
 
-We recommended you to use optimized RSSI calibration values which is part of HAL v3.1. For both Radio 1 and 2, the RSSI-offset should be set to -169. The following table shows typical sensitivity level of RAK2245 Stamp Edition -LPWAN Gateway Concentrator Module.
+We recommended you to use optimized RSSI calibration values which is part of HAL v3.1. For both Radio 1 and 2, the RSSI-offset should be set to -169. The following table shows typical sensitivity level of RAK2245 WisLink-LoRa Stamp Edition -LPWAN Gateway Concentrator Module.
 
 | **Signal Bandwidth (KHz)** | **Spreading Factor** | **Sensitivity (dBm)** |
 | -------------------------- | -------------------- | --------------------- |
@@ -205,7 +205,7 @@ We recommended you to use optimized RSSI calibration values which is part of HAL
 
 #### Electrical Requirements
 
-The following are the electrical characteristics of RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module. Please [contact us ](mailto:support@rakwireless.com)if you need other details for your project.
+The following are the electrical characteristics of RAK2245 WisLink-LoRa Stamp Edition. [Contact us ](mailto:support@rakwireless.com)if you need other details for your project.
 
 ##### Absolute Maximum Rating
 

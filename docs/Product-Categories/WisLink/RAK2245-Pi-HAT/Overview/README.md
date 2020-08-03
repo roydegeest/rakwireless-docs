@@ -12,9 +12,9 @@ params:
         href: mailto:support@rakwireless.com
     resources:
       - name: Datasheet
-        href: /wislink-lora/rak2245-pi-hat-edition/datasheet
+        href: /Product-Categories/WisLink/RAK2245-Pi-HAT/Datasheet/
       - name: Certification Report
-        href: /wislink-lora/rak2245-pi-hat-edition/datasheet/#certification
+        href: /Product-Categories/WisLink/RAK2245-Pi-HAT/Datasheet/#certification
       - name: User Manual
         href: /user-manual/
       - name: Deployment Guide
@@ -24,7 +24,7 @@ prev: false
 next: false
 ---
 
-# RAK2245 Pi Hat - LPWAN Gateway Concentrator Module
+# RAK2245 Pi HAT WisLink-LoRa
 
 <rk-img
   src="/assets/images/wislink-lora/rak2245-pi-hat-edition/datasheet/rak2245-pihat-overview.png"
@@ -32,7 +32,7 @@ next: false
   caption="RAK2245 Pi Hat"
 />
 
-### Product Description
+## Product Description
 
 **RAK2245 Pi HAT** is a module with Raspberry PI form factor. It can be plugged into
 Raspberry PI such as Raspberry Pi 3 Model B+ as a complete RF front end of gateway. It supports eight channels and is available for LoRaWAN® global frequency bands. The board is the smallest gateway concentrator which integrates the **Ublox MAX-7Q GPS Module** and heat sink.
@@ -42,13 +42,13 @@ The board can provide low data rate LoRa® radio links in ultra-fast speed. It i
 The RAK2245 Pi HAT is a complete and cost efficient gateway solution that can help you develop a full LoRa® system. This is an economical way to create different solutions like smart grid, intelligent farm and other IoT applications. It is also ideal for manufacturing small series that can expand into more applications.
 
 <rk-btn
-  src="../quickstart/"
-  label="Get Started with RAK2245 Pi Hat - LPWAN Gateway Concentrator Module"
+  src="../Quickstart/"
+  label="Get Started with RAK2245 Pi HAT WisLink-LoRa"
 />
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />
 
-### Product Features
+## Product Features
 
 - Compatible with Raspberry Pi 3 Model B+ edition.
 - Integrated Ublox MAX-7Q GPS Module and heat sink.

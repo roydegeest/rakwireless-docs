@@ -1,1 +1,1 @@
-<rk-redirect to="/wislink-lora/rak833/datasheet" />
+<rk-redirect to="/Product-Categories/WisLink/RAK833/Datasheet/" />

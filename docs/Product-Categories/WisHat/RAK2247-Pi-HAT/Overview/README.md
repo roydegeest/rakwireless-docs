@@ -21,17 +21,17 @@ params:
 ---
 
 
-# RAK2247 Pi HAT
+# RAK2247 Pi HAT WisHat™
 
 ## Product Background
 
-RAK2247 Pi HAT is a **converter board** designed to allow the RAK2247 Concentrator module to interface with a **Raspberry Pi SBC**. It maps the **52-pin of mPCIe RAK2247 connector** to the **40-pin Raspberry Pi header**.
+RAK2247 Pi HAT WisHat™ is a **converter board** designed to allow the RAK2247 Concentrator module to interface with a **Raspberry Pi SBC**. It maps the **52-pin of mPCIe RAK2247 connector** to the **40-pin Raspberry Pi header**.
 
 Moreover, there is a **GPS** on the HAT that enhances your RAK2247 with localization and timing data.
 
 <rk-btn
   src="/Product-Categories/WisHat/RAK2247-Pi-HAT/Datasheet/"
-  label="Get Started with RAK2247 Pi HAT"
+  label="Get Started with RAK2247 Pi HAT WisHat™"
 />
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
@@ -44,13 +44,13 @@ Moreover, there is a **GPS** on the HAT that enhances your RAK2247 with localiza
 
 ## Package Contents
 
-- One (1) RAK2247 Pi HAT
+- One (1) RAK2247 Pi HAT WisHat™
 
 <!---
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak2247-lpwan-gateway-concentrator-module"
-  label="Buy a RAK2247 Pi HAT"
+  label="Buy a RAK2247 Pi HAT WisHat™"
   _blank
 />
 

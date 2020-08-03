@@ -1,25 +1,25 @@
 ---
 tags:
   - datasheet
-  - wislink-lora
-prev: ../overview/
+  - wislink
+prev: ../Overview/
 next: false
 certifications:
   - [CE, https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247_CE_Certificate.zip]
   - [FCC, https://downloads.rakwireless.com/LoRa/RAK2247-Mini-PCIe/Certification-Report/RAK2247_FCC_Certificate.zip]
 ---
 
-# RAK2247 LPWAN Gateway Concentrator Module Datasheet
+# RAK2247 WisLink-LoRa Datasheet
 
 <rk-img
   src="/assets/images/wislink-lora/rak2247/datasheet/rak2247-overview.png"
   width="50%"
-  caption="RAK2247 LPWAN Gateway Concentrator Module"
+  caption="RAK2247 WisLink-LoRa"
 />
 
 ### Product Description
 
-The **RAK2247 LPWAN Gateway Concentrator Module** is a LoRa® Concentrator module with mini-PCIe form factor based on the SX1301. This enables easy integration into routers and other networking equipment, adding gateway capabilities. The module can be used in any embedded platform offering a mini-PCIe slot with an SPI or USB connection.
+The **RAK2247 WisLink-LoRa** is a LoRa® Concentrator module with mini-PCIe form factor based on the SX1301. This enables easy integration into routers and other networking equipment, adding gateway capabilities. The module can be used in any embedded platform offering a mini-PCIe slot with an SPI or USB connection.
 
 Despite its small size this is an 8 channel concentrator module. By integrating it together with a computing core a fully fledged gateway solution can easily be created.
 
@@ -40,22 +40,22 @@ Despite its small size this is an 8 channel concentrator module. By integrating 
 
 #### Board Overview
 
-The outer dimension of the RAK2247 LPWAN Gateway Concentrator Module is **50.95 millimeters x 30.0 millimeters x 10.4 millimeters**. The board with top-side and bottom-side keep-out areas, and all other dimension is defined by PCI Express Mini Card Electromechanical Specification except for the card thickness. And the thickness 10.4 millimeters which includes the 8 millimeter heat sink.
+The outer dimension of the RAK2247 WisLink-LoRa is **50.95 millimeters x 30.0 millimeters x 10.4 millimeters**. The board with top-side and bottom-side keep-out areas, and all other dimension is defined by PCI Express Mini Card Electromechanical Specification except for the card thickness. And the thickness 10.4 millimeters which includes the 8 millimeter heat sink.
 
 <rk-img
   src="/assets/images/wislink-lora/rak2247/datasheet/board-overview-rak2247.jpg"
   width="100%"
-  caption="RAK2247 LPWAN Gateway Concentrator Module Overview"
+  caption="RAK2247 WisLink-LoRa Overview"
 />
 
 #### Block Diagram
 
-RAK2247 LPWAN Gateway Concentrator Module integrates one SX1301 chip and two SX1255/7. The other chip is for RF signal, which represents the core of the device. This provides the related LoRa® modem and processing functionalities. Additional signal conditioning circuitry is implemented for PCI Express Mini Card compliance, and one uFL connectors are available for external antennas integration.
+RAK2247 WisLink-LoRa integrates one SX1301 chip and two SX1255/7. The other chip is for RF signal, which represents the core of the device. This provides the related LoRa® modem and processing functionalities. Additional signal conditioning circuitry is implemented for PCI Express Mini Card compliance, and one uFL connectors are available for external antennas integration.
 
 <rk-img
   src="/assets/images/wislink-lora/rak2247/datasheet/block-diagram.png"
   width="100%"
-  caption="RAK2247 LPWAN Gateway Concentrator Module Block Diagram"
+  caption="RAK2247 WisLink-LoRa Block Diagram"
 />
 
 ### Hardware
@@ -64,7 +64,7 @@ RAK2247 LPWAN Gateway Concentrator Module integrates one SX1301 chip and two SX1
 
 ##### Power Supply
 
-RAK2247 LPWAN Gateway Concentrator Module must be supplied through the **3.3Vaux** pins by a **DC power supply**. The voltage must be stable, because during this operation the current drawn from 3.3Vaux can vary significantly, based on the power consumption profile of the SX1301 chip (please refer to **SX1301 [datasheet](https://www.semtech.com/uploads/documents/sx1301.pdf)**).
+RAK2247 WisLink-LoRa must be supplied through the **3.3Vaux** pins by a **DC power supply**. The voltage must be stable, because during this operation the current drawn from 3.3Vaux can vary significantly, based on the power consumption profile of the SX1301 chip (please refer to **SX1301 [datasheet](https://www.semtech.com/uploads/documents/sx1301.pdf)**).
 
 ##### SPI Interface
 
@@ -76,7 +76,7 @@ RAK2247-USB version does not have this interface.
 
 ##### USB Interface
 
-RAK2247 LPWAN Gateway Concentrator Module can support the high speed USB to SPI by FT2232HL, it includes a USB 2.0 compliant interface with maximum 480 Mb/s data rate, representing the interface for any communication with an external host application processor. The module itself acts as a USB device and can be connected to any USB host equipped with compatible drivers. For more information, please refer to the [datasheet](https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf) of FT2232HL.
+RAK2247 WisLink-LoRa can support the high speed USB to SPI by FT2232HL, it includes a USB 2.0 compliant interface with maximum 480 Mb/s data rate, representing the interface for any communication with an external host application processor. The module itself acts as a USB device and can be connected to any USB host equipped with compatible drivers. For more information, please refer to the [datasheet](https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf) of FT2232HL.
 
 :::tip 📝 NOTE
 RAK2247-SPI version does not have this interface.
@@ -84,11 +84,11 @@ RAK2247-SPI version does not have this interface.
 
 ##### GPS_PPS
 
-RAK2247 LPWAN Gateway Concentrator Module includes the GPS_PPS input for received packets time-stamped.
+RAK2247 WisLink-LoRa includes the GPS_PPS input for received packets time-stamped.
 
 ##### RESET
 
-RAK2247 LPWAN Gateway Concentrator Module includes the RESET active-high input signal to reset the radio operations as specified by the SX1301 Specification.
+RAK2247 WisLink-LoRa includes the RESET active-high input signal to reset the radio operations as specified by the SX1301 Specification.
 
 ##### LEDs
 
@@ -103,7 +103,7 @@ The modules have one RF interfaces over a standard uFL connectors (Hirose U. FL-
 <rk-img
   src="/assets/images/wislink-lora/rak2247/datasheet/pinout.png"
   width="100%"
-  caption="RAK2247 LPWAN Gateway Concentrator Module Pinout Diagram"
+  caption="RAK2247 WisLink-LoRa Pinout Diagram"
 />
 
 | Pin # | Mini PCIEx PIN Rev. 2.0 | RAK2247 PIN             | POWER   | I/O | Description                | Remarks                                                                                                                                                                               |
@@ -179,7 +179,7 @@ The board supports the following LoRaWAN® frequency channels, allowing easy con
 
 ##### RF Characteristics
 
-The following table gives typically sensitivity level of the RAK2247 LPWAN Gateway Concentrator Module.
+The following table gives typically sensitivity level of the RAK2247 WisLink-LoRa.
 
 | Signal Bandwidth [KHz] | Spreading Factor | Sensitivity [dBm] |
 | ---------------------- | ---------------- | ----------------- |
@@ -226,7 +226,7 @@ The table below lists the maximum ESD.
 |                                        |     |         | 8000V | Air Discharge according to IEC 61000-4-2     |
 
 :::tip 📝 NOTE
-RAK2247 LPWAN Gateway Concentrator Module is an Electrostatic Sensitive Device and require special precautions when handling.
+RAK2247 WisLink-LoRa is an Electrostatic Sensitive Device and require special precautions when handling.
 :::
 
 ##### Power Consumption

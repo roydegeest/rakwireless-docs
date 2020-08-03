@@ -1,15 +1,15 @@
 ---
 tags:
   - datasheet
-  - wislink-lora
-prev: ../overview/
+  - wislink
+prev: ../Overview/
 next: false
 certifications:
   - [CE, https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Certification-Report/RAK2245_Pi_HAT_CE_Certificate.zip]
   - [FCC, https://downloads.rakwireless.com/LoRa/RAK2245-Pi-HAT/Certification-Report/RAK2245_Pi_HAT_FCC_Certificate.zip]
 ---
 
-# RAK2245 Pi Hat - LPWAN Gateway Concentrator Module Datasheet
+# RAK2245 Pi HAT WisLink-LoRa Datasheet
 
 <rk-img
   src="/assets/images/wislink-lora/rak2245-pi-hat-edition/datasheet/rak2245-pihat-overview.png"
