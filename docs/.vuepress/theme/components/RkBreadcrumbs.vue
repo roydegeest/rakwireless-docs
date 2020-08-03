@@ -1,5 +1,5 @@
 <template>
-  <div class="q-pa-md">
+  <div class="q-pa-lg">
     <q-breadcrumbs class="text-grey-7" gutter="xs">
       <template v-slot:separator>
         <q-icon size="1.5em" name="chevron_right" color="primary" />
@@ -8,7 +8,7 @@
       <q-breadcrumbs-el
         v-for="item in items"
         :key="item.path"
-        :label="item.label.replace('-', ' ')"
+        :label="item.label.replace(/-/g, ' ')"
         :to="item.path"
       />
     </q-breadcrumbs>

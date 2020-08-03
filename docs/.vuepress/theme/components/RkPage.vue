@@ -1,5 +1,5 @@
 <template>
-  <q-page padding>
+  <q-page>
     <Content id="nodeToRenderAsPDF" class="theme-default-content" />
     <PageEdit />
 

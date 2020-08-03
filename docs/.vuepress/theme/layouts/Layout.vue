@@ -33,13 +33,13 @@
         </rk-dropdown>
         <rk-dropdown label="Knowledge Hub">
           <q-list style="min-width: 100px">
-            <q-item class="q-py-md" :to="`/knowledge-hub`">
+            <q-item class="q-py-md" :to="`/Knowledge-Hub/Learn`">
               <q-item-section>
                 <q-item-label>Learn Section</q-item-label>
                 <q-item-label caption>Learning is never boring</q-item-label>
               </q-item-section>
             </q-item>
-            <q-item class="q-py-md" :to="`/faqs`">
+            <q-item class="q-py-md" :to="`/Knowledge-Hub/FAQs`">
               <q-item-section>
                 <q-item-label>FAQs</q-item-label>
                 <q-item-label caption>Frequently Asked Questions</q-item-label>
@@ -93,6 +93,7 @@
       </rk-sidebar>
     </q-drawer>
     <q-page-container>
+      <rk-header v-if="$page.frontmatter.header" />
       <rk-breadcrumbs :sidebar-items="sidebarItems" />
       <rk-page :sidebar-items="sidebarItems" />
     </q-page-container>
@@ -114,6 +115,7 @@ import RkPage from '@theme/components/RkPage.vue'
 import RkFooter from '@theme/components/RkFooter.vue'
 import RkBreadcrumbs from '@theme/components/RkBreadcrumbs.vue'
 import RkSidebar from '@theme/components/RkSidebar.vue'
+import RkHeader from '@theme/components/RkHeader.vue'
 
 import { resolveSidebarItems } from '../util'
 
@@ -130,7 +132,8 @@ export default {
     RkPage,
     RkFooter,
     RkBreadcrumbs,
-    RkSidebar
+    RkSidebar,
+    RkHeader
   },
 
   data() {
