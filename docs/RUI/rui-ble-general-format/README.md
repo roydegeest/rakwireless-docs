@@ -96,7 +96,7 @@ uint32_t rui_ble_evt_register_callback(ble_evt_connect callback1, ble_evt_discon
 ```
 | @brief | This API is used to register ble event callback functions. | 
 | ---- | ---- | 
-| **@return** | <a href="/en-us/rui/#rui-return-status.html" target="blank">RUI_RETURN_STATUS</a> | 
+| **@return** | <a href="/RUI/#rui-return-status.html" target="blank">RUI_RETURN_STATUS</a> | 
 | **@param** | **ble_evt_connect**: the callback function for ble connected event. <br> **ble_evt_disconnect**: the callback function for ble disconnected event. | 
 | **@module** | RAK5010 <br> RAK8212(M) <br> RAK4600 <br> RAK4400 | 
 
@@ -110,7 +110,7 @@ RUI_RETURN_STATUS rui_ble_set_work_mode(BLE_WORK_MODE mode, bool long_range_enab
 
 | @brief | This API is used to set the<br>work mode of BLE | 
 | ---- | ---- | 
-| **@return** | <a href="/en-us/rui/#rui-return-status.html" target="blank">RUI_RETURN_STATUS</a> | 
+| **@return** | <a href="/RUI/#rui-return-status.html" target="blank">RUI_RETURN_STATUS</a> | 
 | **@param** | **BLE_WORK_MODE mode**: BLE_MODE_PERIPHERAL, BLE_MODE_CENTRAL, BLE_MODE_OBSERVER <br> **long_range_enable**: true or false | 
 | **@module** | RAK5010 <br> RAK8212(M) <br> RAK4600 <br> RAK4400 | 
 
@@ -152,8 +152,8 @@ RUI_RETURN_STATUS rui_ble_tx_data_write(BLE_CLIENT * p_ble_rcs_c, uint8_t *pdata
 
 | @brief | This API is used to write data to another BLE device through BLE. | 
 | ---- | ---- | 
-| **@return** | <a href="/en-us/rui/#rui-return-status.html" target="blank">RUI_RETURN_STATUS</a> | 
-| **@param** | <a href="/en-us/rui/rui-ble-general-format/#ble-client.html" target="blank">BLE_CLIENT</a> __p_ble_rcs_c__: The BLE client instance. <br> **uint8_t pdata**: The data which will be sent. <br> **uint16_t len**: The length of data. | 
+| **@return** | <a href="/RUI/#rui-return-status.html" target="blank">RUI_RETURN_STATUS</a> | 
+| **@param** | <a href="/RUI/rui-ble-general-format/#ble-client.html" target="blank">BLE_CLIENT</a> __p_ble_rcs_c__: The BLE client instance. <br> **uint8_t pdata**: The data which will be sent. <br> **uint16_t len**: The length of data. | 
 | **@module** | RAK8212-M <br> RAK5010 <br> RAK4600 | 
 
 ---
@@ -166,8 +166,8 @@ RUI_RETURN_STATUS rui_ble_tx_data_read(BLE_CLIENT * p_ble_rcs_c)
 
 | @brief | This API is used to read another BLE device’s data through BLE | 
 | ---- | ---- | 
-| **@return** | <a href="/en-us/rui/#rui-return-status.html" target="blank">RUI_RETURN_STATUS</a> | 
-| **@param** | <a href="/en-us/rui/rui-ble-general-format/#ble-client.html" target="blank">BLE_CLIENT</a> __*p_ble_rcs_c__: The BLE client instance | 
+| **@return** | <a href="/RUI/#rui-return-status.html" target="blank">RUI_RETURN_STATUS</a> | 
+| **@param** | <a href="/RUI/rui-ble-general-format/#ble-client.html" target="blank">BLE_CLIENT</a> __*p_ble_rcs_c__: The BLE client instance | 
 | **@module** | RAK8212-M <br> RAK5010 <br> RAK4600 |
 
 ---

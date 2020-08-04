@@ -168,45 +168,45 @@ typedef enum
 }RUI_FLASH_MODE;
 ```
 
-!!!include(en-us/rui/rui-interface-general-format/rui-uart-init.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-uart-uninit.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-uart-send.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-uart-receive.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-uart-config-mode.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-uart-init.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-uart-uninit.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-uart-send.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-uart-receive.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-uart-config-mode.md)!!!
 
-!!!include(en-us/rui/rui-interface-general-format/rui-gpio-init.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-gpio-uninit.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-gpio-rw.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-gpio-interrupt.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-gpio-init.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-gpio-uninit.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-gpio-rw.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-gpio-interrupt.md)!!!
 
-!!!include(en-us/rui/rui-interface-general-format/rui-timer-init.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-timer-uninit.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-timer-setval.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-timer-start.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-timer-stop.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-timer-init.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-timer-uninit.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-timer-setval.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-timer-start.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-timer-stop.md)!!!
 
-!!!include(en-us/rui/rui-interface-general-format/rui-adc-init.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-adc-uninit.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-adc-read.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-adc-init.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-adc-uninit.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-adc-read.md)!!!
 
-!!!include(en-us/rui/rui-interface-general-format/rui-i2c-init.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-i2c-rw.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-i2c-init.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-i2c-rw.md)!!!
 
-!!!include(en-us/rui/rui-interface-general-format/rui-spi-init.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-spi-rw.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-spi-init.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-spi-rw.md)!!!
 
-!!!include(en-us/rui/rui-interface-general-format/rui-pwm-init.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-pwm-start.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-pwm-stop.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-pwm-init.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-pwm-start.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-pwm-stop.md)!!!
 
-!!!include(en-us/rui/rui-interface-general-format/rui-delay-ms.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-delay-us.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-delay-ms.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-delay-us.md)!!!
 
-!!!include(en-us/rui/rui-interface-general-format/rui-init-system.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-running.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-print-log.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-init-system.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-running.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-print-log.md)!!!
 
-!!!include(en-us/rui/rui-interface-general-format/rui-flash-write.md)!!!
-!!!include(en-us/rui/rui-interface-general-format/rui-flash-read.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-flash-write.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-flash-read.md)!!!
 
-!!!include(en-us/rui/rui-interface-general-format/rui-at-response.md)!!!
+!!!include(RUI/rui-interface-general-format/rui-at-response.md)!!!
