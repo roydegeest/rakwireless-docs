@@ -1,10 +1,7 @@
 <template>
+  <!-- <div class="flex flex-center" style="margin: 0 auto;"> -->
   <div class="row">
-    <div
-      class="col-12 col-xs-6 col-sm-4 cursor-pointer q-pa-sm"
-      v-for="qs in filtered"
-      :key="qs.path"
-    >
+    <div class="cursor-pointer q-pa-sm" v-for="qs in filtered" :key="qs.path">
       <rk-product
         :img="qs.frontmatter.rak_img"
         :path="qs.path"
@@ -13,6 +10,7 @@
       >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. Vivamus faucibus porta tellus, eget condimentum enim commodo sit amet.</rk-product>
     </div>
   </div>
+  <!-- </div> -->
 </template>
 
 <script>
@@ -24,7 +22,9 @@ export default {
   computed: {
     overviews() {
       return this.$site.pages.filter(t => {
-        return t.path.match(/^\/Product-Categories\/[\w\d-]+\/[\w\d-]+\/Overview\/$/g)
+        return t.path.match(
+          /^\/Product-Categories\/[\w\d-]+\/[\w\d-]+\/Overview\/$/g
+        )
       })
     },
     filtered() {

@@ -79,8 +79,6 @@
     <q-drawer
       v-if="shouldShowSidebar"
       v-model="showDrawer"
-      :width="300"
-      :breakpoint="500"
       content-class="bg-grey-1 text-grey-9 q-pa-none"
     >
       <rk-sidebar class="fit" :items="sidebarItems">
@@ -93,8 +91,7 @@
       </rk-sidebar>
     </q-drawer>
     <q-page-container>
-      <rk-header v-if="$page.frontmatter.header" />
-      <rk-breadcrumbs :sidebar-items="sidebarItems" />
+      <rk-header v-if="shouldHaveHeader" />
       <rk-page :sidebar-items="sidebarItems" />
     </q-page-container>
     <q-footer>
@@ -113,7 +110,6 @@ import RkDropdown from '@theme/components/RkDropdown.vue'
 import RkSearchBox from '@theme/components/RkSearchBox.vue'
 import RkPage from '@theme/components/RkPage.vue'
 import RkFooter from '@theme/components/RkFooter.vue'
-import RkBreadcrumbs from '@theme/components/RkBreadcrumbs.vue'
 import RkSidebar from '@theme/components/RkSidebar.vue'
 import RkHeader from '@theme/components/RkHeader.vue'
 
@@ -131,7 +127,6 @@ export default {
     RkSearchBox,
     RkPage,
     RkFooter,
-    RkBreadcrumbs,
     RkSidebar,
     RkHeader
   },
@@ -145,6 +140,9 @@ export default {
   },
 
   computed: {
+    shouldHaveHeader () {
+      return this.$page.frontmatter.header || this.$page.frontmatter.article
+    },
     shouldShowNavbar() {
       const { themeConfig } = this.$site
       const { frontmatter } = this.$page

@@ -1,10 +1,17 @@
 ---
-sidebar: auto
-sidebarDepth: 4
+sidebar: false
 rak_img: /assets/images/wisnode/rak7200/quickstart/overview/RAK7200.svg
 tags:
   - WisBlock
   - WisNode
+header:
+  title: Test Entry 1.1
+  caption: by <b>Robert Williams</b> posted on 7/29/20 10:30:00 AM
+  img: /assets/images/_/banner-2.webp
+author:
+  name: Robert Williams
+  about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut aliquam massa. Curabitur pellentesque, neque in cursus lobortis, lacus nibh tincidunt erat, eget mollis justo augue ac risus.
+  img: /assets/images/_/avatar-1.webp
 ---
 
 # Test Entry 1.1
@@ -18,3 +25,5 @@ Sed non laoreet diam, a tristique ligula. Aenean scelerisque dui porta mauris fa
 Praesent in turpis vitae velit finibus pellentesque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris ullamcorper lacus a ullamcorper dictum. Nunc lorem velit, sagittis nec varius sit amet, iaculis ut mauris. Nullam sit amet est velit. Sed porttitor vulputate nisi cursus aliquet. Pellentesque congue vulputate elementum. Suspendisse eleifend turpis ac facilisis hendrerit. Praesent iaculis consequat quam non egestas. Vestibulum ornare tellus sit amet dignissim semper. Etiam nulla felis, posuere in augue ac, venenatis finibus ante. Vivamus sollicitudin, massa a pharetra placerat, nulla tortor vulputate orci, vel finibus augue massa id dolor. Vivamus condimentum egestas ante auctor varius. Praesent et eleifend mi. Integer porttitor eros eu urna sodales efficitur in eu ex. Suspendisse in lectus tincidunt, accumsan diam sit amet, accumsan metus.
 
 Fusce in tristique lorem, non rhoncus justo. Aliquam erat volutpat. Proin ut porta augue. Nullam vel sem turpis. Suspendisse eget diam mi. Nunc arcu magna, tincidunt vitae viverra id, tempor sed eros. Donec non lorem non mauris rhoncus pharetra. Integer pharetra tortor dolor, vulputate faucibus risus sollicitudin id. Aenean non nisi a purus dignissim interdum. Suspendisse vel gravida felis. Cras congue, libero vel finibus mattis, velit ligula dignissim tortor, non venenatis enim justo in massa. Sed non nibh sit amet purus vulputate varius ac non tellus. Nam velit sem, sagittis vitae vestibulum in, cursus non purus. Nulla ac gravida tortor, ut malesuada lacus.
+
+<rk-author />
