@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper fit flex flex-center text-white">
-    <q-parallax>
+    <q-parallax class="fit">
       <template v-slot:media>
         <img :src="header.img" />
       </template>

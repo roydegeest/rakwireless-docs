@@ -51,7 +51,7 @@
           label="Community"
           class="full-height"
           size="1rem"
-          @click="openLink('https://forum.rakwireless.com')"
+          @click="openLink('https://forum.rakwireless.com', '_blank')"
           flat
           no-caps
         />
@@ -140,7 +140,7 @@ export default {
   },
 
   computed: {
-    shouldHaveHeader () {
+    shouldHaveHeader() {
       return this.$page.frontmatter.header || this.$page.frontmatter.article
     },
     shouldShowNavbar() {
@@ -231,8 +231,8 @@ export default {
   },
 
   methods: {
-    openLink(url) {
-      window.open(url, '_self')
+    openLink(url, opt = '_self') {
+      window.open(url, opt)
     },
     toggle() {},
     toggleSidebar(to) {
