@@ -64,7 +64,7 @@ module.exports = {
     '/Product-Categories/WisNode/RAK7431/': [
       {
         title: 'Product Overview',
-        path: '/Product-Categories/WisNode/RAK7204/Overview/',
+        path: '/Product-Categories/WisNode/RAK7431/Overview/',
         collapsable: false,
         nested: true,
         sidebarDepth: 4
