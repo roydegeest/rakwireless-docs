@@ -247,7 +247,7 @@ Referred to IPC/JEDEC standard:
 
 ### Software
 
-The firmware of the RAK811 WisBee Breakout Module — both in low and high frequency — is available in the table below. 
+Download the latest firmware of the RAK811 WisBee Breakout Module — both in low and high frequency — provided in the table below.
 
 #### Firmware / OS
 

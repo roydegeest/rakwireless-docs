@@ -29,7 +29,6 @@ params:
 <rk-img
   :src="`${$frontmatter.static_root}/bnq9nqrvkrjojq89feoq.jpg`"
   width="70%"
-  figure-number="1"
   caption="RAK811 WisBee™ Breakout Module"
 />
 

@@ -48,9 +48,7 @@ LoRa® module for Smart City, Smart Agriculture, Smart Industry
 
 ### Overview
 
-#### Board Overview
-
-The figure below shows the top view of the RAK4200 Breakout Module:
+Figure 2 below shows the top view of the RAK4200 Breakout Module:
 
 <rk-img
   src="/assets/images/wisbee/rak4200-breakout-board/datasheet/rak4200-breakout-board-illustration.png"
@@ -59,6 +57,9 @@ The figure below shows the top view of the RAK4200 Breakout Module:
 />
 
 ### Hardware
+
+The hardware specifications are categorized into four parts that discuss the interfacing, pinouts, operating frequencies, and the standard values of the board. These categories also include tabular data and diagrams of the RAK4200 WisBee Breakout Module.
+
 
 #### Interfaces
 
@@ -182,6 +183,9 @@ The RAK4200 Breakout Board circuit is shown below:
 />
 
 ### Software
+
+Download the latest firmware and bootloader of the RAK811 WisBee Breakout Module provided in the table below.
+
 
 #### Firmware
 
