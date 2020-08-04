@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/wishat/rak9003-poe-hat/datasheet/
-rak_img: /assets/images/wishat/rak9003-poe-hat/datasheet/rak9003-poe-hat.png
+rak_img: /assets/images/wishat/rak9003-poe-hat/datasheet/RAK9003.png
 rak_grp: wishat
 prev: false
 next: false

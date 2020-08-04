@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/wisduo/rak4600-evaluation-board/overview
-rak_img: /assets/images/wisduo/rak4600-evaluation-board/overview/nzdgl9lx3nyimumyq1j.jpg
+rak_img: /assets/images/wisduo/rak4600-evaluation-board/overview/RAK4600_Evaluation_Board.png
 rak_grp: wisduo
 prev: false
 next: false

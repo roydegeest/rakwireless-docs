@@ -9,7 +9,7 @@ params:
       - name: Support
         href: mailto:support@rakwireless.com
 rak_grp : wisduo
-rak_img: /assets/images/wisduo/rak4260-module/overview/rak4260.png
+rak_img: /assets/images/wisduo/rak4260-module/overview/RAK4260_LoRa_Module.png
 prev: false
 next: false
 ---

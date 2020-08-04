@@ -1,5 +1,5 @@
 ---
-rak_img: /assets/images/wisnode/rak7431/datasheet/rak7431-overview.jpg
+rak_img: /assets/images/wisnode/rak7431/datasheet/RAK7431.png
 rak_grp: [wisnode,bridge]
 prev: false
 next: false

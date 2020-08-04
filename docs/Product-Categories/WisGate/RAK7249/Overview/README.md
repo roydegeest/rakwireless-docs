@@ -1,6 +1,6 @@
 ---
 static_root: /assets/images/wisgate/rak7249/quickstart/1.main
-rak_img: /assets/images/wisgate/rak7249/quickstart/1.main/RAK7249.svg
+rak_img: /assets/images/wisgate/rak7249/datasheet/rak7249.png
 rak_grp: [wisgate, edge]
 prev: false
 next: false
