@@ -59,19 +59,20 @@ module.exports = {
       sidebarDepth: 4
     },
     {
+      title: 'Quick Start Guide',
+      path: '/Product-Categories/WisLink/RAK2245-Pi-HAT/Quickstart/',
+      collapsable: false,
+      nested: true,
+      sidebarDepth: 4
+    },
+    {
       title: 'Datasheet',
       path: '/Product-Categories/WisLink/RAK2245-Pi-HAT/Datasheet/',
       collapsable: false,
       nested: true,
       sidebarDepth: 4
     },
-    {
-      title: 'Quick Start Guide',
-      path: '/Product-Categories/WisLink/RAK2245-Pi-HAT/Quickstart/',
-      collapsable: false,
-      nested: true,
-      sidebarDepth: 4
-    }
+   
   ],
 
   '/Product-Categories/WisLink/RAK2245-Stamp-Edition/': [
@@ -83,19 +84,20 @@ module.exports = {
       sidebarDepth: 4
     },
     {
+      title: 'Quick Start Guide',
+      path: '/Product-Categories/WisLink/RAK2245-Stamp-Edition/Quickstart/',
+      collapsable: false,
+      nested: true,
+      sidebarDepth: 4
+    },
+    {
       title: 'Datasheet',
       path: '/Product-Categories/WisLink/RAK2245-Stamp-Edition/Datasheet/',
       collapsable: false,
       nested: true,
       sidebarDepth: 4
     },
-    {
-      title: 'Quick Start Guide',
-      path: '/Product-Categories/WisLink/RAK2245-Stamp-Edition/Quickstart/',
-      collapsable: false,
-      nested: true,
-      sidebarDepth: 4
-    }
+  
   ],
 
   '/Product-Categories/WisLink/RAK2247/': [
@@ -107,19 +109,20 @@ module.exports = {
       sidebarDepth: 4
     },
     {
-      title: 'Datasheet',
-      path: '/Product-Categories/WisLink/RAK2247/Datasheet/',
-      collapsable: false,
-      nested: true,
-      sidebarDepth: 4
-    },
-    {
       title: 'Quick Start Guide',
       path: '/Product-Categories/WisLink/RAK2247/Quickstart/',
       collapsable: false,
       nested: true,
       sidebarDepth: 4
+    },
+    {
+      title: 'Datasheet',
+      path: '/Product-Categories/WisLink/RAK2247/Datasheet/',
+      collapsable: false,
+      nested: true,
+      sidebarDepth: 4
     }
+   
   ],
 
   '/Product-Categories/WisLink/RAK2287/': [
@@ -131,19 +134,20 @@ module.exports = {
       sidebarDepth: 4
     },
     {
+      title: 'Quick Start Guide',
+      path: '/Product-Categories/WisLink/RAK2287/Quickstart/',
+      collapsable: false,
+      nested: true,
+      sidebarDepth: 4
+    },
+    {
       title: 'Datasheet',
       path: '/Product-Categories/WisLink/RAK2287/Datasheet/',
       collapsable: false,
       nested: true,
       sidebarDepth: 4
     },
-    {
-      title: 'Quick Start Guide',
-      path: '/Product-Categories/WisLink/RAK2287/Quickstart/',
-      collapsable: false,
-      nested: true,
-      sidebarDepth: 4
-    }
+   
   ],
 
 
@@ -156,19 +160,20 @@ module.exports = {
       sidebarDepth: 4
     },
     {
+      title: 'Quick Start Guide',
+      path: '/Product-Categories/WisLink/RAK8213/Quickstart/',
+      collapsable: false,
+      nested: true,
+      sidebarDepth: 4
+    },
+    {
       title: 'Datasheet',
       path: '/Product-Categories/WisLink/RAK8213/Datasheet/',
       collapsable: false,
       nested: true,
       sidebarDepth: 4
     },
-    {
-      title: 'Quick Start Guide',
-      path: '/Product-Categories/WisLink/RAK8213/Quickstart/',
-      collapsable: false,
-      nested: true,
-      sidebarDepth: 4
-    }
+   
   ]
 
 }
