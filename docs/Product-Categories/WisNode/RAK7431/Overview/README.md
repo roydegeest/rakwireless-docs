@@ -27,7 +27,7 @@ params:
   caption="RAK7431 WisNode Bridge"
 />
 
-### Product Description
+## Product Description
 
 **RAK7431 WisNode Bridge** is an RS485 to LoRaWAN® converter designed for industrial applications. The device relays ModBUS data using the LoRaWAN® network as means of wirelessly transmitting to and from the end devices.
 
@@ -44,7 +44,7 @@ RAK7431 together with RAK gateway and LoRa® Server products, can easily and qui
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />
 
-### Product Features
+## Product Features
 
 - **LoRaWAN® 1.0.3** protocol stack, supports Class A, Class B & C
 - **Working modes**: Polling mode, transparent mode and packet mode

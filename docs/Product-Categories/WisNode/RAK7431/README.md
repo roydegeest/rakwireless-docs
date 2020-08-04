@@ -1,1 +1,1 @@
-<rk-redirect to="/Product-Categories/WisNode/RAK7431/Overview" />
+<rk-redirect to="/Product-Categories/WisNode/RAK7431/Overview/" />
