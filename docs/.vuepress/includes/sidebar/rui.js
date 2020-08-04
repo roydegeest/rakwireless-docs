@@ -1,5 +1,5 @@
 module.exports = {
-  '/en-us/rui/': [
+  'RUI/': [
     {
       title: 'RUI API Reference',
       path: '',
@@ -18,7 +18,7 @@ module.exports = {
         {
           title: "RUI Cellular General Format",
           collapsable: false,
-          path: '/en-us/rui/rui-cellular-general-format/',
+          path: 'RUI/rui-cellular-general-format/',
 
         },
       ]
@@ -32,7 +32,7 @@ module.exports = {
         {
           title: "RUI LoRa General Format",
           collapsable: false,
-          path: '/en-us/rui/rui-lora-general-format/',
+          path: 'RUI/rui-lora-general-format/',
         },
       ]
     },
@@ -45,7 +45,7 @@ module.exports = {
         {
           title: "RUI BLE General Format",
           collapsable: false,
-          path: '/en-us/rui/rui-ble-general-format/',
+          path: 'RUI/rui-ble-general-format/',
         },
       ]
     },
@@ -58,7 +58,7 @@ module.exports = {
         {
           title: "RUI Sensor General Format",
           collapsable: false,
-          path: '/en-us/rui/rui-sensor-general-format/',
+          path: 'RUI/rui-sensor-general-format/',
           // children: [
           //   'rui-sensor-general-format/rui-gps-get',
           //   'rui-sensor-general-format/rui-gps-set-mode',
@@ -76,7 +76,7 @@ module.exports = {
         {
           title: "RUI Interface General Format",
           collapsable: false,
-          path: '/en-us/rui/rui-interface-general-format/',
+          path: 'RUI/rui-interface-general-format/',
           // children: [
           //   'rui-interface-general-format/rui-uart-init',
           //   'rui-interface-general-format/rui-uart-uninit',
@@ -133,7 +133,7 @@ module.exports = {
         {
           title: "RUI Device General Format",
           collapsable: false,
-          path: '/en-us/rui/rui-device-general-format/',
+          path: 'RUI/rui-device-general-format/',
           // children: [
           //   'rui-device-general-format/rui-device-version',
           //   'rui-device-general-format/rui-device-reset',

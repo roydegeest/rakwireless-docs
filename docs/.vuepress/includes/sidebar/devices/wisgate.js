@@ -9,19 +9,20 @@ module.exports = {
         sidebarDepth: 4
       },
       {
-        title: 'Datasheet',
-        path: '/Product-Categories/WisGate/RAK7240/Datasheet/',
-        collapsable: false,
-        nested: true,
-        sidebarDepth: 4
-      },
-      {
         title: 'Quick Start Guide',
         path: '/Product-Categories/WisGate/RAK7240/Quickstart/',
         collapsable: false,
         nested: true,
         sidebarDepth: 4
+      },
+      {
+        title: 'Datasheet',
+        path: '/Product-Categories/WisGate/RAK7240/Datasheet/',
+        collapsable: false,
+        nested: true,
+        sidebarDepth: 4
       }
+    
     ],
 
     '/Product-Categories/WisGate/RAK7243/': [
@@ -50,19 +51,20 @@ module.exports = {
           sidebarDepth: 4
         },
         {
+          title: 'Quick Start Guide',
+          path: '/Product-Categories/WisGate/RAK7243C/Quickstart/',
+          collapsable: false,
+          nested: true,
+          sidebarDepth: 4
+        },
+        {
           title: 'Datasheet',
           path: '/Product-Categories/WisGate/RAK7243C/Datasheet/',
           collapsable: false,
           nested: true,
           sidebarDepth: 4
         },
-        {
-          title: 'Quick Start Guide',
-          path: '/Product-Categories/WisGate/RAK7243C/Quickstart/',
-          collapsable: false,
-          nested: true,
-          sidebarDepth: 4
-        }
+     
       ],
 
     '/Product-Categories/WisGate/RAK7244/': [
@@ -74,19 +76,20 @@ module.exports = {
           sidebarDepth: 4
         },
         {
+          title: 'Quick Start Guide',
+          path: '/Product-Categories/WisGate/RAK7244/Quickstart/',
+          collapsable: false,
+          nested: true,
+          sidebarDepth: 4
+        },
+        {
           title: 'Datasheet',
           path: '/Product-Categories/WisGate/RAK7244/Datasheet/',
           collapsable: false,
           nested: true,
           sidebarDepth: 4
         },
-        {
-          title: 'Quick Start Guide',
-          path: '/Product-Categories/WisGate/RAK7244/Quickstart/',
-          collapsable: false,
-          nested: true,
-          sidebarDepth: 4
-        }
+       
       ],
       
     '/Product-Categories/WisGate/RAK7244C/': [
@@ -115,19 +118,20 @@ module.exports = {
           sidebarDepth: 4
         },
         {
+          title: 'Quick Start Guide',
+          path: '/Product-Categories/WisGate/RAK7246G/Quickstart/',
+          collapsable: false,
+          nested: true,
+          sidebarDepth: 4
+        },
+        {
           title: 'Datasheet',
           path: '/Product-Categories/WisGate/RAK7246G/Datasheet/',
           collapsable: false,
           nested: true,
           sidebarDepth: 4
         },
-        {
-          title: 'Quick Start Guide',
-          path: '/Product-Categories/WisGate/RAK7246G/Quickstart/',
-          collapsable: false,
-          nested: true,
-          sidebarDepth: 4
-        }
+      
       ],
 
       '/Product-Categories/WisGate/RAK7249/': [
@@ -139,19 +143,20 @@ module.exports = {
           sidebarDepth: 4
         },
         {
-          title: 'Datasheet',
-          path: '/Product-Categories/WisGate/RAK7249/Datasheet/',
-          collapsable: false,
-          nested: true,
-          sidebarDepth: 4
-        },
-        {
           title: 'Quick Start Guide',
           path: '/Product-Categories/WisGate/RAK7249/Quickstart/',
           collapsable: false,
           nested: true,
           sidebarDepth: 4
+        },
+        {
+          title: 'Datasheet',
+          path: '/Product-Categories/WisGate/RAK7249/Datasheet/',
+          collapsable: false,
+          nested: true,
+          sidebarDepth: 4
         }
+      
       ],
 
       '/Product-Categories/WisGate/RAK7258/': [
@@ -163,19 +168,20 @@ module.exports = {
           sidebarDepth: 4
         },
         {
-          title: 'Datasheet',
-          path: '/Product-Categories/WisGate/RAK7258/Datasheet/',
-          collapsable: false,
-          nested: true,
-          sidebarDepth: 4
-        },
-        {
           title: 'Quick Start Guide',
           path: '/Product-Categories/WisGate/RAK7258/Quickstart/',
           collapsable: false,
           nested: true,
           sidebarDepth: 4
+        },
+        {
+          title: 'Datasheet',
+          path: '/Product-Categories/WisGate/RAK7258/Datasheet/',
+          collapsable: false,
+          nested: true,
+          sidebarDepth: 4
         }
+     
       ],
       
 }

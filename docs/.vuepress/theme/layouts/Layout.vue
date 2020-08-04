@@ -23,7 +23,7 @@
         <q-space />
         <rk-dropdown label="RAK Services">
           <q-list style="min-width: 100px">
-            <q-item class="q-py-md" :to="`/rui`">
+            <q-item class="q-py-md" :to="`/RUI`">
               <q-item-section>
                 <q-item-label>RUI</q-item-label>
                 <q-item-label caption>Rakwireless Unified Interface</q-item-label>
