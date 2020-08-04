@@ -1,1 +1,1 @@
-<rk-redirect to="/Product-Categories/WisDuo/rRAK4260-Module/Overview" />
+<rk-redirect to="/Product-Categories/WisDuo/rRAK4260-Module/Overview/"/>

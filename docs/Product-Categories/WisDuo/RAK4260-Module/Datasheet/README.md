@@ -2,7 +2,7 @@
 tags: 
   - datasheet
   - wisduo
-prev: ../Overview
+prev: ../Overview/
 ---
 
 # RAK4260 LPWAN Module Datasheet
