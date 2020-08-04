@@ -1,1 +1,1 @@
-<rk-redirect to="/Product-Categories/WisDuino/RAK811-Evaluation-Board/Overview" />
+<rk-redirect to="/Product-Categories/WisDuino/RAK811-Evaluation-Board/Overview/" />
