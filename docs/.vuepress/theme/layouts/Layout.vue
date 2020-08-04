@@ -51,7 +51,7 @@
           label="Community"
           class="full-height"
           size="1rem"
-          @click="openLink('https://forum.rakwireless.com')"
+          @click="openLink('https://forum.rakwireless.com', '_blank')"
           flat
           no-caps
         />
@@ -93,6 +93,7 @@
     <q-page-container>
       <rk-header v-if="shouldHaveHeader" />
       <rk-page :sidebar-items="sidebarItems" />
+      <rk-zoom />
     </q-page-container>
     <q-footer>
       <rk-footer />
@@ -112,6 +113,7 @@ import RkPage from '@theme/components/RkPage.vue'
 import RkFooter from '@theme/components/RkFooter.vue'
 import RkSidebar from '@theme/components/RkSidebar.vue'
 import RkHeader from '@theme/components/RkHeader.vue'
+import RkZoom from '@theme/components/RkZoom.vue'
 
 import { resolveSidebarItems } from '../util'
 
@@ -128,7 +130,8 @@ export default {
     RkPage,
     RkFooter,
     RkSidebar,
-    RkHeader
+    RkHeader,
+    RkZoom
   },
 
   data() {
@@ -140,7 +143,7 @@ export default {
   },
 
   computed: {
-    shouldHaveHeader () {
+    shouldHaveHeader() {
       return this.$page.frontmatter.header || this.$page.frontmatter.article
     },
     shouldShowNavbar() {
@@ -197,8 +200,9 @@ export default {
     // console.log('pages: ', this.$site.pages)
     // console.log('page: ', this.$page)
 
-    const min = Math.min(window.innerHeight, window.innerWidth)
-    document.documentElement.style.fontSize = `${0.015 * min}px`
+    // const min = Math.min(window.innerHeight, window.innerWidth)
+    // document.documentElement.style.fontSize = `${0.015 * min}px`
+    document.documentElement.style.fontSize = '14px'
     // console.log('mounted: ', window.innerHeight, window.innerWidth, min, document.documentElement.style)
     // console.log('sidebaritems: ', this.sidebarItems)
   },
@@ -231,8 +235,8 @@ export default {
   },
 
   methods: {
-    openLink(url) {
-      window.open(url, '_self')
+    openLink(url, opt = '_self') {
+      window.open(url, opt)
     },
     toggle() {},
     toggleSidebar(to) {
@@ -262,3 +266,9 @@ export default {
   }
 }
 </script>
+
+<style>
+html {
+  scroll-behavior: unset !important;
+}
+</style>

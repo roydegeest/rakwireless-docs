@@ -1,19 +1,32 @@
 <template>
-  <div>
-    <figure align="center" id="rk-img">
-      <img
-        ref="img"
-        :src="opt.src"
-        :width="opt.width"
-        @click.prevent="() => $root.$emit('rk-zoom',opt.src,[$refs.img.clientWidth, $refs.img.clientHeight])"
-        style="cursor: zoom-in"
+  <q-dialog v-model="zoom" @show="onShow" maximized persistent>
+    <q-card>
+      <q-btn
+        class="float-right q-ma-md"
+        style="z-index: 99"
+        icon="close"
+        color="grey-8"
+        round
+        flat
+        v-close-popup
       />
-      <div class="text-caption">
-        <b>Figure {{opt.figureNumber || figNum}}:</b>
-        {{ opt.caption }}
-      </div>
-    </figure>
-  </div>
+      <q-card-section
+        v-touch-pan.prevent.mouse="handlePan"
+        class="fit flex flex-center absolute"
+        style="overflow: hidden"
+        @wheel="onWheel"
+      >
+        <img
+          id="rk-zoom"
+          class="absolute"
+          :src="img"
+          :draggable="false"
+          :width="width"
+          :height="height"
+        />
+      </q-card-section>
+    </q-card>
+  </q-dialog>
 </template>
 
 <script>
@@ -23,32 +36,26 @@ let zoomFactor = 1.15
 let imgEl
 
 export default {
-  props: ['params', 'src', 'width', 'figureNumber', 'caption'],
   data: () => ({
-    figNum: null,
     zoom: false,
-    zHeight: 0,
-    zWidth: 0
+    img: '',
+    width: null,
+    height: null
   }),
-  computed: {
-    opt() {
-      const { params, src, width, figureNumber, caption } = this
-      if (params) return params
-      else {
-        return { src, width, figureNumber, caption }
-      }
-    }
-  },
   methods: {
-    onImgClicked() {
-      this.$root.$emit('rk-zoom', this.opt.src)
+    onGlobalZoom(path, [width, height]) {
+      // console.log('globalzoom: ', path, width, height)
+      this.img = path
+      this.width = width
+      this.height = height
+      this.zoom = true
     },
     handlePan({ ev, ...info }) {
       imgEl.style.top = imgEl.offsetTop + info.delta.y + 'px'
       imgEl.style.left = imgEl.offsetLeft + info.delta.x + 'px'
     },
     onWheel(ev) {
-      console.log(ev)
+      // console.log(ev)
       const fh = imgEl.clientHeight
       const fw = imgEl.clientWidth
       let zHeight = fh
@@ -79,14 +86,18 @@ export default {
       imgEl = document.querySelector('#rk-zoom')
       imgEl.style.top = imgEl.offsetTop + 'px'
       imgEl.style.left = imgEl.offsetLeft + 'px'
+      // setInterval(() => {
+      //   const body = document.querySelector('body')
+      //   console.log('bdy: ', body)
+      //   body.style.position = 'inherit !important'
+      // }, 100)
     }
   },
   mounted() {
-    if (this.$page.path !== lastPath) {
-      lastPath = this.$page.path
-      count = 1
-      this.figNum = count
-    } else this.figNum = ++count
+    this.$root.$on('rk-zoom', this.onGlobalZoom)
+  },
+  beforeDestroy() {
+    this.$root.$off('rk-zoom', this.onGlobalZoom)
   }
 }
 </script>

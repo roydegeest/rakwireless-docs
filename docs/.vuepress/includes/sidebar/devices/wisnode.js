@@ -70,6 +70,13 @@ module.exports = {
         sidebarDepth: 4
       },
       {
+        title: 'Quick Start Guide',
+        path: '/Product-Categories/WisNode/RAK7431/Quickstart/',
+        collapsable: false,
+        nested: true,
+        sidebarDepth: 4
+      },
+      {
         title: 'Datasheet',
         path: '/Product-Categories/WisNode/RAK7431/Datasheet/',
         collapsable: false,

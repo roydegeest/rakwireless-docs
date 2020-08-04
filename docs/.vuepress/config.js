@@ -52,11 +52,11 @@ module.exports = {
         allow: []
       }]
     },
-    '@vuepress/medium-zoom': {
-      selector: '.zoomable',
-      delay: 200,
-      options: {},
-    },
+    // '@vuepress/medium-zoom': {
+    //   selector: '.zoomable',
+    //   delay: 200,
+    //   options: {},
+    // },
     // '@vuepress/back-to-top': {},
     'vuepress-plugin-code-copy': {
       selector: 'div[class*="language-"] pre',
