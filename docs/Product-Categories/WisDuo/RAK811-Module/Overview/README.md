@@ -41,7 +41,7 @@ private long range LoRa® network fast.
 The RAK811 Module is integrated with Semtech's SX1276 and STM32L which offers user a way communicating with AT Commands through UART Interface. Users will also be able to make their projects turn into reality such as Long Range Sensor data applications, RAK811 also offers a low power feature that is suitable for battery powered applications.
 
 <rk-btn
-  src="../datasheet/"
+  src="../Datasheet/"
   label="View Datasheet for the RAK811 LPWAN Module"
 />
 

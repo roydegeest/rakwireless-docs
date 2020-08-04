@@ -1,1 +1,1 @@
-<rk-redirect to="/Product-Categories/WisDuo/RAK4600-Evaluation-Board/Overview" />
+<rk-redirect to="/Product-Categories/WisDuo/RAK4600-Evaluation-Board/Overview/"/>
