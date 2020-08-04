@@ -1,6 +1,7 @@
 <template>
-  <q-page>
-    <Content id="nodeToRenderAsPDF" class="theme-default-content" />
+  <q-page style="max-width: 1200px; margin: 0 auto;">
+    <rk-breadcrumbs :sidebar-items="sidebarItems" />
+    <Content id="nodeToRenderAsPDF" class="fit theme-default-content" />
     <PageEdit />
 
     <PageNav v-bind="{ sidebarItems }" />
@@ -10,9 +11,10 @@
 <script>
 import PageEdit from '@theme/components/PageEdit.vue'
 import PageNav from '@theme/components/PageNav.vue'
+import RkBreadcrumbs from '@theme/components/RkBreadcrumbs.vue'
 
 export default {
-  components: { PageEdit, PageNav },
+  components: { PageEdit, PageNav, RkBreadcrumbs },
   props: ['sidebarItems']
 }
 </script>
@@ -23,5 +25,8 @@ export default {
 .page {
   padding-bottom: 2rem;
   display: block;
+}
+.theme-default-content {
+  max-width: 2000px !important;
 }
 </style>

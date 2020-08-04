@@ -1,1 +1,1 @@
-<rk-redirect to="/wislink-lora/rak2245-stamp-edition/overview" />
+<rk-redirect to="/Product-Categories/WisLink/RAK2245-Stamp-Edition/Overview" />

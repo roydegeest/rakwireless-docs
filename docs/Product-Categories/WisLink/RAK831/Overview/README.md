@@ -12,9 +12,9 @@ params:
         href: mailto:support@rakwireless.com
     resources:
       - name: Datasheet
-        href: /wislink-lora/rak831/datasheet
+        href: /Product-Categories/WisLink/RAK831/Datasheet/
       - name: Certification Report
-        href: /wislink-lora/rak831/datasheet/#certification
+        href: /Product-Categories/WisLink/RAK831/Datasheet/#certification
       - name: User Manual
         href: /user-manual/
       - name: Deployment Guide
@@ -24,7 +24,7 @@ prev: false
 next: false
 ---
 
-# RAK831 LPWAN Gateway Concentrator
+# RAK831 WisLink-LoRa
 
 <rk-img
   src="/assets/images/wislink-lora/rak831/datasheet/rak831-overview.png"
@@ -47,8 +47,8 @@ End-point nodes (e.g. sensor nodes) can change frequency with each transmission 
 Applications possible with the RAK831 include Smart Metering , Wireless Star Networks, Home, Building, Industrial automation, Remote Control, Wireless Sensors Network, M2M, IoT and Wireless Alarm and Security Systems.
 
 <rk-btn
-  src="../quickstart/"
-  label="Get Started with RAK831 LPWAN Gateway Concentrator"
+  src="../Quickstart/"
+  label="Get Started with RAK831 WisLink-LoRa"
 />
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />
@@ -76,6 +76,6 @@ Applications possible with the RAK831 include Smart Metering , Wireless Star Net
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak831-gateway-module"
-  label="Buy a RAK831 LPWAN Gateway Concentrator"
+  label="Buy a RAK831 WisLink-LoRa"
   _blank
 />

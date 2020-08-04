@@ -6,19 +6,19 @@ prev: ../overview/
 next: false
 ---
 
-# RAK833 LPWAN Gateway Concentrator Module Datasheet
+# RAK833 WisLink-Lora™ Module Datasheet
 
 <rk-img
   src="/assets/images/wislink-lora/rak833/datasheet/rak833.png"
   width="60%"
-  caption="RAK833 LPWAN Gateway Concentrator Module"
+  caption="RAK833 WisLink-Lora™ Module"
 />
 
 ### Product Description
 
-The **RAK833 LPWAN Gateway Concentrator Module** is a family of LoRa® concentrator modules with mini PCIe form factor based on SX1301, which enables an easy integration into an existing routers and other network equipments with gateway capabilities.This can be used in any embedded platform offering a free mini-PCIe slot with USB and SPI connectivity.
+The **RAK833 WisLink-Lora™ Module** is a family of LoRa® concentrator modules with mini PCIe form factor based on SX1301, which enables an easy integration into an existing routers and other network equipments with gateway capabilities.This can be used in any embedded platform offering a free mini-PCIe slot with USB and SPI connectivity.
 
-RAK833 LPWAN Gateway Concentrator Module is a complete and cost efficient gateway solution offering up to 10 programmable parallel demodulation paths. It is targeted at smart metering fixed networks and Internet of Things applications with up to 500 nodes per square kilometer (km²) in moderately interfered environment. These modules have the industry standard PCI Express Mini Card form factor which enables easy integration into an application board.
+RAK833 WisLink-Lora™ Module is a complete and cost efficient gateway solution offering up to 10 programmable parallel demodulation paths. It is targeted at smart metering fixed networks and Internet of Things applications with up to 500 nodes per square kilometer (km²) in moderately interfered environment. These modules have the industry standard PCI Express Mini Card form factor which enables easy integration into an application board.
 
 ### Product Features
 
@@ -40,7 +40,7 @@ RAK833 LPWAN Gateway Concentrator Module is a complete and cost efficient gatewa
 <rk-img
   src="/assets/images/wislink-lora/rak833/datasheet/board_overview.png"
   width="100%"
-  caption="RAK833 LPWAN Gateway Concentrator Module Dimension"
+  caption="RAK833 WisLink-Lora™ Module Dimension"
 />
 
 #### Block Diagram
@@ -57,11 +57,11 @@ RAK833 LPWAN Gateway Concentrator Module is a complete and cost efficient gatewa
 
 ##### GPS_PPS
 
-The RAK833 LPWAN Gateway Concentrator Module includes the GPS_PPS input for received packets time-stamped. It integrates **one (1) SX1301** chip, **two (2) SX1255/7**, and other chip for RF signal, which represents the core of the device, providing the related LoRa® modem and processing functionalities. Additional signal conditioning circuitry is implemented for PCI Express Mini Card compliance, and one u.FL connectors are available for external antennas integration.
+The RAK833 WisLink-Lora™ Module includes the GPS_PPS input for received packets time-stamped. It integrates **one (1) SX1301** chip, **two (2) SX1255/7**, and other chip for RF signal, which represents the core of the device, providing the related LoRa® modem and processing functionalities. Additional signal conditioning circuitry is implemented for PCI Express Mini Card compliance, and one u.FL connectors are available for external antennas integration.
 
 ##### Module supply input
 
-RAK833 LPWAN Gateway Concentrator Module must be supplied through the **3.3Vaux** pins by a DC power supply. The voltage must be stable, because during this operation the current drawn from 3.3Vaux can vary significantly based on the power consumption profile of the SX1301 chip (see [**SX1301 DS**](https://www.semtech.com/uploads/documents/sx1301.pdf) datasheet).
+RAK833 WisLink-Lora™ Module must be supplied through the **3.3Vaux** pins by a DC power supply. The voltage must be stable, because during this operation the current drawn from 3.3Vaux can vary significantly based on the power consumption profile of the SX1301 chip (see [**SX1301 DS**](https://www.semtech.com/uploads/documents/sx1301.pdf) datasheet).
 
 ##### Antenna RF interfaces
 
@@ -77,27 +77,27 @@ An SPI interface is provided on the PCIe*SCK, PCIe* MISO, PCIe*MOSI, PCIe* CSN p
 This feature is not available for RAK833-SPI version
 :::
 
-RAK833 LPWAN Gateway Concentrator Module can support the high speed USB to SPI by **FT2232H**, it includes a high-speed USB 2.0 compliant interface with maximum 480 Mb/s data rate, representing the interface for any communication with an external host application processor. The module itself acts as a USB device and can be connected to any USB host equipped with compatible drivers. For more information, please refer to the data sheet of [**FT2232H**](https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf).
+RAK833 WisLink-Lora™ Module can support the high speed USB to SPI by **FT2232H**, it includes a high-speed USB 2.0 compliant interface with maximum 480 Mb/s data rate, representing the interface for any communication with an external host application processor. The module itself acts as a USB device and can be connected to any USB host equipped with compatible drivers. For more information, please refer to the data sheet of [**FT2232H**](https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf).
 
 ##### RESET
 
-RAK833 LPWAN Gateway Concentrator Module includes the RESET active-high input signal to reset the radio operations as specified by the SX1301 Specification.
+RAK833 WisLink-Lora™ Module includes the RESET active-high input signal to reset the radio operations as specified by the SX1301 Specification.
 
 ##### SPDT_SEL
 
-RAK833 LPWAN Gateway Concentrator Module includes the SPDT_SEL input for selecting SPI or USB interface.
+RAK833 WisLink-Lora™ Module includes the SPDT_SEL input for selecting SPI or USB interface.
 
 - SPDT_SEL="H", USB Port Enable,
 - SPDT_SEL="L", SPI Port Enable.
 
 #### Pin Definition
 
-The following table lists the pin numbers of RAK833 LPWAN Gateway Concentrator Module and its corresponding names and description. Refer to figure below for a pinout diagram.
+The following table lists the pin numbers of RAK833 WisLink-Lora™ Module and its corresponding names and description. Refer to figure below for a pinout diagram.
 
 <rk-img
   src="/assets/images/wislink-lora/rak833/datasheet/pinout.png"
   width="100%"
-  caption="RAK833 LPWAN Gateway Concentrator Module Pinout Diagram"
+  caption="RAK833 WisLink-Lora™ Module Pinout Diagram"
 />
 
 | No  | Mini PCIEx PIN Rev. 2.0 | RAK833 PIN |  Power  | I/O |     Description     |                                                                                         Remarks                                                                                          |
@@ -158,7 +158,7 @@ The following table lists the pin numbers of RAK833 LPWAN Gateway Concentrator M
 #### RF Characteristics
 
 The following table shows the typical sensitivity
-level of the RAK833 LPWAN Gateway Concentrator Module:
+level of the RAK833 WisLink-Lora™ Module:
 
 | Signal Bandwidth (kHz) | Spreading Factor | Sensitivity (dBm) |
 | ---------------------- | ---------------- | ----------------- |
@@ -197,7 +197,7 @@ The product is not protected against over-voltage or reversed voltages. If neces
 ##### Maximum Electrostatic Discharge (ESD)
 
 :::tip 📝 NOTE
-RAK833 LPWAN Gateway Concentrator Module are Electrostatic Sensitive Devices and require special precautions when handling.
+RAK833 WisLink-Lora™ Module are Electrostatic Sensitive Devices and require special precautions when handling.
 :::
 
 | Parameter                                | Min | Typical | Max  | Unit | Remarks                                      |
@@ -240,22 +240,22 @@ Input voltage at **3.3Vaux** must be above the normal operating range minimum li
 
 #### Mechanical Characteristics
 
-RAK833 LPWAN Gateway Concentrator Module is fully compliant to the **52-pin PCI Express Full-Mini Card Type F2** form factor, with top-side and bottom-side keep-out areas, with 50.95 millimeter nominal length, 30 millimeter nominal width and all the other dimensions as defined by the PCI Express Mini Card Electromechanical Specification except for the card thickness with a nominal value of 3.7 millimeter. The weight of the RAK833 LPWAN Gateway Concentrator Module is about 9.7 grams.
+RAK833 WisLink-Lora™ Module is fully compliant to the **52-pin PCI Express Full-Mini Card Type F2** form factor, with top-side and bottom-side keep-out areas, with 50.95 millimeter nominal length, 30 millimeter nominal width and all the other dimensions as defined by the PCI Express Mini Card Electromechanical Specification except for the card thickness with a nominal value of 3.7 millimeter. The weight of the RAK833 WisLink-Lora™ Module is about 9.7 grams.
 
 <rk-img
   src="/assets/images/wislink-lora/rak833/datasheet/rak833-lpwan-gateway-concentrator-module-mechanical-characteristics.png"
   width="100%"
-  caption="RAK833 LPWAN Gateway Concentrator Module Mechanical Characteristics"
+  caption="RAK833 WisLink-Lora™ Module Mechanical Characteristics"
 />
 
 #### Schematic Diagrams
 
-RAK833 LPWAN Gateway Concentrator Module refer Semtech’s reference design of SX1301, and a 4 chancel SPDT to switch SPI of SX1301 to PCI edge connector or FT2232H which converts SPI to USB2.0 interface.
+RAK833 WisLink-Lora™ Module refer Semtech’s reference design of SX1301, and a 4 chancel SPDT to switch SPI of SX1301 to PCI edge connector or FT2232H which converts SPI to USB2.0 interface.
 
 <rk-img
   src="/assets/images/wislink-lora/rak833/datasheet/interface-schematic-diagram.jpg"
   width="100%"
-  caption="RAK833 LPWAN Gateway Concentrator Module Mechanical Characteristics"
+  caption="RAK833 WisLink-Lora™ Module Mechanical Characteristics"
 />
 
 <rk-img
@@ -308,7 +308,7 @@ RAK833 LPWAN Gateway Concentrator Module refer Semtech’s reference design of S
 
 #### Reference Applications
 
-The figure below shows the minimum application schematic of the RAK833 LPWAN Gateway Concentrator Module which uses at least **3.3V/1A DC power source**. It can either connect through the SPI interface or USB interface to the main processor. If the SPI interface is chosen, **SPDT_SEL** should be connected to the ground (GND) otherwise, leave the pin open.
+The figure below shows the minimum application schematic of the RAK833 WisLink-Lora™ Module which uses at least **3.3V/1A DC power source**. It can either connect through the SPI interface or USB interface to the main processor. If the SPI interface is chosen, **SPDT_SEL** should be connected to the ground (GND) otherwise, leave the pin open.
 
 <rk-img
   src="/assets/images/wislink-lora/rak833/datasheet/wtmebjc8oldgbqvdkyfb.png"

@@ -11,7 +11,7 @@ qlinks:
       href: mailto:support@rakwireless.com
   resources:
     - name: Datasheet
-      href: /wislink-lora/rak2245-stamp-edition/datasheet
+      href: /Product-Categories/WisLink/RAK2245-Stamp-Edition/Datasheet
     - name: User Manual
       href: /user-manual/
     - name: Deployment Guide
@@ -21,7 +21,7 @@ prev: false
 next: false
 ---
 
-# RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module
+# RAK2245 WisLink-LoRa Stamp Edition
 
 <rk-img
   src="/assets/images/wislink-lora/rak2245-stamp-edition/datasheet/overview/r8b1kuz7nsyovmac80kq.png"
@@ -29,7 +29,7 @@ next: false
   caption="RAK2245 Stamp Edition"
 />
 
-### Product Description
+## Product Description
 
 The **RAK2245 Stamp Edition** is a complete and cost efficient gateway solution base on Semtech SX1301 fully utilizing the LoRa System. This LPWAN Concentrator module supports eight channels and is available for all LoRaWAN® international standard bands.
 
@@ -39,12 +39,12 @@ Overall, this gateway module is the most economical way to create different solu
 
 <rk-btn
   src="../quickstart/"
-  label="Get Started with RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module"
+  label="Get Started with RAK2245 WisLink-LoRa Stamp Edition"
 />
 
 <rk-quick-links :params="$frontmatter.qlinks" />
 
-### Product Features
+## Product Features
 
 - Compatible with Stamp Edition specifications with mounted heat-sink.
 - SX1301 base band processor, emulates 49 x LoRa® demodulators 10 parallel demodulation paths, support 8 uplinks channel, 1 downlink channel.
@@ -58,6 +58,6 @@ Overall, this gateway module is the most economical way to create different solu
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak2245-stamp-edition"
-  label="Buy a RAK2245 Stamp Edition - LPWAN Gateway Concentrator Module"
+  label="Buy a RAK2245 WisLink-LoRa Stamp Edition"
   _blank
 />

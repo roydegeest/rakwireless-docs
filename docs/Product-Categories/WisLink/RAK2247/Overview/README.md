@@ -11,9 +11,9 @@ qlinks:
       href: mailto:support@rakwireless.com
   resources:
     - name: Datasheet
-      href: /wislink-lora/rak2247/datasheet
+      href: /Product-Categories/WisLink/RAK2247/Datasheet
     - name: Certification Report
-      href: /wislink-lora/rak2247/datasheet/#certifications
+      href: /Product-Categories/WisLink/RAK2247/Datasheet/#certification
     - name: User Manual
       href: /user-manual/
     - name: Deployment Guide
@@ -22,28 +22,28 @@ prev: false
 next: false
 ---
 
-# RAK2247 LPWAN Gateway Concentrator Module
+# RAK2247 WisLink-LoRa
 
 <rk-img
   src="/assets/images/wislink-lora/rak2247/datasheet/rak2247-overview.png"
   width="50%"
-  caption="RAK2247 LPWAN Gateway Concentrator Module"
+  caption="RAK2247 WisLink-LoRa"
 />
 
-### Product Description
+## Product Description
 
-The **RAK2247 LPWAN Gateway Concentrator Module** is a LoRa® Concentrator module with mini-PCIe form factor based on the SX1301. This enables easy integration into routers and other networking equipment, adding gateway capabilities. The module can be used in any embedded platform offering a mini-PCIe slot with an SPI or USB connection.
+The **RAK2247 WisLink-LoRa** is a LoRa® Concentrator module with mini-PCIe form factor based on the SX1301. This enables easy integration into routers and other networking equipment, adding gateway capabilities. The module can be used in any embedded platform offering a mini-PCIe slot with an SPI or USB connection.
 
 Despite its small size this is an 8 channel concentrator module. By integrating it together with a computing core a fully fledged gateway solution can easily be created.
 
 <rk-btn
-  src="../quickstart/"
-  label="Get Started with RAK2247 LPWAN Gateway Concentrator Module"
+  src="../Quickstart/"
+  label="Get Started with RAK2247 WisLink-LoRa"
 />
 
 <rk-quick-links :params="$frontmatter.qlinks" />
 
-### Product Features
+## Product Features
 
 - Mini PCIe form factor, mounted heat-sink.
 - SX1301 base band processor emulates 49 x LoRa® demodulators, 10 parallel demodulation paths. It supports 8 uplinks channel and 1 downlink channel.
@@ -56,6 +56,6 @@ Despite its small size this is an 8 channel concentrator module. By integrating 
 
 <rk-btn 
   src="https://store.rakwireless.com/products/rak2247-lorawan-gateway-concentrator-module"
-  label="Buy a RAK2247 LPWAN Gateway Concentrator Module"
+  label="Buy a RAK2247 WisLink-LoRa"
   _blank
 />

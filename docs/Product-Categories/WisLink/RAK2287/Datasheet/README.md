@@ -1,17 +1,17 @@
 ---
 tags:
   - datasheet
-  - wislink-lora
-prev: ../overview/
+  - wislink
+prev: ../Overview/
 next: false
 ---
 
-# RAK2287 WisLink- LPWAN Gateway Module Datasheet
+# RRAK2287 WisLink-LoRa Datasheet
 
 <rk-img
   src="/assets/images/wislink-lora/rak2287/datasheet/overview/aprgtyyf6arxkxu7rjyl.jpg"
   width="50%"
-  caption="RAK2287 WisLink- LPWAN Gateway Module"
+  caption="RRAK2287 WisLink-LoRa"
 />
 
 ### Product Description
@@ -299,7 +299,7 @@ In general, the RAK2287's variation is the defined as **RAK2287 - XY**, where **
 | X - Model Variant    | S<br>M<br>A                                                                |
 | Y - Supported Region | 3 - EU868<br>4 - US915<br>5 - KR920<br>6 - AS923<br>7 - IN865<br>8 - AU915 |
 
-The table below shows the board order configurations of the RAK2287 WisLink- LPWAN Gateway Module.
+The table below shows the board order configurations of the RRAK2287 WisLink-LoRa.
 
 | Model      | SX1302 on board | SX1262 on board | STM32L412Kx on board | GPS module on board | SPI Interface | USB Interface |
 | ---------- | --------------- | --------------- | -------------------- | ------------------- | ------------- | ------------- |

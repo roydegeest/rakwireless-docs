@@ -1,1 +1,1 @@
-<rk-redirect to="/wislink-lte/rak2013/overview" />
+<rk-redirect to="/Product-Categories/WisLink/RAK2013/Overview/" />

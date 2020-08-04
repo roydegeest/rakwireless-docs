@@ -1,6 +1,8 @@
 ---
-tags: + datasheet
-prev: ../overview/
+tags:
+  - datasheet
+  - wislink
+prev: ../Overview/
 next: false
 ---
 
