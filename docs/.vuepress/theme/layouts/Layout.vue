@@ -93,6 +93,7 @@
     <q-page-container>
       <rk-header v-if="shouldHaveHeader" />
       <rk-page :sidebar-items="sidebarItems" />
+      <rk-zoom />
     </q-page-container>
     <q-footer>
       <rk-footer />
@@ -112,6 +113,7 @@ import RkPage from '@theme/components/RkPage.vue'
 import RkFooter from '@theme/components/RkFooter.vue'
 import RkSidebar from '@theme/components/RkSidebar.vue'
 import RkHeader from '@theme/components/RkHeader.vue'
+import RkZoom from '@theme/components/RkZoom.vue'
 
 import { resolveSidebarItems } from '../util'
 
@@ -128,7 +130,8 @@ export default {
     RkPage,
     RkFooter,
     RkSidebar,
-    RkHeader
+    RkHeader,
+    RkZoom
   },
 
   data() {

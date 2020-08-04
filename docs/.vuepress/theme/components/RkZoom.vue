@@ -1,18 +1,27 @@
 <template>
-  <div>
-    <figure align="center" id="rk-img">
-      <img
-        :src="opt.src"
-        :width="opt.width"
-        @click.prevent="() => $root.$emit('rk-zoom',opt.src)"
-        style="cursor: zoom-in"
+  <q-dialog v-model="zoom" @show="onShow" maximized persistent>
+    <q-card>
+      <!-- <q-card-section class="row justify-end"> -->
+      <!-- </q-card-section> -->
+      <q-btn
+        class="float-right q-ma-md"
+        style="z-index: 99"
+        icon="close"
+        color="grey-8"
+        round
+        flat
+        v-close-popup
       />
-      <div class="text-caption">
-        <b>Figure {{opt.figureNumber || figNum}}:</b>
-        {{ opt.caption }}
-      </div>
-    </figure>
-  </div>
+      <q-card-section
+        v-touch-pan.prevent.mouse="handlePan"
+        class="fit flex flex-center absolute"
+        style="overflow: hidden"
+        @wheel="onWheel"
+      >
+        <img id="rk-zoom" class="absolute" :src="img" :draggable="false" />
+      </q-card-section>
+    </q-card>
+  </q-dialog>
 </template>
 
 <script>
@@ -22,25 +31,15 @@ let zoomFactor = 1.15
 let imgEl
 
 export default {
-  props: ['params', 'src', 'width', 'figureNumber', 'caption'],
   data: () => ({
-    figNum: null,
     zoom: false,
-    zHeight: 0,
-    zWidth: 0
+    img: ''
   }),
-  computed: {
-    opt() {
-      const { params, src, width, figureNumber, caption } = this
-      if (params) return params
-      else {
-        return { src, width, figureNumber, caption }
-      }
-    }
-  },
   methods: {
-    onImgClicked() {
-      this.$root.$emit('rk-zoom', this.opt.src)
+    onGlobalZoom (path) {
+      console.log('globalzoom: ', path)
+      this.img = path
+      this.zoom = true
     },
     handlePan({ ev, ...info }) {
       imgEl.style.top = imgEl.offsetTop + info.delta.y + 'px'
@@ -81,11 +80,10 @@ export default {
     }
   },
   mounted() {
-    if (this.$page.path !== lastPath) {
-      lastPath = this.$page.path
-      count = 1
-      this.figNum = count
-    } else this.figNum = ++count
+    this.$root.$on('rk-zoom', this.onGlobalZoom)
+  },
+  beforeDestroy() {
+    this.$root.$off('rk-zoom', this.onGlobalZoom)
   }
 }
 </script>
