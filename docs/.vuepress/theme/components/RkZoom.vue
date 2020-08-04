@@ -1,8 +1,6 @@
 <template>
   <q-dialog v-model="zoom" @show="onShow" maximized persistent>
     <q-card>
-      <!-- <q-card-section class="row justify-end"> -->
-      <!-- </q-card-section> -->
       <q-btn
         class="float-right q-ma-md"
         style="z-index: 99"
@@ -18,7 +16,14 @@
         style="overflow: hidden"
         @wheel="onWheel"
       >
-        <img id="rk-zoom" class="absolute" :src="img" :draggable="false" />
+        <img
+          id="rk-zoom"
+          class="absolute"
+          :src="img"
+          :draggable="false"
+          :width="width"
+          :height="height"
+        />
       </q-card-section>
     </q-card>
   </q-dialog>
@@ -33,12 +38,16 @@ let imgEl
 export default {
   data: () => ({
     zoom: false,
-    img: ''
+    img: '',
+    width: null,
+    height: null
   }),
   methods: {
-    onGlobalZoom (path) {
-      console.log('globalzoom: ', path)
+    onGlobalZoom(path, [width, height]) {
+      // console.log('globalzoom: ', path, width, height)
       this.img = path
+      this.width = width
+      this.height = height
       this.zoom = true
     },
     handlePan({ ev, ...info }) {
@@ -46,7 +55,7 @@ export default {
       imgEl.style.left = imgEl.offsetLeft + info.delta.x + 'px'
     },
     onWheel(ev) {
-      console.log(ev)
+      // console.log(ev)
       const fh = imgEl.clientHeight
       const fw = imgEl.clientWidth
       let zHeight = fh
@@ -77,6 +86,11 @@ export default {
       imgEl = document.querySelector('#rk-zoom')
       imgEl.style.top = imgEl.offsetTop + 'px'
       imgEl.style.left = imgEl.offsetLeft + 'px'
+      // setInterval(() => {
+      //   const body = document.querySelector('body')
+      //   console.log('bdy: ', body)
+      //   body.style.position = 'inherit !important'
+      // }, 100)
     }
   },
   mounted() {

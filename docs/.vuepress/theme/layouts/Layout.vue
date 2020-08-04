@@ -200,8 +200,9 @@ export default {
     // console.log('pages: ', this.$site.pages)
     // console.log('page: ', this.$page)
 
-    const min = Math.min(window.innerHeight, window.innerWidth)
-    document.documentElement.style.fontSize = `${0.015 * min}px`
+    // const min = Math.min(window.innerHeight, window.innerWidth)
+    // document.documentElement.style.fontSize = `${0.015 * min}px`
+    document.documentElement.style.fontSize = '14px'
     // console.log('mounted: ', window.innerHeight, window.innerWidth, min, document.documentElement.style)
     // console.log('sidebaritems: ', this.sidebarItems)
   },
@@ -265,3 +266,9 @@ export default {
   }
 }
 </script>
+
+<style>
+html {
+  scroll-behavior: unset !important;
+}
+</style>

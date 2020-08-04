@@ -2,9 +2,10 @@
   <div>
     <figure align="center" id="rk-img">
       <img
+        ref="img"
         :src="opt.src"
         :width="opt.width"
-        @click.prevent="() => $root.$emit('rk-zoom',opt.src)"
+        @click.prevent="() => $root.$emit('rk-zoom',opt.src,[$refs.img.clientWidth, $refs.img.clientHeight])"
         style="cursor: zoom-in"
       />
       <div class="text-caption">
