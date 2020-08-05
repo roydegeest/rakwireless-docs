@@ -9,7 +9,11 @@ module.exports = {
       rel: 'stylesheet',
       href: 'https://cdn.jsdelivr.net/npm/animate.css@^4.0.0/animate.min.css'
     }],
-    ['script', { src: '/js/livechat.js' }]
+    ['script', {
+      id: 'ze-snippet',
+      src: 'https://static.zdassets.com/ekr/snippet.js?key=1a5ac733-fac6-4769-9091-f47005c3893d',
+      async: true
+    }]
   ],
   themeConfig: {
     logo: '/assets/rakwireless/rak-blue-dark.svg',
