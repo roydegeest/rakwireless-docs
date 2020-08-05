@@ -1,11 +1,10 @@
 <template>
   <rk-card @mouseenter="hovered=true" @mouseleave="hovered=false" @click="nav(path)">
-    <div class="col overflow-hidden relative-position">
-      <q-img
+    <div class="col flex flex-center overflow-hidden relative-position">
+      <img
         :src="img || '/assets/rakwireless/rak-blue-dark.svg'"
-        :ratio="1"
-        class="fit absolute"
-        style="z-index: 1"
+        class="absolute"
+        style="z-index: 1; max-width: 100%; max-height: 100%;"
       />
       <transition
         appear

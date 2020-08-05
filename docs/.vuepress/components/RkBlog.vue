@@ -13,7 +13,10 @@
         dense
       >
         <q-item-section>
-          <img :src="`/assets/rakwireless/product-categories/${tag}.svg`" />
+          <img
+            :src="`/assets/rakwireless/product-categories/${tag}.svg`"
+            style="max-width: 100%; max-height: 100%;"
+          />
         </q-item-section>
       </q-item>
       <q-separator v-if="activeTags.length" class="q-mx-md" vertical />
@@ -43,12 +46,7 @@
           @click="nav(article.path)"
         >
           <div class="col overflow-hidden relative-position">
-            <q-img
-              :src="coverPhoto(article)"
-              :ratio="1"
-              class="full-width absolute"
-              style="z-index: 1"
-            />
+            <q-img :src="coverPhoto(article)" :ratio="1" class="fit absolute" style="z-index: 1" />
             <transition
               appear
               enter-active-class="animated slideInUp"
@@ -58,7 +56,7 @@
                 v-show="hovered === article.path"
                 class="fit absolute q-pa-sm"
                 style="background-color: rgba(255,255,255,0.95); z-index: 2"
-              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut aliquam massa. Curabitur pellentesque, neque in cursus lobortis, lacus nibh tincidunt erat, eget mollis justo augue ac risus. Duis gravida, erat ut mollis volutpat, ex arcu gravida elit, vel aliquam turpis nulla quis tellus.</div>
+              >{{ article.frontmatter.rak_desc || 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut aliquam massa. Curabitur pellentesque, neque in cursus lobortis, lacus nibh tincidunt erat, eget mollis justo augue ac risus. Duis gravida, erat ut mollis volutpat, ex arcu gravida elit, vel aliquam turpis nulla quis tellus.' }}</div>
             </transition>
           </div>
           <div class="col-5 q-pa-md">

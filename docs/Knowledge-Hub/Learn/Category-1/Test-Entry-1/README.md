@@ -1,13 +1,14 @@
 ---
 sidebar: false
 rak_img: /assets/images/wisnode/rak7200/quickstart/overview/RAK7200.svg
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
 tags:
   - WisBlock
   - WisNode
 header:
   title: Test Entry 1.1
   caption: by <b>Robert Williams</b> posted on 7/29/20 10:30:00 AM
-  img: /assets/images/_/banner-2.webp
+  img: /assets/images/_/banner.png
 author:
   name: Robert Williams
   about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut aliquam massa. Curabitur pellentesque, neque in cursus lobortis, lacus nibh tincidunt erat, eget mollis justo augue ac risus.

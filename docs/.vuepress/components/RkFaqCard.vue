@@ -9,8 +9,8 @@
     <div class="col flex flex-center overflow-hidden relative-position">
       <img
         :src="img || '/assets/rakwireless/rak-blue-dark.svg'"
-        class="absolute full-width"
-        style="z-index: 1; margin-top: auto;"
+        class="absolute"
+        style="z-index: 1; margin-top: auto; max-width: 100%; max-height: 100%;"
       />
       <transition
         appear
