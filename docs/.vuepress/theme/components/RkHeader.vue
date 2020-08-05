@@ -6,7 +6,7 @@
       </template>
 
       <template v-slot:content="scope">
-        <div class="full-width content q-gutter-y-md text-shadowed">
+        <div class="full-width content q-gutter-y-md text-shadowed" style="bacground-color: rgba(0,0,0,0.3)">
           <div class="text-h2 text-weight-regular">{{ header.title }}</div>
           <div class="text-h5 text-weight-light" v-html="header.caption"></div>
           <div class="row q-gutter-xs">

@@ -1,7 +1,40 @@
 ---
-next: hardware
+sidebar: false
+header:
+    title: Welcome to FAQs section!
+    caption: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
 ---
 
-# Welcome to the RAKwireles Help Center
+<div class="flex flex-center q-gutter-sm">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas ipsum ac dolor auctor suscipit. In in nunc a urna finibus pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus mi lacus, hendrerit id dictum et, pharetra imperdiet eros. Sed facilisis hendrerit tortor, nec fringilla neque varius quis. Maecenas eget porta ligula, a facilisis neque. Pellentesque commodo bibendum felis, quis tincidunt nisl tincidunt ut. Integer vitae tempor tortor. Pellentesque sed ipsum fermentum, efficitur dolor volutpat, tincidunt turpis. Vestibulum tristique lorem quam, interdum dignissim mi tristique vestibulum. Pellentesque ac sem gravida dui lobortis bibendum sit amet sagittis mi. Aliquam molestie eu velit id placerat. Donec sed ultrices lorem. Pellentesque pulvinar velit et tempor consectetur. Aenean venenatis enim sed neque imperdiet interdum.
+<rk-faq-card
+  img="/assets/images/faq/general/general-faq.svg"
+  path="/Knowledge-Hub/FAQs/General/"
+  label="General FAQs"
+>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. Vivamus faucibus porta tellus, eget condimentum enim commodo sit amet.
+
+</rk-faq-card>
+
+<rk-faq-card
+  img="/assets/images/faq/hardware/hardware-overview.png"
+  path="/Knowledge-Hub/FAQs/Hardware/"
+  label="Hardware FAQs"
+>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. Vivamus faucibus porta tellus, eget condimentum enim commodo sit amet.
+
+</rk-faq-card>
+
+<rk-faq-card
+  img="/assets/images/faq/software/software-overview.png"
+  path="/Knowledge-Hub/FAQs/Software/"
+  label="Software FAQs"
+>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. Vivamus faucibus porta tellus, eget condimentum enim commodo sit amet.
+
+</rk-faq-card>
+
+</div>

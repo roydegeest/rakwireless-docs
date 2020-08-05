@@ -3,7 +3,7 @@ export default {
     nav (path) {
       if (!path) return
       if (path.includes('://')) window.open(path, '_blank')
-      else this.$router.push(path)
+      else this.$router.push(path[path.length - 1] === '/' ? path : `${path}/`)
     }
   }
 }
