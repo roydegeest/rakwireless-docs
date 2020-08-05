@@ -24,7 +24,7 @@ params:
         href: /deployment-guide/
 ---
 
-# RAK7258 Micro Gateway
+# RAK7258 WisGate™ Edge Lite
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak7258_overview.jpg`"

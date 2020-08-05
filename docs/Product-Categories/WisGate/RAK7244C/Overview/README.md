@@ -22,7 +22,7 @@ params:
         href: /deployment-guide/ 
 ---
 
-# RAK7244C WisGate™ Developer
+# RAK7244C WisGate™ Developer D4+
 
 &nbsp;
 <rk-img

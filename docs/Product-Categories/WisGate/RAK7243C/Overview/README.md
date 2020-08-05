@@ -25,7 +25,7 @@ params:
 
 ---
 
-# RAK7243C WisGate™ Developer
+# RAK7243C WisGate™ Developer D3+
 
 <rk-img
   :src="`${$frontmatter.static_root}/1.pnebj6mub4bpzc83ehzw.jpg`"

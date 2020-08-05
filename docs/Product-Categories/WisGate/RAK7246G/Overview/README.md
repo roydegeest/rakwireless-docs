@@ -23,7 +23,7 @@ params:
 
 ---
 
-# RAK7246G WisGate™ Developer
+# RAK7246G WisGate™ Developer D0+
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak7246.jpg`"
