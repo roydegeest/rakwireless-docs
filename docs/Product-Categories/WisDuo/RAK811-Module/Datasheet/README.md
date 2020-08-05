@@ -56,9 +56,11 @@ The RAK811 Module is integrated with Semtech's SX1276 and STM32L which offers us
 
 ### Overview
 
+The overview covers only the block diagram of RAK811 WisDuino. It shows how the module works with the SX127 and STM32L that allows the module to communicate in the long-range.
+
 #### Block Diagram
 
-The block diagram of module is depicted in the figure below.
+The block diagram of module is illustrated in Figure 2 below.
 
 <rk-img
   src="/assets/images/wisduo/rak811-module/datasheet/interfaces/block-diagram.png"
@@ -67,6 +69,9 @@ The block diagram of module is depicted in the figure below.
 />
 
 ### Hardware
+
+The hardware specifications are categorized into five parts that discuss the interfacing and pinouts of the board. It also covers the standard characteristics and values in terms of electrical, mechanical, and the operating frequencies of the board. These categories further include tabular data and diagrams of the RAK811 WisDuo™.
+
 
 #### Interfaces
 
@@ -271,6 +276,10 @@ Referred to IPC/JEDEC standard.
 />
 
 ### Software
+
+
+Download the latest firmware of the RAK811 WisDuo Module — both in low and high frequency — provided in the table below.
+
 
 #### Firmware / OS
 

@@ -1,6 +1,6 @@
 ---
-rak_img: /assets/images/wisduino/rak811-evaluation-board/quickstart/overview/RAK811-wisnode.svg
-rak_grp: wisduino
+rak_img: /assets/images/WisDuino™/rak811-evaluation-board/quickstart/overview/RAK811-wisnode.svg
+rak_grp: WisDuino™
 prev: false
 next: false
 params:
@@ -17,24 +17,24 @@ params:
         href: /deployment-guide/
 ---
 
-# RAK811 WisDuino
+# RAK811 WisDuino™
 
 <rk-img
-  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/overview/o5qqux3jaeyiiuosw0qi.jpg"
+  src="/assets/images/WisDuino™/rak811-evaluation-board/quickstart/overview/o5qqux3jaeyiiuosw0qi.jpg"
   width="60%"
   figure-number="1"
-  caption="RAK811 WisDuino"
+  caption="RAK811 WisDuino™"
 />
 
 ## Product Background
 
-The **RAK811 WisDuino** is a development board which comes in an Arduino Uno form factor. It has a built-in MCU which allows it to function as a standalone solution or as an Arduino shield. This board is highly suitable for rapid development and testing, with its form factor and easy access to GPIOs (via the headers), plus the integrated USB-UART convert and port.
+The **RAK811 WisDuino™** is a development board which comes in an Arduino Uno form factor. It has a built-in MCU which allows it to function as a standalone solution or as an Arduino shield. This board is highly suitable for rapid development and testing, with its form factor and easy access to GPIOs (via the headers), plus the integrated USB-UART convert and port.
 
 The module integrates the **Semtech SX1276** and a **STM32 Chip** that comes along with a firmware which comes with AT command support. It is easy to configure via the Micro USB and connects with LoRaWAN® Network Server in just a couple of minutes. Now, Rapid testing is made easy.
 
 <rk-btn
-  src="/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/"
-  label="Get Started with RAK811 WisDuino"
+  src="/Product-Categories/WisDuino™/RAK811-Evaluation-Board/Quickstart/"
+  label="Get Started with RAK811 WisDuino™"
 />
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />
@@ -49,6 +49,6 @@ The module integrates the **Semtech SX1276** and a **STM32 Chip** that comes alo
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak811-wisnode-lora-module"
-  label="Buy a RAK811 WisDuino"
+  label="Buy a RAK811 WisDuino™"
   _blank
 />
