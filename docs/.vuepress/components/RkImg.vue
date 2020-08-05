@@ -48,7 +48,7 @@ export default {
       imgEl.style.left = imgEl.offsetLeft + info.delta.x + 'px'
     },
     onWheel(ev) {
-      console.log(ev)
+      // console.log(ev)
       const fh = imgEl.clientHeight
       const fw = imgEl.clientWidth
       let zHeight = fh

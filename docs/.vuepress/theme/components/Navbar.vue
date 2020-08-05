@@ -63,7 +63,7 @@ export default {
   },
 
   mounted() {
-    console.log('site: ', JSON.parse(JSON.stringify(this.$site)))
+    // console.log('site: ', JSON.parse(JSON.stringify(this.$site)))
     const MOBILE_DESKTOP_BREAKPOINT = 719 // refer to config.styl
     const NAVBAR_VERTICAL_PADDING =
       parseInt(css(this.$el, 'paddingLeft')) +
