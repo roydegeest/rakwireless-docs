@@ -1,8 +1,26 @@
 <template>
-  <div class="fit q-pa-xs sidebar">
+  <div class="fit q-pa-xs sidebar column">
+    <div
+      v-if="buySection"
+      class="column flex flex-center"
+      style="max-height: 100%; margin: 15px 0;"
+    >
+      <img :src="buySection.img" style="max-width: 80%; max-height: 80%" />
+      <q-btn
+        class="q-my-md"
+        label="Buy from Store"
+        color="primary"
+        style="width: 15rem"
+        type="a"
+        :href="buySection.store"
+        target="_blank"
+        no-caps
+        rounded
+      />
+    </div>
     <q-scroll-area
       ref="scrollArea"
-      class="fit q-pb-md"
+      class="col q-pb-md"
       :thumb-style="thumbStyle"
       :bar-style="barStyle"
     >
@@ -19,6 +37,7 @@
 <script>
 import SidebarLinks from '@theme/components/SidebarLinks.vue'
 import NavLinks from '@theme/components/NavLinks.vue'
+import Buy from '../../includes/buy'
 
 export default {
   name: 'Sidebar',
@@ -41,6 +60,17 @@ export default {
       opacity: 0.2
     }
   }),
+  computed: {
+    buySection() {
+      const match = this.$page.path.match(
+        /\/Product-Categories\/[\w\d-]+\/[\w\d-]+\//g
+      )
+      if (!(match && match.length) || !Object.keys(Buy).includes(match[0]))
+        return null
+
+      return Buy[match[0]]
+    }
+  },
   methods: {
     setInitialScroll() {
       const { path } = this.$page
@@ -52,6 +82,9 @@ export default {
   },
   updated() {
     this.setInitialScroll()
+  },
+  mounted() {
+    console.log('rksidebar: ', Buy)
   }
   // not applicable for ssr
   // watch: {
