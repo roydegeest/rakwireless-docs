@@ -1,13 +1,13 @@
 ---
-tags: + datasheet
-sidebar: auto
-sidebarDepth: 4
-prev: /wisblock/rak1921/overview/
+tags:
+  - datasheet
+  - wisblock
+next: false
+prev: /Product-Categories/WisBlock/RAK1921/Overview/
 ---
 
-# RAK1921 OLED Display Module Datasheet
+# RAK1921 WisBlock WisIO Module Datasheet
 
-## Overview
 
 ### Product Description
 
@@ -49,7 +49,7 @@ The RAK1921 module is compatible with the RAK5005-O WisBoard baseboard. The RAK5
 
 
 :::tip 📝 NOTE:
-Be careful in selecting the baseboard, and make sure that RAK5005-O is chosen, because the RAK5005 is not compatible with the RAK1921 OLED display module.
+Be careful in selecting the baseboard, and make sure that RAK5005-O is chosen, because the RAK5005 is not compatible with the RAK1921 WisBlock WisIO module.
 :::
 
 #### Pin Definition
@@ -74,7 +74,7 @@ RAK1921 supports a I2C interface. Refer to figure 1 for the pins available in th
 
 #### Electrical Characteristics
 
-This section shows the absolute minimum and maximum ratings of the RAK1921 OLED Display Module in tabular representation.
+This section shows the absolute minimum and maximum ratings of the RAK1921 WisBlock WisIO Module in tabular representation.
 
 ##### Absolute Maximum Ratings
 

@@ -77,7 +77,7 @@ You can also connect your PC with the Gateway through an Ethernet cable. By defa
 
 <rk-img
   src="/assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/4.accessing-your-gateway/ethernetproperties.png"
-  width:"100%"
+  width="100%"
   caption="Ethernet Properties"
 />
 

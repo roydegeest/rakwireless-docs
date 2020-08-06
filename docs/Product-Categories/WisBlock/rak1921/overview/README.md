@@ -12,7 +12,7 @@ params:
         href: mailto:support@rakwireless.com
     resources:
       - name: Datasheet
-        href: /wisblock/rak1921/datasheet/
+        href: /Product-Categories/WisBlock/RAK1921/Datasheet/
       - name: User Manual
         href: /user-manual/
       - name: Deployment Guide
@@ -20,11 +20,10 @@ params:
 ---
 
 
-# RAK1921 OLED Display Module 
+# RAK1921 WisBlock WisIO Module 
 
-# Overview
 
-### Product Description
+## Product Description
 
 The RAK1921 module is part of the WisBlock series that belongs to the accessory category. This module was designed to be part of a production-ready IoT solution in a modular way. As part of the accessory category, it is not mandatory to be part of a final solution, but on a certain occasion, it provides competitive advantages and improves the usability of the final solution.
 
@@ -39,13 +38,13 @@ RAK1921 is an OLED display module with a **128×64 dot matrix**. The main charac
 - Low Power Consumption
 
 <rk-btn
-  src="/wisblock/rak1921/datasheet/"
-  label="Get Started with RAK1921 OLED Display Module"
+  src="../Datasheet/"
+  label="Get Started with RAK1921 WisBlock WisIO Module"
 />
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks"/>
 
-### Product Features
+## Product Features
 
 - Display Color: **White**
 - Dot Matrix: **128×64**
@@ -57,6 +56,6 @@ RAK1921 is an OLED display module with a **128×64 dot matrix**. The main charac
 
 <rk-btn
   src="https://store.rakwireless.com/"
-  label="Buy a RAK1921 OLED Display Module"
+  label="Buy a RAK1921 WisBlock WisIO Module"
   _blank
 />

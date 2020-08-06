@@ -15,16 +15,16 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: Datasheet
-        href: /wisblock/rak5801/datasheet/
+        href: /Product-Categories/WisBlock/RAK5801/Datasheet/
       - name: User Manual
         href: /user-manual/
       - name: Deployment Guide
         href: /deployment-guide/
 ---
 
-# RAK5801 WisIO Module
+# RAK5801 WisBlock WisIO Module
 
-### Product Description
+## Product Description
 
 The RAK5801 module is part of the WisBlock series that belongs to the WisIO category. This module is designed to be part of a production-ready IoT solution in a modular way and must be combined with a WisCore and a WisBase module. 
 
@@ -35,14 +35,14 @@ The RAK5801 module features **two input channels of 4-20mA**. Inside, high preci
 Also, this module integrates a **12V power supply**, which can be used by users to power the external sensors. The RAK5801 can be connected to a 2-wire or 3-wire or 4-wire types of 4-20mA sensor. The connection of the 4-20mA sensors is done through the fast crimping terminals without the need for special tools, which simplify the installation process on the fields.
 
 <rk-btn
-  src="/wisblock/rak5801/datasheet/"
-  label="Get Started with RAK5801 WisIO Module"
+  src="../Datasheet/"
+  label="Get Started with RAK5801 WisBlock WisIO Module"
 />
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks"/>
 
 
-### Product Features
+## Product Features
 
 - Supports two channels of **4-20mA** current analog input.
 - Supports WisIO interface, and it is compatible with multiple WisCore modules, such as RAK4201.
@@ -57,6 +57,6 @@ Also, this module integrates a **12V power supply**, which can be used by users 
 
 <rk-btn
   src="https://store.rakwireless.com/"
-  label="Buy a RAK5801 WisIO Module"
+  label="Buy a RAK5801 WisBlock WisIO Module"
   _blank
 />

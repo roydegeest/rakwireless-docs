@@ -1,14 +1,13 @@
 ---
-prev: /wisblock/rak5801/overview/
+prev: /Product-Categories/WisBlock/RAK5801/Overview/
 next: false
-sidebar: auto
-sidebarDepth: 3
-displayAllHeaders: true
+tags:
+  - datasheet
+  - wisblock
 ---
 
-# RAK5801 WisIO Module Datasheet
+# RAK5801 WisBlock WisIO Module Datasheet
 
-## Overview
 ### Product Description
 
 The RAK5801 module is part of the WisBlock series that belongs to the WisIO category. This module is designed to be part of a production-ready IoT solution in a modular way and must be combined with a WisCore and a WisBase module. 
@@ -104,7 +103,7 @@ Execute the following steps of the crimping process:
 
 #### Device Specification
 
-The following table shows the parameters and the description of the RAK5801 WisIO Module:
+The following table shows the parameters and the description of the RAK5801 WisBlock WisIO Module:
 
 | **Parameter** | **Description** | 
 | ---- | ---- | 

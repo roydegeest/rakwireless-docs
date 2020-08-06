@@ -1,5 +1,5 @@
 ---
-rak_grp: [wisblock,wisio]
+rak_grp: [wisblock, wisio]
 prev: false
 next: false
 params:
@@ -11,16 +11,14 @@ params:
         href: mailto:support@rakwireless.com
     resources:
       - name: Datasheet
-        href: /wisblock/rak5802/datasheet/
+        href: /Product-Categories/WisBlock/RAK5802/Datasheet/
       - name: User Manual
         href: /user-manual/
       - name: Deployment Guide
         href: /deployment-guide/
 ---
 
-# RAK5802 WisIO Module
-
-NO IMAGE
+# RAK5802 WisBlock WisIO Module
 
 ## Product Description
 
@@ -33,8 +31,8 @@ The RAK5802 module features one RS485 interface. Inside, a protection circuity i
 In addition, the RAK5802 supports one I2C interface, customer can use this I2C interface to connect external sensors.
 
 <rk-btn
-  src="../datasheet/"
-  label="View Datasheet for the RAK5802 WisIO Module"
+  src="../Datasheet/"
+  label="Get Started with the RAK5802 WisBlock WisIO Module"
 />
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks"/>
@@ -53,7 +51,7 @@ In addition, the RAK5802 supports one I2C interface, customer can use this I2C i
 
 <rk-btn
   src="https://store.rakwireless.com/"
-  label="Buy a RAK5802 WisIO Module"
+  label="Buy a RAK5802 WisBlock WisIO Module"
   _blank
 />
 

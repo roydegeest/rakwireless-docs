@@ -1,1 +1,1 @@
-<rk-redirect to="/wisblock/rak5005-o/overview" />
+<rk-redirect to="/Product-Categories/WisBlock/RAK5005-O/Overview/" />

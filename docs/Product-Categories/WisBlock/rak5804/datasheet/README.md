@@ -1,14 +1,13 @@
 ---
-prev: /wisblock/rak5804/overview/
+prev: /Product-Categories/WisBlock/RAK5804/Overview/
 next: false
-sidebar: auto
-sidebarDepth: 3
-displayAllHeaders: true
+tags:
+  - datasheet
+  - wisblock
 ---
 
-# RAK5804 WisIO Module Datasheet
+# RAK5804 WisBlock WisIO Module Datasheet
 
-## Overview
 
 ### Product Description
 
@@ -30,9 +29,9 @@ All external expansion interfaces of the RAK5804 module are equipped with a TVS 
 - PTC thermistor to prevent output power overload
 - Dimension: **25 mm x 15 mm**.
 
-## Specifications
 
-### Board Overview
+
+## Overview
 
 The RAK5804 module can be mounted on the WisIO slot of the WisBase board. Figure 1 shows the mounting mechanism of the RAK5804 on a WisBase module, such as a RAK5005.
 
@@ -41,6 +40,8 @@ The RAK5804 module can be mounted on the WisIO slot of the WisBase board. Figure
   width="75%"
   caption="RAK5804 Mounting Mechanism on a WisBase module"
 />
+
+## Specifications
 
 ### Hardware
 
@@ -105,7 +106,7 @@ The RAK5804 module, as one of the WisIO module, comprises a standard WisIO conne
 <rk-img
   src="/assets/images/wisblock/rak5804/datasheet/wisio-connector.png"
   width="75%"
-  caption="RAK5804 WisIO connector"
+  caption="RAK5804 WisBlock WisIO connector"
 />
 
 | **Pin Number** | **Description** | **Pin Number** | **Description** | 
@@ -172,7 +173,7 @@ The mechanical dimensions of the RAK5804 module is shown in figure 4 below.
 
 #### Schematic Diagram
 
-Figure 5 shows the schematic diagram of RAK5804 WisIO connector, USB connector and the 10 mechanical holes.
+Figure 5 shows the schematic diagram of RAK5804 WisBlock WisIO connector, USB connector and the 10 mechanical holes.
 
 <rk-img
   src="/assets/images/wisblock/rak5804/datasheet/schematic-diagram.png"

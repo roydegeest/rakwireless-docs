@@ -1,9 +1,10 @@
 ---
 static_root: /assets/images/wishat/rak2287-pi-hat/datasheet
+prev: /Product-Categories/WisHat/RAK2287-Pi-HAT/Overview/
+next: false
 tags:
   - datasheet
   - wishat
-prev: /Product-Categories/WisHat/RAK2287-Pi-HAT/Overview/
 ---
 
 # RAK2287 Pi HAT Datasheet

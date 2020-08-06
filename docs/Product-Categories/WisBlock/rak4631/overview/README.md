@@ -1,6 +1,6 @@
 ---
 rak_img: /assets/images/wisblock/rak4631/datasheet/overview.jpg
-rak_grp: wisblock
+rak_grp: [wisblock, wiscore]
 prev: false
 next: false
 params:
@@ -12,19 +12,19 @@ params:
         href: mailto:support@rakwireless.com
     resources:
       - name: Datasheet
-        href: /wisblock/rak4631/datasheet/
+        href: /Product-Categories/WisBlock/RAK4631/Datasheet/
       - name: User Manual
         href: /user-manual/
       - name: Deployment Guide
         href: /deployment-guide/
 ---
 
-# RAK4631 WisCore Module
+# RAK4631 WisBlock WisCore Module
 
 <rk-img
   src="/assets/images/wisblock/rak4631/datasheet/overview.jpg"
   width="40%"
-  caption="RAK4631 WisCore Module"
+  caption="RAK4631 WisBlock WisCore Module"
 />
 
 ## Product Description
@@ -40,8 +40,8 @@ The module complies with LoRaWAN® 1.0.2 protocols, it also supports LoRa® poin
 The RF communication characteristic of the module (Lora® + BLE) make it suitable for a variety of applications in the IoT field such as home automation, sensor networks, building automation, personal area networks applications (health/fitness sensors and monitors, etc.).
 
 <rk-btn
-  src="../datasheet/"
-  label="View Datasheet for the RAK4631 WisCore Module"
+  src="../Datasheet/"
+  label="Get Started with RAK4631 WisBlock WisCore Module"
 />
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks"/>
@@ -61,7 +61,7 @@ The RF communication characteristic of the module (Lora® + BLE) make it suitabl
 
 <rk-btn
   src="https://store.rakwireless.com/"
-  label="Buy a RAK4631 WisCore Module"
+  label="Buy a RAK4631 WisBlock WisCore Module"
   _blank
 />
 

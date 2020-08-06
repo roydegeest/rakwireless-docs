@@ -218,7 +218,7 @@ We recommended you to use optimized RSSI calibration values which is part of HAL
 
 #### Electrical Requirements
 
-The following are the electrical characteristics of RAK2245 Pi HAT. Please [contact us](mailto:support@rakwireless.com) if you need other details for your project
+The following are the electrical characteristics of RAK2245 Pi HAT. [Contact us](mailto:support@rakwireless.com) if you need other details for your project
 
 ##### Absolute Maximum Rating
 

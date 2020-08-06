@@ -1,19 +1,18 @@
 ---
-prev: /wisblock/rak5860/overview/
+prev: /Product-Categories/WisBlock/RAK5860/Overview/
 next: false
-sidebar: auto
-sidebarDepth: 3
-displayAllHeaders: true
+tags:
+  - datasheet
+  - wisblock
 ---
-# RAK5860 NB-IoT WisIO Module Datasheet
+# RAK5860 WisBlock WisIO Module Datasheet
 
 <rk-img
   src="/assets/images/wisblock/rak5860/datasheet/rak5860.png"
   width="50%"
-  caption="RAK5860 NB-IoT WisIO Module"
+  caption="RAK5860 WisBlock WisIO Module"
 />
 
-## Overview
 ### Product Description
 
 The RAK5860 module is part of the WisBlock series, specifically, it is one of the modules that belongs to the WisIO category. This module was designed to be part of a production-ready IoT solution in a modular way, and must be combined with a WisCore and a WisBase module. 
@@ -32,7 +31,7 @@ For debugging purpose, a Micro-USB connector is used for sending AT commands, da
 - Power Supply: 2.6-4.2V, typical supply voltage 3.3V
 - Module size: 25mm x 35mm
 
-## Specifications
+## Overview
 
 ### Board Overview
 
@@ -64,6 +63,8 @@ Figure 4 shows the block diagram of the RAK5860 Module
   width="75%"
   caption="RAK5860 Block Diagram"
 />
+
+## Specifications
 
 ### Electrical Characteristics
 #### Absolute Maximum Ratings

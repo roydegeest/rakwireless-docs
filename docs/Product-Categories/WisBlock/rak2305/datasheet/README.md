@@ -1,20 +1,19 @@
 ---
-tags: + datasheet
-sidebar: auto
-sidebarDepth: 3
-displayAllHeaders: true
-prev: /wisblock/rak2305/overview/
+tags:
+  - datasheet
+  - wisblock
+prev: /Product-Categories/WisBlock/RAK2305/Overview/
+next: false
 ---
 
-# RAK2305 ESP32 Wi-Fi Module Datasheet
+# RAK2305 WisBlock WisIO Module Datasheet
 
 <rk-img
   src="/assets/images/wisblock/rak2305/datasheet/rak2305.png"
   width="50%"
-  caption="RAK2305 ESP32 Wi-Fi Module"
+  caption="RAK2305 WisBlock WisIO Module"
 />
 
-## Overview
 
 ### Product Description
 
@@ -32,6 +31,7 @@ The RAK2305 module is a 2.4 GHz Wi-Fi and Bluetooth in a single module. The core
 - Module size: 29.5 x 25mm
 
 ## Specifications
+
 ### Overview
 
 #### Board Overview
