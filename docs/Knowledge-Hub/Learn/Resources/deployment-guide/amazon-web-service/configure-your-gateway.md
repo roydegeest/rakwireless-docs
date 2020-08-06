@@ -10,7 +10,7 @@ next: false
 1. In the Web Management Platform, navigate through **LoRa® Network > Network Settings > Packet Forwarder Settings > General Setup**, and set the Protocol in the drop-down list to **Semtech UDP GWMP Protocol**. You only need to change the Server Address to forward the traffic to your ChirpStack running on the Ubuntu Instance (AWS). Enter your Instance Public IP Address in the field marked with the red rectangle in the image below:
 
 :::tip 📝 NOTE
-Read the [LoRa Network](/knowledge-hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#_1-network-settings) section in the Web Management Platform to know more about the other modes aside from the Packet Forwarder Setup.
+Read the [LoRa Network](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#_1-network-settings) section in the Web Management Platform to know more about the other modes aside from the Packet Forwarder Setup.
 :::
 
 <rk-img
@@ -71,4 +71,4 @@ If you want to use the MQTT Bridge to forward your LoRa® Traffic to your LoRa®
   caption="Gateway MQTT Bridge Parameters"
 />
 
-4. Lastly, register your Gateway to Chirpstack if you have not done so. You can follow the steps undergone in the Packet Forwarder Set-up section of the [**Configuring your Gateway**](/knowledge-hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) document.
+4. Lastly, register your Gateway to Chirpstack if you have not done so. You can follow the steps undergone in the Packet Forwarder Set-up section of the [**Configuring your Gateway**](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) document.

@@ -1,14 +1,20 @@
 ---
-sidebar: auto
-sidebarDepth: auto
+sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/lorawan-vs-the-world-of-iot/overview.png
-prev: /knowledge-hub/Learn/
-next: false
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - Tutorials
+header:
+  title: LoRaWAN™ vs. the world of IoT!
+  caption: by <b>Vladislav Yordanov</b> posted on Nov 01, 2019 10:30:00 AM
+  img: /assets/images/knowledge-hub/tutorials/lorawan-vs-the-world-of-iot/overview.png
+author:
+  name: Vladislav Yordanov
+  about: CCO of RAKwireless, Co-founder and CEO of IoT4Green. I believe technology can be the solution to most issues human kind is facing.
+  img: /assets/images/knowledge-hub/authors/vladislav-yordanov.jpg
 ---
 
 # LoRaWAN™ vs. the world of IoT!
-
-![LoRaWAN™ vs. the world of IoT!](/assets/images/knowledge-hub/tutorials/lorawan-vs-the-world-of-iot/overview.png)
 
 You know (or you will know after reading this) that there are not 1 or 2 technologies and protocols in the Internet of Things. They all have their strengths and weaknesses and today we will discuss that for the main players in the game.
 
@@ -95,5 +101,4 @@ After all, it turns out that there is not much battle here. Every product is sui
   src="/assets/images/knowledge-hub/tutorials/lorawan-vs-the-world-of-iot/comparison-table.png"
 />
 
-**Author**: Vladislav Yordanov<br>
-**Info**: CCO of RAKwireless, Co-founder and CEO of IoT4Green. I believe technology can be the solution to most issues human kind is facing.
+<rk-author />

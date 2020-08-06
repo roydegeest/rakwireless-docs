@@ -1,14 +1,20 @@
 ---
-sidebar: auto
-sidebarDepth: auto
+sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/applications-of-lorawan-more-than-just-tech/overview.jpg
-prev: /knowledge-hub/Learn/
-next: false
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - Tutorials
+header:
+  title: 8 Applications of LoRaWAN | More Than Just Tech
+  caption: by <b>Sam Domingo</b> posted on Jul 19, 2019 10:30:00 AM
+  img: /assets/images/knowledge-hub/tutorials/applications-of-lorawan-more-than-just-tech/overview.jpg
+author:
+  name: Sam Domingo
+  about: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.
+  img: /assets/images/knowledge-hub/authors/sam-domingo.jpg
 ---
 
 # 8 Applications of LoRaWAN | More Than Just Tech
-
-![Overview](/assets/images/knowledge-hub/tutorials/applications-of-lorawan-more-than-just-tech/overview.jpg)
 
 With the IoT paradigm presenting itself as the future of the internet, LoRaWAN cannot be overlooked as a fundamental part of IoT. As we now know, it presents itself as the network that will be used for almost everything.
 
@@ -168,5 +174,4 @@ The concept of creating a smart planet sounds interesting but is it possible?
 
 Yes! It is with LoRaWAN technology.
 
-‌‌‌‌‌‌‌‌‌‌**Author**: Sam Domingo<br>
-**Info**: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.
+<rk-author />

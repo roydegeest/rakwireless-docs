@@ -1,5 +1,5 @@
 ---
-prev: /knowledge-hub/Learn/Resources/deployment-guide/gateway-remote-management-ddns/
+prev: /Knowledge-Hub/Learn/Resources/deployment-guide/gateway-remote-management-ddns/
 next: setup-ddns-in-gateway
 ---
 # Register a DDNS Service

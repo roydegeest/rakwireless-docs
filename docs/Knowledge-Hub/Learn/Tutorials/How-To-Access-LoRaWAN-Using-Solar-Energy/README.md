@@ -1,14 +1,21 @@
 ---
-sidebar: auto
-sidebarDepth: auto
+sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/access-lorawan-using-solar-energy/overview.jpg
-prev: /knowledge-hub/Learn/
-next: false
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - Tutorials
+header:
+  title: How To Access LoRaWAN® using Solar Energy
+  caption: by <b>Sam Domingo</b> posted on May 02, 2020 10:30:00 AM
+  img: /assets/images/knowledge-hub/tutorials/access-lorawan-using-solar-energy/overview.jpg
+author:
+  name: Sam Domingo
+  about: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.
+  img: /assets/images/knowledge-hub/authors/sam-domingo.jpg
 ---
 
 # How To Access LoRaWAN® using Solar Energy
 
-![Overview](/assets/images/knowledge-hub/tutorials/access-lorawan-using-solar-energy/overview.jpg)
 
 As the goal of IoT is to interconnect everything in the world, developers aim to extend the reach of LoRaWAN® access even to things in remote areas. At present, a number of IoT users from these areas have already begun their own LoRa® projects to improve their area’s agricultural and water systems. If you are one of them, difficulties in connecting are not new to you, most especially the challenge in having an intermittent power supply. With unexpected, frequent power outages, you absolutely cannot make the most of this promising new technology. Imagine this scenario: you are close to accessing a server from a faraway area but, your gateways suddenly shut down, making you start your whole data transfer from scratch. It is certainly a situation we do not want to find ourselves in.
 
@@ -86,10 +93,9 @@ After learning about those computations, you may now proceed in assembling your 
 
 4. Access the gateway.
 
-    If you are trying to access via wifi, the WEB management platform can be used through the IP address 192.168.230.1 of the gateway LAN interface through the use of a browser. Otherwise, you may access the gateway by connecting to a WAN Port DHCP IP only when a DHCP Server is in the network. After inquiring the IP address of the gateway through that server, you can access the same management platform through that IP address. For more information about this instruction, you may access this [document](/wisgate/rak7249/overview/).
+    If you are trying to access via wifi, the WEB management platform can be used through the IP address 192.168.230.1 of the gateway LAN interface through the use of a browser. Otherwise, you may access the gateway by connecting to a WAN Port DHCP IP only when a DHCP Server is in the network. After inquiring the IP address of the gateway through that server, you can access the same management platform through that IP address. For more information about this instruction, you may access this [document](/Product-Categories/WisGate/RAK7249/Overview/).
 
 With the help of a renewable source of energy like sunlight, we can make IoT happen and connect everything in the world. Users like you will now face no inconvenience in connecting from anywhere in the world with the production of solar panels from IoT solution providers like RAKwireless. Certainly, you can enjoy your connectivity with the power of the sun.
 
 
-**Author**: Sam Domingo<br>
-**Info**: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.
+<rk-author />

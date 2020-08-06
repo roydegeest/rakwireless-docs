@@ -1,14 +1,20 @@
 ---
-sidebar: auto
-sidebarDepth: auto
+sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/an-in-depth-knowledge-about-apple-homekit/overview.jpg
-prev: /knowledge-hub/Learn/
-next: false
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - Tutorials
+header:
+  title: An In-Depth Knowledge about Apple HomeKit
+  caption: by <b>Ken Yu</b> posted on Mar 27, 2017 10:30:00 AM
+  img: /assets/images/knowledge-hub/tutorials/an-in-depth-knowledge-about-apple-homekit/overview.jpg
+author:
+  name: Ken Yu
+  about: Founder and CEO of RAKwireless. Making Things at Rakwireless with The RAKstars
+  img: /assets/images/knowledge-hub/authors/ken-yu.jpg
 ---
 
 # An In-Depth Knowledge about Apple HomeKit
-
-![Overview](/assets/images/knowledge-hub/tutorials/an-in-depth-knowledge-about-apple-homekit/overview.jpg)
 
 Being Apple’s proprietary software and hardware intelligent home platform, HomeKit allows you control a number of popular smart home gadgets and devices, including locks, lights, switches and thermostats.
 
@@ -34,5 +40,4 @@ This all makes manufacturing HomeKit compliance devices a complicated and expens
 
 This is the mega reason why there are almost a few dozen of compatible devices available for HomeKit, as compared to few hundred for other smart-home platforms.
 
-**Author**: Ken Yu<br>
-**Info**: Founder and CEO of RAKwireless. Making Things at #Rakwireless with The #RAKstars
+<rk-author />

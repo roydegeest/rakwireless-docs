@@ -1,14 +1,20 @@
 ---
-sidebar: auto
-sidebarDepth: auto
+sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/the-mighty-mqtt-what-you-should-know-about-it/overview.jpg
-prev: /knowledge-hub/Learn/
-next: false
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - Tutorials
+header:
+  title: The Mighty MQTT! What You Should Know About It
+  caption: by <b>Sam Domingo</b> posted on Feb 19, 2020 10:30:00 AM
+  img: /assets/images/knowledge-hub/tutorials/the-mighty-mqtt-what-you-should-know-about-it/overview.jpg
+author:
+  name: Sam Domingo
+  about: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.
+  img: /assets/images/knowledge-hub/authors/sam-domingo.jpg
 ---
 
 # The Mighty MQTT! What You Should Know About It
-
-![The Mighty MQTT!](/assets/images/knowledge-hub/tutorials/the-mighty-mqtt-what-you-should-know-about-it/overview.jpg)
 
 As a player in the IoT world, we know you want fast messaging with your devices. You want to be always updated. You want real-time information at the tip of your fingers. However, we also know how difficult it is to find the right technology to make your aspirations real. Fortunately, [MQTT](http://mqtt.org/) is here and it can be your next big project!
 
@@ -73,5 +79,4 @@ _<b>In summary MQTT has some unique features that can’t be easily found in oth
 
 In the end, MQTT has a ton of advantages, thus it is here to stay. We believe that it will become even more mainstream and will naturally see a lot more adoption and improvements in the years to come.
 
-**Author**: Sam Domingo<br>
-**Info**: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.
+<rk-author />

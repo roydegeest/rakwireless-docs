@@ -1,14 +1,20 @@
 ---
-sidebar: auto
-sidebarDepth: 3
+sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/ubidots-integration/overview.jpg
-prev: /knowledge-hub/Learn/
-next: false
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - Tutorials
+header:
+  title: "Connect the Dots : Linking LPWAN (LoRaWAN) devices to Ubidots"
+  caption: by <b>Sam Domingo</b> posted on May 20, 2020 10:30:00 AM
+  img: /assets/images/knowledge-hub/tutorials/ubidots-integration/overview.jpg
+author:
+  name: Sam Domingo
+  about: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.
+  img: /assets/images/knowledge-hub/authors/sam-domingo.jpg
 ---
 
 # Connect the Dots: Linking LPWAN (LoRaWAN) devices to Ubidots
-
-![Ubidots Integration](/assets/images/knowledge-hub/tutorials/ubidots-integration/overview.jpg)
 
 Gateways and nodes are not the only participants in the operations of the Internet of Things (IoT). For things to connect in IoT, users must understand the environmental data gathered from [LPWAN nodes](https://store.rakwireless.com/collections/boards-nodes). Data then must be organized and analyzed. If left untouched, data will never be understood by users and devices - data becomes unusable. With the help of IoT platforms, presenting digital information from our environment in an understandable approach becomes simple. Users can even configure and monitor specific assets from anywhere in the world just by using any Internet-enabled device (e.g. computers and mobile devices).
 
@@ -103,5 +109,4 @@ Clicking this will create and display the widget. You can play with your visuali
 Connecting things in IoT requires the analysis of data that devices gather from the environment. Raw data becomes meaningless when nobody understands it. With the use of IoT platforms like Ubidots, users can now easily visualize and comprehend data. The dashboard of Ubidots makes information palatable to users hence, allowing them to generate informed decisions in business, research, and machinery. Innovators and industries become empowered to prototype and plan IoT projects with the graphs and charts provided by Ubidots. Certainly, efforts of making IoT easy like that of Ubidots can accelerate the arrival of a smart future.
 
 
-**Author**: Sam Domingo<br>
-**Info**: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.
+<rk-author />

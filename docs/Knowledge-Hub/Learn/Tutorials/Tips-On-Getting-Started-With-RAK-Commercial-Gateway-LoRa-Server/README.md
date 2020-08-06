@@ -1,14 +1,20 @@
 ---
-sidebar: auto
-sidebarDepth: auto
+sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/tips-on-getting-started-with-rak-commercial-gateway-lora-server/overview.jpg
-prev: /knowledge-hub/Learn/
-next: false
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - Tutorials
+header:
+  title: Tips on Getting Started With RAK Commercial Gateway LoRa Server
+  caption: by <b>Ken Yu</b> posted on Aug 16, 2019 10:30:00 AM
+  img: /assets/images/knowledge-hub/tutorials/tips-on-getting-started-with-rak-commercial-gateway-lora-server/overview.jpg
+author:
+  name: Ken Yu
+  about: "Founder and CEO of RAKwireless. Making Things at #Rakwireless with The #RAKstars"
+  img: /assets/images/knowledge-hub/authors/ken-yu.jpg
 ---
 
 # Tips on Getting Started With RAK Commercial Gateway LoRa Server
-
-![Overview](/assets/images/knowledge-hub/tutorials/tips-on-getting-started-with-rak-commercial-gateway-lora-server/overview.jpg)
 
 All RAKwireless [Commercial Gateway](https://store.rakwireless.com/products/rak7258-micro-gateway) devices come with an integrated LoRa Server. This turns what is a simple Packet Forwarder into a complete LoRaWAN Network solution.
 
@@ -130,6 +136,4 @@ This is a great start and a solid base for understanding how a LoRaWAN network w
 
 That, however, is a topic for another article. 😊
 
-
-**Author**: Ken Yu<br>
-**Info**: Founder and CEO of RAKwireless. Making Things at #Rakwireless with The #RAKstars
+<rk-author />

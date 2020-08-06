@@ -1,14 +1,20 @@
 ---
-sidebar: auto
-sidebarDepth: auto
+sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/how-to-extend-battery-of-your-iot-device/overview.jpg
-prev: /knowledge-hub/Learn/
-next: false
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - Tutorials
+header:
+  title: How LoRa Can Help You Save The Battery Life of Your IoT Device
+  caption: by <b>Sam Domingo</b> posted on Aug 01, 2019 10:30:00 AM
+  img: /assets/images/knowledge-hub/tutorials/how-to-extend-battery-of-your-iot-device/overview.jpg
+author:
+  name: Sam Domingo
+  about: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.
+  img: /assets/images/knowledge-hub/authors/sam-domingo.jpg
 ---
 
 # How LoRa Can Help You Save The Battery Life of Your IoT Device
-
-![Ubidots Integration](/assets/images/knowledge-hub/tutorials/how-to-extend-battery-of-your-iot-device/overview.jpg)
 
 In this technology-driven era, the adoption of the internet of things, IoT is on the increase. According to forecasts, by 2022, the total spending in IoT technologies will be about $2.5 trillion.
 
@@ -93,5 +99,4 @@ Unlike other sensors that might be transmitting data constantly, a LoRa-based se
 
 When data packet is transmitted to a gateway, the device automatically returns to sleep mode. In sleep mode, the energy use is at its lowest level.
 
-**Author**: Sam Domingo<br>
-**Info**: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.
+<rk-author />

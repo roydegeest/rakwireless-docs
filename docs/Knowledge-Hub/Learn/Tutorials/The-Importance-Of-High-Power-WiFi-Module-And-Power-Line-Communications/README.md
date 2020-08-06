@@ -1,9 +1,17 @@
 ---
-sidebar: auto
-sidebarDepth: auto
+sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/the-importance-of-high-power-wifi-module-and-power-line-communications/overview.png
-prev: /knowledge-hub/Learn/
-next: false
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - Tutorials
+header:
+  title: The Importance of High Power WiFi Module and Power Line Communications
+  caption: by <b>Ken Yu</b> posted on March 15, 2017 10:30:00 AM
+  img: /assets/images/knowledge-hub/tutorials/the-importance-of-high-power-wifi-module-and-power-line-communications/overview.png
+author:
+  name: Ken Yu
+  about: "Founder and CEO of RAKwireless. Making Things at #Rakwireless with The #RAKstars"
+  img: /assets/images/knowledge-hub/authors/ken-yu.jpg
 ---
 
 # The Importance of High Power WiFi Module and Power Line Communications
@@ -35,6 +43,4 @@ The high power WiFi module uses a RTC (Real Time Clock) that runs from a battery
 The high power WiFi module and [Power Line communication module](https://www.rakwireless.com/en-us/products/plc-boards-and-modules/lx200v30-plc-homeplug-av-module) is useful for data transfer during communications. While the first comes in use to gain access to WiFi module devices, the latter is useful in sending and receiving data over existing power cables.
 
 
-
-**Author**: Ken Yu<br>
-**Info**: Founder and CEO of RAKwireless. Making Things at #Rakwireless with The #RAKstars
+<rk-author />

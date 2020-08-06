@@ -1,5 +1,5 @@
 ---
-prev: /knowledge-hub/Learn/Resources/user-manual/gateway-firmware-burning/
+prev: /Knowledge-Hub/Learn/Resources/user-manual/gateway-firmware-burning/
 next: firmware-burning
 ---
 

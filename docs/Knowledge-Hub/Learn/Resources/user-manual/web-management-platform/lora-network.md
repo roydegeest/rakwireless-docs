@@ -235,7 +235,7 @@ This section allows you to configure the Gateway to use the Built-in Server to a
 
 **1. General Setup**
 
-These setting are the same as for the LoRa® Gateway MQTT Bridge, refer to its section [LoRa Network](/knowledge-hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) for more information.
+These setting are the same as for the LoRa® Gateway MQTT Bridge, refer to its section [LoRa Network](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) for more information.
 
 **2. MQTT Topic**
 

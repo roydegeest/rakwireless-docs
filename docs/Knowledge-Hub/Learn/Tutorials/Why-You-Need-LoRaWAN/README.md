@@ -1,14 +1,20 @@
 ---
-sidebar: auto
-sidebarDepth: auto
+sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/why-you-need-lorawan/overview.jpg
-prev: /knowledge-hub/Learn/
-next: false
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - Tutorials
+header:
+  title: Why You Need LoRaWAN | RAK Smart Devices and Home Security
+  caption: by <b>Sam Domingo</b> posted on Jul 29, 2019 10:30:00 AM
+  img: /assets/images/knowledge-hub/tutorials/why-you-need-lorawan/overview.jpg
+author:
+  name: Sam Domingo
+  about: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.
+  img: /assets/images/knowledge-hub/authors/sam-domingo.jpg
 ---
 
 # Why You Need LoRaWAN | RAK Smart Devices and Home Security
-
-![Overview](/assets/images/knowledge-hub/tutorials/why-you-need-lorawan/overview.jpg)
 
 With the advent of improved technology, the world has never been easier to live in, new innovations and smarter living spaces as well as devices have been made possible with IoT.
 
@@ -68,5 +74,4 @@ The management and installation of LoRaWAN is cost effective and economic and at
 
 LoRaWAN on an industrial scale can connect cities and enhance the formation of smarter living spaces and with deeper penetration of network, one can be able to monitor water and even gas levels in smart homes.
 
-**Author**: Sam Domingo<br>
-**Info**: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.
+<rk-author />

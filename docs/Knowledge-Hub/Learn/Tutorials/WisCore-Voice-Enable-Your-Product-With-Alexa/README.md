@@ -1,14 +1,20 @@
 ---
-sidebar: auto
-sidebarDepth: auto
+sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/wiscore-voice-enable-your-product-with-alexa/overview.jpg
-prev: /knowledge-hub/Learn/
-next: false
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - Tutorials
+header:
+  title: WisCore – Voice Enable Your Product with Alexa
+  caption: by <b>Ken Yu</b> posted on Apr 24, 2017 10:30:00 AM
+  img: /assets/images/knowledge-hub/tutorials/wiscore-voice-enable-your-product-with-alexa/overview.jpg
+author:
+  name: Ken Yu
+  about: "Founder and CEO of RAKwireless. Making Things at #Rakwireless with The #RAKstars"
+  img: /assets/images/knowledge-hub/authors/ken-yu.jpg
 ---
 
 # WisCore – Voice Enable Your Product with Alexa
-
-![Overview](/assets/images/knowledge-hub/tutorials/wiscore-voice-enable-your-product-with-alexa/overview.jpg)
 
 RAK launches the Open Beta Testing Program for ‘WisCore’, an Amazon Voice Service (AVS) inside Open Source Hardware Kit.
 
@@ -48,5 +54,4 @@ Not only the developer, but also the product company can use WisCore to build ma
 
 Join us to make more innovation based on [WisCore](https://github.com/RAKWireless/WisCore).
 
-**Author**: Ken Yu<br>
-**Info**: Founder and CEO of RAKwireless. Making Things at #Rakwireless with The #RAKstars
+<rk-author />

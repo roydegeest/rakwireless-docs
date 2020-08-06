@@ -1,16 +1,21 @@
 ---
-sidebar: auto
-sidebarDepth: auto
+sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/how-to-successfully-carry-out-a-lorawan-coverage-test-with-rakwireless/overview.jpg
-prev: /knowledge-hub/Learn/
-next: false
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - Tutorials
+header:
+  title: How To Successfully Carry Out A LoRaWAN Coverage Test With RAKwireless
+  caption: by <b>Sam Domingo</b> posted on Aug 02, 2019 10:30:00 AM
+  img: /assets/images/knowledge-hub/tutorials/how-to-successfully-carry-out-a-lorawan-coverage-test-with-rakwireless/overview.jpg
+author:
+  name: Sam Domingo
+  about: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.
+  img: /assets/images/knowledge-hub/authors/sam-domingo.jpg
 ---
 
 # How To Successfully Carry Out A LoRaWAN Coverage Test With RAKwireless
 
-<rk-img
-  src="/assets/images/knowledge-hub/tutorials/how-to-successfully-carry-out-a-lorawan-coverage-test-with-rakwireless/overview.jpg"
-/>
 
 Coverage tests for LoRaWAN are very important, you might want to find out about the exact limits and boundaries of LoRaWAN. Whether as to see if it is compatible with a device that might be far from your home, be it a wristwatch that is used outside of your house, or perhaps a water or gas sensor device that is placed underground. A coverage test will help you to evaluate the range of coverage of the wide area network.
 
@@ -28,9 +33,7 @@ It is very important to carry out a good coverage test, so as to be sure of the 
 
 The LoRaWAN coverage test is essentially a user based range test, and it provides adequate information on the quality and range of LoRaWAN within a specified area.
 
-<rk-img
-  src="/assets/images/knowledge-hub/tutorials/how-to-successfully-carry-out-a-lorawan-coverage-test-with-rakwireless/carry-out.png"
-/>
+![Diagram](/assets/images/knowledge-hub/tutorials/how-to-successfully-carry-out-a-lorawan-coverage-test-with-rakwireless/carry-out.png)
 
 ## How Do We Ensure A Quality Coverage Test? 
 
@@ -97,5 +100,4 @@ A shabby LoRaWAN gateway coverage test will do no good in helping you to establi
 
 Although a lot of factors may hinder a quality and successful coverage test, following the tips above will help to inform you more about the coverage of LoRaWAN.
 
-**Author**: Sam Domingo<br>
-**Info**: Sam is the technical and marketing content writer for RAKwireless. Her passion for writing that manifested in her playwriting and poetry now flows into her in-depth coverage of the IoT community.
+<rk-author />

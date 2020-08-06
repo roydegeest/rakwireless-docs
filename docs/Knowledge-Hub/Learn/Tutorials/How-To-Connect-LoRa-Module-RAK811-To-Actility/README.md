@@ -1,9 +1,17 @@
 ---
-sidebar: auto
-sidebarDepth: auto
+sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/how-to-connect-lora-module-rak811-to-actility/overview.png
-prev: /knowledge-hub/Learn/
-next: false
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - Tutorials
+header:
+  title: How To Connect LoRa Module RAK811 To Actility?
+  caption: by <b>Ken Yu</b> posted on Mar 23, 2017 10:30:00 AM
+  img: /assets/images/knowledge-hub/tutorials/how-to-connect-lora-module-rak811-to-actility/overview.png
+author:
+  name: Ken Yu
+  about: "Founder and CEO of RAKwireless. Making Things at #Rakwireless with The #RAKstars"
+  img: /assets/images/knowledge-hub/authors/ken-yu.jpg
 ---
 
 # How To Connect LoRa Module RAK811 To Actility?
@@ -214,5 +222,4 @@ at+recv=1,0,0  /*confirmed mean receive ack from gateway*/
 ![Active Devices](/assets/images/knowledge-hub/tutorials/how-to-connect-lora-module-rak811-to-actility/active-devices.png)
 
 
-**Author**: Ken Yu<br>
-**Info**: Founder and CEO of RAKwireless. Making Things at #Rakwireless with The #RAKstars
+<rk-author />

@@ -1,12 +1,20 @@
 ---
-sidebar: auto
-sidebarDepth: auto
+sidebar: false
 rak_img: /assets/images/knowledge-hub/tutorials/uart-wifi-module-best-way-to-enhance-the-performance-economically/overview.png
-prev: /knowledge-hub/Learn/
-next: false
+rak_desc: This is some text to describe this article - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et ultricies massa, a consectetur lacus. Maecenas placerat molestie felis vel lobortis.
+tags:
+  - Tutorials
+header:
+  title: UART WiFi Module - Best Way to Enhance the Performance Economically
+  caption: by <b>Ken Yu</b> posted on Mar 20, 2017 10:30:00 AM
+  img: /assets/images/knowledge-hub/tutorials/uart-wifi-module-best-way-to-enhance-the-performance-economically/overview.png
+author:
+  name: Ken Yu
+  about: "Founder and CEO of RAKwireless. Making Things at #Rakwireless with The #RAKstars"
+  img: /assets/images/knowledge-hub/authors/ken-yu.jpg
 ---
 
-# 8 UART WiFi Module - Best Way to Enhance the Performance Economically
+# UART WiFi Module - Best Way to Enhance the Performance Economically
 
 A wireless module is a part of convenient software or hardware having the capability of execution with various wireless arrangements. It uses primarily as accompaniments for several electronic devices. Customers can find these modules in desired shapes and sizes according to their need.
 
@@ -30,5 +38,4 @@ The developers, who are doing custom code development by employing wireless tech
 
 Customers who want to enhance their performance at lowest price can purchase UART wifi with desired size. This highly designed module can act as, WIFI AP and usually make communication among Wi-Fi, Ethernet and UART.
 
-**Author**: Ken Yu<br>
-**Info**: Founder and CEO of RAKwireless. Making Things at #Rakwireless with The #RAKstars
+<rk-author />
