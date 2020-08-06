@@ -1,21 +1,6 @@
 ---
 rak_img: /assets/images/wislink-lte/rak2013/datasheet/rak2013.jpg
 rak_grp: wislink
-qlinks:
-  learnMore:
-    - name: Projects
-      href: https://www.hackster.io/search?q=RAK2013&i=projects
-    - name: Community
-      href: https://forum.rakwireless.com/
-    - name: Support
-      href: mailto:support@rakwireless.com
-  resources:
-    - name: Datasheet
-      href: /Product-Categories/WisLink/RAK2013/Datasheet/
-    - name: User Manual
-      href: /user-manual/
-    - name: Deployment Guide
-      href: /deployment-guide/
 ---
 
 # RAK2013 WisLink-LTE
@@ -39,8 +24,6 @@ The RAK2013 is compatible with RAK2245 Pi Hat Concentrator module via the onboar
   label="Get Started with RAK2013 WisLink-LTE"
 />
 
-<rk-quick-links :params="$frontmatter.qlinks" />
-
 ## Product Features
 
 - Compatible with Raspberry Pi 3B+ edition specification.
@@ -55,9 +38,3 @@ The RAK2013 is compatible with RAK2245 Pi Hat Concentrator module via the onboar
 - SMA/IPEX antenna optional for LTE and GPS.
 - Supports I2C, GPIOs, UART and ADC interfaces for Raspberry board.
 - Supports EEPROM to configure IOs automatically.
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak2013-cellular-pi-hat"
-  label="Buy a RAK2013 WisLink-LTE"
-  _blank
-/>

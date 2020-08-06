@@ -1,20 +1,6 @@
 ---
 rak_img: /assets/images/wistrio/rak8212/quickstart/overview/RAK8212.svg
 rak_grp: wistrio
-params:
-  qlinks:
-    learnMore:
-      - name: Community
-        href: https://forum.rakwireless.com/
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisTrio/RAK8212/Datasheet/
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 ---
 
 # RAK8212 iTracker Pro
@@ -42,8 +28,6 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
   label="Get Started with RAK8212 iTracker Pro"
 />
 
-<rk-quick-links :params="$frontmatter.params.qlinks" />
-
 ## Product Features
 
 - **Arduino Compatible** – Host controller NRF52832 has been widely used in Arduino environment
@@ -55,9 +39,3 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
 - Size: **43 mm x 38 mm x 18 mm**
 - **Operation temperature:** -40°C to +85°C
 - **Power supply**: 3.3 Volts to 5 Volts (power at solar panel connector P2).
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak8212-itracker-pro"
-  label="Buy a RAK8212 iTracker Pro"
-  _blank
-/>

@@ -4,17 +4,6 @@ rak_grp: WisDuino™
 prev: false
 next: false
 params:
-  qlinks:
-    learnMore:
-      - name: Community
-        href: https://forum.rakwireless.com/
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 ---
 
 # RAK811 WisDuino™
@@ -37,8 +26,6 @@ The module integrates the **Semtech SX1276** and a **STM32 Chip** that comes alo
   label="Get Started with RAK811 WisDuino™"
 />
 
-<rk-quick-links :params="$frontmatter.params.qlinks" />
-
 ## Product Features
 
 - LoRaWAN® 1.0.2 Standard support
@@ -46,9 +33,3 @@ The module integrates the **Semtech SX1276** and a **STM32 Chip** that comes alo
 - Arduino Uno form factor (standalone or as a shield)
 - Micro USB with UART converter for easy configuring
 - AT commands backed in the firmware, open source platform
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak811-wisnode-lora-module"
-  label="Buy a RAK811 WisDuino™"
-  _blank
-/>

@@ -1,23 +1,6 @@
 ---
 rak_img: /assets/images/wislink-lora/rak2247/quickstart/1.main/RAK2247.svg
 rak_grp: wislink
-qlinks:
-  learnMore:
-    - name: Projects
-      href: https://www.hackster.io/search?q=RAK2247&i=projects
-    - name: Community
-      href: https://forum.rakwireless.com
-    - name: Support
-      href: mailto:support@rakwireless.com
-  resources:
-    - name: Datasheet
-      href: /Product-Categories/WisLink/RAK2247/Datasheet
-    - name: Certification Report
-      href: /Product-Categories/WisLink/RAK2247/Datasheet/#certification
-    - name: User Manual
-      href: /user-manual/
-    - name: Deployment Guide
-      href: /deployment-guide/
 prev: false
 next: false
 ---
@@ -41,8 +24,6 @@ Despite its small size this is an 8 channel concentrator module. By integrating 
   label="Get Started with RAK2247 WisLink-LoRa"
 />
 
-<rk-quick-links :params="$frontmatter.qlinks" />
-
 ## Product Features
 
 - Mini PCIe form factor, mounted heat-sink.
@@ -53,9 +34,3 @@ Despite its small size this is an 8 channel concentrator module. By integrating 
 - Tx power up to 25 dBm, Rx sensitivity down to -139 dBm @ SF12, BW 125 kHz.
 - Supports the LoRaWAN® 1.0.2 protocol.
 - Supports global license-free frequency band (EU433, CN470, IN865, EU868, US915, AU915, KR920, AS920 and AS923).
-
-<rk-btn 
-  src="https://store.rakwireless.com/products/rak2247-lorawan-gateway-concentrator-module"
-  label="Buy a RAK2247 WisLink-LoRa"
-  _blank
-/>

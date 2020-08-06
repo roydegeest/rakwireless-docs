@@ -3,20 +3,6 @@ rak_img: /assets/images/wisnode/rak7431/datasheet/RAK7431.png
 rak_grp: [wisnode,bridge]
 prev: false
 next: false
-params:
-  qlinks:
-    learnMore:
-      - name: Community
-        href: https://forum.rakwireless.com/
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisNode/RAK7431/Datasheet/
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 ---
 
 # RAK7431 WisNode Bridge
@@ -42,8 +28,6 @@ RAK7431 together with RAK gateway and LoRa® Server products, can easily and qui
   label="Get Started with RAK7431 WisNode Bridge"
 />
 
-<rk-quick-links :params="$frontmatter.params.qlinks" />
-
 ## Product Features
 
 - **LoRaWAN® 1.0.3** protocol stack, supports Class A, Class B & C
@@ -55,9 +39,3 @@ RAK7431 together with RAK gateway and LoRa® Server products, can easily and qui
 - Can power RS485 devices via a dedicated output.
 - Mounting: Wall, DIN rail, and magnetic mounting
 - Compliant with IEC61000-4-2, IEC61000-4-4 and 18KV HMB ESD protection
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak7431"
-  label="Buy a RAK7431 WisNode Bridge"
-  _blank
-/>

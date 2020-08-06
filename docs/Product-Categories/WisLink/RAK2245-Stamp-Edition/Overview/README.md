@@ -1,22 +1,6 @@
 ---
 rak_img: /assets/images/wislink-lora/rak2245-stamp-edition/quickstart/overview/RAK2245-stamp-edition.svg
 rak_grp: wislink
-qlinks:
-  learnMore:
-    - name: Projects
-      href: https://www.hackster.io/search?i=projects&q=RAK2245
-    - name: Community
-      href: https://forum.rakwireless.com/
-    - name: Support
-      href: mailto:support@rakwireless.com
-  resources:
-    - name: Datasheet
-      href: /Product-Categories/WisLink/RAK2245-Stamp-Edition/Datasheet
-    - name: User Manual
-      href: /user-manual/
-    - name: Deployment Guide
-      href: /deployment-guide/
-
 prev: false
 next: false
 ---
@@ -42,8 +26,6 @@ Overall, this gateway module is the most economical way to create different solu
   label="Get Started with RAK2245 WisLink-LoRa Stamp Edition"
 />
 
-<rk-quick-links :params="$frontmatter.qlinks" />
-
 ## Product Features
 
 - Compatible with Stamp Edition specifications with mounted heat-sink.
@@ -55,9 +37,3 @@ Overall, this gateway module is the most economical way to create different solu
 - Supports global license-free frequency band (EU433, CN470, IN865, EU868, US915, AU915, KR920, AS920 and AS923).
 - Supports SPI interface.
 - Integrated the Ublox MAX-7Q GPS Module.
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak2245-stamp-edition"
-  label="Buy a RAK2245 WisLink-LoRa Stamp Edition"
-  _blank
-/>

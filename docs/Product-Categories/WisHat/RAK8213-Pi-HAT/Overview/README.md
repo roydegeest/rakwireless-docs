@@ -2,24 +2,6 @@
 static_root: /assets/images/wishat/rak8213-pi-hat/datasheet/
 rak_img: /assets/images/wishat/rak8213-pi-hat/datasheet/rak8213-pi-hat.png
 rak_grp: wishat
-prev: false
-next: false
-params:
-  qlinks1:
-    learnMore:
-      - name: Projects
-        href: https://www.hackster.io/search?q=rak4200&i=projects
-      - name: Community
-        href: https://forum.rakwireless.com
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisHat/RAK8213-Pi-HAT/Datasheet/
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 ---
 
 # RAK2287 WisHat™ Pi HAT

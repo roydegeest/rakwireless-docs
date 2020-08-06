@@ -1,22 +1,6 @@
 ---
 rak_img: /assets/images/wislink-lte/rak8213/quickstart/overview/rak8213.png
 rak_grp: wislink
-qlinks:
-  learnMore:
-    - name: Projects
-      href: https://www.hackster.io/search?q=rak8213&i=projects
-    - name: Community
-      href: https://forum.rakwireless.com/
-    - name: Support
-      href: mailto:support@rakwireless.com
-  resources:
-    - name: Datasheet
-      href: /Product-Categories/WisLink/RAK8213/Datasheet/
-    - name: User Manual
-      href: /user-manual/
-    - name: Deployment Guide
-      href: /deployment-guide/
-
 prev: false
 next: false
 ---
@@ -42,8 +26,6 @@ Rich Internet protocol, industry-standard interfaces (USB/UART/I2C/Status indica
   label="Get Started with RAK8213 WisLink NB-IoT Module"
 />
 
-<rk-quick-links :params="$frontmatter.qlinks" />
-
 ### Product Features
 
 - **LTE Cat. M1/Cat.NB1/EGPRS module** with Mini PCIe form factor, optimized for M2M and IoT applications.
@@ -54,9 +36,3 @@ Rich Internet protocol, industry-standard interfaces (USB/UART/I2C/Status indica
 - Easy migration from **Quectel GSM/GPRS, UMTS/HSPA and LTE modules**.
 - Robust mounting and interfaces.
 - PCM interface available for VOLTE.
-
-<rk-btn
-  src="https://store.rakwireless.com/"
-  label="Buy a RAK8213 NB-IoT Module"
-  _blank
-/>
