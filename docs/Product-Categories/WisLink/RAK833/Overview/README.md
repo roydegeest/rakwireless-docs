@@ -7,12 +7,15 @@ next: false
 ---
 
 # RAK833 WisLink-Lora™
+Thank You For choosing **RAK833 WisLink-Lora™** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Datasheet](../Datasheet/)
+
+<!-- <rk-img
   src="/assets/images/wislink-lora/rak833/datasheet/rak833.png"
   width="60%"
   caption="RAK833 WisLink-Lora™"
-/>
+/> -->
 
 ## Product Description
 
@@ -20,10 +23,10 @@ The **RAK833 WisLink-Lora™** is a family of LoRa® concentrator modules with m
 
 RAK833 WisLink-Lora™ is a complete and cost efficient gateway solution offering up to 10 programmable parallel demodulation paths. It is targeted at smart metering fixed networks and Internet of Things applications with up to 500 nodes per square kilometer (km²) in moderately interfered environment. These modules have the industry standard PCI Express Mini Card form factor which enables easy integration into an application board.
 
-<rk-btn
+<!-- <rk-btn
   src="../Quickstart/"
   label="Get Started with RAK833 WisLink-Lora™"
-/>
+/> -->
 
 ## Product Features
 

@@ -7,12 +7,15 @@ next: false
 ---
 
 # RAK2245 WisLink-LoRa Stamp Edition
+Thank You For choosing **RAK2245 WisLink-LoRa Stamp Edition** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Quick Start Guide](../Quickstart/)
+* [Datasheet](../Datasheet/)
+<!-- <rk-img
   src="/assets/images/wislink-lora/rak2245-stamp-edition/datasheet/overview/r8b1kuz7nsyovmac80kq.png"
   width="60%"
   caption="RAK2245 Stamp Edition"
-/>
+/> -->
 
 ## Product Description
 
@@ -22,10 +25,10 @@ The Stamp form factor feature enables easy integration into the system's main bo
 
 Overall, this gateway module is the most economical way to create different solutions like smart grid, intelligent farm and other IoT applications. It is also ideal for manufacturing small series that can expand into more applications.
 
-<rk-btn
+<!-- <rk-btn
   src="../quickstart/"
   label="Get Started with RAK2245 WisLink-LoRa Stamp Edition"
-/>
+/> -->
 
 ## Product Features
 

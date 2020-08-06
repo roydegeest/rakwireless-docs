@@ -7,12 +7,14 @@ next: false
 ---
 
 # RAK831 WisLink-LoRa
+Thank You For choosing **RAK831 WisLink-LoRa** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Datasheet](../Datasheet/)
+<!-- <rk-img
   src="/assets/images/wislink-lora/rak831/datasheet/rak831-overview.png"
   width="50%"
   caption="RAK831 LPWAN Gateway"
-/>
+/> -->
 
 ## Product Description
 
@@ -28,10 +30,10 @@ End-point nodes (e.g. sensor nodes) can change frequency with each transmission 
 
 Applications possible with the RAK831 include Smart Metering , Wireless Star Networks, Home, Building, Industrial automation, Remote Control, Wireless Sensors Network, M2M, IoT and Wireless Alarm and Security Systems.
 
-<rk-btn
+<!-- <rk-btn
   src="../Quickstart/"
   label="Get Started with RAK831 WisLink-LoRa"
-/>
+/> -->
 
 ## Product Features
 

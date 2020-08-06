@@ -7,24 +7,27 @@ next: false
 ---
 
 # RAK7205/RAK5205 WisTrio LPWAN Tracker
+Thank You For choosing **RAK7205/RAK5205 WisTrio LPWAN Tracker** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Quick Start Guide](../Quickstart/)
+* [Datsaheet](../Datasheet/)
+<!-- <rk-img
   src="/assets/images/wistrio/rak7205-5205/quickstart/overview/exlexmejfxoowom4gmuf.jpg"
   width="70%"
   figure-number="1"
   caption="RAK7205/RAK5205 WisTrio LPWAN Tracker Product View"
-/>
+/> -->
 
-## Product Background
+## Product Description
 
 The RAK5205 LPWAN Tracker Board is built on the Semtech SX1276 chip, with the STM32L1 MCU at its core. It is a feature-packed sensor board with LoRa® connectivity and built-in GPS. It provides various interfaces for easy application development.
 
 This node module is ideal as a quick prototyping tool for LoRaWAN® applications. It is perfect for use case scenarios such as asset tracking, smart vehicle management and location-based services.
 
-<rk-btn
+<!-- <rk-btn
   src="/Product-Categories/WisTrio/RAK7205-5205/Quickstart/"
   label="Get Started with RAK5205 WisTrio LPWAN Tracker"
-/>
+/> -->
 
 
 ## Product Features

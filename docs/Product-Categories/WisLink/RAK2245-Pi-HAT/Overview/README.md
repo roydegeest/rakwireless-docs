@@ -8,11 +8,15 @@ next: false
 
 # RAK2245 Pi HAT WisLink-LoRa
 
-<rk-img
+Thank You For choosing **RAK2245 Pi HAT WisLink-LoRa** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+
+* [Quick Start Guide](../Quickstart/)
+* [Datasheet](../Datasheet/)
+<!-- <rk-img
   src="/assets/images/wislink-lora/rak2245-pi-hat-edition/datasheet/rak2245-pihat-overview.png"
   width="50%"
   caption="RAK2245 Pi Hat"
-/>
+/> -->
 
 ## Product Description
 
@@ -23,10 +27,10 @@ The board can provide low data rate LoRa® radio links in ultra-fast speed. It i
 
 The RAK2245 Pi HAT is a complete and cost efficient gateway solution that can help you develop a full LoRa® system. This is an economical way to create different solutions like smart grid, intelligent farm and other IoT applications. It is also ideal for manufacturing small series that can expand into more applications.
 
-<rk-btn
+<!-- <rk-btn
   src="../Quickstart/"
   label="Get Started with RAK2245 Pi HAT WisLink-LoRa"
-/>
+/> -->
 
 ## Product Features
 

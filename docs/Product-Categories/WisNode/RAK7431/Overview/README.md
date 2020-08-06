@@ -7,12 +7,16 @@ next: false
 ---
 
 # RAK7431 WisNode Bridge
+Thank You For choosing **RAK7431 WisNode Bridge** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Quick Start Guide](../Quickstart/)
+* [Datasheet](../Datasheet/)
+
+<!-- <rk-img
   src="/assets/images/wisnode/rak7431/datasheet/rak7431-overview.jpg"
   width="50%"
   caption="RAK7431 WisNode Bridge"
-/>
+/> -->
 
 ## Product Description
 
@@ -24,10 +28,10 @@ This RS485 compatible devices can address up to 16 client terminal nodes. The co
 
 RAK7431 together with RAK gateway and LoRa® Server products, can easily and quickly build a wireless industrial field control system. It adopts industrial protection design, supports wide range voltage supply, supports wall mounting and DIN rail installation, facilitates field installation and use.
 
-<rk-btn
+<!-- <rk-btn
   src="/Product-Categories/WisNode/RAK7431/Datasheet/"
   label="Get Started with RAK7431 WisNode Bridge"
-/>
+/> -->
 
 ## Product Features
 

@@ -5,38 +5,20 @@ rak_desc: RAK811 Breakout Module is a wireless remote sensor node solution based
 rak_grp: wisbee
 prev: false
 next: false
-params:
-  qlinks:
-    learnMore:
-      - name: Projects 
-        href: https://www.hackster.io/search?i=projects&q=rak811
-      - name: Community
-        href: https://forum.rakwireless.com/
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisBee/RAK811-Breakout-Board/Datasheet/
-      - name: Certification Report
-        href: /Product-Categories/WisBee/RAK811-Breakout-Board/Datasheet/#certification
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 ---
 
 # RAK811 Breakout Module
 
-<rk-img
+Thank You For choosing **RAK811 Breakout Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+
+* [Quick Start Guide](../Quickstart/)
+* [Datasheet](../Datasheet/)
+<!-- <rk-img
   :src="`${$frontmatter.static_root}/bnq9nqrvkrjojq89feoq.jpg`"
   width="70%"
-<<<<<<< HEAD
   figure-number="1"
   caption="RAK811 Breakout Module"
-=======
-  caption="RAK811 WisBee™ Breakout Module"
->>>>>>> 709700640f5165cb1ea36a2223380125adedf3f5
-/>
+/> -->
 
 ## Product Background
 
@@ -46,13 +28,12 @@ This node has an expandable sensor interface, which greatly increases the produc
 
 Overall, this node has various functionalities and applications designed in single board that could help you develop your own LPWAN Projects.
 
-
+<!-- 
 <rk-btn
   src="/Product-Categories/WisBee/RAK811-Breakout-Board/Quickstart/#quick-start-guide"
   label="Get Started with RAK811 Breakout Module"
-/>
+/> -->
 
-<rk-quick-links :params="$frontmatter.params.qlinks" />
 
 ## Product Features
 
@@ -66,8 +47,3 @@ Overall, this node has various functionalities and applications designed in sing
 - **Operating temperature**: -40°C ~ 85°C (industrial grade)
 - **Storage temperature**: -40°C ~ 85°C (non-condensing)
 
-<rk-btn
-  src="https://store.rakwireless.com/products/rak811-lpwan-breakout-module"
-  label="Buy a RAK811 Breakout Module"
-  _blank
-/>
