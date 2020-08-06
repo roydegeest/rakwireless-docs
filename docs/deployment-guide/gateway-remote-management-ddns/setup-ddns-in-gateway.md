@@ -28,9 +28,9 @@ next: false
 
 * **Lookup Hostname**: dyndnss.net
 * **DDNS Service provider**: dyndnss.net
-* **Hostname/Domain**: The domain created in the [Create a DynDNS URL](/en-us/deployment-guide/gateway-remote-management-ddns/register-ddns-service.html#create-a-dyndns-url) (see Figure 4)
+* **Hostname/Domain**: The domain created in the [Create a DynDNS URL](/deployment-guide/gateway-remote-management-ddns/register-ddns-service.html#create-a-dyndns-url) (see Figure 4)
 * **Username**: DynDNSS Username used.
-* **Password**: DynDNSS Password [Create a DynDNS URL](/en-us/deployment-guide/gateway-remote-management-ddns/register-ddns-service.html#create-a-dyndns-url) (see Figure 5).
+* **Password**: DynDNSS Password [Create a DynDNS URL](/deployment-guide/gateway-remote-management-ddns/register-ddns-service.html#create-a-dyndns-url) (see Figure 5).
 
 <rk-img
   src="/assets/images/deployment-guide/gateway-remote-management-ddns/ddns-service-setup/ddns-basic-config.jpg"
