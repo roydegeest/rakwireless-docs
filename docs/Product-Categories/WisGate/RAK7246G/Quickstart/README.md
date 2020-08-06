@@ -17,7 +17,7 @@ next: false
 
 ### What do you need?
 
-1. RAK7246G WisGate™ Developer
+1. RAK7246G Developer
 2. 16GB SD Card (included) + Card Reader
 3. 5V at least 2.5A Micro USB Power Supply (not included)
 4. A Windows/Mac OS/Linux Computer
@@ -35,10 +35,10 @@ next: false
 
 ### Accessing your Gateway
 
-After burning the image into the SD Card, make sure you have inserted the SD Card with the Latest Firmware installed to the **RAK7246G WisGate™ Developer** and the LoRa® and GPS Antenna attached to it. After which, you can now safely power on the gateway.
+After burning the image into the SD Card, make sure you have inserted the SD Card with the Latest Firmware installed to the **RAK7246G Developer** and the LoRa® and GPS Antenna attached to it. After which, you can now safely power on the gateway.
 
 :::warning ⚠️WARNING
-Before powering the RAK7246G WisGate™ Developer, you must install the LoRa® and GPS antennas. Not doing so might damage the boards.
+Before powering the RAK7246G Developer, you must install the LoRa® and GPS antennas. Not doing so might damage the boards.
 :::
 
 #### Wi-Fi AP Mode
@@ -116,7 +116,7 @@ You will now then see a page like the following picture below
 
 #### Connect through Wi-Fi
 
-If you want to connect through Wi-Fi, it can easily be done with the Wireless capabilities of the Raspberry Pi Zero W by choosing "**5 Configure WIFI**". By default, the RAK7246G WisGate™ Developer works in Wi-Fi AP Mode. In order for the Gateway to connect to the router, it must work in Wi-Fi Client Mode.
+If you want to connect through Wi-Fi, it can easily be done with the Wireless capabilities of the Raspberry Pi Zero W by choosing "**5 Configure WIFI**". By default, the RAK7246G Developer works in Wi-Fi AP Mode. In order for the Gateway to connect to the router, it must work in Wi-Fi Client Mode.
 
 <rk-img 
   src="/assets/images/wisgate/rak7246g/quickstart/config-wifi.png" 
@@ -184,9 +184,9 @@ These configurations under this section are only optional and situational.
 
 ##### Reverting Back to Wi-Fi AP Mode
 
-In the event that you have entered either or both incorrect Wi-Fi SSID and Password in the Wi-Fi Client Mode setup for the RAK7246G WisGate™ Developer to connect to the router, follow these set of steps for you to work again in Wi-Fi AP Mode and redo the setup.
+In the event that you have entered either or both incorrect Wi-Fi SSID and Password in the Wi-Fi Client Mode setup for the RAK7246G Developer to connect to the router, follow these set of steps for you to work again in Wi-Fi AP Mode and redo the setup.
 
-- Remove the SD Card from your RAK7246G WisGate™ Developer and insert it into your PC. Your PC should be able to detect it same with the image below:
+- Remove the SD Card from your RAK7246G Developer and insert it into your PC. Your PC should be able to detect it same with the image below:
 
 <rk-img
   src="/assets/images/wisgate/rak7246g/quickstart/rak_ap.png"
@@ -200,7 +200,7 @@ In the event that you have entered either or both incorrect Wi-Fi SSID and Passw
 cd > rak_ap
 ```
 
-- Check if the rak_ap file is created successfully. If so, re-insert the SD Card into your RAK7246G WisGate™ Developer and it should work again in Wi-Fi AP Mode.
+- Check if the rak_ap file is created successfully. If so, re-insert the SD Card into your RAK7246G Developer and it should work again in Wi-Fi AP Mode.
 
 
 ### Configuring the Gateway
@@ -338,7 +338,7 @@ Then, set the IP address of the ChirpStack which you want your Gateway to work w
 />
 
 :::tip 📝 NOTE:
- Unlike the other RAK boards, the RAK7246G WisGate™ Developer does not have a Built-in LoRa® Server. In this document, the IP Address of the Chirpstack is shown above. If you have another ChirpStack, you can fill its IP address here too.
+ Unlike the other RAK boards, the RAK7246G Developer does not have a Built-in LoRa® Server. In this document, the IP Address of the Chirpstack is shown above. If you have another ChirpStack, you can fill its IP address here too.
 :::
 
 You can then open your Chirpstack webpage by using the link below as an example. Make sure to have the [**IP Address**] changed same with what you have input in the previous step.
@@ -389,7 +389,7 @@ The Things Network is about enabling low power devices to use long range gateway
 <rk-img
   src="/assets/images/wisgate/rak7246g/quickstart/gateway_id.png"
   width="100%"
-  caption="RAK7246G WisGate™ Developer Gateway ID in SSH"
+  caption="RAK7246G Developer Gateway ID in SSH"
 />
 
 :::tip 📝 NOTE:
@@ -408,7 +408,7 @@ Click Register Gateway and wait for a couple of minutes . If the status of your 
 <rk-img
   src="/assets/images/wisgate/rak7246g/quickstart/connection_success.png"
   width="100%"
-  caption="RAK7246G WisGate™ Developer TTN Connection Success"
+  caption="RAK7246G Developer TTN Connection Success"
 />
 
 ### Connect the Gateway with Chirpstack
@@ -416,7 +416,7 @@ Click Register Gateway and wait for a couple of minutes . If the status of your 
 The ChirpStack or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [here](https://www.chirpstack.io/).
 
 #### Using an Independent ChirpStack
-Since the RAK7246G WisGate™ Developer does not include a built-in Chirpstack, choose in the ways provided below so you can get an independent ChirpStack:
+Since the RAK7246G Developer does not include a built-in Chirpstack, choose in the ways provided below so you can get an independent ChirpStack:
 1. Use RAK's Cloud TestingChirpStack - If you want to use RAK's Cloud Testing ChirpStack, contact RAK's Technical Support in the Forum: [RAK Free Cloud Server for Testing](https://forum.rakwireless.com/t/rak-free-cloud-loraserver-for-testing/344)
 2. Setup an Independent ChirpStack by yourself.
 
@@ -487,7 +487,7 @@ Assuming you have set it up correctly, Login to your ChirpStack to register your
   caption=" Successfully Registered the Gateway"
 />
 
-* By clicking the Live LORAWAN® FRAMES tab, you can check the LoRa® packets sent by the nodes into your RAK7246G WisGate™ Developer
+* By clicking the Live LORAWAN® FRAMES tab, you can check the LoRa® packets sent by the nodes into your RAK7246G Developer
 
 **Congratulations!** :tada: You have connected your Gateway to an external ChirpStack Successfully!
 
@@ -534,7 +534,7 @@ width="100%"
 caption= "ResIOT LoRaWAN® Frequency Plan"
 />
 
-* We will now then setup your RAK7246G WisGate™ Developer by clicking the "**Step 1: Add Gateway Wizard**".
+* We will now then setup your RAK7246G Developer by clicking the "**Step 1: Add Gateway Wizard**".
 
 <rk-img
 src="/assets/images/wisgate/rak7246g/quickstart/resiot_add_gateway.png"
@@ -546,7 +546,7 @@ caption=" Adding your Gateway in ResIOT"
 <rk-img
 src="/assets/images/wisgate/rak7246g/quickstart/resiot_choose_gateway.png"
 width="100%"
-caption="Choosing IMST iC880a + Raspberry Pi for your RAK7246G WisGate™ Developer"
+caption="Choosing IMST iC880a + Raspberry Pi for your RAK7246G Developer"
 />
 
 * Afterwhich, a new page will show up asking you to fill in the necessary credentials.
@@ -558,13 +558,13 @@ caption="Adding Credentials in Gateway Setup"
 />
 
 1. **Name:** You can fill in any content based on your preference
-2. **Mac Address:** This is the Wi-Fi MAC Address of your RAK7246G WisGate™ Developer. You can get the Mac Address by typing `ifconfig` command in the terminal you accessed through SSH.
+2. **Mac Address:** This is the Wi-Fi MAC Address of your RAK7246G Developer. You can get the Mac Address by typing `ifconfig` command in the terminal you accessed through SSH.
 
 
 <rk-img
 src="/assets/images/wisgate/rak7246g/quickstart/resiot_ifconfig.png"
 width="80%"
-caption="Getting the Wi-Fi MAC Address of the RAK7246G WisGate™ Developer"
+caption="Getting the Wi-Fi MAC Address of the RAK7246G Developer"
 />
 
 3. **Gateway EUI/ID:** This is the Gateway ID which you can get in the [Configuring your Gateway](/Product-Categories/WisGate/RAK7246G/Quickstart/#configuring-the-gateway) section.
@@ -572,7 +572,7 @@ caption="Getting the Wi-Fi MAC Address of the RAK7246G WisGate™ Developer"
 <rk-img 
   src="/assets/images/wisgate/rak7246g/quickstart/gateway_id.png" 
   width="100%"
-  caption="Getting the Gateway ID of the RAK7246G WisGate™ Developer"
+  caption="Getting the Gateway ID of the RAK7246G Developer"
 />
 
 * After getting all the necessary credentials, fill in the data ang click "**Save Config**" button.
@@ -583,7 +583,7 @@ caption="Getting the Wi-Fi MAC Address of the RAK7246G WisGate™ Developer"
   caption="Saving the Gateway Configuration for the RAK7246G in ResIOT"
 />
 
-* Login back to the RAK7246G WisGate™ Developer and choose "**4 Edit packet-forwarder config**" through SSH.
+* Login back to the RAK7246G Developer and choose "**4 Edit packet-forwarder config**" through SSH.
 
 <rk-img 
   src="/assets/images/wisgate/rak7246g/quickstart/edit_packet_forwarder.png"
@@ -608,7 +608,7 @@ caption="Getting the Wi-Fi MAC Address of the RAK7246G WisGate™ Developer"
 />
 
 * Click the hotkey "Ctrl + X" to stop editing the Json File and Press "Y" to save the modifications.
-* If you could see a Green Check Mark :heavy_check_mark: same with the image shown below, that means that you have successfully connected your RAK7246G WisGate™ Developer with ResIOT. Congratulations! :tada:
+* If you could see a Green Check Mark :heavy_check_mark: same with the image shown below, that means that you have successfully connected your RAK7246G Developer with ResIOT. Congratulations! :tada:
 
 <rk-img 
   src="/assets/images/wisgate/rak7246g/quickstart/resiot_success.png" 

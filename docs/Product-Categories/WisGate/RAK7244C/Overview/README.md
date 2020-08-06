@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/wisgate/rak7244c/quickstart/overview
 rak_img: /assets/images/wisgate/rak7244c/quickstart/overview/RAK7244C.svg
+rak_desc: The RAK7244C Developer is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. It is built with the RAK2245 Pi Hat stacked with the newest Raspberry Pi 4, along with the GPS module and Heat Sink, increasing its performance and thermal dissipation, plus a RAK2013 Cellular Pi HAT for cellular connectivity.
 rak_grp: [wisgate, developer]
 prev: false
 next: false
@@ -22,18 +23,18 @@ params:
         href: /deployment-guide/ 
 ---
 
-# RAK7244C WisGate™ Developer D4+
+# RAK7244C Developer D4+
 
 &nbsp;
 <rk-img
   :src="`${$frontmatter.static_root}/eqijenycxekcw9g3n0ux.jpg`"
   width="65%"
-  caption="RAK7244C WisGate™ Developer"
+  caption="RAK7244C Developer"
 />
 
 ## Product Background
 
-The **RAK7244C WisGate™ Developer** is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. It is built with the RAK2245 Pi Hat stacked with the newest Raspberry Pi 4, along with the GPS module and Heat Sink, increasing its performance and thermal dissipation, plus a RAK2013 Cellular Pi HAT for cellular connectivity. The housing for the device is durable and entirely built from aluminum.
+The **RAK7244C Developer** is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. It is built with the RAK2245 Pi Hat stacked with the newest Raspberry Pi 4, along with the GPS module and Heat Sink, increasing its performance and thermal dissipation, plus a RAK2013 Cellular Pi HAT for cellular connectivity. The housing for the device is durable and entirely built from aluminum.
 
 The gateway has a powerful LoRa® digital signal processing engine from Semtech SX1301 RF front end chip. It is capable of receiving up to 8 LoRa® packets simultaneously sent with different spreading factors on different channels. It is available in multiple variants to be accessible in all LoRa Alliance® frequency bands. This breakthrough allows innovative network architecture to be implemented that has a huge impact over other short range systems. The cellular function of the gateway having RAK2013 gives way to more M2M and IoT applications.
 
@@ -41,7 +42,7 @@ Overall, this Gateway has various functionalities that are ideal for prototyping
 
 <rk-btn
   src="/Product-Categories/WisGate/RAK7244C/Quickstart/"
-  label="Get Started with RAK7244C WisGate™ Developer"
+  label="Get Started with RAK7244C Developer"
 />
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
@@ -60,7 +61,7 @@ Overall, this Gateway has various functionalities that are ideal for prototyping
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak7244-lpwan-developer-gateway?variant=31446039887917"
-  label="Buy a RAK7244C WisGate™ Developer"
+  label="Buy a RAK7244C Developer"
   _blank
 />
 

@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/wisgate/rak7246g/quickstart/
 rak_img: /assets/images/wisgate/rak7246g/quickstart/RAK7246.png
+rak_desc: The RAK7246G is an LPWAN Developer Gateway with GPS function. It is a device composed of a the RAK2246 Pi HAT LPWAN Concentrator module and Raspberry Pi Zero W.
 rak_grp: [wisgate, developer]
 prev: false
 next: false
@@ -23,12 +24,12 @@ params:
 
 ---
 
-# RAK7246G WisGate™ Developer D0+
+# RAK7246G Developer D0+
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak7246.jpg`"
   width="100%"
-  caption="RAK7246G WisGate™ Developer"
+  caption="RAK7246G Developer"
 />
 
 ## Product Background
@@ -37,11 +38,11 @@ The **RAK7246G** is an LPWAN Developer Gateway with GPS function. It is a device
 
 The RAK2246 Pi HAT is based on a **Semtech SX1308** chip, which allows for simultaneous reception over 8 LoRa® channels, which cover the entirety of the international high-frequency LoRaWAN® space.
 
-The RAK7246G WisGate™ Developer is an ideal choice for prototype design, concept verification and demonstrations, development evaluation and other scenarios. It is developer-friendly due to its minimalistic design that reduces cost and allows for easily accessing the internals. It is easy to set-up, which makes it a good choice for both experienced and novice LoRa® specialists.
+The RAK7246G Developer is an ideal choice for prototype design, concept verification and demonstrations, development evaluation and other scenarios. It is developer-friendly due to its minimalistic design that reduces cost and allows for easily accessing the internals. It is easy to set-up, which makes it a good choice for both experienced and novice LoRa® specialists.
 
 <rk-btn
   src="/Product-Categories/WisGate/RAK7246G/Quickstart/"
-  label="Get Started with RAK7246G WisGate™ Developer"
+  label="Get Started with RAK7246G Developer"
 />
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
@@ -56,6 +57,6 @@ The RAK7246G WisGate™ Developer is an ideal choice for prototype design, conce
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak7246-lorawan-developer-gateway"
-  label="Buy a RAK7246G WisGate™ Developer"
+  label="Buy a RAK7246G Developer"
   _blank
 />

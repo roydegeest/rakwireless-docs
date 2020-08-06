@@ -10,11 +10,12 @@ params:
         href: mailto:support@rakwireless.com
 rak_grp : wisduo
 rak_img: /assets/images/wisduo/rak4260-module/overview/RAK4260_LoRa_Module.png
+rak_desc: The RAK4260 LPWAN Module is based on Microchip’s ATSAMR34J18B. It is a SiP device integrating a 32-bit ARM Cortex -M0+ MCU with a LoRa® Transceiver in a 6 millimeter x 6 millimeter compact BGA package.
 prev: false
 next: false
 ---
 
-# RAK4260 WisDuo™ LPWAN Module
+# RAK4260 LPWAN Module
 
 <rk-img
   src="/assets/images/wisduo/rak4260-module/overview/rak4260.png"
@@ -24,7 +25,7 @@ next: false
 
 ## Product Description
 
-The **RAK4260 module** is based on **Microchip’s ATSAMR34J18B**. It is a SiP device integrating a 32-bit ARM Cortex -M0+ MCU with a LoRa® Transceiver in a 6 millimeter x 6 millimeter compact BGA package.
+The **RAK4260 LPWAN Module** is based on **Microchip’s ATSAMR34J18B**. It is a SiP device integrating a 32-bit ARM Cortex -M0+ MCU with a LoRa® Transceiver in a 6 millimeter x 6 millimeter compact BGA package.
 
 The SAMR chip provides a number of highly configurable peripherals (configurable as I2C/SPI/UART interfaces). There are 12-bit ADC in addition to the aforementioned.
 

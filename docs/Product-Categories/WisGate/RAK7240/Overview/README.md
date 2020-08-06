@@ -1,5 +1,6 @@
 ---
 rak_img: /assets/images/wisgate/rak7240/quickstart/rak7240.png
+rak_desc: The RAK7240 Prime is an ideal product for large scale LPWAN deployment where cost is essential, however there is no compromises to be made on quality. Its wide range of customization options allow for flexibility when deploying a solution. With its industrial-grade components and high class of ingress protection, it achieves a high standard of reliability.
 rak_grp: [wisgate, edge]
 prev: false
 next: false
@@ -23,26 +24,26 @@ params:
         href: /deployment-guide/
 ---
 
-# RAK7240 WisGate™ Edge Prime
+# RAK7240 Prime
 
 <rk-img
   src="/assets/images/wisgate/rak7240/quickstart/1.rak7240-overview.jpg"
   width="100%"
-  caption="RAK7240 WisGate™ Edge Prime""
+  caption="RAK7240 Prime""
 />
 
 
 ## Product Background
 
-The **RAK7240 WisGate™ Edge Prime** is an ideal product for large scale LPWAN deployment where cost is essential, however there is no compromises to be made on quality. Its wide range of customization options allow for flexibility when deploying a solution. With its industrial-grade components and high class of ingress protection, it achieves a high standard of reliability.
+The **RAK7240 Prime** is an ideal product for large scale LPWAN deployment where cost is essential, however there is no compromises to be made on quality. Its wide range of customization options allow for flexibility when deploying a solution. With its industrial-grade components and high class of ingress protection, it achieves a high standard of reliability.
 
 The Gateway provides for a solid out of the box experience where quick deployment is required. Additionally, since its software and User Interface sit on top of OpenWRT, it is perfect for the development of custom applications (**via the open SDK**).
 
-Thus, the **RAK7240 WisGate™ Edge Prime**, is suited for any use case scenario, be it rapid deployment or customization with regards to User Interface and functionality.
+Thus, the **RAK7240 Prime**, is suited for any use case scenario, be it rapid deployment or customization with regards to User Interface and functionality.
 
 <rk-btn
   src="/Product-Categories/WisGate/RAK7240/Quickstart/#quick-start-guide"
-  label="Get Started with RAK7240 WisGate™ Edge Prime"
+  label="Get Started with RAK7240 Prime"
 />
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
@@ -71,7 +72,7 @@ Thus, the **RAK7240 WisGate™ Edge Prime**, is suited for any use case scenario
 
 <rk-btn
   src="https://store.rakwireless.com/"
-  label="Buy a RAK7240 WisGate™ Edge Prime"
+  label="Buy a RAK7240 Prime"
   _blank
 />
 

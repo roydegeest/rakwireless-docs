@@ -10,14 +10,14 @@ next: false
 <rk-img
   src="/assets/images/wisbee/rak811-breakout-board/quickstart/quick-start-guide/dzsrvm2eaasyt3shktdh.png"
   width="35%"
-  caption="RAK811 WisBee™ Breakout Module"
+  caption="RAK811 Breakout Module"
 />
 
 ### What do you need?
 
 Before going through each and every step in the installation and guide of the LPWAN Breakout Module, make sure to prepare the necessary items listed below:
 
-1. **RAK811 WisBee™ Breakout Module**
+1. **RAK811 Breakout Module**
 2. USB-UART Module
 3. Gateway in Range for Testing
 4. Jumper Wires
@@ -26,7 +26,7 @@ Before going through each and every step in the installation and guide of the LP
 
 
 ::: tip 📝 NOTE
-The bootloader of the RAK811 WisBee™ Breakout Module is already pre-installed upon manufacturing so flashing the bootloader is not necessary for you to perform. If you find that the bootloader of your RAK811 WisBee™ Breakout Module damaged, kindly contact our support though our [RAKwireless forum](https://forum.rakwireless.com/). However, if you want to upgrade the firmware of the device, please refer to the documentation below:
+The bootloader of the RAK811 Breakout Module is already pre-installed upon manufacturing so flashing the bootloader is not necessary for you to perform. If you find that the bootloader of your RAK811 Breakout Module damaged, kindly contact our support though our [RAKwireless forum](https://forum.rakwireless.com/). However, if you want to upgrade the firmware of the device, please refer to the documentation below:
 
 1. [Upgrading the Firmware](/Product-Categories/WisBee/RAK811-Breakout-Board/Quickstart/#upgrading-the-firmware)
    :::
@@ -38,12 +38,12 @@ The bootloader of the RAK811 WisBee™ Breakout Module is already pre-installed 
 
 ## Product Configuration
 
-### Interfacing with RAK811 WisBee™ Breakout Module
+### Interfacing with RAK811 Breakout Module
 
-In order for you to be able to interface with the RAK811 WisBee™ Breakout Module with your Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
+In order for you to be able to interface with the RAK811 Breakout Module with your Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
 
 ::: warning ⚠️ WARNING
-Before powering the RAK811 WisBee™ Breakout Module , you should install the LoRa antenna first . Not doing so might damage the board
+Before powering the RAK811 Breakout Module , you should install the LoRa antenna first . Not doing so might damage the board
 :::
 
 - Connect your RAK811 LPWAN Breakout Board with the following diagram below.
@@ -52,7 +52,7 @@ Before powering the RAK811 WisBee™ Breakout Module , you should install the Lo
 <rk-img
  src="/assets/images/wisbee/rak811-breakout-board/quickstart/interfacing-with-rak811-breakout/pinout_diagram.png"
   width="85%"
-  caption="RAK811 WisBee™ Breakout Module Pinout Diagram"
+  caption="RAK811 Breakout Module Pinout Diagram"
 />
 
 <rk-img
@@ -89,9 +89,9 @@ Before powering the RAK811 WisBee™ Breakout Module , you should install the Lo
 ### Connecting to The Things Network (TTN)
 
 The Things Network is about enabling low power devices to be used in long range gateways that connect to an open-source, decentralized network and exchange data with Applications. Learn more about the Things Network [**here**](https://www.thethingsnetwork.org/docs/).
-In this section, we’ll show you how to connect the RAK811 WisBee™ Breakout Module with TTN.
+In this section, we’ll show you how to connect the RAK811 Breakout Module with TTN.
 
-1. First, **connect** the RAK811 WisBee™ Breakout Module to your PC and open the **Serial Port Tool**.
+1. First, **connect** the RAK811 Breakout Module to your PC and open the **Serial Port Tool**.
 
 2. Select the appropriate COM port and **open** it as in the image:
 
@@ -392,7 +392,7 @@ If you get a response in your TTN live data feed as in Figure 29, then you are a
 
 The ChirpStack or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [**here**](https://www.chirpstack.io/).
 
-You can use RAK811 WisBee™ Breakout Module to connect with ChirpStack according to the following steps:
+You can use RAK811 Breakout Module to connect with ChirpStack according to the following steps:
 
 ::: tip 📝 NOTE
 This section assumed that you had already connected your Gateway with TTN correctly. If not, please take a look at [RAK Document Center](/wisgate/rak7244c/quickstart/).
@@ -471,7 +471,7 @@ If you want to join in OTAA mode, select “**DeviceProfile_OTAA**” in the “
 
 3. Click "**SET DEVICE KEYS**” button. Now, you’ve completed the configuration on ChirpStack.
 
-- The Device EUI which was set in the previous section to your RAK811 WisBee™ Breakout Module as "dev_eui" is the same in the image highlighted below.
+- The Device EUI which was set in the previous section to your RAK811 Breakout Module as "dev_eui" is the same in the image highlighted below.
 
 <rk-img
   src="/assets/images/wisbee/rak811-breakout-board/quickstart/chirpstack-otaa-mode/tvgeeoltqkzdne3ya5qw.png"
@@ -488,10 +488,10 @@ If you want to join in OTAA mode, select “**DeviceProfile_OTAA**” in the “
 />
 
 ::: tip 📝 NOTE
-The Application EUI which was into RAK811 WisBee™ Breakout Module as “**app_eui**” is not needed for ChirpStack.
+The Application EUI which was into RAK811 Breakout Module as “**app_eui**” is not needed for ChirpStack.
 :::
 
-4. Next, let’s **configure** RAK811 WisBee™ Breakout Module by using **AT commands**. To do this, connect your RAK811 WisBee™ Breakout Module to a PC, power it on and open **RAK Serial Port Tool** on your computer.
+4. Next, let’s **configure** RAK811 Breakout Module by using **AT commands**. To do this, connect your RAK811 Breakout Module to a PC, power it on and open **RAK Serial Port Tool** on your computer.
 
 ```bash
 at+version
@@ -573,7 +573,7 @@ at+join
   caption="Join Request of the Device in the ChirpStack"
 />
 
-9. Let’s try sending data from our RAK811 WisBee™ Breakout Module to the ChirpStack by typing the command below in the serial port.
+9. Let’s try sending data from our RAK811 Breakout Module to the ChirpStack by typing the command below in the serial port.
 
 ```bash
 at+send=lora:2:1234567890
@@ -735,9 +735,9 @@ at+send=lora:2:1234567890
 
 In this section, I’ll show how to use LoRa® P2P mode. We will be using EU868 as our frequency, although it is applicable to other standard bands.
 
-1. First, find two RAK811 WisBee™ Breakout Module which can work on EU868 frequency and make sure their firmware version isn’t less than V3.0.0.1.
+1. First, find two RAK811 Breakout Module which can work on EU868 frequency and make sure their firmware version isn’t less than V3.0.0.1.
 
-2. Next, connect these two RAK811 WisBee™ Breakout Module with PC through UART, and open two serial port tool on PC.
+2. Next, connect these two RAK811 Breakout Module with PC through UART, and open two serial port tool on PC.
 
 3. Now, configure them to both work in LoRaP2P mode as follow:
 
@@ -787,11 +787,11 @@ at+send=lorap2p:12345678901234567890
   caption="Succeeding Messages sent to the other Node"
 />
 
-Yehey! You have successfully finished your RAK811 WisBee™ Breakout Module Set Up. You are now ready to develop the coolest project that could potentially change the world.
+Yehey! You have successfully finished your RAK811 Breakout Module Set Up. You are now ready to develop the coolest project that could potentially change the world.
 
 ## Miscellaneous
 
-### AT Commands for RAK811 WisBee™ Breakout Module
+### AT Commands for RAK811 Breakout Module
 
 The purpose of this section is to demonstrate on how to configure the RAK811 through the use of AT Commands via a Serial Port Tool running in your Windows PC. The list below shows the AT Commands available for use:
 
@@ -877,7 +877,7 @@ at+set_config=device:boot
 
 - We recommend you to use RAK serial port tool, because there are some ready AT commands in this tool and this will be very useful for you. You can get it from RAK website available for free at this **[RAK directory](https://downloads.rakwireless.com/en/LoRa/RAK811/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip)**.
 
-7. Choose the correct **COM port** and set the baud rate to **115200**. Then open the serial port and enter the AT command shown below to restart. Another option is to press the **RST** button on the RAK811 WisBee™ Breakout Module.
+7. Choose the correct **COM port** and set the baud rate to **115200**. Then open the serial port and enter the AT command shown below to restart. Another option is to press the **RST** button on the RAK811 Breakout Module.
 
 ```bash
 at+set_config=device:restart
@@ -891,4 +891,4 @@ at+set_config=device:restart
 
 This information means that you have uploaded the Firmware successfully!
 
-If you want to configure your RAK811 WisBee™ Breakout Module using the available **AT commands**, check [AT Commands for RAK811 WisBee™ Breakout Module](/Product-Categories/WisBee/RAK811-Breakout-Board/Quickstart/#at-commands-for-rak811-lpwan-breakout-module).
+If you want to configure your RAK811 Breakout Module using the available **AT commands**, check [AT Commands for RAK811 Breakout Module](/Product-Categories/WisBee/RAK811-Breakout-Board/Quickstart/#at-commands-for-rak811-lpwan-breakout-module).

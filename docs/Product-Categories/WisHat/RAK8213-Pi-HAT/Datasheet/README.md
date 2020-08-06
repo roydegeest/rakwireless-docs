@@ -7,18 +7,18 @@ tags:
 prev: /Product-Categories/WisHat/RAK8213-Pi-HAT/Overview/
 ---
 
-# RAK8213 WisBee™ Pi HAT Datasheet
+# RAK8213 Pi HAT Datasheet
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak8213-pi-hat.png`"
   width="75%"
-  caption="RAK2287 Pi Hat"
+  caption="RAK8213 Pi Hat"
 />
 
 
 ### Product Description
 
-**RAK8213 WisBee™ Pi HAT** is designed to work in conjunction with the **RAK8213 NB-IoT module**. It works as a converter for the RAK8213 mPCIe module to the **40-pin header connector** on the Raspberry Pi. Thus, the RAK8213 HAT allows one to easily add NB-IoT functionality to any Raspberry Pi.
+**RAK8213 Pi HAT** is designed to work in conjunction with the **RAK8213 NB-IoT module**. It works as a converter for the RAK8213 mPCIe module to the **40-pin header connector** on the Raspberry Pi. Thus, the RAK8213 HAT allows one to easily add NB-IoT functionality to any Raspberry Pi.
 
 ### Product Features
 
@@ -28,17 +28,17 @@ prev: /Product-Categories/WisHat/RAK8213-Pi-HAT/Overview/
 
 ## Block Diagram
 
-RAK8213 WisBee™ Pi HAT maps the RAK8213 pins from the 52pin mPCIe connector to the 40 pin Raspberry Pi connector. Refer to the block diagram in figure 1 shown below and the pin mapping table shown in the Pin Definition section. 
+RAK8213 Pi HAT maps the RAK8213 pins from the 52pin mPCIe connector to the 40 pin Raspberry Pi connector. Refer to the block diagram in figure 1 shown below and the pin mapping table shown in the Pin Definition section. 
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak8213_block_diagram.png`"
   width="100%"
-  caption="RAK8213 WisBee™ Pi HAT Block Diagram"
+  caption="RAK8213 Pi HAT Block Diagram"
 />
 
 ## Pin Definition
 
-The following tables show the pin definition and description of RAK2287 Pi HAT on the 40-PIN Pi HAT connector.
+The following tables show the pin definition and description of RAK8213 Pi HAT on the 40-PIN Pi HAT connector.
 
 | **Type** | **Description** | 
 | ---- | ---- | 
@@ -52,7 +52,7 @@ The following tables show the pin definition and description of RAK2287 Pi HAT o
 | NC | No Connection | 
 
 
-| **Pin Number** | **Raspberry Pi 40-PIN Connector** | **RAK8213 WisBee™ Pi HAT PIN** | **I/O** | **Remarks** | 
+| **Pin Number** | **Raspberry Pi 40-PIN Connector** | **RAK8213 Pi HAT PIN** | **I/O** | **Remarks** | 
 | ---- | ---- | ---- | ---- | ---- | 
 | 1 | 3V3 | NC |  | No Connection | 
 | 2 | 5V | 5V | PI | 5V Input | 
@@ -96,7 +96,7 @@ The following tables show the pin definition and description of RAK2287 Pi HAT o
 | 40 | GPIO21 | STATUS_LTE | DO | Indicate the module’s operation status. It will output low level when the module is powered on. | 
 
 :::tip 📝 NOTE
-There is a Micro-USB connector on the RAK8213 WisBee™ Pi HAT, which connects to RAK8213\u2019s USB interface. This gives you direct access to the USB interface (BG96), and is also required in order to power the RAK8213 when inserted in the slot, as it requires additional power.
+There is a Micro-USB connector on the RAK8213 Pi HAT, which connects to RAK8213\u2019s USB interface. This gives you direct access to the USB interface (BG96), and is also required in order to power the RAK8213 when inserted in the slot, as it requires additional power.
 :::
 
 
@@ -104,7 +104,7 @@ There is a Micro-USB connector on the RAK8213 WisBee™ Pi HAT, which connects t
 
 | **Model** | **Description** | **Supported Module** | 
 | ---- | ---- | ---- | 
-| RAK8213 WisBee™ Pi HAT | PCIe to Pi HAT Convert Board for RAK8213 | RAK8213 | 
+| RAK8213 Pi HAT | PCIe to Pi HAT Convert Board for RAK8213 | RAK8213 | 
 
 
 

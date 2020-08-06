@@ -10,12 +10,12 @@ next: false
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/2.quickstart/antennas_installed.png"
   width="40%"
-  caption="RAK7249 WisGate™ Edge Max with the antennas installed"
+  caption="RAK7249 Max with the antennas installed"
 />
 
 ### What do you need?
 
-1. **RAK7249 WisGate™ Edge Max**
+1. **RAK7249 Max**
 2. A Windows/Mac OS/Linux Computer
 
 <!-- <rk-btn :params="$page.frontmatter.params.btn1" /> -->
@@ -39,7 +39,7 @@ next: false
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Gateway Installation Guide/plate-attachment.jpg"
   width="75%"
-  caption="RAK7249 WisGate™ Edge Max Support Plate Attachment"
+  caption="RAK7249 Max Support Plate Attachment"
 />
 
 2. Install the main board with four M3x6 screws.
@@ -47,7 +47,7 @@ next: false
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Gateway Installation Guide/main-board-installation.jpg"
   width="75%"
-  caption="RAK7249 WisGate™ Edge Max Main Board Installation"
+  caption="RAK7249 Max Main Board Installation"
 />
 
 3. Install the LoRa® cards (for example RAK833), the motherboard supports two LoRa® cards, the first slot is for LoRa® card of SPI type, the second slot is for LoRa® card of USB type.
@@ -59,7 +59,7 @@ If there is only one LoRa® card (SPI type), please install it in the first slot
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Gateway Installation Guide/lora-card-installation.jpg"
   width="100%"
-  caption="RAK7249 WisGate™ Edge Max LoRa® Card Installation"
+  caption="RAK7249 Max LoRa® Card Installation"
 />
 
 4. Installation of RF cables, Ethernet cable and reserved hole plugs.
@@ -69,7 +69,7 @@ If there is only one LoRa® card (SPI type), please install it in the first slot
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Gateway Installation Guide/cable-installation.jpg"
   width="100%"
-  caption="RAK7249 WisGate™ Edge Max Cable Installtion"
+  caption="RAK7249 Max Cable Installtion"
 />
 
 6. Connect the cable to the motherboard. The connectors on motherboard are as follows. Connect the cables one by one.
@@ -81,7 +81,7 @@ ou must use the WiFI-MAIN connector to connect the WiFi Antenna.
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Gateway Installation Guide/gateway-interfacing.jpg"
   width="75%"
-  caption="RAK7249 WisGate™ Edge Max Interfacing"
+  caption="RAK7249 Max Interfacing"
 />
 
 7. If you have a Backup Battery Kit, connect with the Backup Battery to the motherboard.
@@ -91,7 +91,7 @@ ou must use the WiFI-MAIN connector to connect the WiFi Antenna.
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Gateway Installation Guide/top-cover-sealing.jpg"
   width="75%"
-  caption="RAK7249 WisGate™ Edge Max Top Cover Sealing"
+  caption="RAK7249 Max Top Cover Sealing"
 />
 
 #### Mounting
@@ -105,7 +105,7 @@ All the necessary components (bolts, washers, nuts) come with the mounting kit.
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Gateway Installation Guide/back-bracket-attachment.jpg"
   width="75%"
-  caption="RAK7249 WisGate™ Edge Max Back Panel to Bracket Attachment"
+  caption="RAK7249 Max Back Panel to Bracket Attachment"
 />
 
 2. Tighten the pole clamp with hexagonal M6x110 bolts , washers and nuts.
@@ -113,7 +113,7 @@ All the necessary components (bolts, washers, nuts) come with the mounting kit.
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Gateway Installation Guide/pole-clamp-guide.jpg"
   width="75%"
-  caption="RAK7249 WisGate™ Edge Max Pole Clamp Guide"
+  caption="RAK7249 Max Pole Clamp Guide"
 />
 
 3. Connect the clamp and the bracket on the backside of the casing with hexagonal M6x30 bolts , washers and nuts.
@@ -121,7 +121,7 @@ All the necessary components (bolts, washers, nuts) come with the mounting kit.
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Gateway Installation Guide/back-panel-pole-attachment.jpg"
   width="75%"
-  caption="RAK7249 WisGate™ Edge Max Back Panel to Pole Attachment"
+  caption="RAK7249 Max Back Panel to Pole Attachment"
 />
 
 #### Optional Accessories
@@ -129,7 +129,7 @@ All the necessary components (bolts, washers, nuts) come with the mounting kit.
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Gateway Installation Guide/optional-accessories.jpg"
   width="75%"
-  caption="RAK7249 WisGate™ Edge Max Optional Accessories"
+  caption="RAK7249 Max Optional Accessories"
 />
 
 
@@ -142,7 +142,7 @@ This document shows the step-by-step guide on how to set-up the Solar Panel and 
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Solar Panel and Battery Kit Installation/package-list.jpg"
   width="100%"
-  caption="RAK7249 WisGate™ Edge Max Main Board Installation"
+  caption="RAK7249 Max Main Board Installation"
 />
 
 #### Specifications
@@ -261,7 +261,7 @@ Make sure to follow the connection in the image below as interchanging the wires
 
 ### Lightning Protection
 
-In this document, we will be discussing on how to setup your lightning surge protection system whether be your RAK7249 WisGate™ Edge Max situated outdoor or indoor. Such protection system must be taken into consideration to ensure a fully functional Gateway without interruption or damage from the lightings.
+In this document, we will be discussing on how to setup your lightning surge protection system whether be your RAK7249 Max situated outdoor or indoor. Such protection system must be taken into consideration to ensure a fully functional Gateway without interruption or damage from the lightings.
 
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/Outdoor Deployment/Lighting Protection/Diagram.jpg"
@@ -400,7 +400,7 @@ First and foremost screw on the antennas. All 5 of them should be installed (**W
 <rk-img
   src="/assets/images/wisgate/rak7249/quickstart/2.quickstart/antennas_installed.png"
   width="50%"
-  caption="RAK7249 WisGate™ Edge Max with the Antennas installed"
+  caption="RAK7249 Max with the Antennas installed"
 />
 
 :::warning ⚠️ WARNING
@@ -423,7 +423,7 @@ It is recommended to use a **CAT5 Cable** to provide power to the Gateway. Attac
 In this section, several ways in accessing the gateway are provided to have different alternatives for you to choose depending on the availability of the requirements needed.
 
 :::warning ⚠️ WARNING
-Do not power the device if the LoRa® Antenna port has been left open to avoid potential damage in the RAK7249 WisGate™ Edge Max."
+Do not power the device if the LoRa® Antenna port has been left open to avoid potential damage in the RAK7249 Max."
 :::
 
 #### Wi-Fi AP Mode
@@ -497,7 +497,7 @@ Connect the Ethernet cable to the port marked “ETH” on the Gateway and the o
 
 The Things Network is about enabling low power devices to use long range gateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about The Things Network [here](https://www.thethingsnetwork.org/docs/).
 
-- First, you should have connected your RAK7249 WisGate™ Edge Max to the router in order to access the internet according to the method which has been introduced in the [Access the Internet](/Product-Categories/WisGate/RAK7249/Quickstart/#access-the-internet) section of this document.
+- First, you should have connected your RAK7249 Max to the router in order to access the internet according to the method which has been introduced in the [Access the Internet](/Product-Categories/WisGate/RAK7249/Quickstart/#access-the-internet) section of this document.
 - Now go to the TTN Website: [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 <rk-img

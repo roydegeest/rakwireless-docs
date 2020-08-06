@@ -10,12 +10,12 @@ next: false
 <rk-img
   src="/assets/images/wisbee/rak4200-breakout-board/quickstart/main/peojuzuyfj5wzl51igyk.jpg"
   width="50%"
-  caption="RAK4200 WisBee™ Breakout Module"
+  caption="RAK4200 Breakout Module"
 />
 
 ### What do you need?
 
-Before going through each and every step in the installation guide of the RAK4200 WisBee™ Breakout Module, make sure to prepare the necessary items listed below:
+Before going through each and every step in the installation guide of the RAK4200 Breakout Module, make sure to prepare the necessary items listed below:
 
 #### Hardware Tools
 
@@ -33,19 +33,19 @@ Before going through each and every step in the installation guide of the RAK420
 
 ### What's Included in the Package?
 
-- RAK4200 WisBee™ Breakout Module
+- RAK4200 Breakout Module
 - LoRa® antenna
 - Dupont lines (18x)
 
 
 ## Product Configuration
 
-### Interfacing with RAK4200 WisBee™ Breakout Module
+### Interfacing with RAK4200 Breakout Module
 
 In order for you to be able to interface with the RAK4200 LPWAN Evaluation Board with your Windows Machine, you need to download the RAK Serial Port Tool **[here](https://downloads.rakwireless.com/en/LoRa/Tools/RAK_SERIAL_PORT_TOOL_V1.2.1.zip).**
 
 ::: warning ⚠️ WARNING
-Before powering the RAK4200 WisBee™ Breakout Module, make sure you have installed the included LoRa\u00ae Antenna. Not doing so might damage the board
+Before powering the RAK4200 Breakout Module, make sure you have installed the included LoRa\u00ae Antenna. Not doing so might damage the board
 :::
 
 - Connect your USB to UART converter to the pin header on the RAK4200 via a set of 4 dupont lines. Use **Figure 2** for reference on wiring the device properly.
@@ -82,7 +82,7 @@ Windows 10 should recognize the board and automatically install drivers, however
 
 The Things Network is about enabling low power devices to be used in long range gateways that connect to an open-source, decentralized network and exchange data with Applications. Learn more about the Things Network [**here**](https://www.thethingsnetwork.org/docs/).
 
-In this section, we will be connecting the RAK4200 WisBee™ Breakout Module to The Things Network (TTN). If you don't have an account yet, head on to [TTN site](https://www.thethingsnetwork.org/) and create one. Once done, Log in to your account and go to the console which can be found here:
+In this section, we will be connecting the RAK4200 Breakout Module to The Things Network (TTN). If you don't have an account yet, head on to [TTN site](https://www.thethingsnetwork.org/) and create one. Once done, Log in to your account and go to the console which can be found here:
 
 <rk-img
   src="/assets/images/wisbee/rak4200-breakout-board/quickstart/ttn/ttn-homepage.png"
@@ -149,7 +149,7 @@ Here are the things that you should take note in adding an application:
 
 Here are the things that you should take note in registering your device:
 
-1. **Device ID** - this is the unique identifier for your RAK4200 WisBee™ Breakout Module in your application. You need to enter this manually.
+1. **Device ID** - this is the unique identifier for your RAK4200 Breakout Module in your application. You need to enter this manually.
 2. **Device EUI** - this is the unique identifier for your device in the network. You can change it later, if you want.
 
 Click the following icon and the Device EUI will be automatically generated. The App Key should be in auto generation mode by default.
@@ -236,13 +236,13 @@ at+set_config=lora:app_key:XXXX
   caption="AT Command for OTAA Device EUI, Application EUI and Application Key"
 />
 
-7. Reboot the RAK4200 WisBee™ Breakout Module to save the parameters.
+7. Reboot the RAK4200 Breakout Module to save the parameters.
 
 ```
 at+set_config=device:restart
 ```
 
-8. After resetting RAK4200 WisBee™ Breakout Module, join in OTAA mode:
+8. After resetting RAK4200 Breakout Module, join in OTAA mode:
 
 ```
 at+join
@@ -254,7 +254,7 @@ at+join
   caption="AT Command for OTAA LoRa® Join via RAK Serial Port Tool"
 />
 
-9. Joined successfully! Now, let’s try to send a data from the RAK4200 WisBee™ Breakout Module to TTN:
+9. Joined successfully! Now, let’s try to send a data from the RAK4200 Breakout Module to TTN:
 
 ```
 at+send=lora:2:1234567890
@@ -266,7 +266,7 @@ at+send=lora:2:1234567890
   caption="OTAA Test Sample Data Sent via RAK Serial Port Tool"
 />
 
-You can then see the data sent from RAK4200 WisBee™ Breakout Module on TTN website as follows:
+You can then see the data sent from RAK4200 Breakout Module on TTN website as follows:
 
 <rk-img
   src="/assets/images/wisbee/rak4200-breakout-board/quickstart/ttn/ttn-traffic.png"

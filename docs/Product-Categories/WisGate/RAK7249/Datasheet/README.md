@@ -11,17 +11,17 @@ certifications:
   - [RoHS, https://downloads.rakwireless.com/LoRa/DIY-Gateway-RAK7249/Certification-Report/RAK7249-ROHS-ATL20191105773R01-Report.pdf]
 ---
 
-# RAK7249 WisGate™ Edge Max Datasheet
+# RAK7249 Max Datasheet
 
 <rk-img
   src="/assets/images/wisgate/rak7249/datasheet/rak7249-macro-outdoor-gateway.png"
   width="75%"
-  caption="RAK7249 WisGate™ Edge Max"
+  caption="RAK7249 Max"
 />
 
 ### Product Description
 
-**RAK7249 WisGate™ Edge Max** is an ideal product for IoT commercial deployment. Its modularity and customization options allow for flexibility when deploying a solution. With its industrial-grade components, it achieves a high standard of reliability.
+**RAK7249 Max** is an ideal product for IoT commercial deployment. Its modularity and customization options allow for flexibility when deploying a solution. With its industrial-grade components, it achieves a high standard of reliability.
 
 The gateway provides for a solid out of the box experience for quick deployment. Additionally, since its software and UI sits on top of OpenWRT it is perfect for the development of custom applications (via the open SDK).
 
@@ -62,7 +62,7 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 
 #### Components and Accessories
 
-Create your own RAK7249 WisGate™ Edge Max using the supplied building Blocks:
+Create your own RAK7249 Max using the supplied building Blocks:
 
 - Main Board
 - Enclosure
@@ -76,7 +76,7 @@ Create your own RAK7249 WisGate™ Edge Max using the supplied building Blocks:
 />
 
 :::tip 📝 NOTE
-Actual Devices for RAK7249 WisGate™ Edge Max and accessories may differ from the image presented. For any discrepancies, please adhere to the actual product instead.
+Actual Devices for RAK7249 Max and accessories may differ from the image presented. For any discrepancies, please adhere to the actual product instead.
 :::
 
 ##### Main Board
@@ -119,7 +119,7 @@ Actual Devices for RAK7249 WisGate™ Edge Max and accessories may differ from t
 
 #### Block Diagram
 
-The image below shows the block diagram for RAK7249 WisGate™ Edge Max with MT7628 chip as the core.
+The image below shows the block diagram for RAK7249 Max with MT7628 chip as the core.
 
 <rk-img
   src="/assets/images/wisgate/rak7249/datasheet/block-diagram.png"
@@ -133,7 +133,7 @@ The image below shows the block diagram for RAK7249 WisGate™ Edge Max with MT7
 
 ##### Hardware Interface
 
-The images below shows the hardware interfaces at the front and rear of RAK7249 WisGate™ Edge Max.
+The images below shows the hardware interfaces at the front and rear of RAK7249 Max.
 
 <rk-img
   src="/assets/images/wisgate/rak7249/datasheet/hardware-interfaces-front.jpg"
@@ -157,7 +157,7 @@ The images below shows the hardware interfaces at the front and rear of RAK7249 
 
 ###### Reset Key Functions
 
-The RAK7249 WisGate™ Edge Max's mainboard provides a Reset key and 6 x LEDs for status indication. The function of the Reset key is as follows:
+The RAK7249 Max's mainboard provides a Reset key and 6 x LEDs for status indication. The function of the Reset key is as follows:
 
 - **Short press**: Restarts the Gateway
 - **Long press (5s and above)**: Restore Factory Settings;

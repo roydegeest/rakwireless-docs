@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/wisbee/rak4600-breakout-board/quickstart/main
 rak_img: /assets/images/wisbee/rak4600-breakout-board/quickstart/main/rak4600-breakout-module.png
+rak_desc: RAK4600 LPWAN Breakout Module is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an Xbee form factor and its main purpose is to allow the RAK4600 stamp module form factor pinout to be transferred to 2.54mm headers.
 rak_grp: wisbee
 prev: false
 next: false
@@ -32,7 +33,7 @@ params:
 
 ## Product Description
 
-**RAK4600 Breakout Module** is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an **Xbee form factor** and its main purpose is to allow the RAK4600 stamp module form factor pinout to be transferred to 2.54mm headers.
+**RAK4600 LPWAN Breakout Module** is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an **Xbee form factor** and its main purpose is to allow the RAK4600 stamp module form factor pinout to be transferred to 2.54mm headers.
 
 The module itself has the RAK4600 at its core, integrating an **nRF52832 MCU** and a **SX1276 LoRa® chip**. It has Ultra-Low Power Consumption of 2.0uA in sleep mode, high LoRa® max output power (20dBm) in work mode, and BLE output power up to 4dBm.
 
