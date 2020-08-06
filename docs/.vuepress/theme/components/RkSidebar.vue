@@ -82,9 +82,6 @@ export default {
   },
   updated() {
     this.setInitialScroll()
-  },
-  mounted() {
-    console.log('rksidebar: ', Buy)
   }
   // not applicable for ssr
   // watch: {
