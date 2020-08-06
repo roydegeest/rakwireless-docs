@@ -1,22 +1,9 @@
 ---
 rak_img: /assets/images/wisnode/rak7204/quickstart/1.overview/RAK7204.svg
+rak_desc: The RAK7204 WisNode Sense is an LPWAN node with integrated environmental sensors. The high-precision environmental sensors, can measure changes in temperature, humidity, gas pressure and provide an indoor air quality index.
 rak_grp: [wisnode,sense]
 prev: false
 next: false
-params:
-  qlinks:
-    learnMore:
-      - name: Community
-        href: https://forum.rakwireless.com/
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisNode/RAK7204/Datasheet/
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 ---
 
 # RAK7204 WisNode Sense
@@ -39,8 +26,6 @@ The environmental sensors, LoRa® transceiver module, LoRa® antenna, and the ba
   label="Get Started with RAK7204 WisNode Sense"
 />
 
-<rk-quick-links :params="$frontmatter.params.qlinks" />
-
 ## Product Features
 
 - Measurement of a variety of environmental parameters: **Temperature**, **Humidity**, **Gas Pressure** and **Indoor Air Quality (IAQ)**
@@ -52,9 +37,3 @@ The environmental sensors, LoRa® transceiver module, LoRa® antenna, and the ba
 - Real time battery status monitoring.
 - **Battery life of more than 2 years** (At 15 minute data transmission interval)
 - Compact in size, easy to install and maintain.
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak7204-lpwan-environmental-node"
-  label="Buy a RAK7204 WisNode Sense"
-  _blank
-/>

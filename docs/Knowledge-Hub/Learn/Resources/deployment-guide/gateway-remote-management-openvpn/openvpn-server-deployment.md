@@ -1,12 +1,12 @@
 ---
-prev: /knowledge-hub/resources/deployment-guide/gateway-remote-management-openvpn/
+prev: /Knowledge-Hub/Learn/Resources/deployment-guide/gateway-remote-management-openvpn/
 next: openvpn-management-client-setup
 ---
 
 # OpenVPN Server Deployment
 ---
 
-Before proceeding to this tutorial, make sure you already have an AWS EC2 Instance with Ubuntu Server 18.04 LTS running on it. Else, go back to [Amazon Web Service Configurations](/knowledge-hub/resources/deployment-guide/amazon-web-service/#configuring-the-instance) section.
+Before proceeding to this tutorial, make sure you already have an AWS EC2 Instance with Ubuntu Server 18.04 LTS running on it. Else, go back to [Amazon Web Service Configurations](/Knowledge-Hub/Learn/Resources/deployment-guide/amazon-web-service/#configuring-the-instance) section.
 
 Assuming that it is already done, follow thoroughly the steps provided below:
 

@@ -1,10 +1,10 @@
 module.exports = {
-    '/knowledge-hub/resources/user-manual/': [
+    '/Knowledge-Hub/Learn/Resources/user-manual/': [
       {
         title: "← Back to User Manuals",
             nested: true,
             collapsable: false,
-            path: '/knowledge-hub/resources/user-manual/',
+            path: '/Knowledge-Hub/Learn/Resources/user-manual/',
             children: [
 
             ]
@@ -19,7 +19,7 @@ module.exports = {
                 title: "Getting Started",
                 nested: false,
                 collapsable: false,
-                path: '/knowledge-hub/resources/user-manual/web-management-platform',
+                path: '/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform',
                 children: [
                   'web-management-platform/status-page',
                   'web-management-platform/network',
@@ -41,7 +41,7 @@ module.exports = {
               title: "Getting Started",
               nested: false,
               collapsable: false,
-              path: '/knowledge-hub/resources/user-manual/spectrum-settings-guide',
+              path: '/Knowledge-Hub/Learn/Resources/user-manual/spectrum-settings-guide',
               children: [
                 'spectrum-settings-guide/eu868-spectrum-settings-guide',
                 'spectrum-settings-guide/kr920-spectrum-settings-guide'
@@ -59,7 +59,7 @@ module.exports = {
               title: "Getting Started",
               nested: false,
               collapsable: false,
-              path: '/knowledge-hub/resources/user-manual/gateway-firmware-burning',
+              path: '/Knowledge-Hub/Learn/Resources/user-manual/gateway-firmware-burning',
               children: [
                 'gateway-firmware-burning/firmwares',
                 'gateway-firmware-burning/firmware-burning'
@@ -77,7 +77,7 @@ module.exports = {
               title: "Getting Started",
               nested: false,
               collapsable: false,
-              path: '/knowledge-hub/resources/user-manual/node-firmware-upgrading',
+              path: '/Knowledge-Hub/Learn/Resources/user-manual/node-firmware-upgrading',
               children: [ 
                 'node-firmware-upgrading/firmware-upgrading'
                 ]

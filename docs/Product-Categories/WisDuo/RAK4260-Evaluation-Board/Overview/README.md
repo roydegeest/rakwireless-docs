@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/wisduo/rak4260-evaluation-board/overview
 rak_img: /assets/images/wisduo/rak4260-evaluation-board/overview/RAK4260_Evaluation_Board.png
+rak_desc: The RAK4260 LPWAN Evaluation Board is a WisBlock product that consists of RAK4260 LPWAN Module in a Breakout board and the RAK5005 WisBase. This development board allows access to all serial and GPIO ports for easy configuration.
 rak_grp: wisduo
 prev: false
 next: false
@@ -27,7 +28,7 @@ params:
       - name: Downloads
         href: https://downloads.rakwireless.com/LoRa/RAK4260/
 ---
-# RAK4260 WisDuo™ LPWAN Evaluation Board
+# RAK4260 LPWAN Evaluation Board
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak4260-overview.png`"

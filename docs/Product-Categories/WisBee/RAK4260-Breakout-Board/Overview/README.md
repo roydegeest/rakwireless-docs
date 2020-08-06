@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/wisbee/rak4260-breakout-board/quickstart/main
 rak_img: /assets/images/wisbee/rak4260-breakout-board/quickstart/main/rak4260-breakout.png
+rak_desc: The RAK4260 Breakout Module is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an Xbee form factor and its main purpose is to allow the RAK4260 stamp module form factor pinout to be transferred to 2.54 mm headers.
 rak_grp: wisbee
 prev: false
 next: false
@@ -22,18 +23,18 @@ params:
         href: /deployment-guide/
 ---
 
-# RAK4260 WisBee™ Breakout Module
+# RAK4260 Breakout Module
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak4260-breakout.png`"
   width="50%"
-  caption="RAK4260 WisBee™ Breakout Module"
+  caption="RAK4260 Breakout Module"
 />
 
 
 ## Product Description
 
-The **RAK4260 WisBee™ Breakout Module** is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an **Xbee form factor** and its main purpose is to allow the RAK4260 stamp module form factor pinout to be transferred to 2.54 mm headers. This makes it more convenient for developer to debug their solution.
+The **RAK4260 Breakout Module** is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an **Xbee form factor** and its main purpose is to allow the RAK4260 stamp module form factor pinout to be transferred to 2.54 mm headers. This makes it more convenient for developer to debug their solution.
 
 The module itself has the RAK4260 at its core, which is a module that utilizes the **ATSAMR34J18B SIP**. This high level of integration allows for outstanding performance: 860 nA in sleep mode and LoRa® TX Power of up to 20 dBm.
 
@@ -69,6 +70,6 @@ The low power, long range LoRa® communication capabilities of the module make i
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak4260-breakout-board"
-  label="Buy a RAK4260 WisBee™ Breakout Module"
+  label="Buy a RAK4260 Breakout Module"
   _blank
 />

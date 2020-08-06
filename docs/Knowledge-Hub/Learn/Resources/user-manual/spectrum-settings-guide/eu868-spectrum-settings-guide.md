@@ -1,5 +1,5 @@
 ---
-prev: /knowledge-hub/resources/user-manual/spectrum-settings-guide/
+prev: /Knowledge-Hub/Learn/Resources/user-manual/spectrum-settings-guide/
 next: kr920-spectrum-settings-guide
 ---
 

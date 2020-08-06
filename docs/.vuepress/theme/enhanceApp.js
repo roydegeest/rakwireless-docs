@@ -1,7 +1,4 @@
-import install from 'quasar/src/install.js'
-import * as components from 'quasar/src/components.js'
-import * as directives from 'quasar/src/directives.js'
-import * as plugins from 'quasar/src/plugins.js'
+import Quasar from 'quasar'
 
 export default ({
   Vue, // the version of Vue being used in the VuePress app
@@ -10,11 +7,7 @@ export default ({
   siteData, // site metadata
   isServer // is this enhancement applied in server-rendering or client
 }) => {
-  // ...apply enhancements to the app
-  install.call(Vue, Vue, {
-    components,
-    directives,
-    plugins,
-    config: {}
-  })
+  if (!isServer) {
+    Vue.use(Quasar)
+  }
 }

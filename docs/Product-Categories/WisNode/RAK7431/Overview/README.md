@@ -1,22 +1,9 @@
 ---
 rak_img: /assets/images/wisnode/rak7431/datasheet/RAK7431.png
 rak_grp: [wisnode,bridge]
+rak_desc: RAK7431 WisNode Bridge is an RS485 to LoRaWAN® converter designed for industrial applications. The device relays ModBUS data using the LoRaWAN® network as means of wirelessly transmitting to and from the end devices.
 prev: false
 next: false
-params:
-  qlinks:
-    learnMore:
-      - name: Community
-        href: https://forum.rakwireless.com/
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisNode/RAK7431/Datasheet/
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 ---
 
 # RAK7431 WisNode Bridge
@@ -29,7 +16,7 @@ params:
 
 ## Product Description
 
-**RAK7431 WisNode Bridge** is an RS485 to LoRaWAN® converter designed for industrial applications. The device relays ModBUS data using the LoRaWAN® network as means of wirelessly transmitting to and from the end devices.
+RAK7431 WisNode Bridge is an RS485 to LoRaWAN® converter designed for industrial applications. The device relays ModBUS data using the LoRaWAN® network as means of wirelessly transmitting to and from the end devices.
 
 RAK7431 can operate in all of the LoRaWAN® bands within the standard parameters defined by the LoRa® Alliance. Its open environment range is 15+ km and in industrial cases, where there are heavy obstructions in the path of the RF signal performance is improved compared to conventional wireless systems due to the characteristics of LoRa® as a modulation technique. This allows for consistently good signal quality within the confines of large factories, densely populated offices, storehouses, etc.
 
@@ -42,8 +29,6 @@ RAK7431 together with RAK gateway and LoRa® Server products, can easily and qui
   label="Get Started with RAK7431 WisNode Bridge"
 />
 
-<rk-quick-links :params="$frontmatter.params.qlinks" />
-
 ## Product Features
 
 - **LoRaWAN® 1.0.3** protocol stack, supports Class A, Class B & C
@@ -55,9 +40,3 @@ RAK7431 together with RAK gateway and LoRa® Server products, can easily and qui
 - Can power RS485 devices via a dedicated output.
 - Mounting: Wall, DIN rail, and magnetic mounting
 - Compliant with IEC61000-4-2, IEC61000-4-4 and 18KV HMB ESD protection
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak7431"
-  label="Buy a RAK7431 WisNode Bridge"
-  _blank
-/>

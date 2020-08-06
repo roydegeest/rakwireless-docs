@@ -1,25 +1,7 @@
 ---
 rak_img: /assets/images/wislink-lora/rak2245-pi-hat-edition/quickstart/1.product-overview/1.index/RAK2245-pi-hat.svg
+rak_desc: RAK2245 Pi HAT is a module with Raspberry PI form factor. It can be plugged into Raspberry PI such as Raspberry Pi 3 Model B+ as a complete RF front end of gateway. 
 rak_grp: wislink
-params:
-  qlinks:
-    learnMore:
-      - name: Projects 
-        href: https://www.hackster.io/search?q=RAK2245&i=projects
-      - name: Community
-        href: https://forum.rakwireless.com/
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisLink/RAK2245-Pi-HAT/Datasheet/
-      - name: Certification Report
-        href: /Product-Categories/WisLink/RAK2245-Pi-HAT/Datasheet/#certification
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
-
 prev: false
 next: false
 ---
@@ -46,8 +28,6 @@ The RAK2245 Pi HAT is a complete and cost efficient gateway solution that can he
   label="Get Started with RAK2245 Pi HAT WisLink-LoRa"
 />
 
-<rk-quick-links :params="$frontmatter.params.qlinks" />
-
 ## Product Features
 
 - Compatible with Raspberry Pi 3 Model B+ edition.
@@ -60,9 +40,3 @@ The RAK2245 Pi HAT is a complete and cost efficient gateway solution that can he
 - Supports latest LoRaWAN® 1.0.2 protocol.
 - Supports global license-free frequency band (EU433, CN470, EU868, US915, AS923, AU915, KR920, IN865 and AS920).
 - Supports SPI, UART, I2C interface.
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak2245-pi-hat/"
-  label="Buy a RAK2245 Raspberry Pi Hat LPWAN Gateway Concentrator Module"
-  _blank
-/>

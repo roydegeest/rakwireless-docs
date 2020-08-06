@@ -1,22 +1,7 @@
 ---
 rak_img: /assets/images/wislink-lora/rak2287/quickstart/1main/rak2287.jpg
+rak_desc: RAK2287 is an LPWAN Concentrator Module with mini-PCIe form factor based on Semtech SX1302, which enables an easy integration into an existing router or other network equipment with LPWAN Gateway capabilities.
 rak_grp: wislink
-qlinks:
-  learnMore:
-    - name: Projects
-      href: https://www.hackster.io/search?i=projects&q=rak7243
-    - name: Community
-      href: https://forum.rakwireless.com
-    - name: Support
-      href: mailto:support@rakwireless.com
-  resources:
-    - name: Datasheet
-      href: /Product-Categories/WisLink/RAK2287/Datasheet
-    - name: User Manual
-      href: /user-manual/
-    - name: Deployment Guide
-      href: /deployment-guide/
-
 prev: false
 next: false
 ---
@@ -40,8 +25,6 @@ This module is an exceptional, complete and cost efficient gateway solution offe
   label="Get Started with RAK2287 WisLink-LoRa"
 />
 
-<rk-quick-links :params="$frontmatter.qlinks" />
-
 ## Product Features
 
 - Designed based on **Mini PCL-e form factor** with Heat Sink.
@@ -54,8 +37,3 @@ This module is an exceptional, complete and cost efficient gateway solution offe
 - Supports optional SPI interfaces.
 - Built-in **ZOE-M8Q GPS** module
 
-<rk-btn
-  src="https://store.rakwireless.com/products/rak2287-lpwan-gateway-concentrator-module/"
-  label="Buy a RAK2287 LPWAN Concentrator Module"
-  _blank
-/>

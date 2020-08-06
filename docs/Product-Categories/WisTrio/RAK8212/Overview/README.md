@@ -1,20 +1,7 @@
 ---
 rak_img: /assets/images/wistrio/rak8212/quickstart/overview/RAK8212.svg
 rak_grp: wistrio
-params:
-  qlinks:
-    learnMore:
-      - name: Community
-        href: https://forum.rakwireless.com/
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisTrio/RAK8212/Datasheet/
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
+rak_desc: The RAK8212 iTracker Pro  is versatile developer board aimed at aiding in quick prototypes using NB-IOT. The board includes a vast array of  connectivity options like NB-IoT, Bluetooth 5.0 and GPS and sensors like an accelerometer, light sensor and barometric sensor
 ---
 
 # RAK8212 iTracker Pro
@@ -28,7 +15,7 @@ params:
 
 ## Product Background
 
-The **iTracker Pro RAK8212** is versatile developer board aimed at aiding in quick prototypes using NB-IOT. The board includes
+The **RAK8212 iTracker Pro** is versatile developer board aimed at aiding in quick prototypes using NB-IOT. The board includes
 a vast array of connectivity options like **NB-IoT**, **Bluetooth 5.0** and **GPS** and sensors like an **accelerometer**, **light sensor** and **barometric sensor**. At the heart of the module is the venerable **Nordic NRF52832 BLE** processor. The NB-IoT connectivity
 is provided by the **Quectel BG96 module**. The RAK8212 module is **Arduino friendly** and can be programmed using the IDE.
 The board also provides **SWD interface** for programming the **NRF52832** core. The combination of BLE and NB-IoT
@@ -42,8 +29,6 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
   label="Get Started with RAK8212 iTracker Pro"
 />
 
-<rk-quick-links :params="$frontmatter.params.qlinks" />
-
 ## Product Features
 
 - **Arduino Compatible** – Host controller NRF52832 has been widely used in Arduino environment
@@ -55,9 +40,3 @@ Applications can be made with the RAK8212 like Vehicle location/fleet transporta
 - Size: **43 mm x 38 mm x 18 mm**
 - **Operation temperature:** -40°C to +85°C
 - **Power supply**: 3.3 Volts to 5 Volts (power at solar panel connector P2).
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak8212-itracker-pro"
-  label="Buy a RAK8212 iTracker Pro"
-  _blank
-/>

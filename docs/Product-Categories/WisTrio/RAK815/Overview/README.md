@@ -1,23 +1,9 @@
 ---
 rak_img: /assets/images/wistrio/rak815/quickstart/1main/RAK815.svg
+rak_desc: RAK815 Hybrid Location Tracker is a wireless remote solution based from RAK813 with built-in GPS, acceleration, temperature and humidity sensor plus an expanded I2C LCD Interface.
 rak_grp: wistrio
 prev: false
 next: false
-
-params:
-  qlinks1:
-    learnMore:
-      - name: Community
-        href: https://forum.rakwireless.com
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisTrio/RAK815/Datasheet/
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 ---
 
 # RAK815 Hybrid Location Tracker
@@ -42,8 +28,6 @@ Overall, this LoRa® device has various functionalities designed in a single boa
   label="Get Started with RAK815 Hybrid Location Tracker"
 />
 
-<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
-
 ## Product Features
 
 - Semtech SX1276 LoRaWAN® V1.0.2
@@ -54,9 +38,3 @@ Overall, this LoRa® device has various functionalities designed in a single boa
 - **Interface**: Micro USB for charging and configuration
 - Equipped with MEMS and HT sensors + I2C LCD expansion
 - **Operation Temperature**: -20ºC ~ 60ºC
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak815-hybrid-location-tracker"
-  label="Buy a RAK815 Hybrid Location Tracker"
-  _blank
-/>

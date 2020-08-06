@@ -1,5 +1,5 @@
 ---
-prev: /knowledge-hub/resources/deployment-guide/multi-rak-gateway-mesh/
+prev: /Knowledge-Hub/Learn/Resources/deployment-guide/multi-rak-gateway-mesh/
 next: gateway-b-mqtt-bridge
 ---
 
@@ -12,7 +12,7 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 ## Packet Forwarder Set-up
 
 :::tip 📝 NOTE
- For other settings and detailed documentation for this section, browse the [LoRaWAN Gateway Configuration](/knowledge-hub/resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) section.
+ For other settings and detailed documentation for this section, browse the [LoRaWAN Gateway Configuration](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) section.
 :::
 
 1. By navigating through LoRa® Gateway tab-> LoRa® Packet Forwarder-> General Setup, set the Protocol in the drop-down list to **Build-in LoRa ® Server**.
@@ -29,7 +29,7 @@ We will first set-up the built-in LoRa®  network server. Before going through t
 ## Configure the LoRa® Server
 
 :::tip 📝 NOTE
- For other settings and detailed documentation for this section, browse the [LoRa Network Server](/knowledge-hub/resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) section.
+ For other settings and detailed documentation for this section, browse the [LoRa Network Server](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/lora-network.html#packet-forwarder) section.
 :::
 
 1. Navigate through LoRa® Network Server tab -> General and turn-on this feature using the Enable slider. 

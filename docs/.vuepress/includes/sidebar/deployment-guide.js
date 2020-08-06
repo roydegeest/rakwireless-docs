@@ -1,11 +1,11 @@
 
 module.exports = {
-  '/knowledge-hub/resources/deployment-guide/': [
+  '/Knowledge-Hub/Learn/Resources/deployment-guide/': [
     {
       title: "← Back to Deployment Guides",
       nested: true,
       collapsable: false,
-      path: '/knowledge-hub/resources/deployment-guide/',
+      path: '/Knowledge-Hub/Learn/Resources/deployment-guide/',
       children: [
 
       ]
@@ -20,7 +20,7 @@ module.exports = {
           title: "Getting Started",
           nested: false,
           collapsable: false,
-          path: '/knowledge-hub/resources/deployment-guide/build-in-lora-server',
+          path: '/Knowledge-Hub/Learn/Resources/deployment-guide/build-in-lora-server',
           children: [
             'build-in-lora-server/built-in-lora-network-server',
             'build-in-lora-server/rak-lpwan-node'
@@ -38,7 +38,7 @@ module.exports = {
           title: "Getting Started",
           nested: false,
           collapsable: false,
-          path: '/knowledge-hub/resources/deployment-guide/multi-rak-gateway-mesh',
+          path: '/Knowledge-Hub/Learn/Resources/deployment-guide/multi-rak-gateway-mesh',
           children: [
             'multi-rak-gateway-mesh/gateway-a-built-in-ns',
             'multi-rak-gateway-mesh/gateway-b-mqtt-bridge',
@@ -59,7 +59,7 @@ module.exports = {
           title: "Getting Started",
           nested: false,
           collapsable: false,
-          path: '/knowledge-hub/resources/deployment-guide/amazon-web-service',
+          path: '/Knowledge-Hub/Learn/Resources/deployment-guide/amazon-web-service',
           children: [
             'amazon-web-service/aws-install-chirpstack',
             'amazon-web-service/install-the-gateway-bridge',
@@ -79,7 +79,7 @@ module.exports = {
           title: "Getting Started",
           nested: false,
           collapsable: false,
-          path: '/knowledge-hub/resources/deployment-guide/gateway-remote-management-ddns',
+          path: '/Knowledge-Hub/Learn/Resources/deployment-guide/gateway-remote-management-ddns',
           children: [
             'gateway-remote-management-ddns/register-ddns-service',
             'gateway-remote-management-ddns/setup-ddns-in-gateway'
@@ -97,7 +97,7 @@ module.exports = {
           title: "Getting Started",
           nested: false,
           collapsable: false,
-          path: '/knowledge-hub/resources/deployment-guide/gateway-remote-management-openvpn',
+          path: '/Knowledge-Hub/Learn/Resources/deployment-guide/gateway-remote-management-openvpn',
           children: [
             'gateway-remote-management-openvpn/openvpn-server-deployment',
             'gateway-remote-management-openvpn/openvpn-management-client-setup',

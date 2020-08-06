@@ -5,7 +5,7 @@ tags:
 prev: ../Overview/
 ---
 
-# RAK4260 LPWAN Module Datasheet
+# RAK4260 WisDuo™ Datasheet
 
 <rk-img
   src="/assets/images/wisduo/rak4260-module/datasheet/rak4260.png"
@@ -40,9 +40,11 @@ RAK4260 is a solution that is cost efficient and flexible that can be deployed i
 
 ### Overview
 
+The overview section covers the RAK4260 WisDuo™ board overview where both top and bottom views are presented. It also includes the functional block diagram showing the interfaces of the board.
+
 #### Board Overview
 
-The figures shown below are the different views of the RAK4260 chip labelled for proper reference.
+The Figures 2 and 3 present the different views of the RAK4260 chip labelled for proper reference.
 
 <rk-img
   src="/assets/images/wisduo/rak4260-module/datasheet/rak4260-module-top-view.png"
@@ -58,7 +60,7 @@ The figures shown below are the different views of the RAK4260 chip labelled for
 
 #### Block Diagram
 
-Shown below is the functional block diagram of the RAK4260 composed of different interfaces for the specific functionalities set in the product overview.
+The block diagram of the RAK4260 shows the various interfaces for the specific functionalities set in the product overview.
 
 <rk-img
   src="/assets/images/wisduo/rak4260-module/datasheet/block-diagram.png"
@@ -67,6 +69,9 @@ Shown below is the functional block diagram of the RAK4260 composed of different
 />
 
 ### Hardware
+
+The hardware specifications are categorized into five parts. It presents the schematic diagram and pinouts of the module. This section covers also the electrical, mechanical, and frequency parameters including tabular data and diagrams of the RAK4260 WisDuo™ board.
+
 
 #### Pin Definition
 
@@ -125,7 +130,7 @@ Provided in this section is the Pinout of the RAK4260 WisDuo LPWAN Module.
 
 ##### Operating Frequencies
 
-The RAK4260 LPWAN Module supports LoRaWAN® frequency included in the table provided below:
+The RAK4200 WisDuo™ supports LoRaWAN® frequency included in the table provided below:
 
 |    Region     | Frequency (MHz) |
 | :-----------: | :-------------: |
@@ -251,6 +256,8 @@ The dimensions of the RAK4260 WisDuo LPWAN Module is shown in the figures below.
 />
 
 ### Software
+
+The latest firmware for the RAK4260 Breakout Module is provided in the given table.
 
 #### Firmware
 

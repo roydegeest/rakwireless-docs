@@ -7,12 +7,12 @@ tags:
 prev: /Product-Categories/WisGate/RAK7246G/Overview/
 ---
 
-# RAK7246G WisGate™ Developer Datasheet
+# RAK7246G Developer Datasheet
 
 <rk-img
   :src="`${$frontmatter.static_root}/jtv6vtbowwxsrbeupcac.png`"
   width="100%"
-  caption="RAK7246G WisGate™ Developer"
+  caption="RAK7246G Developer"
 />
 
 ### Product Description
@@ -204,7 +204,7 @@ There are two digital IO PINs, which give the user an interface to reset the GPS
 
 #### Main Specifications
 
-The following table shows the available features of the RAK7246G WisGate™ Developer and its corresponding specifications:
+The following table shows the available features of the RAK7246G Developer and its corresponding specifications:
 
 | **Feature**           | **Specifications**                                                                                                                                                                                                                                                          |
 | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -370,7 +370,7 @@ You can login to the Gateway using an SSH client like PuTTY. For more
 details on the configuration and management of the Gateway please visit the
 link below:
 
-[RAK7246G WisGate™ Developer User Manual](/Product-Categories/WisGate/RAK7246G/Quickstart/)
+[RAK7246G Developer User Manual](/Product-Categories/WisGate/RAK7246G/Quickstart/)
 
 ## Models / Bundles
 

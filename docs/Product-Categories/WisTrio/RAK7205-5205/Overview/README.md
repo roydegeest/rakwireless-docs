@@ -1,22 +1,9 @@
 ---
 rak_img: /assets/images/wistrio/rak7205-5205/quickstart/overview/RAK5205.svg
 rak_grp: wistrio
+rak_desc: The RAK5205 LPWAN Tracker Board is built on the Semtech SX1276 chip, with the STM32L1 MCU at its core. It is a feature-packed sensor board with LoRa® connectivity and built-in GPS. It provides various interfaces for easy application development.
 prev: false
 next: false
-params:
-  qlinks:
-    learnMore:
-      - name: Community
-        href: https://forum.rakwireless.com/
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisTrio/RAK7205-5205/Datasheet/
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 ---
 
 # RAK7205/RAK5205 WisTrio LPWAN Tracker
@@ -30,7 +17,7 @@ params:
 
 ## Product Background
 
-The **RAK5205 LPWAN Tracker Board** is built on the Semtech SX1276 chip, with the STM32L1 MCU at its core. It is a feature-packed sensor board with LoRa® connectivity and built-in GPS. It provides various interfaces for easy application development.
+The RAK5205 LPWAN Tracker Board is built on the Semtech SX1276 chip, with the STM32L1 MCU at its core. It is a feature-packed sensor board with LoRa® connectivity and built-in GPS. It provides various interfaces for easy application development.
 
 This node module is ideal as a quick prototyping tool for LoRaWAN® applications. It is perfect for use case scenarios such as asset tracking, smart vehicle management and location-based services.
 
@@ -39,7 +26,6 @@ This node module is ideal as a quick prototyping tool for LoRaWAN® applications
   label="Get Started with RAK5205 WisTrio LPWAN Tracker"
 />
 
-<rk-quick-links :params="$frontmatter.params.qlinks" />
 
 ## Product Features
 
@@ -52,9 +38,3 @@ This node module is ideal as a quick prototyping tool for LoRaWAN® applications
 - Rechargeable battery and solar panel connection ports
 - **Global LoRaWAN® bands supported** (EU433, CN470, IN865, EU868, US915, AU915, AS920, KR920, and AS923)
 - I2C, ADC, built-in UART converter
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak5205-lora-tracker"
-  label="Buy a RAK5205 / RAK7205 WisTrio LPWAN Tracker"
-  _blank
-/>

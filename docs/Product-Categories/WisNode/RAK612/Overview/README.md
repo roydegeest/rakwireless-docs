@@ -1,22 +1,9 @@
 ---
 rak_img: /assets/images/wisnode/rak612/quickstart/main/RAK612.svg
+rak_desc: The RAK612 WisNode Button is a remote wireless trigger device. It supports user-defined functions for each key and is based on the LoRaWAN® 1.0.2 standard. 
 rak_grp: [wisnode, button]
 prev: false
 next: false
-params:
-  qlinks1:
-    learnMore:
-      - name: Community
-        href: https://forum.rakwireless.com
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: http://docs.rakwireless.com/en/LoRa/RAK612-LoRaButton/Hardware-Specification/RAK_LB801%C2%A0LoRaButton%C2%A0Datasheet%C2%A0V1.0.pdf
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 ---
 # RAK612 WisNode Button
 
@@ -38,9 +25,6 @@ The RAK612 WisNode Button is suitable for a variety of Smart Home applications: 
   label="Get Started with RAK612 WisNode Button"
 />
 
-<rk-quick-links :params="$page.frontmatter.params.qlinks1" /> 
-## Product Features
-
 - **LoRaWAN**® compatible
 - **myDevices Cayenne** Certified
 - **Product Size:** 38 mm x 52 mm
@@ -49,9 +33,3 @@ The RAK612 WisNode Button is suitable for a variety of Smart Home applications: 
 - **Power Consumption:** Transmit: 30 mA, Standby: 10 uA
 - **Operating Temperature:** -20ºC to 60ºC
 - **Working Environment:** Indoor
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak612-lora-button"
-  label="Buy a RAK612 WisNode Button"
-  _blank
-/>

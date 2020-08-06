@@ -15,7 +15,7 @@ next: false
 
 ### What do you need?
 
-1. RAK7244 WisGate™ Developer
+1. RAK7244 Developer
 2. 16GB SD Card (included) + Card Reader
 3. 5V at least 2.5A Micro USB Power Supply (not included)
 4. A Windows/Mac OS/Linux Computer
@@ -33,7 +33,7 @@ next: false
 
 ### Accessing your Gateway
 
-After burning the image into the SD Card, make sure you have inserted the SD Card with the Latest Firmware installed to the **RAK7244 WisGate™ Developer** and the LoRa® and GPS Antenna attached to it. After which, you can now safely power on the gateway. In this section, several ways in accessing the gateway are provided to have different alternatives for you to choose depending on the availability of the requirements needed.
+After burning the image into the SD Card, make sure you have inserted the SD Card with the Latest Firmware installed to the **RAK7244 Developer** and the LoRa® and GPS Antenna attached to it. After which, you can now safely power on the gateway. In this section, several ways in accessing the gateway are provided to have different alternatives for you to choose depending on the availability of the requirements needed.
 
 :::warning ⚠️WARNING
 Before powering the Raspberry Pi 4 you should install the LoRa® and GPS antennas. Not doing so might damage the boards.
@@ -167,7 +167,7 @@ You will now then see a page like the following picture below:
 
 #### Connect through Wi-Fi
 
-If you want to connect through Wi-Fi, it can easily be done with the Wireless capabilities of the Raspberry Pi 4 by choosing "**5 Configure WIFI**". By default, the RAK7244 WisGate™ Developer works in Wi-Fi AP Mode. In order for the Gateway to connect to the router, it must work in Wi-Fi Client Mode.
+If you want to connect through Wi-Fi, it can easily be done with the Wireless capabilities of the Raspberry Pi 4 by choosing "**5 Configure WIFI**". By default, the RAK7244 Developer works in Wi-Fi AP Mode. In order for the Gateway to connect to the router, it must work in Wi-Fi Client Mode.
 
 <rk-img
   src="/assets/images/wisgate/rak7244/quickstart/5.accessing the internet/wifi-config.png"
@@ -258,9 +258,9 @@ These configurations under this section are only optional and situational.
 
 ##### Reverting to Wi-Fi AP Mode
 
-In the event that you have entered either or both icorrect Wi-Fi SSID and Password in the Wi-Fi Client Mode setup for the RAK7244 WisGate™ Developer to connect to the router, follow these set of steps for you to work again in Wi-Fi AP Mode and redo the setup.
+In the event that you have entered either or both icorrect Wi-Fi SSID and Password in the Wi-Fi Client Mode setup for the RAK7244 Developer to connect to the router, follow these set of steps for you to work again in Wi-Fi AP Mode and redo the setup.
 
-- Remove the SD Card from your RAK7244 WisGate™ Developer and insert it into your PC. Your PC should be able to detect it same with the image below:
+- Remove the SD Card from your RAK7244 Developer and insert it into your PC. Your PC should be able to detect it same with the image below:
 
 <rk-img
   src="/assets/images/wisgate/rak7244/quickstart/5.accessing the internet/rak-ap-file.png"
@@ -274,7 +274,7 @@ In the event that you have entered either or both icorrect Wi-Fi SSID and Passwo
 cd > rak_ap
 ```
 
-- Check if the rak_ap file is created succesffuly. If so, re-insert the SD Card into your RAK7244 WisGate™ Developer and it should work again in Wi-Fi AP Mode.
+- Check if the rak_ap file is created succesffuly. If so, re-insert the SD Card into your RAK7244 Developer and it should work again in Wi-Fi AP Mode.
 
 
 ### Configuring the Gateway
@@ -485,7 +485,7 @@ Click Register Gateway and wait for a couple of minutes . If the status of your 
 
 The ChirpStack or previously known as LoRaServer project provides open-source components for building LoRaWAN® networks. You can learn more about ChirpStack [here](https://www.chirpstack.io/).
 
-For the RAK7244 WisGate™ Developer there are 2 ways to use the ChirpStack:
+For the RAK7244 Developer there are 2 ways to use the ChirpStack:
 
 #### 1. Using the built-in ChirpStack
 There is a built-in ChirpStack in every RAK Developer gateway if you use the latest firmware.

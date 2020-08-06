@@ -16,8 +16,8 @@ module.exports = {
           sidebarDepth: 4
         }
       ],
-      
-    '/Product-Categories/WisHat/RAK2287-Pi-HAT/': [
+    
+      '/Product-Categories/WisHat/RAK2287-Pi-HAT/': [
         {
           title: 'Product Overview',
           path: '/Product-Categories/WisHat/RAK2287-Pi-HAT/Overview/',
@@ -33,7 +33,7 @@ module.exports = {
           sidebarDepth: 4
         }
       ],
-           
+
     '/Product-Categories/WisHat/RAK8213-Pi-HAT/': [
         {
           title: 'Product Overview',

@@ -6,17 +6,19 @@ tags:
 prev: /Product-Categories/WisHat/RAK2287-Pi-HAT/Overview/
 ---
 
-# RAK2287 WisHat™ Pi HAT Datasheet
+# RAK2287 Pi HAT Datasheet
 
 <rk-img
   :src="`${$frontmatter.static_root}/1.rak2287-pi-hat.png`"
   width="75%"
-  caption="RAK2287 WisHat™ Pi HAT"
+  caption="RAK2287 Pi HAT"
 />
+
+## Overview
 
 ### Product Background
 
-**RAK2287 WisHat™ Pi HAT** is a converter board with a Raspberry Pi form factor that enables the RAK2287 LPWAN concentrator module to be mounted on the top of the Raspberry Pi. 
+**RAK2287 Pi HAT** is a converter board with a Raspberry Pi form factor that enables the RAK2287 LPWAN concentrator module to be mounted on the top of the Raspberry Pi. 
 
 It integrates one (1) **40-pin female Pi HAT connector** and one (1) **PCIe connector** to connect the module to the Raspberry Pi that is both compatible with the Raspberry Pi 3 Model B+/Raspberry 4 edition.
 
@@ -26,12 +28,28 @@ It integrates one (1) **40-pin female Pi HAT connector** and one (1) **PCIe conn
 - Compatible with the **Raspberry Pi 3 Model B+/Raspberry 4 edition**.
 - **PCIe connector** on board.
 
-## Pin Definition
+## Specifications
+
+### Overview
+
+#### Block Diagram
+
+RAK2287 Pi HAT integrates one (1) 40-pin female Pi HAT connector and one (1) PCIe connector. This makes it possible to connect RAK2287 to Raspberry Pi.
+
+<rk-img
+  :src="`${$frontmatter.static_root}/3.block-diagram.png`"
+  width="100%"
+  caption="RAK2287 Pi HAT Block Diagram"
+/>
+
+### Hardware
+
+#### Pin Definition
 
 <rk-img
   :src="`${$frontmatter.static_root}/2.pin-definition.png`"
   width="100%"
-  caption="RAK2287 WisHat™ Pi HAT Pinout Diagram"
+  caption="RAK2287 Pi HAT Pinout Diagram"
 />
 
 | **Type** | **Description** | 
@@ -46,7 +64,7 @@ It integrates one (1) **40-pin female Pi HAT connector** and one (1) **PCIe conn
 | NC | No Connection | 
 
 
-| **Pin Number** | **Raspberry Pi 40-Pin Connector** | **RAK2287 WisHat™ Pi HAT Pin** | **Type** | **Remarks** | 
+| **Pin Number** | **Raspberry Pi 40-Pin Connector** | **RAK2287 Pi HAT Pin** | **Type** | **Remarks** | 
 | ---- | ---- | ---- | ---- | ---- | 
 | 1 | 3V3 | NC | - | No Connection | 
 | 2 | 5V | 5V | PI | 5V Input | 
@@ -90,21 +108,10 @@ It integrates one (1) **40-pin female Pi HAT connector** and one (1) **PCIe conn
 | 40 | GPIO21 | NC | - | No Connection | 
 
 
-## Interfaces
+## Models / Bundles
 
-### Block Diagram
-
-RAK2287 WisHat™ Pi HAT integrates one (1) 40-pin female Pi HAT connector and one (1) PCIe connector. This makes it possible to connect RAK2287 to Raspberry Pi.
-
-<rk-img
-  :src="`${$frontmatter.static_root}/3.block-diagram.png`"
-  width="100%"
-  caption="RAK2287 WisHat™ Pi HAT Block Diagram"
-/>
-
-## Ordering Information
+### Ordering Information
 
 | **Model** | **Description** | **Supported Module** | 
 | ---- | ---- | ---- | 
-| RAK2287 WisHat™ Pi HAT | PCIe to Pi HAT Convert Board for RAK2287 module with SPI interface | RAK2287-S | 
-
+| RAK2287 Pi HAT | PCIe to Pi HAT Convert Board for RAK2287 module with SPI interface | RAK2287-S | 

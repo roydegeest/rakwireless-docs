@@ -2,25 +2,6 @@
 rak_img: /assets/images/wislink-lora/rak831/datasheet/rak831-overview.png
 rak_grp: wislink
 rak_desc: This is something that describes this product - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vehicula est ex, in ullamcorper mauris pretium non. Sed egestas elit nec fermentum aliquet. Nulla molestie nisl fringilla lacus viverra tristique quis ut tellus. 
-params:
-  qlinks:
-    learnMore:
-      - name: Projects
-        href: https://www.hackster.io/search?q=RAK831&i=projects
-      - name: Community
-        href: https://forum.rakwireless.com/
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisLink/RAK831/Datasheet/
-      - name: Certification Report
-        href: /Product-Categories/WisLink/RAK831/Datasheet/#certification
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
-
 prev: false
 next: false
 ---
@@ -52,8 +33,6 @@ Applications possible with the RAK831 include Smart Metering , Wireless Star Net
   label="Get Started with RAK831 WisLink-LoRa"
 />
 
-<rk-quick-links :params="$frontmatter.params.qlinks" />
-
 ## Product Features
 
 - **Compact size** 80 mm 50 mm x 5 mm
@@ -75,8 +54,3 @@ Applications possible with the RAK831 include Smart Metering , Wireless Star Net
 - Optional GPS receiver
 - **Line of Sight Range**: up to 15 kilometers
 
-<rk-btn
-  src="https://store.rakwireless.com/products/rak831-gateway-module"
-  label="Buy a RAK831 WisLink-LoRa"
-  _blank
-/>

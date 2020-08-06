@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/wisbee/rak811-breakout-board/quickstart/overview
 rak_img: /assets/images/wisbee/rak811-breakout-board/quickstart/overview/RAK811-wisduo.svg
+rak_desc: RAK811 Breakout Module is a wireless remote sensor node solution based from RAK811 + MEMS Sensor. The board uses the latest LoRaWAN® Version 1.0.2 and supports the LoRaWAN® working mode, making it easier to link into the LoRaWAN® network.
 rak_grp: wisbee
 prev: false
 next: false
@@ -24,18 +25,22 @@ params:
         href: /deployment-guide/
 ---
 
-# RAK811 WisBee™ Breakout Module
+# RAK811 Breakout Module
 
 <rk-img
   :src="`${$frontmatter.static_root}/bnq9nqrvkrjojq89feoq.jpg`"
   width="70%"
+<<<<<<< HEAD
   figure-number="1"
+  caption="RAK811 Breakout Module"
+=======
   caption="RAK811 WisBee™ Breakout Module"
+>>>>>>> 709700640f5165cb1ea36a2223380125adedf3f5
 />
 
 ## Product Background
 
-**RAK811 WisBee™ Breakout Module** is a wireless remote sensor node solution based from RAK811 + MEMS Sensor. The board uses the latest LoRaWAN® Version 1.0.2 and supports the LoRaWAN® working mode, making it easier to link into the LoRaWAN® network.
+**RAK811 Breakout Module** is a wireless remote sensor node solution based from RAK811 + MEMS Sensor. The board uses the latest LoRaWAN® Version 1.0.2 and supports the LoRaWAN® working mode, making it easier to link into the LoRaWAN® network.
 
 This node has an expandable sensor interface, which greatly increases the product's application scenarios. It is equipped with advanced 3D acceleration chip that allows faster motion detection. The device has low-power features at stationary, reducing overall consumption and increasing battery life.
 
@@ -44,7 +49,7 @@ Overall, this node has various functionalities and applications designed in sing
 
 <rk-btn
   src="/Product-Categories/WisBee/RAK811-Breakout-Board/Quickstart/#quick-start-guide"
-  label="Get Started with RAK811 WisBee™ Breakout Module"
+  label="Get Started with RAK811 Breakout Module"
 />
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />
@@ -63,6 +68,6 @@ Overall, this node has various functionalities and applications designed in sing
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak811-lpwan-breakout-module"
-  label="Buy a RAK811 WisBee™ Breakout Module"
+  label="Buy a RAK811 Breakout Module"
   _blank
 />

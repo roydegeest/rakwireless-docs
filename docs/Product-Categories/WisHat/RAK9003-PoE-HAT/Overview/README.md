@@ -1,33 +1,18 @@
 ---
 static_root: /assets/images/wishat/rak9003-poe-hat/datasheet/
 rak_img: /assets/images/wishat/rak9003-poe-hat/datasheet/RAK9003.png
+rak_desc: The PoE HAT is an add-on board with Raspberry Pi form factor which can be plugged into a Raspberry Pi directly. The PoE HAT makes it possible to power the Raspberry Pi via a standard CAT 5 Ethernet cable.
 rak_grp: wishat
 prev: false
 next: false
-params:
-  qlinks1:
-    learnMore:
-      - name: Projects
-        href: https://www.hackster.io/search?q=rak4200&i=projects
-      - name: Community
-        href: https://forum.rakwireless.com
-      - name: Support
-        href: mailto:support@rakwireless.com
-    resources:
-      - name: Datasheet
-        href: /Product-Categories/WisHat/RAK9003-PoE-HAT/Datasheet/
-      - name: User Manual
-        href: /user-manual/
-      - name: Deployment Guide
-        href: /deployment-guide/
 ---
 
-# RAK9003 WisBee™ PoE HAT
+# RAK9003 PoE HAT
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak9003-poe-hat.png`"
   width="75%"
-  caption="RAK9003 WisBee™ PoE HAT"
+  caption="RAK9003 PoE HAT"
 />
 
 
@@ -40,11 +25,8 @@ The PoE HAT is designed to be compatible with the IEEE 802.3af/at Power-over-Eth
 
 <rk-btn
   src="/Product-Categories/WisHat/RAK9003-PoE-HAT/Datasheet/"
-  label="Get Started with RAK9003 WisBee™ PoE HAT"
+  label="Get Started with RAK9003 PoE HAT"
 />
-
-<rk-quick-links :params="$page.frontmatter.params.qlinks1" />
-
 
 ## Product Features
 
@@ -59,9 +41,3 @@ The PoE HAT is designed to be compatible with the IEEE 802.3af/at Power-over-Eth
 - **Overcurrent / short-circuit** protection.
 - **RoHS Compliant**.
 - Operating Temperature: **-40 ℃ ～+85 ℃.**
-
-<rk-btn
-  src="https://store.rakwireless.com/products/rak9003-poe-hat"
-  label="Buy a RAK9003 WisBee™ PoE HAT"
-  _blank
-/>

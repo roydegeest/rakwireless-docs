@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/wisbee/rak4200-breakout-board/quickstart/main
 rak_img: /assets/images/wisbee/rak4200-breakout-board/quickstart/main/RAK4200-breakout.png
+rak_desc: The RAK4200 LPWAN Breakout Module is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an Xbee form factor and its main purpose is to allow the RAK4200 stamp module form factor pin-out to be transferred to 2.54mm headers. 
 rak_grp: wisbee
 prev: false
 next: false
@@ -22,17 +23,17 @@ params:
         href: /deployment-guide/
 ---
 
-# RAK4200 LPWAN Breakout Module
+# RAK4200 WisBee™ Breakout Module
 
 <rk-img
   :src="`${$frontmatter.static_root}/peojuzuyfj5wzl51igyk.jpg`"
   width="50%"
-  caption="RAK4200 LPWAN Breakout Module"
+  caption="RAK4200 WisBee™ Breakout Module"
 />
 
 ## Product Description
 
-The **RAK4200 Breakout Module** is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an **Xbee form factor** and its main purpose is to allow the RAK4200 stamp module form factor pin-out to be transferred to 2.54mm headers. 
+The **RAK4200 LPWAN Breakout Module** is specifically designed to allow easy excess to the pins on the module in order to simplify development and testing. The breakout board utilized is of an **Xbee form factor** and its main purpose is to allow the RAK4200 stamp module form factor pin-out to be transferred to 2.54mm headers. 
 
 The module itself has the RAK4200 at its core, integrating an **STM32L071 MCU and a SX1276 LoRa® chip**. It has Ultra-Low Power Consumption of 1.5 uA in sleep mode, high LoRa® max output power at 19 dBm in work mode. 
 
@@ -40,7 +41,7 @@ The module complies with **LoRaWAN® 1.0.2 protocols**. It also supports Lora® 
 
 <rk-btn
   src="/Product-Categories/WisBee/RAK4200-Breakout-Board/Quickstart/#quick-start-guide"
-  label="Get Started with RAK4200 LPWAN Breakout Module"
+  label="Get Started with RAK4200 WisBee™ Breakout Module"
 />
 
 
@@ -59,6 +60,6 @@ The module complies with **LoRaWAN® 1.0.2 protocols**. It also supports Lora® 
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak4200-breakout-board"
-  label="Buy a RAK4200 LPWAN Breakout Module"
+  label="Buy a RAK4200 WisBee™ Breakout Module"
   _blank
 />

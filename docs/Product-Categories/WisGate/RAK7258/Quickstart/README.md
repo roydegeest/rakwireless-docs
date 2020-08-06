@@ -1,9 +1,6 @@
 ---
-prev: /wisgate/rak7258/overview/
+prev: /Product-Categories/WisGate/RAK7258/Overview/
 next: false
-sidebar: auto
-sidebarDepth: 3
-displayAllHeaders: true
 ---
 
 # Quick Start Guide
@@ -164,7 +161,7 @@ Connect the **Ethernet Port (ETH)** of the RAK7258 Micro Gateway via an Ethernet
 
 The Things Network is about enabling low power devices to use long range gateways to connect to an open-source, decentralized network to exchange data with Application. Learn more about The Things Network [here](https://www.thethingsnetwork.org/docs/).
 
-- First, you should have connected your RAK7258 Micro Gateway to the router in order to access the internet according to the method which has been introduced in the [Access the Internet](/wisgate/rak7258/quickstart/access-the-internet.html) section of this document.
+- First, you should have connected your RAK7258 Micro Gateway to the router in order to access the internet according to the method which has been introduced in the [Access the Internet](/Product-Categories/WisGate/RAK7258/Quickstart/#access-the-internet) section of this document.
 - Now go to the TTN Website: [https://www.thethingsnetwork.org/](https://www.thethingsnetwork.org/) and Login. You will then see the following page:
 
 <rk-img

@@ -5,17 +5,17 @@ tags:
 prev: ../Overview/
 ---
 
-# RAK4600 LPWAN Module Datasheet
+# RAK4600 WisDuo™ Datasheet
 
 <rk-img
   src="/assets/images/wisduo/rak4600-module/datasheet/overview/yb23mhfij8dwh5muoavk.png"
   width="45%"
-  caption="RAK4600 LPWAN Module"
+  caption="RAK4600 WisDuo™"
 />
 
 ### Product Description
 
-RAK4600 LPWAN Module includes an nRF52832 MCU and an SX1276 LoRa® chip. It has Ultra-Low Power Consumption of 2.0uA in sleep mode, high LoRa® output power up to 20dB max in work mode, and BLE output power up to 4dBm.
+RAK4600 WisDuo™ includes an nRF52832 MCU and an SX1276 LoRa® chip. It has Ultra-Low Power Consumption of 2.0uA in sleep mode, high LoRa® output power up to 20dB max in work mode, and BLE output power up to 4dBm.
 
 The module complies with LoRaWAN® 1.0.2 protocols. It also supports LoRa® Point to Point communications. The Module supports BLE 5.0 in addition to LoRa®. Its RF communication capabilities (LoRa®+BLE) make it suitable for a variety of applications in the IoT field.
 
@@ -37,19 +37,23 @@ The module complies with LoRaWAN® 1.0.2 protocols. It also supports LoRa® Poin
 
 ### Overview
 
+The overview section covers the RAK4600 WisDuo™ board overview where the top view is presented. It also includes the block diagram of the module showing its external interfaces. 
+
 #### Board Overview
+
 
 <rk-img
   src="/assets/images/wisduo/rak4600-module/datasheet/board-overview/vnje0doldhjv9gszuu8o.jpg"
   width="80%"
-  caption="RAK4600 LPWAN Module"
+  caption="RAK4600 WisDuo Top View™"
 />
 
-The figure above shows the top view of the RAK4600 LPWAN Module. The dimensions of the Module are 15 x 23 x 2.5 mm.
+<!-- The figure above shows the top view of the RAK4600 WisDuo™. The dimensions of the Module are 15 x 23 x 2.5 mm. 
+(Mechanical Characteristics)
+--->
 
 #### Block Diagram
 
-The Block diagram below shows the external interfaces of the RAK4600 LPWAN Module.
 
 <rk-img
   src="/assets/images/wisduo/rak4600-module/datasheet/block-diagram/xkxaew5skkeofmgfrzie.png"
@@ -57,11 +61,17 @@ The Block diagram below shows the external interfaces of the RAK4600 LPWAN Modul
   caption="RAK4600 Block Diagram"
 />
 
+
 ### Hardware
+
+The hardware specifications are categorized into five parts. It discusses the interfacing, pinouts, and the standard values of the board. It displays the frequency parameters and power consumption. These categories mentioned include tabular data and diagrams of the RAK4600 WisDuo™ board.
+
 
 #### Pin Definition
 
-Provided in this section is the Pinout of the RAK4600 LPWAN Module.
+<!---Provided in this section is the Pinout of the RAK4600 WisDuo™.--->
+
+
 
 <rk-img
   src="/assets/images/wisduo/rak4600-module/datasheet/pin-definition/tbnfkqxtk0arvvmlddsf.jpg"
@@ -133,11 +143,11 @@ The board supports the following LoRaWAN® frequency channels shown in the table
 
 #### Electrical Characteristics
 
-Several current consumption ratings are provided below for detailed RAK4600 LPWAN Module usage. Please refer to the values below for your preferred values for specific simulations and calculations.
+Several current consumption ratings are provided below for detailed RAK4600 WisDuo™ usage. Refer to the values presented for your preferred values for specific simulations and calculations.
 
 ##### Typical Current Consumption
 
-Shown in the table provided below is the typical current consumption of the RAK4600 LPWAN Module.
+Shown in the table provided below is the typical current consumption of the RAK4600 WisDuo™.
 
 | **Item**               | **Current Consumption** | **Condition**                    |
 | ---------------------- | ----------------------- | -------------------------------- |
@@ -155,11 +165,11 @@ The figures below are the average current consumption based on the different tes
 **Equipments**:
 
 - Oscilloscope
-- RAK4600 LPWAN Module
+- RAK4600 WisDuo™
 
 **LoRa® Packet Sending**
 
-The RAK4600 LPWAN Module takes **92.291 ms** to send a LoRa® packet which consumes **119 mA** of current.
+The RAK4600 WisDuo™ takes **92.291 ms** to send a LoRa® packet which consumes **119 mA** of current.
 
 - **Sending Time**: 92.291 ms
 - **Current consumption**: 119 mA
@@ -172,7 +182,7 @@ The RAK4600 LPWAN Module takes **92.291 ms** to send a LoRa® packet which consu
 
 **LoRa® Packet Receiving**
 
-The RAK4600 LPWAN Module takes **30.052 ms** to receive a LoRa® packet which consumes **13.8 mA** of current.
+The RAK4600 WisDuo™ takes **30.052 ms** to receive a LoRa® packet which consumes **13.8 mA** of current.
 
 - **Receiving Time**: 30.052 ms
 - **Current consumption**: 13.8 mA
@@ -185,19 +195,19 @@ The RAK4600 LPWAN Module takes **30.052 ms** to receive a LoRa® packet which co
 
 **Sleep Mode**
 
-The RAK4600 LPWAN Module when in sleep mode consumes **11.2 μA** of current.
+The RAK4600 WisDuo™ when in sleep mode consumes **11.2 μA** of current.
 
 - **Current consumption**: 11.2 μA
 
 <rk-img
   src="/assets/images/wisduo/rak4600-module/datasheet/electrical-characteristics/bpm1nbybf4exvnop89yo.jpg"
   width="100%"
-  caption="Oscilloscope Screen Capture of RAK4600 LPWAN Module in sleep mode"
+  caption="Oscilloscope Screen Capture of RAK4600 WisDuo™ in sleep mode"
 />
 
 #### Mechanical Characteristics
 
-The mechanical dimensions of the RAK4600 LPWAN Module is shown in the figures provided in this section.
+The mechanical dimensions of the RAK4600 WisDuo™ is shown in the figures provided in this section.
 
 <rk-img
   src="/assets/images/wisduo/rak4600-module/datasheet/mechanical-characteristics/jmglqkzpggdkglecgcau.jpg"
@@ -213,7 +223,7 @@ The mechanical dimensions of the RAK4600 LPWAN Module is shown in the figures pr
 
 #### Recommended Reflow Profile
 
-In this section, the recommended Reflow profile for RAK4600 LPWAN Module is described with the image below:
+In this section, the recommended Reflow profile for RAK4600 WisDuo™ is described with the image below:
 
 <rk-img
   src="/assets/images/wisduo/rak4600-module/datasheet/recommended-reflow-profile/jrhzrgsko4nmfcwpirix.jpg"
@@ -231,6 +241,9 @@ In this section, the recommended Reflow profile for RAK4600 LPWAN Module is desc
 - Ramp-down Rate (C): 1~3℃/ sec.
 
 ### Software
+
+Download the latest firmware of the RAK4600 WisDuo™  provided in the table below.
+
 
 #### Firmware
 

@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/wisgate/rak7258/quickstart/1.main
 rak_img: /assets/images/wisgate/rak7258/quickstart/1.main/RAK7258.svg
+rak_desc: The RAK7258 Micro Gateway is a full 8-channel Gateway with built-in Ethernet connectivity for a straightforward setup. Additionally, there is an on-board Wi-Fi setup that allows it to be easily configured via the default Wi-Fi AP mode.
 rak_grp: [wisgate, edge]
 prev: false
 next: false
@@ -15,16 +16,16 @@ params:
         href: mailto:support@rakwireless.com
     resources:
       - name: Datasheet
-        href: /wisgate/rak7258/datasheet/
+        href: /Product-Categories/WisGate/RAK7258/Datasheet/
       - name: Certification Reports
-        href: /wisgate/rak7258/datasheet/#certification-reports
+        href: /Product-Categories/WisGate/RAK7258/Datasheet/#certification-reports
       - name: User Manual
         href: /user-manual/
       - name: Deployment Guide
         href: /deployment-guide/
 ---
 
-# RAK7258 WisGate™ Edge Lite
+# RAK7258 Lite
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak7258_overview.jpg`"
@@ -48,8 +49,8 @@ The Gateway has Line-of-Sight (LoS) ranges of up to **15 kilometers**, while for
 The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and anchors. It is a full 8-channel Gateway with built-in Ethernet connectivity for a straightforward.
 
 <rk-btn
-  src="/wisgate/rak7258/quickstart/"
-  label="Get Started with RAK7258 Micro Gateway"
+  src="/Product-Categories/WisGate/RAK7258/Quickstart/"
+  label="Get Started with RAK7258 WisGate™ Edge Lite"
 />
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
@@ -66,6 +67,6 @@ The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and an
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak7258-micro-gateway"
-  label="Buy a RAK7258 Micro Gateway"
+  label="Buy a RAK7258 WisGate™ Edge Lite"
   _blank
 />

@@ -1,5 +1,5 @@
 ---
-prev: /wisduino/rak811-evaluation-board/overview/
+prev: /Product-Categories/WisDuino/RAK811-Evaluation-Board/Overview/
 next: false
 ---
 
@@ -25,7 +25,7 @@ Before going through each and every step in the installation guide of the RAK811
 ::: tip 📝 NOTE
 The bootloader of the RAK811 LPWAN Evaluation Board is already pre-installed upon manufacturing so flashing the bootloader is not necessary for you to perform. If you find that the bootloader of your RAK811 LPWAN Evaluation Board damaged, kindly contact our support though our [RAKwireless forum](https://forum.rakwireless.com/). However, if you want to upgrade the firmware of the device, please refer to the section below:
 
-1. [Firmware Upgrading](/wisduino/rak811-evaluation-board/quickstart/#upgrading-the-firmware)
+1. [Firmware Upgrading](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#upgrading-the-firmware)
    :::
 
 ### What's included in the package?
@@ -713,7 +713,7 @@ If the firmware version of your RAK811 LPWAN Evaluation Board is newer than V3.0
 1. In case you have not just burned the bootloader as instructed in the previous section, you need to manually go into **boot mode**. Connect you board via the USB interface and enter the following **AT command** after you have connected via the proper COM port:
 
 ::: tip 📝 NOTE
-Make sure to choose the correct port in the COM Port field. You can check this in the [Interfacing with RAK 811 Development Board](/wisduino/rak811-evaluation-board/quickstart/#interfacing-with-rak811-lpwan-evaluation-board) section.
+Make sure to choose the correct port in the COM Port field. You can check this in the [Interfacing with RAK 811 Development Board](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#interfacing-with-rak811-lpwan-evaluation-board) section.
 :::
 
 ```bash
@@ -774,7 +774,7 @@ at+set_config=device:restart
 
 This information means that you have uploaded the Firmware successfully!
 
-If you want to configure your RAK811 LPWAN Evaluation Board using the available **AT commands**, check the [AT Commands for RAK811 LPWAN Evaluation Board](/wisduino/rak811-evaluation-board/quickstart/#at-commands-for-rak811-lpwan-evaluation-board) section.
+If you want to configure your RAK811 LPWAN Evaluation Board using the available **AT commands**, check the [AT Commands for RAK811 LPWAN Evaluation Board](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#at-commands-for-rak811-lpwan-evaluation-board) section.
 
 ### RUI Online Compiler
 
@@ -908,7 +908,7 @@ For failed auto-downloading of your Final Customized Firmware instances, kindly 
   caption="Final Customized Firmware sample File"
 />
 
-9. The **newly compiled .bin file** will then be burned into your device by following the steps in the [Upgrading the Firmware](/wisduino/rak811-evaluation-board/quickstart/#upgrading-the-firmware) section.
+9. The **newly compiled .bin file** will then be burned into your device by following the steps in the [Upgrading the Firmware](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#upgrading-the-firmware) section.
 
 ### Interfacing with Arduino Boards
 
@@ -1034,14 +1034,13 @@ The five wires are connected in the same way with WisNode v1.1 and WisNode v1.2.
 
 Kindly look into the different sections on how to burn and update the bootloader and firmware of RAK811 LPWAN Evaluation board. Both the bootloader and firmware files can be downloaded [here](https://downloads.rakwireless.com/en/LoRa/WisNode/Firmware/).
 
-- **Bootloader**: [Burning the Bootloader]()
-- **Firmware**: [Upgrading the Firmware](/wisduino/rak811-evaluation-board/quickstart/#upgrading-the-firmware)
+- **Firmware**: [Upgrading the Firmware](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#upgrading-the-firmware)
 
 ##### Arduino Demo firmware
 
 1. Open the "**JoinNetworkOTAA.ino**" by navigating through `File>Examples>Arduino-RAK811-Library` in the Arduino IDE.
 
-2. Edit the **Device EUI**, **Application Key and Application EUI** in the "**JoinNetworkOTAA.ino**" which can be obtained in the [Connecting to The Things Network (TTN)](/wisduino/rak811-evaluation-board/quickstart/#connecting-to-the-things-network-ttn) section.
+2. Edit the **Device EUI**, **Application Key and Application EUI** in the "**JoinNetworkOTAA.ino**" which can be obtained in the [Connecting to The Things Network (TTN)](/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/#connecting-to-the-things-network-ttn) section.
 
 3.Afterwhich, proceed to uploading the sketch by following the steps in the image below:
 
