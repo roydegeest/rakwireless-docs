@@ -30,8 +30,12 @@ params:
 <rk-img
   :src="`${$frontmatter.static_root}/bnq9nqrvkrjojq89feoq.jpg`"
   width="70%"
+<<<<<<< HEAD
   figure-number="1"
   caption="RAK811 Breakout Module"
+=======
+  caption="RAK811 WisBee™ Breakout Module"
+>>>>>>> 709700640f5165cb1ea36a2223380125adedf3f5
 />
 
 ## Product Background

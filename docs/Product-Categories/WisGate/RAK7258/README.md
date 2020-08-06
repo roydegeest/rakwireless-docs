@@ -1,1 +1,1 @@
-<rk-redirect to="/wisgate/rak7258/overview" />
+<rk-redirect to="/Product-Categories/WisGate/RAK7258/Overview/" />

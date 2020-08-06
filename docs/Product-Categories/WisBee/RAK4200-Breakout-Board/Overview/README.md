@@ -23,12 +23,12 @@ params:
         href: /deployment-guide/
 ---
 
-# RAK4200 LPWAN Breakout Module
+# RAK4200 WisBee™ Breakout Module
 
 <rk-img
   :src="`${$frontmatter.static_root}/peojuzuyfj5wzl51igyk.jpg`"
   width="50%"
-  caption="RAK4200 LPWAN Breakout Module"
+  caption="RAK4200 WisBee™ Breakout Module"
 />
 
 ## Product Description
@@ -41,7 +41,7 @@ The module complies with **LoRaWAN® 1.0.2 protocols**. It also supports Lora® 
 
 <rk-btn
   src="/Product-Categories/WisBee/RAK4200-Breakout-Board/Quickstart/#quick-start-guide"
-  label="Get Started with RAK4200 LPWAN Breakout Module"
+  label="Get Started with RAK4200 WisBee™ Breakout Module"
 />
 
 
@@ -60,6 +60,6 @@ The module complies with **LoRaWAN® 1.0.2 protocols**. It also supports Lora® 
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak4200-breakout-board"
-  label="Buy a RAK4200 LPWAN Breakout Module"
+  label="Buy a RAK4200 WisBee™ Breakout Module"
   _blank
 />

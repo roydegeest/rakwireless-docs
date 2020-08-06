@@ -16,9 +16,9 @@ params:
         href: mailto:support@rakwireless.com
     resources:
       - name: Datasheet
-        href: /wisgate/rak7258/datasheet/
+        href: /Product-Categories/WisGate/RAK7258/Datasheet/
       - name: Certification Reports
-        href: /wisgate/rak7258/datasheet/#certification-reports
+        href: /Product-Categories/WisGate/RAK7258/Datasheet/#certification-reports
       - name: User Manual
         href: /user-manual/
       - name: Deployment Guide
@@ -49,8 +49,8 @@ The Gateway has Line-of-Sight (LoS) ranges of up to **15 kilometers**, while for
 The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and anchors. It is a full 8-channel Gateway with built-in Ethernet connectivity for a straightforward.
 
 <rk-btn
-  src="/wisgate/rak7258/quickstart/"
-  label="Get Started with RAK7258 Micro Gateway"
+  src="/Product-Categories/WisGate/RAK7258/Quickstart/"
+  label="Get Started with RAK7258 WisGate™ Edge Lite"
 />
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
@@ -67,6 +67,6 @@ The RAK Micro Gateway package includes a LoRa® antenna, mounting screws, and an
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak7258-micro-gateway"
-  label="Buy a RAK7258 Micro Gateway"
+  label="Buy a RAK7258 WisGate™ Edge Lite"
   _blank
 />
