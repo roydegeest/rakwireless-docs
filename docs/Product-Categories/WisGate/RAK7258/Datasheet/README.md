@@ -2,22 +2,19 @@
 tags:
   - datasheet
   - wisgate
-sidebar: auto
-sidebarDepth: 3
-displayAllHeaders: true
-prev: /wisgate/rak7258/overview/
+prev: /Product-Categories/WisGate/RAK7258/Overview/
 next: false 
 certifications:
   - [CE, https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/Certification-Report/RAK7258_CE_Certificate.zip]
   - [FCC, https://downloads.rakwireless.com/LoRa/Indoor-Gateway-RAK7258/Certification-Report/RAK7258_FCC_Certificate.zip]
 ---
 
-# RAK7258 Micro Gateway Datasheet
+# RAK7258 WisGate™ Edge Lite Datasheet
 
 <rk-img
   src="/assets/images/wisgate/rak7258/datasheet/rak7258-overview.png"
   width="60%"
-  caption="RAK7258 Micro Gateway"
+  caption="RAK7258 WisGate™ Edge Lite Gateway"
 />
 
 ## Overview

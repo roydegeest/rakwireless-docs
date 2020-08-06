@@ -9,7 +9,6 @@ prev: ../Overview/
 <rk-img
   src="/assets/images/wisduo/rak4200-module/datasheet/overview.png"
   width="50%"
-  figure-number="1"
   caption="RAK4200 Module"
 />
 
@@ -35,54 +34,49 @@ The module complies with LoRaWAN® 1.0.2 protocols. It also supports LoRa® Poin
 * 20KB RAM
 * 6KB of data EEPROM with ECC
 
-## Board Overview
 
-The figure below shows the top view of the RAK4200 LPWAN Module. The dimensions of the Module are 15 x 15.5 x 2.5 mm.
+## Specifications
+
+### Overview
+
+
+
+#### Board Overview
+
+<!---The figure below shows the top view of the RAK4200 LPWAN Module. The dimensions of the Module are 15 x 15.5 x 2.5 mm.
+(Mechanical Characteristics)
+--->
+
+The overview covers the RAK4200 WisDuo™ board overview where the front and back views are presented. It includes also the block diagram that shows the external interfaces of the RAK4200 WisDuo™.
 
 <rk-img
   src="/assets/images/wisduo/rak4200-module/datasheet/back_view.png"
   width="75%"
-  figure-number="2"
   caption="RAK4200 LPWAN Module Front and Back View"
 />
 
-## Interfaces
 
-### Block Diagram
+#### Block Diagram
 
-The block diagram below shows the external interfaces of the RAK4200 LPWAN Module.
+<!--- The block diagram below shows the external interfaces of the RAK4200 LPWAN Module. --->
 
 <rk-img
   src="/assets/images/wisduo/rak4200-module/datasheet/block-diagram.png"
   width="100%"
-  figure-number="3"
-  caption="RAK4200 Block Diagram"
+  caption="RAK4200 WisDuo™ Block Diagram"
 />
 
-## Operating Frequencies
-
-The board supports the following LoRaWAN® frequency channels shown in the table below. The frequency parameter is easy to configure as you go through the device configuration setup. RAK4200 has two different types based on its frequency: RAK4200(L) for low frequency and RAK4200(H) for high frequency.
-
-|     **Module**      |  **Region**   | **Frequency (MHz)** |
-| :-----------------: | :-----------: | :-----------------: |
-| **RAK4200** **(L)** |    Europe     |        EU433        |
-|                     |     China     |        CN470        |
-| **RAK4200** **(H)** |    Indian     |        IN865        |
-|                     |    Europe     |        EU868        |
-|                     | North America |        US915        |
-|                     |   Australia   |      Australia      |
-|                     |     Korea     |        KR920        |
-|                     |     Asia      |        AS923        |
+### Hardware
 
 
-## Pin Definition
 
-Provided in this section is the Pinout of the RAK4200 LPWAN Module.
+#### Pin Definition
+
+<!---Provided in this section is the Pinout of the RAK4200 LPWAN Module.--->
 
 <rk-img
   src="/assets/images/wisduo/rak4200-module/datasheet/pinout-for-rak4200.png"
   width="75%"
-  figure-number="4"
   caption="Pinout for RAK4200"
 />
 
@@ -110,13 +104,33 @@ Provided in this section is the Pinout of the RAK4200 LPWAN Module.
 | 19  | GND      | -   | Ground                                           |
 | 20  | VDD      | -   | DC3V3                                            |
 
-## Electrical Characteristics
 
-### Electrical Consumption
+#### RF Characteristics
+
+##### Operating Frequencies
+
+The board supports the following LoRaWAN® frequency channels shown in the table below. The frequency parameter is easy to configure as you go through the device configuration setup. RAK4200 has two different types based on its frequency: RAK4200(L) for low frequency and RAK4200(H) for high frequency.
+
+|     **Module**      |  **Region**   | **Frequency (MHz)** |
+| :-----------------: | :-----------: | :-----------------: |
+| **RAK4200** **(L)** |    Europe     |        EU433        |
+|                     |     China     |        CN470        |
+| **RAK4200** **(H)** |    Indian     |        IN865        |
+|                     |    Europe     |        EU868        |
+|                     | North America |        US915        |
+|                     |   Australia   |      Australia      |
+|                     |     Korea     |        KR920        |
+|                     |     Asia      |        AS923        |
+
+
+
+#### Electrical Characteristics
+
+##### Electrical Consumption
 
 Several current consumption ratings are provided below for a detailed RAK4200 LPWAN Module usage. Refer to the values provided for specific simulations and calculations.
 
-### Laboratory Testing
+##### Laboratory Testing
 
 The following figures shown below are the average current consumptions based on the different test cases.
 
@@ -135,7 +149,6 @@ The RAK4200 LPWAN Module takes **53.155 ms** to send a LoRa® packet which consu
 <rk-img
   src="/assets/images/wisduo/rak4200-module/datasheet/oscilloscope-screen-capture-of-lora®-packet-sending.jpg"
   width="75%"
-  figure-number="5"
   caption="Oscilloscope Screen Capture of LoRa® Packet Sending"
 />
 
@@ -149,7 +162,6 @@ The RAK4200 LPWAN Module takes **46.179 ms** to receive a LoRa® packet which co
 <rk-img
   src="/assets/images/wisduo/rak4200-module/datasheet/oscilloscope-screen-capture-of-lora®-packet-receiving.jpg"
   width="75%"
-  figure-number="6"
   caption="Oscilloscope Screen Capture of LoRa® Packet Receiving"
 />
 
@@ -162,22 +174,20 @@ The RAK4200 LPWAN Module when in sleep mode consumes **11.8 uA** of current.
 <rk-img
   src="/assets/images/wisduo/rak4200-module/datasheet/oscilloscope-screen-capture-of-rak4200-lpwan-module-in-sleep-mode.jpg"
   width="75%"
-  figure-number="7"
   caption="Oscilloscope Screen Capture of RAK4200 LPWAN Module in sleep mode"
 />
 
-## Mechanical Characteristics
+#### Mechanical Characteristics
 
 The following figure is the mechanical dimensions of the RAK4200 LPWAN Module.
 
 <rk-img
   src="/assets/images/wisduo/rak4200-module/datasheet/mechanical-dimensions.jpg"
   width="50%"
-  figure-number="8"
   caption="Mechanical Dimensions"
 />
 
-## Recommended Reflow Profile
+#### Recommended Reflow Profile
 
 In this section, the recommended reflow profile for RAK4200 LPWAN Module is described in the image below:
 
@@ -185,11 +195,10 @@ In this section, the recommended reflow profile for RAK4200 LPWAN Module is desc
 <rk-img
   src="/assets/images/wisduo/rak4200-module/datasheet/recommended-reflow-profile.jpg"
   width="75%"
-  figure-number="9"
   caption="Recommended Reflow Profile"
 />
 
-### Standard Conditions for Reflow Soldering:
+##### Standard Conditions for Reflow Soldering:
 
 * **Pre-heating Ramp** (A) (Initial temperature: 150℃): 1-2.5℃/sec;
 * **Soaking Time** (T2) (150℃~180℃): 60sec-100sec;
