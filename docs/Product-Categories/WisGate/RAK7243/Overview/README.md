@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/wisgate/rak7243/quickstart/1.main/
 rak_img: /assets/images/wisgate/rak7243/quickstart/1.main/rak7243.svg
+rak_desc: The RAK7243 LPWAN Developer D3 Gateway is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. The RAK7243 Developer is just a RAK2245 Pi Hat which can be easily stacked on top of a cheap Single Board Computer (SBC) such as the Raspberry Pi 3B+ which is enclosed in a Pilot Gateway Casing.
 rak_grp: [wisgate, developer]
 prev: false
 next: false
@@ -20,21 +21,21 @@ params:
         href: /deployment-guide/
 ---
 
-# RAK7243 WisGate™ Developer D3
+# RAK7243 LPWAN Developer D3 Gateway
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak7243_overview.jpg`"
   width="75%"
-  caption="RAK7243 WisGate™ Developer"
+  caption="RAK7243 Developer"
 />
 
 ## Product Background
 
-The **RAK7243 WisGate™ Developer** is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. The RAK7243 WisGate™ Developer is just a RAK2245 Pi Hat which can be easily stacked on top of a cheap Single Board Computer (SBC) such as the **Raspberry Pi 3B+** which is enclosed in a Pilot Gateway Casing. You can also use its sister model [RAK7243C LPWAN Developer Gateway](https://store.rakwireless.com/products/rak7243c-pilot-gateway) if you want to have Cellular functions added into it.
+The **RAK7243 LPWAN Developer D3 Gateway** is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. The RAK7243 Developer is just a RAK2245 Pi Hat which can be easily stacked on top of a cheap Single Board Computer (SBC) such as the **Raspberry Pi 3B+** which is enclosed in a Pilot Gateway Casing. You can also use its sister model [RAK7243C LPWAN Developer Gateway](https://store.rakwireless.com/products/rak7243c-pilot-gateway) if you want to have Cellular functions added into it.
 
 <rk-btn
   src="/Product-Categories/WisGate/RAK7243/Quickstart/#quick-start-guide"
-  label="Get Started with RAK7243 WisGate™ Developer"
+  label="Get Started with RAK7243 LPWAN Developer D3 Gateway"
 />
 
 &nbsp;
@@ -55,6 +56,6 @@ The **RAK7243 WisGate™ Developer** is a complete and cost efficient Gateway So
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak7243c-pilot-gateway"
-  label="Buy a RAK7243 WisGate™ Developer"
+  label="Buy a RAK7243 LPWAN Developer D3 Gateway"
   _blank
 />

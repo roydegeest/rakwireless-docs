@@ -5,12 +5,12 @@ tags:
 prev: /Product-Categories/WisHat/RAK9003-PoE-HAT/Overview/
 ---
 
-# RAK9003 WisBee™ PoE HAT Datasheet
+# RAK9003 PoE HAT Datasheet
 
 <rk-img
   src="/assets/images/wishat/rak9003-poe-hat/datasheet/rak9003-poe-hat.png"
   width="75%"
-  caption="RAK9003 WisBee™ PoE HAT"
+  caption="RAK9003 PoE HAT"
 />
 
 ## Overview

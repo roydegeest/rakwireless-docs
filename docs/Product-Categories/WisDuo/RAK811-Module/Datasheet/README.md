@@ -12,7 +12,7 @@ certifications:
 
 ---
 
-# RAK811 WisDuo™ LPWAN Module Datasheet
+# RAK811 LPWAN Module Datasheet
 
 <rk-img
   src="/assets/images/wisduo/rak811-module/datasheet/overview/nwgqobrzwanalynildkc.jpg"

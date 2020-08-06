@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/wisgate/rak7258/quickstart/1.main
 rak_img: /assets/images/wisgate/rak7258/quickstart/1.main/RAK7258.svg
+rak_desc: The RAK7258 Micro Gateway is a full 8-channel Gateway with built-in Ethernet connectivity for a straightforward setup. Additionally, there is an on-board Wi-Fi setup that allows it to be easily configured via the default Wi-Fi AP mode.
 rak_grp: [wisgate, edge]
 prev: false
 next: false
@@ -24,7 +25,7 @@ params:
         href: /deployment-guide/
 ---
 
-# RAK7258 WisGate™ Edge Lite
+# RAK7258 Lite
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak7258_overview.jpg`"

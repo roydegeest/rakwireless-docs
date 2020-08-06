@@ -18,10 +18,11 @@ params:
       - name: Deployment Guide
         href: /deployment-guide/
 rak_img: /assets/images/wisduo/rak811-module/overview/nwgqobrzwanalynildkc.jpg
+rak_desc: RAK811 Low-Power Long Range LoRa® Technology Transceiver module provides an easy to use, small size, low-power solution for long range wireless data transmission.
 rak_grp: wisduo
 ---
 
-# RAK811 WisDuo™ LPWAN Module
+# RAK811 LPWAN Module
 
 <rk-img
   src="/assets/images/wisduo/rak811-module/overview/nwgqobrzwanalynildkc.jpg"
@@ -31,12 +32,9 @@ rak_grp: wisduo
 
 ## Product Description
 
-RAK811 Low-Power Long Range LoRa® Technology Transceiver module provides an easy to
-use, small size, low-power solution for long range wireless data transmission.
+RAK811 Low-Power Long Range LoRa® Technology Transceiver module provides an easy to use, small size, low-power solution for long range wireless data transmission.
 
-The RAK811 module complies with the latest LoRaWAN® Class A & C protocol
-specifications, it is simple to access LWPA IOT platforms, such Actility etc. It also supports LoRa® Point to Point communications (P2P) , this function can help customers implement their own
-private long range LoRa® network fast.
+The RAK811 module complies with the latest LoRaWAN® Class A & C protocol specifications, it is simple to access LWPA IOT platforms, such Actility etc. It also supports LoRa® Point to Point communications (P2P) , this function can help customers implement their own private long range LoRa® network fast.
 
 The RAK811 Module is integrated with Semtech's SX1276 and STM32L which offers user a way communicating with AT Commands through UART Interface. Users will also be able to make their projects turn into reality such as Long Range Sensor data applications, RAK811 also offers a low power feature that is suitable for battery powered applications.
 

@@ -8,7 +8,7 @@ certifications:
   - [FCC, https://downloads.rakwireless.com/LoRa/Pilot-Gateway-Pro-RAK7243/Certification-Report/RAK7243_FCC_Certificate.zip]
 ---
 
-# RAK7243C WisGate™ Developer Datasheet
+# RAK7243C Developer Datasheet
 
 <rk-img
   src="/assets/images/wisgate/rak7243c/datasheet/1.rak7243c-overview.png"

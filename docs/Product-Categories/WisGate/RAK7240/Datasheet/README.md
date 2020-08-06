@@ -8,23 +8,23 @@ certifications:
   - [FCC, https://downloads.rakwireless.com/LoRa/RAK7240/Certification-Report/RAK7240_FCC_Certificate.zip]
 ---
 
-# RAK7240 WisGate™ Edge Prime Datasheet
+# RAK7240 Prime Datasheet
 
 <rk-img
   src="/assets/images/wisgate/rak7240/datasheet/1.rak7240-overview.jpg"
   width="100%"
-  caption="RAK7240 WisGate™ Edge Prime"
+  caption="RAK7240 Prime"
 />
 
 ## Overview
 
 ### Product Description
 
-The **RAK7240 WisGate™ Edge Prime** is an ideal product for large scale LPWAN deployment where cost is essential, however there is no compromises to be made on quality. Its wide range of customization options allow for flexibility when deploying a solution. With its industrial-grade components and high class of ingress protection, it achieves a high standard of reliability.
+The **RAK7240 Prime** is an ideal product for large scale LPWAN deployment where cost is essential, however there is no compromises to be made on quality. Its wide range of customization options allow for flexibility when deploying a solution. With its industrial-grade components and high class of ingress protection, it achieves a high standard of reliability.
 
 The Gateway provides for a solid out of the box experience where quick deployment is required. Additionally, since its software and User Interface sit on top of OpenWRT, it is perfect for the development of custom applications (**via the open SDK**).
 
-Thus, the **RAK7240 WisGate™ Edge Prime**, is suited for any use case scenario, be it rapid deployment or customization with regards to User Interface and functionality.
+Thus, the **RAK7240 Prime**, is suited for any use case scenario, be it rapid deployment or customization with regards to User Interface and functionality.
 
 ### Product Features
 
@@ -56,7 +56,7 @@ Thus, the **RAK7240 WisGate™ Edge Prime**, is suited for any use case scenario
 <rk-img
   src="/assets/images/wisgate/rak7240/datasheet/2.circuit-board.png"
   width="100%"
-  caption="RAK7240 WisGate™ Edge Prime Circuit Board"
+  caption="RAK7240 Prime Circuit Board"
 />
 
 #### Block Diagram
@@ -64,19 +64,19 @@ Thus, the **RAK7240 WisGate™ Edge Prime**, is suited for any use case scenario
 <rk-img
   src="/assets/images/wisgate/rak7240/datasheet/3.block-diagram.png"
   width="100%"
-  caption="RAK7240 WisGate™ Edge Prime Block Diagram"
+  caption="RAK7240 Prime Block Diagram"
 />
 
 ### Hardware
 
 #### Interfaces (Hardware Interfaces)
 
-The hardware interfaces of **RAK7240 WisGate™ Edge Prime** include five (5) antenna ports (LoRa®, LTE-DIV/LoRa2, LTE-MAIN, WiFi, and GPS), six (6) status indicator LEDs, TF Card and nano-SIM sockets, a console port, an Ethernet Port (PoE), and a ground pad, as shown in the following figure:
+The hardware interfaces of **RAK7240 Prime** include five (5) antenna ports (LoRa®, LTE-DIV/LoRa2, LTE-MAIN, WiFi, and GPS), six (6) status indicator LEDs, TF Card and nano-SIM sockets, a console port, an Ethernet Port (PoE), and a ground pad, as shown in the following figure:
 
 <rk-img
   src="/assets/images/wisgate/rak7240/datasheet/4.hardware-interfaces.jpg"
   width="100%"
-  caption="RAK7240 WisGate™ Edge Prime Hardware Interfaces" 
+  caption="RAK7240 Prime Hardware Interfaces" 
 />
 
 ##### LED Indicators

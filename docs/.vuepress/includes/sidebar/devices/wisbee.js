@@ -1,5 +1,4 @@
 module.exports = {
-
     '/Product-Categories/WisBee/RAK811-Breakout-Board/': [
       {
         title: 'Product Overview',
@@ -96,6 +95,4 @@ module.exports = {
           sidebarDepth: 4
         }
       ],
-
-
 }

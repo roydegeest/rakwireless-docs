@@ -13,19 +13,19 @@ certifications:
 
 ---
 
-# RAK811 WisBee™ Breakout Module Datasheet
+# RAK811 Breakout Module Datasheet
 
 <rk-img
   src="/assets/images/wisbee/rak811-breakout-board/datasheet/1.rak811-breakout.png"
   width="50%"
-  caption="RAK811 WisBee™ Breakout Module"
+  caption="RAK811 Breakout Module"
 />
 
 ## Overview
 
 ### Description
 
-**RAK811 WisBee™ Breakout Module** is an easy to use, compact and low power long range LoRa® technology with wireless transceiver capabilities. A combination of RAK811 chipset and RAK811 Breakout Board with Semtech SX1276 at its core which takes advantage of all LoRa® features.
+**RAK811 Breakout Module** is an easy to use, compact and low power long range LoRa® technology with wireless transceiver capabilities. A combination of RAK811 chipset and RAK811 Breakout Board with Semtech SX1276 at its core which takes advantage of all LoRa® features.
 
 The RAK811 module complies with the latest LoRaWAN® Class A & C protocol specifications with fully supported LoRaWAN® 1.0.2 stack in its firmware. It has a simple and straightforward setup and can quickly access LWPA IOT platforms. Additionally, it supports LoRa® Point to Point (P2P) communications which helps customers in implementing their own private LoRa® network.
 
@@ -56,7 +56,7 @@ This module is a complete solution in developing your LoRaWAN® protocol techniq
 
 #### Module Overview
 
-The **RAK811 WisBee™ Breakout Module** has a board dimension of **42mm x 25mm** and weighs at about **0.2kg**.
+The **RAK811 Breakout Module** has a board dimension of **42mm x 25mm** and weighs at about **0.2kg**.
 
 <rk-img
   src="/assets/images/wisbee/rak811-breakout-board/datasheet/2.dimensions.png"

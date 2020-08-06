@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/wishat/rak2287-pi-hat/datasheet/
 rak_img: /assets/images/wishat/rak2287-pi-hat/datasheet/1.rak2287-pi-hat.png
+rak_desc: RAK2287  Pi HAT is a converter board with a Raspberry Pi form factor that enables the RAK2287 LPWAN concentrator module to be mounted on the top of the Raspberry Pi. 
 rak_grp: wishat
 prev: false
 next: false
@@ -22,23 +23,23 @@ params:
         href: /deployment-guide/
 ---
 
-# RAK22877 WisHat™ Pi HAT
+# RAK2287 Pi HAT
 
 <rk-img
   :src="`${$frontmatter.static_root}/1.rak2287-pi-hat.png`"
   width="75%"
-  caption="RAK22877 WisHat™ Pi HAT"
+  caption="RAK2287 Pi HAT"
 />
 
 ## Product Background
 
-**RAK22877 WisHat™ Pi HAT** is a converter board with a Raspberry Pi form factor that enables the RAK2287 LPWAN concentrator module to be mounted on the top of the Raspberry Pi. 
+**RAK2287 Pi HAT** is a converter board with a Raspberry Pi form factor that enables the RAK2287 LPWAN concentrator module to be mounted on the top of the Raspberry Pi. 
 
 It integrates one (1) **40-pin female Pi HAT connector** and one (1) **PCIe connector** to connect the module to the Raspberry Pi that is both compatible with the Raspberry Pi 3 Model B+/Raspberry 4 edition.
 
 <rk-btn
   src="/Product-Categories/WisHat/RAK2287-Pi-HAT/Datasheet/"
-  label="Get Started with RAK22877 WisHat™ Pi HAT"
+  label="Get Started with RAK2287  Pi HAT"
 />
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
@@ -51,7 +52,7 @@ It integrates one (1) **40-pin female Pi HAT connector** and one (1) **PCIe conn
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak2287-pi-hat"
-  label="Buy a RAK22877 WisHat™ Pi HAT"
+  label="Buy a RAK2287  Pi HAT"
   _blank
 />
 

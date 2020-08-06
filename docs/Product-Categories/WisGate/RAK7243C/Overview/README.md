@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/wisgate/rak7243c/quickstart/1.product-overview/1.index
 rak_img: /assets/images/wisgate/rak7243c/quickstart/1.product-overview/1.index/RAK7243C.svg
+rak_desc: The RAK7243C Developer D3+ Gateway is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa System. It is built with the RAK2245 Pi Hat stacked with the Raspberry Pi 3B+ along with the GPS module and Heat Sink, increasing its performance and thermal dissipation, plus a RAK2013 Cellular Pi HAT for cellular connectivity. 
 rak_grp: [wisgate, developer]
 prev: false
 next: false
@@ -25,23 +26,23 @@ params:
 
 ---
 
-# RAK7243C WisGate™ Developer D3+
+# RAK7243C Developer D3+ Gateway
 
 <rk-img
   :src="`${$frontmatter.static_root}/1.pnebj6mub4bpzc83ehzw.jpg`"
   width="75%"
-  caption="RAK7243C WisGate™ Developer"
+  caption="RAK7243C Developer Gateway"
 />
 
 ## Product Background
 
-The **RAK7243C LPWAN** **Developer Gateway** is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa System. It is built with the RAK2245 Pi Hat stacked with the Raspberry Pi 3B+ along with the GPS module and Heat Sink, increasing its performance and thermal dissipation, plus a RAK2013 Cellular Pi HAT for cellular connectivity. The housing for the device is durable and entirely built from aluminum.
+The **RAK7243C Developer D3+ Gateway** is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa System. It is built with the RAK2245 Pi Hat stacked with the Raspberry Pi 3B+ along with the GPS module and Heat Sink, increasing its performance and thermal dissipation, plus a RAK2013 Cellular Pi HAT for cellular connectivity. The housing for the device is durable and entirely built from aluminum.
 
-The RAK7243C WisGate™ Developer is ideal for prototyping, proof-of concept evaluation and demonstration. It includes everything you need to help you get started in building your own LoRaWAN® Network in just a couple of minutes. It provides great value and flexible functionality for a variety of applications: Smart Grids, Intelligent Farming and other IoT applications.
+The RAK7243C Developer is ideal for prototyping, proof-of concept evaluation and demonstration. It includes everything you need to help you get started in building your own LoRaWAN® Network in just a couple of minutes. It provides great value and flexible functionality for a variety of applications: Smart Grids, Intelligent Farming and other IoT applications.
 
 <rk-btn
   src="/Product-Categories/WisGate/RAK7243C/Quickstart/#quick-start-guide"
-  label="Get Started with RAK7243C WisGate™ Developer"
+  label="Get Started with RAK7243C Developer Gateway"
 />
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />
@@ -58,12 +59,12 @@ The RAK7243C WisGate™ Developer is ideal for prototyping, proof-of concept eva
 - Includes Pi ready 'ID EEPROM', GPIO setup and device tree can be automatically configured from vendor information.
 
 ::: warning
- The RAK7243C WisGate™ Developer is different from RAK7243 LPWAN Developer Gateway . The RAK7243C WisGate™ Developer is the Cellular Version and it comes with the Cellular Pi Hat.
+ The RAK7243C Developer is different from RAK7243 LPWAN Developer Gateway . The RAK7243C Developer is the Cellular Version and it comes with the Cellular Pi Hat.
 :::
 
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak7243c-pilot-gateway"
-  label="Buy a RAK7243C WisGate™ Developer"
+  label="Buy a RAK7243C Developer Gateway"
   _blank
 />

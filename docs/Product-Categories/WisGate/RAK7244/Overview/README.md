@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/wisgate/rak7244/quickstart/1.main
 rak_img: /assets/images/wisgate/rak7244/quickstart/1.main/RAK7244.svg
+rak_desc: The RAK7244 LPWAN Developer Gateway is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. It is built with the RAK2245 Pi HAT stacked with the newest Raspberry Pi 4, along with the GPS module and Heat Sink, increasing its performance and thermal dissipation.
 rak_grp: [wisgate, developer]
 prev: false
 next: false
@@ -22,17 +23,17 @@ params:
         href: /deployment-guide/
 ---
 
-# RAK7244 WisGate™ Developer D4
+# RAK7244 LPWAN Developer D4 Gateway
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak7244_overview.jpg`"
   width="75%"
-  caption="RAK7244 WisGate™ Developer"
+  caption="RAK7244 Developer"
 />
 
 ## Product Background
 
-The **RAK7244 - LPWAN Developer Gateway** is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. It is built with the **RAK2245 Pi HAT** stacked with the newest **Raspberry Pi 4**, along with the GPS module and Heat Sink, increasing its performance and thermal dissipation. The housing for the device is durable and entirely built from aluminum.
+The **RAK7244 LPWAN Developer Gateway** is a complete and cost efficient Gateway Solution that will help you get started in developing a full LoRa® System. It is built with the **RAK2245 Pi HAT** stacked with the newest **Raspberry Pi 4**, along with the GPS module and Heat Sink, increasing its performance and thermal dissipation. The housing for the device is durable and entirely built from aluminum.
 
 The gateway has a powerful LoRa® digital signal processing engine from Semtech SX1301 RF front end chip. It is capable of receiving up to 8 LoRa® packets simultaneously sent with different spreading factors on different channels. It is available in multiple variants to be accessible in all LoRa Alliance® frequency bands. This breakthrough allows innovative network architectures to be implemented that has a huge impact over other short range systems.
 
@@ -40,7 +41,7 @@ Overall, this gateway has various functionalities that are ideal for prototyping
 
 <rk-btn
   src="/Product-Categories/WisGate/RAK7244/Quickstart/"
-  label="Get Started with RAK7244 WisGate™ Developer"
+  label="Get Started with RAK7244 Developer"
 />
 
 &nbsp;
@@ -60,7 +61,7 @@ Overall, this gateway has various functionalities that are ideal for prototyping
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak7244-lpwan-developer-gateway"
-  label="Buy a RAK7244 WisGate™ Developer"
+  label="Buy a RAK7244 Developer"
   _blank
 />
 

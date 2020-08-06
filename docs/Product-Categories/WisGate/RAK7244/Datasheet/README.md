@@ -5,7 +5,7 @@ tags:
 prev: /Product-Categories/WisGate/RAK7244/Overview/
 ---
 
-# RAK7244 WisGate™ Developer Datasheet
+# RAK7244 Developer Datasheet
 
 <rk-img
   src="/assets/images/wisgate/rak7244/datasheet/emefrtsevzyv5dulz1hs.png"
@@ -15,7 +15,7 @@ prev: /Product-Categories/WisGate/RAK7244/Overview/
 
 ### Product Description
 
-The RAK7244 WisGate™ Developer is a device that consists of a Raspberry Pi 4, a RAK2245 Pi HAT, which includes a GPS module and a Heat Sink for better performance and thermal heat dissipation management.
+The RAK7244 Developer is a device that consists of a Raspberry Pi 4, a RAK2245 Pi HAT, which includes a GPS module and a Heat Sink for better performance and thermal heat dissipation management.
 
 There is a total of 3 configuration options:
 

@@ -1,6 +1,7 @@
 ---
 static_root: /assets/images/wisgate/rak7249/quickstart/1.main
 rak_img: /assets/images/wisgate/rak7249/datasheet/rak7249.png
+rak_desc: RAK7249 Max is an ideal product for IoT commercial deployment. Its modularity and customization options allow for flexibility when deploying a solution. With its industrial-grade components, it achieves a high standard of reliability.
 rak_grp: [wisgate, edge]
 prev: false
 next: false
@@ -24,18 +25,18 @@ params:
         href: /deployment-guide/
 ---
 
-# RAK7249 WisGate™ Edge Max
+# RAK7249 Max
 
 <rk-img
   :src="`${$frontmatter.static_root}/rak7249_overview.jpg`"
   width="70%"
 
-  caption="RAK7249 WisGate™ Edge Max with Support Plate Attached"
+  caption="RAK7249 Max with Support Plate Attached"
 />
 
 ## Product Background
 
-**RAK7249 WisGate™ Edge Max** is an ideal product for IoT commercial deployment. Its modularity and customization options allow for flexibility when deploying a solution. With its industrial-grade components, it achieves a high standard of reliability.
+**RAK7249 Max** is an ideal product for IoT commercial deployment. Its modularity and customization options allow for flexibility when deploying a solution. With its industrial-grade components, it achieves a high standard of reliability.
 
 The Gateway provides for a solid out of the box experience for quick deployment. Additionally, since its software and UI sits on top of OpenWRT it is perfect for the development of custom applications (via the open SDK).
 
@@ -43,7 +44,7 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 
 <rk-btn
   src="/Product-Categories/WisGate/RAK7249/Quickstart/"
-  label="Get Started with RAK7249 WisGate™ Edge Max"
+  label="Get Started with RAK7249 Max"
 />
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks1" />
@@ -72,6 +73,6 @@ Thus the RAK7249 is suited for any use case scenario, be it rapid deployment or 
 
 <rk-btn
   src="https://store.rakwireless.com/products/rak7249-diy-outdoor-gateway"
-  label="Buy a RAK7249 WisGate™ Edge Max"
+  label="Buy a RAK7249 Max"
   _blank
 />
