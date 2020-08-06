@@ -1,5 +1,5 @@
 ---
-next: /en-us/deployment-guide/gateway-remote-management-ddns/register-ddns-service.html
+next: /deployment-guide/gateway-remote-management-ddns/register-ddns-service.html
 ---
 
 # Gateway Remote Management - DDNS

@@ -1,5 +1,5 @@
 ---
-prev: /en-us/user-manual/gateway-firmware-burning/#device-firmware-setup
+prev: /user-manual/gateway-firmware-burning/#device-firmware-setup
 next: firmware-burning
 ---
 
