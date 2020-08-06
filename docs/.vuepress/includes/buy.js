@@ -84,5 +84,13 @@ export default {
     img: '/assets/images/wishat/rak2287-pi-hat/datasheet/1.rak2287-pi-hat.png',
     store: 'https://store.rakwireless.com/products/rak2287-pi-hat'
   },
+  '/Product-Categories/WisHat/RAK8213-Pi-HAT/': {
+    img: '/assets/images/wishat/rak8213-pi-hat/datasheet/rak8213-pi-hat.png',
+    store: 'https://store.rakwireless.com/products/rak8213-nb-iot-bg96'
+  },
+  '/Product-Categories/WisHat/RAK9003-PoE-HAT/': {
+    img: '/assets/images/wishat/rak9003-poe-hat/datasheet/RAK9003.png',
+    store: 'https://store.rakwireless.com/products/rak9003-poe-hat'
+  },
 }
 

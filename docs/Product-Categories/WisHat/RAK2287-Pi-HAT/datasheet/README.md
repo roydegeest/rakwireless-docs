@@ -107,4 +107,3 @@ RAK2287 Pi HAT integrates one (1) 40-pin female Pi HAT connector and one (1) PCI
 | **Model** | **Description** | **Supported Module** | 
 | ---- | ---- | ---- | 
 | RAK2287 Pi HAT | PCIe to Pi HAT Convert Board for RAK2287 module with SPI interface | RAK2287-S | 
-
