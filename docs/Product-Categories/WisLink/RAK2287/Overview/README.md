@@ -7,12 +7,15 @@ next: false
 ---
 
 # RAK2287 WisLink-LoRa
+Thank You For choosing **RAK2287 WisLink-LoRa** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Quick Start Guide](../Quickstart/)
+* [Datasheet](../Datasheet/)
+<!-- <rk-img
   src="/assets/images/wislink-lora/rak2287/datasheet/overview/aprgtyyf6arxkxu7rjyl.jpg"
   width="50%"
   caption="RAK2287 WisLink-LoRa"
-/>
+/> -->
 
 ## Product Description
 
@@ -20,10 +23,10 @@ next: false
 
 This module is an exceptional, complete and cost efficient gateway solution offering up to 10 programmable parallel demodulation paths, an 8 x 8 channel LoRa® packet detectors, 8 x SF5-SF12 LoRa® demodulators and 8 x SF5-SF10 LoRa® demodulators. It is capable of detecting uninterrupted combination of packets at 8 different spreading factors and 10 channels with continuous demodulation of up to 16 packets. This product is best for smart metering fixed networks and Internet-of-Things (IoT) applications, that can cover of up to 500 nodes per km² in an environment of moderate interference.
 
-<rk-btn
+<!-- <rk-btn
   src="../Quickstart/"
   label="Get Started with RAK2287 WisLink-LoRa"
-/>
+/> -->
 
 ## Product Features
 

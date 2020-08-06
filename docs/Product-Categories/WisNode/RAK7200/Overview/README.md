@@ -8,24 +8,27 @@ next: false
 ---
 
 # RAK7200 WisNode Track Lite
+Thank You For choosing **RAK7200 WisNode Track Lite** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Quick Start Guide](../Quickstart/)
+* [Datasheet](../Datasheet/)
+<!-- <rk-img
   src="/assets/images/wisnode/rak7200/quickstart/overview/tnbyyv90jncokqtn9xiy.jpg"
   width="50%"
   figure-number="1"
   caption="RAK7200 WisNode Track Lite Product View"
-/>
+/> -->
 
-## Product Background
+## Product Description
 
 The **RAK7200 WisNode Track Lite** is an LPWAN Tracker device with a 3.7V rechargeable Li-Ion battery and a GPS modem. It is built around low power LPWAN Module, which integrates the ultra low power STM32L073 micro-controller, the SX1276 LoRa® long range modem and the CXD5603GF GPS modem.
 
 The device can be used as a quick prototyping tool for LoRaWAN® application development. It is suited for IoT Applications such as asset tracking, smart vehicle management and location-based services.
 
-<rk-btn
+<!-- <rk-btn
   src="/Product-Categories/WisNode/RAK7200/Quickstart/"
   label="Get Started with RAK7200 WisNode Track Lite"
-/>
+/> -->
 
 ## Product Features
 

@@ -20,6 +20,7 @@ module.exports = {
         '/Product-Categories/WisLink/',
         '/Product-Categories/WisHat/',
         '/Product-Categories/WisDuino/',
+        '/Product-Categories/WisBee/',
       ]
     }
   ],

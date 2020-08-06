@@ -32,11 +32,13 @@ export default {
     img: '/assets/images/wislink-lte/rak8213/quickstart/overview/rak8213.png',
     store: 'https://store.rakwireless.com/'
   },
+
   //WisDuino
   '/Product-Categories/WisDuino/RAK811-Evaluation-Board/': {
     img: '/assets/images/wisduino/rak811-evaluation-board/quickstart/overview/RAK811-wisnode.svg',
     store: 'https://store.rakwireless.com/products/rak811-wisnode-lora-module'
   },
+
   //WisNode
   '/Product-Categories/WisNode/RAK612/': {
     img: '/assets/images/wisnode/rak612/quickstart/main/RAK612.svg',
@@ -54,6 +56,7 @@ export default {
     img: '/assets/images/wisnode/rak7431/datasheet/RAK7431.png',
     store: 'https://store.rakwireless.com/products/rak7431'
   },
+
   //WisTrio
   '/Product-Categories/WisTrio/RAK815/': {
     img: '/assets/images/wistrio/rak815/quickstart/1main/RAK815.svg',
@@ -75,6 +78,7 @@ export default {
     img: '/assets/images/wistrio/rak8212/quickstart/overview/RAK8212.svg',
     store: 'https://store.rakwireless.com/products/rak8212-itracker-pro'
   },
+
   //WisHat
   '/Product-Categories/WisHat/RAK2247-Pi-HAT/': {
     img: '/assets/images/temporary.jpg',
@@ -91,6 +95,24 @@ export default {
   '/Product-Categories/WisHat/RAK9003-PoE-HAT/': {
     img: '/assets/images/wishat/rak9003-poe-hat/datasheet/RAK9003.png',
     store: 'https://store.rakwireless.com/products/rak9003-poe-hat'
+  },
+
+  //WisBee
+  '/Product-Categories/WisBee/RAK811-Breakout-Board/': {
+    img: '/assets/images/wisbee/rak811-breakout-board/datasheet/1.rak811-breakout.png',
+    store: 'https://store.rakwireless.com/products/rak811-lpwan-breakout-module'
+  },
+  '/Product-Categories/WisBee/RAK4200-Breakout-Board/': {
+    img: '/assets/images/wisbee/rak4200-breakout-board/datasheet/rak4200-breakout-module.png',
+    store: 'https://store.rakwireless.com/products/rak4200-breakout-board'
+  },
+  '/Product-Categories/WisBee/RAK4260-Breakout-Board/': {
+    img: '/assets/images/wisbee/rak4260-breakout-board/datasheet/rak4260b-top-view.jpg',
+    store: 'https://store.rakwireless.com/products/rak4260-breakout-board'
+  },
+  '/Product-Categories/WisBee/RAK4600-Breakout-Board/': {
+    img: '/assets/images/wisbee/rak4600-breakout-board/datasheet/board-overview/cwr7pftlffhyogeuzahz.jpg',
+    store: 'https://store.rakwireless.com/products/rak4600-breakout-board'
   },
 }
 

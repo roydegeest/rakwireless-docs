@@ -8,14 +8,19 @@ next: false
 
 # RAK5010 WisTrio NB-IoT Tracker
 
-<rk-img
+Thank You For choosing **RAK5010 WisTrio NB-IoT Tracker** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
+
+* [Quick Start Guide](../Quickstart/)
+* [Datasheet](../Datasheet/)
+
+<!-- <rk-img
   src="/assets/images/wistrio/rak5010/quickstart/1.overview/sezihji5wsoxeb4ikcfk.jpg"
   width="50%"
   figure-number="1"
   caption="RAK5010 WisTrio NB-IoT Tracker Product View"
-/>
+/> -->
 
-## Product Background
+## Product Description
 
 The **RAK5010** is an advanced, highly flexible NB-IoT tracker based on Quectel BG96 LTE Cat M1&NB1, integrated with GPS, BLE and a variety of sensors. The MCU running the board is a Nordic nRF52840 controller.
 
@@ -25,10 +30,10 @@ The board is equipped with four sensors on board: humidity and temperature senso
 
 This board is particularly suitable to be used as a quick testing and prototyping tool for applications requiring Nb-IoT connectivity. Application development supports the GCC environment.
 
-<rk-btn
+<!-- <rk-btn
   src="/Product-Categories/WisTrio/RAK5010/Quickstart/"
   label="Get Started with RAK5010 WisTrio NB-IoT Tracker"
-/>
+/> -->
 
 ## Product Features
 

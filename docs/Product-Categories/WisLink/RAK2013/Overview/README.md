@@ -5,12 +5,15 @@ rak_grp: wislink
 ---
 
 # RAK2013 WisLink-LTE
+Thank You For choosing **RAK2013 WisLink-LTE** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Datasheet](../Datasheet/)
+
+<!-- <rk-img
   src="/assets/images/wislink-lte/rak2013/datasheet/rak2013.jpg"
   width="50%"
   caption="RAK2013 WisLink-LTE Board"
-/>
+/> -->
 
 ## Product Description
 
@@ -20,10 +23,10 @@ The module is supported with extendable sensor board connected that follows the 
 
 The RAK2013 is compatible with RAK2245 Pi Hat Concentrator module via the onboard 40 pin header. It can function as a cellular backhaul to gateway, providing an even greater flexibility for IoT solutions that require cellular as an option for ensuring service reliability.
 
-<rk-btn
+<!-- <rk-btn
   src="../Quickstart/"
   label="Get Started with RAK2013 WisLink-LTE"
-/>
+/> -->
 
 ## Product Features
 

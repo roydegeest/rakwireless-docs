@@ -5,15 +5,19 @@ rak_desc: The RAK8212 iTracker Pro  is versatile developer board aimed at aiding
 ---
 
 # RAK8212 iTracker Pro
+Thank You For choosing **RAK8212 iTracker Pro** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Quick Start Guide](../Quickstart/)
+* [Datasheet](../Datasheet/)
+
+<!-- <rk-img
   src="/assets/images/wistrio/rak8212/quickstart/overview/mbu3h7u9ykxyd0yfzkln.jpg"
   width="40%"
   figure-number="1"
   caption="RAK8212 iTracker Pro"
-/>
+/> -->
 
-## Product Background
+## Product Description
 
 The **RAK8212 iTracker Pro** is versatile developer board aimed at aiding in quick prototypes using NB-IOT. The board includes
 a vast array of connectivity options like **NB-IoT**, **Bluetooth 5.0** and **GPS** and sensors like an **accelerometer**, **light sensor** and **barometric sensor**. At the heart of the module is the venerable **Nordic NRF52832 BLE** processor. The NB-IoT connectivity
@@ -24,10 +28,10 @@ live tracking and environment sensing.
 
 Applications can be made with the RAK8212 like Vehicle location/fleet transportation management, Safety monitoring of old/young children, Animal protection and animal husbandry management, Loss of assets / personnel positioning and Other remote, battery powered applications.
 
-<rk-btn
+<!-- <rk-btn
   src="/Product-Categories/WisTrio/RAK8212/Quickstart/"
   label="Get Started with RAK8212 iTracker Pro"
-/>
+/> -->
 
 ## Product Features
 

@@ -9,7 +9,7 @@ next: false
 
 <rk-img
   src="/assets/images/wistrio/rak5010/quickstart/2.quick-start-guide/fqyo41hvkupnrljccsam.jpg"
-  width="50%"
+  width="30%"
   caption="Front View of RAK5010"
 />
 
@@ -33,7 +33,7 @@ Before going through each and every step in the installation guide of theRAK5010
 
 <rk-img
   src="/assets/images/wistrio/rak5010/quickstart/2.quick-start-guide/rzoescy4hwuxkrcayggx.jpg"
-  width="100%"
+  width="80%"
   caption="Included Items in RAK5010 Package"
 />
 

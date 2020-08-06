@@ -8,12 +8,14 @@ next: false
 ---
 
 # RAK2287 Pi HAT
+Thank You For choosing **RAK2287 Pi HAT** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Datasheet](../Datasheet/)
+<!-- <rk-img
   :src="`${$frontmatter.static_root}/1.rak2287-pi-hat.png`"
   width="75%"
   caption="RAK2287 Pi HAT"
-/>
+/> -->
 
 ## Product Background
 
@@ -21,10 +23,10 @@ next: false
 
 It integrates one (1) **40-pin female Pi HAT connector** and one (1) **PCIe connector** to connect the module to the Raspberry Pi that is both compatible with the Raspberry Pi 3 Model B+/Raspberry 4 edition.
 
-<rk-btn
+<!-- <rk-btn
   src="/Product-Categories/WisHat/RAK2287-Pi-HAT/Datasheet/"
   label="Get Started with RAK2287  Pi HAT"
-/>
+/> -->
 
 ## Product Features
 

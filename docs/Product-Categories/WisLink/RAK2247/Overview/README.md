@@ -7,12 +7,15 @@ next: false
 ---
 
 # RAK2247 WisLink-LoRa
+Thank You For choosing **RAK2247 WisLink-LoRa** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Quick Start Guide](../Quickstart/)
+* [Datasheet](../Datasheet/)
+<!-- <rk-img
   src="/assets/images/wislink-lora/rak2247/datasheet/rak2247-overview.png"
   width="50%"
   caption="RAK2247 WisLink-LoRa"
-/>
+/> -->
 
 ## Product Description
 
@@ -20,10 +23,10 @@ The **RAK2247 WisLink-LoRa** is a LoRa® Concentrator module with mini-PCIe form
 
 Despite its small size this is an 8 channel concentrator module. By integrating it together with a computing core a fully fledged gateway solution can easily be created.
 
-<rk-btn
+<!-- <rk-btn
   src="../Quickstart/"
   label="Get Started with RAK2247 WisLink-LoRa"
-/>
+/> -->
 
 ## Product Features
 
