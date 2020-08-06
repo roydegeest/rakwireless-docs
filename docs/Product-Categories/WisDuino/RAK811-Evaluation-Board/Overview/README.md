@@ -1,6 +1,6 @@
 ---
-rak_img: /assets/images/WisDuino™/rak811-evaluation-board/quickstart/overview/RAK811-wisnode.svg
-rak_grp: WisDuino™
+rak_img: /assets/images/wisduino/rak811-evaluation-board/quickstart/overview/RAK811-wisnode.svg
+rak_grp: wisduino
 prev: false
 next: false
 params:
@@ -9,7 +9,7 @@ params:
 # RAK811 WisDuino™
 
 <rk-img
-  src="/assets/images/WisDuino™/rak811-evaluation-board/quickstart/overview/o5qqux3jaeyiiuosw0qi.jpg"
+  src="/assets/images/wisduino/rak811-evaluation-board/quickstart/overview/o5qqux3jaeyiiuosw0qi.jpg"
   width="60%"
   figure-number="1"
   caption="RAK811 WisDuino™"
@@ -22,7 +22,7 @@ The **RAK811 WisDuino™** is a development board which comes in an Arduino Uno 
 The module integrates the **Semtech SX1276** and a **STM32 Chip** that comes along with a firmware which comes with AT command support. It is easy to configure via the Micro USB and connects with LoRaWAN® Network Server in just a couple of minutes. Now, Rapid testing is made easy.
 
 <rk-btn
-  src="/Product-Categories/WisDuino™/RAK811-Evaluation-Board/Quickstart/"
+  src="/Product-Categories/WisDuino/RAK811-Evaluation-Board/Quickstart/"
   label="Get Started with RAK811 WisDuino™"
 />
 
