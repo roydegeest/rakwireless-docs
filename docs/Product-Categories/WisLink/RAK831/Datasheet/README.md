@@ -1,7 +1,7 @@
 ---
 tags:
   - datasheet
-  - wislink-lora
+  - wislink
 prev: ../Overview/
 next: false
 certifications:

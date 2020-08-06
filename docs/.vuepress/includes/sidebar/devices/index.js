@@ -7,6 +7,7 @@ var wislink = require('./wislink')
 var wisnode = require('./wisnode')
 var wisduino = require('./wisduino')
 var wistrio = require('./wistrio')
+var wisblock = require('./wisblock')
 
 module.exports = {
   ...wisbee,
@@ -17,5 +18,6 @@ module.exports = {
   ...wislink,
   ...wisnode,
   ...wisduino,
-  ...wistrio
+  ...wistrio,
+  ...wisblock
 }

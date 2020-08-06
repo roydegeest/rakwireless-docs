@@ -1,15 +1,14 @@
 ---
-tags: + datasheet
-sidebar: auto
-sidebarDepth: 4
-prev: /wisblock/rak5802/overview/
+tags:
+  - datasheet
+  - wisblock
+prev: /Product-Categories/WisBlock/RAK5802/Overview/
+next: false
 ---
 
-# RAK5802 WisIO Module Datasheet
+# RAK5802 WisBlock WisIO Module Datasheet
 
-NO IMAGE
 
-## Overview
 
 ### Product Description
 
@@ -33,9 +32,13 @@ In addition, the RAK5802 supports one I2C interface, customer can use this I2C i
 * Designed with 18kV ESD protection level.
 * Small dimensions of 35mm x 25mm.
 
-## Hardware
 
-### Block Diagram
+## Specifications
+
+
+### Overview
+
+#### Block Diagram
 The figure below shows the block diagram of the RAK5802 module. Internally, a RS485 converter translates the RS422 electrical differential signal into the UART signal. This component can be disabled by the Enable signal through the MCU in order to save power during idle periods.
 
 <rk-img
@@ -44,9 +47,11 @@ The figure below shows the block diagram of the RAK5802 module. Internally, a RS
   caption="RAK5802 block diagram"
 />
 
-### Pin Definition
+### Hardware
 
-#### RAK5802 Module 
+#### Pin Definition
+
+##### RAK5802 Module 
 
 The figure below shows the pin number of the sensor connector of the RAK5802 module.
 
@@ -70,7 +75,7 @@ The pin definition of the sensor connector is described in the table below:
 | 8 | SCL for I2C interface | 
 
 
-#### WisIO Connector
+##### WisIO Connector
 
 The figure below shows the pin order of the WisIO connector on the module. Through this connector the RAK5802 module is attached to the WisBoard base board. 
 
@@ -105,28 +110,28 @@ The table below shows the functionalities of each pin of the WisIO connector:
 | 37 | NC | 38 | NC | 
 | 39 | GND | 40 | GND | 
 
-### Product Specifications
+#### Electrical Characteristics
 
-#### Absolute Maximum Ratings
+##### Absolute Maximum Ratings
 
 | **Symbol** | **Description** | **Min.** | **Nom.** | **Max.** | **Unit** | 
 | ---- | ---- | ---- | ---- | ---- | ---- | 
 | VBAT | Power supply for the module | -0.5 |  | 4.2 | V | 
-| Iout | Step down IC output<br>current |  |  | 1000 | mA | 
+| Iout | Step down IC output current |  |  | 1000 | mA | 
 | TEMP | Working temperature | -30 |  | 65 | °C | 
 | Storage | Storage Temperature | -40 |  | 85 | °C | 
 
 
-#### Recommended Operating Conditions
+##### Recommended Operating Conditions
 
 | **Symbol** | **Description** | **Min.** | **Nom.** | **Max.** | **Unit** | 
 | ---- | ---- | ---- | ---- | ---- | ---- | 
 | VBAT | Power supply for the<br>module | 2.6 |  | 4.2 | V | 
 | 3V3 | 3.3V power supply | 3.0 | 3.3 | 3.6 | V | 
 
-### Mechanical Characteristics
+#### Mechanical Characteristics
 
-#### Board Dimensions
+##### Board Dimensions
 
 <rk-img
   src="/assets/images/wisblock/rak5802/datasheet/board-dimensions.png"
@@ -134,7 +139,7 @@ The table below shows the functionalities of each pin of the WisIO connector:
   caption="RAK5802 dimensions"
 />
 
-#### RAK5802 Mounting Mechanism
+##### RAK5802 Mounting Mechanism
 
 The RAK5802 module is part of the WisIO category, which connects to the base board through the WisIO slot. The installation method is shown in the figure below.
 
@@ -154,7 +159,7 @@ The RAK5802 module is part of the WisIO category, which connects to the base boa
   caption="RAK5802 mounting mechanism on a WisBase module"
 />
 
-#### RAK5802 Sensor Connector Crimping Mechanism
+##### RAK5802 Sensor Connector Crimping Mechanism
 
 The RAK5802 features a fast-crimping terminal connector to simplify and ensure the wiring process on the fields. The crimping terminal can support cable with a diameter between 24 AWG and 20 AWG. The usual stripping length is around 6 to 7 mm. 
 
@@ -166,7 +171,7 @@ As shown in the figure below, during crimping process, the user should first pre
   caption="AK5802 sensor connector"
 />
 
-### Schematic Diagram
+#### Schematic Diagram
 
 <rk-img
   src="/assets/images/wisblock/rak5802/datasheet/schematic-diagram.jpg"
@@ -174,15 +179,15 @@ As shown in the figure below, during crimping process, the user should first pre
   caption="RAK5802 schematic diagram"
 />
 
-### RAK5802 and WisBlock Compatibility
+## RAK5802 and WisBlock Compatibility
 
 In the ecosystem of the WisBlock, the philosophy is to allow users to combine a WisBlock module of one category with WisBlock module of other categories. This is true in most of the cases but it’s important to review the compatibility matrix when designing a customized solution.
 
 |  | **Compatible Wisblock Module** | **Description** | 
 | ---- | ---- | ---- | 
-| WisBase base board | RAK5005/RAK5005-O | RAK5802 can be attached in the WisIO slot of<br>RAK5005/RAK5005-O base board. | 
-| WisCore module | RAK4631 | RAK5802 is compatible with RAK4631 WisCore<br>module. | 
-|  | RAK4201 | Please select RAK4201L-485 for low band or<br>RAK4201H-485 for high band. | 
+| WisBase base board | RAK5005/RAK5005-O | RAK5802 can be attached in the WisIO slot of RAK5005/RAK5005-O base board. | 
+| WisCore module | RAK4631 | RAK5802 is compatible with RAK4631 WisCore module. | 
+|  | RAK4201 | Please select RAK4201L-485 for low band or RAK4201H-485 for high band. | 
 |  | RAK4202 | RAK5802 is compatible with RAK4202 WisCore module. | 
 |  | RAK4261 | RAK5802 is compatible with RAK4261 WisCore module. | 
 |  | RAK4601 | RAK5802 is compatible with RAK4601 WisCore module. | 

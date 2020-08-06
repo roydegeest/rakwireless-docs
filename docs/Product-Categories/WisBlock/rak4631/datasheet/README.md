@@ -1,20 +1,21 @@
 ---
-prev: /wisblock/rak4631/overview/
+prev: /Product-Categories/WisBlock/RAK4631/Overview/
 next: false
-sidebar: auto
-sidebarDepth: 3
-displayAllHeaders: true
+tags:
+  - datasheet
+  - wisblock
+
 ---
 
-# RAK4631 WisCore Module
+# RAK4631 WisBlock WisCore Module
 
 <rk-img
   src="/assets/images/wisblock/rak4631/datasheet/overview.jpg"
   width="30%"
-  caption="RAK4631 WisCore Module"
+  caption="RAK4631 WisBlock WisCore Module"
 />
 
-## Overview
+
 ### Description
 
 The RAK4631 module is part of the WisBlock series, specifically it’s one of the modules that belongs to the WisCore category. 
@@ -224,7 +225,7 @@ The RAK4630 module comprises a flash memory controlled by the SPI interface. The
 
 #### RF Characteristics
 
-The RAK4631 WisCore module supports the LoRaWAN bands shown in the table below. When buying a RAK4631 module, please pay attention on specify the correct core module RAK4630 H/L for your region. Take note of the following notations:
+The RAK4631 WisBlock WisCore module supports the LoRaWAN bands shown in the table below. When buying a RAK4631 module, please pay attention on specify the correct core module RAK4630 H/L for your region. Take note of the following notations:
 
 - H: high frequency regions
 - L: low frequency regions

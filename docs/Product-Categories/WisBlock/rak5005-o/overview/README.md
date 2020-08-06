@@ -15,7 +15,7 @@ params:
         href: mailto:fomi@rakwireless.com
     resources:
       - name: Datasheet
-        href: /wisblock/rak5005-o/datasheet/
+        href: /Product-Categories/WisBlock/RAK5005-O/Datasheet/
       - name: User Manual
         href: /user-manual/
       - name: Deployment Guide
@@ -23,7 +23,7 @@ params:
 ---
 
 
-# RAK5005-O WisBase Board
+# RAK5005-O WisBlock WisBase Board
 
 
 
@@ -40,8 +40,8 @@ To avoid electromagnetic interference and heating interference, the sensor conne
 
 
 <rk-btn
-  src="/wisblock/rak5005-o/datasheet/"
-  label="Get Started with RAK5005-O WisBase Board"
+  src="../Datasheet/"
+  label="Get Started with RAK5005-O WisBlock WisBase Board"
 />
 
 <rk-quick-links :params="$frontmatter.params.qlinks" />

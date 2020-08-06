@@ -1,6 +1,6 @@
 ---
 rak_img: /assets/images/wisblock/rak2305/datasheet/rak2305.png
-rak_grp: [wisblock,wisio]
+rak_grp: [wisblock, wisio]
 prev: false
 next: false
 params:
@@ -11,18 +11,20 @@ params:
       - name: Support
         href: mailto:support@rakwireless.com
     resources:
+      - name: Datasheet
+        href: /Product-Categories/WisBlock/RAK2305/Datasheet/
       - name: User Manual
         href: /user-manual/
       - name: Deployment Guide
         href: /deployment-guide/
 ---
 
-# RAK2305 ESP32 Wi-Fi Module
+# RAK2305 WisBlock WisIO Module
 
 <rk-img
   src="/assets/images/wisblock/rak2305/datasheet/rak2305.png"
   width="50%"
-  caption="RAK2305 ESP32 Wi-Fi Module"
+  caption="RAK2305 WisBlock WisIO Module"
 />
 
 
@@ -33,8 +35,8 @@ The RAK2305 module is part of the WisBlock series, specifically, it is one of th
 The RAK2305 module is a 2.4 GHz Wi-Fi and Bluetooth in a single module. The core of the module is an ESP32-WROVER-B, which features a PCB antenna. This module is designed to be part of the Internet-of-Things (IoT) applications. It can function as a master or a slave in a Bluetooth network. Internally it supports SPI/I2C/UART interfaces.
 
 <rk-btn
-  src="../datasheet/"
-  label="Get Started with RAK2305 ESP32 Wi-Fi Module"
+  src="../Datasheet/"
+  label="Get Started with RAK2305 WisBlock WisIO Module"
 />
 
 <rk-quick-links :params="$page.frontmatter.params.qlinks"/>
@@ -52,6 +54,6 @@ The RAK2305 module is a 2.4 GHz Wi-Fi and Bluetooth in a single module. The core
 
 <rk-btn
   src="https://store.rakwireless.com/"
-  label="Buy a RAK2305 ESP32 Wi-Fi Module"
+  label="Buy a RAK2305 WisBlock WisIO Module"
   _blank
 />

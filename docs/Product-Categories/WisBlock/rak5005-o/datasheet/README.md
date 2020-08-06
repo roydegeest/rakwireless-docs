@@ -1,8 +1,9 @@
 ---
-tags: + datasheet
-sidebar: auto
-sidebarDepth: 4
-prev: /wisblock/rak5005-o/overview/
+tags:
+  - datasheet
+  - wisblock
+prev: /Product-Categories/WisBlock/RAK5005-O/Overview/
+next: false
 ---
 
 # RAK5005-O WisBase Board Datasheet
@@ -84,7 +85,6 @@ WisBlock is designed for modularity, in the Figure 3, the whole ecosystem is dep
 
 ### Overview
 
-#### Product Description
 
 The RAK5005-O baseboard,as shown in Figures 4 and 5, has one slot reserved for WisDuo module, four slots for WisSensor modules and one slot for WisIO module. Also, there are also **2.54 mm pitch connectors** for extension interface, such as **I2C**, **UART**, and **GPIO pins**.
 
