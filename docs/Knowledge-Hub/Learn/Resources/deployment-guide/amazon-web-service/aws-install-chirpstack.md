@@ -1,5 +1,5 @@
 ---
-prev: /Knowledge-Hub/Learn/Resources/deployment-guide/amazon-web-service/
+prev: /knowledge-hub/Learn/Resources/deployment-guide/amazon-web-service/
 next: install-the-gateway-bridge
 ---
 # Installing Chirpstack

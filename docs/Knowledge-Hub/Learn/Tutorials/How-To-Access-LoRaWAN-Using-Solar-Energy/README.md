@@ -2,7 +2,7 @@
 sidebar: auto
 sidebarDepth: auto
 rak_img: /assets/images/knowledge-hub/tutorials/access-lorawan-using-solar-energy/overview.jpg
-prev: /Knowledge-Hub/Learn/
+prev: /knowledge-hub/Learn/
 next: false
 ---
 

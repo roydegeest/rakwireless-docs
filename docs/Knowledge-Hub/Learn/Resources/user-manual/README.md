@@ -15,15 +15,15 @@ Should you have any questions, require further information or any errors encount
 -->
 
 <summary><b>Commercial Gateways</b></summary> 
-<li><a href="/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/#web-management-platform">Web Management Platform</a></li>
-<li><a href="/Knowledge-Hub/Learn/Resources/user-manual/spectrum-settings-guide/eu868-spectrum-settings-guide.html">EU868 Frequency Band Spectrum Guide</a></li>
-<li><a href="/Knowledge-Hub/Learn/Resources/user-manual/spectrum-settings-guide/kr920-spectrum-settings-guide.html">KR920 Frequency Band Spectrum Guide</a></li>
+<li><a href="/knowledge-hub/Learn/Resources/user-manual/web-management-platform/#web-management-platform">Web Management Platform</a></li>
+<li><a href="/knowledge-hub/Learn/Resources/user-manual/spectrum-settings-guide/eu868-spectrum-settings-guide.html">EU868 Frequency Band Spectrum Guide</a></li>
+<li><a href="/knowledge-hub/Learn/Resources/user-manual/spectrum-settings-guide/kr920-spectrum-settings-guide.html">KR920 Frequency Band Spectrum Guide</a></li>
 <br>
 <summary><b>Developer Gateways</b></summary> 
-<li><a href="/Knowledge-Hub/Learn/Resources/user-manual/gateway-firmware-burning/">Developer Gateway Firmware Burning</a></li>
+<li><a href="/knowledge-hub/Learn/Resources/user-manual/gateway-firmware-burning/">Developer Gateway Firmware Burning</a></li>
 <br>
 <summary><b>LPWAN Nodes</b></summary> 
-<li><a href="/Knowledge-Hub/Learn/Resources/user-manual/node-firmware-upgrading/#node-firmware-upgrading">Node Firmware Upgrading</a></li>
+<li><a href="/knowledge-hub/Learn/Resources/user-manual/node-firmware-upgrading/#node-firmware-upgrading">Node Firmware Upgrading</a></li>
 
 
 

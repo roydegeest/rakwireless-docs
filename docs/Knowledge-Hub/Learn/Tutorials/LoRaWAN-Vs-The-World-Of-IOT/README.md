@@ -2,7 +2,7 @@
 sidebar: auto
 sidebarDepth: auto
 rak_img: /assets/images/knowledge-hub/tutorials/lorawan-vs-the-world-of-iot/overview.png
-prev: /Knowledge-Hub/Learn/
+prev: /knowledge-hub/Learn/
 next: false
 ---
 

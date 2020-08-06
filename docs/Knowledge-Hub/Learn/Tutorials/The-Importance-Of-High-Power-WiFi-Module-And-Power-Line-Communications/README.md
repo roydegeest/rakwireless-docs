@@ -2,7 +2,7 @@
 sidebar: auto
 sidebarDepth: auto
 rak_img: /assets/images/knowledge-hub/tutorials/the-importance-of-high-power-wifi-module-and-power-line-communications/overview.png
-prev: /Knowledge-Hub/Learn/
+prev: /knowledge-hub/Learn/
 next: false
 ---
 

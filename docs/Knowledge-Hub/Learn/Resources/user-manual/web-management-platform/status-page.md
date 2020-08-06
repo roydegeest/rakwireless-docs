@@ -1,5 +1,5 @@
 ---
-prev: /Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/
+prev: /knowledge-hub/Learn/Resources/user-manual/web-management-platform/
 next: network
 ---
 

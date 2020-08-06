@@ -5,9 +5,9 @@ next: false
 
 # Gateway DDNS Service Set-up
 
-1. Log into the Web UI by following the steps in the [Accessin the Web Management Platform](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/#accessing-the-web-management-platform) section.
+1. Log into the Web UI by following the steps in the [Accessin the Web Management Platform](/knowledge-hub/Learn/Resources/user-manual/web-management-platform/#accessing-the-web-management-platform) section.
 
-2. In the Web UI, navigate to `Services>Dynamic DNS (Beta)` as shown in Figure 1. For further details, read the [Services](/Knowledge-Hub/Learn/Resources/user-manual/web-management-platform/services.html#_1-dynamic-dns-beta) section of the Web Management Platform User Manual. 
+2. In the Web UI, navigate to `Services>Dynamic DNS (Beta)` as shown in Figure 1. For further details, read the [Services](/knowledge-hub/Learn/Resources/user-manual/web-management-platform/services.html#_1-dynamic-dns-beta) section of the Web Management Platform User Manual. 
 
 <rk-img
   src="/assets/images/deployment-guide/gateway-remote-management-ddns/ddns-service-setup/dynamic-dns-beta.jpg"
@@ -29,9 +29,9 @@ next: false
 
 * **Lookup Hostname**: dyndnss.net
 * **DDNS Service provider**: dyndnss.net
-* **Hostname/Domain**: The domain created in the [Create a DynDNS URL](/Knowledge-Hub/Learn/Resources/deployment-guide/gateway-remote-management-ddns/register-ddns-service.html#create-a-dyndns-url) (see Figure 4)
+* **Hostname/Domain**: The domain created in the [Create a DynDNS URL](/knowledge-hub/Learn/Resources/deployment-guide/gateway-remote-management-ddns/register-ddns-service.html#create-a-dyndns-url) (see Figure 4)
 * **Username**: DynDNSS Username used.
-* **Password**: DynDNSS Password [Create a DynDNS URL](/Knowledge-Hub/Learn/Resources/deployment-guide/gateway-remote-management-ddns/register-ddns-service.html#create-a-dyndns-url) (see Figure 5).
+* **Password**: DynDNSS Password [Create a DynDNS URL](/knowledge-hub/Learn/Resources/deployment-guide/gateway-remote-management-ddns/register-ddns-service.html#create-a-dyndns-url) (see Figure 5).
 
 <rk-img
   src="/assets/images/deployment-guide/gateway-remote-management-ddns/ddns-service-setup/ddns-basic-config.jpg"

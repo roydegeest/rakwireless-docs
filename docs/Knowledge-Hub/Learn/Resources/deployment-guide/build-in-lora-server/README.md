@@ -10,4 +10,4 @@ This section is a sample demonstration on how to interconnect your **RAK7249 Mac
 1. RAK811 LPWAN Node
 2. RAK7249 Macro Outdoor Gateway (LoRa® Server in use)
 
-
+ 

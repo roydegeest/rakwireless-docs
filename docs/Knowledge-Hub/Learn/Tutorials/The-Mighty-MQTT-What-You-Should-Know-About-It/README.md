@@ -2,7 +2,7 @@
 sidebar: auto
 sidebarDepth: auto
 rak_img: /assets/images/knowledge-hub/tutorials/the-mighty-mqtt-what-you-should-know-about-it/overview.jpg
-prev: /Knowledge-Hub/Learn/
+prev: /knowledge-hub/Learn/
 next: false
 ---
 

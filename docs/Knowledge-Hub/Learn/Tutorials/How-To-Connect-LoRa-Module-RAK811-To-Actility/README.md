@@ -2,7 +2,7 @@
 sidebar: auto
 sidebarDepth: auto
 rak_img: /assets/images/knowledge-hub/tutorials/how-to-connect-lora-module-rak811-to-actility/overview.png
-prev: /Knowledge-Hub/Learn/
+prev: /knowledge-hub/Learn/
 next: false
 ---
 

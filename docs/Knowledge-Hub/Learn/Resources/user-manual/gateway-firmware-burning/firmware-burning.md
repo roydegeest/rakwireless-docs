@@ -7,7 +7,7 @@ next: false
 ::: tip 📝 NOTE:
  All LPWAN Developer Gateways mentioned in the previous section are pre-installed with its latest firmware upon purchase. Follow these steps if you intend to re-install the firmware of your device.
 :::
-1. Download the latest firmware in the [Firmwares](firmwares) section which is based on the Raspbian OS.
+1. Download the latest firmware in the [Firmwares](/knowledge-hub/Learn/Resources/user-manual/gateway-firmware-burning/firmwares.html) section which is based on the Raspbian OS.
 
 2. An image writing tool is needed to install the downloaded firmware into the SD Card. For this instruction, the open source utility software [Etcher](https://www.balena.io/etcher/) will be used for burning the image file.
 

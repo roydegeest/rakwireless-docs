@@ -26,7 +26,7 @@ To change the global settings press on the text "**To change global settings cli
 
 If you want to have separate settings/rules for IPv4/IPv6, you need to define two sets, one for each. You can do this by filling in a name in the text box and pressing the “**Add**” button.
 
-An IPv4 example is created by default and you only need to configure its parameters by pressing the “**Edit**” button. Refer to the [DDNS/VPN Document](/Knowledge-Hub/Learn/Resources/deployment-guide/) for a practical example on how to configure this feature.
+An IPv4 example is created by default and you only need to configure its parameters by pressing the “**Edit**” button. Refer to the [DDNS/VPN Document](/knowledge-hub/Learn/Resources/deployment-guide/) for a practical example on how to configure this feature.
 
 ## 2. OpenVPN Tunnels
 

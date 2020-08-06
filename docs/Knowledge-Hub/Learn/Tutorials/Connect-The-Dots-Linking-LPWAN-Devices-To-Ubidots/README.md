@@ -2,7 +2,7 @@
 sidebar: auto
 sidebarDepth: 3
 rak_img: /assets/images/knowledge-hub/tutorials/ubidots-integration/overview.jpg
-prev: /Knowledge-Hub/Learn/
+prev: /knowledge-hub/Learn/
 next: false
 ---
 

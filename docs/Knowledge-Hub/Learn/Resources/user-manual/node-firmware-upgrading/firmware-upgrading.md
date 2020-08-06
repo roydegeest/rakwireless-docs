@@ -1,5 +1,5 @@
 ---
-prev: /Knowledge-Hub/Learn/Resources/user-manual/node-firmware-upgrading/
+prev: /knowledge-hub/Learn/Resources/user-manual/node-firmware-upgrading/
 next: false
 ---
 # Firmware Upgrading
