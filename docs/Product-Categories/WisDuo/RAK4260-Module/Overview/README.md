@@ -16,12 +16,15 @@ next: false
 ---
 
 # RAK4260 LPWAN Module
+Thank You For choosing **RAK4260 LPWAN Module** in your awesome IoT Project! 🎉 To help you get started, we have provided you all the necessary documentations for your product.
 
-<rk-img
+* [Datasheet](../Datasheet/)
+
+<!-- <rk-img
   src="/assets/images/wisduo/rak4260-module/overview/rak4260.png"
   width="50%"
   caption="RAK4260 LPWAN Module"
-/>
+/> -->
 
 ## Product Description
 
@@ -33,12 +36,12 @@ It is a perfect solution for any LoRaWAN® end node developer. The integration o
 
 RAK4260 is a solution that is cost efficient and flexible that can be deployed in a wide variety of IoT scenarios that require the long range connectivity and great battery life that LoRaWAN® provides.
 
-<rk-btn
+<!-- <rk-btn
   src="../Datasheet/"
   label="View Datasheet for the RAK4260 LPWAN Module"
 />
 
-<rk-quick-links :params="$page.frontmatter.params.qlinks1"/>
+<rk-quick-links :params="$page.frontmatter.params.qlinks1"/> -->
 
 ## Product Features
 
@@ -53,8 +56,8 @@ RAK4260 is a solution that is cost efficient and flexible that can be deployed i
 - Low RX current of 17mA (typical)
 - LoRa® Technology, (G)FSK, (G)MSK
 
-<rk-btn
+<!-- <rk-btn
   src="https://store.rakwireless.com/products/rak4260-lora-module"
   label="Buy a RAK4260 LPWAN Module"
   _blank
-/>
+/> -->
