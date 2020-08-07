@@ -1,7 +1,7 @@
 ---
 rak_img: /assets/images/wisduo/rak4200-evaluation-board/overview/RAK4200_Evaluation_Board.png
 rak_desc: RAK4200 LPWAN Evaluation Board is a WisBlock product consisting of RAK4200 LPWAN Module and RAK5005 WisBase. You can use this development board to access all serial and GPIO ports for easy configuration.
-rak_grp: wisduo
+rak_grp: [wisduo, evb]
 prev: false
 next: false
 # params:
