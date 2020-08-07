@@ -27,7 +27,7 @@ mosquitto_sub -t application/{{application_ID}}/device/{{device_EUI}}/rx -v
 
 2. After executing the command, you need to send some data via the RAK Serial Port Tool. Use the command below to send an uplink frame on Frame port 1, with the Payload 1110:
 
-```
+```sh
 at+send=lora:1:1110
 ```
 <rk-img

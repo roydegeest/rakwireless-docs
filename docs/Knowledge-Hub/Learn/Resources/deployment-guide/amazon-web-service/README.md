@@ -147,7 +147,7 @@ Convert first the keys from `.pem` format to `.ppk` format as this is what PuTTY
 
 11. You need the correct **Host Name**. Take note of the Host Name syntax provided below together with an example for a better understanding:
 
-```
+```sh
 user_name@public_dns_name
 ```
 

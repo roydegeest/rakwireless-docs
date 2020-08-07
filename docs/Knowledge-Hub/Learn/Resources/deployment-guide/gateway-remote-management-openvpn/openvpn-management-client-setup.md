@@ -11,7 +11,7 @@ next: openvpn-client-setup-on-lora-gateway
 Management is used as the name for the client PC.
 :::
 
-```
+```sh
 cd /etc/openvpn/easyrsa
 # ./easyrsa build-client-full <client_name> nopass
 sudo ./easyrsa build-client-full managment nopass
@@ -33,25 +33,25 @@ Listed below are the configuration file and its corresponding names:
 
 - The CA certificate is located in:
 
-```
+```sh
 /etc/openvpn/easyrsa/pki/ca.crt
 ```
 
 - The Client certificate together with the Client secret key generated in the Client certificate section:
 
-```
+```sh
 /etc/openvpn/easyrsa/issued/{client_name}.crt
 ```
 
 - Client secret key:
 
-```
+```sh
 /etc/openvpn/easyrsa/private/{client_name}.key
 ```
 
 3. Open a text editor in your PC and copy the following template:
 
-```
+```sh
 dev tap
 client
 remote 123.56.96.211 1194
@@ -209,7 +209,7 @@ If everything is set up properly, a connection log window will disappear after t
 
 The OpenVPN should now be in green, see Figure 6, meaning the connection is successful. You can check which clients are currently connected to the OpenVPN Server and their corresponding IP addresses by executing the following command in your Ubuntu console:
 
-```
+```sh
 sudo nano /etc/openvpn/server/ip_pool.txt 
 ```
 

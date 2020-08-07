@@ -47,7 +47,7 @@ journalctl -u lora-gateway-bridge -f -n 50
   caption="Gateway Bridge Journal Control Output (no errors)"
 />
 
-```
+```sh
 ubuntu@ip-172-31-33-125:~$ journalctl -u chirpstack-gateway-bridge -f -n 50
 -- Logs begin at Wed 2020-06-17 11:59:21 UTC. --
 Jun 18 10:20:29 ip-172-31-33-125 systemd[1]: Started ChirpStack Gateway Bridge.

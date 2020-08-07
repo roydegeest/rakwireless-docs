@@ -26,13 +26,13 @@ Open the [AT Commands for RAK811 LPWAN Node](/Product-Categories/WisDuino/RAK811
 
 2. Set the Region/Band by plugging in the AT Command below in the RAK Serial Port Tool. For this demonstration, EU868 frequency band shall be used.
 
-```
+```sh
 at+set_config=lora:region:EU868
 ```
 
 3. Set the authentication mode to OTAA:
 
-```
+```sh
 at+set_config=lora:join_mode:0
 ```
 
@@ -62,13 +62,13 @@ In case your RAK811 LPWAN Node is still not configured, you can manually input a
 
 - Setting the **Application EUI**:
 
-```
+```sh
 at+set_config=lora:app_eui:XXXX
 ```
 
 - Setting the **Application Key**:
 
-```
+```sh
 at+set_config=lora:app_key:XXXX"
 ```
 
@@ -113,7 +113,7 @@ Keep the Live Device Data tab opened as we want to monitor traffic.
 
 1. Using the RAK Serial Port Tool, execute the AT command provided below to reboot the RAK811. Alternatively, you could press the **RESET Button (RST)**.
 
-```
+```sh
 at+set_config=device:restart
 ```
 

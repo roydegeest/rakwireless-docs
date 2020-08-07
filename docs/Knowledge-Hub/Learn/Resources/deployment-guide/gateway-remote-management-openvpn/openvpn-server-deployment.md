@@ -12,13 +12,13 @@ Assuming that it is already done, follow thoroughly the steps provided below:
 
 1. Install OpenVPN.
 
-```
+```sh
 sudo apt install openvpn -y
 ```
 
 2. Download a certificate management tool suite: Easy RSA.
 
-```
+```sh
 wget https://github.com/OpenVPN/easy-rsa/archive/v3.0.6.tar.gz -O easyrsa.tar.gz
 ```
 
@@ -26,7 +26,7 @@ wget https://github.com/OpenVPN/easy-rsa/archive/v3.0.6.tar.gz -O easyrsa.tar.gz
 
 * Extract and copy easyrsa to /etc/openvpn/easyrsa/
 
-```
+```sh
 sudo mkdir -p /etc/openvpn/easyrsa 
 tar zxvf easyrsa.tar.gz 
 sudo cp -rf easy-rsa-3.0.6/easyrsa3/* /etc/openvpn/easyrsa/
@@ -34,14 +34,14 @@ sudo cp -rf easy-rsa-3.0.6/easyrsa3/* /etc/openvpn/easyrsa/
 
 * Initialize the pki.
 
-```
+```sh
 cd /etc/openvpn/easyrsa
 sudo ./easyrsa init-pki
 ```
 
 * Generate the CA certificate.
 
-```
+```sh
 sudo ./easyrsa build-ca
 ```
 
@@ -51,19 +51,19 @@ Enter the required information according to the prompt. When asked for a passwor
 
 * Generate the Server certificate.
 
-```
+```sh
 sudo ./easyrsa build-server-full server nopass
 ```
 
 * Generate the DH parameters file.
 
-```
+```sh
 sudo ./easyrsa gen-dh
 ```
 
 * Generate the crl.pem file.
 
-```
+```sh
 sudo ./easyrsa gen-crl
 ```
 
@@ -71,13 +71,13 @@ sudo ./easyrsa gen-crl
 
 * Create the OpenVPN server configuration file and fill it in. The file must reside in:
 
-```
+```sh
 sudo mkdir -p /etc/openvpn/server
 ```
 
 - Open the created file for editing:
 
-```
+```sh
 sudo nano /etc/openvpn/server/config.ovpn
 ```
 
@@ -103,7 +103,7 @@ Add an inbound rule in the AWS Security Group for **UDP port 1194**.
   caption="Security Group Inbound Rules"
 />
 
-```
+```sh
 # openvpn server 
 cd /etc/openvpn/server
 daemon
@@ -142,20 +142,20 @@ script-security 2
 
 * Create a virtual tap interface and fill in the interface-up.sh. 
 
-```
+```sh
 sudo nano /etc/openvpn/server/interface-up.sh
 ```
 
 - Fill in the content of the file with the lines below:
 
-```
+```sh
 #!/bin/sh
 /sbin/ifconfig $1 10.0.8.1 netmask 255.255.255.0 broadcast 10.0.8.0
 ```
 
 - Make the script executable:
 
-```
+```sh
 sudo chmod +x /etc/openvpn/server/interface-up.sh
 ```
 
@@ -164,13 +164,13 @@ sudo chmod +x /etc/openvpn/server/interface-up.sh
 
 *  To run the instance startup in the OpenVPN, run the following command:
 
-```
+```sh
 sudo systemctl enable openvpn
 ```
 
 * Execute the following in order to get your tap interface up:
 
-```
+```sh
 sudo openvpn --config /etc/openvpn/server/config.ovpn
 ```
 
@@ -180,14 +180,14 @@ If you want OpenVPN to execute the configuration file automatically, you should 
 This way, if the Operating System is rebooted, OpenVPN will automatically load the tap interface.
 :::
 
-```
+```sh
 cd /etc/openvpn/server
 sudo mv config.ovpn /etc/openvpn/config.conf
 ```
 
 You should see a similar output if the tap0 interface is up and running.
 
-```
+```sh
 tap0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
         inet 10.0.8.1  netmask 255.255.255.0  broadcast 10.0.8.0
         ether 3a:37:f6:5a:bb:32  txqueuelen 100  (Ethernet)

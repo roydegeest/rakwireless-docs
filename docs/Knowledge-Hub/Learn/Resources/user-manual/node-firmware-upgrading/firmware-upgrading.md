@@ -12,7 +12,7 @@ For this sample demonstration, we will be using the RAK4200 LPWAN Node.
 
 2. Open the RAK Serial Port Tool you have just installed and let your RAK LPWAN Node work in boot mode by setting an AT command through serial port as follows: 
 
-```
+```sh
 at+set_config=device:boot
 ```
 <rk-img
@@ -62,7 +62,7 @@ at+set_config=device:boot
 
 8. Choose the correct **COM port** and set the baud rate to **115200**. Then open the serial port and enter the AT command shown below to restart.
 
-```
+```sh
 at+set_config=device:restart
 ```
 

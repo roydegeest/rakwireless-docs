@@ -50,7 +50,7 @@ Once the certificates are assembled into a single file, you need to import the c
 
 * Check again in the client list file on the OpenVPN Server for the IP address of the Gateway:
 
-```
+```sh
 sudo nano /etc/openvpn/server/ip_pool.txt 
 ```
 
